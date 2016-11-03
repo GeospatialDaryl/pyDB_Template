@@ -1,0 +1,165 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #25
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 29 February 1996     Volume 01 : Number 025
+
+In this issue:
+
+	Re: accomodating teases
+	Re: how to deal with reprises (datafile/songname discussion)
+	Re:counting 
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Thu, 29 Feb 1996 13:09:16 -0500
+Subject: Re: accomodating teases
+
+At 5:31 PM 2/28/96, Nathan Wolfson wrote:
+>> >i think we need to be able to accomodate "teases" in some measure.  for
+>> >instance, i'm checking out Richmond 10/8/83.  The 2nd set concludes ...
+>> >Truckin > Spoonful > Wharf Rat > Sugar Magnolia tease > Good Lovin, US
+>> >Blues.
+>>
+>> I would advocate taking it out of line (I'm always doing that) with the
+>> footnoting property, perhaps with a TEASE: keyword. In general, I like to
+>> put exceptional stuff (guests, breakouts, whatever) in footnotes. It might
+>> be hard to search for Wharf Rat > Good Lovin' in the presence of a tease in
+>> the middle, but pretty ease to do a global search of a Sugar Mag. tease &&
+>> (Wharf Rat > Good Lovin')
+>
+>Couldn't the software simply ignore all items such as "<songname> Tease"
+>in a search of setlists?  I think this has been proposed.  Maybe it's so
+>difficult to code that some folks are still trying to avoid "teases"
+>"jams" etc. in the setlists?
+
+The advantage to having "<songname> Tease" in the set lists is that one
+could then search for specific (or all) teases. I would call this a good
+thing.
+
+Now, do we also want to break out all Phil and Phil-and-Billy solos from
+1972-74? What do you call -those-?
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Thu, 29 Feb 1996 13:24:22 -0500
+Subject: Re: how to deal with reprises (datafile/songname discussion)
+
+At 5:03 PM 2/28/96, brian@hotrats.mit.edu wrote:
+
+                 < snip >
+
+>> I'd be into hybridizing these sandwiches a la the convention for the tail
+>> end of a Playin in isolation.  That is, if we have "Playing Reprise"s (and
+>> I think we probably should) why can't we also have "Cryptical Reprise"s,
+>> "Uncle John's Reprise"s, etc?
+>
+>This only works well when it really is a reprise, which those all are.
+>I just looked at a setlist for 4/1/91 that listed the second half of
+>Dark Star as "Dark Star Reprise", which I think is misleading at best.
+>
+>Could we stop concentrating on Playing (even if it is the most common
+>example) and consider the problem more generally ?
+
+Might we want to consider the phrase "continues"? Then you would have a
+song list such as ...
+
+Dark Star ->
+Drums ->
+Dark Star continues ->
+Sugar Magnolia
+
+... so that anyone browing song lists could see exactly what's going on.
+And the database module could be written to ignore "x continues" when
+tabulating every-time-played instances. The "notes" field could state on
+which sides of the drums the verses were sung.
+
+This way, no one would confuse "Dark Star Jam" from the example above with
+a "Dark Star Jam" where no verses were sung.
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Thu, 29 Feb 1996 13:30:55 -0500
+Subject: Re:counting 
+
+At 12:31 AM 2/29/96, Jim Powell wrote:
+>
+>anyways, counting isn't that major a function.  you only need to do it once,
+>you know.
+
+Not really. You're not just going to want to know every time a song's been
+played -- you're also going to want to know how many times a song closed
+the first set, how many times x jammed into y, etc. So we can't just
+hard-code "Me And My Uncle = 576 (or whatever)" into our program.
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 29 Feb 1996 15:32:46 -0800
+Subject: [none]
+
+odd that jeff should bring up the 72-74 Phil & Billy passages cuz i was
+looking at my setlist for 11/20/73 last night & seeing:  ... Truckin > Phil
+& Billy > The Other One ...
+
+but i think we can take care of this with < jam > and then annotate < jam >
+as we please.
+
+jeff's idea about using < continues > as a suffix has merit, it seems to me.
+ what do others think?
+
+
+------------------------------
+
+End of DeadLists Digest V1 #25
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

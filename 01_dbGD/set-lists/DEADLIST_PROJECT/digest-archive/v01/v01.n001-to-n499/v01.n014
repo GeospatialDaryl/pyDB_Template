@@ -1,0 +1,359 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #14
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest        Wednesday, 21 February 1996    Volume 01 : Number 014
+
+In this issue:
+
+	Re: DeadLists Digest V1 #13
+	Re: DeadLists Digest V1 #13
+	Re: DeadLists Digest V1 #13
+	Re: cataloguing Bob's jokes (for those who care)
+	Transitional Jams
+	Split-song notation
+	Re: Split-song notation
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Steve.Archer@UC.EDU
+Date: Tue, 20 Feb 1996 19:39:46 -0500 (EST)
+Subject: Re: DeadLists Digest V1 #13
+
+>From: baum@apple.com (Allen J. Baum)
+>Date: Tue, 20 Feb 1996 09:19:16 -0800
+>Subject: Re: DeadLists Digest V1 #12
+>
+>>Any thought to listing Bob's several stories (ie. the U-Boat story of
+>>12/18/73, the frequent yellow dog stories, etc.), or even the "smoker"
+>>warnings and take a step backs, in set lists?
+>
+>Good idea to include them - very halpful for tape ID.
+>I'd just put a footnote before or after a song, & put the joke in the
+>footnote, maybe with keyword "JOKE:" or "PATTER:">
+>
+>
+Seems to me we are getting into the absurd here.  To try to catalog Bob's
+various stepbacks is clutter.  The opportunity here is for a database which
+is streamlined, accessible, and user friendly.  Only the truly initiated
+will understand "PATTER".  Am I out of line here?
+steve
+
+------------------------------
+
+From: Steve.Archer@UC.EDU
+Date: Tue, 20 Feb 1996 19:42:31 -0500 (EST)
+Subject: Re: DeadLists Digest V1 #13
+
+>From: baum@apple.com (Allen J. Baum)
+>Date: Tue, 20 Feb 1996 09:19:16 -0800
+>Subject: Re: DeadLists Digest V1 #12
+>
+>>Any thought to listing Bob's several stories (ie. the U-Boat story of
+>>12/18/73, the frequent yellow dog stories, etc.), or even the "smoker"
+>>warnings and take a step backs, in set lists?
+>
+>Good idea to include them - very halpful for tape ID.
+>I'd just put a footnote before or after a song, & put the joke in the
+>footnote, maybe with keyword "JOKE:" or "PATTER:">
+>
+>
+Seems to me we are getting into the absurd here.  To try to catalog Bob's
+various stepbacks is clutter.  The opportunity here is for a database which
+is streamlined, accessible, and user friendly.  Only the truly initiated
+will understand "PATTER".  Am I out of line here?
+steve
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 20 Feb 1996 17:22:39 -0800
+Subject: Re: DeadLists Digest V1 #13
+
+>From: pollard@alex.ecs.umass.edu (Brian Pollard)
+> I'd like to make the following suggestion
+>about the "China Cat > I Know You Rider"
+>versus    "China Cat > jam > Feelin' Groovy jam > I Know You Rider" .
+...
+>I'd like to see a creation of a secondary field after each
+>song.  Take the below example.
+
+I like the idea of taking information that is an exception rather than a
+rule (e.g. DarkStar maps -exceptional from a set standpoint, not a DarkStar
+standpoint) out of line. It could be including in the Notes: field, using
+whatever footnoting syntax we decide on.
+
+- ----------------
+>From: Steve Zimmerman <saz@well.com>
+
+>Whatever the list wants to do with the space b/f the semi colon is fine with
+>me.
+
+I'd hope that whatever software we generate would be "extraneous space"
+insensitive, actually.
+
+>my concept was that when the band turns around and tunes for an extended
+>period >of time,... that the pause indicates a significant tempo shift in
+>a show. >Somehow it is very different when they come out from one of those
+>longer pauses >than when they simply pop into another song after a brief
+>pause.
+>
+>This being said, I will certainly defer to the list on this issue.
+
+I would agree with this.
+
+>------------------------------
+>
+>From: Jim Powell <chimpowl@well.com>
+>Date: Tue, 20 Feb 1996 14:37:34 -0800
+>Subject: [none]
+
+>i see what allen baum means about how writing " china cat sunflower > jam >
+>i know you rider " would complicate searches a little bit.  but only to the
+>extent of adding 6 characters, which isn't much.
+
+I was thinking more about searches for "China Cat" follwed by "I Know You Rider"
+(however the syntax turns out) which wouldn't find it because there's this
+song called "jam" that comes between them. If jams aren't going to be
+treated as songs for the purpose of searching, lets treat them specially in
+the syntax as well.
+
+>
+>conversely, it seems to me that the difference between an intra-song jam and
+>an inter-song jam couldn't be plainer.  the timing of a song with an
+>intra-song jam, when compared with other timings of the same song, will give
+>you a good idea of how long the jam was:
+
+I was thinking more of cases where there is a jam, vs. cases where there
+isn't, rather than different lengths of jams. Don't know if this happens
+enough to worry about, (can't think of one off the top of my head) but I'll
+bet it happens in songs played years apart
+
+>agree with saz about long pauses affecting the set's tempo but i think
+>they're approrpiately registered in a complete timing of the set (as in
+>DeadBase).  maybe we need to set up our timing parentheses so that they can
+>be inserted at need *between* songs?
+
+OK, I'll propose something that at least half the people are guaranteed to hate.
+">>" will indicate an inter-song jam. Timings can be inserted between them.
+Thus, ">[3:02]>" would indicate a 3:02 jam between two songs. So, a simple
+filter that filters out "[xxx]" would reduce it to a more conventional
+">>".
+
+(yea, I'm just full of good ideas :-)
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 20 Feb 1996 17:26:34 -0800 (PST)
+Subject: Re: cataloguing Bob's jokes (for those who care)
+
+This kind of thing can be accomodated through the coments section/field.  
+For example, say Bob tells a joke before busting into Me and My Uncle.  
+The setlist might look like this:
+
+song1 ; song2(1) > song3 ; song4 ; Me and My Uncle(2) ; song5
+
+And the comments field:
+
+COMMENTS: (1) Jerry on acoustic; (2) Bob tells red dog joke before song.
+
+
+
+On Tue, 20 Feb 1996 Steve.Archer@UC.EDU wrote:
+
+> 
+> >From: baum@apple.com (Allen J. Baum)
+> >Date: Tue, 20 Feb 1996 09:19:16 -0800
+> >Subject: Re: DeadLists Digest V1 #12
+> >
+> >>Any thought to listing Bob's several stories (ie. the U-Boat story of
+> >>12/18/73, the frequent yellow dog stories, etc.), or even the "smoker"
+> >>warnings and take a step backs, in set lists?
+> >
+> >Good idea to include them - very halpful for tape ID.
+> >I'd just put a footnote before or after a song, & put the joke in the
+> >footnote, maybe with keyword "JOKE:" or "PATTER:">
+> >
+> >
+> Seems to me we are getting into the absurd here.  To try to catalog Bob's
+> various stepbacks is clutter.  The opportunity here is for a database which
+> is streamlined, accessible, and user friendly.  Only the truly initiated
+> will understand "PATTER".  Am I out of line here?
+> steve
+> 
+> 
+
+------------------------------
+
+From: matt@main.cpcnet.com (Matthew S. Cramer)
+Date: Tue, 20 Feb 1996 22:36:17 -0500
+Subject: Transitional Jams
+
+baum@apple.com (Allen J. Baum) writes:
+>I was thinking more about searches for "China Cat" follwed by "I Know You
+>Rider"
+>(however the syntax turns out) which wouldn't find it because there's this
+>song called "jam" that comes between them. If jams aren't going to be
+>treated as songs for the purpose of searching, lets treat them specially in
+>the syntax as well.
+
+There's nothing saying our application couldn't be told to ignore any
+occurances of the string "> JAM >".  Or actually, it could automatically
+concatenate it to a single ">" for purposes of searching.  What is most
+important is accurately listing the music on each given night...I'd say
+let's concentrate on this and then worry about the user end last.  From a
+programmer's standpoint, it won't be very difficult to tell our application
+that when we tell it to search for every Scarlet followed by a FOTM it can
+ignore the obligatory jam in between.
+
+
+
+
+Later,
+
+Matt
+
+  #----------------------------------------------------------------------#
+  # Matt Cramer <matt@main.cpcnet.com>     G   "Damn the rules, its the  #
+  #                                        A    feeling that counts."    #
+  # "All science is either Physics or      I           --John Coltrane   #
+  #  stamp collecting."  --Rutherford      A                             #
+  #----------- http://boss.cpcnet.com/personal/matt/Home.html -----------#
+
+
+
+------------------------------
+
+From: unbroken@io.com (Dave Serrins/Unbroken Chain magazine)
+Date: Wed, 21 Feb 1996 00:10:16 -0600
+Subject: Split-song notation
+
+jeff@tiedrich.com (jeff tiedrich) wrote:
+>If you turn to the "every time played" section of Deadbase and look up,
+>for example, Cryptical Envelopment, you see all these citations from '67-'70
+>where it shows Cryptical was played =twice= during each show. Of course
+>it wasn't. It would be nice to be able to see which shows went back into
+>Cryptical and which shows went Other One>something else, but listing the
+>song twice (IMHO) is not the way to do it. I'm not wild about the word
+>"reprise" but I don't see a better way to do it.
+
+As Jeff said, DeadBase does not offer  a notation for this. In fact, sometimes
+they list Playing 3 times in a given show when the last Playing listed is the
+final verse and should probably be called Playing Reprise (not an intentional
+rag on DB... just making a point).
+
+At Riverport this past summer, the band played the entire Playing in the
+Band, including the last verse (reprise). It was the first time in a long
+time,
+but how long had it been? To find this out, I asked a bunch of people when
+the last
+one they remembered was. Everyone tried to help and gave their answer,
+but almost all were pretty unsure. Everyone asked wanted to know the
+answer once all the votes were in.
+
+baum@apple.com (Allen J. Baum) wrote:
+>I'm leaning towards some kind of punctuation that indicates the song is
+>cut/restarted (as opposed to tape cut/restarted)
+>For example, "song* > something > *song", where the "*"s indicate
+>cut/restart, depending if it's appended or prefixed.
+
+By calling it a "reprise," it is almost as though it is a different song.
+Allen's suggestion of an asterisk before or after on specific songs that
+are often split or reprised seems best.
+
+Dave
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Dave Serrins                                 unbroken@io.com
+Editor & Publisher
+Unbroken Chain magazine     E-mail for subscription info
+
+"There comes a time in every person's life when they don't
+want to have poop in their pants." - John Alkek
+<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 20 Feb 1996 23:51:31 -0800 (PST)
+Subject: Re: Split-song notation
+
+> >It would be nice to be able to see which shows went back into
+> >Cryptical and which shows went Other One>something else, but listing the
+> >song twice (IMHO) is not the way to do it. I'm not wild about the word
+> >"reprise" but I don't see a better way to do it.
+> 
+> As Jeff said, DeadBase does not offer  a notation for this. In fact, sometimes
+> they list Playing 3 times in a given show when the last Playing listed is the
+> final verse and should probably be called Playing Reprise (not an intentional
+> rag on DB... just making a point).
+> 
+> >I'm leaning towards some kind of punctuation that indicates the song is
+> >cut/restarted (as opposed to tape cut/restarted)
+> >For example, "song* > something > *song", where the "*"s indicate
+> >cut/restart, depending if it's appended or prefixed.
+> 
+> By calling it a "reprise," it is almost as though it is a different song.
+> Allen's suggestion of an asterisk before or after on specific songs that
+> are often split or reprised seems best.
+
+And then for a Playin jam sandwhiched between two other songs, in which 
+no lyrics are sung:  *Playin*  ?
+
+Will  *Playin   always be the reprise?  Seems like there are times they 
+go back into the Playin jamming, then into something else without having 
+sung the reprise.  Yet with this system those instances would be 
+indistinguishable in the setlists from actual "Playin Reprise"s.
+
+The issue of finishing a Playin on a different day than it was begun (or 
+a Star or even a Sugar Mags, for the matter) also poses a problem, 
+perhaps -- though I gues one could assume (safely?) that   *Sugar 
+Magnolia  really indicates a  SSDD.
+
+Since the tail end of so many tunes that got split already have de facto 
+standard names (Playin Reprise, Sunshine Daydream) and the ones that 
+don't could easily acquire them (Cryptical Reprise), I'd prefer to go in 
+that direction.  Seems more "intuitive" <i'm ducking>.  But maybe I'm 
+missing some of the utility of the other proposed nomenclature.  Am I?
+
+
+------------------------------
+
+End of DeadLists Digest V1 #14
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

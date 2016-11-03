@@ -1,0 +1,360 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #200
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 5 March 1997      Volume 01 : Number 200
+
+In this issue:
+
+	deadlists data spec proposed changes vote results
+	Question for those who know 1/13/66
+	Re: deadlists data spec proposed changes vote results
+	Re: deadlists data spec proposed changes vote results 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 05 Mar 1997 11:30:36 -0500
+Subject: deadlists data spec proposed changes vote results
+
+I've gone through my old email to check the results of voting on the
+proposed changes to the spec (I'll include Matt's Cramer's original
+posting with the proposals below).  I was a little surprised that I
+couldn't find votes or complete votes for a couple of people.  I don't
+think I deleted any vote messages, but if you sent a message voting on
+this and I lost it could you send it again?  Here are the results I
+have:
+
+	LineBreaks	Brackets	Backslash	Band	Mappings
+Ryan	keep spec	yes,don'tCare	don'tCare;Prop1	keep	{}or();per spec
+Nathan	keep spec	neutral,spec	% instead	keep	{}onlyInComment
+Gordon			no
+John	keep,butProp2	yes,butProp2	either / or %	keep	per spec
+Allen	no,Prop3	yes		either / or %	keep	per spec
+Tim	keep spec	yes		either / or %	keep	{}or()
+
+prop1 - % = splice in tape, / = cut in tape
+prop2 - extend the spec to include an alternative format in which
+	newlines are insignificant and can occur anywhere, tabs
+	are unnecessary and square brackets around timings are optional
+prop3 - change keywords from BAND, CITY, etc. to BAND:, CITY:, etc.
+
+If I've misrepresented your vote on anything, let me know.
+
+Based on these results, it looks like there is a majority to
+keep linebreaks significant and a majority to keep brackets
+around timings.  Keeping the band field is almost unanimous.
+
+As for what to do about the "\", that's less clear.  There's
+a majority to get rid of it but no agreement on what to replace
+it with.  It seems like no one cares that much what it is replaced
+with.  Should Nathan's vote push it to be '%'?  Should we flip
+a coin?  Should someone declare themselves Deadlists Dictator
+for a moment and dictate that it be one or the other?  
+
+Song maps also aren't quite clear.  There were 2 definite votes
+to keep the current spec (song maps go in {}'s and can be in
+the comment field or the set field) and 1 definite vote that
+song maps could go in either {}'s or ()'s.  I had 2 message
+from Ryan, one that said to keep the current spec and one that
+said to use either {}'s or ()'s.  I didn't know which to count
+so I listed them both.  Nathan said that song maps go in {}'s
+but that they should only be in the comment field, not the
+set field.  I'm not sure how to resolve this.  Any ideas?
+
+			John
+
+Date: 18 Feb 97 22:34:17 -0500
+Subject: We need to prioritize
+From: "Matthew S. Cramer" <cramer@voicenet.com>
+To: deadlists@nemesis.Berkeley.EDU
+Message-Id: <AF2FE028-107D327@207.103.133.30>
+
+We are making some great progress (insert applause here for all
+contributing caretakers) but I think we need to prioritize on finalizing
+the spec NOW.  The spec needs to be fixed FIRST, so that caretakers don't
+have to go back through their lists and redo the formatting (and
+programmers don't have to toss hundreds of lines of code).  Various issues
+have been raised yet they never seem to be resolved.  I am trying to come
+up with some more software for this project (I have a couple of bugs to fix
+and I have a GUI ready) but I put it on hold because we don't have a
+consistent spec.  I remember these points being made:
+
+1)  Line breaks - should they matter (especially in the set fields), and if
+they do, where should they be?
+
+2)  To bracket or not to bracket
+
+3)  The evil "\" - for anyone programming in C++ and it's family (C and
+Java) "\" is a control character.  ANYTHING would be better.  "/" would
+make sense and no one but programmers should really care.
+
+4)  "BAND" field - do we keep it or don't we keep it?
+
+5)  Where do the song maps go?
+
+
+This stuff should be decided first, before we get any farther.  Sorry to
+sound like I am complaining but everytime I make some progress in the stuff
+I am writing the spec gets briefly discussed and changed so I go back and
+start over.  These are minor issues so let's just make up our minds (how
+about by the end of the week?) and then continue on.  Once we pick a spec
+let's make it ABSOLUTE until all of the years are done and a beta version
+of the project is complete.  Then we can go back, revise the spec, and
+begin on a second version of the project.
+
+If there is currently no one officially in charge of managing the spec I
+would be more than happy to do it.
+
+Cheers to Matt for the great progress he is making with the official song
+list.
+(I vote "New Minglewood Blues" for every version, BTW).
+
+
+Matt
+
+- --
+  #----------------------------------------------------------------------#
+  # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+  #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+  # "All science is either Physics or      I    feeling that counts."    #
+  #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+  #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+
+
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Wed, 5 Mar 1997 16:37:24 +0000 (GMT)
+Subject: Question for those who know 1/13/66
+
+I'm still happily chasing down song names - now onto
+*All Of My Love* played only on 1/13/66.
+
+Deadbase has this as possibly a Jackie Wilson song.
+If that's the case the real title would be;
+
+ (You Were Made For) All My Love
+
+But as I havn't heard 1/13/66 I don't know
+if that is the song or not.
+
+The Jackie Wilson song start off something like;
+
+  All My Love
+  Give Me The Right
+  To Give You
+  All My Love
+  ...
+
+It doesn't strike me as the sort of song the Dead would cover
+- - it's very dramatic with soaring strings and backing vocals -
+maybe that's why it only happened once.
+
+So if anyone knows the song or has time to check I'd 
+appreciate some information - and if it's not this
+what is it?
+
+Thanks
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 5 Mar 1997 12:26:52 -0800 (PST)
+Subject: Re: deadlists data spec proposed changes vote results
+
+> 
+> Based on these results, it looks like there is a majority to
+> keep linebreaks significant and a majority to keep brackets
+> around timings.  Keeping the band field is almost unanimous.
+
+Important to remember that with these items, folks can submit their 
+setlists *without*, for example, brackets around timings.  All this 
+"nailing down of the spec" means is that we will have scripts to make 
+sure the final spec LOOKS like this nailed down version (regardless of 
+exactly what the form is that they are submitted in).
+
+(This paragraph is to allay the fears f those creating setlists that they 
+may have to radically change how they are putting their lists together.  
+They won't.)
+
+> 
+> As for what to do about the "\", that's less clear.  There's
+> a majority to get rid of it but no agreement on what to replace
+> it with.  It seems like no one cares that much what it is replaced
+> with.  Should Nathan's vote push it to be '%'?  Should we flip
+> a coin?  Should someone declare themselves Deadlists Dictator
+> for a moment and dictate that it be one or the other?  
+
+My vote should matter no more than anyone elses here;  John's should 
+probably matter most (ie, if push comes to shove, and it pretty much has, 
+he should be DataSpec dictator [benevolence, please! :-] and "make the 
+call"), imo.
+
+> 
+> Song maps also aren't quite clear.  There were 2 definite votes
+> to keep the current spec (song maps go in {}'s and can be in
+> the comment field or the set field) and 1 definite vote that
+> song maps could go in either {}'s or ()'s.  I had 2 message
+> from Ryan, one that said to keep the current spec and one that
+> said to use either {}'s or ()'s.  I didn't know which to count
+> so I listed them both.  Nathan said that song maps go in {}'s
+> but that they should only be in the comment field, not the
+> set field.  I'm not sure how to resolve this.  Any ideas?
+> 
+
+I don't care where or how we do the song maps to any great degree EXCEPT 
+I think that we should put them one particular place and not "here OR here".
+
+My $.02,
+nathan
+
+
+> 			John
+> 
+> Date: 18 Feb 97 22:34:17 -0500
+> Subject: We need to prioritize
+> From: "Matthew S. Cramer" <cramer@voicenet.com>
+> To: deadlists@nemesis.Berkeley.EDU
+> Message-Id: <AF2FE028-107D327@207.103.133.30>
+> 
+> We are making some great progress (insert applause here for all
+> contributing caretakers) but I think we need to prioritize on finalizing
+> the spec NOW.  The spec needs to be fixed FIRST, so that caretakers don't
+> have to go back through their lists and redo the formatting (and
+> programmers don't have to toss hundreds of lines of code).  Various issues
+> have been raised yet they never seem to be resolved.  I am trying to come
+> up with some more software for this project (I have a couple of bugs to fix
+> and I have a GUI ready) but I put it on hold because we don't have a
+> consistent spec.  I remember these points being made:
+> 
+> 1)  Line breaks - should they matter (especially in the set fields), and if
+> they do, where should they be?
+> 
+> 2)  To bracket or not to bracket
+> 
+> 3)  The evil "\" - for anyone programming in C++ and it's family (C and
+> Java) "\" is a control character.  ANYTHING would be better.  "/" would
+> make sense and no one but programmers should really care.
+> 
+> 4)  "BAND" field - do we keep it or don't we keep it?
+> 
+> 5)  Where do the song maps go?
+> 
+> 
+> This stuff should be decided first, before we get any farther.  Sorry to
+> sound like I am complaining but everytime I make some progress in the stuff
+> I am writing the spec gets briefly discussed and changed so I go back and
+> start over.  These are minor issues so let's just make up our minds (how
+> about by the end of the week?) and then continue on.  Once we pick a spec
+> let's make it ABSOLUTE until all of the years are done and a beta version
+> of the project is complete.  Then we can go back, revise the spec, and
+> begin on a second version of the project.
+> 
+> If there is currently no one officially in charge of managing the spec I
+> would be more than happy to do it.
+> 
+> Cheers to Matt for the great progress he is making with the official song
+> list.
+> (I vote "New Minglewood Blues" for every version, BTW).
+> 
+> 
+> Matt
+> 
+> --
+>   #----------------------------------------------------------------------#
+>   # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+>   #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+>   # "All science is either Physics or      I    feeling that counts."    #
+>   #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+>   #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+> 
+> 
+> 
+> 
+> 
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 05 Mar 1997 16:38:42 -0500
+Subject: Re: deadlists data spec proposed changes vote results 
+
+Nathan writes:
+> Important to remember that with these items, folks can submit their 
+> setlists *without*, for example, brackets around timings.  All this 
+> "nailing down of the spec" means is that we will have scripts to make 
+> sure the final spec LOOKS like this nailed down version (regardless of 
+> exactly what the form is that they are submitted in).
+> 
+> (This paragraph is to allay the fears f those creating setlists that they 
+> may have to radically change how they are putting their lists together.  
+> They won't.)
+
+Yes, thanks for mentioning that, Nathan.  I meant to followup my
+last message with another message saying this but got sidetracked
+by other things.  I still have to clean up the script and then
+I'll post some documentation on it.
+
+> > As for what to do about the "\", that's less clear.  There's
+> > a majority to get rid of it but no agreement on what to replace
+> > it with.  It seems like no one cares that much what it is replaced
+> > with.  Should Nathan's vote push it to be '%'?  Should we flip
+> > a coin?  Should someone declare themselves Deadlists Dictator
+> > for a moment and dictate that it be one or the other?  
+> 
+> My vote should matter no more than anyone elses here;  John's should 
+> probably matter most (ie, if push comes to shove, and it pretty much has, 
+> he should be DataSpec dictator [benevolence, please! :-] and "make the 
+> call"), imo.
+
+I'd rather abdicate and let the people who are working on real search
+engines be the dictators (Ryan, Matt, Tim, anyone else?).  I just have
+my crusty Lisp programs (and which can't even parse v1.3 yet) that will
+never be of any use to anyone other than myself, but they're working on
+programs that can be used by lots of people on the web or on PC's.
+
+> I don't care where or how we do the song maps to any great degree EXCEPT 
+> I think that we should put them one particular place and not "here OR here".
+
+I'd be agreeable to saying that they have to go in the comments section
+only, and not the setlist section (they make the lists more
+unreadble).
+
+		John
+
+------------------------------
+
+End of DeadLists Digest V1 #200
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

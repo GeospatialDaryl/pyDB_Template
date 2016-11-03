@@ -1,0 +1,977 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #135
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 16 January 1997     Volume 01 : Number 135
+
+In this issue:
+
+	Spec /  Software / 1993
+	1978: 6/4-12/31
+	Re: A segue is a segue... 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Matthew S. Cramer" <cramer@voicenet.com>
+Date: 16 Jan 97 19:47:48 -0500
+Subject: Spec /  Software / 1993
+
+I want to preface this post by letting everyone know that I expect to have
+a basic piece of software to interface with the datafiles by the end of the
+week (as long as Codewarrior 11 ships on time).  All that this initial
+release will do is display the show information and allow you to use it. 
+It will also do some basic search features and export and modifications to
+a new datafile.  The reason I am releasing this at minimal functionality is
+to help the people that are handling the various years manage and update
+their data.
+
+I should have a Mac version (PPC only unless anyone wants a 68K version)
+earliest and then an NT/95 version a few days later.  I have no plans on
+doing a Windoze 3.1 version unless someone wants one.  I can also do an
+OS/2 version if anyone wants that.  I am thinking about later doing an
+openVMS version (I want to see this run on an AXP machine  :-) and a unix
+version only if there is reasonable interest.  Please let me know.
+
+The final version should be out during early spring - this release will
+allow other bands, keep track of tons of useless info, interface the show
+databases to a tape list, and allow you to keep a contact file which
+contains trading partners tape lists.  Plus there will be a bunch of cute
+little features.  If you have ever said "I wish this tape tracking program
+would blah blah blah" drop me a line.  I'll keep it and then see if it
+reasonable to add in the final release.  If it is feasible I plan to add
+tape-tree creation functions and j-card printing (I am undecided about the
+j-cards...I sort of like it when people take the time to create their own
+j-card by hand or by computer - it helps to give each tape a feeling of
+individuality).
+
+The complete package will be share/free-ware:
+The final release of the MacOS version will be free to anyone.  All
+versions will be free to contributors to the Deadlists Project.  All
+versions will be free to students and educators.  The non-MacOS versions
+for anyone who does not meet the above criteria will be $20.  Any
+intel-version for employees of Microsoft will be $25 (part of my crazy plot
+to put Apple back on top of the market).  Any version for anyone named Mike
+Geier will be $100.
+
+Now...on to some details...
+
+Jim Powell <chimpowl@well.com> writes:
+>As Ryan says, it's no problem to insert a tab after the field delimiter,
+and
+>also no trouble to insert them later.  Someone says tabs fuck up in
+e-mail,
+>though, and that's a factor worth considering.
+
+Email will be a BAD way to handle these docs, unless they are done as
+attachments (someone already pointed this out, I believe).  Rather than
+letting email dictate our spec, let's have the spec dictate how we
+distribute the files.
+
+>\#     after a song name means that the space between songs has been
+
+Can we please switch this to a forward slash (/) since a backslash
+indicates a control character for ANSI C/C++?  It is not a big deal to
+program so that the code understands the backslash - but it is a little
+annoying.
+
+>Internal song timings and analyses (Dark Star mappings, etc.) should be
+>placed under COMMENTS to avoid cluttering the setlists.
+
+Please - don't worry about cluttering the setlists!  Isn't the end goal to
+have data files that will interface with local programs and www search
+engines?  The data files DO NOT have to be user-friendly!
+
+Also, in this regards, the spec indicates that it is preferrable to list
+long shows (early and late) as two seperate entries so that there are never
+more than 3 sets in any entry.  This is a little screwy, IMNSHO.  The spec
+argues that there would be a lot of wasted space/memory at the application
+layer since most shows would never have more than two sets.  This is not
+really a problem because we could allocate enough memory for the exact
+nmber of sets when the data is loaded into the application.  For
+non-programmers who have no idea what I mean just take my word for it -
+this problem is nonexistant.  For example, I would prefer to have 5/2/70
+listed a one show.  I know other people brought this up using different
+arguments - from my standpoint the latter method is superior.  Of course if
+the group decides it likes the 3 set per show limit then my code will match
+the spec.
+
+As a final note, if no one ends up taking 1993 I'll do it - but it will be
+after I finish a considerable amount of this program.  So, in the interim
+if soneone else wants it they are more than welcome to do it.  But I would
+hate to see a year with a considerable amount of good moments
+(respectively, of course) not get a decent treatment.  :-)
+
+Feedback (good or bad) is welcome.
+
+
+Matt
+
+P.S. Jim - could you put _something_ in your subject header?   :-)
+
+- --
+  #----------------------------------------------------------------------#
+  # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+  #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+  # "All science is either Physics or      I    feeling that counts."    #
+  #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+  #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+
+
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Thu, 16 Jan 1997 20:34:16 -0500
+Subject: 1978: 6/4-12/31
+
+BAND	Grateful Dead
+VENUE	Campus Stadium, University of California (Stork Field?)
+CITY	Santa Barbara
+STATE	CA
+DATE	06/04/78
+SET1	Bertha 7:01 > Good Lovin' 6:21 ; Dire Wolf 3:21 ; Me & My Uncle 3:04 >
+Big River 6:03 ; Brown-Eyed Women 5:02 ; Looks Like Rain 7:35 ; Tennessee
+Jed 8:20 ; Jack Straw 5:21
+SET2	Samson & Delilah 6:34 ; Ship of Fools 6:57 ; Estimated Prophet 10:40 >
+Eyes of the World 10:16 > Drums 10:#16 > Space 4:21 > Not Fade Away 8:04 >
+Goin' Down the Road 6:29 > Around & Around 7:27
+SET3
+ENCORE  U.S. Blues 5:09 ; Sugar Magnolia 7:51
+COMMENTS
+RECORDINGS	SBD 180.  Splice in drums appears to be an insignificant tape
+flip. Motorcycle revved on stage during Space. I have not seen any AUDs of
+this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Autzen Stadium, University of Oregon
+CITY	Eugene
+STATE	OR
+DATE	06/25/78
+SET1	The Promised Land 3:58 ; They Love Each Other 5:30 ; Me & My Uncle 2:57
+> Big River 5:55 ; Candyman 6:58 ; Passenger 4:51 ; Peggy O. 7:56 ;
+Minglewood Blues 5:43
+SET2	Samson & Delilah 7:30 ; Friend of the Devil 8:04 ; Estimated Prophet
+13:40 > Eyes of the World 11:11 > Drums 11:04 > Space 5:39 > Not Fade Away
+9:12 > Goin' Down the Road 8:54 > Around & Around #8:32.
+SET3
+ENCORE	U.S. Blues 5:51
+COMMENTS	Drums with Babbs and the Thunder Machine
+RECORDINGS	AUD 180. TLEO is a complete timing- one verse not sung. Cut in
+beginning of Around & Around, estimated complete time of 9:00.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Arrowhead Stadium
+CITY	Kansas City
+STATE	MO
+DATE	07/01/78
+SET1	Bertha 6:57 > Good Lovin' 6:14 ; Tennessee Jed 8:20 ; Jack Straw 5:45 ;
+Friend of the Devil 8:13 ; Me & My Uncle 2:57 > Big River 5:08 ; Terrapin
+Station 11:07 > Playing in the Band 9:02 > Drums 8:55 > Space 3:54 >
+Estimated Prophet 11:08 > The Other One 5:20 > Wharf Rat 10:09 > Around &
+Around 7:59
+SET2
+SET3
+ENCORE	Johnny B. Goode 4:05
+COMMENTS	the Dead's set was followed by sets from Missouri; Waylon & Jesse;
+and Willie Nelson
+RECORDINGS	AUD 135. I know of two audience masters of this show, one poor,
+one excellent, both are in low circulation
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Civic Center Arena
+CITY	St. Paul
+STATE	MN
+DATE	07/03/78
+SET1	Minglewood Blues 5:12 ; Loser 7:15 ; Looks Like Rain 7:46 ; Ramble on
+Rose 7:07 ; Mexicali Blues 3:26 > Mama Tried 2:26 ; Peggy O. 7:46 ; Cassidy
+4:48 ; Deal 6:18 > The Music Never Stopped 8:15
+SET2	Scarlet Begonias 10:14 > Fire on the Mountain 9:15 ; Dancin' in the
+Streets 13:46 > Drums 11:18 > Not Fade Away 6:47 > Stella Blue 11:07 > Sugar
+Magnolia 8:53
+SET3
+ENCORE	Werewolves of London 6:51
+COMMENTS
+RECORDINGS	AUD 180. Supposedly a SBD of the second set circulates but I
+cannot confirm this.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Civic Auditorium
+CITY	Omaha
+STATE	NE
+DATE	07/05/78
+SET1	Sugaree 10:15 ; Beat it on Down the Line 3:15 ; They Love Each Other
+6:58 ; Looks Like Rain 7:48 ; Dire Wolf 3:29 ; It's All Over Now 7:56 ;
+Candyman 6:20 ; Lazy Lightnin' 3:28 > Supplication 5:17
+SET2	Deal 5:28 ; Samson & Delilah 7:03 ; Ship of Fools 7:19 ; Estimated
+Prophet 12:46 > Eyes of the World 10:02 > Phil jam 2:31 > Drums 7:08# >
+Space 8:24 > Wharf Rat 9:59 > Truckin' 7:36 > Iko Iko 7:31 > Around & Around
+8:09
+SET3
+ENCORE	Johnny B. Goode?
+COMMENTS
+RECORDINGS	AUD 180. Cut at end of drums of indeterminate duration. I know of
+only one AUD master in existance. Though excellent in quality, copies remain
+virtually uncirculated. Johnny B. Goode does not appear anywhere on the
+tape, it was reported to me by someone who attended this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Red Rocks Amphitheatre
+CITY	Morrison
+STATE	CO
+DATE	07/07/78
+SET1	Jack Straw 5:20 ; Candyman 6:19 ; Me & My Uncle 2:56 > Big River 5:21 ;
+Friend of the Devil 8:04 ; Cassidy 4:44 ; Tennessee Jed 8:38 ; Passenger
+5:01 ; Peggy O. 8:33 ; The Music Never Stopped 7:49
+SET2	Cold, Rain, & Snow 6:28 ; Beat it on Down the Line 3:07 ; Scarlet
+Begonias 10:04 > Fire on the Mountain 8:01 ; Dancin' in the Streets 8:41 >
+Drums 10:#16 > Space 5:16 > Not Fade Away 11:30 > Black Peter 11:30 > Around
+& Around 8:01
+SET3
+ENCORE	U.S. Blues 5:10 ; Johnny B. Goode 4:00
+COMMENTS
+RECORDINGS	AUD 180 and SBD 180. Timings from AUD. Splice in drums is
+probably a minor tape flip.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Red Rocks Amphitheatre
+CITY	Morrison
+STATE	CO
+DATE	07/08/78
+SET1	Bertha 6:48 > Good Lovin' 6:15 ; Dire Wolf 3:58 ; El Paso 4:12 ; It
+Must Have Been the Roses 6:47 ; Minglewood Blues 5:42 ; Ramble on Rose 7:58
+; The Promised Land 4:07 ; Deal 6:03
+SET2	Samson & Delilah 6:59 ; Ship of Fools 7:19 ; Estimated Prophet 12:58 >
+The Other One 8:48 > Eyes of the World 10:47 > Drums 11:21 > Space 3:57 >
+Wharf Rat 8:25 > Franklin's Tower 10:21 > Sugar Magnolia 8:46
+SET3
+ENCORE	Terrapin Station 10:14 > One More Saturday Night 4:29 ; Werewolves of
+London 6:08
+COMMENTS
+RECORDINGS	AUD 180 and SBD 180. Timings from an erratic AUD, will be retimed
+from a SBD soon.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Red Rocks Amphitheatre
+CITY	Morrison
+STATE	CO
+DATE	08/30/78
+SET1	The Promised Land 4:25 ; Sugaree 17:45 ; Mexicali Blues 3:12 > Mama
+Tried 2:28 ; Stagger Lee 5:52 ; Looks Like Rain 8:43 ; Deal 8:00
+SET2	I Need a Miracle 8:48 ; Brown-Eyed Women 5:02 ; Estimated Prophet 12:03
+> The Other One 9:13 > Eyes of the World 17:08 ; Drums 10:#39 > Space 8:45 >
+If I Had the World to Give 10:34 > Iko Iko 10:43 > Around & Around 8:55
+SET3
+ENCORE	U.S. Blues 5:55
+COMMENTS
+RECORDINGS	AUD 180. Splice in drums may be minor. I know of at least two aud
+masters to this show, however most circulating tapes originate from only one.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Red Rocks Amphitheatre
+CITY	Morrison
+STATE	CO
+DATE	08/31/78
+SET1	Mississippi Half-Step 10:57 > El Paso 4:45 ; Peggy O. 8:57 ; Minglewood
+Blues 5:59 ; Candyman 7:02 ; From the Heart of Me 3:49 ; Jack Straw 6:30
+SET2	Shakedown Street 6:40 > Good Lovin' 6:59 ; Ship of Fools 7:28 ; Samson
+& Delilah 8:39 ; Terrapin Station 11:05 > Playing in the Band 14:02 > Drums
+16:42 > Space 3:40 > Not Fade Away 13:01 > Black Peter 10:43 > Sugar
+Magnolia 8:11
+SET3
+ENCORE	Johnny B. Goode 3:50
+COMMENTS
+RECORDINGS	AUD 180. I know of three aud masters, two are crap but are
+necessary to supply Sugar Mags and Johnny B. Goode which seem to be omitted
+from the higher quality aud.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Giants Stadium
+CITY	East Rutherford
+STATE	NJ
+DATE	09/02/78
+SET1	Jack Straw 6:10 ; Friend of the Devil 9:31 ; Minglewood Blues 5:03 ;
+Dire Wolf 3:28 ; Looks Like Rain 7:34# ; Stagger Lee 6:47 ; I Need a Miracle
+6:01 ; Peggy O. 8:46 ; Lazy Lightnin' 3:32 > Supplication 6:42
+SET2	Good Lovin' ; Scarlet Begonias 13:52 > Fire on the Mountain 13:27 ;
+Estimated Prophet 13:42 > Eyes of the World 15:#28 > Drums 6:51 > Space 1:28
+> Sugar Magnolia 5:09#
+SET3
+ENCORE	One More Saturday Night 4:50
+COMMENTS	second set cut-short due to curfew
+RECORDINGS	SBD 180. Looks Like Rain and Sugar Magnolia both cut-off. Eyes of
+the World has a splice of indeterminate, but more than a mere tape flip in
+duration. I do not know if these cuts are common to all soundboards or
+particular to my lineage only. Omission of Good Lovin' is particular to my
+lineage only. Reportedly AUDs from multiple masters exist, but I have not
+seen one.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Sphinx Theatre
+CITY	Giza
+STATE	Egypt
+DATE	09/14/78
+SET1	Ollin Arageed #16:36 > Not Fade Away 10:44 ; Me & My Uncle 3:16 ; They
+Love Each Other 7:22 ; Minglewood Blues 5:31 ; Peggy O. 7:45 ; Beat it on
+Down the Line 3:27 ; Deal 5:28
+SET2	Sugaree 12:11 ; Samson & Delilah 7:20 ; Scarlet Begonias 10:20 > Fire
+on the Mountain 8:41# ; Truckin' 7:54 > The Other One 6:15 > Drums 9:#46 >
+Space 7:48 > Black Peter 10:22 > Around & Around 3:03#
+SET3
+ENCORE	none
+COMMENTS	Ollin Arageed with Hamza el-Din
+RECORDINGS	AUD 180. The beginning of Ollin Arageed is clipped, probably
+minor. The splice in drums is likely an insignificant tape flip. The cutting
+off of Fire on the Mountain and Around & Around I believe to be specific to
+my lineage only.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Sphinx Theatre
+CITY	Giza
+STATE	Egypt
+DATE	09/15/78
+SET1	Ollin Arageed 9:28 > The Promised Land 3:47 ; Friend of the Devil 8:24
+; Mama Tried 2:30 > Big River 6:30 ; Loser 7:34 ; I Need a Miracle 5:50 ;
+Stagger Lee 6:23
+SET2	Jack Straw 6:04 ; Ship of Fools 8:22 ; Estimated Prophet 11:59 > Eyes
+of the World 13:09 > Drums 13:35 > Space 3:57 > Terrapin Station 11:19 >
+Sugar Magnolia 10:23
+SET3
+ENCORE	none
+COMMENTS	Ollin Arageed with Hamza el-Din
+RECORDINGS	AUD 180
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Sphinx Theatre
+CITY	Giza
+STATE	Egypt
+DATE	09/16/78
+SET1	Bertha 7:27 > Good Lovin' 7:30 ; Candyman 6:46 ; Looks Like Rain 8:22 ;
+Row Jimmy 11:05 ; El Paso 4:29 ; Ramble on Rose 7:15 ; Minglewood Blues 5:59
+; Deal 6:44
+SET2	Ollin Arageed 16:09 > Fire on the Mountain 14:19 > Iko Iko 6:47 ; I
+Need a Miracle 5:45 > It's All Over Now 6:58 ; Sunrise 3:56 ; Shakedown
+Street 15:37 > Drums 13:22 > Space 4:02 > Truckin' 10:09 > Stella Blue 8:21
+> Around & Around 8:07
+SET3
+ENCORE	One More Saturday Night 4:59
+COMMENTS	Ollin Arageed with Hamza el-Din
+RECORDINGS	AUD 200, SBD 180 missing Around & Around and OMSN. Timings from AUD.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Winterland
+CITY	San Francisco
+STATE	CA
+DATE	10/17/78
+SET1	The Promised Land 4:14 ; Friend of the Devil 7:51 ; Mama Tried 2:30 >
+Mexicali Blues 3:29 ; Tennessee Jed 8:09 ; I Need a Miracle 6:19 ; Stagger
+Lee 5:44 ; Jack Straw 6:18
+SET2	Scarlet Begonias 9:30 > Fire on the Mountain 10:36 ; Estimated Prophet
+11:28 > Eyes of the World 13:#08# > Drums #11:10 > Space 8:52 > If I Had the
+World to Give 6:51 > Around & Around 8:45
+SET3
+ENCORE	U.S. Blues 5:23
+COMMENTS	This is the "Do you give banjo lessons?" tape (heard during Space
+on SBDs)
+RECORDINGS	SBD 150. One splice in Eyes, and Eyes cuts with tape restarting
+in drums. I do not know if these cuts are specific to all circulating copies
+or my lineage only. I have not found any AUDs to this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Winterland
+CITY	San Francisco
+STATE	CA
+DATE	10/18/78
+SET1	Sugaree #13:32 ; Me & My Uncle 3:06 > Big River 5:48 ; Peggy O. 7:45 ;
+Looks Like Rain 8:16 ; Stagger Lee 6:15 ; Minglewood Blues 5:53 ; Candyman
+6:52 ; The Music Never Stopped 8:06
+SET2	Bertha 7:13 > Good Lovin' 6:05 ; From the Heart of Me 3:48 ; Ship of
+Fools 6:36 ; Samson & Delilah 8:19 ; Terrapin Station 12:06 > Playing in the
+Band 10:#49 > Drums 9:30 > Space 5:58 > Wharf Rat 11:#33 > Truckin' 11:21
+SET3
+ENCORE	I Need a Miracle 4:20#
+COMMENTS	Lee Oskar on harmonica in drums and space. Appears at 4:48 in drums.
+RECORDINGS	SBD 180. First minute or two of Sugaree is missing, Miracle cuts off-
+indeterminable amount missing. Very minor (almost insignificant) splices in
+PITB and Wharf Rat. I have not found any AUDs to this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Winterland
+CITY	San Francisco
+STATE	CA
+DATE	10/20/78
+SET1	Minglewood Blues #4:27 ; They Love Each Other 6:41 ; Cassidy 5:06 ;
+Dire Wolf 3:46 ; El Paso 4:17 ; Tennessee Jed 8:40 ; It's All Over Now 6:54
+; Loser 6:#17 ; Lazy Lightnin' 3:30 > Supplication 4:34
+SET2	Mississippi Half-Step 9:05 > Franklin's Tower 10:56 ; Dancin' in the
+Streets 20:02 > Drums 7:29# > Space #1:02 > Not Fade Away 7:20 > Black Peter
+10:49 > Around & Around 9:07
+SET3
+ENCORE	Johnny B. Goode ; Shakedown Street 6:46#
+COMMENTS
+RECORDINGS	SBD 180. First set was timed from an aud with the beginning of
+Minglewood clipped and a splice in Loser. The second set was timed from a
+soundboard with several cuts in drums and an indeterminate amount of space
+missing. Shakedown cuts off. Johnny B. Goode missing. I will be receiving
+this on DAT shortly and will retime the entire show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Winterland
+CITY	San Francisco
+STATE	CA
+DATE	10/21/78
+SET1	Ollin Arageed 18:30 > The Promised Land 4:32 ; Sugaree 13:04 ;
+Passenger 4:13 ; Ramble on Rose 7:03 ; Looks Like Rain 8:12 ; Stagger Lee
+7:08 ; I Need a Miracle 7:26
+SET2	Bertha 7:07 > Good Lovin' 7:25 ; It Must Have Been the Roses 6:42 ;
+Estimated Prophet 14:35 > He's Gone 10:12 > Drums 16:05 > Space 1:58 > Mojo
+10:43 > The Other One 7:26 > Stella Blue 11:44 > Sugar Magnolia 8:06
+SET3
+ENCORE	U.S. Blues 5:26
+COMMENTS	Lee Oskar on harmonica in space, Mojo. Ollin Arageed with Hamza
+el-Din who plays two solo songs prior of 2:37 and 2:30 respectively.
+RECORDINGS	SBD and AUD 190. Timings combined from SBD and two different
+auds. SBDs missing Sugar Magnolia and U.S. Blues.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Winterland
+CITY	San Francisco
+STATE	CA
+DATE	10/22/78
+SET1	Ollin Arageed 21:03 > Deal 6:07 ; Me & My Uncle 3:11 > Big River 6:05 ;
+Friend of the Devil 8:11 ; Minglewood Blues 4:43 ; Peggy O. 8:43 ; Jack
+Straw 6:12
+SET2	Scarlet Begonias 11:40 > Fire on the Mountain 12:24 ; Samson & Delilah
+8:51 ; From the Heart of Me 3:51 ; I Need a Miracle 7:26 > Drums 13:20 > Not
+Fade Away 21:27 > Goin' Down the Road 3:45#
+SET3
+ENCORE	Johnny B. Goode
+COMMENTS	Ollin Arageed with Hamza el-Din who plays two solo songs prior of
+2:29 and 2:56 respectively. John Cipollina appears in Not Fade Away
+RECORDINGS	SBD 180. The early cut-off of GDTRFB is unique to my lineage, it
+and JBG do circulate on SBD
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	NBC Studios
+CITY	New York
+STATE	NY
+DATE	11/11/78
+SET1	Casey Jones
+SET2	I Need a Miracle > Good Lovin'
+SET3
+ENCORE
+COMMENTS	Saturday Night Live Television show
+RECORDINGS	video
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Music Hall
+CITY	Boston
+STATE	MA
+DATE	11/13/78
+SET1	The Promised Land 4:05 ; They Love Each Other 6:50 ; Mama Tried 2:33 >
+Mexicali Blues 3:29 ; Peggy O. 7:48 ; Cassidy 4:45 ; Tennessee Jed 8:33 ;
+Minglewood Blues 4:57 ; Stagger Lee 6:03 ; Jack Straw 6:04
+SET2	Mississippi Half-Step 8:00 > Franklin's Tower 10:47 ; Samson & Delilah
+7:50 ; Friend of the Devil 7:57 ; Playing in the Band 11:12 > Drums 7:49 >
+Space 1:#30 > Black Peter 9:23 > Playing in the Band 4:04 > Around & Around 8:01
+SET3
+ENCORE	U.S. Blues 5:19
+COMMENTS
+RECORDINGS	AUD 180. Multiple masters, at least one excellent copy circulates
+which provided these timings. Splice in space likely an insignificant tape flip.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE	Music Hall
+CITY	Boston
+STATE	MA
+DATE	11/14/78
+SET1	Sugaree 10:40 ; El Paso 4:41 ; Candyman 7:50 ; It's All Over Now 7:31 ;
+Loser 7:00 ; Passenger 4:21 ; Stagger Lee 6:01 ; I Need a Miracle 6:12
+SET2	Bertha 6:56 > Good Lovin' 7:08 ; From the Heart of Me 3:25 ; Ship of
+Fools 8:04 ; Estimated Prophet 11:52 > Eyes of the World 11:12 > Drums 8:#16
+> Space 5:10 > Wharf Rat 9:02 > Not Fade Away 9:00 > Goin' Down the Road 7:44
+SET3
+ENCORE	Johnny B. Goode 4:13
+COMMENTS
+RECORDINGS	AUD 180. Multiple masters. Splice in drums likely an
+insignificant tape flip.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Uptown Theatre
+CITY	Chicago
+STATE	IL
+DATE	11/16/78
+SET1	Minglewood Blues 4:35 ; Dire Wolf 3:31 ; Me & My Uncle 3:08 > Big River
+5:36 ; They Love Each Other 6:57 ; Looks Like Rain 6:59 ; Brown-Eyed Women
+5:02 ; Beat it on Down the Line 3:01 ; Stagger Lee 5:52 ; Dancin' in the
+Streets 8:24 > Deal 6:05
+SET2	Scarlet Begonias 11:27 > Fire on the Mountain 10:50 ; Samson & Delilah
+7:08 ; He's Gone 11:31 > Drums 11:#09 > Space 6:23 > Black Peter > 10:03 >
+Truckin' 10:09
+SET3
+ENCORE	U.S. Blues 5:17
+COMMENTS	included in the drums is some background playing by Phil and
+briefly Jerry. Phil is last heard at 5:#51 into the drums.
+RECORDINGS	AUD 180 multiple masters, none I've heard are particularly good.
+A 75 min SBD featuring part of set one and ScarletFire circulates. Timings
+are from AUD except ScarletFire. Splice in drums likely an insignificant
+tape flip.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Rambler Room, Loyola University
+CITY	Chicago
+STATE	IL
+DATE	11/17/78a
+SET1	Winin' Boy Blues 4:09 ; Tom Dooley 3:15 ; This Time Forever 4:38 ; Deep
+Elem Blues 3:19 ; Kansas City Moan 3:38 ; Knockin' on Heaven's Door 7:59 ;
+Big Boy Pete 3:18 ; Jack-A-Roe 4:32 ; Dark Hollow 3:39 ; Oh Boy 2:08
+SET2
+SET3
+ENCORE
+COMMENTS	acoustic, w/o Keith and Donna
+RECORDINGS	AUD 45 one master. The tape is not *that* bad for the first few
+songs until the recorder is hidden in a jacket at which point it becomes
+quite muffled.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Uptown Theatre
+CITY	Chicago
+STATE	IL
+DATE	11/17/78b
+SET1	Shakedown Street 7:56 ; Mama Tried 2:35 > Mexicali Blues 3:36 ; Peggy
+O. 7:18 ; Cassidy 4:54 ; Tennessee Jed 8:18 ; Passenger 4:15 ; Friend of the
+Devil 7:58 ; I Need a Miracle 5:57
+SET2	Bertha 7:06 > Good Lovin' 6:58 ; Ship of Fools 7:51 ; Estimated Prophet
+11:38 > Eyes of the World 10:29 > Drums 10:25 > Space 2:17 > Terrapin
+Station 11:46 > Around & Around 8:29
+SET3
+ENCORE	Casey Jones 5:18
+COMMENTS
+RECORDINGS	AUD 180. At least two masters, only one circulates that supplies
+the second set from Estimated to the end and it is very poor.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Uptown Theatre
+CITY	Chicago
+STATE	IL
+DATE	11/18/78
+SET1	Jack Straw #1:28 ; Candyman 7:13 ; Me & My Uncle 2:58 > Big River 6:11
+; Sugaree 13:53 ; El Paso 4:10 ; Stagger Lee 6:05 ; It's All Over Now 6:44 ;
+From the Heart of Me 3:29 ; The Music Never Stopped 7:37
+SET2	Scarlet Begonias 11:35 > Fire on the Mountain 7:05 ; I Need a Miracle
+7:52 > He's Gone 11:09 > The Other One 13:29 > Drums 6:34 > Space 2:34 >
+Wharf Rat 9:10 > Sugar Magnolia 8:44
+SET3
+ENCORE	One More Saturday Night  4:45
+COMMENTS
+RECORDINGS	AUD 180, at least two masters for the second set. The cut in Jack
+Straw is significant.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Music Hall
+CITY	Cleveland
+STATE	OH
+DATE	11/20/78
+SET1	Mississippi Half-Step 9:10 > Franklin's Tower 11:38 ; Mama Tried 2:30 >
+Mexicali Blues 3:44 ; It Must Have Been the Roses 7:33 ; Looks Like Rain
+7:33 ; Stagger Lee 6:47 ; Passenger 4:21 ; Peggy O. 9:02 ; Lazy Lightnin'
+3:36 > Supplication 5:41
+SET2	Jam 8:32 > Drums 2:52 > Jam 3:40 [total jam=15:04] > Jack-A-Roe 4:40 ;
+Playing in the Band 9:56 > Shakedown Street 12:02 > If I Had the World to
+Give 8:16 > Playing in the Band 6:44 > Around & Around 8:59
+SET3
+ENCORE	none
+COMMENTS
+RECORDINGS	AUD 180 at least two masters. SBD circulates of the first 50(?)
+of the second set. GDH?
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	War Memorial Auditorium
+CITY	Rochester
+STATE	NY
+DATE	11/21/78
+SET1	The Promised Land 4:12 ; They Love Each Other 6:48 ; Cassidy 5:02 ;
+Dire Wolf 3:51 ; Me & My Uncle 3:01 > Big River 5:36 ; Row Jimmy 9:21 ;
+Minglewood Blues 4:33 ; Loser 6:56 ; Jack Straw 6:14 > Deal 7:04
+SET2	Bertha 6:45 > Good Lovin' 5:33# ; Stagger Lee ; Estimated Prophet 13:25
+> Eyes of the World 13:35 > Drums > Space 2:11 > Not Fade Away 6:34# > Black
+Peter #10:11 > Truckin' 8:18
+SET3
+ENCORE	Casey Jones 6:04
+COMMENTS
+RECORDINGS	SBD 180. The first tape is a HQ SBD that includes the first set
+and Good Lovin' cutting off approximately one minute early.  The second tape
+is a somewhat degraded SBD with the drums completely edited and a major
+splice between NFA and Black Peter.  AUDs exist but are almost entirely
+uncirculated. I have not seen one in twelve years and regret taping over the
+one I had.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Capital Centre
+CITY	Landover
+STATE	MD
+DATE	11/23/78
+SET1	Mississippi Half-Step 9:20 > Franklin's Tower 9:43 > Minglewood Blues
+4:44 ; Stagger Lee 6:36 ; Looks Like Rain 7:43 ; Tennessee Jed 8:46 ;
+Passenger 4:41 ; Brown-Eyed Women 5:11 ; The Music Never Stopped 7:39
+SET2	Samson & Delilah 8:05 ; Friend of the Devil 8:18 ; Dancin' in the
+Streets 10:20 > Terrapin Station 12:12 > Playing in the Band 10:02 > Drums
+7:53 > Space 5:36 > Shakedown Street 8:40 > Playing in the Band 5:41 >
+Around & Around 8:42
+SET3
+ENCORE	U.S. Blues
+COMMENTS
+RECORDINGS	AUD 180. The omission of U.S. Blues is likely specific to my
+lineage. A SBD 90 circulates of songs 1,2,3,7,8 from set one and set two
+songs 1,3,4[#4:45],5,7,8,9.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Capitol Theatre
+CITY	Passaic
+STATE	NJ
+DATE	11/24/78
+SET1	Jack Straw 5:17 ; Sugaree 13:02 ; Me & My Uncle 2:59 > Big River 5:15 ;
+Stagger Lee 6:39 ; Passenger 5:10 ; Candyman 7:39 ; Minglewood Blues 4:19 ;
+From the Heart of Me 3:39 ; Loser 7:42 ; The Promised Land 4:17
+SET2	I Need a Miracle 4:21 > Good Lovin' 6:36 ; Friend of the Devil 8:54 ;
+Estimated Prophet 12:40 > Shakedown Street 12:12 > Drums 8:52 > Ollin
+Arageed 5:21 > Fire on the Mountain 9:10 > Sugar Magnolia 8:32
+SET3
+ENCORE	Johnny B. Goode 4:24
+COMMENTS	Ollin Arageed with Hamza el-Din
+RECORDINGS	FM broadcast 180. I've never seen an AUD to this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Jai Alai Fronton
+CITY	Miami
+STATE	FL
+DATE	12/12/78
+SET1	Mississippi Half-Step 8:31 > Franklin's Tower 10:34 ; Looks Like Rain
+6:29 ; Peggy O. 7:22 ; Me & My Uncle 3:10 > Big River 3:48# ; Ramble on Rose
+6:56 ; Minglewood Blues 5:13 ; Stagger Lee 6:14 ; The Music Never Stopped 7:00
+SET2	Bertha 6:27 > Good Lovin' 5:56 ; Brown-Eyed Women 4:54 ; Estimated
+Prophet 10:11 > Eyes of the World 11:31 > Drums 6:#56 > Not Fade Away 8:13 >
+Goin' Down the Road 6:#11 > Around & Around 7:39
+SET3
+ENCORE	U.S. Blues 5:36
+COMMENTS
+RECORDINGS	SBD 180. Big River cuts off- significant cut. Splice in drums is
+indeterminate but probably minor. Splice in Goin' Down the Road is likely at
+least a minute. I have not seen an AUD of this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Curtis Hixon Convention Center
+CITY	Tampa
+STATE	FL
+DATE	12/13/78
+SET1	Passenger ; They Love Each Other ; Mama Tried > Mexicali Blues ;
+Candyman ; El Paso ; Tennessee Jed ; It's All Over Now ; Loser ; Jack Straw
+> Deal
+SET2	I Need a Miracle 6:37 ; Ship of Fools 7:52 ; Playing in the Band 13:25
+> Drums 8:03 > Space 2:58# > Shakedown Street 11:30 > Black Peter 10:59 >
+Playing in the Band 4:03 > Sugar Magnolia 8:11
+SET3
+ENCORE	Johnny B. Goode 4:23
+COMMENTS
+RECORDINGS	AUD 90/2nd set. The cut-off of space is likely a minor tape flip.
+The second set tape, though excellent quality, is in very low circulation. I
+have not seen a first tape in any quality.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Boutwell Auditorium
+CITY	Birmingham
+STATE	AL
+DATE	12/15/78
+SET1	The Promised Land 4:19 ; Shakedown Street 7:09 ; Minglewood Blues 5:12
+; Friend of the Devil 9:20 ; El Paso 4:16 ; From the Heart of Me 3:42 ;
+Brown-Eyed Women 5:16 ; Cassidy 4:46 ; Deal 6:08
+SET2	I Need a Miracle > Bertha > Good Lovin' ; It Must Have Been the Roses
+8:12 ; Terrapin Station 13:07 > Playing in the Band 10:42 > Drums 7:#49 >
+Space 3:27 > Stella Blue 11:39 > Truckin' 9:04 > Playing in the Band 5:08
+SET3
+ENCORE	U.S. Blues 5:49
+COMMENTS
+RECORDINGS	AUD 150. Missing second set songs 1,2,3. The splice in Drums
+appears to be an insignificant tape flip. I know of only one aud master for
+this show and it is virtually uncirculated.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Municipal Auditorium
+CITY	Nashville
+STATE	TN
+DATE	12/16/78
+SET1	Sugaree 12:57 ; Beat it on Down the Line 3:12 ; Candyman 7:03 ; Me & My
+Uncle 2:59 > Big River 5:56 ; Stagger Lee 6:38 ; Looks Like Rain 7:29 ;
+Tennessee Jed 9:33 ; Lazy Lightnin' 3:22 > Supplication 5:43
+SET2	Scarlet Begonias 9:55 > Fire on the Mountain 10:22 ; Samson & Delilah
+7:44 ; From the Heart of Me 3:38 ; He's Gone 16:49 > Drums 13:06 > The Other
+One 16:04 > Wharf Rat 11:23 > Around & Around 8:44
+SET3
+ENCORE	One More Saturday Night 4:50
+COMMENTS
+RECORDINGS	AUD 180. One master in low circulation.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Fox Theatre
+CITY	Atlanta
+STATE	GA
+DATE	12/17/78
+SET1	Jack Straw 5:54 ; They Love Each Other 7:09 ; Mama Tried 2:38 >
+Mexicali Blues 3:52 ; Peggy O. 7:36 ; Passenger 4:42 ; Stagger Lee 6:31 ;
+Minglewood Blues 5:00 ; Brown-Eyed Women 5:23 ; The Music Never Stopped 7:34
+SET2	I Need a Miracle 6:19 > Bertha 6:52 > Good Lovin' #6:23 ; Ramble on
+Rose 7:42 ; From the Heart of Me 3:47 ; Estimated Prophet 12:30 > Eyes of
+the World 10:#15 > Drums 15:21 > Space 3:08 > Shakedown Street 11:10 > Sugar
+Magnolia
+SET3
+ENCORE	Johnny B. Goode
+COMMENTS
+RECORDINGS	SBD 180 (somewhart degraded) cutting off at the opening notes of
+Sugar Mags. Beginning of Good Lovin' clipped on a tape flip, splice in Eyes
+is also a tape flip, but appears to be more than a few seconds. I have never
+seen an AUD for this show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	State Fairgrounds Coliseum
+CITY	Jackson
+STATE	MS
+DATE	12/19/78
+SET1	Mississippi Half-Step #5:43 > Franklin's Tower 12:07 ; Minglewood Blues
+5:10 ; They Love Each Other 7:33 ; Me & My Uncle 2:57 > Big River 5:28 ;
+Loser 7:59 ; El Paso 4:18 ; Row Jimmy 12:30 ; Lazy Lightnin' 3:42 >
+Supplication 5:40
+SET2	Scarlet Begonias > Fire on the Mountain ; The Promised Land 4:54 ;
+Stagger Lee 6:15 ; Truckin' 14:20 > Drums 9:#16 > Space 3:14 > The Other One
+11:10 > Stella Blue 11:04 > Not Fade Away 11:33 > Around & Around 8:41
+SET3
+ENCORE	Casey Jones
+COMMENTS	Donna does not appear on any postdrums songs.
+RECORDINGS	AUD 200.  At least two masters exist. A high quality aud from
+Promised Land through Around & Around is in circulation and supplied the
+timings for those songs. I have confirmed the existance of the remainder of
+the show from that master but have not yet obtained a copy. A somewhat
+inferior master also exists complete except for the first several minutes of
+Mississippi Half-Step and provided the first set timings shown here.
+ScarletFire and Casey Jones do circulate. Their omission is particular to my
+copies only and will soon be remedied.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Summit
+CITY	Houston
+STATE	TX
+DATE	12/21/78
+SET1	Jack Straw 6:15 ; Dire Wolf 4:09 ; Cassidy 5:21 ; Stagger Lee 6:55 ;
+Mama Tried 2:38 > Mexicali Blues 4:10 ; Friend of the Devil 9:02 ; It's All
+Over Now 7:29 ; Brown-Eyed Women 5:11 ; Passenger 4:57 ; Peggy O. 8:03 ; The
+Music Never Stopped 7:20
+SET2	I Need a Miracle 6:05 > Bertha 7:00 > Good Lovin' 6:50 ; From the Heart
+of Me ; Terrapin Station 13:35 > Playing in the Band 14:#30 > Drums 10:20 >
+Space 2:42 > Black Peter 13:42 > Playing in the Band :57# > Sugar Magnolia
+SET3
+ENCORE	U.S. Blues 5:27
+COMMENTS
+RECORDINGS	AUD 180 missing From the Heart, most of PITB-reprise, and Sugar
+Mags. This very low circulation recording is the only one I know.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Convention Center
+CITY	Dallas
+STATE	TX
+DATE	12/22/78
+SET1	Shakedown Street ; Me & My Uncle 3:00 > Big River 5:13 ; Tennessee Jed
+8:14 ; Looks Like Rain 8:04 ;Stagger Lee 6:32 ; Beat it on Down the Line
+3:23 ; Candyman 6:54 ; Minglewood Blues 4:57 > Deal 6:28
+SET2	Scarlet Begonias 15:32 > Fire on the Mountain 10:58 ; From the Heart of
+Me ; Estimated Prophet > Eyes of the World > Drums > Not Fade Away > Wharf
+Rat > Around & Around
+SET3
+ENCORE	(?)
+COMMENTS
+RECORDINGS	A very low circulated AUD 90 comprising of the timed songs is all
+I have been able to locate of this show. The existance of an encore is
+unknown. Consult vault sources.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Golden Hall
+CITY	San Diego
+STATE	CA
+DATE	12/27/78
+SET1	The Promised Land 4:15 ; Friend of the Devil 8:57 ; Cassidy 4:48 ;
+Peggy O. 8:13 ; Mama Tried 2:28 > Mexicali Blues 4:14 ; Mississippi
+Half-Step 5:#42 > Franklin's Tower 10:21 ; The Music Never Stopped 8:26
+SET2	Bertha 7:42 > Good Lovin' 7:08 ; Ship of Fools 7:21# ; Samson & Delilah
+; Terrapin Station > Playing in the Band > Drums > Not Fade Away > Black
+Peter > Around & Around
+SET3
+ENCORE	U.S. Blues
+COMMENTS
+RECORDINGS	SBD 90 as timed. Significant splice in Mississippi Half-Step,
+Ship of Fools cuts off. I know an AUD of the second set exists, but have not
+seen one in over a decade.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Golden Hall
+CITY	San Diego
+STATE	CA
+DATE	12/28/78
+SET1	Sugaree 14:13 ; Beat it on Down the Line 3:12 ; Dire Wolf 3:51 ; Looks
+Like Rain 7:23 ; Stagger Lee 6:22 ; Me & My Uncle 2:58 > Big River 5:#28 ;
+Candyman 7:33 ; Minglewood Blues 5:03 ; Tennessee Jed 9:12 ; Lazy Lightnin'
+3:34 > Supplication 5:19
+SET2	Shakedown Street 11:21 ; From the Heart of Me ; Estimated Prophet 11:42
+> Eyes of the World 9:17 > Drums 7:41 > Space 2:53 > Truckin' 8:26 > Wharf
+Rat 10:08 > Sugar Magnolia 9:02
+SET3
+ENCORE	Johnny B. Goode 4:05
+COMMENTS
+RECORDINGS	SBD 180 with a minor splice in Big River and missing From the
+Heart of Me
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Pauley Pavilion, University of California
+CITY	Los Angeles
+STATE	CA
+DATE	12/30/78
+SET1	Jack Straw 5:28 ; They Love Each Other 6:58 ; Mama Tried 2:24 >
+Mexicali Blues 3:56 ; Loser 7:15 ; Looks Like Rain 7:54 ; Stagger Lee 5:33 ;
+Passenger 5:00 ; Tennessee Jed 8:44 ; Minglewood Blues 5:14 ; Sugaree 9:15 ;
+The Promised Land 4:28
+SET2	I Need a Miracle 4:12 > Bertha 6:34 > Good Lovin' 7:02 ; Scarlet
+Begonias 9:31 > Fire on the Mountain 9:34 ; Playing in the Band 7:54 >
+Shakedown Street 8:57 > Drums 10:46 > Ollin Arageed 14:03 > Space 2:06 > St.
+Stephen 8:03 > Not Fade Away 7:35 > Goin' Down the Road 6:39 > Around & Around
+SET3
+ENCORE	One More Saturday Night
+COMMENTS	Ollin Arageed with Hamza el-Din
+RECORDINGS	SBD 180 through St. Stephen. The second set and encore can be
+obtained via AUD. 210 total show. Both sources used for timings. The
+omission of Around & Around and OMSN is particular to my lineage.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND	Grateful Dead
+VENUE	Winterland
+CITY	San Francisco
+STATE	CA
+DATE	12/31/78
+SET1	Sugar Magnolia 5:51 > Scarlet Begonias 12:07 > Fire on the Mountain
+13:03 ; Me & My Uncle 3:06 > Big River 5:50 ; Friend of the Devil 9:54 ;
+It's All Over Now 7:16 ; Stagger Lee 6:50 ; From the Heart of Me 3:44 >
+Sunshine Daydream 2:54
+SET2	Samson & Delilah #7:00 ; Ramble on Rose 8:08 ; I Need a Miracle 11:17 >
+Terrapin Station 11:#02 > Playing in the Band 12:56 > Drums 18:54 > Not Fade
+Away 19:14 > Around & Around 8:34
+SET3	Dark Star 11:52 > The Other One 5:02 > Dark Star-jam 1:07 > Wharf Rat
+11:38 > St. Stephen 8:11 > Good Lovin' 9:35
+ENCORE	Casey Jones 5:30 > Johnny B. Goode 4:25 ; We Bid You Goodnight
+COMMENTS	Miracle with Matthew Kelly; Not Fade Away and Around & Around with
+John Cipollina. Lee Oskar, others, guest on drums.  Broadcast on local
+public TV.
+RECORDINGS	FM 255. Cut on intro to Samson & Delilah seems to exist on all
+copies, splice in Terrapin a tape flip particular to my lineage. We Bid You
+Goodnight was not broadcasted on FM or TV. I have never seen an AUD to this
+show.
+CONTRIBUTORS	<paleo550@philly.infi.net> (Gordon Sharpless)
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Thu, 16 Jan 1997 21:20:44 -0500
+Subject: Re: A segue is a segue... 
+
+>(BTW: To those who have timed tapes, where do *you* put the division, at the
+>end of China Cat or at the beginning of Rider ?)
+
+This is a tough one. In general, I put the entire jam under China Cat and
+begin Rider when they begin playing the intro and don't deviate
+significantly from it. Significantly being somewhat of a subjective term.
+The jams found on the late 73 and 74 versions I include under China Cat.
+While on the subject, here's how I do some others:
+
+Space > The Other One: when The Other One theme is begun by any one band
+member (usually Jerry) and not significantly deviated from. For example
+11/21/85 times out as Space 0:51 > The Other One 8:03 while 4/23/83 times
+out as Space 19:03 > The Other One 7:20. On 4/23/83, though hints of The
+Other One are hit upon early in space it is often deviated from, while
+11/21/85 hardly deviates at all. Again, there is a fairly high level of
+subjectivity and it is not uncommon for me to time the same thing two
+different ways.
+
+Eyes of the World > Space: (or 'any song' > Space) Take for example, an Eyes
+> Space > Drums listing. I define Space as that point where if you were to
+start the tape you would not be able to identify the jam as being Eyes of
+the World. I do not tack 'jam or 'space' onto any of the following songs:
+Dark Star, Truckin', He's Gone, The Other One, Playing in the Band, The
+Eleven, Caution. My reasoning is that these songs historically have been jam
+songs at one point or another. Again there is a lot of subjectivity here, my
+approaches to timings will become more evident as more timings are posted.
+
+Gordon
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #135
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

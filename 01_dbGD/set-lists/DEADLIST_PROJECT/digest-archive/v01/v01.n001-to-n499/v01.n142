@@ -1,0 +1,158 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #142
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Monday, 20 January 1997      Volume 01 : Number 142
+
+In this issue:
+
+	Re: setlists format request
+	Re: setlists format request
+	Re: 1977: 2/26-9/3 v2
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Mon, 20 Jan 1997 13:44:14 -0500
+Subject: Re: setlists format request
+
+Nathan Wolfson wrote:
+> 
+> This means:
+> 
+> People submitting lists to be can do it exactly as they have been EXCEPT
+> absolute line breaks (that is, at the end of a field, like at the end of all
+> the songs in SETI or at the end of the RECORDINGS list), there needs to be
+> some 7-bit character that we are not already using in the setlists.  This
+> character will be appended by me for posting lists to the WEB (with <br>,
+> for those who are interested) and this character will be used by the search
+> engine(s) to know that one field has ended and another has begun.
+
+Nathan,
+Could you open the setlists in a text editor, and do a find/replace_all like:
+
+Find "SET1" and replace it with "<br>Set1"?
+
+before posting the setlists to the Web? You could even do a replace of 
+"<br><br><br>Band" for the first field, so that you wouldn't have to worry 
+about the blank space between shows. HTML doesn't care whether the break comes 
+at the end or beginning of a field (they both display the same way), and this 
+way people wouldn't have to add a plus sign at the end of each field. Is this 
+what you had in mind, or am I missing something?
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 20 Jan 1997 12:12:42 -0800 (PST)
+Subject: Re: setlists format request
+
+>Nathan Wolfson wrote:
+>> 
+>> This means:
+>> 
+>> People submitting lists to be can do it exactly as they have been EXCEPT
+>> absolute line breaks (that is, at the end of a field, like at the end of all
+>> the songs in SETI or at the end of the RECORDINGS list), there needs to be
+>> some 7-bit character that we are not already using in the setlists.  This
+>> character will be appended by me for posting lists to the WEB (with <br>,
+>> for those who are interested) and this character will be used by the search
+>> engine(s) to know that one field has ended and another has begun.
+>
+>Nathan,
+>Could you open the setlists in a text editor, and do a find/replace_all like:
+>
+>Find "SET1" and replace it with "<br>Set1"?
+>
+>before posting the setlists to the Web? You could even do a replace of 
+>"<br><br><br>Band" for the first field, so that you wouldn't have to worry 
+>about the blank space between shows. HTML doesn't care whether the break comes 
+>at the end or beginning of a field (they both display the same way), and this 
+>way people wouldn't have to add a plus sign at the end of each field. Is this 
+>what you had in mind, or am I missing something?
+>-- 
+>				ryan
+
+Actually, this would work for me, yes.  Just means searching and replacing
+for each type of field header (maybe I should learn more about MSWord
+macros...).  Would a similar solution also work for making sure the data is
+search engine ready?  I was figuring the "+" would not only help me, but
+would get around worrying about how different peoples' lines are broken when
+it comes time to have some software parse the datafile for searching purposes.
+
+The advantage of using a visible character for line endings is:  People can
+simply take the whole Web page for a year off the Web by copying it.  And
+then drop that text file into their local search engine (which will be set
+up to ignore all line breaks and only respond to "+" as the end of a field).
+But maybe the search engine will simply recognize all the field headers?
+
+I'm not sure about these matters, but guess we can hold off on insisting on
+adding anything to the setlists for a while :-)
+
+- --Nathan
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Mon, 20 Jan 1997 18:00:27 -0500
+Subject: Re: 1977: 2/26-9/3 v2
+
+>Great setlists Gordon, and kudos on sticking so closely to the format. 
+>While reading over your lists, I discovered a question I had discovered 
+>earlier but had forgotten about until now.
+>
+>When the venue is listed "Civic Center", we (on the search side) can't 
+>differentiate between the Civic Center, Lakeland, FL or the Civic 
+>Center, Baltimore, MD? For both these entries (and many more), the venue 
+>is listed only as the "Civic Center", so it's impossible to search for 
+>the Baltimore Civic Center unless you search for both "Civic Center" and 
+>"Baltimore". Does this present a problem to anyone? Will it possibly 
+>confuse a user? Should we use "Lakeland Civic Center" or "Baltimore 
+>Civic Center"?
+>
+>Comments? Ideas?
+>-- 
+
+I had been wondering about that. If it is necessary to place the city in
+front of the venue name (a la New Haven Coliseum) then I will do so. I have
+no problem with it.
+
+Gordon
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #142
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

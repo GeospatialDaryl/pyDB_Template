@@ -1,0 +1,192 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #260
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 22 April 1997       Volume 01 : Number 260
+
+In this issue:
+
+	An update from me
+	[none]
+	Re: Peanut Butter
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Mon, 21 Apr 1997 21:37:00 -0400
+Subject: An update from me
+
+Hello all,
+Well, I've got good news and bad news. The bad news is that at the end
+of this month I will no longer be working for Digital Creations, and
+thus will be off deadlists for a while until I get situated in a new
+environment. I have been working with the lady here who is doing the
+search engine, but it won't be done by the time I leave, so it will be
+put on the back-burner for a while. We aren't abandoning it, but until
+some platform issues are resolved and I get situated again, it'll have
+to wait. I appologize for this, but our company is downsizing and I had
+little warning about this so I'm scrounging to get some things finished.
+Hope you understand.
+
+Now to the good news :-)
+I have written a Python script that takes a setlist text file and
+produces some rather interesting HTML pages. For each setlist.txt file,
+my script produces 3 HTML files:
+1. A file that displays the setlist.txt information in a nice viewable
+format.
+2. A circulation file that displays the tapes in circulation for a
+particular year. It's basically just what is in the RECORDING field in
+setlist.txt. The dates of the shows are hyperlinks to their respective
+setlist.
+3. A song list that displays each song played in a year, along with all
+the dates it was played. Each date is again a hyperlink to its
+respective setlist.
+
+If you'd like to see what I did with Tim's (1974) and John's (1971)
+setlists, check out the following:
+http://www.digicool.com/ryan/1974.html
+http://www.digicool.com/ryan/1971.html
+
+This is the 'Setlists' view. To see the other pages use the 'Recordings'
+and 'Songs' hyperlinks located in the top portion of the page.
+
+I'm interested in receiving constructive feedback about the layout,
+colors, terms, etc. (I don't really like the 'Recordings' and 'Songs'
+hyperlinks, they are just placeholders). Silence is consent :-) Plus, if
+you think of any other things that might be cool, please let me know and
+I'll see if I can make them happen. I'm working on a short time-table
+while rushing to get this thing handed over to Nathan so he can use it
+while I'm away. That's all for now.
+
+Tim and John: I had to make a few small changes to your setlists (typos,
+song names, etc.). I'll email you with the details.
+
+Matt: In working with Tim and John's setlists, I had some additions to
+the official song list. I'll email you with details.
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Tue, 22 Apr 1997 01:37:19 -0700 (PDT)
+Subject: [none]
+
+Let Me In
+
+	An alternate title might be "83968's My Dad".  You might try
+searching under that title.
+
+The Only Time Is Now
+
+	I think this is a Dead (or Warlocks) original, perhaps a Garcia
+original.
+
+You Don't Have To Ask
+
+	I'm damn near sure this is a Warlocks original, perhaps a Garcia
+original.
+
+
+*
+
+re joleynic@scudc.scu.edu's inquiries of 4/17:
+
+1).	don't know where the lists for '89 on gdead.berkeley come from.
+better to work from tapes when you can.  almost certain the lists there are
+not copyrighted.
+
+2).	the forum is in LA County, i believe, but not the city.  That's the
+place where the LA cops strangled that UC Santa Barbara sophmore outside the
+last Dec 89 show, isn't it?
+
+3).	the additional drummer on 12/30/89 is Airto.  Airto & Flora Purim
+both sit in during drums 2/11/89 and Airto also plays during Eyes on this
+date.
+
+4)		couldn't say; wasn't there.  thought Clemmons' playing with
+the dead was WAY lame, and not much better with the Jerry Band, though he
+fit in better there.
+
+5)		couldn't say.  that whole tour is a casket of jewels.
+
+
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Tue, 22 Apr 1997 14:48:06 +0100 (BST)
+Subject: Re: Peanut Butter
+
+On Mon, 21 Apr 1997, Dwight Holmes wrote:
+
+> Actually, it oughta be:
+>
+> I like peanut butter, creamy peanut butter,
+> chunky peanut butter, too!
+>
+> "Peanut Butter" was a hit song in, I think, 1960--maybe '61.  Can't
+> remember the artist--one of those one-record phenomes I imagine. 
+>
+> They like peanut butter, you like peanut butter,
+> We like peanut butter, too.
+>
+> Pretty profound, huh?
+
+I think Dwight has run this one down for us.
+
+A hit for the Marathons in 1961.
+
+And now available on CD on The Olympics Meet The Marathons
+which also has versions of Big Boy Pete and (Baby) Hully Gully.
+Also included on the Chess Rhythm & Roll Box Set and the Best of
+Chess Vocal Groups Vol 2 collection.
+
+Writing credits : H B Barnum, Martin Cooper, Clifford Goldsmith
+                  and Fred Smith
+
+Anyone looking to put together a big collection of versions
+can also find it on Barney's Favourites Vol 1 (1993) and
+Disney's Funny Food Songs (1994).
+
+Matt
+ 
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+End of DeadLists Digest V1 #260
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

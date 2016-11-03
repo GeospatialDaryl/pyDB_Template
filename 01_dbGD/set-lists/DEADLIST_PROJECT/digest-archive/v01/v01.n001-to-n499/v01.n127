@@ -1,0 +1,361 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #127
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Monday, 13 January 1997      Volume 01 : Number 127
+
+In this issue:
+
+	Re: comments on the spec
+	white space
+	More on the spec
+	Re: DeadLists Digest V1 #124
+	Re: More on the spec
+	Re: More on the spec
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Mon, 13 Jan 1997 11:21:39 -0500
+Subject: Re: comments on the spec
+
+gordon sharpless wrote:
+> 
+> Using common acronyms (UCLA, MIT, SUNY). For the most part I'm against this.
+> I think we should use the full name of the school (Univ. of Cal.- Los
+> Angeles; Mass. Inst. of Tech., etc.). I propose this simply to remove any
+> subjectivity as to what is a common acronym and what isn't. UCLA may be
+> universally 'common', but how about VPI, which is actually referred to as
+> Virginia Tech? or is it PSU or Penn State? UVA or Univ. of Va.? Common to
+> one person is not necessarily common to another. I say we just put the full
+> name in and remove it as in issue (unless of course I'm the only one who
+> sees this as an issue).
+
+I agree with your comments, but then again, I'm not the one inputing setlists. 
+The only thing is that (like everything else) everyone must use the same format. 
+To a computer, UCLA, Univ. of Cal. Los Angeles, and Univ. of CA, Los Angeles are 
+three different schools, and it will reflect this when a search is done.
+
+On issues like this, for the most part, it really doesn't matter to me (as role 
+of search engine dude) what the spec is, so long as everyone agrees to use the 
+spec. Because we are trying to design the search engine at the same time as we 
+are creating the setlists, it will become really frustrating for me if I 
+engineer for one format and everyone uses another. 
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Mon, 13 Jan 1997 08:45:15 -0800 (PST)
+Subject: white space
+
+>>>>> Jim Powell <chimpowl@well.com> writes:
+
+ > Someone said above that tabs don't go through e-mail well.  Is this true?
+
+In my experience with email and web forms, consistency of whitespace is
+never guaranteed.
+
+I don't think the specs should rely on tabs (since many mail programs turn
+tabs into space characters, and they aren't visible to the naked eye, and
+since different editors display them differently).
+
+I also don't think the specs should disallow multiline fields, because
+again many mail programs (and some web forms) automatically line wrap to
+prevent any line from being over 80 characters.  The end-of-line character
+is also different for Mac, Windows, and Unix machines.
+
+So my suggestion is that a field starts when it has a field delimiter in
+the first position (BAND, VENUE, CITY, SET1, etc.).  The next field starts
+when you next have a new field name.  That way if a venue name or set list
+linewraps, it doesn't matter; it is appended to whatever came before.
+
+It may make sense to have a field delimiter after the field name, i.e. a
+colon.  That way if we add a new category in the future, we don't have to
+change the parsing routine everywhere.  Field names also won't be case- or
+whitespace-sensitive, the only restrictions would be they couldn't contain
+a ":" or a "[" (so we know that the colon isn't part of a timing).  Here's
+an example:
+
+BAND:  Grateful Dead
+VENUE:  Central Park
+CITY:  New York
+STATE:  NY
+DATE:  06/22/69
+SET1:  Silver Threads; Me & My Uncle; Sittin On Top Of The World; Casey
+Jones; Hard To Handle; Lovelight; Dancin; Dark Star > The Other One > St.
+Stephen > It's A Sin
+
+This would be easy to parse.  The following would be equivalent:
+
+SET1:  Silver Threads;
+       Me & My Uncle;
+       Sittin On Top Of The World;
+       Casey Jones;
+       Hard To Handle;
+       Lovelight;
+       Dancin;
+       Dark Star > The Other One > St.
+       Stephen > It's A Sin
+
+since it would keep adding to SET1 until it hit a "SET2:", "BAND:",
+"VENUE:", etc.  Here's Perl code to parse the above:
+
+	foreach $line (@lines) {
+	    ($new_field, $new_contents) = ($line =~ /^([^[]+?):(.+)/);
+	    if ($new_field) {
+	        $contents{$new_field} = $new_contents;
+	        $previous_field = $new_field;
+            } else {
+	        $contents{$previous_field} .= $line;
+            }
+        }
+
+That would parse a file with one show; with a multidimensional array it
+could handle any number of shows and bands.  It also doesn't accept colons
+that appear inside a "[", since that would be a time, not a field name.
+
+Of course this would be converted into a stricter DB format, but it would
+provide flexibility that would be impervious to any changes that might
+occur while passing through different systems.
+
+By the way, in response to a message earlier that implied I wasn't up to
+speed on what's going on, I have been reading this list for four months.
+Also, even though I don't know most of you personally, I've been a
+contributor to DeadBase and DAT-heads and a collector for a dozen years so
+I do know some of the idiosyncracies of Dead tape list maintenance.
+
+Hope this helps.  I offer my db parsing and web experience in any way it
+may help this project.
+
+ ___________________________________________________________________________
+| John F. Whitehead        Home: jfw@well.com         Work: jfw@wral-tv.com |
+| Technical Director       919-933-9698               919-821-8605          |
+| WRAL OnLine              6 Forest Glen              2619 Western Blvd     |
+| WRAL-TV, Channel 5       Chapel Hill, NC  27514     Box 12000             |
+| http://www.wral-tv.com   http://www.well.com/~jfw   Raleigh, NC  27605    |
+|___________________________________________________________________________|
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Mon, 13 Jan 1997 11:50:22 -0500
+Subject: More on the spec
+
+Jim Powell wrote:
+> 
+> More on Alan's questions:
+> 
+> I DO want the field headings on the left margin.  I DON'T think we need the
+> field headings run across the top as well.
+
+This is fine with me. So long as everyone agrees to use a carriage return 
+(blank line) between records instead of the field heading's list.
+
+> I DON'T think the field headings need a trailing colon but if that makes
+> programming easier I'm game.  However, I note that they'd be very easy for a
+> programmer to insert.
+
+It doesn't matter. Use either BAND or BAND:, So long as there is a <tab> 
+between the field name and the information.
+
+> I DON'T think we need tabs between songs in the setlists.
+
+You are right. There was a misunderstanding between the programmer and myself. 
+Basically, the only tabs that need to be in here are the tabs between the field 
+definition and the field information. (ie BAND<tab>Grateful Dead<cr> )So, there 
+does not need to be tabs between song names. HOWEVER, if you have already put 
+tabs between song names, don't worry, you don't have to redo your data. I can 
+easily take care of this.
+
+With all the recent changes, I would really like to update the spec so people 
+don't become confused. Alan? Nathan? Jim? How should we do this?
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Mon, 13 Jan 1997 09:44:36 -0800
+Subject: Re: DeadLists Digest V1 #124
+
+>From: Brian McAllister <brian@hotrats.mit.edu>
+
+>** Soapbox Mode on **
+>
+>To me, some of the most magic moments the Dead produced came in these
+>transitions.  When I look at a setlist for a show I've never heard, I want to
+>know what the flow was like - for me that's a key element of how a show
+>*feels*.
+
+
+I agree completely. absolutely. totally. thoroughly. utterly.....
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 13 Jan 1997 09:47:55 -0800 (PST)
+Subject: Re: More on the spec
+
+Ryan wrote:
+
+>gordon sharpless wrote:
+>> 
+>> Using common acronyms (UCLA, MIT, SUNY). For the most part I'm against this.
+>> I think we should use the full name of the school (Univ. of Cal.- Los
+>> Angeles; Mass. Inst. of Tech., etc.). I propose this simply to remove any
+>> subjectivity as to what is a common acronym and what isn't. UCLA may be
+>> universally 'common', but how about VPI, which is actually referred to as
+>> Virginia Tech? or is it PSU or Penn State? UVA or Univ. of Va.? Common to
+>> one person is not necessarily common to another. I say we just put the full
+>> name in and remove it as in issue (unless of course I'm the only one who
+>> sees this as an issue).
+>
+>I agree with your comments, but then again, I'm not the one inputing setlists. 
+>The only thing is that (like everything else) everyone must use the same
+format. 
+>To a computer, UCLA, Univ. of Cal. Los Angeles, and Univ. of CA, Los
+Angeles are 
+>three different schools, and it will reflect this when a search is done.
+>
+>On issues like this, for the most part, it really doesn't matter to me (as
+role 
+>of search engine dude) what the spec is, so long as everyone agrees to use the 
+>spec. Because we are trying to design the search engine at the same time as we 
+>are creating the setlists, it will become really frustrating for me if I 
+>engineer for one format and everyone uses another. 
+
+Ryan, if we do fuck up by creating setlists that don't match the search
+engine specs, I'll bet that they will only be a little off -- and we can
+re-format the setlists without too much trouble.  A lot of us are good at
+"search and replace" in a text editor.  Not so many of us are good coders.
+So once we have a good search engine, we'll tie up any loose ends by
+reworking the setlists a bit.  I'd seriously doubt we're going to
+"frustrate" the person whose skills/time few of us possess! :-)
+
+- -------------------
+
+and, later:
+
+>
+>With all the recent changes, I would really like to update the spec so people 
+>don't become confused. Alan? Nathan? Jim? How should we do this?
+>-- 
+>				ryan
+
+Do *you* have the badn-width to do this?  If so, feel free to take the
+version from the website and do what you will with it.  Post that new
+version to the mailing list.  And if it meets with general agreement, I'll
+post it on the website.
+
+If you don't have the bandwidth to do this, we'll need to find someone who
+does.  I've been putting in time getting the site in better order and trying
+to facilitate the first postings of setlists -- so I really need to spend
+more waking hours on my day job for a while.  I'll bet most folks are
+similarly busy.
+
+Either way, whoever thinks they would like to revise the dataspec, please
+post a note on the list to that effect, so we avoid duplication.
+
+- ----
+
+All this is simply my first take on a plausible procedure.  If another way
+of doing it could work better, feel free to suggest it.
+
+- ----
+
+John wrote:
+
+>By the way, in response to a message earlier that implied I wasn't up to
+>speed on what's going on, I have been reading this list for four months.
+>Also, even though I don't know most of you personally, I've been a
+>contributor to DeadBase and DAT-heads and a collector for a dozen years so
+>I do know some of the idiosyncracies of Dead tape list maintenance.
+>
+>Hope this helps.  I offer my db parsing and web experience in any way it
+>may help this project.
+
+I suspect this is partly in response to something I posted.  I didn't mean
+to say "Hands off, buddy!"  I am simply under the impression that
+Ryan-and-other-programmer, if I understand it all correctly, have worked out
+most of these kinds of formatting matters and are already writing code based
+on their way of having worked out all these details.  There may be other
+ways (with good reasons) to do it -- but since the coders amongst us appear
+to have a spec nailed down that they are already coding for, I'd much rather
+do with what they have worked out (rather than revising the spec out from
+under them).
+
+Of course, I may misunderstand how far along the coding is and/or I may
+misunderstand what John is saying.  Maybe John and Ryan should "huddle"
+about these matters?
+
+
+my $0.02,
+nathan
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 13 Jan 1997 13:52:41 -0800 (PST)
+Subject: Re: More on the spec
+
+>I'll grab the data spec and tinker with it. I'll also email John and see 
+>what we can come up with. Talk with you later.
+>-- 
+>				ryan
+
+Sounds good.  I'll cc the list, so we're aware of where things are at.
+- -N
+
+
+------------------------------
+
+End of DeadLists Digest V1 #127
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

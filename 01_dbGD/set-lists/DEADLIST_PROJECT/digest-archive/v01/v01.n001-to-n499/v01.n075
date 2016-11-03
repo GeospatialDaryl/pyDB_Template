@@ -1,0 +1,315 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #75
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 31 July 1996      Volume 01 : Number 075
+
+In this issue:
+
+	Re: DeadLists Digest V1 #70 
+	Re: DeadLists Digest V1 #70 
+	Re: DeadLists Digest V1 #74
+	Re: DeadLists Digest V1 #70
+	Re: DeadLists Digest V1 #74
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 31 Jul 1996 11:52:20 -0400
+Subject: Re: DeadLists Digest V1 #70 
+
+In message <31FE2178.28C9@digicool.com> you write:
+> I just joined this list, so I am a little confused about the goal of
+> this project. 
+
+Hi Ryan,
+     A belated welcome to deadlists!  Check out Nathan Wolfson's
+DeadList Project Home Page at http://www.well.com/user/nathan/dlhome.htm 
+for more details about what we're trying to do.
+
+> like an almost ideal ascii file to work with. Basically, a
+> character-delimited ascii file is needed that contains all of the
+> setlists. Maybe we could work together, to come up with a standard way
+> of formatting the setlists.
+
+Those setlists are in a format that we've been hashing out over the
+past few (5-6?) months.  Steve Zimmerman, Nathan Wolfson and Allen Baum
+have been working on a document describing the format and there's
+a copy of the spec under the DeadLists home page.
+
+When you look at the spec on the web, you have to tell your web browser
+to show the raw HTML source and not try to interpret it.  The spec has
+BNF-like descriptions like "A <song> IS A <song name> <comment>
+<transition> <tab>" but web browsers (at least lynx and Netscape) try
+to interpret that as HTML so all you see is "A   IS A  " which doesn't
+make much sense!  In lynx, hit the "\" (backslash) key to show the raw
+HTML (Nathan, I've been meaning to mention this problem to you; it
+looks like we need something like <pre> and </pre> that tells HTML
+browsers to not format and not interpret everything in between,
+although I don't know if that's possible in HTML).
+
+> Once we would come up with a standardized format for the setlists, a
+> filter could be written to convert this data. After that, a small Python
+> script is written to make the data accessible from any Web browser.
+> 
+> Thoughts? Comments? Ideas?
+
+Tim Buller has setup a search engine on the web for a subset of the
+lists from '71-'74, http://www2.southwind.net/~tjb9d/deadlist/.
+He also has a search engine for other lists ('72-'95?) under
+his Grateful Dead Tour-by-Tour Project Homepage,
+http://www2.southwind.net/~tjb9d/tbt/.
+
+I haven't been doing anything with the web and/or database search engines
+for the DeadList data, I've mainly been working on translating the 
+setlist data I already have in the form of Lisp data structures
+into the standard DeadList format, but maybe Tim or some other people
+who have been working on search engines and web interfaces will
+reply to this part.
+
+			John
+
+
+------------------------------
+
+From: Hawkwind <hawkwind@nando.net>
+Date: Wed, 31 Jul 1996 15:13:27 -0400 (EDT)
+Subject: Re: DeadLists Digest V1 #70 
+
+On Wed, 31 Jul 1996, John Oleynick wrote:
+> When you look at the spec on the web, you have to tell your web browser
+> to show the raw HTML source and not try to interpret it.  The spec has
+> BNF-like descriptions like "A <song> IS A <song name> <comment>
+> <transition> <tab>" but web browsers (at least lynx and Netscape) try
+> to interpret that as HTML so all you see is "A   IS A  " which doesn't
+> make much sense!  In lynx, hit the "\" (backslash) key to show the raw
+> HTML (Nathan, I've been meaning to mention this problem to you; it
+> looks like we need something like <pre> and </pre> that tells HTML
+> browsers to not format and not interpret everything in between,
+> although I don't know if that's possible in HTML).
+
+<pre> and </pre> won't work.  Typically they turn on a monospace font, and
+indicated that text flow and word space formatting are turned off, but do
+*not* turn off HTML tag interpretation.  Per the HTML specs, the character
+entities which should be used are &lt; for < and &gt; for > when these 
+characters appear in text.  E.g.:
+
+"A &lt;song&gt; IS A &lt;song name&gt; &lt;comment&gt; &lt;transition&gt; 
+&lt;tab&gt;"
+
+Rather a pain :(, but then < and > *are* the HTML tag delimiters. 
+
+Alternately, at least for Netscape, Mosaic & WebExplorer, if the file is
+given a non-html extension, like spec.txt or spec.asc, it will not be
+interpreted as HTML.
+
+Back to lurking...
+
+  peace, miner
+o<------------<<<<<<<<------------(0)------------>>>>>>>>------------>o
+|          Miner Gleason                    hawkwind@nando.net        |
+|                                                                     |
+|     "...it's all a dream we dreamed one afternoon, long ago..."     |
+o<------------<<<<<<<<------------(0)------------>>>>>>>>------------>o
+
+
+
+------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 31 Jul 1996 14:40:39 -0500 (CDT)
+Subject: Re: DeadLists Digest V1 #74
+
+> Your work looks great! 
+
+Amen!
+
+> Just some thoughts: should all fields be searchable (say, via drop down
+> boxes for each field), or should there just be a text entry box where
+> people would type in the string they are looking for? I can see
+> advantages to each, or a mixture of both. Maybe if there could be a
+> group consensus on what should be searchable, we could start to think
+> about the interface. 
+
+Nathan and I had discussed this at some length when we were
+conceptualizing... basically what I came up with, and implemented in a
+very, very crude manner was a search engine to parse what I call "header"
+info; band, date, venue, city, etc. This data was returned as a link to
+the complete datafile. Basically, this was an interim solution to get
+something up and working, and then see how we wanted to proceed. I think
+that it is rather difficult to construct an search engine until we figure
+out what our needs are, and this is a good way to figure that out.
+
+> I would not be the one writing code, but a programmer/friend I work
+> with. They said that they could probably have something working in 3-4
+> weeks (they are really busy right now). If some others of you who would
+> like to work on interface and deciding which fields are searchable, etc.
+> I would like to be part of this. Let me know, b/c I think this is a
+> worthwhile endeavor.
+
+I'm a systems man myself, not a programmer either. I would like to work on
+some part of the interface, maybe the data presentation layer, since that
+seems the most challenging to me right now. My skills are limited to perl
+hacking though... I'm not familiar with python, though if you could
+recommend a good book, I'd like to check it out (is there an O'Reilly
+book?) Anyways, count me in. We may want to start dividing tasks already
+on this job... maybe if we start pretending it's a real software dev.
+project it will turn into one :) Later,
+
+	Tim
+
+====
+Tim Buller                              e-mail:<tjb9d@southwind.net>
+Mac & Dead Support                      http://www2.southwind.net/~tjb9d/gdead
+
+   "There are two major products to come out of Berkeley: LSD and Unix. 
+         This is probably not a coincidence." - John Dodge in PCWeek
+
+
+
+
+
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 31 Jul 1996 15:44:12 -0400
+Subject: Re: DeadLists Digest V1 #70
+
+Hawkwind wrote:
+> 
+> On Wed, 31 Jul 1996, John Oleynick wrote:
+> > When you look at the spec on the web, you have to tell your web browser
+> > to show the raw HTML source and not try to interpret it.  The spec has
+> 
+> <pre> and </pre> won't work.  Typically they turn on a monospace font, and
+> indicated that text flow and word space formatting are turned off, but do
+> *not* turn off HTML tag interpretation.  Per the HTML specs, the character
+> entities which should be used are &lt; for < and &gt; for > when these
+> characters appear in text.  E.g.:
+
+I emailed John and Alan a fix for this. The tags are <xmp> </xmp>. They
+turn off HTML interpretation by the browser. 
+
+					ryan
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 31 Jul 1996 18:28:51 -0400
+Subject: Re: DeadLists Digest V1 #74
+
+Tim Buller wrote:
+>
+> Nathan and I had discussed this at some length when we were
+> conceptualizing... basically what I came up with, and implemented in a
+> very, very crude manner was a search engine to parse what I call "header"
+> info; band, date, venue, city, etc. This data was returned as a link to
+> the complete datafile. Basically, this was an interim solution to get
+> something up and working, and then see how we wanted to proceed. I think
+> that it is rather difficult to construct an search engine until we figure
+> out what our needs are, and this is a good way to figure that out.
+
+I took a look at Nathan's Original Deadlists Proposal. Some of his ideas
+I see as feasable in a first rev of this software. Others, I think, are
+a little ambitious. For the first rev, I envision fielded-searching
+based on the header information for each show. 
+
+I am thinking about drop-down boxes for the following:
+Songs (3 or 4 drop down boxes, using the official song list)
+Set (1, 2, 3, Encore, or Any)
+Venue (Specific Venue, or Any. Need to construct official Venue list)
+City (Specific City, or Any. Need to construct official City list)
+State (Specific State/Country, or Any. Need to construct official
+State/Country list)
+
+And a text entry box for the Date (form mm/dd/yy).
+
+The text entry would use string matching. So, for instance, to look for
+all occurences of Might As Well in 1976, one would click on the
+drop-down box and hightlight 'Might As Well', and type in 83 in the date
+field. Somehow incorporate wildcards, so someone could search for
+02/??/77 and find all of the shows from Feb. of '77. Maybe we could
+modify John's data file to insert a '19' before the yy in all of the
+date fields to help clear some confusion (e.g. 1983 vs. 83).
+
+The Venue, City and State lists could probably be extracted from John's
+data, with a little script, so these wouldn't need to be done by hand. 
+
+Things that I think are a little ambitious at this point are:
+1. Searching on show/set openers, closers, pre/post drums.
+2. Defining every song as 1st, 2nd, 3rd, etc. song of the set/show.
+Although, this may not be as bad as I think. 
+3. Uploading changes, notes, times, comments via a Web interface. 
+
+> I'm a systems man myself, not a programmer either. I would like to work on
+> some part of the interface, maybe the data presentation layer, since that
+> seems the most challenging to me right now. My skills are limited to perl
+> hacking though... I'm not familiar with python, though if you could
+> recommend a good book, I'd like to check it out (is there an O'Reilly
+> book?) Anyways, count me in. We may want to start dividing tasks already
+> on this job... maybe if we start pretending it's a real software dev.
+> project it will turn into one :) Later,
+
+Basically the way we have done this for other projects (like putting
+newspaper's classified ads on the Web, in a searchable format) is to
+define what we want to search on, then design an HTML page and form to
+capture the search date from the user. Once the data is captured, a
+query is performed against the setlists, and a HTML page is dynamically
+generated and returned to the user, with us specifying the appropriate
+format of the page returned (in HTML).
+
+Tim-> O'Reilly is suppose to come out with a Python book this fall. For
+now, try http://www.python.org/ for more information. I am thinking
+about learning Python, so I can be more directly involved with
+programming of the scripts needed.
+
+Stuff we need to start thinking about:
+1. Is this only for the Web, or should it run on someone's PC?
+2. For the Web version, who is doing the hosting?
+3. Defining what is or isn't in the first rev of this software package.
+4. Designing the Web interface to capture user's requests (in HTML) and
+the layout of page returned with user's query results. 
+
+This is all I have for now. I look forward to other people's input :-)
+
+					ryan
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+End of DeadLists Digest V1 #75
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

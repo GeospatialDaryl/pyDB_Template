@@ -1,0 +1,1449 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #291
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Thursday, 8 May 1997        Volume 01 : Number 291
+
+In this issue:
+
+	Re: updates all around and info missing 
+	Re: 1973v1
+	1991 Setlists
+	1991 Setlists
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Thu, 08 May 1997 20:56:52 -0400
+Subject: Re: updates all around and info missing 
+
+Nathan writes:
+> Has the "simple spec" been posted to the list?  I don't think it has, but,
+> since I spent most of the last week on hold listening to muzak courtesy of
+> Oracle while waiting on tech support to answer a few questions regarding a
+> database I am trying to get online at my day job, my brain has been playing
+> tricks on me.  (Talk about memory loss!)  So if this second spec or
+> something else has been posted to the list but I haven't mentioned it
+> appearing on the site, please let me know.
+
+Do you mean the spec for the "easy/alternative/simple" format
+that I was working on?  No, I haven't posted an update since the first
+version.  I'll have to take a look at the latest changes that Ryan made
+and update the other spec.  
+
+The other format also needs a good name.  I've been hesitant to use the
+word "easy" because even with the relaxed restrictions on spaces, tabs
+and newlines, the format still has all kinds of restrictions on song
+titles, transition characters, etc.  Instead I've been using
+"alternative", but that's even less descriptive.  
+
+Now that you mention "simple", I think I like that.  It implies that
+it's easier, which is good, but doesn't go so far as to say that it's
+actually easy.  And there are lots of precedents for things claiming to
+be simple that are far from easy, like the Simple Mail Transport
+Protocol and the Simple Network Management Protocol; they are only
+simple compared to their alternatives, which are even more complex.
+That's probably a pretty accurate description of the other format,
+since it's still not easy to get everything right, but it's at least
+easier than the regular database format.
+
+		John
+
+
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Thu, 08 May 1997 21:55:15 -0400
+Subject: Re: 1973v1
+
+song timings...
+
+>
+>BAND	Grateful Dead
+>DATE	6/22/73
+>VENUE	P.N.E. Coliseum
+>CITY	Vancouver
+>STATE	BC
+>SET1	Bertha ; Beat It On Down The Line 3:17 ; Deal 4:31 ; Mexicali Blues
+3:24 ; Box Of Rain 4:59 ; Bird Song 13:49 ; The Race Is On 2:59 ; Sugaree
+7:25 ; Looks Like Rain 6:52 ; Row Jimmy 8:56 ; Jack Straw 4:46 ; China Cat
+Sunflower > I Know You Rider 5:20 ; Big River 4:33 ; Tennessee Jed 7:35 ;
+Playin' In The Band 18:22
+>SET2	Here Comes Sunshine 11:41 ; Promised Land 2:40 ; Brown Eyed Women 5:08
+; El Paso 4:23 ; Black Peter 8:50 ; Greatest Story Ever Told 4:39 ; Big
+Railroad Blues 3:21 ; He's Gone 11:25 > Truckin' 25:43 > Nobody's Fault But
+Mine Jam > The Other One 15:10 > Wharf Rat 7:49 > Sugar Magnolia 8:#00 ;
+Casey Jones 6:20
+>SET3	
+>ENCORE	Johnny B. Goode 3:39
+>COMMENTS	
+>RECORDING	270 SBD + AUD: The complete show; the SBD breaks off during The
+Other One & an excellent AUD picks up the show there.
+>CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+**Timed from AUD missing Bertha, China Cat, and having a splice in Sugar
+Mags. Nobody's Fault Jam timing is included in the Truckin' timing.
+>
+>BAND	Grateful Dead
+>DATE	6/29/73
+>VENUE	Universal Amphitheatre
+>CITY	Universal City
+>STATE	CA
+>SET1	Bertha ; Me And My Uncle ; Sugaree ; The Race Is On ; Looks Like Rain
+; Don't Ease Me In ; Big River ; Row Jimmy ; Loose Lucy ; China Cat
+Sunflower > I Know You Rider ; Jack Straw 4:37 ; Deal 4:03 ; Playin' In The
+Band 17:30
+>SET2	Mississippi Half Step 8:00 ; El Paso 4:13 ; Brown Eyed Women 5:02 ;
+Promised Land 3:06 ; He's Gone #13:07 > Truckin' 8:08 > The Other One 22:46
+> Morning Dew 11:39 ; Around & Around ; Casey Jones
+>SET3	
+>ENCORE	
+>COMMENTS	
+>RECORDING	100 SBD: The last 3 songs of the 1st set (Jack Straw, Deal,
+Playin) and from the 2nd set He's Gone (missing its beginning) through
+Morning Dew (missing its conclusion).
+>CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+**Morning Dew is complete on timed copy.
+
+>
+>BAND	Grateful Dead
+>DATE	7/1/73
+>VENUE	Universal Amphitheatre
+>CITY	Universal City
+>STATE	CA
+>SET1	Mississippi Half Step 7:39 ; Me And My Uncle 2:59 ; Sugaree 6:49 ; The
+Race Is On 2:59 ; Brown Eyed Women 4:40 ; Looks Like Rain 6:23 ; Don't Ease
+Me In 3:12 ; Big River 4:27 ; China Cat Sunflower 7:56 > I Know You Rider
+4:59 ; Around & Around 4:47
+>SET2	Playin' In The Band 24:34 ; Row Jimmy 7:#52 ; El Paso 4:05 ; Loose
+Lucy 7:35 ; Truckin' 8:19 > Drums 1:47 > The Other One 20:37 > Wharf Rat
+8:52 > Me And Bobby McGee 5:33 ; Casey Jones 6:21
+>SET3	
+>ENCORE	
+>COMMENTS	
+>RECORDING	145 AUD: The complete show, in very good AUD.
+>CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+>BAND	Grateful Dead
+>DATE	8/1/73
+>VENUE	Roosevelt Stadium
+>CITY	Jersey City
+>STATE	NJ
+>SET1	Promised Land ; Sugaree ; The Race Is On ; You Ain't Woman Enough ;
+Bird Song ; Mexicali Blues ; They Love Each Other ; Jack Straw ; Stella Blue
+; Big River ; Casey Jones
+>SET2	Around & Around ; Mississippi Half Step ; Me And My Uncle ; Row Jimmy
+; Dark Star 25:34 > El Paso 4:12 > Eyes Of The World 17:#27 > Morning Dew
+13:29 ; Sugar Magnolia 9:10 > Goin' Down The Road Feelin' Bad 9:20 > One
+More Saturday Night 4:39
+
+
+
+------------------------------
+
+From: bbrewer@europa.com
+Date: Wed, 7 May 1997 20:19:44 -0800
+Subject: 1991 Setlists
+
+Here is a supra preliminary 1991 setlist.  No frills yet, but I hope to add
+more as time permits.
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    02/19/91
+SET1    Bertha ; Greatest Story Ever Told ; Althea ; Queen Jane
+Approximately ; Ramble On Rose ; Picasso Moon ; Peggy-O ; Cassidy ; New
+Speedway Boogie
+SET2    China Cat Sunflower > I Know You Rider ; Truckin' > Crazy Fingers >
+Jam > Drums > Space > The Wheel > All Along The Watchtower ; Black Peter ;
+Sugar Magnolia
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    02/20/91
+SET1    Hell In A Bucket ; Sugaree ; Walkin' Blues ; Friend Of The Devil ;
+Mexicali Blues > Cumberland Blues ; When I Paint My Masterpiece ; Bird Song
+SET2    Scarlet Begonias > Fire On The Mountain ; Estimated Prophet ; He's
+Gone > Drums > Space > The Other One > Wharf Rat ; Around And Around
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING       A
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    02/21/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; Little Red Rooster
+; Loser ; Stuck In Mobile With The Memphis Blues Again ; Tennessee Jed ;
+Promised Land
+SET2    Playin' In The Band ; Uncle John's Band ; Terrapin Station > Drums
+> Space > Eyes Of The World ; Throwin' Stones > Not Fade Away
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING       A
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Capitol Center
+CITY    Landover
+STATE   MD
+DATE    03/17/91
+SET1    Hell In A Bucket ; Sugaree ; Walkin' Blues ; Peggy-O ; Queen Jane
+Approximately ; Rubin And Cherise ; Let It Grow
+SET2    China Cat Sunflower > I Know You Rider ; Man Smart Woman Smarter ;
+Crazy Fingers ; Truckin' ; New Speedway Boogie > Drums > Space > The Wheel
+; All Along The Watchtower ; Black Peter ; Around And Around
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Capitol Center
+CITY    Landover
+STATE   MD
+DATE    03/18/91
+SET1    Touch Of Grey ; New Minglewood Blues ; Ramble On Rose ; Me And My
+Uncle ; Maggie's Farm ; Row Jimmy ; Picasso Moon ; Don't Ease Me In
+SET2    Playin' In The Band ; Uncle John's Band ; Terrapin Station > Drums
+>Space > I Need A Miracle > Stella Blue > Turn On Your Love Light
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Capitol Center
+CITY    Landover
+STATE   MD
+DATE    03/20/91
+SET1    Feel Like A Stranger ; Cold Rain And Snow ; Little Red Rooster ;
+Althea ; Black-Throated Wind ; Tennessee Jed ; The Music Never Stopped
+SET2    Might As Well ; Eyes Of The World ; Foolish Heart ; Estimated
+Prophet ; He's Gone ; Drums > Space > The Other One > Wharf Rat > Sugar
+Magnolia
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Capitol Center
+CITY    Landover
+STATE   MD
+DATE    03/21/91
+SET1    Mississippi Half-Step Uptown Toodleloo ; Mexicali Blues > Big River
+; Candyman ; Stuck In Mobile With The Memphis Blues Again ; Bird Song
+SET2    Victim or the Crime ; Scarlet Begonias > Fire On The Mountain ;
+Stir It Up ; Drums > Space > Goin' Down The Road Feelin' Bad > Throwin'
+Stones > Not Fade Away
+SET3
+ENCORE  Box of Rain
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Knickerbocker Arena
+CITY    Albany
+STATE   NY
+DATE    03/23/91
+SET1    Jack Straw ; Bertha ; Walkin' Blues ; Friend Of The Devil ; When I
+Paint My Masterpiece ; Loser ; Cassidy ; New Speedway Boogie
+SET2    Iko Iko ; Saint Of Circumstance ; Ship Of Fools ; Playin' In The
+Band ; Drums > Space > All Along The Watchtower > Morning Dew ; One More
+Saturday Night
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Knickerbocker Arena
+CITY    Albany
+STATE   NY
+DATE    03/24/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; Wang Dang Doodle ;
+Jack-A-Roe ; Beat It On Down The Line ; Brown Eyed Women ; Desolation Row ;
+Deal
+SET2    Samson and Delilah ; China Cat Sunflower > I Know You Rider ; Looks
+Like Rain ; He's Gone > Drums> Space > The Wheel  > I Need A Miracle >
+Standing On The Moon ; Good Lovin'
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Knickerbocker Arena
+CITY    Albany
+STATE   NY
+DATE    03/25/91
+SET1    Shakedown Street ; Little Red Rooster ; Stagger Lee ; Queen Jane
+Approximately ; High Time ; It's All Over Now ; Tennessee Jed ; Promised
+Land
+SET2    Touch Of Grey ; Greatest Story Ever Told ; Crazy Fingers ; Truckin'
+> Spoonful ; Drums > Space > The Other One ; Black Peter ; Throwin' Stones
+; Playin' Reprise ; Turn On Your Love Light
+SET3
+ENCORE
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Knickerbocker Arena
+CITY    Albany
+STATE   NY
+DATE    03/27/91
+SET1    Hell In A Bucket ; Cold Rain And Snow ; New Minglewood Blues ; Row
+Jimmy ; Mama Tried ; Maggie's Farm ; Loose Lucy ; Picasso Moon ; Rubin And
+Cherise
+SET2    Scarlet Begonias > Fire On The Mountain ; Estimated Prophet ; Uncle
+John's Band ; Drums > Space > All Along The Watchtower ; Stella Blue ;
+Sugar Magnolia
+SET3
+ENCORE  Box Of Rain
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Nassau Coliseum
+CITY    Uniondale
+STATE   NY
+DATE    03/28/91
+SET1    Bertha ; Greatest Story Ever Told ; Loser ; Black-Throated Wind ;
+Ramble On Rose ; Let It Grow
+SET2    Victim or the Crime ; Foolish Heart ; Man Smart Woman Smarter ;
+Drums > Space > China Doll ; Goin' Down The Road Feelin' Bad ; Good Lovin'
+SET3
+ENCORE  Terrapin Station
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Nassau Coliseum
+CITY    Uniondale
+STATE   NY
+DATE    03/29/91
+SET1    Feel Like A Stranger ; Sugaree ; Walkin' Blues ; Dire Wolf ; Me And
+My Uncle ; Mexicali Blues ; Althea ; When I Paint My Masterpiece
+SET2    Iko Iko ; Saint Of Circumstance ; New Speedway Boogie ; Truckin' ;
+Drums > Space ; The Other One ; Wharf Rat ; Throwin' Stones ; Touch Of Grey
+SET3
+ENCORE  Brokedown Palace
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Greensboro Coliseum
+CITY    Greensboro
+STATE   NC
+DATE    03/31/91
+SET1    Mississippi Half-Step Uptown Toodleloo ; Wang Dang Doodle ; Friend
+Of The Devil ; Queen Jane Approximately ; West L.A. Fadeaway ; Cassidy ;
+Might As Well
+SET2    Samson and Delilah ; Eyes Of The World ; Playin' In The Band >
+Drums > Space > The Wheel ; Around And Around ; Johnny B. Goode
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Greensboro Coliseum
+CITY    Greensboro
+STATE   NC
+DATE    04/01/91
+SET1    Jack Straw ; Peggy-O ; It's All Over Now ; Candyman ; Tom Thumb's
+Blues ; Picasso Moon ; Bird Song
+SET2    China Cat Sunflower > I Know You Rider ; Looks Like Rain ; Dark
+Star ; Drums > Space ; Dark Star Reprise ; Playin' Reprise ; Black Peter ;
+Turn On Your Love Light
+SET3
+ENCORE  It's All Over Now, Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   The Omni
+CITY    Atlanta
+STATE   GA
+DATE    04/03/91
+SET1    Touch Of Grey ; Greatest Story Ever Told ; Loser ; Little Red
+Rooster ; Brown Eyed Women ; When I Paint My Masterpiece ; Tennessee Jed ;
+The Music Never Stopped ; Don't Ease Me In
+SET2    Victim or the Crime ; Foolish Heart ; Crazy Fingers ; Truckin' >
+Smokestack Lightnin'> Drums > Space > All Along The Watchtower > Stella
+Blue ; Sugar Magnolia
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   The Omni
+CITY    Atlanta
+STATE   GA
+DATE    04/04/91
+SET1    Let the Good Times Roll ; Feel Like A Stranger ; They Love Each
+Other ; Walkin' Blues ; Ramble On Rose ; Stuck In Mobile With The Memphis
+Blues Again ; High Time ; Promised Land
+SET2    Help On The Way > Slipknot! > Franklin's Tower ; Estimated Prophet
+; He's Gone > Drums > Space > I Need A Miracle > Standing On The Moon >
+Good Lovin'
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   The Omni
+CITY    Atlanta
+STATE   GA
+DATE    04/05/91
+SET1    Shakedown Street ; New Minglewood Blues ; Stagger Lee ; Mama Tried
+> Mexicali Blues ; Friend Of The Devil ; Queen Jane Approximately ; Deal
+SET2    Iko Iko ; Saint Of Circumstance ; Terrapin Station > Drums > Space
+> The Other One > Wharf Rat > Throwin' Stones > Not Fade Away
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Orlando Arena
+CITY    Orlando
+STATE   FL
+DATE    04/07/91
+SET1    Jack Straw ; Sugaree ; Wang Dang Doodle ; Row Jimmy ;
+Black-Throated Wind ; Rubin And Cherise ; Promised Land
+SET2    Crazy Fingers ; Playin' In The Band ; Uncle John's Band > Drums >
+Space ; Box Of Rain ; Goin' Down The Road Feelin' Bad ; Turn On Your Love
+Light
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Orlando Arena
+CITY    Orlando
+STATE   FL
+DATE    04/08/71
+SET1    Mississippi Half-Step Uptown Toodleloo ; Walkin' Blues ; Peggy-O ;
+Me And My Uncle > Maggie's Farm ; Dire Wolf ; Picasso Moon ; Might As Well
+SET2    Eyes Of The World ; Man Smart Woman Smarter ; Ship Of Fools ;
+Truckin' > Drums > Space > The Wheel > I Need A Miracle > Morning Dew
+SET3
+ENCORE  Johnny B. Goode
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Orlando Arena
+CITY    Orlando
+STATE   FL
+DATE    04/09/91
+SET1    Hell In A Bucket ; Cold Rain And Snow ; Little Red Rooster ; Loose
+Lucy ; When I Paint My Masterpiece ; It Must Have Been The Roses ; Let It
+Grow
+SET2    China Cat Sunflower > I Know You Rider ; Saint Of Circumstance ;
+Foolish Heart > Drums > Space > The Other One > Wharf Rat > Throwin' Stones
+> Not Fade Away
+SET3
+ENCORE  Brokedown Palace
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Same Boyd Silver Bowl
+CITY    Las Vegas
+STATE   NV
+DATE    04/27/91
+SET1    Touch Of Grey ; Walkin' Blues ; Friend Of The Devil ; Mexicali
+Blues > Maggie's Farm ; Loose Lucy ; Cassidy ; Might As Well
+SET2    Sugar Magnolia ; Scarlet Begonias > Fire On The Mountain ; Playin'
+In The Band ; Uncle John's Band > Drums > Space > I Need A Miracle > Black
+Peter ; One More Saturday Night
+SET3
+ENCORE  The Weight
+COMMENTS        Carlos Santana opened
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Sam Boyd Silver Bowl
+CITY    Las Vegas
+STATE   NV
+DATE    04/28/91
+SET1    Jack Straw ; Candyman ; Wang Dang Doodle ; Althea ; Me And My Uncle
+> Big River ; Bird Song
+SET2    Foolish Heart ; Saint Of Circumstance ; Crazy Fingers ; Truckin' ;
+Deal ; Drums > Space > The Other One > Wharf Rat > Around And Around ;
+Sunshine Daydream
+SET3
+ENCORE   Box Of Rain
+COMMENTS        Carlos Santana opened
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Cal Expo
+CITY    Sacramento
+STATE   CA
+DATE    05/03/91
+SET1    Bertha ; Greatest Story Ever Told ; West L.A. Fadeaway ; Queen Jane
+Approximately ; Jack-A-Roe ; Baby Blue ; Tennessee Jed ; Let It Grow
+SET2    China Cat Sunflower > I Know You Rider ; Estimated Prophet ; He's
+Gone > Drums > Space > The Wheel > All Along The Watchtower > Stella Blue ;
+Turn On Your Love Light
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Cal Expo
+CITY    Sacramento
+STATE   CA
+DATE    05/04/91
+SET1    Hell In A Bucket ; Sugaree ; New Minglewood Blues ; Loser ; The
+Race Is On ; Row Jimmy ; When I Paint My Masterpiece ; New Speedway Boogie
+; The Music Never Stopped
+SET2    Victim or the Crime ; Crazy Fingers ; Playin' In The Band ; Uncle
+John's Band > Drums > Space > I Need A Miracle > Standing On The Moon ; One
+More Saturday Night
+SET3
+ENCORE  Touch Of Grey
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Cal Expo
+CITY    Sacramento
+STATE   CA
+DATE    05/05/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; Little Red Rooster
+; Ramble On Rose ; Picasso Moon ; Brown Eyed Women ; Promised Land
+SET2    Eyes Of The World ; Man Smart Woman Smarter ; Ship Of Fools ;
+Truckin' ; Terrapin Station > Drums > Space > The Other One > Wharf Rat >
+Throwin' Stones > Not Fade Away
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Shoreline Amphiteater
+CITY    Mountainview
+STATE   CA
+DATE    05/10/91
+SET1    Jack Straw ; They Love Each Other ; Walkin' Blues ; Stagger Lee ;
+Me And My Uncle > Maggie's Farm ; Cold Rain And Snow ; Desolation Row ;
+Don't Ease Me In
+SET2    Foolish Heart ; Saint Of Circumstance ; Crazy Fingers ; Truckin' >
+New Speedway Boogie > Drums > Space > The Wheel > All Along The Watchtower
+> Black Peter ; Sugar Magnolia
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Shoreline Amphitheater
+CITY    Mountainview
+STATE   CA
+DATE    05/11/91
+SET1    Mississippi Half-Step Uptown Toodleloo ; Wang Dang Doodle ; Peggy-O
+; Queen Jane Approximately ; Bird Song ; Promised Land
+SET2    One More Saturday Night ; Iko Iko ; Playin' In The Band > Uncle
+John's Band > Drums > Space > I Need A Miracle > Morning Dew > Around And
+Around
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Shoreline Amphitheater
+CITY    Mountainview
+STATE   CA
+DATE    05/12/91
+SET1    Picasso Moon ; Althea ; C.C. Rider > It Takes A Lot To Laugh It
+Takes A Train to Cry ; El Paso ; High Time ; Black-Throated Wind ; Deal
+SET2    Help On The Way > Slipknot! > Franklin's Tower ; Looks Like Rain ;
+Terrapin Station > Drums > Space > Goin' Down The Road Feelin' Bad >
+Throwin' Stones ; Turn On Your Love Light
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   L.A. Memorial Coliseum
+CITY    Los Angeles
+STATE   CA
+DATE    06/01/91
+SET1    Shakedown Street ; Walkin' Blues ; Bertha ; Greatest Story Ever
+Told ; Candyman ; Queen Jane Approximately ; Deal
+SET2    Picasso Moon ; Foolish Heart ; Playin' In The Band ; Uncle John's
+Band > Drums > Space > I Need A Miracle > Black Peter > Throwin' Stones >
+Not Fade Away
+SET3
+ENCORE  One More Saturday Night
+COMMENTS        Johnny Clegg and Savuka opened
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Deer Creek Music Center
+CITY    Noblesville
+STATE   IN
+DATE    06/06/91
+SET1    Jack Straw [5:47] ; They Love Each Other ; Wang Dang Doodle [7:28]
+; Row Jimmy [9:34] ; Black-Throated Wind [5:46] ; Big Railroad Blues [5:15]
+; Cassidy [6:41] ; Might As Well [6:03]
+SET2    China Cat Sunflower > I Know You Rider ; Estimated Prophet ; Uncle
+John's Band > Drums > Space > The Wheel > All Along The Watchtower > Stella
+Blue ; Turn On Your Love Light
+SET3
+ENCORE  Box of Rain [4:49]
+COMMENTS
+RECORDING
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; posting from dead-heads
+and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Deer Creek Music Center
+CITY    Noblesville
+STATE   IN
+DATE    06/07/91
+SET1    Mississippi Half-Step Uptown Toodleloo ; Little Red Rooster ;
+Stagger Lee ; Me And My Uncle > Maggie's Farm ; Loser ; The Music Never
+Stopped ; Don't Ease Me In
+SET2    Scarlet Begonias > Fire On The Mountain ; Truckin' > New Speedway
+Boogie > Drums > Space > I Need A Miracle > Standing On The Moon > Sugar
+Magnolia
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; posting from dead-heads
+and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Buckeye Lake Music Center
+CITY    Hebron
+STATE   OH
+DATE    06/09/91
+SET1    Picasso Moon ; Sugaree ; New Minglewood Blues ; Ramble on Rose ;
+When I Paint My Masterpiece ; Rubin And Cherise ; Let It Grow
+SET2    Samson and Delilah ; Crazy Fingers ; Playin' In The Band > He's
+Gone > Drums > Space > The Other One > Wharf Rat > Around And Around
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS        Violent Femmes opened
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Charlotte Coliseum
+CITY    Charlotte
+STATE   NC
+DATE    06/11/91
+SET1    Iko Iko ; Walkin' Blues ; Jack-A-Roe ; Mama Tried > Mexicali Blues
+; West L.A. Fadeaway ; Queen Jane Approximately ; Bird Song ; Promised Land
+SET2    Victim or the Crime ; Eyes Of The World ; Looks Like Rain ;
+Terrapin Station > Drums > Space > Playin' Reprise > The Wheel > Throwin'
+Stones > Not Fade Away
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Charlotte Coliseum
+CITY    Charlotte
+STATE   NC
+DATE    06/12/91
+SET1    Feel Like A Stranger ; Peggy-O ; C.C. Rider ; Althea ; Desolation
+Row ; Loose Lucy ; Hell In A Bucket ; Don't Ease Me In
+SET2    Touch Of Grey ; Saint Of Circumstance ; Ship Of Fools ; Man Smart
+Woman Smarter ; Drums > Space > Goin' Down The Road Feelin' Bad > All Along
+The Watchtower > Morning Dew
+SET3
+ENCORE  Brokedown Palace
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND Grateful Dead
+VENUE   RFK Stadium
+CITY    Washington D.C.
+STATE   DC
+DATE    06/14/91
+SET1    Cold Rain And Snow ; Wang Dang Doodle ; Jack-A-Roe ; Big River >
+Maggie's Farm ; Row Jimmy ; Black-Throated Wind ; Tennessee Jed ; The Music
+Never Stopped
+SET2    Help On The Way > Slipknot! > Franklin's Tower ; Estimated Prophet
+; Dark Star > Drums > Space > Stella Blue > Turn On Your Love Light
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS        Dwight Yoakam opened
+RECORDING
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; posting from dead-heads
+and/or rec.music.gdead
+
+
+
+------------------------------
+
+From: bbrewer@europa.com
+Date: Wed, 7 May 1997 20:22:34 -0800
+Subject: 1991 Setlists
+
+BAND    Grateful Dead
+VENUE   Giants Stadium
+CITY    East Rutherford
+STATE   NJ
+DATE    06/16/91
+SET1    Picasso Moon ; Bertha ; Little Red Rooster ; Candyman ; Stuck
+Inside of Mobile With The Memphis Blues Again ; Stagger Lee Let It Grow
+SET2    Jack Straw ; Crazy Fingers ; China Cat Sunflower > I Know You Rider
+; Drums > Space > I Need A Miracle > Black Peter > Throwin' Stones > Not
+Fade Away
+SET3
+ENCORE  Box of Rain
+COMMENTS        Little Feat opened
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Giants Stadium
+CITY    East Rutherford
+STATE   NJ
+DATE    06/17/91
+SET1    Eyes Of The World > Walkin' Blues ; Brown Eyed Women ; Dark Star
+Jam > When I Paint My Masterpiece ; Loose Lucy ; Cassidy ; Might As Well
+SET2    Jam > Saint Of Circumstance > Ship Of Fools > Dark Star Jam >
+Truckin' > New Speedway Boogie > Dark Star Jam > Uncle John's Band > Dark
+Star Jam > Drums > Space > China Doll > Playin' Reprise > Sugar Magnolia
+SET3
+ENCORE  The Weight
+COMMENTS        Little Feat opened
+RECORDING       A ; SB 190
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer)
+
+BAND    Grateful Dead
+VENUE   Pine Knob Music Theatre
+CITY    Clarkston
+STATE   MI
+DATE    06/19/91
+SET1    Feel Like A Stranger ; They Love Each Other ; New Minglewood Blues
+; Dire Wolf ; Queen Jane Approximately ; Ramble on Rose ; Promised Land
+SET2    Victim or the Crime ; Scarlet Begonias > Fire On The Mountain ; Man
+Smart Woman Smarter ; Drums > Space > Stella Blue > The Other One ; Johnny
+B. Goode
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Pine Knob Music Theatre
+CITY    Clarkston
+STATE   MI
+DATE    06/20/91
+SET1    Touch Of Grey ; Greatest Story Ever Told ; Peggy-O ; Mexicali Blues
+> Maggie's Farm ; Bird Song
+SET2    Throwin' Stones [6:40] > Iko Iko [9:04]; All Along The Watchtower
+[7:13] > Standing On The Moon [10:11] > He's Gone [9:38] > Drums [1:47#] >
+Space > The Wheel > I Need A Miracle > Wharf Rat > Throwin' Stones Reprise
+> Not Fade Away
+SET3
+ENCORE  Brokedown Palace
+COMMENTS
+RECORDING
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; posting from dead-heads
+and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Soldier Field
+CITY    Chicago
+STATE   IL
+DATE    06/22/91
+SET1    Hell In A Bucket ; Shakedown Street ; Wang Dang Doodle ; Friend Of
+The Devil ; When I Paint My Masterpiece ; Brown Eyed Women ; Let It Grow
+SET2    Foolish Heart [11:25] > Looks Like Rain [7:23] > Crazy Fingers
+[8:05] > Dark Star Tease [:45] > Playin' In The Band [7:17] > Terrapin
+Station [10:21#] > Jam [#4:22] > Drums [11:32] > Space [8:13] > Dark Star
+Jam [7:03] > Playin' Reprise [3:37] > Black Peter [9:23] ; One More
+Saturday Night [1:41#]
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING       A ; SB 190
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer)
+
+BAND    Grateful Dead
+VENUE   Sandstone Amphitheatre
+CITY    Bonner Springs
+STATE   KS
+DATE    06/24/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; C.C. Rider > It
+Takes A Lot To Laugh It Takes A Train to Cry ; Me And My Uncle > Big River
+; Althea ; Promised Land
+SET2    China Cat Sunflower > I Know You Rider ; Estimated Prophet ; Uncle
+John's Band ; Drums > Space > The Other One > Morning Dew
+SET3
+ENCORE  Around And Around
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Sandstone Amphitheatre
+CITY    Bonner Springs
+STATE   KS
+DATE    06/25/91
+SET1    Jack Straw ; Sugaree ; Walkin' Blues ; Candyman ; Stuck Inside of
+Mobile With The Memphis Blues Again ; Tennessee Jed ; The Music Never
+Stopped
+SET2    Scarlet Begonias > Fire On The Mountain ; Truckin' > Smokestack
+Lightnin' > He's Gone > Drums > Space > Comes A Time > Goin' Down The Road
+Feelin' Bad > Good Lovin'
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Mile High Stadium
+CITY    Denver
+STATE   CO
+DATE    06/28/91
+SET1    Touch Of Grey ; Greatest Story Ever Told ; Mississippi Half-Step
+Uptown Toodleloo ; Wang Dang Doodle ; Peggy-O ; Black-Throated Wind ; Iko
+Iko ; Cassidy ; Don't Ease Me In
+SET2    Eyes Of The World ; Picasso Moon ; Crazy Fingers ; Saint Of
+Circumstance ; Drums > Space > I Need A Miracle > Wharf Rat > Throwin'
+Stones > Not Fade Away
+SET3
+ENCORE  Box of Rain
+COMMENTS        Santana opened
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Cal Expo
+CITY    Sacramento
+STATE   CA
+DATE    08/12/91
+SET1    Iko Iko ; New Minglewood Blues ; Althea ; Me And My Uncle > Big
+River ; Bird Song ; Promised Land
+SET2    China Cat Sunflower > I Know You Rider ; Playin' In The Band >
+Terrapin Station > Drums > Space > The Wheel > I Need A Miracle > Stella
+Blue > Turn On Your Love Light
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Cal Expo
+CITY    Sacramento
+STATE   CA
+DATE    08/13/91
+SET1    Picasso Moon ; Sugaree ; Walkin' Blues ; Candyman ; Stuck Inside of
+Mobile WIth The Memphis Blues Again ; High Time ; Let It Grow
+SET2    Foolish Heart ; Saint Of Circumstance ; Eyes Of The World ; Drums >
+Space > All Along The Watchtower > Black Peter ; Sugar Magnolia
+SET3
+ENCORE  Black Muddy River
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Cal Expo
+CITY    Sacramento
+STATE   CA
+DATE    08/14/91
+SET1    Touch Of Grey > Little Red Rooster ; Loser ; Black-Throated Wind ;
+Row Jimmy ; Cassidy ; Don't Ease Me In
+SET2    Cold Rain And Snow ; Box Of Rain ; Looks Like Rain ; Crazy Fingers
+; Estimated Prophet > Supplication Jam > Uncle John's Band > Drums > Space
+> The Other One > Wharf Rat > Around And Around
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING       SB 190
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer)
+
+BAND    Grateful Dead
+VENUE   Shoreline Amphitheater
+CITY    Mountainview
+STATE   CA
+DATE    08/16/91
+SET1    Jack Straw ; Bertha ; It's All Over Now ; Ramble On Rose ;
+Desolation Row ; Dark Star > Promised Land
+SET2    Scarlet Begonias > Victim or the Crime > Fire On The Mountain ;
+Truckin' ; Drums > Space > Playin' Reprise > Standing On The Moon > Good
+Lovin'
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING       SB 180
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; posting from dead-heads
+and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Shoreline Amphitheater
+CITY    Mountainview
+STATE   CA
+DATE    08/17/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; Wang Dang Doodle ;
+Brown Eyed Women ; Queen Jane Approximately ; Tennessee Jed ; The Music
+Never Stopped
+SET2    Man Smart Woman Smarter ; Ship Of Fools ; Smokestack Lightnin' >
+He's Gone > Jam > Drums > Space > Dark Star Jam > Morning Dew ; One More
+Saturday Night
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING       SB 180
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer)
+
+BAND    Grateful Dead
+VENUE   Shoreline Amphitheater
+CITY    Mountainview
+STATE   CA
+DATE    08/18/91
+SET1    Hell In A Bucket ; Jack-A-Roe; C.C. Rider > It Takes A Lot To Laugh
+It Takes A Train To Cry ; Beat It On Down The Line ; West L.A. Fadeaway ;
+When I Paint My Masterpiece ; Stagger Lee ; Johnny B. Goode
+SET2    Deal [8:41] ; Samson and Delilah [8:40] ; Mississippi Half-Step
+Uptown Toodleloo [8:15] ; Feel Like A Stranger [8:20] > Drums > Space >
+China Doll > Goin' Down The Road Feelin' Bad >Throwin' Stones > Not Fade
+Away
+SET3
+ENCORE  Brokedown Palace
+COMMENTS
+RECORDING       SB 180
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; posting from dead-heads
+and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Richfield Coliseum
+CITY    Richfield
+STATE   OH
+DATE    09/04/91
+SET1    Let the Good Times Roll ; Jack Straw ; Jack-A-Roe ; Walkin' Blues ;
+Friend Of The Devil ; Black-Throated Wind ; Tennessee Jed ; When I Paint My
+Masterpiece ; Cold Rain And Snow ; Promised Land
+SET2    Scarlet Begonias > Fire On The Mountain ; Estimated Prophet ; He's
+Gone> Drums > Space > China Doll > The Wheel > Throwin' Stones > Not Fade
+Away
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Richfield Coliseum
+CITY    Richfield
+STATE   OH
+DATE    09/05/91
+SET1    Mississippi Half-Step Uptown Toodleloo ; Little Red Rooster ;
+Stagger Lee ; Queen Jane Approximately ; Ramble On Rose ; Cassidy ; Don't
+Ease Me In
+SET2    China Cat Sunflower > I Know You Rider ; Woman are Smarter ; Ship
+Of Fools ; Truckin' > Smokestack Lightnin' > Drums > Space > I Need A
+Miracle > Black Peter > Sugar Magnolia
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Richfield Coliseum
+CITY    Richfield
+STATE   OH
+DATE    09/06/91
+SET1    Feel Like A Stranger ; Bertha ; Wang Dang Doodle ; Peggy-O ; Just
+Like Tom Thumb's Blues ; It's All Over Now ; Bird Song
+SET2    Victim or the Crime ; Crazy Fingers ; Playin' In The Band >
+Terrapin Station > Drums > Space > All Along The Watchtower > Stella Blue >
+Around And Around
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/08/91
+SET1    Touch Of Grey ; Greatest Story Ever Told ; Loser ; New Minglewood
+Blues ; Candyman ; Big River > Maggie's Farm ; Row Jimmy ; Let It Grow
+
+SET2    Samson and Delilah ; Eyes Of The World ; Saint Of Circumstance >
+Drums > Space > The Other One > Wharf Rat > Good Lovin'
+SET3
+ENCORE  Attics of My Life
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/09/91
+SET1    Picasso Moon ; Sugaree ; Me And My Uncle > Mexicali Blues ; They
+Love Each Other ; Stuck Inside of Mobile With The Memphis Blues Again ;
+Loose Lucy ; The Music Never Stopped
+SET2    Iko Iko ; Looks Like Rain ; New Speedway Boogie > Playin' Reprise >
+Uncle John's Band > Drums > Space > The Last Time > Morning Dew
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/10/91
+SET1    Shakedown Street ; C.C. Rider > It Takes A Lot To Laugh It Takes A
+Train To Cry ; Black-Throated Wind ; High Time ; Cassidy ; Deal
+SET2    Help On The Way > Slipknot! > Franklin's Tower ; Estimated Prophet
+> Dark Star > Drums > Space > Dark Star Reprise > I Need A Miracle >
+Standing On The Moon > Turn On Your Love Light
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/12/91
+SET1    Hell In A Bucket ; Bertha ; Walkin' Blues ; Ramble on Rose ; Beat
+It On Down The Line ; Big Railroad Blues ; Just Like Tom Thumb's Blues ;
+Let It Grow
+SET2    Sugar Magnolia > Foolish Heart > Playin' In The Band > Terrapin
+Station > Drums > Space > The Wheel > Black Peter > Around And Around >
+Sunshine Daydream
+SET3
+ENCORE  Box of Rain
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/13/91
+SET1    Touch Of Grey ; Wang Dang Doodle ; Peggy-O ; Big River > Cumberland
+Blues ; Althea ; When I Paint My Masterpiece ; Bird Song
+SET2    Victim or the Crime ; Scarlet Begonias > Fire On The Mountain >
+Drums > Space > The Other One > Stella Blue > Throwin' Stones > Not Fade
+Away
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/14/91
+SET1    Let the Good Times Roll ; Jack Straw ; Friend Of The Devil ; Little
+Red Rooster ; Jack-A-Roe ; Desolation Row ; Tennessee Jed ; Promised Land
+SET2    China Cat Sunflower > I Know You Rider ; Ship Of Fools ; Truckin' >
+Spoonful > He's Gone > Drums > Space > All Along The Watchtower > China
+Doll ; One More Saturday Night
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/16/91
+SET1    Feel Like A Stranger ; Bertha ; New Minglewood Blues ; It Must Have
+Been The Roses ; Dire Wolf ; Queen Jane Approximately ; West L.A. Fadeaway
+; The Music Never Stopped ; Don't Ease Me In
+SET2    Mississippi Half-Step Uptown Toodleloo ; Saint Of Circumstance ;
+Comes a Time ; Uncle John's Band > Drums > Space > Goin' Down The Road
+Feelin' Bad > Attics of My Life > Good Lovin'
+SET3
+ENCORE  Johnny B. Goode
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/17/91
+SET1    Iko Iko ; Greatest Story Ever Told ; Althea ; Little Red Rooster ;
+Loser ; It's All Over Now ; Brown Eyed Women ; Picasso Moon
+SET2    Box of Rain ; Cold Rain And Snow ; Samson and Delilah ; Eyes Of The
+World > Drums > Space > The Last Time > Black Peter > Throwin' Stones > Not
+Fade Away
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Madison Square Garden
+CITY    New York City
+STATE   NY
+DATE    09/18/91
+SET1    Midnight Hour ; Ramble On Rose ; Wang Dang Doodle ; Candyman ;
+Stuck Inside of Mobile With The Memphis Blues Again ; Row Jimmy ; Jack
+Straw
+SET2    Victim or the Crime > Crazy Fingers > Playin' In The Band >
+Terrapin Station > Drums > Space > The Wheel > I Need A Miracle > Wharf Rat
+> Sugar Magnolia
+SET3
+ENCORE  Brokedown Palace
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Boston Garden
+CITY    Boston
+STATE   NY
+DATE    09/20/91
+SET1    Touch Of Grey ; Little Red Rooster ; Jack-A-Roe ; Black-Throated
+Wind ; Stagger Lee ; When I Paint My Masterpiece ; Bird Song
+SET2    Help On The Way [4:04] > Slipknot! [6:04] > Fire On The Mountain
+[12:20] ; Estimated Prophet [12:20] > Truckin' [7:20] > Jam [7:#09] > Drums
+[9:02] > Space [11:48] > All Along The Watchtower [7:13] > Morning Dew
+[11:40]
+SET3
+ENCORE  Turn On Your Love Light [5:52]
+COMMENTS
+RECORDING
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer)
+
+BAND    Grateful Dead
+VENUE   Boston Garden
+CITY    Boston
+STATE   MA
+DATE    09/21/91
+SET1    Hell In A Bucket ; They Love Each Other ; New Minglewood Blues ;
+Peggy-O ; Tom Thumb's Blues ; Cassidy ; Deal
+SET2    Uncle John's Band > Saint Of Circumstance > Eyes Of The World >
+Drums > Space > The Other One > Wharf Rat > One More Saturday Night
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Boston Garden
+CITY    Boston
+STATE   MA
+DATE    09/22/91
+SET1    Shakedown Street ; C.C. Rider > It Takes A Lot To Laugh It Takes A
+Train To Cry ; Me And My Uncle > Maggie's Farm ; Brown Eyed Women ; Let It
+Grow
+SET2    Samson and Delilah ; Iko Iko ; Looks Like Rain > He's Gone >
+Nobody's Fault But Mine > Spoonful > Drums > Space > The Last Time > Stella
+Blue > Sugar Magnolia
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Boston Garden
+CITY    Boston
+STATE   MA
+DATE    09/24/91
+SET1    Let the Good Times Roll ; Feel Like A Stranger ; Althea ; It's All
+Over Now ; High Time ; Beat It On Down The Line ; Big Railroad Blues ;
+Desolation Row ; New Speedway Boogie
+SET2    China Cat Sunflower > I Know You Rider > Man Smart Woman Smarter >
+Ship Of Fools ; Dark Star > Drums > Space > Foolish Heart > I Need A
+Miracle > Standing On The Moon > Around And Around
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Boston Garden
+CITY    Boston
+STATE   MA
+DATE    09/25/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; Walkin' Blues ; It
+Must Have Been The Roses ; Dire Wolf ; Queen Jane Approximately ; Tennessee
+Jed ; The Music Never Stopped
+SET2    Victim or the Crime > Crazy Fingers > Playin' In The Band >
+Terrapin Station ; Drums > Space > That Would Be Something > Playin'
+Reprise > China Doll > Throwin' Stones > Not Fade Away
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Boston Garden
+CITY    Boston
+STATE   MA
+DATE    09/26/91
+SET1    Jack Straw ; Cold Rain And Snow ; Wang Dang Doodle ; Candyman ;
+Mexicali Blues > Cumberland Blues ; Picasso Moon ; Box of Rain
+SET2    Dark Star [16:04] > Saint Of Circumstance > Eyes Of The World >
+Drums > Space > The Other One > Dark Star [6:40] > Attics of My Life > Good
+Lovin'
+SET3
+ENCORE  Brokedown Palace ~ And We Bid You Goodnight
+COMMENTS
+RECORDING
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; chimpowl@well.com (Jim
+Powell) ; posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    10/27/91
+SET1    Sugar Magnolia ; Sugaree ; Walkin' Blues ; Althea ; When I Paint My
+Masterpiece ; Candyman ; Cassidy ; Touch Of Grey
+SET2    China Cat Sunflower > I Know You Rider ; Samson and Delilah > Ship
+Of Fools ; Iko Iko > Hey Bo Diddley > Mona > Drums > Space > The Wheel > I
+Need A Miracle > Wharf Rat > Good Lovin'
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS        With Carlos Santana and Gary Duncan
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    10/28/91
+SET1    Bertha ; Greatest Story Ever Told ; Peggy-O ; Wang Dang Doodle ;
+Loose Lucy ; Stuck Inside of Mobile With The Memphis Blues Again ; Bird
+Song
+SET2    Saint Of Circumstance > Crazy Fingers > Playin' In The Band ; Drums
+> Space > All Along The Watchtower > Stella Blue > Turn On Your Love Light
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    10/30/91
+SET1    Picasso Moon ; Friend Of The Devil ; Me And My Uncle > Maggie's
+Farm ; Brown Eyed Women ; It's All Over Now ; Tennessee Jed ; The Music
+Never Stopped
+SET2    Eyes Of The World > Estimated Prophet > Terrapin Station > Jam >
+Drums > Space > The Other One > Black Peter > Around And Around
+SET3
+ENCORE  The Mighty Quinn (Quinn The Eskimo)
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    10/31/91
+SET1    Help On The Way > Slipknot! > Franklin's Tower ; Little Red Rooster
+; Loser ; Just Like Tom Thumb's Blues ; Let It Grow
+SET2    Scarlet Begonias > Fire On The Mountain > Truckin' > Spoonful (1) >
+Dark Star [11:16] (1) (2) > Drums [14:28] > Space [12:17] (1) > Dark Star
+Reprise [3:18] (1) > The Last Time (1) > Standing On The Moon > Throwin'
+Stones > Not Fade Away
+SET3
+ENCORE  Werewolves Of London (3)
+COMMENTS        (1) with Gary Duncan on guitar ; (2) Ken Kesey gives spoken
+eulogy for Bill Graham ; (3) sung as Werewolves of Oakland
+RECORDING       SB 180
+CONTRIBUTERS    bbrewer@europa.com (Ben Brewer) ; chimpowl@well.com (Jim Powell)
+
+BAND    Grateful Dead
+VENUE   Polo Field, Golden Gate Park
+CITY    San Fransisco
+STATE   CA
+DATE    11/03/91
+SET1    Hell In A Bucket ; China Cat Sunflower > I Know You Rider ; Wang
+Dang Doodle ; Born on the Bayou ; Green River ; Bad Moon Rising ; Proud
+Mary ; Truckin' > The Other One > Wharf Rat ; Sunshine Daydream ; Forever
+Young ; Touch Of Grey
+SET2
+SET3
+ENCORE
+COMMENTS        Bill Graham Memorial Concert
+RECORDING       FM
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    12/27/91
+SET1    Cold Rain And Snow ; Little Red Rooster ; They Love Each Other ;
+Mama Tried > Mexicali Blues ; Loose Lucy ; Stuck Inside of Mobile With The
+Memphis Blues Again ; Stagger Lee ; The Music Never Stopped
+SET2    Scarlet Begonias > Fire On The Mountain > Looks Like Rain >
+Terrapin Station > Jam > Drums > Space > The Wheel > All Along The
+Watchtower > Black Peter > Around And Around
+SET3
+ENCORE  It's All Over Now Baby Blue
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    12/28/91
+SET1    One More Saturday Night ; Jack Straw ; Peggy-O ; New Minglewood
+Blues ; Dire Wolf ; Queen Jane Approximately ; Loser ; Cassidy ; Deal
+SET2    Foolish Heart > Man Smart Woman Smarter ; Uncle John's Band >
+Playin' In The Band > Drums > Space > I Need A Miracle > Standing On The
+Moon > Throwin' Stones ; One More Saturday Night Reprise
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    12/30/91
+SET1    Touch Of Grey ; Wang Dang Doodle ; Row Jimmy ; Big River > Maggie's
+Farm ; Ramble on Rose ; Just Like Tom Thumb's Blues ; Bird Song ; Promised
+Land
+SET2    China Cat Sunflower > I Know You Rider ; Samson and Delilah ; Ship
+Of Fools > Saint Of Circumstance ; Drums > Space > The Last Time  > Stella
+Blue > Turn On Your Love Light
+SET3
+ENCORE  The Weight
+COMMENTS
+RECORDING
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    12/31/91
+SET1    Hell In A Bucket ; Candyman ; Beat It On Down The Line ; It Must
+Have Been The Roses ; Black-Throated Wind ; West L.A. Fadeaway ; When I
+Paint My Masterpiece ; Help On The Way > Slipknot! > Franklin's Tower
+SET2    Not Fade Away > Eyes Of The World > Estimated Prophet > Drums >
+Space > The Other One > Wharf Rat > Sugar Magnolia
+SET3
+ENCORE  Knockin' On Heaven's Door
+COMMENTS        Baba Olatungi and Bela Fleck and the Flecktones opened
+RECORDING       FM
+CONTRIBUTERS    posting from dead-heads and/or rec.music.gdead
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #291
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

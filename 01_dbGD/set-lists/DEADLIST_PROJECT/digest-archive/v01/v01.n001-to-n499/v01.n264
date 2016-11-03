@@ -1,0 +1,784 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #264
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 24 April 1997      Volume 01 : Number 264
+
+In this issue:
+
+	"alternative" format spec
+	Re: DeadLists Digest V1 #263
+	HTML delimiter replacement
+	from a lurker...
+	Re: your mail
+	Re: Parenthesis in song names - good news
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: joleynic@scudc.scu.edu
+Date: Wed, 23 Apr 1997 16:55:00 -0700
+Subject: "alternative" format spec
+
+Below is a first attempt at defining the "alternative" format
+that can be used instead of the standard database format.  Instead of
+rigorously defining the format, this is just a FAQ list about the format.
+Never mind that the only FAQ about the alternative format is "When
+will the alternative format be documented?".
+
+Please let me know if this is useful in this format, or if a document
+in the form of the standard database format spec would be more useful.
+If you have any questions, please send them to me so I can add them to
+this document.
+
+Eventually, I'll convert this to HTML, but for now it's just flat
+text.
+
+			John
+
+This document describes the "alternative" format, which can be used
+instead of the deadlists standard database format to keep setlists
+for the deadlists project.  There is a conversion script that converts
+setlists from this alternative format to the standard format.
+
+This document is a collection of questions and answers about the
+alternative format.  It doesn't define the alternative format in
+any formal way, like Backus-Naur Form, it just has a number of examples
+and explanations about the format.  The intent is that reading 
+question 1.1 can get you started working with setlists in this
+format, and when you run into additional questions you can search
+this for the questions and answers.
+
+Questions:
+
+1    General examples
+1.1  What does a typical setlist look like?
+1.2  What does a setlist with song timings look like?
+1.3  Does a setlist with song timings need square brackets around the timings?
+1.4  What if part of a song is cut or missing from the tape?
+1.5  What if there are multiple comments about a song?
+1.6  For the long, usually jammed songs like Dark Star, Playing In The
+1.7  What's a song map look like?
+1.8  What does a pretty complicated setlist look like?
+2  Specific format details
+2.1  Do tabs and newlines matter, like the standard deadlists database
+2.2  Do keywords/field names matter?
+2.3  What are keywords/field names?
+2.4  Can keywords/field names be used in the COMMENTS?
+2.5  What if a show is missing a field?
+2.6  What order should the fields be in?
+2.7  Is the name of the field RECORDING or RECORDINGS?
+2.8  What song names does the alternative format use?
+2.9  Can there be newlines within song names?
+2.10 What do those %, :, and ~ characters between songs mean?
+
+
+1    General examples
+
+1.1  What does a typical setlist look like?
+
+	Here's an example of what a typical setlist looks like:
+
+    BAND    Grateful Dead
+    DATE    10/17/94
+    VENUE   Madison Square Garden
+    CITY    New York
+    STATE   NY
+    SET1    In The Midnight Hour ; Peggy-O ; New Minglewood Blues ; 
+	    Tennessee Jed ; Eternity (1); Friend Of The Devil ; 
+	    The Promised Land
+    SET2    Eyes Of The World > Man Smart, Woman Smarter ; Crazy Fingers >
+	    Estimated Prophet > Drums > Space > The Wheel >
+	    All Along The Watchtower > Morning Dew
+    SET3
+    ENCORE  Rainy Day Woman #12 & #35 (2)
+    COMMENTS        (1) acoustic Bob (2) with Bob Dylan on acoustic and vocals
+    RECORDING       SBD 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+	Most of the details should be fairly obvious.  The main
+	differences between this format and typical hand-written setlists
+	are that each field must be marked by its "field keyword", which
+	must be capitalized, and that comments are marked with a number
+	in parenthesis, like "(1)" and "(2)", instead of asterisks, like 
+	"*" and "**".
+
+
+1.2  What does a setlist with song timings look like?
+
+	Here's an example of what a typical setlist with song timings looks
+	like:
+
+    BAND    Grateful Dead
+    DATE    10/17/94
+    VENUE   Madison Square Garden
+    CITY    New York
+    STATE   NY
+    SET1    In The Midnight Hour [5:04] ; Peggy-O [6:16] ;
+	    New Minglewood Blues [7:27]; Tennessee Jed [7:37]; 
+	    Eternity (1) [9:24]; Friend Of The Devil [7:27] ; 
+	    The Promised Land [4:39]
+    SET2    Eyes Of The World [26:03] > Man Smart, Woman Smarter [7:21] ;
+	    Crazy Fingers [7:51] > Estimated Prophet [13:49] > Drums [15:18] >
+	    Space [15:30] > The Wheel [6:07] >
+	    All Along The Watchtower [7:07] > Morning Dew [12:16]
+    SET3
+    ENCORE  Rainy Day Woman #12 & #35 (2) [4:51]
+    COMMENTS        (1) acoustic Bob (2) with Bob Dylan on acoustic and vocals
+    RECORDING       SBD 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+	The timings go after the song.  If the song has both a comment and
+	a timing, the comment must come first.
+
+	If a song is less than 60 seconds, you still have to
+	include the colon in the timing, and you also have to put a
+	0 before the colon.  For example, a 30 second song should
+	be written as "Some Short Song [0:30]".  
+
+	The square brackets around the timings are optional (see question
+	1.3 for further details).
+
+
+1.3  Does a setlist with song timings need square brackets around the timings?
+
+	No, the square brackets are optional.  The setlist in question
+	1.2 could also be written like this:
+
+    BAND    Grateful Dead
+    DATE    10/17/94
+    VENUE   Madison Square Garden
+    CITY    New York
+    STATE   NY
+    SET1    In The Midnight Hour 5:04 ; Peggy-O 6:16 ;
+	    New Minglewood Blues 7:27; Tennessee Jed 7:37; 
+	    Eternity (1) 9:24; Friend Of The Devil 7:27 ; 
+	    The Promised Land 4:39
+    SET2    Eyes Of The World 26:03 > Man Smart, Woman Smarter 7:21 ;
+	    Crazy Fingers 7:51 > Estimated Prophet 13:49 > Drums 15:18 >
+	    Space 15:30 > The Wheel 6:07 >
+	    All Along The Watchtower 7:07 > Morning Dew 12:16
+    SET3
+    ENCORE  Rainy Day Woman #12 & #35 (2) 4:51
+    COMMENTS        (1) acoustic Bob (2) with Bob Dylan on acoustic and vocals
+    RECORDING       SBD 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+	The timings go after the song.  If the song has both a comment and
+	a timing, the comment must come first.
+
+	If a song is less than 60 seconds, you still have to
+	include the colon in the timing, and you also have to put a
+	0 before the colon.  For example, a 30 second song should
+	be written as "Some Short Song 0:30".
+
+
+1.4  What if part of a song is cut or missing from the tape?
+
+	Songs with cuts can be notated by placing a # with the timing.
+	If there is a song whose beginning is missing, the # should be
+	placed before the minutes of the timing.  For example, the timing
+	for a song that is missing its beginning and then is 3 minutes long
+	should be written as [#3:00].  If a song has a cut in the middle, the
+	# should be placed after the colon of the timing.  So a song that
+	is 3 minutes long but has part of its middle missing, should be
+	written as [3:#00].  If the end of a song is cut, then the # should
+	be placed after the seconds of the timing.  A 3 minute song whose
+	ending is cut should be written as [3:00#].  The setlist below
+	has a number of cuts.  The beginning of Dire Wolf and the beginning
+	of Drums is missing.  There is a cut in the middle of Morning Dew,
+	and the end of Brokedown Palace is missing.
+
+    BAND    Grateful Dead
+    DATE    06/21/89
+    VENUE   Shoreline Amphitheater
+    CITY    Mountain View
+    STATE   CA
+    SET1    Jam [0:47] ; Hide Away [1:39] ; Touch Of Gray [6:10] ;
+	    New Minglewood Blues [7:04] ; Ramble On Rose [6:00] ;
+	    Box Of Rain [4:47] ; Dire Wolf [#3:07] ;
+	    When I Paint My Masterpiece [5:07] ; Row Jimmy [9:55] ;
+	    Cassidy [6:20] ; Deal [10:16]
+    SET2    Scarlet Begonias [7:46] > Hell In A Bucket [5:44] ;
+	    Ship of Fools [7:44] ; Estimated Prophet [10:14] >
+	    Eyes Of The World [12:40] > Drums [#9:52] > Space [15:02] >
+	    Truckin' [6:51] > The Other One [5:16] >
+	    Morning Dew [11:#42] ~ Turn On Your Lovelight [8:12] 
+    SET3
+    ENCORE  Brokedown Palace [5:23#]
+    COMMENTS        
+    RECORDING       FM 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+
+1.5  What if there are multiple comments about a song?
+
+	Multiple comments may either be written separately, like these
+	comments about Lovelight:
+
+    BAND	Grateful Dead
+    VENUE	Fillmore East
+    CITY	New York
+    STATE	NY
+    DATE	02/11/70b
+    SET1	Not Fade Away; Cumberland Blues; Cold Rain And Snow; 
+		High Time; Me And My Uncle;  Dark Star (1) > Spanish jam (1) > 
+		Lovelight (1) (2)
+    ENCORE	Uncle John's Band
+    COMMENTS	Late Show.  
+		This list is based on the 110 AUD.  There was more
+		than one AUD master made but only the better one seems
+		to circulate.  There is also about an hour of SBD in
+		circulation; it cuts in 8;08 minutes into the Dark Star,
+		with the most complete copies cutting out 3:16 before
+		the end of the Lovelight (or cutting to an AUD patch).
+		(1) Duane Allman joins during the last several minutes
+		of Dark Star (he is audible before Spanish jam); 
+		(2) Gregg Allman is first audible during Lovelight.  
+    RECORDING	110 AD  65 SB
+    CONTRIBUTORS	<chimpowl@well.com>
+
+	or all of the numbers may be put inside the parenthesis together
+	and separated by commas, like this:
+
+    BAND	Grateful Dead
+    VENUE	Fillmore East
+    CITY	New York
+    STATE	NY
+    DATE	02/11/70b
+    SET1	Not Fade Away; Cumberland Blues; Cold Rain And Snow; High Time;
+		Me And My Uncle; Dark Star (1) > Spanish jam (1) > 
+		Lovelight (1,2)
+    ENCORE	Uncle John's Band
+    COMMENTS	Late Show.  
+		This list is based on the 110 AUD.  There was more
+		than one AUD master made but only the better one seems
+		to circulate.  There is also about an hour of SBD in
+		circulation; it cuts in 8;08 minutes into the Dark Star,
+		with the most complete copies cutting out 3:16 before
+		the end of the Lovelight (or cutting to an AUD patch).
+		(1) Duane Allman joins during the last several minutes
+		of Dark Star (he is audible before Spanish jam); 
+		(2) Gregg Allman is first audible during Lovelight.  
+    RECORDING	110 AD  65 SB
+    CONTRIBUTORS	<chimpowl@well.com>
+
+
+1.6  For the long, usually jammed songs like Dark Star, Playing In The
+     Band and The Other One, is there any way to show how long the
+     jam before the first verse is, how long the jam between verses
+     is, etc.?
+
+	Yes, "song maps" can be used to show this.  See question 1.7 for
+	a description of song maps.
+
+
+1.7  What's a song map look like?
+
+	A song map is enclosed in curly brackets and looks something
+	like this song map for The Other One:
+	
+    BAND    Grateful Dead
+    DATE    06/21/89
+    VENUE   Shoreline Amphitheater
+    CITY    Mountain View
+    STATE   CA
+    SET1    Jam [0:47] ; Hide Away [1:39] ; Touch Of Gray [6:10] ;
+	    New Minglewood Blues [7:04] ; Ramble On Rose [6:00] ;
+	    Box Of Rain [4:47] ; Dire Wolf [#3:07] ;
+	    When I Paint My Masterpiece [5:07] ; Row Jimmy [9:55] ;
+	    Cassidy [6:20] ; Deal [10:16]
+    SET2    Scarlet Begonias [7:46] > Hell In A Bucket [5:44] (1) ;
+	    Ship of Fools [7:44] (1) ; Estimated Prophet [10:14] (1) >
+	    Eyes Of The World [12:40] (1) > Drums [#9:52] > Space [15:02] >
+	    Truckin' [6:51] (1) > The Other One [5:16] (1,2) >
+	    Morning Dew [11:#42] (1,3) ~ Turn On Your Lovelight [8:12] (1)
+    SET3
+    ENCORE  Brokedown Palace [5:23#]
+    COMMENTS        (1) with Clarence Clemmons
+		    (2) { theme [1:12] verse 1 [0:40] theme [2:26] 
+		          verse 2 [0:37] outro [0:21] }
+		    (3) Morning Dew timing from 2 different tapes, one of
+			    which had the last 3 minutes cut and one of
+			    which had a 1 minute cut in one of the
+			    early verses, so the time should be
+			    complete and correct
+    RECORDING       FM 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+	Although the song map can be placed directly in the set data,
+	it is recommended that all song maps go in the comment section,
+	like the example above.
+	
+	When the jamming is more diverse, song maps can be used to show
+	even more detail, like this song map for another version of
+	The Other One:
+
+    BAND    Grateful Dead
+    DATE    11/12/71
+    VENUE
+    CITY    San Antonio
+    STATE   TX
+    SET1    Truckin' [8:17] ; Loser [6:23] ; Beat It On Down The Line [3:02] ;
+	    Sugaree [6:28] ; Jack Straw [4:58] ; Tennessee Jed [6:35] ;
+	    El Paso [4:19] ; Brown Eyed Women [5:#17] ; Mexicali Blues [3:17] ;
+	    Black Peter [8:23] ; One More Saturday Night [4:33]
+    SET2    Ramble On Rose [5:45] ; Me And My Uncle [2:46] ;
+	    Cryptical Envelopement [2:00] > Drums [2:38] >
+	    The Other One (1) [20:35] > Cryptical Envelopement [5:24] ;
+	    Big Railroad Blues [3:15] ; Sugar Magnolia [5:59] ;
+	    Casey Jones [5:51] ; Johnny B. Goode [3:54]
+    SET3
+    ENCORE
+    COMMENTS        (1) { theme [1:55] spacey jam [0:23] theme [1:24]
+		    spacey jam [0:37] jam [1:05] spacey jam [0:38] space [0:38]
+		    spacey jam [0:29] jam [4:14] theme [0:09] verse 1 [0:37]
+		    theme [0:21] spacey jam [0:12] space [2:11]
+		    spacey jam [0:28] jam [0:10] theme [0:18] jam [0:39]
+		    spacey jam [2:04] theme [1:20] verse 2 [0:36] outro [0:07]}
+    RECORDING       SBD 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+
+1.8  What does a pretty complicated setlist look like?
+
+	The list below has just about everything:  timings, timings of
+	incomplete songs on the tape, comments, multiple comments about
+	the same song, and a song map.
+
+    BAND    Grateful Dead
+    DATE    06/21/89
+    VENUE   Shoreline Amphitheater
+    CITY    Mountain View
+    STATE   CA
+    SET1    Jam [0:47] ; Hide Away [1:39] ; Touch Of Gray [6:10] ;
+	    New Minglewood Blues [7:04] ; Ramble On Rose [6:00] ;
+	    Box Of Rain [4:47] ; Dire Wolf [#3:07] ;
+	    When I Paint My Masterpiece [5:07] ; Row Jimmy [9:55] ;
+	    Cassidy [6:20] ; Deal [10:16]
+    SET2    Scarlet Begonias [7:46] > Hell In A Bucket [5:44] (1) ;
+	    Ship of Fools [7:44] (1) ; Estimated Prophet [10:14] (1) >
+	    Eyes Of The World [12:40] (1) > Drums [#9:52] > Space [15:02] >
+	    Truckin' [6:51] (1) > The Other One [5:16] (1,2) >
+	    Morning Dew [11:#42] (1,3) ~ Turn On Your Lovelight [8:12] (1)
+    SET3
+    ENCORE  Brokedown Palace [5:23#]
+    COMMENTS        (1) with Clarence Clemmons
+		    (2) { theme [1:12] verse 1 [0:40] theme [2:26] 
+		          verse 2 [0:37] outro [0:21] }
+		    (3) Morning Dew timing from 2 different tapes, one of
+			    which had the last 3 minutes cut and one of
+			    which had a 1 minute cut in one of the
+			    early verses, so the time should be
+			    complete and correct
+    RECORDING       FM 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+2  Specific format details
+
+2.1  Do tabs and newlines matter, like the standard deadlists database
+     format?
+
+	No, they don't matter in the alternative format.  The conversion
+	script automatically puts them in the right place.  In the alternative
+	format, you must have a blank, or a tab, or a newline, to separate
+	words, but that's all.  The conversion script figures out what should
+	really be there and puts it there.  If you have multiple blanks,
+	or tabs, or newlines, the conversion script automatically gets
+	rid of them.
+
+	The example in question 1.2 could be written like this in the
+	alternative format, and the conversion script would convert
+	it just like the list in question 1.2:
+
+    BAND Grateful Dead DATE 10/17/94 VENUE Madison Square Garden
+    CITY New York STATE NY SET1 In The Midnight Hour [5:04] ; Peggy-O [6:16] ;
+    New Minglewood Blues [7:27]; Tennessee Jed [7:37]; Eternity (1) [9:24]; 
+    Friend Of The Devil [7:27] ; The Promised Land [4:39] SET2 Eyes Of The
+    World [26:03] > Man Smart, Woman Smarter [7:21] ; Crazy Fingers [7:51] >
+    Estimated Prophet [13:49] > Drums [15:18] > Space [15:30] > The Wheel
+    [6:07] > All Along The Watchtower [7:07] > Morning Dew [12:16] SET3 ENCORE
+    Rainy Day Woman #12 & #35 (2) [4:51] COMMENTS (1) acoustic Bob (2) with
+    Bob Dylan on acoustic and vocals RECORDING SBD 180 CONTRIBUTORS
+    johno@paul.rutgers.edu (John Oleynick)
+
+
+2.2  Do keywords/field names matter?
+
+	Yes, keywords/field names are very important in the alternative
+	format because they are what the conversion script uses to figure
+	out where to put blanks, tabs and newlines.  The keywords/field
+	names must be capitalized. 
+
+
+2.3  What are keywords/field names?
+
+	Keywords or field names describe the database field that
+	follows them.  There are 13 keywords:  BAND, DATE, VENUE, CITY, STATE,
+	SET1, SET2, SET3, ENCORE, COMMENTS, RECORDING, and CONTRIBUTORS.
+
+
+2.4  Can keywords/field names be used in the COMMENTS?
+
+	No, keywords/field names can not be used in the COMMENTS section
+	because it confuses the conversion program.  For example,
+	the following comment is not allowed:
+
+    COMMENTS	THE PLAYING IN THE BAND THAT ENDS SET1 IS ONE OF THE
+		FINEST RECORDINGS EVER MADE, AND A HINT OF WHAT WAS
+		TO COME IN SET2.
+	
+	The conversion program would get very confused by this, because
+	it would see the word "BAND" and think that it was the start
+	of a new show.  Then it would think that SET1 is the start
+	of the first set of the show, that RECORDINGS describes the
+	recording of the show and that SET2 describes the second set
+	of the show.  Just don't capitalize the keywords.  The
+	following comment is perfectly acceptable to the conversion
+	program:
+
+    COMMENTS	THE PLAYING IN THE Band THAT ENDS Set1 IS ONE OF THE
+		FINEST Recordings EVER MADE, AND A HINT OF WHAT WAS
+		TO COME IN Set2.
+	
+
+2.5  What if a show is missing a field?
+
+	Setlists in the alternative format are not required to have
+	all fields, and the conversion script will automatically add
+	any missing fields.  But, except for SET3, shows probably should
+	have all of the fields.  The conversion script will print
+	a warning if a show is missing a field, because it probably
+	indicates some problem with the show.  For example, the
+	setlist below does not have SET2 capitalized, so the conversion
+	script won't recognize it as a keyword.
+
+    BAND    Grateful Dead
+    DATE    10/17/94
+    VENUE   Madison Square Garden
+    CITY    New York
+    STATE   NY
+    SET1    In The Midnight Hour ; Peggy-O ; New Minglewood Blues ; 
+	    Tennessee Jed ; Eternity (1); Friend Of The Devil ; 
+	    The Promised Land
+    Set2    Eyes Of The World > Man Smart, Woman Smarter ; Crazy Fingers >
+	    Estimated Prophet > Drums > Space > The Wheel >
+	    All Along The Watchtower > Morning Dew
+    SET3
+    ENCORE  Rainy Day Woman #12 & #35 (2)
+    COMMENTS        (1) acoustic Bob (2) with Bob Dylan on acoustic and vocals
+    RECORDING       SBD 180
+    CONTRIBUTORS    johno@paul.rutgers.edu (John Oleynick)
+
+	The conversion script will think that this show consisted of
+	one very long set and that the 7th song played was a mysterious
+	song with the title of "The Promised Land Set2 Eyes Of The World".
+	The conversion script doesn't know about song titles, but it
+	will warn you that this show is missing SET2.
+	
+
+2.6  What order should the fields be in?
+
+	BAND must be the first field in a show, but after that the other 
+	fields can be in any order and the conversion script will
+	automatically put them into the right order.  Still, for consistency
+	with everyone else's lists, the fields should be in this order:
+	BAND, DATE, VENUE, CITY, STATE, SET1, SET2, SET3, ENCORE,
+	COMMENTS, RECORDING, and CONTRIBUTORS.
+
+	
+2.7  Is the name of the field RECORDING or RECORDINGS?
+
+	In the standard deadlists database format, the name of the
+	field is RECORDING, but the alternative format accepts either
+	(and automatically converts RECORDINGS to RECORDING).
+
+
+2.8  What song names does the alternative format use?
+
+	The alternative format uses the same song names as the
+	standard database format.  The conversion script does not
+	translate song names, so you must use the official song
+	names defined by the song list on the web page.  For example,
+	you must use the real title "Stuck In Mobile With The Memphis
+	Blues Again", not "Mobile" or "Memphis Blues" or "Mobile
+	Memphis Blues" or anything else.
+
+	Programs to help translate setlists into the proper names,
+	or at least point out what songs need to be changed, are
+	being developed.
+
+
+2.9  Can there be newlines within song names?
+
+	The alternative format allows newlines within song names, but it's 
+	probably not a good idea to use them.  If you have
+	to use your text editor or word processor to search
+	and replace song names, it might not recognize phrases
+	if they are split between 2 lines.
+	
+
+2.10 What do those %, :, and ~ characters between songs mean?
+
+	The definitions below are the same as the standard database
+	format:
+
+	song1 > song2  -  Song1 segues into song2 by a defined jam or
+			  continuous transition (sometimes called a "gazinta").
+			  No distinction is made between a smooth jam,
+			  such as Scarlet Begonias > Fire On The Mountain 
+			  or a rough, but continuous transition, such as I
+			  Need A Miracle > Stella Blue.
+	song1 ; song2  -  The band stops between song1 and song2 so
+			  there is no segue or continuous transition.
+	song1 ~ song2  -  The band stops between song1 and song2 but it
+			  is an intentional pause.  A common example
+			  of this would be Sugar Magnolia ~ Sunshine
+			  Daydream (although that particular example
+			  is never used in the setlists because Sugar
+			  Magnolia is assumed to include Sunshine
+			  Daydream).  "Intentional" pause is open to
+			  interpretation, so there is some subjectivity
+			  as to whether a transition is a ~ or a ;.
+	song1 % song2  -  There is a tape flip or cut between song1 and
+			  song2 so it is not possible to tell exactly what 
+			  kind of transition there was.
+	song1 ;; song2 -  The band stops for more than 60 seconds between
+			  song1 and song2.
+	song1 : song2  -  The tape has not been examined to see what
+			  kind of transition is between song1 and song2.
+			  Or perhaps only the setlist is known and there
+			  is no tape (in existence or circulation) to
+			  check the transitions.
+			
+
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Wed, 23 Apr 1997 17:25:51 -0700
+Subject: Re: DeadLists Digest V1 #263
+
+RE: the problem of double use of parens, and the fix:
+
+>From: "John F. Whitehead" <jfw@well.com>
+>A workaround I would suggest is fix the parser....[so]...
+>If the contents of the parens are just digits, then it's a note.
+
+>From: John Oleynick <johno@paul.rutgers.edu>
+>....that would be another change we'd have to make to the spec to do this,
+>....But, I think this may be one of the lesser evil work arounds.
+
+>From: Ryan Shriver <ryan@digicool.com>
+>At first I thought this would be too complex, but after fiddling with it
+>a little it works. Thanks for prodding me along John(s) :-)
+>If the Dead ever played a song titled 'Let Me In (83968)' we're fucked :-)
+
+We think alike - does this mean we're great minds? (I immediately thought
+of the above example also. Strictly speaking, the spec handles this because
+it only permits 2 digit references)
+I think this proposed change is good, & removes one of the big ambiguities
+in the spec.
+
+Ryan also says:
+>If nobody objects, I'd like to change the data spec so that only digits
+>inside () are valid for footnoting songs. Characters inside () are
+>reserved for song titles. Hooray, another small victory.
+
+Currently, the spec says that
+         A <comment-ref> is [ <literal-ref> | <numbered-ref> ]*
+         A <numbered-ref> is '(' <1-99> ')'
+         A <literal-ref> is [ <keyword>':'] <descrip> '*'
+
+so what's being suggested is eliminating literal references
+We could easily add them back in by merely changing the order of chars above
+         A <literal-ref> is ':' [ <keyword>] <descrip> '*'
+
+so that if the first character inside the parens is a digit or ":", it is a
+comment. (I hope this doesn't get confused with times. i.e. if someone makes
+a mistake and puts a time inside parens instead of brackets, this will get
+confused. Some other character could be substituted here, like "!" for ":".
+
+- ---------------------------
+>Another problem Tim B. mentioned was
+>
+>>> * Be careful not to put names of fields in the COMMENTS or anywhere else,
+>>> as that messes things up... for example, the following is bad:
+>>>
+>>> COMMENTS     Bobby takes his pants off during SET1. Phil dedicates
+>>> ENCORE to Richard Nixon
+>
+>This shouldn't be a problem if the parser only looks for field names at
+>the beginnings of lines, which I believe the spec requires.
+
+John says:
+>..... the alternative format that get run through the conversion
+> script....treats all white space the same and doesn't differentiate
+>between newlines, tabs and spaces, so it can't tell if a field
+>name is at the beginning of a line or not.
+
+It's why I was advocating that the keywords have ":" appended, e.g.
+"SET1: Me and my Uncle". A problem with depending on it being at the
+beginning of a line is that if the comments get wrapped when sending it
+through email, you might still get this problem. Unlikely, perhaps, but
+when it bites you, you won't be happy....
+>------------------------------
+>
+>From: John Oleynick <johno@paul.rutgers.edu>
+
+>> > * Do we omit SET3 if there was no third set?.....
+
+>> Yes, SET3 (as well as all the fields) must be in every setlist,
+
+>The database format requires SET3, but the undocumented alternative
+>format doesn't
+
+>> > * Is it RECORDING or RECORDINGS? Another thing for filters to catch...
+>> MUST be RECORDING.
+
+>The alternative format also allows both
+
+All sounds reasonable to me.
+
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Thayer Jennings <htj@geocities.com>
+Date: Wed, 23 Apr 1997 18:25:01 -0700
+Subject: HTML delimiter replacement
+
+Ryan Shriver <ryan@digicool.com> wrote:
+>My program can split on the following delimiters (%, ;, >). I can add
+>the \ if necessary (is anyone using this symbol)? The only problem is
+>that right now, I replace the ';' with a ',' when I write the setlists
+>to an HTML file (so it looks nicer). I leave the > delimiters alone.
+>What should I replace the % with when I write it to the HTML file? Or
+>should I leave it alone?
+
+FWIW, all '%' delimiters in the 1976 list can (and should) be replaced with either ';' or ','  (i.e. None are segues.  All cuts during segues have been noted as such in the RECORDINGS field and listed as '>' in the list.)
+
+- - Thayer Jennings
+
+
+------------------------------
+
+From: Edward Altman <ealtman@delphi.com>
+Date: Thu, 24 Apr 1997 00:20:33 -0400
+Subject: from a lurker...
+
+Hello,
+
+I am one of those that lurk in the shadows, observing and enjoying.  I
+want to crawl out for a moment to say that I really enjoyed the
+discussion about the (parentheses) problem.  This was a great example of
+people working together, and getting something done.  And it was fun
+reading also :-)  While I'm here I'll add a big thanks to those of you
+whose phenomenal efforts are putting something together that is truly
+worthwhile for everyone.
+
+Ed
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 24 Apr 1997 11:01:32 +0100 (BST)
+Subject: Re: your mail
+
+On Tue, 22 Apr 1997, Jim Powell wrote:
+
+> Let Me In
+> 
+> 	An alternate title might be "83968's My Dad".  You might try
+> searching under that title.
+
+
+Thanks for the info Jim.
+
+I'd tried similar things to this.  There's a country song called
+My Dad and one called Let Me In  but I havn't heard these to compare.
+
+I'll keep checking.
+
+> The Only Time Is Now
+> 
+> 	I think this is a Dead (or Warlocks) original, perhaps a Garcia
+> original.
+> 
+> You Don't Have To Ask
+> 
+> 	I'm damn near sure this is a Warlocks original, perhaps a Garcia
+> original.
+
+
+That's what I was thinking - I'll include notes to this effect.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 24 Apr 1997 14:29:52 +0100 (BST)
+Subject: Re: Parenthesis in song names - good news
+
+On Wed, 23 Apr 1997, Ryan Shriver wrote:
+
+> This assumes that notes are any sequence of digits inside () while a
+> song title is any sequence of characters inside of (). If the Dead ever
+> played a song titled 'Let Me In (83968)' we're fucked :-)
+
+
+And what if that rumoured soundcheck turns up where they tried
+out the Rimshots '(7-6-5-4-3-2-1) Blow Your Whistle', and followed 
+that up with the Spiders  '21 (3 * 7 = 21)'
+
+
+As to the Let Me In - I suspect that it is really called
+Let Me In and that no number (regardless of parentheses)
+is involved in the title.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+End of DeadLists Digest V1 #264
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

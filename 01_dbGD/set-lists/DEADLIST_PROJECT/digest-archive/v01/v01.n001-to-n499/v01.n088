@@ -1,0 +1,126 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #88
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 1 November 1996      Volume 01 : Number 088
+
+In this issue:
+
+	Re: DeadLists Digest V1 #86
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Fri, 01 Nov 1996 09:56:16 -0500
+Subject: Re: DeadLists Digest V1 #86
+
+Allen J. Baum wrote:
+> 
+> An alternative is a entry helper application and an alias file-
+> I did an alias file for the stak-o-dead setlists;
+> 
+> Basically, you type in a venue name-
+> First, expand the name using some common expansions.
+> For example, the song alias routine automatically creates versions
+> by stripping off leading 'A' and 'The', changing -ing endings to
+> -in or -in', changing 'and' to '&', stripping off parens, etc.
+> For venues, you'd probable change aud. to auditorium, theatre to theater,
+> remove periods, e.g. (U.C.L.A) ->(UCLA)-> UCLA
+> I brute forced it by generating all possibilities, then seeing if
+> any of them matched something in the alias file.
+> 
+> if it can't find it in the alias file, it ought to pop up a list of venues
+> that closely match (first n characters, or something). You either say
+> yea, that one, or,
+> no, this is new, or,
+> oops, I mistyped it.
+> If it's one that's already been seen, it adds the current one as an alias
+> to the one already seen, but enters the 'master' name, else it enters the
+> new venue.
+> 
+> This is not a cure for bad typing, but it sure makes it easier to enter
+> things- you have a good chunk of database now, & it makes sense to use
+> that data to help you enter more data.
+> 
+> Having said that, it's one more program to write (I did it in hypercard,
+> and it's ugly), but if it's table driven, it would be useful for venues and
+> setlists both (and we know that few setlists have spellings that match any
+> other!)
+
+This sounds interesting Allen. Would you plan on distributing this app
+to all the data entry persons, or would it have a Web front end?
+Hopefully, once we get this first one up and running, we will have time
+to develop applications that make the update process a lot easier. This
+approach is definitely something to consider.
+
+I tend to lean toward some sort of Web interface for updates to the
+setlists. Possibly a large form where setlists, venues, cities, etc. are
+entered and written to a database file. We could use drop down boxes to
+force syntax for venues and songs, cities and states. There could also
+be a text entry area for venues that don't appear in the Official Venue
+List. Same for other fields. The advantage of drop-down boxes, just as
+with Allen's app, is that they force consistency in the data. Whatever
+we decide to do, we need to develop some approach to checking the data
+when it's first entered.
+
+The reason I tend to lean towards the Web interface is that the
+additions and corrections would all be made in one place. No platform
+dependencies. Also, we wouldn't have to merge everyone's
+changes/additions together, which is something I am sort of scared of.
+Now, I am extremely spoiled by my direct connection to the Web, so I
+don't know what it's like to be a dialup customer. For people who pay by
+the hour, this would not be a good solution.
+
+Basic HTTP authentication (username and password) would provide security
+so only certain people could make additions/corrections. All additions
+and corrections could be temporarily written to a file, to be reviewed
+by a human, before being merged into the official setlist database. 
+
+I'll stop rambling now ;-) I just thought I would throw some ideas into
+the ring for everyone to think about. As soon as I can get something up
+for everyone to see, then I can think a little more about this next
+phase. 
+
+> >Below is the venue list that I extracted. I will also put a copy up at:
+> >http://www.digicool.com/ryan/songlist.html
+> 
+> typo alert: it didn't work (and shouldn't be songlist, should it?)
+
+Opps, sorry about that. Here is the correct URL:
+http://www.digicool.com/ryan/venuelist.html
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #88
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

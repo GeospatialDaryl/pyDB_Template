@@ -1,0 +1,87 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #62
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Thursday, 23 May 1996       Volume 01 : Number 062
+
+In this issue:
+
+	Re: DeadLists Digest V1 #61
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Wed, 22 May 1996 19:46:25 -0700
+Subject: Re: DeadLists Digest V1 #61
+
+>>      What do you want to use for a field separator?  The spec says
+>> a tab, but a couple of weeks ago Nathan suggested changing that to
+>> be a newline.  Yesterday I asked Allen Baum and Nathan, and Allen
+>> said probably a newline and Nathan said probably still a tab (for now,
+>> at least) but it would depend on what your search engine wanted.
+>
+>        I think a tab would give us the most flexibility. The biggest
+>advantage I see is that we will be able to format the data better within
+>fields, i.e.
+
+A newline is used between fields in a record.
+A tab could be used between songs in a field, BUT
+the song structure is: <title><ws><sep-char><ws><title2>....
+
+So it isn't
+        Shakedown,Rooster,Sugaree,Masterpiece,Alligator
+and it isn't
+        Shakedown   Rooster   Sugaree   Masterpiece   Alligator
+It's
+        Shakedown ; Rooster , Sugaree ;; Masterpiece > Alligator
+or maybe
+        (acoustic) Shakedown (1) [3:57]; Rooster (2) , Sugaree ;;
+Masterpiece > Alligator
+
+So, where do the tabs go? Before the punctuation, or after?
+The spec I wrote up says either, actually, and I think that's not a good idea.
+A program could change <tab><punc><tab> to <tab><punc><space> or something,
+but tab delimit expecting programs like excel will have problems.
+
+I'm going to repost the formal spec, because it was truncated from the
+posting I got here (Nathan actually told me that, but I thought there
+was no problem until I just looked at it here).
+
+I asked people to review it carefully, and I was not being fascetious
+(or however you spell that). Look at it, think about it. There is
+probably a bit too much generality in there - think about how you're
+going to massage you lists into this format.
+
+I can think of some changes I'd like to see already, like where to put tabs,
+that I'll propose in a few days.
+- ---------------------------------
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #62
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,223 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #269
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Sunday, 27 April 1997       Volume 01 : Number 269
+
+In this issue:
+
+	Notes about setlists ('73 - '77)
+	11/17/78 Acoustic set
+	Re: 11/17/78 Acoustic set
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Sun, 27 Apr 1997 14:42:21 -0400
+Subject: Notes about setlists ('73 - '77)
+
+These are the notes I took concerning the changes made to the setlists
+(received from ftp.math.ukans.edu) in order to get them working. These
+aren't meant to embarrass anyone, but I'm posting these publically in
+hopes that anyone working on an automatic song conversion script can see
+common descrepencies in song titles and use this information. Another
+hope is that the setlist caretakers can see what (if anything) they are
+doing incorrect in regards to data spec syntax, and if John can possibly
+address this with his script. Enjoy.
+
+The -> means "changed to". If no date is present, assume all dates.
+
+- ---- 1973 (73v2.txt) ----
+Let Me Sing -> Let Me Sing Your Blues Away
+06/10/73: That's Alright Mama -> That's All Right Mama
+06/22/73: I Know You Rider^E -> I Know You Rider
+
+- ---- 1974 (74v5.txt) ----
+Around and Around  -> Around And Around
+
+- ---- 1975 (75v1.txt) ----
+Stronger Than Dirt -> Stronger Than Dirt Or Milkin' The Turkey
+Note: The correct title for this tune is still under debate, so once the
+correct title is found, the setlist should be changed accordingly.
+08/13/75: Other One -> The Other One
+08/13/75: Goin -> Goin'
+09/28/75: Goin -> Goin'
+09/28/75: Truckin -> Truckin'
+09/28/75: Saturday Night -> One More Saturday Night
+09/28/75: Roses -> It Must Have Been The Roses
+
+- ---- 1976 (76v1.txt) ----
+: -> ;
+Around and Around -> Around And Around
+Dancin' In The Street -> Dancin' In The Streets
+Ship of Fools -> Ship Of Fools
+06/19/76: (1) The Music Never Stopped -> The Music Never Stopped (1)
+06/23/76: (1) The Music Never Stopped -> The Music Never Stopped (1)
+06/23/76: Dancin -> Dancin'
+07/14/76: Removed EMCORE Johnny B. Goode from SET3 field
+07/16/76: Stronger Than Dirt -> Stronger Than Dirt Or Milkin' The Turkey
+07/17/76: The Other One first verse -> The Other One (2)
+07/17/76: The Other One second verse -> The Other One (3)
+07/18/76: The Other One third verse -> The Other One (3)
+08/04/76: Dancin' 1 -> Dancin'
+09/30/76: Minglewood -> New Minglewood Blues
+09/30/76: Wharf Rat [11:1#] 4 -> Wharf Rat [11:1#]
+10/01/76: (1) Big River -> Big River (1)
+10/09/76: (1) St Stephen [4:36] -> Saint Stephen [4:36]
+10/09/76: Added Hitchcock Tuning to Official Song List
+12/31/76: And We Bid You Goodnight -> And We Bid You Good Night
+
+- ---- 1977 (77v2.txt) ----
+'on' in song titles -> On
+'in' in song titles -> In
+'the' in song titles -> The
+'of' in song titles -> Of
+'it' in song titles -> It
+Me & My Uncle -> Me And My Uncle
+Samson & Delilah -> Samson And Delilah
+Peggy O. -> Peggy-O
+Mississippi Half-Step -> Mississippi Half-Step Uptown Toodleloo
+Brown-Eyed Women -> Brown Eyed Women
+Around & Around -> Around And Around
+Cold, Rain, & Snow -> Cold Rain & Snow
+Minglewood Blues -> New Minglewood Blues
+St. Stephen -> Saint Stephen
+Comes a Time -> Comes A Time
+Might as Well -> Might As Well
+Goin' Down the Road-> Goin' Down The Road Feeling Bad
+Slipknot -> Slipknot!
+Finiculi Finicula -> Finiculi Finicula Tuning
+Beer Barrell Polka -> Beer Barrel Polka Tuning
+Removed all 'none' in ENCORE fields
+04/22/77: Mojo [3:24] -> Jam (1) (in COMMENTS: (1) Mojo)
+11/05/77: Phil jam -> Jam (1)  (in COMMENTS: (1) Featuring Phil Lesh)
+12/29/77: transitional space -> Space
+Fixed a few minor typos
+
+I will post the revised setlists (updated version number) to both
+ftp.math.ukans.edu and ftp.deadlists.com soon for the caretakers to use
+for their updates and/or changes.
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Sun, 27 Apr 1997 12:46:58 -0800
+Subject: 11/17/78 Acoustic set
+
+At 17:34 -0800 1/16/97, gordon sharpless wrote:
+>BAND    Grateful Dead
+>VENUE   Rambler Room, Loyola University
+>CITY    Chicago
+>STATE   IL
+>DATE    11/17/78a
+>SET1    Winin' Boy Blues 4:09 ; Tom Dooley 3:15 ; This Time Forever 4:38 ;
+>Deep
+>Elem Blues 3:19 ; Kansas City Moan 3:38 ; Knockin' on Heaven's Door 7:59 ;
+>Big Boy Pete 3:18 ; Jack-A-Roe 4:32 ; Dark Hollow 3:39 ; Oh Boy 2:08
+>SET2
+>SET3
+>ENCORE
+>COMMENTS        acoustic, w/o Keith and Donna
+>RECORDINGS      AUD 45 one master. The tape is not *that* bad for the
+>first few
+>songs until the recorder is hidden in a jacket at which point it becomes
+>quite muffled.
+>CONTRIBUTORS    <paleo550@philly.infi.net> (Gordon Sharpless)
+
+I made a DAT of the soundboard master cassette in 1995, and I just
+rediscovered it this weekend.  I'm going to broadcast everything I've got
+(cuts in during Whinin' Boy BLues) in the next few weeks.
+
+It's a fine, loose, sweet little show.  The recording is pretty clear, but
+conditions were not optimal.
+
+
+  David Gans    tnf@well.com
+  Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+  http://www.well.com/user/tnf/
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sun, 27 Apr 1997 13:18:38 -0700
+Subject: Re: 11/17/78 Acoustic set
+
+Feel free to post sbd timings (for example, in the form of your show logs)
+to DeadLists :-)
+
+At 12:46 PM 4/27/97 -0800, you wrote:
+>At 17:34 -0800 1/16/97, gordon sharpless wrote:
+>>BAND    Grateful Dead
+>>VENUE   Rambler Room, Loyola University
+>>CITY    Chicago
+>>STATE   IL
+>>DATE    11/17/78a
+>>SET1    Winin' Boy Blues 4:09 ; Tom Dooley 3:15 ; This Time Forever 4:38 ;
+>>Deep
+>>Elem Blues 3:19 ; Kansas City Moan 3:38 ; Knockin' on Heaven's Door 7:59 ;
+>>Big Boy Pete 3:18 ; Jack-A-Roe 4:32 ; Dark Hollow 3:39 ; Oh Boy 2:08
+>>SET2
+>>SET3
+>>ENCORE
+>>COMMENTS        acoustic, w/o Keith and Donna
+>>RECORDINGS      AUD 45 one master. The tape is not *that* bad for the
+>>first few
+>>songs until the recorder is hidden in a jacket at which point it becomes
+>>quite muffled.
+>>CONTRIBUTORS    <paleo550@philly.infi.net> (Gordon Sharpless)
+>
+>
+>I made a DAT of the soundboard master cassette in 1995, and I just
+>rediscovered it this weekend.  I'm going to broadcast everything I've got
+>(cuts in during Whinin' Boy BLues) in the next few weeks.
+>
+>It's a fine, loose, sweet little show.  The recording is pretty clear, but
+>conditions were not optimal.
+>
+>
+>  David Gans    tnf@well.com
+>  Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+>  http://www.well.com/user/tnf/
+>
+>
+>
+>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #269
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

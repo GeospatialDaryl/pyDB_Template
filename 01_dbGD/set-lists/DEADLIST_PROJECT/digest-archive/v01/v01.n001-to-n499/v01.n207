@@ -1,0 +1,348 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #207
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 11 March 1997       Volume 01 : Number 207
+
+In this issue:
+
+	format conversion script
+	93 caretaker
+	Re: 1994 deadlists
+	Where have these songs come from
+	Re: Where have these songs come from
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Mon, 10 Mar 1997 21:06:30 -0500
+Subject: format conversion script
+
+Below is a script that converts setlists from a more human-readable
+form that Jim and Gordon (and now myself) have been using 
+into the official v1.3.1 database format.  I took
+my previous script, which was an ugly tangle of sh/sed/awk/etc.
+and turned it into a single ugly gawk program.  Alot of Unix
+machines already have gawk, or at least nawk (ask me which
+few lines you need to change to use nawk instead of gawk),
+and if not it's easy to download and compile.  You can
+download executable versions for DOS (which I've been meaning to
+test but haven't had a chance) and the Mac (which I can't test).
+
+I still have to write up exactly what this script does, but
+basically it takes setlists in a format that looks like
+the v1.3.1 database format, except newlines and tabs
+don't matter at all, because the script puts them into the right
+place.  The script also adds brackets around timings, puts
+fields in proper order (e.g. if you have RECORDING before
+COMMENTS) and warns of any missing or duplicate fields.  About
+the only penalty of this alternate format is that you cannot
+use fieldnames (BAND, SET1, SET2, etc.) in the COMMENTS (or
+anywhere else).
+
+			John
+
+#!/usr/local/bin/gawk -f
+function clearOutLines () {
+  outLines ["BAND"] = ""
+  outLines ["DATE"] = ""
+  outLines ["VENUE"] = ""
+  outLines ["CITY"] = ""
+  outLines ["STATE"] = ""
+  outLines ["SET1"] = ""
+  outLines ["SET2"] = ""
+  outLines ["SET3"] = ""
+  outLines ["ENCORE"] = ""
+  outLines ["COMMENTS"] = ""
+  outLines ["RECORDING"] = ""
+  outLines ["CONTRIBUTORS"] = ""
+  haveAnything = 0;
+}
+function addTransitionSpaces(line,	restOfLine, newLine, ind) {
+  restOfLine = line
+  newLine = ""
+  ind = match (restOfLine, ":[A-Za-z]")
+  while (ind > 0) {
+   	newLine = newLine substr (restOfLine, 1, RSTART) " "
+	newLine = newLine substr (restOfLine, RSTART + 1, RLENGTH)
+	restOfLine = substr (restOfLine, RSTART + RLENGTH + 1)
+  	ind = match (restOfLine, ":[A-Za-z]")
+  }
+  newLine = newLine restOfLine
+  gsub (": ", " : ", newLine)
+  gsub (";", " ; ", newLine)
+  gsub (">", " > ", newLine)
+  gsub ("~", " ~ ", newLine)
+  # not a transition but might as well space comments while were here
+  gsub ("\\(", " (", newLine)
+  gsub ("\\)", ") ", newLine)
+  return newLine
+}
+
+function addTimeBrackets (line,		ind, restOfLine, newLine) {
+  gsub ("[\\[\\]]", "", line)
+  restOfLine = line
+  newLine = ""
+  ind = match (restOfLine, "#*[0-9][0-9]*#*:#*[0-9][0-9]*#*")
+  while (ind > 0) {
+   	newLine = newLine substr (restOfLine, 1, RSTART - 1) " ["
+	newLine = newLine substr (restOfLine, RSTART, RLENGTH) "] "
+	restOfLine = substr (restOfLine, RSTART + RLENGTH)
+	ind = match (restOfLine, "#*[0-9][0-9]*#*:#*[0-9][0-9]*#*")
+  }
+  newLine = newLine restOfLine
+  return newLine
+}
+  
+function printOneLine(field,	line, band, date)
+{
+  if (outLines [field] != "") {
+	line = outLines [field]
+	sub (" ", "	", line)
+	sub (" $", "", line)
+	print line
+  } else {
+	band = outLines ["BAND"]
+	gsub ("	", " ", band)
+	date = outLines ["DATE"]
+	gsub ("	", " ", date)
+	print "WARNING:  Missing " field " field in show " band ", " date >> "/dev/stderr"
+	print field "	"
+  }
+}
+
+function reallyPrintIt() {
+  printOneLine("BAND")
+  printOneLine("DATE")
+  printOneLine("VENUE")
+  printOneLine("CITY")
+  printOneLine("STATE")
+  printOneLine("SET1")
+  printOneLine("SET2")
+  printOneLine("SET3")
+  printOneLine("ENCORE")
+  printOneLine("COMMENTS")
+  printOneLine("RECORDING")
+  printOneLine("CONTRIBUTORS")
+  print ""
+  haveAnything = 0
+}
+
+function printOutput (line,	n, field) {
+  n = index (line, " ");
+  field = substr (line, 1, n - 1);
+  if ((field == "SET1") || (field == "SET2") || (field == "SET3") || (field == "ENCORE")) {
+	line = addTransitionSpaces(line);
+	line = addTimeBrackets(line);
+  }
+  gsub ("  *", " ", line);
+  if ( ( (field == "BAND") && (haveAnything != 0) ) || (field == "FLUSH") ) {
+	reallyPrintIt();
+	clearOutLines();
+  }
+  haveAnything = 1
+  if ( (field == "BAND") || (field == "DATE") || (field == "VENUE") || (field == "CITY") || (field == "STATE") || (field == "SET1") || (field == "SET2") || (field == "SET3") || (field == "ENCORE") || (field == "COMMENTS") || (field == "RECORDING") || (field == "CONTRIBUTORS") || (field == "FLUSH") ) {
+	  if (outLines [field] != "")
+		print "WARNING:  Multiple " field " fields in show " outLines["BAND"] ", " outLines["DATE"] >> "/dev/stderr"
+	  outLines [field] = line
+  } else {
+	print "WARNING:  Unknown field " field " in show " outLines["BAND"] ", " outLines["DATE"] >> "/dev/stderr"
+  }
+}
+
+BEGIN { lineSoFar = "" 
+  haveAnything = 0}
+{ if ($0 == "")
+    next
+  gsub ("	", " ", $0)
+  gsub ("BAND", "	BAND", $0)
+  gsub ("DATE", "	DATE", $0)
+  gsub ("VENUE", "	VENUE", $0)
+  gsub ("CITY", "	CITY", $0)
+  gsub ("STATE", "	STATE", $0)
+  gsub ("SET1","	SET1", $0)
+  gsub ("SET2", "	SET2", $0)
+  gsub ("SET3", "	SET3", $0)
+  gsub ("ENCORE", "	ENCORE", $0)
+  gsub ("COMMENTS", "	COMMENTS", $0)
+  gsub ("RECORDING", "	RECORDING", $0)
+  gsub ("CONTRIBUTORS", "	CONTRIBUTORS", $0)
+  numParts = split ($0, parts, "	")
+  if (lineSoFar != "") {
+	  lineSoFar = lineSoFar " " parts [1]
+  } else {
+	  lineSoFar = parts [1]
+  }
+  if (numParts > 1) {
+	  if (lineSoFar != "")
+	    printOutput(lineSoFar)
+	  for (i = 2; i < numParts; ++i) {
+ 		printOutput(parts [i])
+	  }
+	  lineSoFar = parts [numParts];
+  }
+}
+END { 
+  if (lineSoFar != "") {
+  	printOutput(lineSoFar) 
+  }
+  printOutput("FLUSH ") 
+}
+
+------------------------------
+
+From: John Fulton <jfulton@vt.edu>
+Date: Mon, 10 Mar 1997 21:34:15 -0500
+Subject: 93 caretaker
+
+If there isn't already a caretaker for this year, I volunteer to be one.
+
+Let me know if that's ok.
+
+John
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Tue, 11 Mar 1997 09:48:23 +0000 (GMT)
+Subject: Re: 1994 deadlists
+
+On Mon, 10 Mar 1997, John Oleynick wrote:
+
+> ........... and Drums Jam and Space Jam which I
+> still list as Drums and Space.  
+
+
+I was going to raise this point shortly.
+
+There's no point giving a new name to something that already
+has name from common usage.
+
+So I suggest we remove the *jam* from;
+
+ Drums Jam
+ Feedback Jam
+ Space Jam
+
+
+and just use;
+
+  Drums
+  Space
+  Feedback
+
+and I guess I should add the entry;
+
+  Jam
+
+for any nameless, non-space/drums/feedback, improvised
+sections that don't appear to be attached to any song.
+
+I'll do this in the next update (end of this week)
+unless other solutions are proposed.
+
+I'll also be adding a couple more soundcheck songs;
+Whisky In The Jar & I Heard It Through The Grapevine.
+A couple more jams; Shenandoah & Twilight Zone.
+And a stack of Tunings.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Tue, 11 Mar 1997 11:02:27 +0000 (GMT)
+Subject: Where have these songs come from
+
+Three more songs that are on the one list but 
+maybe shouldn't be there.
+
+Anybody know if these occur anywhere - and if
+so what they are?
+
+
+  Angie 
+  Rock and Roll Girl   (another John Fogerty song?)
+  Sunday Quartet
+
+
+They will probably be deleted if there's no support
+for them.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Tue, 11 Mar 1997 06:19:39 -0500
+Subject: Re: Where have these songs come from
+
+At 11:02 AM 3/11/97, Matt wrote:
+>Three more songs that are on the one list but
+>maybe shouldn't be there.
+>
+>Anybody know if these occur anywhere - and if
+>so what they are?
+>
+>
+>  Angie
+
+A song played by Duane Allman on the 11/21/70 Garcia/Weir/Allman radio broadcast
+
+>  Rock and Roll Girl   (another John Fogerty song?)
+
+Dunno.
+
+>  Sunday Quartet
+>
+
+Sunday Quartet is NOT a song. It's the name of the radio show that Garcia,
+Weir, et al appeared on and played 4 songs, on 12/27/70. (But there it is
+in Deadbase, listed as a song. Go figure.
+
+        .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #207
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

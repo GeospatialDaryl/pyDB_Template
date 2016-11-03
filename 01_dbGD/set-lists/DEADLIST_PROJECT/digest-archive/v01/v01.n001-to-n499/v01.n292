@@ -1,0 +1,152 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #292
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest             Friday, 9 May 1997         Volume 01 : Number 292
+
+In this issue:
+
+	Thanksgiving 1972 Jam
+	Search Engine
+	Re: Search Engine
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Michael Bell <MBell@mail.utexas.edu>
+Date: Thu, 8 May 1997 16:10:32 +0100
+Subject: Thanksgiving 1972 Jam
+
+I don't know if this is something useful for the project, but I think you
+all will find it interesting.
+
+Here in Austin, Texas we have a couple of restaraunts called Threadgill's.
+They are run by some of the same people involved with the Armadillo World
+Headquarters.  The original restaraunt has been around for quite some time.
+Janis Joplin played there in her folkie days.
+
+The second Threadgill's opened recently downtown near where the old
+Armadillo used to be.  It is something of a shrine to the fabled club.
+There are pictures all over the walls of performers that played there-
+Frank Zappa, Willie Nelson, many aged bluesmen, and on and on.
+
+As I was leaving one picture stopped me dead in my tracks.  The caption at
+the bottom says Thanksgiving Day Jam 1972.  Jerry is sitting at a pedal
+steel. In addition there is Phil on bass, Leon Russell on piano and Doug
+Sahm on guitar.  There was a drummer and some other musicians I did not
+recognize.  Interestingly, there were two fiddle players on stage.
+
+The day before Thanksgiving the Dead played Municipal Auditorium (now
+called Palmer) just a couple blocks from the Armadillo.  The day after
+Thanksgiving found them up the road in Dallas.
+
+Anyone know anything about this jam?
+
+BTW, Threadgill's serves really tastey down home food.
+
+
+
+Michael Bell
+MBell@mail.utexas.edu
+
+
+
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Fri, 9 May 1997 16:17:26 -0500 (CDT)
+Subject: Search Engine
+
+I've implemented an experimental search engine on the Tour-by-Tour site
+using a Mini-SQL database accessed through a Python CGI. I think's it's
+something that could be easily adapted to the Deadlists project, and
+shouldn't be a real big trick to implement. Take a look at 
+
+http://www.math.ukans.edu/tbt/search.html
+
+and let me know what you think. Maybe better would be to discuss features,
+style, etc. you would like to see in a search engine on the list. Note
+that the search engine stuff on the main page hasn't been updated yet...
+only on the search.html page. Happy Buffalo Day! (I haven't seen any
+Buffalo around here in a long time...)
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 9 May 1997 14:46:18 -0700 (PDT)
+Subject: Re: Search Engine
+
+I love it!  I would like to be able to specify how much of a setlist I 
+see in the results page (ie, right now you have dates and places -- and 
+it would be cool to have the option to get the full records) and it would 
+be cool (though significantly more difficult?) to be able to find 
+patterns of songs (ie, all Dark Star > Stella)...
+
+BUT
+
+imho, this is great.  Tim do we need to speak offline about how to 
+translate this engine to deadlists.com?
+
+- --nathan
+
+On Fri, 9 May 1997, Tim Buller wrote:
+
+> I've implemented an experimental search engine on the Tour-by-Tour site
+> using a Mini-SQL database accessed through a Python CGI. I think's it's
+> something that could be easily adapted to the Deadlists project, and
+> shouldn't be a real big trick to implement. Take a look at 
+> 
+> http://www.math.ukans.edu/tbt/search.html
+> 
+> and let me know what you think. Maybe better would be to discuss features,
+> style, etc. you would like to see in a search engine on the list. Note
+> that the search engine stuff on the main page hasn't been updated yet...
+> only on the search.html page. Happy Buffalo Day! (I haven't seen any
+> Buffalo around here in a long time...)
+> 
+> 	Tim
+> 
+> ====
+> Tim Buller                                       buller@math.ukans.edu
+> Math Department Systems Specialist                       Snow Hall 643
+> University of Kansas, Lawrence, KS 66045                  913-864-7311
+> 
+> 
+> 
+
+------------------------------
+
+End of DeadLists Digest V1 #292
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

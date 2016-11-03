@@ -1,0 +1,263 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #268
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Saturday, 26 April 1997      Volume 01 : Number 268
+
+In this issue:
+
+	Re: "alternative" format spec - a few notes
+	[Fwd: Re: 10/25/73]
+	Re: your mail
+	Silberman's Article Online
+	Re: [Fwd: Re: 10/25/73]
+	Re: Dead Setlists
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Sat, 26 Apr 1997 13:21:35 -0400
+Subject: Re: "alternative" format spec - a few notes
+
+I'll add a couple of comments on John's spec in light of the recent
+proposed changes by me to the official data spec.
+
+joleynic@scudc.scu.edu wrote:
+> 
+> Below is a first attempt at defining the "alternative" format
+> that can be used instead of the standard database format.  Instead of
+>
+>         Multiple comments may either be written separately, like these
+>         comments about Lovelight:
+>
+>                 High Time; Me And My Uncle;  Dark Star (1) > Spanish jam (1) >
+>                 Lovelight (1) (2)
+
+Please note that for the official data spec, multiple comments should
+always be of the form above [; Lovelight (1) (2) ; ] and not of the form
+below:
+
+>
+>             Truckin' [6:51] (1) > The Other One [5:16] (1,2) >
+>             Morning Dew [11:#42] (1,3) ~ Turn On Your Lovelight [8:12] (1)
+
+John, if your parsing script can convert (1,2) -> (1) (2) then disregard
+my comments. I just wanted to make sure that everyone knows that
+reference marks are only of the form (number) where number is a value
+from 1 through 99. Multiple reference marks should not be combined
+inside one pair of parentheses.
+
+
+>         Although the song map can be placed directly in the set data,
+>         it is recommended that all song maps go in the comment section,
+>         like the example above.
+
+Contrary to what I wrote yesterday, the above statement is correct. It
+is recommended that timing maps go in the COMMENTS section, but if they
+are placed after the song timing and inside {} brackets, they won't
+break anything, ie:
+
+; The Other One [8:31] { first verse [1:55] second verse [5:23] } > 
+
+
+>         song1 ;; song2 -  The band stops for more than 60 seconds between
+>                           song1 and song2.
+
+This is fine, and ;; is valid and won't break anything, but it would be
+my recommendation that someone should only use this if they intend to
+put a timing between the two ;; marks (ie Bertha [6:34] ; [1:10] ;
+Truckin' [9:15] ;), else these symbols just get translated to ,, in the
+setlists and might be a little confusing.
+
+>         song1 : song2  -  The tape has not been examined to see what
+>                           kind of transition is between song1 and song2.
+>                           Or perhaps only the setlist is known and there
+>                           is no tape (in existence or circulation) to
+>                           check the transitions.
+
+I've had to remove this one because timings also use the : character,
+and thus the scripts will want to split the setlist fields into songs on
+all occurences of the : character (including timings), which is a bad
+thing. I tried to apply the logic used in the parenthesis in reference
+marks vs. song titles problem, but this is a different problem and I
+don't see a way to solve it at the moment. If all our setlists are
+coming from tapes anyway, I don't see why the other delimiters won't
+suffice. The delimiters (;, ~, >, %, ;;) are all valid and provide for a
+wide range delimiter description.
+
+Thanks John for putting this together, I know if makes it life easier on
+the setlist caretakers and it makes my like easier too :-)
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+From: Ryan Shriver <ryan@gator.digicool.com>
+Date: Sat, 26 Apr 1997 13:39:50 -0400
+Subject: [Fwd: Re: 10/25/73]
+
+This is a multi-part message in MIME format.
+
+- --------------138F139446D7
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+As you can see, this setlist comes from Rob, who (in my experience) has
+always provided very accurate information. Hope this helps.
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+- --------------138F139446D7
+Content-Type: message/news
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Path: news.infi.net!news.infi.net!news.visi.net!news-spur1.maxwell.syr.edu!news.maxwell.syr.edu!news-peer.sprintlink.net!news.sprintlink.net!sprint!uunet!in3.uu.net!206.250.118.17!nntp.earthlink.net!usenet
+From: kingbee <kingbeemusic@earthlink.net>
+Newsgroups: rec.music.gdead
+Subject: Re: 10/25/73
+Date: Sat, 26 Apr 1997 09:54:09 -0400
+Organization: Earthlink Network, Inc.
+Message-ID: <33620901.93E@earthlink.net>
+References: <E96819.9A0@nonexistent.com> <5jqbj4$840@news1.infoave.net>
+Reply-To: kingbeemusic@earthlink.net
+NNTP-Posting-Host: cust71.max11.newark.nj.ms.uu.net
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Mailer: Mozilla 2.02 (Macintosh; I; 68K)
+Xref: news.infi.net rec.music.gdead:17842
+
+Mitch Gilbert wrote:
+
+> So, anyone out there who can solve this mystery?
+The correct set is!
+10/25/73 Set #1:
+bertha, big river, here comes sunshine, black throated wind,
+they love each other, mexacali blues, tennessee jed, el paso,
+row jimmy row, playin in the band
+
+- --------------138F139446D7--
+
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Sat, 26 Apr 1997 11:02:01 -0800
+Subject: Re: your mail
+
+At 05:02 -0800 4/25/97, Matt wrote:
+
+>> Excuse me if this has already been revealed, but I believe this is a Porter
+>> Wagoner song.
+
+>Do you know the real title - BMI has a My Dad registered
+>for Porter Wagoner no Let Me In though - and nothing
+>with the 83968 or whatever.
+
+No, sorry.  I don't know if I've ever seen it on a record.
+
+  David Gans    tnf@well.com
+  Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+  http://www.well.com/user/tnf/
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 26 Apr 1997 13:20:09 -0700
+Subject: Silberman's Article Online
+
+For those who are interested in the full text fo the article from which a
+paragraph was posted here recently:
+
+http://www.jamtv.com/jacked/features/deadfeature1.html
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Sat, 26 Apr 1997 16:16:07 -0500 (CDT)
+Subject: Re: [Fwd: Re: 10/25/73]
+
+> As you can see, this setlist comes from Rob, who (in my experience) has
+> always provided very accurate information. Hope this helps.
+
+> The correct set is!  10/25/73 Set #1:  bertha, big river, here comes
+> sunshine, black throated wind, they love each other, mexacali blues,
+> tennessee jed, el paso, row jimmy row, playin in the band
+
+Which matches my tape as well... I've made the change.
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Sat, 26 Apr 1997 16:16:46 -0500 (CDT)
+Subject: Re: Dead Setlists
+
+> With regard to the setlist for 6/16/74 (Iowa State Fairgrounds, Des 
+> Moines, IA): There is no listing for the encore, but as I recall, they 
+> played Casey Jones. Sorry, but my memory is too foggy to add info 
+> regarding set 1.
+
+I've added this... note that this matches DB IX.
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+End of DeadLists Digest V1 #268
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

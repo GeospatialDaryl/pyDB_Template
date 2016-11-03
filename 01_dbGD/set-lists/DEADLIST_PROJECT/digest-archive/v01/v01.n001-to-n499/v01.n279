@@ -1,0 +1,79 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #279
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Saturday, 3 May 1997        Volume 01 : Number 279
+
+In this issue:
+
+	updates all around and info missing
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 03 May 1997 14:40:22 -0700
+Subject: updates all around and info missing
+
+The new dataspec is online.
+
+Also, the ftp site continues to grow.  In addition to all kinds of useful
+scripts, we have "corrected" versions of the setlists there (conforming to
+the spec, song names, etc.) as text files that can be downloaded.
+ftp://ftp.deadlists.com/pub/
+
+Has the "simple spec" been posted to the list?  I don't think it has, but,
+since I spent most of the last week on hold listening to muzak courtesy of
+Oracle while waiting on tech support to answer a few questions regarding a
+database I am trying to get online at my day job, my brain has been playing
+tricks on me.  (Talk about memory loss!)  So if this second spec or
+something else has been posted to the list but I haven't mentioned it
+appearing on the site, please let me know.
+
+In particular, I think someone offered to be caretaker of venue names,
+right?  I can't find that email, so if that person can contact me, that'd be
+great.
+
+Also, Rossgita <webmaster@rossgita.com> contacted me recently with an
+interest in serving up some RealAudio for us.  I suggested that doing some
+the digital excerpts of the jams (Spanish, MLB, etc.) this way might be
+cool.  My ISP doesn't have a RealAudio server, so I hadn't even considered
+this possibility.  What do people think?  Is .wav or Quicktime (or even .au)
+better?  We're not worried about sound quality, imho, simply accessibility
+and short download times -- so RealAudio *could* be cool, if we figure most
+people have the plug-in.  (We could also do multiple formats, so it's not an
+either/or.)
+
+Aside to Matt, et al., regarding the song names pages and frames, etc:  If
+you can work out that stuff without me getting involved, and then just lay
+it on me, that'd be great.  I don't have the brain cells to keep up with
+coordinating it right now.  (Sorry.)  But everything we have talked about
+sounds good.  So go for it -- and just tell me what to do with it, once it's
+done.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #279
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

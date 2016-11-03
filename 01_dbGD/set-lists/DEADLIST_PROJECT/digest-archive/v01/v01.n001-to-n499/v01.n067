@@ -1,0 +1,165 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #67
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 18 June 1996       Volume 01 : Number 067
+
+In this issue:
+
+	Re: Search Engine Prelims 
+	Re: Search Engine Prelims 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Fri, 24 May 1996 17:37:59 -0400
+Subject: Re: Search Engine Prelims 
+
+Tim Buller writes:
+> I hope to adapt a simple search CGI search engine to search the DeadList 
+> set-lists from the web. To get started on this, I'd like some data to 
+> work with, so when you get anything complete, please ul it to:
+> 
+> ftp.southwind.net/users/t/tjb9d/incoming
+> 
+> or e-mail it to me. Maybe now would be a good time to figure out who gets 
+> what, so...
+
+I've uploaded some initial test setlists for '71-'74 to Tim's directory
+(Tim, use dl7174.txt.new, not dl7174.txt) and also put them under
+http://paul.rutgers.edu/~johno/dl7174.html in case anyone else wants
+them.  The lists have a number of problems:  transitions aren't
+necessarily accurate (I just translated my "," into ":", and my "->"
+into ">", which isn't an exact match), the state field for shows
+outside the US is wrong, my comments aren't properly translated and
+matched with their reference marks, the recording and contributors
+fields are completely bogus, the band field is "GD" instead of
+"Grateful Dead", and probably some other things too.  What's right
+about these lists ;-)?  They are in the official format described in
+the spec (http://www.well.com/user/nathan/dldata.htm) and the song
+titles are correct.  They're only intended for testing out programs,
+parsers, the data format spec, my interpretation of it, etc.  I don't
+planning on adding any other details to them like timings or comments
+or correct translations for awhile, and sometime will probably get rid
+of these lists and regenerate them from my original lists in Lisp, but
+at least they're a start.
+
+> or e-mail it to me. Maybe now would be a good time to figure out who gets
+> what, so...
+> 1965
+> 1966
+> 1967
+> 1968
+> 1969 - ??
+> 1970 - Jim Powell
+> 1971 - John Oleynick
+> 1972
+>	[ ... ]
+> 1994
+> 1995 - Barry Barnes
+
+Once things get rolling, I only want to be the keeper of the '71 lists,
+but I figured I'd generate '71-'74 initially so we have a little more
+data to work with.  If people want initial test lists from '65-'95
+(with '65-'71 based on my sparse tape collection), I could generate
+them too.
+
+			John
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 17 Jun 1996 23:20:07 -0700 (PDT)
+Subject: Re: Search Engine Prelims 
+
+sounds like we're making a little progress :-)
+
+i'd offer some lists but my wedding is friday so i'm kind pre-occupied.
+
+maybe once these lists are run through the preliminary search engine we will
+know what to concentrate on (ie, what is the minimal kind of list we can
+start with) and can take things from there (just a hunch).
+
+- --nathan
+
+
+>Tim Buller writes:
+>> I hope to adapt a simple search CGI search engine to search the DeadList 
+>> set-lists from the web. To get started on this, I'd like some data to 
+>> work with, so when you get anything complete, please ul it to:
+>> 
+>> ftp.southwind.net/users/t/tjb9d/incoming
+>> 
+>> or e-mail it to me. Maybe now would be a good time to figure out who gets 
+>> what, so...
+>
+>I've uploaded some initial test setlists for '71-'74 to Tim's directory
+>(Tim, use dl7174.txt.new, not dl7174.txt) and also put them under
+>http://paul.rutgers.edu/~johno/dl7174.html in case anyone else wants
+>them.  The lists have a number of problems:  transitions aren't
+>necessarily accurate (I just translated my "," into ":", and my "->"
+>into ">", which isn't an exact match), the state field for shows
+>outside the US is wrong, my comments aren't properly translated and
+>matched with their reference marks, the recording and contributors
+>fields are completely bogus, the band field is "GD" instead of
+>"Grateful Dead", and probably some other things too.  What's right
+>about these lists ;-)?  They are in the official format described in
+>the spec (http://www.well.com/user/nathan/dldata.htm) and the song
+>titles are correct.  They're only intended for testing out programs,
+>parsers, the data format spec, my interpretation of it, etc.  I don't
+>planning on adding any other details to them like timings or comments
+>or correct translations for awhile, and sometime will probably get rid
+>of these lists and regenerate them from my original lists in Lisp, but
+>at least they're a start.
+>
+>> or e-mail it to me. Maybe now would be a good time to figure out who gets
+>> what, so...
+>> 1965
+>> 1966
+>> 1967
+>> 1968
+>> 1969 - ??
+>> 1970 - Jim Powell
+>> 1971 - John Oleynick
+>> 1972
+>>	[ ... ]
+>> 1994
+>> 1995 - Barry Barnes
+>
+>Once things get rolling, I only want to be the keeper of the '71 lists,
+>but I figured I'd generate '71-'74 initially so we have a little more
+>data to work with.  If people want initial test lists from '65-'95
+>(with '65-'71 based on my sparse tape collection), I could generate
+>them too.
+>
+>			John
+>
+>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #67
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

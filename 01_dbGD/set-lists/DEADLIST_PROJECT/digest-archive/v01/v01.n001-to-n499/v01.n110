@@ -1,0 +1,393 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #110
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 2 January 1997      Volume 01 : Number 110
+
+In this issue:
+
+	Re: last part of 5/2/70
+	Re: archives and setlists 
+	deadlist format problem?
+	Re: archives and setlists 
+	no deadlist format problem
+	deadlist format example
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 02 Jan 1997 11:17:35 -0500
+Subject: Re: last part of 5/2/70
+
+In message <199612221026.CAA22324@well.com> Jim Powell writes:
+> I thought about listing the 5/2/70 Dancin through Dew as an encore; it times
+> about 35 minutes, I think.  But I don't think it WAS an encore.  I think
+> they took a break, and came back and played another, shorter set.  I don't
+> think they came back immediately from the previous set and played another
+> 'extended-encore' set  --  if you see the distinction.  This is the
+> impression I get from the tapes.  Is there somebody around here who could
+> tell us?  I think maybe mandala @ well.com was at this show?  maybe i'll
+> e-mail him.
+
+Instead of listing the last part of 5/2/70 as a separate show I think
+it would be better to just list it as the encore and in the comments
+section mention that it is really another set, not an encore.  I think
+when we were hashing out the format we decided to have fields for 3
+sets and 1 encore and just force fit the few shows that don't quite fit
+into that format (12/31/81 which also had 4 sets, 12/31/83 which had
+the encore before the 3rd set, shows with 2 separate encores, etc.).
+
+I think you are right that it is really a new set, and not an
+extended encore.  Isn't that where Phil ends the previous set
+with the "follow the example of the guy who got it on with his
+girlfriend" comment and tells everyone to feel each other
+for about 10 minutes but that they'll come back and play some
+more?  I always figured if they said "we'll be back" then whatever
+followed was another set, not an encore.
+
+		John
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 02 Jan 1997 11:37:24 -0500
+Subject: Re: archives and setlists 
+
+In message <199612312344.PAA15838@mh1.well.com> Nathan writes:
+> Jim Powell wrote:
+> 
+> >i'm of two minds about the archive proposal & would like to hear what others
+> >think.
+> >
+> >we NEED a website to post lists at, making them available for download, but
+> >i don't think that's what this offers. 
+>		[ ... ]
+>
+> Would this satisfy the need for a web site to post lists at?  The lists
+> posted to the mailing list are always availalbe on the 'net, in the form in
+> which they were posted to the mailing list.  Alternately, would the
+> discussion space at:
+> 
+> http://www2.southwind.net/~tjb9d/deadlist/dlbook.html
+> 
+> work?
+> 
+> Beyond one of these solutions, I'm not sure what this list could reasonably
+> create.  What kind of additional functionality do we need?
+
+No, I don't think either of those can do that.  I think we need some
+space on the web or an ftp site to store the latest and greatest
+version of the complete setlist data.  That way anyone can get a
+complete copy of the latest data without having to dig through the
+mailing list to find the latest '70 list from Jim, the latest '77-'79
+lists from Gordon, any updates from other people, etc.  I think an ftp
+site would be better than web space to avoid problems of the web server
+and/or browser trying to interpret >'s and <'s in the data as html.
+
+Why don't we just use the ftp area on gdead.berkeley.edu?  If
+we can't do that I'll see if I can get some ftp space on the
+machine I use.
+
+		John
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 02 Jan 1997 12:06:02 -0500
+Subject: deadlist format problem?
+
+With all of the recent activity I think we've run into a discrepency
+in the Deadlist format spec, or a misunderstanding of it on my part.
+Jim and Gordon have been posting setlists in a form like:
+
+BAND  Grateful Dead
+VENUE  Fillmore East
+CITY  New York
+STATE  NY
+DATE 02/13/70b
+SET1  China Cat Sunflower > I Know You Rider; Me & My Uncle; Dire Wolf;
+Smokestack Lightnin
+SET2  Monkey & The Engineer; Little Sadie; Wake Up Little Susie > Black
+Peter; Uncle John's Band;Katie Mae
+SET3  Dark Star > That's It For The Other One > Lovelight
+ENCORE  We Bid You Goodnight
+COMMENTS  SET2 is an Acoustic Set
+RECORDINGS  180 SB  Bear's Choice  Dick's Picks IV
+CONTRIBUTORS  <chimpowl@well.com>
+
+Which looks pretty close to the example given in "DeadLists Formatting
+Specification Proposal - Explanation; Version 1.21 (5/29/96)" under
+http://www.well.com/user/nathan/dldata.txt.  
+
+But, if I'm reading it correctly, I think the BNF in "DeadLists
+Formatting Specification Proposal Formal Description:; Version 1.21
+(5/29/96)" (also under http:///www.well.com/user/nathan/dldata.txt)
+says that the format should be:
+
+BAND	VENUE	CITY	STATE	DATE	SET1	SET2	SET3	ENCORE COMMENTS	RECORDINGS	CONTRIBUTORS
+Grateful Dead
+Fillmore East
+New York
+NY
+02/13/70b
+China Cat Sunflower > I Know You Rider; Me & My Uncle; Dire Wolf; Smokestack Lightnin
+Monkey & The Engineer; Little Sadie; Wake Up Little Susie > Black Peter; Uncle John's Band;Katie Mae
+Dark Star > That's It For The Other One > Lovelight
+We Bid You Goodnight
+SET2 is an Acoustic Set
+180 SB  Bear's Choice  Dick's Picks IV
+<chimpowl@well.com>
+
+Both specs say:
+
+    Questions for V1.22:
+     - Should the initial <fields> field be eliminated, and the fieldname
+       keyword be added as the first subfield in a field? (e.g.
+         SET1: <tab> JackStraw ; ...
+ 
+so it looks like the spec was heading in the direction of the format
+used in the example but the BNF never quite got there.  
+
+Is my interpretation of the BNF right or have I missed something?
+Alan, was there ever a V1.22 version of the spec that I missed that
+had a newer format?
+
+		John
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 2 Jan 1997 11:59:03 -0800 (PST)
+Subject: Re: archives and setlists 
+
+In theory, once we have a year of setlists in the forms that have been 
+posted recently, they will get deposited online for searching.  This will 
+not be done with the assumption that these are definitive lists but that 
+they are a good place to start.  Then the discussions can happen here on 
+the mailing list or on the web site discussion area as we work to better 
+the lists.
+
+The stumbling block, of course, is that our prototype search engine is 
+not yet online.  I could implement a basic search engine using the lists 
+as posted -- except my ISP (The Well) doesn't allow any but a few 
+basic/approved CGIs (none of which, so far as I can tell, would do what 
+we need).  
+
+But creating an ftp site is going to be redundant, I fear.  We're going 
+to place the lists on a server in text format for easy parsing.  I could 
+readily place what we have at my part of the DeadLists site.  Then, all 
+it would take is someone to enter the URL for the text file, and save the 
+file, once it's open in their browser (no need to worry about "<"s, etc., 
+eve if someone decides to use them -- though I think they contradict the 
+spec, right? -- since text is different).
+
+Just some thoughts.  I'm open to others.
+
+- --Nathan
+
+btw, anyone have a unix box on which we can run a simple cgi?
+
+
+
+On Thu, 2 Jan 1997, John Oleynick wrote:
+
+> In message <199612312344.PAA15838@mh1.well.com> Nathan writes:
+> > Jim Powell wrote:
+> > 
+> > >i'm of two minds about the archive proposal & would like to hear what others
+> > >think.
+> > >
+> > >we NEED a website to post lists at, making them available for download, but
+> > >i don't think that's what this offers. 
+> >		[ ... ]
+> >
+> > Would this satisfy the need for a web site to post lists at?  The lists
+> > posted to the mailing list are always availalbe on the 'net, in the form in
+> > which they were posted to the mailing list.  Alternately, would the
+> > discussion space at:
+> > 
+> > http://www2.southwind.net/~tjb9d/deadlist/dlbook.html
+> > 
+> > work?
+> > 
+> > Beyond one of these solutions, I'm not sure what this list could reasonably
+> > create.  What kind of additional functionality do we need?
+> 
+> No, I don't think either of those can do that.  I think we need some
+> space on the web or an ftp site to store the latest and greatest
+> version of the complete setlist data.  That way anyone can get a
+> complete copy of the latest data without having to dig through the
+> mailing list to find the latest '70 list from Jim, the latest '77-'79
+> lists from Gordon, any updates from other people, etc.  I think an ftp
+> site would be better than web space to avoid problems of the web server
+> and/or browser trying to interpret >'s and <'s in the data as html.
+> 
+> Why don't we just use the ftp area on gdead.berkeley.edu?  If
+> we can't do that I'll see if I can get some ftp space on the
+> machine I use.
+> 
+> 		John
+> 
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Thu, 02 Jan 1997 17:18:30 -0500
+Subject: no deadlist format problem
+
+After some email from Allen Baum I now see that this is a
+misunderstanding of the spec and not a discrepency in the spec itself.
+Before the example in the spec it says that "the initial fieldnames aren't
+(currently) included", so the data shouldn't have "SET1", "SET2", etc.
+at the start of each line.  Below is what 2/13/70b should look like,
+without the keyword at the start of each line, and with the songs separated
+by tabs.  Jim and Gordon, can you reformat your data into the official
+format?  If not, let me know and I can probably throw together some
+Unix scripts and filters to tidy it up into the right format.
+
+		John
+
+BAND	VENUE	CITY	STATE	DATE	SET1	SET2	SET3	ENCORE	COMMENTS	RECORDINGS	CONTRIBUTORS
+Grateful Dead
+Fillmore East
+New York
+NY
+02/13/70b
+China Cat Sunflower	 > I Know You Rider	 ; Me & My Uncle	 ; Dire Wolf	 ; Smokestack Lightnin
+(1) Monkey & The Engineer	 ; Little Sadie	 ; Wake Up Little Susie	 > Black Peter	 ; Uncle John's Band	 ; Katie Mae
+Dark Star	 > That's It For The Other One	 > Lovelight
+We Bid You Goodnight
+(1) Acoustic Set
+180 SB  Bear's Choice  Dick's Picks IV
+<chimpowl@well.com>
+^L
+
+- ------- Forwarded Message
+
+To: deadlists@nemesis.Berkeley.EDU
+cc: abaum@pa.dec.com
+Subject: deadlist format problem?
+Date: Thu, 02 Jan 1997 12:06:02 -0500
+From: John Oleynick <johno@john.rutgers.edu>
+Sender: Deadlists-Owner@nemesis.Berkeley.EDU
+
+With all of the recent activity I think we've run into a discrepency
+in the Deadlist format spec, or a misunderstanding of it on my part.
+Jim and Gordon have been posting setlists in a form like:
+
+BAND  Grateful Dead
+VENUE  Fillmore East
+CITY  New York
+STATE  NY
+DATE 02/13/70b
+SET1  China Cat Sunflower > I Know You Rider; Me & My Uncle; Dire Wolf;
+Smokestack Lightnin
+SET2  Monkey & The Engineer; Little Sadie; Wake Up Little Susie > Black
+Peter; Uncle John's Band;Katie Mae
+SET3  Dark Star > That's It For The Other One > Lovelight
+ENCORE  We Bid You Goodnight
+COMMENTS  SET2 is an Acoustic Set
+RECORDINGS  180 SB  Bear's Choice  Dick's Picks IV
+CONTRIBUTORS  <chimpowl@well.com>
+
+Which looks pretty close to the example given in "DeadLists Formatting
+Specification Proposal - Explanation; Version 1.21 (5/29/96)" under
+http://www.well.com/user/nathan/dldata.txt.  
+
+But, if I'm reading it correctly, I think the BNF in "DeadLists
+Formatting Specification Proposal Formal Description:; Version 1.21
+(5/29/96)" (also under http:///www.well.com/user/nathan/dldata.txt)
+says that the format should be:
+
+BAND	VENUE	CITY	STATE	DATE	SET1	SET2	SET3	ENCORE COMMENTS	RECORDINGS	CONTRIBUTORS
+Grateful Dead
+Fillmore East
+New York
+NY
+02/13/70b
+China Cat Sunflower > I Know You Rider; Me & My Uncle; Dire Wolf; Smokestack Lightnin
+Monkey & The Engineer; Little Sadie; Wake Up Little Susie > Black Peter; Uncle John's Band;Katie Mae
+Dark Star > That's It For The Other One > Lovelight
+We Bid You Goodnight
+SET2 is an Acoustic Set
+180 SB  Bear's Choice  Dick's Picks IV
+<chimpowl@well.com>
+
+Both specs say:
+
+    Questions for V1.22:
+     - Should the initial <fields> field be eliminated, and the fieldname
+       keyword be added as the first subfield in a field? (e.g.
+         SET1: <tab> JackStraw ; ...
+ 
+so it looks like the spec was heading in the direction of the format
+used in the example but the BNF never quite got there.  
+
+Is my interpretation of the BNF right or have I missed something?
+Alan, was there ever a V1.22 version of the spec that I missed that
+had a newer format?
+
+		John
+
+
+- ------- End of Forwarded Message
+
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 02 Jan 1997 17:43:37 -0500
+Subject: deadlist format example
+
+Oops, I mistyped the example in my last message, and put the tab
+separators before the song transitions ("song1<tab> ; song2")
+instead of after them ("song1 ; <tab>song2"), which is how they 
+should be.  Here's another example, that I think really is correct.
+This example has timings, timing maps and timed long pauses.
+
+		John
+
+- --------cut here--------
+BAND	DATE	VENUE	CITY	STATE	SET1	SET2	SET3	ENCORE	COMMENTS	RECORDING	CONTRIBUTORS
+Grateful Dead
+12/14/71
+Hill Auditorium
+Ann Arbor
+MI
+[84:34] Truckin' [8:11] ; [1:36] ; 	Sugaree [6:04] ; [1:40] ; 	Mr. Charlie [3:36] ; 	Beat It On Down The Line [2:53] ; 	Loser [5:56] ; [3:43] ; 	Jack Straw [4:28] ; 	Next Time You See Me [3:55] ; 	Tennessee Jed [6:40] ; [2:19] ; 	El Paso [3:58] ; 	Big Railroad Blues [3:47] ; [1:04] ;  	Me And My Uncle [2:38] ; 	Run Rudolph Run [2:49] ; [1:24] ; 	Black Peter [7:55] ; 	Playin' In The Band [6:31] {intro: [0:15] verse 1 and chorus [0:33] interlude [0:18] verse 2 and chorus [0:30] interlude [0:37] verse 3 and chrous [0:26] jam [2:13] intrumental reprise [0:23] vocal reprise [0:56] outro [0:14]} ;	Casey Jones [5:48]
+[81:47] Ramble On Rose [4:49] ; [1:22] ; 	Mexicali Blues [3:08] ;	Big Boss Man [5:23] ;	Cryptical Envelopement [1:49] > 	Drums [3:33] > 	The Other One [19:04] { theme [1:41] spacey jam [0:27] space [2:13] spacey jam [0:33] theme [1:12] M&MUish jam [0:38] theme [0:44] verse 1 [0:35] theme [0:31] spacey jam [0:51] space [1:16] jam [0:50] space [2:25] spacey jam [0:57] jam [0:54] theme [1:57] verse 2 [0:36] outro [0:07] } > 	Wharf Rat [8:36] ; [1:41] ; 	Sugar Magnolia [6:54] ; [1:28] ; 	You Win Again [3:25] ; 	Not Fade Away [7:42] > 	Goin' Down The Road Feelin' Bad [7:30] > 	Not Fade Away [2:25] 
+
+
+
+CCHSB3
+<johno@paul.rutgers.edu> V:	
+
+- --------cut here--------
+
+------------------------------
+
+End of DeadLists Digest V1 #110
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

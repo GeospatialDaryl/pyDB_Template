@@ -1,0 +1,377 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #129
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Tuesday, 14 January 1997      Volume 01 : Number 129
+
+In this issue:
+
+	Year Caretakers Update
+	Re: white space
+	Re: white space 
+	Re: white space
+	Year Caretakers Update
+	Re: white space 
+	Re: white space
+	Re: white space 
+	Re: white space 
+	Re: Year Caretakers Update
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Tue, 14 Jan 1997 09:46:09 -0800 (PST)
+Subject: Year Caretakers Update
+
+1959-1968 Jeff Tiedrich
+1969-1970 Jim Powell
+1971 John Oleynick
+1972 Eric Doherty
+1973-1974 Tim Buller       
+1975 Nathan Wolfson
+1976  --  no one yet
+1977-1979 Gordon Sharpless
+1980-1994 -- no one yet
+1995 Barry Barnes 
+
+I have not had a chance to update the site yet -- and may not till the end
+of the week, but we don't realy have functional setlists for the newest
+folks yet, so the delay should not be dire.
+
+Looking back through the Digests, Gordon's lists look very ready for the
+Web.  Is this the case?  I noted that some additional info was offered from
+other sources.  If this has been incoprorated, where appropriate, please
+forward the lists to me and I'll get them posted on the Web in a few days.
+
+Loookin' good :-)
+
+- --nathan
+
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Tue, 14 Jan 1997 12:54:44 -0500
+Subject: Re: white space
+
+John F. Whitehead wrote:
+> 
+> I don't think the specs should rely on tabs (since many mail programs turn
+> tabs into space characters, and they aren't visible to the naked eye, and
+> since different editors display them differently).
+
+The nature of the program relies on tabs to separate field definitions (SET1, 
+COMMENTS, etc.) from field data. That is the only function of tabs in the 
+setlist data, and they only need to be used in this manner.
+
+> I also don't think the specs should disallow multiline fields, because
+> again many mail programs (and some web forms) automatically line wrap to
+> prevent any line from being over 80 characters.  The end-of-line character
+> is also different for Mac, Windows, and Unix machines.
+
+Multiline fields are fine, as long as they are wrapped by a program and aren't 
+induced by a carriage return. The program reads the field definition (SET1) 
+then reads all the data (the setlists) until it comes to a carriage return. 
+With regular expression matching, the differences among carriage returns (Mac 
+vs. Windows vs. Unix) can easily be taken care of.
+
+> So my suggestion is that a field starts when it has a field delimiter in
+> the first position (BAND, VENUE, CITY, SET1, etc.).  The next field starts
+> when you next have a new field name.  That way if a venue name or set list
+> linewraps, it doesn't matter; it is appended to whatever came before.
+
+I see your point and it's certainly valid. We have designed it a different way 
+so that all the data is read until a carriage return is encountered, which 
+signifies the end of the field's data.
+
+> It may make sense to have a field delimiter after the field name, i.e. a
+> colon.  That way if we add a new category in the future, we don't have to
+> change the parsing routine everywhere.  Field names also won't be case- or
+> whitespace-sensitive, the only restrictions would be they couldn't contain
+> a ":" or a "[" (so we know that the colon isn't part of a timing).  Here's
+> an example:
+
+The field delimitor after the field definition is the <tab> character. Tab 
+delimited data is pretty universal, and tab's aren't a necessary part of any of 
+the setlist data (where as : or [ might be). Hope this information is helpful.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Tue, 14 Jan 97 13:18:50 -0500
+Subject: Re: white space 
+
+> > I also don't think the specs should disallow multiline fields,
+> > because again many mail programs (and some web forms)
+> > automatically line wrap to prevent any line from being over 80
+> > characters.  The end-of-line character is also different for Mac,
+> > Windows, and Unix machines.
+> 
+> Multiline fields are fine, as long as they are wrapped by a program
+> and aren't induced by a carriage return.
+
+When John says "automatically line wrap", he means that carriage
+return/newlines *are* inserted.
+
+When Gordon's setlists arrived in my mailbox, all lines had been
+wrapped at 76 columns, such that each "SET" field was in fact multiple
+lines separated by newlines.
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Tue, 14 Jan 1997 13:50:25 -0500
+Subject: Re: white space
+
+Brian McAllister wrote:
+> 
+> > > I also don't think the specs should disallow multiline fields,
+> > > because again many mail programs (and some web forms)
+> > > automatically line wrap to prevent any line from being over 80
+> > > characters.  The end-of-line character is also different for Mac,
+> > > Windows, and Unix machines.
+> >
+> > Multiline fields are fine, as long as they are wrapped by a program
+> > and aren't induced by a carriage return.
+> 
+> When John says "automatically line wrap", he means that carriage
+> return/newlines *are* inserted.
+
+Gotcha. As you can see, I didn't have a clear understanding of what John was 
+implying. 
+
+> When Gordon's setlists arrived in my mailbox, all lines had been
+> wrapped at 76 columns, such that each "SET" field was in fact multiple
+> lines separated by newlines.
+
+My thinking is that each setlist guru will mail (or FTP) the setlists to 
+Nathan as attached documents (say 1977.txt), thus we won't have to deal with 
+the discrepancies of different mail viewers. So it really doesn't matter how 
+your (or my) mail viewer displays the setlist information, as long as the 
+setlist data file adhere's to the correct format of one carriage return at 
+the end of each field. Am I making sense? Please feel free to constructively 
+criticize what I have to say. 
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Tue, 14 Jan 1997 09:46:09 -0800 (PST)
+Subject: Year Caretakers Update
+
+1959-1968 Jeff Tiedrich
+1969-1970 Jim Powell
+1971 John Oleynick
+1972 Eric Doherty
+1973-1974 Tim Buller       
+1975 Nathan Wolfson
+1976  --  no one yet
+1977-1979 Gordon Sharpless
+1980-1994 -- no one yet
+1995 Barry Barnes 
+
+I have not had a chance to update the site yet -- and may not till the end
+of the week, but we don't realy have functional setlists for the newest
+folks yet, so the delay should not be dire.
+
+Looking back through the Digests, Gordon's lists look very ready for the
+Web.  Is this the case?  I noted that some additional info was offered from
+other sources.  If this has been incoprorated, where appropriate, please
+forward the lists to me and I'll get them posted on the Web in a few days.
+
+Loookin' good :-)
+
+- --nathan
+
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Tue, 14 Jan 97 14:10:44 -0500
+Subject: Re: white space 
+
+> My thinking is that each setlist guru will mail (or FTP) the
+> setlists to Nathan as attached documents (say 1977.txt), thus we
+> won't have to deal with the discrepancies of different mail viewers.
+> So it really doesn't matter how your (or my) mail viewer displays
+> the setlist information, as long as the setlist data file adhere's
+> to the correct format of one carriage return at the end of each
+> field. Am I making sense? Please feel free to constructively
+> criticize what I have to say.
+
+My mail "viewer" (I use emacs) is perfectly capable of displaying
+lines of arbitrary length, and the mail software at my end (DEC Unix)
+does not wrap long lines.  The wrapping was done before it got to my
+system.  It may have been done at Gordon's ISP, or when it passed
+through the mail system at Berkeley.
+
+The copy in the digest archive at Berkeley is identical to the one I
+received, with lines wrapped at 76 lines.  It's not the digesting
+process that does this however (I get the list undigested).
+
+The only sure way to transmit arbitrary text is to encode it into a
+guaranteed portable format with uuencode or an equivalent.  This would
+also eliminate any question of tabs being munged into spaces, etc.
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Tue, 14 Jan 1997 11:54:15 -0800 (PST)
+Subject: Re: white space
+
+>>>>> Brian McAllister <brian@hotrats.mit.edu> writes:
+
+ > Gordon's setlists arrived in my mailbox, all lines had been
+ > wrapped at 76 columns, such that each "SET" field was in fact multiple
+ > lines separated by newlines.
+
+ > The wrapping was done before it got to my
+ > system.  It may have been done at Gordon's ISP, or when it passed
+ > through the mail system at Berkeley.
+
+These would be non-issues if we didn't use whitespace as delimiters...
+;-)
+
+- - jfw
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Tue, 14 Jan 97 15:02:59 -0500
+Subject: Re: white space 
+
+>  > Gordon's setlists arrived in my mailbox, all lines had been
+>  > wrapped at 76 columns, such that each "SET" field was in fact multiple
+>  > lines separated by newlines.
+> 
+>  > The wrapping was done before it got to my
+>  > system.  It may have been done at Gordon's ISP, or when it passed
+>  > through the mail system at Berkeley.
+> 
+> These would be non-issues if we didn't use whitespace as delimiters...
+
+Actually, it's using CR/NL as a delimiter that's the problem here.
+This is distinct from the tab-related issues.
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 14 Jan 1997 14:41:29 -0600 (CST)
+Subject: Re: white space 
+
+> > My thinking is that each setlist guru will mail (or FTP) the
+> > setlists to Nathan as attached documents (say 1977.txt), thus we
+> > won't have to deal with the discrepancies of different mail viewers.
+> > So it really doesn't matter how your (or my) mail viewer displays
+> > the setlist information, as long as the setlist data file adhere's
+> > to the correct format of one carriage return at the end of each
+> > field. Am I making sense? Please feel free to constructively
+> > criticize what I have to say.
+> 
+> My mail "viewer" (I use emacs) is perfectly capable of displaying
+> lines of arbitrary length, and the mail software at my end (DEC Unix)
+> does not wrap long lines.  The wrapping was done before it got to my
+> system.  It may have been done at Gordon's ISP, or when it passed
+> through the mail system at Berkeley.
+
+This problem should not be an issue if the year care-takers drop their
+text files on an anon FTP site, where they can be put onto the web site.
+email is a bad way to move information where non-printing characters are
+critical, and I don't think anybody wants to rework the spec to use
+another field delimiter. 
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: Daniel Lynch <dflynch.esq@internetmci.com>
+Date: Tue, 14 Jan 1997 17:24:00 -0800 (PST)
+Subject: Re: Year Caretakers Update
+
+I've been lurking here for a month or so, and downloading the
+great work done so far.
+I'll volunteer to do 1990, my favorite late era year, since all
+the good early years are taken.  
+
+Dan Lynch
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Tue, 14 Jan 1997 15:19:30 -0800 (PST)
+Subject: [none]
+
+regarding formatting:  our lists should be as SIMPLE as possible, as MINIMAL
+as we can make them and still LEGIBLY relay the information we mean to.
+
+which scotches tabs.  which can always be inserted ad lib. by anyone once
+they've downloaded the lists.  if the lists are UNIFORMLY formatted, they
+can be inserted with a minimum of fuss.  especially by programmers.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #129
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

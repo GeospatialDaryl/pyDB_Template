@@ -1,0 +1,249 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #174
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 14 February 1997      Volume 01 : Number 174
+
+In this issue:
+
+	Re: deadlists site 
+	audio samples of jams
+	[none]
+	Re: deadlist format (was Re: 1980 deadlists )
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 13 Feb 1997 17:15:28 -0800
+Subject: Re: deadlists site 
+
+I have cc-ed the list on this "private" email response (I'm 99% sure John
+won't mind) because various people have asked/offered something similar:
+
+At 05:33 PM 2/13/97 -0500, you wrote:
+>In message <199702040735.XAA20166@mail.well.com> you write:
+>> The Internic came through more quickly than expected.  The DeadLists site is
+>> now at <http://www.deadlists.com>.  
+>
+>Hi Nathan,
+>     That's great!  One minor nit, should it be deadlists.org instead
+>of deadlists.com since it's more of a (loose ;-) organization than
+>a commercial business or company, and so people don't think we're a
+>.com site trying to sell them something?
+
+Actually, John is the first person to mention this part.  .org would have
+worked well, and we could have waited for those new .arts .rec and so on
+suffixes which will probably be online later this year.  But .com has the
+benefit of being the Netscape (and IE?) default.  That is, you can simply
+type in "deadlists" and Netscape adds the www. and the .com, most of the time.
+
+Also, related to the following note, some folks have suggested banner ads as
+a way to offset the cost of the site (and having .com would make that more
+proper) -- but I don't think we're to that point, yet (and may never go that
+route).
+
+>     Also, the Internic has now started charging money for domain names,
+>right?  Is it $50-$75 for a year or two or something like that?  Hmm,
+>you probably have to pay an ISP something for the web space, too.  I
+>don't think it's fair that you have to pay the whole thing, could
+>we all kick in some money to help pay for it?  If we could get 10
+>to 20 people to chip in I assume it wouldn't be that much (maybe
+>$20-$40 for a year or 2?).
+>
+>			John
+
+A number of people have suggested similar ideas to me.  I'm not sure what I
+think of it.  Let me break down the costs and then explain where I am coming
+from:
+
+ROUGHLY ONE TIME FEES
+setting up the hosting service: $30
+having the hosting service move the paperwork through the Internic: $30
+paying the Internic for the first two years (which is the minimum first
+payment) ownership of the deadlists.com domain: $100
+( this last fee becomes $50/yr after the first two years )
+
+MONTHLY FEES
+$20 to the company hosting the site (so long as it remains under 25MB [50
+cents per meg over that] and so long as traffic is less than 220MB/day, Web
+and FTP combined)
+$200 if there is more than 220MB of traffic on any one day
+
+
+So as many of the folks involved in DeadLists have mentioned to me, this is
+a hefty bit of change for me to sport for a "community" project.  Luckily,
+I'm not a starving student/writer anymore, otherwise I couldn't afford this.
+But my "career" at present is Web development.  So I look at this
+expenditure as a "business expense" (no, I'm not writing it off! :-)
+inasmuch as I get more practice coordinating a site that lots of people are
+involved with, I hopefully get more opportunities to explore the limits of
+the Web than my relatively straight Webmaster day-job permits, I get another
+piece of work to reference on my resume, etc.  (It also makes it possible
+for me to get a $10/month unlimited dial-up from the same company -- an
+offer only available to people that have one of the $20 hosting accounts.)
+
+Long story short:  So long as traffic never exceeds 220 MB per day (in which
+case the site hosting costs increase by a factor of ten for me, which IS too
+much), this scene works for me. 
+
+I don't really feel right asking folks to contribute money, for the reasons
+I outline above and one more:  I'm "in control" of the site.  I'm trying not
+to ego-trip and merely facilitate.  But since I am hoping to point potential
+future employers/clients to the site as an example of something I have done,
+I want to retain final control over how it's put together (while accomdating
+all the needs of the Project).
+
+If the traffic or storage fees increase, I will probably come asking for
+donations.  
+
+Yeah, I have spent $180 on the site.  But for the next 23 months, it'll just
+be $20/month.  And so long as I have a decent job, and especially one
+working on the Web, I can justify the expense in my own head as being akin
+to spending money/time on a convention or a new piece of computer gear:
+it's an investment of time and money in how I make my living -- not to
+mention a cool way to put something back into the DeadHead community, and
+have a rewarding experience in the process... 
+
+(And if some people still feel like contributing towards the costs of the
+site, I won't argue any further.  I just wanted to lay those items out on
+the table -- becaue those are the issues that always occur to me when
+someone offers to chip in.)
+
+- -Nathan
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 13 Feb 1997 17:31:08 -0800
+Subject: audio samples of jams
+
+One of the early ideals of this project was to provide brief online audio
+clips of the various names jams -- so that people how don't know them by
+name could understand what names jams in the setlists refer to.  I haven't
+had the time (nor the decent technical resources) to devote to putting those
+clips together.
+
+This, then, is a grovel.  If anyone can go through the named jams on the
+Songs List page and create a *small* .wav file (like 8bit mono) of as mnay
+of those named jams, just a little chunk of each, that'd be great.  I select
+.wav *not* because I love Bill Gates but because it has become very cross
+platform now that  Quicktime supports .wav files.  The 8 bit mono is simply
+to keep the files small.  The themes will still be recognizable, even if
+they do sound like AM radio :-)
+
+BTW, these have to be short, not just to satisfy bandwidth constraints but
+also so that we're not violating the Dead's copyright on the material (ie,
+short = "fair use" or whatever it's called).
+
+- --Nathan
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 13 Feb 1997 19:16:57 -0800 (PST)
+Subject: [none]
+
+the lists we post for downloading should be easily readable by uninitiated
+people *as well as* machine usable (uniformly formatted).  it should be that
+difficult to serve both these ends simultaneously.
+
+we can eliminate the BAND field in our format without harm.  it is
+superfluous to our purposes.
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 13 Feb 1997 21:57:59 -0800
+Subject: Re: deadlist format (was Re: 1980 deadlists )
+
+>I guess it comes down the issue that was never quite resolved in this
+>group a few weeks back; do we make the dead-lists themselves "pretty" or
+>user friendly so that Joe Deadhead can dl them into his Win95 machine and
+>print them on the laser printer at school (always a good idea: save your
+>$$ for tapes!), or do make the dead-lists akin to source code, where the
+>final product or pretty lists can be generated using some external
+>processing. I'm in favor of the source code method, as I think we have
+>enough dedicated folks around to code the software to parse the data into
+>the final product. But, like most things, I think there needs to be some
+>kind of group consensus on this, and I'm into whatever most folks think is
+>The Right Way To Do It... 
+>
+>	Tim
+
+The setlists will be "pretty" on the Web, so long as we have the field names
+at the start of every field.  Whether the lines break, how they do so, etc.,
+doesn't matter for that, as I have indicated.  I know this becuase I have
+been coverting them and this is what I have found.
+
+So for my end, I'd like to ask all year caretakers to make sure that each
+field has its own header attached.  It's not the end of the world if you
+don't have that together yet.  I can put stuff online in almost any format.
+Just working towards an ideal here :-)
+
+The rest of this is a guesstimate:
+
+By the same token, I think it will be pretty easy to remove all hard breaks
+other than those that should separate fields (by the same kind of
+search-and-replace script).  So if folks have trouble keeping the breaks
+right on their end, we're not dead in the water.
+
+Either way, we're going to have the setlists sitting on the server in two
+forms, one marked up as html, one as the text files for searching (maybe as
+one long text file?)  It's not ideal, but constructing the kind of database
+that would get around this is *way* beyond the kind of free time I (or
+probably anybody else here) has.
+
+Maybe the stumbling block is that we don't know how to get setlists from
+caretakers to search engine.  Posting to the list might work.  But then
+where to they go?  Probably need to be saved as a text file, at a particular
+place on the server where the search engine is.  Should it be one big text
+file?  Lots of little ones?  I'd guess the former, though it's more time
+consuming.  Then, I'd assume, we have done all we need to with the setlists,
+to make things work.
+
+For me, at the point where they are posted to the list, I can grab 'em and
+put them on the Web for viewing.  I think that even after we have a search
+engine online, we are going to want to have them available that way (unless
+the search engine is such that asking to see all of 1974, for example, would
+work easily/quickly).
+
+Anyways, just some ramblings on these themes.  I've tried to stay out of the
+fray for the most part, but figured I'd chime in again...
+
+The bottom line for the caretakers however is that we can continue to go
+ahead with collecting info.  It's looking like we may have the info online
+in a workable for around the time that the search engines are ready to
+go....which sounds great to me!
+
+- --Nathan 
+
+
+------------------------------
+
+End of DeadLists Digest V1 #174
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

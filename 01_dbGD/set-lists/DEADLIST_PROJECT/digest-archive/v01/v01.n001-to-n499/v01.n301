@@ -1,0 +1,158 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #301
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Friday, 16 May 1997        Volume 01 : Number 301
+
+In this issue:
+
+	assist needed
+	Archive
+	Re: Archive
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 16 May 1997 11:08:46 -0700 (PDT)
+Subject: assist needed
+
+A few people have either posted to the list or emailed me regarding what 
+they can contribute to the project.  For the most part, I have usggested 
+that, barring becoming a caretaker for one of the years still in need, if 
+they can provide or upgrade setlists (timings, transitions, etc.), that 
+would be great.
+
+But I have realized we have some other matters to take care of.  Most of 
+these relate to the FTP site (ftp://ftp.deadlists.com):
+
+1)  It is possible to get all the stuff from the pub directory at present 
+by using an "ordinary" ftp client -- or by entering the site from the 
+front door URL using something like Netscape.  But for some reason, I 
+haven't constructed a valid link to get to a particular document within 
+the site from a Web page.  I know Netscape has a slightly "incorrect" way 
+of doing anonymous FTP.  I think that there is a URL sytanx that can take 
+care of this. But I don't have time to chase it down and test it.  If 
+someone wants to figure out how a link from the Web pages can directly 
+call a document in the FTP archives (Do I need to change the URL in the 
+link?  Do I need to reconfigure the FTP area's permissions? etc.), that 
+would be great.  (Email me if you want to talk about it, if you like.)
+
+2)  The ftp area is a bit of a dissarray.  If someone wants to figure out 
+how to re-arrange the pub directory to make it more sensible, please do 
+so.  Prolly the easiest way will be to download all the pub stuff to your 
+own machine, mess around with it, and then upl;oad it to the incoming 
+directory once it's revised.
+
+3)  There are a lot of "corrected" setlists in the ftp area.  I think 
+that many caretakers haven't had the chance or the "ability" to get these 
+corrected lists (proper format, proper song titles, etc.).  If someone 
+wants to email each caretaker whose lists are corrected there, ask 
+whether the caretaker has the new lists -- and, if not, then either 
+forward them to the caretaker or explain how to get them, that would be 
+great!
+
+
+There are probably some other matters that relate to these that I am 
+forgetting, but this will be a good start.  Anyone interested in doing 
+any of these things should post a note to that effect to the list -- so 
+that we aren't duplicating efforts that will not benefit from redundancy.
+
+Eventually, I will find the time to do all these things.  But I've spent 
+that past week in training (Notes/Domino sys admin course) and am now 
+faced with cathing up on a week of missed work.  So my time is limited 
+into the forseeable future (especially with Lester Bowie coming to town 
+next week! :-)
+
+- --nathan
+
+------------------------------
+
+From: Kevin Weil <kevin_weil@non-hp-usa-om31.om.hp.com>
+Date: Fri, 16 May 1997 14:02:47 -0700
+Subject: Archive
+
+Just joined the mailing list.  Spent the past two days reading the
+mailing list archive to get caught up on what's been transpiring and
+thought, boy, if I forgot what was said about so-and-so tape, I'll have
+to go through several issues again.
+
+Is there any desire/need to index the archive?  Is there someone doing
+this?
+
+Also, I read somewhere along the line something about collecting
+detailed and accurate venue information.  Again, is there a
+need/desire/caretaker for this?
+
+Being a journalist/editor by trade, computer geek by current profession,
+I could take one or both of these on and actually get some gratification
+out of it.
+
+I have some ideas for an index, but I'll save them for a response.
+
+Kevin
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 16 May 1997 15:05:54 -0700 (PDT)
+Subject: Re: Archive
+
+INDEX!  Yes!  That is a very cool idea.  Right now, the mailing list is 
+run through gdead.berkeley.edu but if we need to modify the list, we 
+might need to move it.  Either way, let us know what you are think and we 
+can work with you.
+
+I avoid the archive like the plague, simply because there ISN'T an index....
+
+- --nathan
+
+On Fri, 16 May 1997, Kevin Weil wrote:
+
+> Just joined the mailing list.  Spent the past two days reading the
+> mailing list archive to get caught up on what's been transpiring and
+> thought, boy, if I forgot what was said about so-and-so tape, I'll have
+> to go through several issues again.
+> 
+> Is there any desire/need to index the archive?  Is there someone doing
+> this?
+> 
+> Also, I read somewhere along the line something about collecting
+> detailed and accurate venue information.  Again, is there a
+> need/desire/caretaker for this?
+> 
+> Being a journalist/editor by trade, computer geek by current profession,
+> I could take one or both of these on and actually get some gratification
+> out of it.
+> 
+> I have some ideas for an index, but I'll save them for a response.
+> 
+> Kevin
+> 
+> 
+
+------------------------------
+
+End of DeadLists Digest V1 #301
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

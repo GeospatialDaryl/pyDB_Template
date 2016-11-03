@@ -1,0 +1,523 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #263
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 23 April 1997      Volume 01 : Number 263
+
+In this issue:
+
+	Re: massive updates (Thanks, Ryan!) 
+	Parenthesis in song names
+	Re: Tim and John's earlier posts
+	Re: Parenthesis in song names
+	Re: Parenthesis in song names
+	Re: Tim and John's earlier posts 
+	Re: Parenthesis in song names 
+	Re: Parenthesis in song names - good news
+	Re: Parenthesis in song names - good news
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Wed, 23 Apr 1997 16:08:41 +0100 (BST)
+Subject: Re: massive updates (Thanks, Ryan!) 
+
+On Tue, 22 Apr 1997, John Oleynick wrote:
+
+> > 2. Good Vibrations (04/27/71)
+> > 3. I Get Around (04/27/71)
+> > 
+> Yes, I wasn't sure if I should leave these in the setlist and ask
+> Matt to add them to the song list, or take them out (since the Dead
+> didn't play them) and just note them in a comment.  Any strong
+> opinions either way?  If not, since Matt already volunteered to add
+> them to the songlist I'll take the easy way out and just leave them
+> in.
+
+I think the deciding factor here is that they do appear on tapes.
+So those of us with bad memories may at some point want to do
+a search for the date of show that includes Good Vibrations 
+- - just to avoid accidentally finding yourself miles from home
+and this being the only tape in your bag ;-)
+
+> I believe Matt (I'm sorry, I don't remember your last name Matt, is
+> it Cramer?) has a C++ program that helps with this, although I haven't
+> tried it yet.
+
+Keeps scaring me when I see Matt and C++ in the same sentence
+until I realise it's not me - you've got the right one.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 23 Apr 1997 11:41:15 -0400
+Subject: Parenthesis in song names
+
+Hey all,
+While working on my script to make the HTML pages, I have run into a
+problem that I want to run past the folks on this list. It involves the
+double use of the () characters in setlists.
+
+Right now, the () characters can be used to make a note about a song [ie
+Bertha (1) ; ] and also in the song title [Caution (Do Not Stop On
+Tracks) ; ]. Well, in order to produce the 'Songs' page (the HTML page
+with all the songs and every time played), I've run into a problem
+because the program can't understand that Bertha (1) means "the song
+Bertha, with a note" and Caution (Do Not Stop On Tracks) means "the song
+Caution (Do Not Stop On Tracks)".
+
+After thinking about this for a while, I see no alternative but to
+change one of the symbols. I'm currently in favor of using the {}
+symbols to make notes about songs (ie Bertha {1} ;), but this will cause
+a change in the data spec and will force some of you to change some of
+your setlists. As of right now it's either this, or we will have to
+remove parenthesis from song names.
+
+I just did some testing with the {} characters, and they work fine. It
+can even handle the following:
+
+; Caution (Do Not Stop On Tracks) {1} [3:37] {3} ;
+
+which is good news because it doesn't matter where the notes are (in
+relation to timings, if there are any) as long as they appear after the
+song title. If we go with this change, any subtimings (that use the {}
+characters) must be put in the COMMENTS section.
+
+In conclusion, I'd like to recommend that we replace the the notes
+characters () with {}. If you are against this, or possibly see some
+workaround that I'm missing, please let me know (I'm all ears). If no
+one opposes, I'll update the Data Spec very soon to reflect these
+changes. Thanks.
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 23 Apr 1997 12:03:11 -0400
+Subject: Re: Tim and John's earlier posts
+
+John Oleynick wrote:
+> 
+> Does your program accept the "\" delimiter?  If so, I think you could
+> just make it use "%" instead of "\", since the "%" is the
+> replacement for "\" (although it would probably be good to support
+> both until everyone changes over).
+
+My program can split on the following delimiters (%, ;, >). I can add
+the \ if necessary (is anyone using this symbol)? The only problem is
+that right now, I replace the ';' with a ',' when I write the setlists
+to an HTML file (so it looks nicer). I leave the > delimiters alone.
+What should I replace the % with when I write it to the HTML file? Or
+should I leave it alone?
+
+> > And finally :-), John, do you still have the script that converts files
+> > to the official format? If so, this is going to be very, very, very
+> > important in getting the other setlists online easily. My program must
+> > have the setlists in the data spec format (including brackets around
+> > timings, correct delimiters, etc).
+> 
+> Yes, it should handle most of the other setlists that conform to the,
+> still unwritten, "alternative format" spec.  I've started working on
+> that and will try to post a rough draft within a week or so.
+
+This is good news. This tool will be invaluable in helping Nathan easily
+process these setlists and put them online. I think Tim uses this tool,
+and his setlists were relatively easy to get online.
+
+> Unknown song "jam", probably should be "Jam": 10/18/89 SET2 {762}
+> Unknown song "Other 1 Jam", probably should be "The Other One Jam": 10/20/89 SET2 {788}
+> Unknown song "CC Rider", probably should be "C. C. Rider": 12/10/89 SET1 {891}
+> Unknown song "I'm a Man", probably should be "I'm A Man": 12/10/89 SET1 {891}
+> Unknown song "Good time Blues", probably should be "Never Trust A Woman": 12/27/89 SET1 {904}
+> Unknown song "Midnight Hour", probably should be "In The Midnight Hour": 12/31/89 ENCORE {946}
+> 
+> That's not quite ready for prime time yet, but after I finish documenting
+> the "alternative format" I can clean that up if anyone is interested.
+
+This is a good start. I'm not familiar with what Matt's program does
+either, and ultimately it would be great if the incorrect song titles
+were automatically replaced, but this atleast tells the person what
+songs are incorrect.
+
+In response to Tim's message (73, 74 updates, etc):
+Tim Buller wrote:
+> 
+> I've also taken the liberty of running all the years that have been posted
+> to the list through John O.'s gawk script, and placing them in the above
+> FTP directory, so anyone with the need for the "hard spec" compliant
+> version can grab them here. John's script is also in there, just because I
+> like it so much!
+
+Sounds cool. I'll try and work with some of these today.
+
+> * Do we omit SET3 if there was no third set? I think according to the hard
+> spec, it must be in there, so we should make sure our filters check for
+> that.
+
+Yes, SET3 (as well as all the fields) must be in every setlist, even if
+the field contains no data. This is very important, because I have to
+know in advance how long each 'setlist record' will be. There should
+always be 13 lines per setlist record (12 with data and the 13th line is
+blank).
+
+> * Is it RECORDING or RECORDINGS? Another thing for filters to catch...
+
+MUST be RECORDING. I just tested it out with RECORDINGS, and strange
+things started happening :-)
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+From: Barry Barnes <barnes@tech.iupui.edu>
+Date: Wed, 23 Apr 1997 11:55:39 +0000
+Subject: Re: Parenthesis in song names
+
+I like what Ryan has done....looks great.  I'm caretaker for 4 years,
+and I'll be glad to change the Notes character to {}.
+
+BB
+
+Ryan Shriver wrote:
+> 
+> Hey all,
+> While working on my script to make the HTML pages, I have run into a
+> problem that I want to run past the folks on this list. It involves the
+> double use of the () characters in setlists.
+> 
+> Right now, the () characters can be used to make a note about a song [ie
+> Bertha (1) ; ] and also in the song title [Caution (Do Not Stop On
+> Tracks) ; ]. Well, in order to produce the 'Songs' page (the HTML page
+> with all the songs and every time played), I've run into a problem
+> because the program can't understand that Bertha (1) means "the song
+> Bertha, with a note" and Caution (Do Not Stop On Tracks) means "the song
+> Caution (Do Not Stop On Tracks)".
+> 
+> After thinking about this for a while, I see no alternative but to
+> change one of the symbols. I'm currently in favor of using the {}
+> symbols to make notes about songs (ie Bertha {1} ;), but this will cause
+> a change in the data spec and will force some of you to change some of
+> your setlists. As of right now it's either this, or we will have to
+> remove parenthesis from song names.
+> 
+> I just did some testing with the {} characters, and they work fine. It
+> can even handle the following:
+> 
+> ; Caution (Do Not Stop On Tracks) {1} [3:37] {3} ;
+> 
+> which is good news because it doesn't matter where the notes are (in
+> relation to timings, if there are any) as long as they appear after the
+> song title. If we go with this change, any subtimings (that use the {}
+> characters) must be put in the COMMENTS section.
+> 
+> In conclusion, I'd like to recommend that we replace the the notes
+> characters () with {}. If you are against this, or possibly see some
+> workaround that I'm missing, please let me know (I'm all ears). If no
+> one opposes, I'll update the Data Spec very soon to reflect these
+> changes. Thanks.
+> --
+>                                 - shrive
+> -------------------------
+> Ryan Shriver
+> 602 Caroline St. Apt. B
+> Fredericksburg, VA 22401
+> 540-373-5486
+> (ryan@gator.digicool.com)
+> -------------------------
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Wed, 23 Apr 1997 10:08:46 -0700 (PDT)
+Subject: Re: Parenthesis in song names
+
+>>>>> Ryan Shriver <ryan@digicool.com> writes:
+
+ > In conclusion, I'd like to recommend that we replace the the notes
+ > characters () with {}. If you are against this, or possibly see some
+ > workaround that I'm missing, please let me know (I'm all ears). If no
+ > one opposes, I'll update the Data Spec very soon to reflect these
+ > changes. Thanks.
+
+A problem I see are that with certain fonts, people may not realize that
+the brace is not a parenthesis.  Also, people are going to be using a lot
+more notes than there are songs that have parens in them, so I wonder if
+the spec should change just because of this.
+
+A workaround I would suggest is fix the parser to not treat text inside of
+parens as a note, but as part of the song.  If the contents of the parens
+are just digits, then it's a note.
+
+Another workaround could be to require quotes around song names that
+include delimiters, so the example would read
+
+; "Caution (Do Not Stop On Tracks)" (1) [3:37] (3) ;
+
+Another problem Tim B. mentioned was
+
+>> * Be careful not to put names of fields in the COMMENTS or anywhere else,
+>> as that messes things up... for example, the following is bad:
+>>
+>> COMMENTS	Bobby takes his pants off during SET1. Phil dedicates
+>> ENCORE to Richard Nixon
+
+This shouldn't be a problem if the parser only looks for field names at
+the beginnings of lines, which I believe the spec requires.
+
+	- jfw
+
+ ___________________________________________________________________________
+| John F. Whitehead        Home: jfw@well.com         Work: jfw@wral-tv.com |
+| Technical Director       919-933-9698               919-821-8605          |
+| WRAL OnLine              6 Forest Glen              2619 Western Blvd     |
+| WRAL-TV, Channel 5       Chapel Hill, NC  27514     Box 12000             |
+| http://www.wral-tv.com   http://www.well.com/~jfw   Raleigh, NC  27605    |
+|___________________________________________________________________________|
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 23 Apr 1997 13:56:13 -0400
+Subject: Re: Tim and John's earlier posts 
+
+Ryan writes:
+> John Oleynick wrote:
+> > 
+> > Does your program accept the "\" delimiter?  If so, I think you could
+> > just make it use "%" instead of "\", since the "%" is the
+> > replacement for "\" (although it would probably be good to support
+> > both until everyone changes over).
+> 
+> My program can split on the following delimiters (%, ;, >). I can add
+> the \ if necessary (is anyone using this symbol)? 
+
+It should also handle the ":" (unexamined transition) and "~" 
+(pause transition (e.g. smag ~ ssdd)) transitions.  I think some of
+the earlier setlists posted might still have "\", but they can
+easily be converted to the new "%".
+
+> The only problem is
+> that right now, I replace the ';' with a ',' when I write the setlists
+> to an HTML file (so it looks nicer). I leave the > delimiters alone.
+> What should I replace the % with when I write it to the HTML file? Or
+> should I leave it alone?
+
+I don't know.  I guess just leave it alone, and we'll have to describe
+the meaning of "%", ":" and "~" somewhere so people surfing the setlist web
+pages don't have to read the data format spec to find out what they
+mean.
+
+> > * Do we omit SET3 if there was no third set? I think according to the hard
+> > spec, it must be in there, so we should make sure our filters check for
+> > that.
+> 
+> Yes, SET3 (as well as all the fields) must be in every setlist, even if
+> the field contains no data. This is very important, because I have to
+> know in advance how long each 'setlist record' will be. There should
+> always be 13 lines per setlist record (12 with data and the 13th line is
+> blank).
+
+The database format requires SET3, but the undocumented alternative
+format doesn't, and will automatically add it if it is missing.
+Currently the alternative->database format conversion script prints
+a warning about missing 3rd sets, but I think I'll get rid of that
+the next time I update the script.
+
+> > * Is it RECORDING or RECORDINGS? Another thing for filters to catch...
+> 
+> MUST be RECORDING. I just tested it out with RECORDINGS, and strange
+> things started happening :-)
+
+The alternative format also allows both, and the conversion script
+converts RECORDINGS to RECORDING to comply with the database format.
+
+		John
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 23 Apr 1997 14:25:06 -0400
+Subject: Re: Parenthesis in song names 
+
+In message <199704231708.KAA00846@well.com> John W writes:
+> >>>>> Ryan Shriver <ryan@digicool.com> writes:
+>  > In conclusion, I'd like to recommend that we replace the the notes
+>  > characters () with {}. If you are against this, or possibly see some
+>  > workaround that I'm missing, please let me know (I'm all ears). If no
+>  > one opposes, I'll update the Data Spec very soon to reflect these
+>  > changes. Thanks.
+> 
+> A problem I see are that with certain fonts, people may not realize that
+> the brace is not a parenthesis.  Also, people are going to be using a lot
+> more notes than there are songs that have parens in them, so I wonder if
+> the spec should change just because of this.
+
+Damn.  Yes, those are 2 good points.  I was all for changing the spec to
+make {} the comment chars until John pointed this out, but now I don't
+know if it would be worth it to change the comment char in so many shows
+just because a few songs have parens in them.
+
+> A jworkaround I would suggest is fix the parser to not treat text inside of
+> parens as a note, but as part of the song.  If the contents of the parens
+> are just digits, then it's a note.
+
+Currently a comment doesn't have to be digits, it can be text.  So
+that would be another change we'd have to make to the spec to do this,
+and it would complicate the parsers (or rather the scanners/lexers).
+But, I think this may be one of the lesser evil work arounds.
+
+> Another workaround could be to require quotes around song names that
+> include delimiters, so the example would read
+> 
+> ; "Caution (Do Not Stop On Tracks)" (1) [3:37] (3) ;
+
+I think that would be worse than the previous work around because
+it would complicate the parsers more and open up the problem of
+unclosed quotes.
+
+The only other work around I can think of is to just leave the parens
+out altogehter, possibly using a slightly different notation, such as
+Caution -- Do Not Stop On Tracks, in the setlists, and add a note to
+the setlists or song page that says "The correct title of this song is
+Caution (Do Not Stop On Tracks), but we are unable to use that in the
+setlists because of limitations with our data format".
+
+> Another problem Tim B. mentioned was
+> 
+> >> * Be careful not to put names of fields in the COMMENTS or anywhere else,
+> >> as that messes things up... for example, the following is bad:
+> >>
+> >> COMMENTS	Bobby takes his pants off during SET1. Phil dedicates
+> >> ENCORE to Richard Nixon
+> 
+> This shouldn't be a problem if the parser only looks for field names at
+> the beginnings of lines, which I believe the spec requires.
+
+Yes, it's not a problem with lists in the standard database format,
+it's only a problem for lists that are in the alternative format
+that get run through the conversion script.  The conversion
+script treats all white space the same and doesn't differentiate
+between newlines, tabs and spaces, so it can't tell if a field
+name is at the beginning of a line or not.  I suppose I could
+make it more intelligent about parsing comments, but I'd rather
+not complicate it or its unwritten documentation any more than
+necessary.
+
+			John
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 23 Apr 1997 15:12:08 -0400
+Subject: Re: Parenthesis in song names - good news
+
+John F. Whitehead wrote:
+> 
+> >>>>> Ryan Shriver <ryan@digicool.com> writes:
+> 
+>  > In conclusion, I'd like to recommend that we replace the the notes
+>  > characters () with {}. If you are against this, or possibly see some
+>  > workaround that I'm missing, please let me know (I'm all ears). If no
+>  > one opposes, I'll update the Data Spec very soon to reflect these
+>  > changes. Thanks.
+> 
+> A workaround I would suggest is fix the parser to not treat text inside of
+> parens as a note, but as part of the song.  If the contents of the parens
+> are just digits, then it's a note.
+
+At first I thought this would be too complex, but after fiddling with it
+a little it works. Thanks for prodding me along John(s) :-)
+
+All of the following entries are now valid:
+Caution (Do Not Stop On Tracks)
+Caution (Do Not Stop On Tracks) [4:58]
+Caution (Do Not Stop On Tracks) (1)
+Caution (Do Not Stop On Tracks) (1) [4:20]
+Caution (Do Not Stop On Tracks) [4:15] (1)
+Caution (Do Not Stop On Tracks) [4:15] (0) (9)
+
+This assumes that notes are any sequence of digits inside () while a
+song title is any sequence of characters inside of (). If the Dead ever
+played a song titled 'Let Me In (83968)' we're fucked :-)
+
+If nobody objects, I'd like to change the data spec so that only digits
+inside () are valid for footnoting songs. Characters inside () are
+reserved for song titles. Hooray, another small victory.
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Wed, 23 Apr 1997 17:39:16 -0400
+Subject: Re: Parenthesis in song names - good news
+
+> 
+>> >>>>> Ryan Shriver <ryan@digicool.com> writes:
+>
+>This assumes that notes are any sequence of digits inside () while a
+>song title is any sequence of characters inside of (). If the Dead ever
+>played a song titled 'Let Me In (83968)' we're fucked :-)
+
+Fillmore West 8/17/70.
+
+So I guess we're fucked :-)
+
+Gordon
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #263
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

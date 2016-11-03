@@ -1,0 +1,86 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #64
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Wednesday, 29 May 1996       Volume 01 : Number 064
+
+In this issue:
+
+	Discussion Book Up
+	Search Engine Stuff
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 29 May 1996 12:55:06 -0500 (CDT)
+Subject: Discussion Book Up
+
+I've got a very very simple discussion book up for this project. It's 
+based on Matt Wright's Guestbook. This is just the first step... we hope 
+to have some sort of threaded conferencing up before too long... until 
+then, check out
+
+http://www2.southwind.net/~tjb9d/deadlist/dlbook.html
+
+Please leave a comment so we know people have been checking it out. Later,
+
+	Tim
+
+====
+Tim Buller                                                 Mac Tech Support 
+SouthWind Internet Access, Inc.           http://www2.southwind.net/~tjb9d/
+Serving South Central Kansas                   e-mail:<tjb9d@southwind.net>
+
+
+------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 29 May 1996 13:41:49 -0500 (CDT)
+Subject: Search Engine Stuff
+
+I haven't had any time to mess with John's beta lists (thanks again), but 
+I do have a couple concerns. The biggest thing is parsing the data 
+according to a search query... right now there is no kind of delimiter 
+between records except a nl, which is also the field delimiter. As has 
+been discussed, this will make the data difficult to import into a DB. 
+Now then, it will be no big trick to write a script to convert the data 
+into a tab-delimited format for DB importation (is that a word?) but it 
+would be nice to spec some sort of record delimiter out. Ideas? I'm not 
+sure what convention is on this kind of thing, but I've used x number of 
+# in my own stuff before. I hope to work on this on the weekend, and 
+hopefully get something running. 
+
+	Tim
+
+====
+Tim Buller                                                 Mac Tech Support 
+SouthWind Internet Access, Inc.           http://www2.southwind.net/~tjb9d/
+Serving South Central Kansas                   e-mail:<tjb9d@southwind.net>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #64
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

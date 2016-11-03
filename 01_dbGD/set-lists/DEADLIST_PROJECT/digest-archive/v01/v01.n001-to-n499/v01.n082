@@ -1,0 +1,65 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #82
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Monday, 12 August 1996       Volume 01 : Number 082
+
+In this issue:
+
+	Re: Test Form 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Mon, 12 Aug 1996 18:04:10 -0400
+Subject: Re: Test Form 
+
+Tim Buller writes:
+> I've also put the lists of venues, cities, and state / countries into 
+> ftp.southwind.net/users/t/tjb9d/deadlist/
+> 
+> These lists, esp. the venues, need pretty extensive editing. I just took 
+> the data straight out of John's datafile... I did it by hand because I'm 
+> bored, but I think we can automate the process pretty easily. 
+
+Yes, the venue names probably are still pretty messy.  I think we just
+need a program that reads the lists, counts the times they played at
+each venue and then prints the counts.  Then when we see that they
+played 40 times at Madison Square Garden, 3 times at MSG, twice at
+M.S.G, etc. we'll know what needs to be cleaned up.  I'll try to hack
+that together sometime soon (probably not this week, though).
+
+		John
+
+
+
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #82
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

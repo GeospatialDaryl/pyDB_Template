@@ -1,0 +1,281 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #115
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Tuesday, 7 January 1997      Volume 01 : Number 115
+
+In this issue:
+
+	Re: database format
+	[none]
+	Re: DeadLists Digest V1 #114
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 6 Jan 1997 16:04:42 -0800 (PST)
+Subject: Re: database format
+
+We've worked out most of these issues amongst the barriage of emails posted
+to the list back when the first couple of waves of programmers came on
+board.  The archives indicate nearly all of this discussion.  The format is
+as the couple of people chiefly constructing the search engine desire it.
+
+Whether this format is legible enough for the Web site, for raw downloads of
+setlists prior to using the search engine online is another matter.  I think
+that it is, though it ain't going to win any design awards from Edward Tufte :-)
+
+
+
+
+>>>>>> Jim Powell <chimpowl@well.com> writes:
+>
+> > yes, we need to nail down correct format a little more tightly.  i again
+> > want to emphasize that the lists as posted on the Web site should be legible
+> > without keys or codes or special knowedge.
+>
+>I think we're talking about two different formats here.  We need a format
+>for storing all this information (a database) and we need a format for
+>outputting it.
+>
+>I think the format for the db needs to be very simple and stripped down.
+>We should probably use abbreviations for the setlists so the db will be
+>less prone to error and smaller.  We also should not rely on delimiters
+>(like the tab) that tend to get lost in HTML/mail operations.  It also
+>needs to be flexible so we can easily add new data types.
+>
+>Then, we can write perl programs or something to put them into readable
+>form (web pages, etc.).  We could also write programs to take people's
+>entries/corrections from web pages and put it into the database format.
+>
+>I just can't imagine trying to parse setlists that have "Playin' in the
+>Band", "Playing in the Band", "Playin' jam", "Playin' reprise", etc., when
+>we could have unmistakable four or five letter song names like DeadBase
+>uses.  They're ugly to read, but no human (except the programmers) ever
+>would have to see them.
+>
+>Does this make sense to people?  Any db programmers in the house?
+>
+>	- jfw
+> ___________________________________________________________________________
+>| John F. Whitehead        Home: jfw@well.com         Work: jfw@wral-tv.com |
+>| Technical Director       919-933-9698               919-821-8605          |
+>| WRAL OnLine              6 Forest Glen              2619 Western Blvd     |
+>| WRAL-TV, Channel 5       Chapel Hill, NC  27514     Box 12000             |
+>| http://www.wral-tv.com   http://www.well.com/~jfw   Raleigh, NC  27605    |
+>|___________________________________________________________________________|
+>
+>
+
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Mon, 06 Jan 1997 19:46:16 -0500
+Subject: [none]
+
+In message <199701062322.PAA16142@well.com> Jim Powell writes:
+> yes, we need to nail down correct format a little more tightly.  i again
+> want to emphasize that the lists as posted on the Web site should be legible
+> without keys or codes or special knowedge.
+
+I think we need to keep the current format for any database 
+users, but nobody except us (or database users) needs to see the
+lists in that format.  On the web site we can provide the data
+in a number of different formats:
+
+	nice human-readable setlists, showing only songs and transitions,
+				no times or maps
+	nice human-readable setlists with times
+	nice human-readable setlists with times and maps
+	setlists in the deadlist internal database format that
+				looks real ugly and confusing but is
+				easy for machines and databases to read
+
+If we keep the data in the ugly database format it's easy to
+write programs to translate it into the nice human-readable
+formats, but it's more difficult to write programs that
+translate human-readable format into a database-like format.
+I'd be glad to do that.  Right now I've got a program that
+reads the lists from the database-like format and prints them
+like this:
+
+12/14/71  Hill Auditorium, Ann Arbor, MI
+1:  Truckin', Sugaree, Mr. Charlie, Beat It On Down The Line, Loser,
+    Jack Straw, Next Time You See Me, Tennessee Jed, El Paso,
+    Big Railroad Blues, Me And My Uncle, Run Rudolph Run, Black Peter,
+    Playin' In The Band, Casey Jones
+2:  Ramble On Rose, Mexicali Blues, Big Boss Man,
+    Cryptical Envelopement-> Drums-> The Other One-> Wharf Rat, Sugar Magnolia,
+    You Win Again, Not Fade Away-> Goin' Down The Road Feelin' Bad->
+    Not Fade Away
+
+and I can modify that to optionally include times and/or maps.
+
+Eventually we should have a nice web input interface so people
+can enter setlists using that, and nobody will
+have to see the data in the internal database format except
+for programmers and database users.
+
+		John
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Mon, 6 Jan 1997 18:25:33 -0800
+Subject: Re: DeadLists Digest V1 #114
+
+>From: nathan@well.com (Nathan Wolfson)
+>>I think it would be good to be able to submit PARTIAL lists for a year to
+>>the web site, however.
+>
+>On the other hand, [if?] people to start submitting partial years,
+>I could end up with 30-times-"n"-partials at various times, which'd
+>be way too much for me to deal with.
+
+Actually, I see this as a good thing (the multiple submissions, not you having
+too much to deal with :-) - it lets us start comparing setlists, looking for
+differences.
+
+>-------------------------------------------
+
+>From: "John F. Whitehead" <jfw@well.com>
+
+ > yes, we need to nail down correct format a little more tightly.  i again
+ > want to emphasize that the lists as posted on the Web site should be legible
+ > without keys or codes or special knowedge.
+
+>I think we're talking about two different formats here.  We need a format
+>for storing all this information (a database) and we need a format for
+>outputting it.
+
+>I think the format for the db needs to be very simple and stripped down.
+>We should probably use abbreviations for the setlists so the db will be
+>less prone to error and smaller.
+
+I agree that we do need to distinguish between the internal format of the
+database, and the readable text format that we will enter setlists in, and
+look at setlists from (the latter might be a more rigorous subset of the
+former, with all the optional stuff done one way only)).
+
+>We also should not rely on delimiters
+>(like the tab) that tend to get lost in HTML/mail operations.
+
+Since I use Eudora, which turns tabs into spaces  in email, I might tend to
+agree. However, a parser can still figure out where the tabs should be,
+unambiguously, I think. I would prefer the tabs be there for the text
+version, simpply because it makes it easier to read and enter in word
+processors / spreadsheets / database programs / forms programs / etc.
+
+I don't know if the internal DB format needs to be readable by humans
+at all - it should be something that can be easily turned into something
+readable, and be either easily parsed by a database program, or be the
+parsed database itself.
+
+- ------------
+>I just can't imagine trying to parse setlists that have "Playin' in the
+>Band", "Playing in the Band", "Playin' jam", "Playin' reprise", etc., when
+>we could have unmistakable four or five letter song names like DeadBase
+>uses.
+
+I can imagine it, and have done it to a limited extent, but it's ugly.
+I *think* you're talking about the internal DB here, yes?
+
+You're right, it shouldn't have this problem - songs can be indexed with
+the 4/5 letter abbreviations as you suggested, or just an index into a
+separate file with song names. It doesn't have to look pretty until you
+print it.
+
+- -------------------------
+I started to write a parser a while ago, but never finished (being in the
+midst of job changes, etc.), and now that tax time is coming up I'm not
+sure when I'll get around to finishing (or whether anyone else has done it,
+or cares).
+Has anyone else started to do this?
+I could post my incomplete code if anyone is interested (though it might
+show how bad a programmer I am.....)
+- ---------------------
+There are 4 important pieces of code that I think need to be written.
+
+One is the parser I mentioned above. It takes the text document and
+turns it into something that a program can more easily munge.
+
+One is what I call an AKA checker. It takes a title, and figures out which
+song it is, by keeping a list of common alternative titles, and by applying
+some common transformations ( -ing -> -in', & -> and, ....). This is used
+to make the
+setlists consistent. It could work either on text or DB format. The same
+concept can be used for venue, btw.
+
+Another is a verifier, that compares setlists and lists the differences,
+ignoring comments in one & not the other, timings that are only a few
+seconds different, and taking into account the source (from the vault,
+etc.) to figure out which is likely to be correct). I think this will be
+important to eliminate the bazillion mistake that will creep in.
+
+Finally, a fairly simple piece of code take the DB format and turns it into
+the text format (the reverse of the first above).
+
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Tue, 7 Jan 1997 01:38:11 -0800 (PST)
+Subject: [none]
+
+If User Friendly lists on the Web site are consistent they can be as easily
+transformed into Uglier Forms by programmers for their own purposes as the
+other way round.  
+
+Legible abbreviations are fine with me, just so long as everything is
+consistent so the search engines will work.
+
+One way or the other, it WOULD be cool to settle on our format at long last.
+ And of course, as long as you make it perfectly consistent & it registers
+the features you want to register, any format can be transformed into any
+other format by any sufficiently motivated programmer.
+
+I'll definitely act as "Keeper" of the lists for 1970.  And if no one else
+is doing it I'll definitely do 1969.  I'm also game down the line to take
+some other pre-75 years or help with them.  
+
+If we set this up so we can post partial lists under a year then we can
+really ALL make contributions and assemble many years PIECEMEAL.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #115
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

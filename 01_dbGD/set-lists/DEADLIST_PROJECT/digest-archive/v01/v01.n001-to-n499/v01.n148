@@ -1,0 +1,356 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #148
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 24 January 1997      Volume 01 : Number 148
+
+In this issue:
+
+	Re: updates
+	Re: updates
+	Re: updates
+	Re: DeadLists Digest V1 #145 
+	Re: DeadLists Digest V1 #145 
+	Re: DeadLists Digest V1 #145
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 24 Jan 1997 10:13:04 -0500
+Subject: Re: updates
+
+Nathan Wolfson wrote:
+> 
+> While still on the subject of caretakers:  Shoud the data spec have an
+> official caretaker?  What else can be care-taken?
+
+I don't know what else can really be done, but I'll volunteer to be the 
+caretaker of the data spec, if something arises.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Barry Barnes <barnes@tech.iupui.edu>
+Date: Fri, 24 Jan 1997 10:51:41 -0500 (EST)
+Subject: Re: updates
+
+Nathan, et al....
+
+It would be helpful to me and perhaps to other lurkers to know what a
+"caretaker" for a particular should do....especially since Ryan now has
+made most of the sets available with your involvement.
+
+Does the caretaker correct the year they're responsible for?  Do they add
+timings and comments?  Do they act as the funnel for receiving corrections
+and additions from others on this list?
+
+Thanks!
+
+Barry
+
+On Thu, 23 Jan 1997, Nathan Wolfson wrote:
+
+> The new dataspec, courtesy of Ryan, is online at
+> <http://www.well.com/~nathan/dldata.htm>.  (Those <pre> tags are going to be
+> the death of us *all* (or at least those that like to use <table>s for
+> formatting) -- but that's another story, and at least it's readable and
+> accurate!  Thanks, Ryan.)
+> 
+> The Song Names list has an official caretaker, Matt.  In case you forget his
+> email, his name is hyperlinked to his email address, at the top of the Song
+> Names page at <http://www.well.com/~nathan/dlsongs.htm>.
+> 
+> While on the subject of "caretakers":  We really need some folks to take on
+> a few years from the 80s (like *all* of them).  If you've been lurking and
+> want in on the action, please step forward.  It's not going to take too much
+> time to maintain a year from the 80s.  All you need is a stable email
+> address and a confidence that you'd like to participate, into the indefinite
+> future.
+> 
+> While still on the subject of caretakers:  Shoud the data spec have an
+> official caretaker?  What else can be care-taken?
+> 
+> 
+
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 24 Jan 1997 11:49:16 -0500
+Subject: Re: updates
+
+Barry Barnes wrote:
+> 
+> It would be helpful to me and perhaps to other lurkers to know what a
+> "caretaker" for a particular should do....especially since Ryan now has
+> made most of the sets available with your involvement.
+
+I'll chime in here with my $0.02. The setlists I posted were from data I 
+received a while back, and I can't vouch for their accuracy. There are many 
+typos and missing fields in the data. I think most of these lists came from 
+DB, because there are no listed contributors or recordings for the setlists. 
+
+The temp_dead.html document was an attempt to show what can be done with 
+correctly formatted data (using the data spec), so we don't have one spec for 
+the search engine, one spec for the browsing, etc. Basically, I can write a 
+filter-program that takes data-spec-setlists and converts it to HTML. This can 
+save Nathan time so he doesn't have to manually convert them to HTML.
+
+As far as using the data that is already in temp_dead.html, hmmm, I don't 
+know. I'll let the setlist contributors handle this issue.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Fri, 24 Jan 1997 12:56:00 -0500
+Subject: Re: DeadLists Digest V1 #145 
+
+Allen replies to Jim:
+> >wouldn't it make sense to set out our STATE field so that we can list
+> >Canadian provinces there, when appropriate?
+> 
+> I don't know if there are standard two letter codes for the provinces, or
+> what they might be (outside of, perhaps, BC) and whether the conflict with
+> the two letter country codes... if there are, and they don't....
+
+I was wondering about that too.  I just poked around on the web and
+found a list at gopher://mundo.eco.utexas.edu/00/ref/us-po-codes
+and it looks like they are unique.  Yay!  I was thinking about that
+problem a couple weeks ago when I noticed that the country code
+for Canada conflicted with the state code for California.  So
+it looks like we can work around that problem and add more detail 
+by making the state/country field a state/country/province field.
+I think the only conflict that leaves is DE for Germany and
+Delaware, but I think the Dead might have solved that problem
+by never playing in Delaware?
+
+I think these are the only countries where they played:
+
+UK - England (the list I found also has GB for Great Britian)
+DK - Denmark
+DE - Germany (the list I found has DD for German Democratic Republic;
+		I forget if that was East Germany or West Germany and
+		if there was still a distinction when they played
+		Berlin in '90)
+FR - France
+NL - Netherlands
+LU - Luxembourg
+?? - Scotland (I couldn't find a code for this.  Does it go under UK?)
+ES - Spain
+SE - Sweden
+
+And it looks like none of them conflict with the US and Canadian
+codes below (except Germany/Delaware).
+
+		John
+
+U.S. Postal Service Abbreviations
+- ----------------------------------------------------------------
+- ----------------------------------------------------------------
+
+United States
+- ----------------------------------------------------------------
+
+AK   Alaska
+AL   Alabama
+AR   Arkansas
+AZ   Arizona
+CA   California
+CO   Colorado
+CT   Connecticut
+DC   District of Columbia
+DE   Delaware
+FL   Florida
+GA   Georgia
+HI   Hawaii
+IA   Iowa
+ID   Idaho
+IL   Illinois
+IN   Indiana
+KS   Kansas
+KY   Kentucky
+LA   Louisiana
+ME   Maine
+MA   Massachusetts
+MD   Maryland
+MI   Michigan
+MN   Minnesota
+MO   Missouri
+MS   Mississippi
+MT   Montana
+NC   North Carolina
+ND   North Dakota
+NE   Nebraska
+NH   New Hampshire
+NJ   New Jersey
+NM   New Mexico
+NV   Nevada
+NY   New York
+OH   Ohio
+OK   Oklahoma
+OR   Oregon
+PA   Pennsylvania
+PR   Puerto Rico
+RI   Rhode Island
+SC   South Carolina
+SD   South Dakota
+TN   Tennessee
+TX   Texas
+UT   Utah
+VA   Virginia
+VT   Vermont
+WA   Washington
+WI   Wisconsin
+WV   West Virginia
+WY   Wyoming
+
+
+Canadian Provinces
+- ----------------------------------------------------------------
+AB   Alberta
+BC   British Columbia
+LB   Labrador
+MB   Manitoba
+NB   New Brunswick
+NF   Newfoundland
+NS   Nova Scotia
+NT   Northwest Territories
+ON   Ontario
+PE   Prince Edward Island
+PQ   Quebec
+SK   Saskatchewan
+YT   Yukon Territory
+
+
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Fri, 24 Jan 1997 12:32:50 -0600 (CST)
+Subject: Re: DeadLists Digest V1 #145 
+
+Allen wrote:  
+
+> I don't know if there are standard two letter codes for the provinces,
+> what they might be (outside of, perhaps, BC) and whether the conflict
+> with the two letter country codes... if there are, and they don't....
+
+My feeling is that it would be more intelligible and only a little more
+work to type the country name in STATE. In the past, I have capitalized
+the entire word, e.g. FRANCE, as this is a post-office way to do things,
+but that's probably not important.
+
+John wrote:
+> DE - Germany (the list I found has DD for German Democratic Republic;
+> 		I forget if that was East Germany or West Germany and
+> 		if there was still a distinction when they played
+> 		Berlin in '90)
+
+DD would have been East Germany; 10/3/90 was the Day of German Unity; the
+gigs were on 10/19 & 20. At any rate, they were at the ICC which is (was?)
+in West Berlin. One thing I was concerned about in doing 74 (this would
+apply to 72 and 81 as well) was if we need to make the "Federal Republic
+of Germany" distinction. Anyone have any input?
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 24 Jan 1997 14:05:00 -0500
+Subject: Re: DeadLists Digest V1 #145
+
+Tim Buller wrote:
+> 
+> Allen wrote:
+> 
+> > I don't know if there are standard two letter codes for the provinces,
+> > what they might be (outside of, perhaps, BC) and whether the conflict
+> > with the two letter country codes... if there are, and they don't....
+> 
+> My feeling is that it would be more intelligible and only a little more
+> work to type the country name in STATE. In the past, I have capitalized
+> the entire word, e.g. FRANCE, as this is a post-office way to do things,
+> but that's probably not important.
+
+I'd vote in favor of the full name for non-US locations. While I can figure 
+out all the US states, I (and others) might not know what LU, ES or SE are 
+without consulting some key.
+
+> John wrote:
+> > DE - Germany (the list I found has DD for German Democratic Republic;
+> >               I forget if that was East Germany or West Germany and
+> >               if there was still a distinction when they played
+> >               Berlin in '90)
+> 
+> DD would have been East Germany; 10/3/90 was the Day of German Unity; the
+> gigs were on 10/19 & 20. At any rate, they were at the ICC which is (was?)
+> in West Berlin. One thing I was concerned about in doing 74 (this would
+> apply to 72 and 81 as well) was if we need to make the "Federal Republic
+> of Germany" distinction. Anyone have any input?
+
+Hmmmm, I guess to be correct, we would need to use this. Maybe we could list 
+it correctly in the setlists, and just have "Germany" appear on the state 
+field on the search page?
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #148
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

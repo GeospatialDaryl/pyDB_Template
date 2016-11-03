@@ -1,0 +1,134 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #213
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 13 March 1997      Volume 01 : Number 213
+
+In this issue:
+
+	Re: '71 deadlists
+	'%' = '\' splice transition character replacement!
+	10/31/71
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Thu, 13 Mar 1997 13:55:24 -0500
+Subject: Re: '71 deadlists
+
+At 1:45 PM 3/13/97, John Oleynick wrote:
+
+>8/23?  I've heard a theory that the 8/24 aud that circulates is really 8/23
+
+There are at least 2 aud sources of 8/"23or24"/71 in existance. One of
+them, the taper SWEARS he was only at 8/23 and couldn't have taped 8/24.
+His tape matches Deadbase's 8/24/71 list.
+
+Second vector: I have a one-gen-away-from-Latvala tape with an Empty Pages
+filler that Latvala hisself has labeled "8/23/71." Deadbase lists EP as
+8/24.
+
+        .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Thu, 13 Mar 1997 14:19:33 -0500
+Subject: '%' = '\' splice transition character replacement!
+
+On March 9th, in a message with the 12/4/71 setlist, Jim Powell mentioned:
+> i continue using the backslash to indicate a tape splice until we settle on
+> an alternative.  the % sign seems good to me, by the way.
+
+and thus became the swing vote in one of the great dilemmas of our
+time, whether to use % or / to replace the \ transition character:
+
+	LineBreaks	
+Ryan	don'tCare;Prop1	
+Nathan	% instead	
+Gordon	
+John	% (changed vote, previously was either / or %)
+Allen	% (changed vote, previously was either / or %)
+Tim	either / or %	
+Jim	%
+
+prop1 - % = splice in tape, / = cut in tape
+
+So that solves that.  I think the only open issue that we were voting
+on that we still haven't resolved is what to do about song maps.
+I think we did agree that they definitely had to use {}'s and not
+()'s.  But, Nathan suggested that they only be allowed in the comments
+field, and not in the sets field.  If I remember correctly, Allen
+mentioned that the original intent was that maps only go into
+the comments field, even though the spec would allow them in the
+set fields as well.  I started out putting maps into the
+set fields but I think the lists are alot more readable if
+the maps only go into the comments field, so I'll change my
+vote to say that maps should only go into the comments field.
+Can we get a consensus to do this?  (or not to do it; I mainly
+want to get a consensus so we can be done with it and update 
+(or not update) the spec and move on to other things)
+
+			John
+
+
+------------------------------
+
+From: "Alan Topal" <at418@poppa.fab.albany.edu>
+Date: Thu, 13 Mar 1997 14:45:32 -500
+Subject: 10/31/71
+
+BAND	Grateful Dead
+>DATE	10/31/71
+>VENUE	
+>CITY	Columbus
+>STATE	OH
+>SET1	
+>SET2	Dark Star > Sugar Magnolia ; Saint Stephen > Not Fade Away >
+>Goin' Down The Road Feeling Bad > Not Fade Away
+>SET3
+>ENCORE	
+>COMMENTS	 RECORDING	no recording info yet
+>CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+Also circulating from this show is:
+
+SET 1: Deal [4:39], Playin [6:12], OMSN [4:44]
+Encore: JBG [3:47]
+
+They were part of Grateful Dead Hour #342
+
+- -Alan
+
+------------------------------
+
+End of DeadLists Digest V1 #213
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

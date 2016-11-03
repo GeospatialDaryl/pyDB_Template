@@ -1,0 +1,169 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #45
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 16 April 1996       Volume 01 : Number 045
+
+In this issue:
+
+	re v. 1.1 of database format
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Mon, 15 Apr 1996 18:01:03 -0700
+Subject: re v. 1.1 of database format
+
+I have quibbles.
+A lot I've mentioned before, and I thought had been agreed to, or
+not disagreed with, so I'd like to get them straightened out.
+(Also, my spelling bee memes are screaming at me - do a spell check)
+
+So, without further ado: (my comments are indented)
+
+DATE:
+
+Each base "Date" shall be a basic eight string in the form mm/dd/yy (e.g.
+"02/04/88").
+
+        QUIBBLE: I would say 6 to 8 character string; I see no reason for
+        forcing leading zeroes on months and days of month.
+
+In the event that....its accuracy is questioned, a ninth character will be
+used for a question mark (e.g. "04/01/68?").
+The ninth character shall also serve as a flag other information about a
+given show as follows:
+
+        QUIBBLE: I would say 'trailing character, NOT 9th character, since
+                there may be more than one '9'th character, as in 4/1/68a?
+
+Song Timings:
+Song timings,......shall be enclosed in brackets (e.g. song1 [2:33] > song2).
+
+Set Timings:
+Set Timings shall be placed at the end of the set list string
+and         shall be placed inside of curly brackets
+and         shall be in stated in hr:min:sec (e.g. song10 [6:32] {2:35:45}).
+
+Timing maps may be placed within setlists ...[ inside curly brackets after
+song timing] The placement of [song] timing maps has yet to be determined:
+
+
+        I think ALL timings (set and song and songmap) should be inside
+        square brackets. Which timing is determined by placement:
+               - between songname and delimiter == song timing
+               - inside songmap (which is inside curly braces between song
+                  and delimiter):               == song subsection timing
+               - before first songname (between SETn & first song):
+                                                == set timing
+
+        The current set timing def. is a bit ambiguous to me; is the
+         set-list-string the same as the SETn field heading?
+        The example seems to show it as the last thing in the setlist field,
+         so maybe not. f not, then my definition contradicts it.
+        Also, the current definition has it in curly brackets instead
+         of sq. brackets.
+
+        I believe the way I've defined it is more consistent.
+        -All timings are in sq. brackets.
+        -Set timings precede song timings precede song maps.
+
+
+Reference Marks:
+        I think that more than one reference mark can be strung together, e.g.
+                (1)(2)(3)...
+        and that more than one song/set can use the same reference mark.
+        There should be a note to make this explicit.
+
+        Also, what the reference mark refers to should depend on its position,
+        exactly as song timings above.
+               - between songname and delimiter: ==song timing
+               - inside songmap (which is inside curlybraces between
+                song and delimiter):             ==song subsection timing
+               - before first songname: (between SETn & first song):
+                                                 == set timing
+
+Miscellaneous:
+Set lists for acoustic sets shall begin with the pharse "Acoustic:".
+
+        I think we have a potential ambiguity, if the first song of a set is an
+         acoustic version of something or contains a ':' in it's title.
+        I'd like to see it in parens, so it looks like a reference mark,
+         but distinguished as it is non-numeric.
+        We could do this for reference marks in general;
+         Numeric    reference marks are pointers to description,
+         nonnumeric reference marks are 'immediate' descriptions.
+
+COMMENTS:
+
+The following unique descriptions shall precede information contained in
+the comments..
+                     ^^^^^^^^^^^
+        I would use the word 'keywords'
+        I would also require keywords to have a trailing ':'
+
+Following are proposed subcategories:
+
+"Guest:" - Followed by name(s) of guests, separated by colons which would
+be referenced up to the songs that they played on by a number in
+parentheses.
+"Openner:" - Followed by the names of openning act(s) separated by colons.
+
+        QUIBBLE ALERT! I think that should be 'opener:'& 'opening' act (one 'n')
+
+        Also, I think the references should contain the keyword, not the other
+        way around. So instead of
+                * Guest: (2) Carlos Santana *
+        it would be
+                * (2) Guest: Carlos Santana *
+        (of course, more than 1 song might have a reference to (2)
+- -------------------
+
+        I think I must have a small mind or something, since I like consistency:
+        Things like:
+
+        -All timings are in sq brackets
+        -All references are in parens (and can be immediate or indirect)
+        -Maps are in curly brackets
+
+        -Things that are properties (timing, notes) of an entire
+        entity (set, song, song subpart) follow immediately the keyword
+        or descriptor for the entity. Subparts follow the properties.
+        E.g.:
+        -- things that refer to an entire set (set timing, notes
+          (e.g. acoustic: keyword) and map (e.g. the songs))
+        -- things that refer to an entire song (timing, notes, and map)
+          follow the songname and precede song delimiter.
+        -- As mentioned somewhere in the archives, things that refer to
+          the entire show follow the NOTES keyword, and precede individual
+notes.
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #45
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

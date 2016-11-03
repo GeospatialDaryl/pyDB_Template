@@ -1,0 +1,301 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #112
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Saturday, 4 January 1997      Volume 01 : Number 112
+
+In this issue:
+
+	Re: DeadLists Digest V1 #104
+	Re: deadlist format example
+	Re: deadlist format example
+	Re: deadlist format example
+	Re: deadlist format example
+	Re: deadlist format example
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 04 Jan 1997 11:03:02 -0500
+Subject: Re: DeadLists Digest V1 #104
+
+>Faaantaastic - I'm glad there are people out there with more time than me.
+>Naturally, I have a nit - the timings should be in square brackets, so that
+>the database can parse them. Notes should be numbered, and in parens for
+>the same reason (NO asterisks!)
+
+Ok, timings in brackets is fine. However, if no asteriks, what can be
+suggested to notate incomplete timings? While a note in the comments section
+is necessary to describe the incomplete timings I think when a timing is
+presented as incomplete it should be in a format that will allow the search
+engine to catch it and be immediately visible to the reader (a la my present
+asterik notation). For example, going to my 1977 lists, if someone chose to
+search the song timings for all Playing in the Bands that year, without the
+asterik (or some kind of flag on the timing) they would pull up a 7:46
+timing for 5/17/77 masquerading as a complete time when in fact it is short
+by four and a half minutes.
+Comments?
+
+Gordon
+
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 04 Jan 1997 11:18:35 -0500
+Subject: Re: deadlist format example
+
+>Oops, I mistyped the example in my last message, and put the tab
+>separators before the song transitions ("song1<tab> ; song2")
+>instead of after them ("song1 ; <tab>song2"), which is how they 
+>should be.  Here's another example, that I think really is correct.
+>This example has timings, timing maps and timed long pauses.
+>
+>		John
+>
+>--------cut here--------
+>BAND	DATE	VENUE	CITY	STATE	SET1	SET2	SET3	ENCORE	COMMENTS	RECORDING
+CONTRIBUTORS
+>Grateful Dead
+>12/14/71
+>Hill Auditorium
+>Ann Arbor
+>MI
+>[84:34] Truckin' [8:11] ; [1:36] ; 	Sugaree [6:04] ; [1:40] ; 	Mr. Charlie
+[3:36] ; 	Beat It On Down The Line [2:53] ; 	Loser [5:56] ; [3:43] ; 	Jack
+Straw [4:28] ; 	Next Time You See Me [3:55] ; 	Tennessee Jed [6:40] ; [2:19]
+; 	El Paso [3:58] ; 	Big Railroad Blues [3:47] ; [1:04] ;  	Me And My Uncle
+[2:38] ; 	Run Rudolph Run [2:49] ; [1:24] ; 	Black Peter [7:55] ; 	Playin'
+In The Band [6:31] {intro: [0:15] verse 1 and chorus [0:33] interlude [0:18]
+verse 2 and chorus [0:30] interlude [0:37] verse 3 and chrous [0:26] jam
+[2:13] intrumental reprise [0:23] vocal reprise [0:56] outro [0:14]} ;	Casey
+Jones [5:48]
+>[81:47] Ramble On Rose [4:49] ; [1:22] ; 	Mexicali Blues [3:08] ;	Big Boss
+Man [5:23] ;	Cryptical Envelopement [1:49] > 	Drums [3:33] > 	The Other One
+[19:04] { theme [1:41] spacey jam [0:27] space [2:13] spacey jam [0:33]
+theme [1:12] M&MUish jam [0:38] theme [0:44] verse 1 [0:35] theme [0:31]
+spacey jam [0:51] space [1:16] jam [0:50] space [2:25] spacey jam [0:57] jam
+[0:54] theme [1:57] verse 2 [0:36] outro [0:07] } > 	Wharf Rat [8:36] ;
+[1:41] ; 	Sugar Magnolia [6:54] ; [1:28] ; 	You Win Again [3:25] ; 	Not Fade
+Away [7:42] > 	Goin' Down The Road Feelin' Bad [7:30] > 	Not Fade Away [2:25] 
+>
+>
+
+I have a few comments on this. First of all, without the SET1, SET2, etc. at
+the front of each listing, how is one to know where the set breaks are? If
+I'm missing something obvious about databases my apologies, I'm somewhat of
+a cyberidiot.
+Second comment, and this goes back to something I sent to the list a few
+minutes ago. See the Ramble on Rose timing of 4:49- that is an incomplete
+timing but is not indicated as such in any way here.
+Third comment, I don't think we should be including pause times between
+songs. Few tapes are intact in this respect, and without it being intact, it
+seems to me to be superflous information.
+Finally, I also think the breakdown of The Other One (or any song for that
+matter) to this degree is also superflous. To have such information
+available is a good thing and I applaud the efforts it takes to detail a
+song so thoroughly but it clutters the list so much that maybe we can have
+these details archived in another location for those who choose to peruse
+it? My suggestion is to simply list it as Cryptical Envelopment [1:49] >
+Drums [3:33] >  The Other One [19:04] > Wharf Rat [8:36}, etc. Also, in
+breaking down a song so finely raises the level of subjectivity. It's
+difficult enough to find complete agreement on China/Rider, Scarlet/Fire,
+Space/Other One, Eyes/Space, etc. segues, let alone breaking down a song
+into a dozen components.
+Comments?
+Gordon
+
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Sat, 4 Jan 1997 11:29:17 -0500
+Subject: Re: deadlist format example
+
+At 11:18 AM 1/4/97, gordon sharpless wrote:
+
+>Second comment, and this goes back to something I sent to the list a few
+>minutes ago. See the Ramble on Rose timing of 4:49- that is an incomplete
+>timing but is not indicated as such in any way here.
+
+Is it feasable to note an incomplete song in the timing? Something such as:
+
+        [4:49#] = song cuts at end
+
+        [#4:49] = song cuts at beginning
+
+        [#4:49#] = interior song fragment
+
+        [4:49$] = song with splice in middle
+
+                        .... and so on ...
+
+        .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 04 Jan 1997 11:37:05 -0500
+Subject: Re: deadlist format example
+
+>Is it feasable to note an incomplete song in the timing? Something such as:
+>
+>        [4:49#] = song cuts at end
+>
+>        [#4:49] = song cuts at beginning
+>
+>        [#4:49#] = interior song fragment
+>
+>        [4:49$] = song with splice in middle
+>
+>
+
+If this is feasable for the database, I give this format a 100% yes.
+
+Gordon
+
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Sat, 4 Jan 1997 10:23:00 -0800 (PST)
+Subject: Re: deadlist format example
+
+>>Is it feasable to note an incomplete song in the timing? Something such as:
+>>
+>>        [4:49#] = song cuts at end
+>>
+>>        [#4:49] = song cuts at beginning
+>>
+>>        [#4:49#] = interior song fragment
+>>
+>>        [4:49$] = song with splice in middle
+>>
+>>
+>
+>If this is feasable for the database, I give this format a 100% yes.
+
+If we want to stick with the current format for setlists, we could do it:
+
+        Ramble on Rose(1) [4:49]
+
+        ....
+
+        (1) Song cuts at beginning by at least a minute.
+
+Of course, then searching for Ramble On Roses under 5 minutes would produce
+this performance...  and one could only dismiss it by looking at the setlist
+itself.
+
+We could also do it:
+
+        Ramble on Rose-x [4:49]
+
+on the assumption that if we note in the setlist that every copy we are
+aware of is chopped, then our timing simply reflects the most complete copy.
+
+I've no particular attachment to either method.  What would be ideal,
+though, is if we can rev the format guideline a final time, once we have
+solved this matter, and formalize a few of the items that were indetermined
+previously.  Or maybe we should collect some more setlists, so that more
+issues like this will become apparent and can be taken into account?
+
+I can try to do this rev myself.  But as noted below, I'm going to try to
+create this space for posting setlists -- which I'd like to work on first.
+
+- --------------------------------
+
+RE: note headings on the setlists (ie, no SET1, SET2, etc.):
+
+One can tell whether it's set one or set two because there are *no carriage
+returns* except between fields (ie, between set one and set two and venue
+name, etc.)  The lines wrap on our screens, because they are so long, but
+for the database, the carriage returns will denote the change of field.
+(It's also possible, usually, for us to figure out where the carriage
+returns occur, since they are typically at the end of lines that break only
+partly across the page *and* since we know what kinds of songs typically
+open and close sets.)
+
+
+- ---------------------------------
+
+I note another call for a place to post setlists.  How about this:  Send me
+a text file of your year, and I will place it on the Web, linked from an
+Table of Contents attached to
+<http://www.well.com/user/nathan/dlhome.htm> ?  Of course, other people
+won't be able to comment directly on the Web, in the place where I post your
+list.  Discussions will still have to occur either here OR on the Web at the
+discussion area at
+<http://www2.southwind.net/~tjb9d/deadlist/dlbook.html>, which is being
+sorely underused/misused/neglected/wasted.  And changes would have to be
+made via the following scenario, at least for now:  The person in charge of
+the year would have to collect all the info posted in the mailing list or
+discussion page, revise their entire year, and send the updated text file to
+me.  (This is simply because I know I won't have the time to keep up with
+implementing all the info in all the posts.)
+
+I'll get on creating this Web space as soon as I receive a postable year of
+setlists as a text file, that the year's guardian deems Web-ready (ie, I'm
+not going to assume that what has been posted to the list belongs on the Web
+in a more coveted manner -- it's already all available in the digest
+archives at gdead.berkeley.edu, for the truly curious).  So please send me
+email directly, with the currently-definitive text file covering your year
+as the text of the message, when you deem the material ready for the ready
+access via the Web.
+
+
+
+
+In any event, just some ideas, in the hopes of keeping this mother rolling.
+
+- --Nathan
+
+
+------------------------------
+
+From: Barry Barnes <barnes@tech.iupui.edu>
+Date: Sat, 4 Jan 1997 16:36:30 -0500 (EST)
+Subject: Re: deadlist format example
+
+Nathan, regarding text versions of the setlists to be sent to you....are
+these to be in the "correct" format at this point in time?  Or is this
+simply a starting point?
+
+Barry
+
+
+------------------------------
+
+End of DeadLists Digest V1 #112
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

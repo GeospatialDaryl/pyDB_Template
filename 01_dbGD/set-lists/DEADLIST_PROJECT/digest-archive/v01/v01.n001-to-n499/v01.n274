@@ -1,0 +1,67 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #274
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 30 April 1997      Volume 01 : Number 274
+
+In this issue:
+
+	Re: Parenthesis in song names
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Christian Crumlish <xian@pobox.com>
+Date: Wed, 30 Apr 1997 12:54:29 -0400
+Subject: Re: Parenthesis in song names
+
+At 11:41 AM 4/23/97 -0400, Ryan Shriver wrote:
+>Hey all,
+>While working on my script to make the HTML pages, I have run into a
+>problem that I want to run past the folks on this list. It involves the
+>double use of the () characters in setlists.
+>
+>Right now, the () characters can be used to make a note about a song [ie
+>Bertha (1) ; ] and also in the song title [Caution (Do Not Stop On
+>Tracks) ; ]. Well, in order to produce the 'Songs' page (the HTML page
+>with all the songs and every time played), I've run into a problem
+>because the program can't understand that Bertha (1) means "the song
+>Bertha, with a note" and Caution (Do Not Stop On Tracks) means "the song
+>Caution (Do Not Stop On Tracks)".
+>
+>After thinking about this for a while, I see no alternative but to
+>change one of the symbols. I'm currently in favor of using the {}
+>symbols to make notes about songs (ie Bertha {1} ;), 
+
+I like this. ( ) should not be reserved. They are in common use [ I once saw
+a hair-metal band on mtv do a ballad "Don't Know What You Got (Till It's
+Gone)" etc. ] and it solves the Man Smart (Woman Smarter) -esque issues.
+
+        --xian
+
+
+------------------------------
+
+End of DeadLists Digest V1 #274
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

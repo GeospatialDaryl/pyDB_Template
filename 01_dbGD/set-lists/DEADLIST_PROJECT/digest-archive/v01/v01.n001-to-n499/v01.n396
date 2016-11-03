@@ -1,0 +1,78 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #396
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Thursday, 24 July 1997       Volume 01 : Number 396
+
+In this issue:
+
+	Re: maimi 6/23/74 tapes in circulation etc.
+	site update
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: BARRY Barnes <barry@sbe.acast.nova.edu>
+Date: Thu, 24 Jul 1997 11:41:07 -0400 (EDT)
+Subject: Re: maimi 6/23/74 tapes in circulation etc.
+
+Jim, your spelling and punctuation are correct
+
+	Jai-Alai Fronton
+
+
+- ---------
+Barry Barnes
+Nova Southeastern University
+School of Business and Entrepreneurship
+barry@sbe.acast.nova.edu
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 24 Jul 1997 15:05:20 -0700
+Subject: site update
+
+the new 1986 and 1987 are online.  i have also tried to color code all the
+setlists we have, so it is easier to distinguish, for example, between field
+headers, song names, timings, footnotes, and transitions.  the timings were
+a particular bear to deal with.  there is probably a regular expression that
+i will implement in the future, to ferret out all constructions ??:?? and
+wrap the expression in a font color.  for now, only the timings that were
+bracketed by [ ] have been color coded.
+
+finally, when talking about SET1 and SET2 and SET3 and RECORDING and ENCORE
+in the COMMENTS field, please use lower case letters (for example: Encore,
+not ENCORE), and, ideally, put a space between, for example, Set and 1.
+this will greatly help the accurate processing of these fields on my end.
+
+thanks!
+- --nathan
+
+
+------------------------------
+
+End of DeadLists Digest V1 #396
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

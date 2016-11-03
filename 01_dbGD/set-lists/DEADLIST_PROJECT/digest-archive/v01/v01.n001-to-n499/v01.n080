@@ -1,0 +1,71 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #80
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Friday, 9 August 1996       Volume 01 : Number 080
+
+In this issue:
+
+	Test Form
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <tjb9d@cypress.idir.net>
+Date: Fri, 9 Aug 1996 16:56:07 -0500 (CDT)
+Subject: Test Form
+
+I've created a rudimentary form to simulate an interface for searching 
+the database... it's at 
+http://www2.southwind.net/~tjb9d/gdead/deadlist/test_form.html
+
+I've also put the lists of venues, cities, and state / countries into 
+ftp.southwind.net/users/t/tjb9d/deadlist/
+
+These lists, esp. the venues, need pretty extensive editing. I just took 
+the data straight out of John's datafile... I did it by hand because I'm 
+bored, but I think we can automate the process pretty easily. I also 
+wrote a script that converts the DeadList format datafile into a 
+tab-delimtied file than you can import into your DBs... I've put it into 
+FileMaker 3 without a problem, and it seems pretty slick. I'll work on a 
+nice template for it one of these days... feel free to grab the source of 
+the test_form and make it better... it's very rudimentary right now. 
+
+	Tim 
+
+====
+Tim Buller                                       e-mail:<tjb9d@idir.net>
+Mac & Dead Support                      http://www2.southwind.net/~tjb9d
+
+   "There are two major products to come out of Berkeley: LSD and Unix. 
+         This is probably not a coincidence." - John Dodge in PCWeek
+
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #80
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

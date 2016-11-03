@@ -1,0 +1,366 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #63
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Thursday, 23 May 1996       Volume 01 : Number 063
+
+In this issue:
+
+	Re: DeadLists Digest V1 #61 
+	Re: DeadLists Digest V1 #61 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Thu, 23 May 1996 17:22:08 -0400
+Subject: Re: DeadLists Digest V1 #61 
+
+Allen Baum writes:
+> A newline is used between fields in a record.
+> A tab could be used between songs in a field, BUT
+> the song structure is: <title><ws><sep-char><ws><title2>....
+>	[ ... ]
+> but tab delimit expecting programs like excel will have problems.
+
+Will something like Excel or a PC database be able to use a newline
+between fields of a record?  I got the impression that PC databases
+could only import data if it used tabs to separate fields of a
+record and newlines to separate records in a file.  I've never used
+databases and have no clue what they can handle.
+
+> I asked people to review it carefully, and I was not being fascetious
+> (or however you spell that). Look at it, think about it. There is
+> probably a bit too much generality in there - think about how you're
+> going to massage you lists into this format.
+
+I originally only glanced at the spec but trying to implement it has
+forced me to give it a more careful review ;-).  Overall I think it's
+pretty good and there are only a few things that I think could be
+improved or clarified.  Here are my comments on the v1.2 spec under
+Nathan's DeadList page (http://www.well.com/user/nathan/dlhome.htm).
+
+			John
+
+> So, given all that:
+>     Look at v1.2 and evaluate it in terms of:
+>         Will the format make certain types of searches difficult?
+
+I haven't done much work with searching but the format looks
+reasonable for it.
+
+
+>         Is there some kind of information missing
+
+It looks pretty complete.  The only thing I noticed is that a few shows
+don't fit into the 1/2/3/E format.  According to DB3 12/31/81 was 4
+sets (unless the first set was really Joan Baez opening with the Dead
+backing her up, rather than Joan Baez sitting in on a Dead set?), and I
+think there have been a few shows with 2 separate encores.  It's
+probably not that bad to list the 4th set of 12/31/81 as an encore and
+to merge all double encores into 1, and not this in the comments, but I
+just wanted to bring this up since I don't think I've seen it mentioned
+here before.
+
+
+>         Will it make uploading of setlists difficult?
+
+I haven't entered any setlists by hand but it looks like it wouldn't
+be too difficult (although it would be nice to have a program
+and/or web form with a nice interface to create lists).
+
+
+>         Is the text version useful/readable by itself?
+
+I think it's useful although a little difficult to read.  I think using
+newlines instead of tabs to separate fields makes it a little more human
+readable, but probably less readable by database programs.  I don't
+think it's too important that the text itself be that readable since I
+think most people would either want to have a nicely formatted printed
+copy of the lists like DeadBase or they would just want to access a web
+page.  I don't think we could use a format that's real nicely formatted
+to read because it would be to difficult to parse, but it wouldn't be
+difficult to write "pretty printer" to nicely format the lists from the
+ugly raw data.
+
+
+>         Is the format ambiguous or hard to parse with fairly simple parsers?
+>         Are there mistakes in the syntax (not allowing spaces where we should,
+>             or special casing characters that appear in titles, thus creating
+>             non-obvious ambiguities.)
+
+Overall, the format is pretty easy to parse, although there are a few areas
+where I think the spec is vague and/or the syntax could be easier to parse.
+
+
+>      * Set timings go at the end of the set (after the last songs timing,
+>        if there is one).
+
+I think it's alot easier to parse if the set timings stay at the
+beginning of the set, before any songs.  Also, if they go at the
+end of the set they would be ambiguous if there is a time for
+the whole set but not a time for the last song in the set, as in
+"Touch ; Bucket ; Bird Song > Promised [30:00]" which either
+describes a short set or an amazingly jammed Promised Land.
+
+
+>       ';;'      In the event that two songs are separated by a pause of greater
+>       than 60 seconds, a separator of two consecutive semicolons is used
+>       (e.g.  ;; .)
+>       It's possible to insert the length of the pause between the semicolons
+>       (e.g. ; [3:20] ; ) using the standard timing format.
+
+This would be easier to parse if timed pauses were written as 
+" ;[3:20]; " instead of " ; [3:20] ; ".  With the current proposal you
+have to look ahead 2 characters after a semi colon to figure out if
+you're looking at a timed pause like " ; [3:20] ; " or just a regular
+pause like " ; Next Song ".  If the timed pause was written as 
+" ;[3:20]; " you would only have to lookahead 1 character to distinguish
+the 2.  Since we allow timings for pauses, we could also carry this to
+its absurd yet logical conclusion and allow maps in timed pauses ;-):
+" ;[3:20]{Bob's amp explodes [0:10] crackling noises from Bob's amp
+[0:30] silence from Bob's amp [0:40] Billy banging on a drum [0:15]
+silence [1:00] more banging on drum [0:10] buzzing from Bob's amp
+[0:25] silence [0:10]}; "
+
+
+>       A literal comment is a textual description of some kind placed after
+> the object being commented on, delimited by an asterisk ('*'). Literal
+
+Just to make I sure I understand this correctly, it means that comments
+are surrounded my asterisks, not only terminated by them, and will look
+like this to describe a whole set:
+
+	"* with Branford Marsalis * Eyes > Estimated > Dark Star ..."
+
+or an individual song:
+
+	"... Dark Star ~ Drums * with Babatunde Olatunji * : Space ..."
+
+
+> COMMENT FIELD:
+>       The comments field can contain any of the item descriptions that
+> would follow an item, such as timings, timing maps, and literal comments.
+> All of the descriptions in the COMMENT field except the first are required
+> be labeled with a reference mark; The first descriptions in the COMMENTs
+> field, if unmarked, refer to the entire show.
+> 
+>       The format of referred comments is:
+>       reference mark (optional for first items, else enclosed in the usual
+> parenthesis) followed by
+>       a timing map (enclosed in the usual curly brackets) and/or a literal
+> comment (followed by the usual asterisk).
+
+If a trailing asterisk were required after the first comment it
+would be easier to parse this, or rather it would be possible
+to use similar parsing code to parse both Comments and the Contributors
+field which also appears to use asterisks to terminate sub-fields.
+
+
+> Comment Keywords:
+>       Several keywords are predefined, and are appended with a colon ( ":" ).
+> They are Acoustic:, Guest:, and Opener:. They can be used as literal
+> comments, or can be placed in the Comments field and referred to by
+> reference Marks.
+>       An acoustic set could be denoted by a literal comment of Acoustic:
+> preceding any songs in the set, or be referred by a reference mark in that
+> position. Individual acoustic songs could be noted in the same way,
+> following the song title (and any timing information for that song)
+
+Just for clarification, even thought these keywords are defined as comments
+they still have to be delimited like regular comments, as in:
+
+	"* Accoustic: * Don't Ease : Rider : FOTD ..."
+
+and they don't just stand on their own, as in
+
+	"Accoustic: Don't Ease : Rider : FOTD ..."
+
+right?
+
+
+> CONTRIBUTORS
+> 
+> The source of each set list will be noted with names and email addresses of the
+> people that submitted it. Some dates will have many contributors. These will
+> be deleted with time as the consensus emerges that "this list is correct".
+> Each contributor will be asked to notate the manner in which they know their
+> setlist and which parts of the setlist they contributed
+>    * V: verified list against a tape that they have by writing a new setlist
+>      while listening closely to the tape.
+>    * A: assumed that the list they have on their tape insert or tape list or
+>      other such record is correct.
+>    * O: other means of acquiring the list (which we might want to better
+>      specify) such as on-line resources, reports from the vault, and so on.
+
+I think it would be nice to better specify some more sources of lists.
+The initial lists that I can contribute have come from a number of other
+sources such as Stack-O-Dead, Eric Simon's Useless Dead Stats, show
+reports from rec.music.gdead and the Dead-Heads mailing list, and shows
+where I've transcribed the setlist during or after the show.
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Thu, 23 May 1996 15:38:05 -0700
+Subject: Re: DeadLists Digest V1 #61 
+
+general note:  i'm such a "loud mouth" around here i want to let people know
+that i will be *really* busy for at least the nest 10 days, maybe longer,
+may not respond to email for many days at a time etc.  (i'm moving *and*
+starting a new job.)
+
+>>         Will it make uploading of setlists difficult?
+>
+>I haven't entered any setlists by hand but it looks like it wouldn't
+>be too difficult (although it would be nice to have a program
+>and/or web form with a nice interface to create lists).
+
+until i landed an apt and job in the space of the last 24 hours, i had
+planned to create a web form for submitting lists, with pull down menus that
+list all the songs (so one can just click on a name to enter it rather than
+having to remember to type it in correctly), pull down menus for segue
+types, etc.  i can still do this -- and it really won't be of use until we
+have the beta version of the database running, so there is a way to see what
+we have and a place to put revisions -- but it won't happend till after june
+3 at the earliest, and perhaps not for a week or two afterwards. (if someone
+else wants to tackle it, go for it! :-)
+
+>>         Is the text version useful/readable by itself?
+>
+>I think it's useful although a little difficult to read.  I think using
+>newlines instead of tabs to separate fields makes it a little more human
+>readable, but probably less readable by database programs.  I don't
+>think it's too important that the text itself be that readable since I
+>think most people would either want to have a nicely formatted printed
+>copy of the lists like DeadBase or they would just want to access a web
+>page.  I don't think we could use a format that's real nicely formatted
+>to read because it would be to difficult to parse, but it wouldn't be
+>difficult to write "pretty printer" to nicely format the lists from the
+>ugly raw data.
+
+i think it will be a simple to create a script that takes the raw data
+format and outputs something pretty.  and then modifying that script to only
+output the info the user wants (eg, no timings or whatever) wouldn't be
+really hard.  just takes time....
+
+>>      * Set timings go at the end of the set (after the last songs timing,
+>>        if there is one).
+>
+>I think it's alot easier to parse if the set timings stay at the
+>beginning of the set, before any songs.  Also, if they go at the
+>end of the set they would be ambiguous if there is a time for
+>the whole set but not a time for the last song in the set, as in
+>"Touch ; Bucket ; Bird Song > Promised [30:00]" which either
+>describes a short set or an amazingly jammed Promised Land.
+
+really good point.  i think we should have set timings right after the
+numer/title of the set.
+
+>>       ';;'      In the event that two songs are separated by a pause of
+greater
+>>       than 60 seconds, a separator of two consecutive semicolons is used
+>>       (e.g.  ;; .)
+>>       It's possible to insert the length of the pause between the semicolons
+>>       (e.g. ; [3:20] ; ) using the standard timing format.
+>
+>This would be easier to parse if timed pauses were written as 
+>" ;[3:20]; " instead of " ; [3:20] ; ".  With the current proposal you
+>have to look ahead 2 characters after a semi colon to figure out if
+>you're looking at a timed pause like " ; [3:20] ; " or just a regular
+>pause like " ; Next Song ".  If the timed pause was written as 
+>" ;[3:20]; " you would only have to lookahead 1 character to distinguish
+>the 2.  Since we allow timings for pauses, we could also carry this to
+>its absurd yet logical conclusion and allow maps in timed pauses ;-):
+>" ;[3:20]{Bob's amp explodes [0:10] crackling noises from Bob's amp
+>[0:30] silence from Bob's amp [0:40] Billy banging on a drum [0:15]
+>silence [1:00] more banging on drum [0:10] buzzing from Bob's amp
+>[0:25] silence [0:10]}; "
+
+damn, i may be a freak, but i like the idea of mapping time between songs,
+especially when it involves banter and/or interesting happenings on the
+stage (bobby smashes guitar, etc.)
+
+>>       A literal comment is a textual description of some kind placed after
+>> the object being commented on, delimited by an asterisk ('*'). Literal
+>
+>Just to make I sure I understand this correctly, it means that comments
+>are surrounded my asterisks, not only terminated by them, and will look
+>like this to describe a whole set:
+>
+>	"* with Branford Marsalis * Eyes > Estimated > Dark Star ..."
+>
+>or an individual song:
+>
+>	"... Dark Star ~ Drums * with Babatunde Olatunji * : Space ..."
+
+i'd vote to not put these comments in the setlist itself.  but i'll quit
+saying that, now.  if the general concensus is to put them in the setlists,
+i'll go along with it, for sure.
+
+>> CONTRIBUTORS
+>> 
+>> The source of each set list will be noted with names and email addresses
+of the
+>> people that submitted it. Some dates will have many contributors. These will
+>> be deleted with time as the consensus emerges that "this list is correct".
+>> Each contributor will be asked to notate the manner in which they know their
+>> setlist and which parts of the setlist they contributed
+>>    * V: verified list against a tape that they have by writing a new setlist
+>>      while listening closely to the tape.
+>>    * A: assumed that the list they have on their tape insert or tape list or
+>>      other such record is correct.
+>>    * O: other means of acquiring the list (which we might want to better
+>>      specify) such as on-line resources, reports from the vault, and so on.
+>
+>I think it would be nice to better specify some more sources of lists.
+>The initial lists that I can contribute have come from a number of other
+>sources such as Stack-O-Dead, Eric Simon's Useless Dead Stats, show
+>reports from rec.music.gdead and the Dead-Heads mailing list, and shows
+>where I've transcribed the setlist during or after the show.
+
+sounds good to me.  should we create more formal categories or simply have
+these instances be considered "other" followed by ": Stack-O-Dead" or
+":setlist written at show", etc. ?  if we do specify all kinds of types of
+sources, it would make it possible to creat yet another pull down menu on
+the web form for inputting data, with a whole pile of "sources" to choose
+from (and probably still an "other" category, perhaps with an ability to
+input exactly what kind of "other" source).
+
+anyway, i really feel like we are making good progress and, more
+importantly, that we have a pretty good idea where we want to go and how we
+are going to get there.  sure there are lots of particulars we need to nail
+down, and various little tasks to make it all work.  but this "puppy" is
+going to fly!
+
+cheers,
+nathan
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #63
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

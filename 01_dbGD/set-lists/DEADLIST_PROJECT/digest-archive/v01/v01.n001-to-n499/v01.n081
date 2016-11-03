@@ -1,0 +1,91 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #81
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Sunday, 11 August 1996       Volume 01 : Number 081
+
+In this issue:
+
+	Re: Test Form
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Sun, 11 Aug 1996 11:14:06 -0700 (PDT)
+Subject: Re: Test Form
+
+Lookin' good!  
+
+One thing I would like to add to the first URL you provide below:  the
+ability to choose two songs, possibly three, when specifying one's search
+criteria.  This will be fair straightforward, right?  It entails reproducing
+the input format you already have, but creating unique names for the other
+"variables".
+
+Tim, do you have space to store the sound clips for the jams?  I'm thinking
+of just doing somewhat short, 8bit mono 11kHz clips in .wav format.  I know
+that the .wav format is more native to the PC than the Mac, but Apple has
+included the ability to play WAV files in all the latest versions of
+QuickTime and MoviePlayer, and I think that these are available as share(if
+not free)ware on the 'net, so WAv should work well for everyonv, yes?
+
+- --Nathan
+
+>I've created a rudimentary form to simulate an interface for searching 
+>the database... it's at 
+>http://www2.southwind.net/~tjb9d/gdead/deadlist/test_form.html
+>
+>I've also put the lists of venues, cities, and state / countries into 
+>ftp.southwind.net/users/t/tjb9d/deadlist/
+>
+>These lists, esp. the venues, need pretty extensive editing. I just took 
+>the data straight out of John's datafile... I did it by hand because I'm 
+>bored, but I think we can automate the process pretty easily. I also 
+>wrote a script that converts the DeadList format datafile into a 
+>tab-delimtied file than you can import into your DBs... I've put it into 
+>FileMaker 3 without a problem, and it seems pretty slick. I'll work on a 
+>nice template for it one of these days... feel free to grab the source of 
+>the test_form and make it better... it's very rudimentary right now. 
+>
+>	Tim 
+>
+>====
+>Tim Buller                                       e-mail:<tjb9d@idir.net>
+>Mac & Dead Support                      http://www2.southwind.net/~tjb9d
+>
+>   "There are two major products to come out of Berkeley: LSD and Unix. 
+>         This is probably not a coincidence." - John Dodge in PCWeek
+>
+>
+>
+>
+>
+>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #81
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

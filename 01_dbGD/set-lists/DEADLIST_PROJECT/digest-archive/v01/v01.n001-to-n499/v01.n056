@@ -1,0 +1,50 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #56
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Wednesday, 15 May 1996       Volume 01 : Number 056
+
+In this issue:
+
+	Re:  need data spec and song titles
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: kraitch@eecs.berkeley.edu (mark kraitchman)
+Date: Wed, 15 May 1996 07:11:03 -0700 (PDT)
+Subject: Re:  need data spec and song titles
+
+>i also want to make a link to a list of song titles.  but as near as i can
+>tell, the digests don't go back to when the list of songs was posted. 
+
+A list is retrievable from majordomo@gdead.berkeley.edu with the 
+following message:
+
+get deadlists songs.txt
+
+------------------------------
+
+End of DeadLists Digest V1 #56
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

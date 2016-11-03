@@ -1,0 +1,116 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #31
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 5 March 1996       Volume 01 : Number 031
+
+In this issue:
+
+	Re: second draft of datafile proposal
+	Re: second draft of datafile proposal
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nhw1@axe.humboldt.edu>
+Date: Tue, 05 Mar 1996 10:14:56 -0800 (PST)
+Subject: Re: second draft of datafile proposal
+
+> >SET1
+> >Touch Of Gray [5:04] ~ Little Red Rooster : Lazy River
+> >Road ; When I Paint My Masterpiece (1) ;; Childhood's
+> >End [5:32] ; Cumberland Blues > Promised Land (2)
+> >{59:26}
+> >[...]
+> >COMMENTS
+> >(1) Bobby on acoustic * Guest: (2) Carlos Santana *
+> >Openner: Dave Mathews Band
+> 
+>    Okay, so here's a question: just out of curiosity, when using the note
+> referals, will we treat something like "song1 > song2" as one entity? In
+> other words, in the example above, does "(2)" refer to "Cumberland Blues"
+> *and* "Promised Land," or just the latter? 
+
+I think that unless otherwise specified, a number after a song name would 
+direct one to a note that only adresses something about that song name.  
+BUT, one could readily say ", also on Cumberland" in the comment.  OR, 
+one could place a "(2)" after each song name in the set list (which is 
+what I prefer) during which Carlos performed.
+
+> Small, picky point, I know, but
+> I guess we'd better make everything clear while we can. 
+
+Even if we nit-pick for weeks, we won't work out all the kinks :-)  But I 
+agree that we should try to account for as many odd situations as 
+possible now, rather than trying to accomodate things later (which we 
+will have to do enough of, anyway).
+
+> Also, why are we
+> using asteriks to delimit the comments? Why not something more standard,
+> like a semicolon?
+
+Good question.  Someone (Steve?) suggested this, since they were not 
+being used anywhere else and thus there would be no confusion on the part 
+of the database search functions.  I agree, it looks a little odd.  Maybe 
+we should avoid semi-colons since those are already being used in the set 
+lists?  Would simple periods (.) work for the comments section?
+
+------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Tue, 5 Mar 1996 12:20:38 -0800
+Subject: Re: second draft of datafile proposal
+
+>> Also, why are we
+>> using asteriks to delimit the comments? Why not something more standard,
+>> like a semicolon?
+>
+>Good question.  Someone (Steve?) suggested this, since they were not 
+>being used anywhere else and thus there would be no confusion on the part 
+>of the database search functions.  I agree, it looks a little odd.  Maybe 
+>we should avoid semi-colons since those are already being used in the set 
+>lists?  Would simple periods (.) work for the comments section?
+
+Yes, I did suggest the "*" to delimit the comments sections and it was, as
+Nathan describes, so that the character used was unique and for no other
+special reason. I think that any *unused* character would be fine. That
+being said, is that fact that people "expect" to see a period ending a
+sentence and not as a general delimiter a problem?
+
+
+Steve
+
+- ----- 
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax:(415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+ 
+ For *TapeTracker for Windows* info:
+          see http://www.barclay.com/tapetracker/ or send email
+      to info@barclay.com (no subject or message text is required)
+
+
+------------------------------
+
+End of DeadLists Digest V1 #31
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

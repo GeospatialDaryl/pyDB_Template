@@ -1,0 +1,425 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #29
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Sunday, 3 March 1996        Volume 01 : Number 029
+
+In this issue:
+
+	dead-lisp (setlists in Lisp w/ search functions)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Sun, 03 Mar 1996 16:20:50 -0500
+Subject: dead-lisp (setlists in Lisp w/ search functions)
+
+A few weeks ago I mentioned that I kept my setlists in a format easily
+readable by Lisp programs and that I had some Lisp functions to print
+and search the lists.  A couple people seemed interested in it despite
+its dreadful user interface so I've cleaned it up a bit and written a
+little documentation for it.  You'll need a Lisp interpreter to use
+this, but the README file has pointers to a few free Lisp interpreters
+on the net.  I've put this in a tar archive and a zip file under
+http://paul.rutgers.edu/~johno/deadlisp.html (if you can't access the
+web, I can email a copy to you).
+
+		John
+
+
+Dead-lisp is a collection of Grateful Dead setlists and a number of
+functions to search the setlists.  The setlists from 1972 through 1995
+are complete but the setlists from 1965 through 1971 are incomplete
+(they are based on ftp://gdead.berkeley.edu/pub/gdead/set-lists/65-71.sparse).
+The functions that search the setlists are written in the programming
+language Lisp.
+
+Dead-lisp has a really bad user interface.  I had hoped to clean it up
+before releasing it, but I've been saying that for a couple of years and
+never gotten around to it.  Since a couple people have expressed
+interest in it I'm releasing it now, as it is.  The DeadLists project
+should make it obsolete within 6 months to a year.
+
+			John Oleynick
+			johno@paul.rutgers.edu
+
+
+  ---------------------------------------------------------------------------
+
+Copyright (c) 1996 by John Oleynick
+All rights reserved.
+
+This work may be freely redistributed in its entirety provided that this
+copyright notice is not removed.  It may not be sold for profit or
+incorporated in commercial works without the written permission of the
+copyright holder.   Permission is expressly granted for this work to be
+made available for file transfer from installations offering
+unrestricted anonymous file transfer on the Internet.  Permission is
+expressly granted for this work to be made available for public access
+on the World Wide Web.
+
+The set lists for 1990, 1991 and 1992 are used with permission of
+Eric Simon and are covered by this copyright:
+
+Useless DeadStats:   (c) 1996, Eric J. Simon
+The contents herein may be reproduced and distributed
+in any non-commercial manner provided that the contents
+are reproduced in their entirety, including this copyright statement.
+
+
+
+
+			dead-lisp
+
+
+
+To use dead-lisp you need a Lisp interpreter.  There are a number of
+freely available Lisp interpreters in the SimTel and sumex archives and
+in the CMU AI Repository.  Lisp interpreters aren't necessarily huge,
+the executable file for the one I've been using under Windows is less
+than 350k.  See the end of this file for details of where to find a
+Lisp interpreter.
+
+Once you've got a Lisp interpreter, extract all of the files from
+deadlisp.tar.gz or deadlisp.zip into a directory.  Under DOS and
+Windows you probably have to extract them into the same directory as
+your Lisp interpreter.  Start up your Lisp interpreter and it should
+say something like this and eventually give you a prompt of ``> '':
+
+    XLISP-PLUS version 2.1h
+    Portions Copyright (c) 1988, by David Betz.
+    Modified by Thomas Almy and others.
+    UNIX version
+    ; loading "init.lsp"
+    XLISP-PLUS 2.1h contains contributed code by:
+    Tom Almy, Mikael Pettersson, Neal Holtz, Johnny Greenblatt, Ken Whedbee,
+    Blake McBride, Pete Yadlowsky, Hume Smith, and Richard Zidlicky.
+    Portions copyright (c) 1988, Luke Tierney.
+    >
+
+Now you have to load dead-lisp into the Lisp interpreter.  Type 
+``(load "pps")'' (without the `` and '' fake quotation marks but with
+the parentheses and real " quotation marks) and your Lisp interpreter
+should reply with something like this:
+
+    > (load "pps")
+    ; loading "pps.lsp"
+    ; loading "gdlib.lsp"
+    ; loading "gdlibrec.lsp"
+    ; loading "pplib.lsp"
+    t
+    >
+
+You can now use dead-lisp.
+
+Dead-lisp has a help function that prints a brief description of the
+dead-lisp functions.
+
+    > (help)
+    (help)
+    dead-lisp functions:
+    (pps date1 date2 ...)     - Print the setlists from the show on each date.
+		     The dates must be specified as mm/dd/yy, where mm,
+		     dd and yy must be digits or * (which matches anything).
+    (prepare-pps)    - Read in all of the setlists to make pps work faster.
+	[ ... ]
+    >
+
+
+The pps function (for "pretty print show") will print the setlist for a
+given show or shows.  It takes any number of dates and prints all of
+the setlists it knows about:
+
+    > (pps 4/22/69 5/2/70)
+    04/22/69  The Ark, Boston, MA
+    1:  Sittin' On Top of the World, Dew, BIODTL, Schoolgirl,
+	Doin' That Rag, Cryptical-> Other 1-> Cryptical-> Death Don't
+    2:  Dupree's, Mountains of the Moon-> Dark Star-> Stephen-> 11->
+	Lovelight-> Caution Jam-> Lovelight
+
+    05/02/70  Harpur College, Binghamton, NY
+    1:  Don't Ease, Rider, FOTD, Dire Wolf, BIODTL, Black Peter, Candyman->
+	Cumberland, Deep Elem, Cold Jordan, UJB
+    2:  Stephen-> Cryptical-> Drums-> Other 1-> Cryptical-> Cosmic Charlie,
+	Casey Jones, Good Lovin'-> Drums-> Good Lovin', Cold Rain,
+	It's a Man's World, Dancin'
+    3:  Dew, Viola Lee-> Feedback-> AWBYGN
+    (1st set acoustic)
+
+    t
+    >
+
+This takes about a minute and a half using xlisp for Windows on a 33MHz
+i486DX (oddly, it takes about 45 seconds using xlisp under Linux on the
+same machine).  If you ask for a date that pps doesn't know about it
+silently ignores it:
+
+    > (pps 11/6/71) 
+    nil 
+    >
+
+If you are going to be checking a number of setlists you can save some
+time by reading all of the setlists into memory first.  It takes about 5
+minutes to do this on a 33MHz i486DX (with xlisp and windows; it takes
+less than 3 minutes to do it using xlisp and Linux) , but after you've
+read everything into memory, it only takes about 10 seconds to print a
+setlist instead of a minute and a half.  The function to read everything
+into memory is prepare-pps:
+
+    > (prepare-pps)
+    t
+    >
+
+If you want to print all the setlists for a certain month or day or
+year you can use a ``*'' as a "wild card" character:
+ 
+    > (pps 4/2*/69)
+    04/21/69  The Ark, Boston, MA
+    1:  Hard to Handle, Dew, Cryptical-> Drums-> Other 1-> Cryptical->
+	Sittin' On Top of the World, Alligator-> Drums-> Alligator->
+	Doin' That Rag
+    2:  Foxy Lady Jam, Dark Star-> Stephen-> 11-> Lovelight
+    E:  Viola Lee
+
+    04/22/69  The Ark, Boston, MA
+    1:  Sittin' On Top of the World, Dew, BIODTL, Schoolgirl,
+	Doin' That Rag, Cryptical-> Other 1-> Cryptical-> Death Don't
+    2:  Dupree's, Mountains of the Moon-> Dark Star-> Stephen-> 11->
+	Lovelight-> Caution Jam-> Lovelight
+
+    04/27/69  Labor Temple, Minneapolis, MN
+    1:  Lovelight-> Me & My Uncle-> Sittin' On Top of the World,
+	Dark Star-> Stephen-> 11-> Lovelight
+
+    nil
+    >
+
+Using wild cards takes longer than explicitly specifying the dates.
+
+Besides printing setlists for a known date, you can use dead-lisp to
+find sequences of songs.  The find-seq functions takes a number
+of song titles and finds all shows with that sequence of songs.
+Song titles must be specified in quotation marks and must be spelled
+exactly the way they are in the dead-lisp setlists.  To find all shows
+where they played Iko Iko right after Man Smart, Woman Smarter:
+
+    > (find-seq "msws" "iko")
+    12/31/87
+    nil
+    >
+
+The find-seq function only prints the date of each show; if you also want
+to see the setlists you can use the find-seq-pps function that works just
+like find-seq but prints the setlists instead of just the date:
+  
+    > (find-seq-pps "msws" "iko")
+    12/31/87  Oakland Coliseum, Oakland, CA
+    1:  Bertha-> Promised, Cold Rain, Rooster, Push, Masterpiece,
+	Bird Song, Music
+    2:  Bucket-> UJB-> Terrapin-> Drums-> Space-> Other 1-> Wharf Rat->
+	Throwing-> NFA
+    3:  MSWS, Iko, Banana Boat Song, Knockin'
+
+    nil
+    >
+
+For reasons I don't fully understand, searches are usually faster if you
+do not do a prepare-pps.  If you're going to be doing a number of
+searches and have already done a prepare-pps, you'll be better off
+exiting your Lisp interpreter and starting over.  It takes about 2
+minutes to search for a sequence using xlisp on Windows on a 33MHz 486DX
+(but only about 1 minute using xlisp on Linux).
+
+The find-seq function treats a few song titles as special.  The song
+``*'' matches any song.  To find every show where they played a
+song between Scarlet Begonias and Fire on the Mountain:
+
+    > (find-seq "scarlet" "*" "fire")
+    07/13/84
+    08/16/91
+    nil
+    >
+
+If the first song in a sequence is ``open'', then the sequence must
+occur at the beginning of a set, and if the last song in the sequence
+is ``close'' then the sequence must occur at the end of a set.  To
+find all sets that opened with Lovelight:
+
+    > (find-seq "open" "lovelight")
+    11/11/67
+    04/27/69
+    06/14/69
+    12/31/82
+    07/19/89
+    09/20/90
+    03/25/91
+    09/20/91
+    nil
+    >
+
+Or to find all sets that closed with Terrapin Station:
+
+    > (find-seq "terrapin" "close")
+    03/20/77
+    04/22/77
+    04/30/77
+    09/03/77
+    11/02/77
+    03/28/91
+    nil
+    >
+
+If you want to search for a sequence in a particular set you
+can use the function find-set-seq.  The set name must be
+specified before the sequence, and the set name should be "1",
+"2", "3", "4", "E", "E1" or "E2".  To find every time they played
+Mississippi Half Step as an encore:
+
+    > (find-set-seq "E" "half step")
+    10/20/74
+    nil
+    >
+
+There is also a find-set-seq-pps function that works just like find-set
+but prints the setlists instead of only the dates:
+
+    > (find-set-seq-pps "E" "Half Step")
+    10/20/74  Winterland Arena, San Francisco, CA
+    1:  Cold Rain, Mama Tried, Deal, BIODTL, Loser, Jack Straw, Tenn Jed,
+	El Paso, Brokedown, China, Rider, Around
+    2:  Playin', Drums, NFA, Drums, Other 1, Wharf Rat, Playin'
+    3:  Good Lovin', Roses, Promised, Eyes, Slipknot, Stella, Sugar Mag
+    E:  Johnny B Goode, Half Step, AWBYGN
+
+    nil
+    >
+
+Those are all of the basic functions of dead-lisp.  There are also 
+2 regular Lisp functions that are useful when working with dead-lisp.  
+
+Dribble is a Lisp function that takes a filename as its argument
+and tells the Lisp interpreter to start logging all of its output
+to that file.  If you want to save any output from dead-lisp, this is
+an easy way to do it:
+
+    > (dribble "search.log")
+    t
+    >
+
+If you want to stop logging everything, call dribble without any
+arguments:
+
+    > (dribble)
+    nil
+    >
+
+The other useful Lisp function is exit which gets you out of the
+Lisp interpreter:
+
+    > (exit)
+
+If you're familiar with Lisp and can read source code, there are some
+other Lisp functions in gdlib.lsp that you can use to build your own
+complex search functions like this function which find all shows where
+they played Help on the Way and Slipknot! but not Franklin's Tower:
+
+    > (for-each-show (lambda (show) 
+                       (if (and (show-has-seq? show '("help" "slipknot")) 
+                                (not (show-has-seq? show '("franklin's"))))
+		          (pretty-print-show show))))
+    12/31/76  Cow Palace, Daly City, CA
+    1:  Promised, Bertha, Mama Tried, TLEO, LL Rain, Deal, Playin'
+    2:  Sugar Mag, Eyes, Wharf Rat, Drums, Good Lovin', Samson, Scarlet,
+	Around, Help, Slipknot, NFA, Dew
+    3:  Sat Night
+    E:  UJB, AWBYGN
+
+    09/20/91  Boston Garden, Boston, MA
+    1:  Touch, Rooster, Jack-a-Roe, BT Wind, Stagger Lee Masterpiece*,
+	Bird Song
+    2:  Help-> Slipknot-> Fire*, Estimated-> Truckin'->
+	Spoonful/Other One Tease-> Jam**-> Drums-> Space-> Watchtower-> Dew
+    E:  Lovelight
+    (With Bruce Hornsby)
+    (*Bruce Hornsby on Accordion)
+    (** Without Jerry & Phil)
+    (Last Boston Garden Show 09-18-82)
+
+or to find the dates of all of the Dark Stars played in Philadelphia:
+
+    > (for-each-show (lambda (show) 
+  		       (if (and (string-equal (date-and-venue-city 
+					       (show-date-and-venue show)) 
+					      "philadelphia") 
+				(show-has-song? show "dark star")) 
+			  (print-show-date show))))
+    02/14/69
+    09/21/72
+    03/24/73
+    09/13/93
+    nil
+    >
+
+
+Here is where to find a Lisp interpreter to use with dead-lisp.
+
+For Windows or DOS, you can use XLISP-PLUS.  I've been using
+the latest version, 2.1h, which is available on SimTel and its
+mirrors in the msdos/xlisp directory.  For Windows you need
+the file xl21hwin.zip or for DOS you need xl21hexe.zip.
+    ftp://ftp.coast.net/msdos/xlisp/xl21hwin.zip
+    ftp://ftp.coast.net/msdos/xlisp/xl21hexe.zip
+
+If you can't get into SimTel or a mirror, you can get a slightly 
+older version of XLISP-PLUS, 2.1g, from the CMU AI Repository:
+    ftp://ftp.cs.cmu.edu/user/ai/lang/lisp/impl/xlisp/xl21g/xl21gwin.zip
+    ftp://ftp.cs.cmu.edu/user/ai/lang/lisp/impl/xlisp/xl21g/xl21gexe.zip
+
+For the Mac there is an older version of XLISP-PLUS, 2.1e, in
+ftp://ftp.cs.cmu.edu/user/ai/lang/lisp/impl/xlisp/mac.
+I think you'll need the files xlisp21e.hqx.  This is also supposed
+to be on the Mac archive sumex.stanford.edu and mac.archive.umich.edu.
+
+For Unix you can't get binaries of XLISP-PLUS, you have to get the source
+and compile it yourself, but you can get binaries of other (larger)
+Lisp interpreters.  The source for the latest version of XLISP-PLUS is in:
+    ftp://ftp.coast.net/msdos/xlisp/xl21hsrc.zip
+or if you have trouble getting into there, a slightly older version
+is in:
+    ftp://ftp.cs.cmu.edu/user/ai/lang/lisp/impl/xlisp/xl21g/xl21gsrc.zip
+When you unzip the file, make sure you use the unzip options to
+"auto-convert text" (remove the carriage returns) and to create
+lowercase filenames.
+
+If you don't want to compile anything for Unix, you can get
+binaries for clisp, another Lisp interpreter.  Under
+ftp://ftp.cs.cmu.edu/user/ai/lang/lisp/impl/clisp/binaries
+there are directories for 386, amiga, atari, dec, dos, hp9000,
+linux, os2, rs6000, sgi, sun3, sun386, sun4.
+
+------------------------------
+
+End of DeadLists Digest V1 #29
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

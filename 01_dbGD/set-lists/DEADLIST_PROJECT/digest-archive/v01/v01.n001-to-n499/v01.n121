@@ -1,0 +1,1137 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #121
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Saturday, 11 January 1997     Volume 01 : Number 121
+
+In this issue:
+
+	Re: The spec - what DOES it really say?
+	[none]
+	1969, the 2nd half
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Fri, 10 Jan 1997 19:07:54 -0800
+Subject: Re: The spec - what DOES it really say?
+
+>From: "Ryan Shriver" <ryan@digicool.com>
+>> in doing 1970 I omitted the left-hand margin headers (BAND / VENUE / CITY
+>> etc) when there was nothing in that field.  doing 1969 i'm listing all 12
+>> fields as headings down the left margin whether or not there's anything in
+>> them.  my question is, which is correct?  or does it make any difference?
+>
+>The latter is correct (what you did for the '69 lists). Basically, the
+>bottom line is that we all need to use the same format. Since the data spec
+>example shows each field heading preceeding it's field, then that's what
+>we'll go with.
+
+I'm not sure which data spec you are referring to.
+The spec is not terribly ambiguous. It has lots of comments.
+I don't think many people have actually read it, based on a lot of the
+questions I've been seeing here.
+I must confess that I'm not sure how someone can get an archived version,
+but people who are sending in lists should read it, and complain about
+(mis)features they dislike, not simply ignore them, so they can get changed if
+necessary.
+
+The v1.21 spec , which is in Deadlist v1#65 says:
+
+A <show> is    <header> <band-field> <date-field>   <venue-field>  <city-field>
+           <state-field> <set-field>  <set-field>     <set-field> <encore-field>
+           <comments-field>     <recording-field> <contrib-field>
+
+A <header> is   BAND <tab> DATE <tab> VENUE <tab> CITY   <tab> STATE<tab>
+              SET1 <tab> SET2 <tab> SET3  <tab> ENCORE <tab> COMMENTS<tab>
+              RECORDING<tab>CONTRIBUTORS<crlf>
+.....
+
+A <set-field> is                        [ <comment-info> ]
+                        [ <song-name>[<ws><comment-info> ]
+           [ <song-sep> [ <song-name>[<ws><comment-info> ]] ]* ]
+
+There was a proposed v1.22 (which no one responded to, and thus was not
+adpoted for lack of interest) which eliminates the <header>, and would make
+the set-field look like:
+
+A <set-field> is         <set-header>   [ <comment-info> ]
+                        [ <song-name>[<ws><comment-info> ]
+           [ <song-sep> [ <song-name>[<ws><comment-info> ]] ]* ]
+A <set-header> is    SET1: | SET2: | SET3: | ENCORE:
+
+Note the colon, which is used to make life easier for a parser
+Not strictly necessary, but nice. We don't want some poor parser to
+see 'playin' in the BAND' and think it's the start of a band field.
+(tho' even if we did this there is a problem with the default song separator,
+which is a colon)
+The idea for the colon is from the comments field in the spec:
+        Comment Keywords:
+      Several keywords are predefined, and are appended with a colon ( ":" ).
+They are Acoustic:, Guest:, and Opener:. They can be used as literal
+comments, or can be placed in the Comments field and referred to by
+reference Marks.
+
+ ************************************************************************
+ * shall we get a consensus about this once and for all?  why don't the *
+ * people who are actually doing the work send a short, concise message *
+ * to the list that says:                                               *
+ * I (do / don't) want the fieldname field                              *
+ * I (do / don't) want the field-header at the beginning of each field  *
+ * I (do / don't) want the field-headers to have a trailing colon       *
+ * I (do / don't) want to leave out blank fields entirely (not even header
+ ************************************************************************
+
+>Oh, about the song timings. Although it would be nice if everyone put the
+>timings in brackets (i.e. Ramble on Rose [7:05]; ), the program won't break
+>if they are not.
+
+Which program is this?
+The spec is specific:
+      Song and set timings, where known, are enclosed in square brackets
+        directly following the item being timed,
+
+>When results are returned, the timings will still be
+>returned with the correct song (just not in brackets).
+
+I disagree. I'm not sure who is returning what to whom, but if a parser
+accepts several different syntaxes, I think it should be returning one
+preferred syntax
+only, which is the spec, and if you don't like that, change the spec.
+
+>One last thing about song seperators. If there is a break between songs, use
+>a ";". If a song flows into another, use a ">". If you don't know, use a ":".
+
+Again, the spec is a bit more specific:
+
+':'     Until examined, all songs will be separated by a colon
+                (e.g. <song1> : <song2> ).
+';'     Songs not continuing into each other are separated by a semicolon
+                (e.g. <song1> ; <song2>).
+'>'     Songs that segue into each other by means of a defined jam or
+        contiguous transition -- a guzinta -- are separated by the character '>'
+                (e.g. <song1> > <song2>).
+'~'     Songs that segue into each other, not by means of a defined
+        transition, but through an intentional pause are separated by a tilde
+                (e.g. <song1> ~ <song2>).
+';;'    In the event that two songs are separated by a pause of greater
+        than 60 seconds, a separator of two consecutive semicolons is used
+                (e.g. <song1> ;; <song2>.)
+        It's possible to insert the length of the pause between the semicolons
+        (e.g. <song1>; [3:20] ; <song2>) using the standard timing format,
+        or even a timing map with comments!
+'\'     Where a tape splice, flip or pause prevents examination of the
+        space between songs, a backslash will be used (e.g. <song1>\ <song2>).
+
+>or schools with common acronyms (UCLA, MIT, SUNY), I used these. I'm not
+>saying my way is right, it's just what I had been using. Comments?
+
+I think its just fine, although at some point we'll need to resolve
+differences (Another good use of an alias mapper, or we should have a file
+that lists standard venues (like we have standard song names). )
+
+>John Oleynick wrote:
+>>
+>> Are we really going to change the format?  How difficult will it
+>> If we do change the format I think we should limit the changes as much
+>> as possible.  I'd propose limiting the changes to the following:
+>>         1.  remove the initial fields line and make the field name the
+>>                 first subfield of every field.
+
+I can't say I would object strenously to this (as above)
+
+>>         2.  eliminate the requirement that a tab separate each
+>>                 field; songs are already separated by the transitions.
+
+I would object, but not strenuously. I think any code that prints out
+setlists should put them back in, for readability, and ease in parsing
+(It only has to look for tab, not for a bunch of punctuation)
+
+>>         3.  allow a field to span multiple lines.  If a line beings
+>>                 with a space then treat it as the continuation of the
+>>                 previous line, otherwise treat it as a new field.
+
+I think this will get you in trouble with mailers that word wrap....
+I know I can turn off word wrap in Eudora. but I'm not sure everyone can.
+
+>I will comment on one thing I missed.... the field definitions line
+>(i.e. BAND VENUE CITY STATE DATE....). ..... Jim and Gordon didn't have
+>them in their listings. Although the spec says they sould be there, they
+>really
+>aren't necessary.
+
+They are if the fields don't start with a field-header token.
+
+> However (and this is a big however), if we decide not to use them,
+>EVERYONE must obstain from using them.
+>Like most things in this project, the most
+>important thing is that all persons must adhere to the same format.
+
+>It looks like most people have one blank line between records, and this is
+>fine.
+
+The spec says differently:
+
+Changes from version 1.2 to version 1.21:
+     - Shows (records) are separated by <newpage>, which is generally
+       a <control-L> character.
+
+**********read the spec and comment on it, don't just ignore it*******
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 11 Jan 1997 00:41:15 -0800 (PST)
+Subject: [none]
+
+Someone said above that tabs don't go through e-mail well.  Is this true?
+
+In my view the tabs in the setlists are redundant.  they are unnecessary to
+the basic lists we should be posting.  and they can easily be inserted by
+those who want them.  i would like to see them eliminated from the specs.
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 11 Jan 1997 00:52:58 -0800 (PST)
+Subject: 1969, the 2nd half
+
+BAND  Grateful Dead
+VENUE  Reed's Ranch
+CITY  Colorado Springs
+STATE  CO
+DATE  07/03/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+BAND  Grateful Dead
+VENUE  Electric Theater
+CITY  Chicago
+STATE  IL
+DATE  07/04/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Electric Theater
+CITY  Chicago
+STATE  IL
+DATE  07/05/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Piedmont Park
+CITY  Atlanta
+STATE  GA
+DATE  07/07/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX, which notes that this
+was a "free concert."  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Rock Pile
+CITY  Toronto
+STATE  Ontario
+DATE  07/08/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX, which notes Early and
+Late shows.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  NY State Pavilion, Flushing Meadow Park, Queens
+CITY  New York
+STATE  NY
+DATE  07/11/69
+SET1  Dupree's Diamond Blues > Dire Wolf; Hard To Handle; Silver Threads;
+Casey Jones; Sittin On Top Of The World > Big Boss Man; Mama Tried; High
+Time; Alligator > drums > Caution jam > The Other One > Cryptical
+Envelopment jam > Death Don't Have No Mercy > Lovelight.
+SET2  
+SET3  
+ENCORE  
+COMMENTS  Garcia plays pedal steel guitar on Hard To Handle and Silver
+Threads.  
+RECORDING  90 SB  30 A?
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  NY State Pavilion, Flushing Meadow Park, Queens
+CITY  New York
+STATE  NY
+DATE  07/12/69
+SET1  Doin That Rag > China Cat Sunflower > Mama Tried > High Time
+SET2  Minglewood\ Slewfoot\ Mountains Of The Moon\ Green Green Grass Of Home
+SET3  Dark Star > The Other One > St. Stephen > The Eleven > Lovelight
+ENCORE  
+COMMENTS  SET1 and SET2 comprise the AUD tape, SET3 the SBD.  The order of
+these three pieces of tape is unclear.  DeadBase IX puts the list in SET1
+first, the list in SET3 second, and three of the songs in SET2 at the
+conclusion of its list, but some copies of the AUD tape put the list in SET2
+first.  There are splices between the songs in SET2, so their order is also
+uncertain.  Slewfoot and Green Green Grass appear on most copies of the AUD;
+Minglewood and Mountains are rarer.
+RECORDING  SB 60  45 A?
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Longshoreman's Hall
+CITY  San Francisco
+STATE  CA
+DATE  07/16/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  08/02/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX, which gives this list:
+Hard To Handle; Mama Tried; High Time; Silver Threads; Slewfoot; King Bee;
+That's It For The Other One > Lovelight.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  08/03/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX, which gives this list:
+Hard To Handle; Beat It On Down The Line; Hi-Heel Sneakers; High Time; Mama
+Tried; Dark Star > Alligator > Caution > We Bid You Goodnight
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Woodstock, Max Yasgur's Farm
+CITY  Bethel
+STATE  NY
+DATE  08/16/69
+SET1  St. Stephen > Mama Tried; Dark Star > High Time; Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  Generally only the first 45 minutes of this set circulate --
+omitting the Lovelight (and who IS that dosed freak raving about a "third
+coast" therein?).  There is a cut in Stephen on all circulating copies.
+RECORDING  90 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  AquaTheater
+CITY  Seattle
+STATE  WA
+DATE  08/20/69
+SET1  Big Boss Man; Sittin On Top Of The World; That's It For The Other One
+> Dark Star > Cosmic Charlie
+SET2  
+SET3  
+ENCORE  
+COMMENTS  
+RECORDING  35 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Pelletier Farm
+CITY  St. Helens
+STATE  OR
+DATE  08/23/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Paradise Valley Resort
+CITY  Squamish
+STATE  British Columbia
+DATE  08/24/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  08/28/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  08/29/69
+SET1  KC Jones; Easy Wind; Me & My Uncle > High Time; New Orleans > Searchin
+> Good Lovin; Dire Wolf; King Bee; Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  According to Dick Latvala the tape in circulation labeled
+"8/29/69" is actually 8/30; this list is from Latvala's notes on a vault
+tape.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>  <Dick Latvala>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  08/30/69
+SET1  China Cat Sunflower > Doin That Rag; Morning Dew; Easy Wind; Dark Star
+> jam > Dark Star > St. Stephen > The Eleven > drums > High Time
+SET2  
+SET3  
+ENCORE  This tape circulates mislabeled "8/29/69" and contains the last
+17:13 of the Dark Star through the middle of High Time, where the vault SBB
+breaks off.  The rest of the list is courtesy of Dick Latvala.
+COMMENTS  
+RECORDING  40 SB
+CONTRIBUTORS  <chimpowl@well.com>  <Dick Latvala>
+
+
+BAND  Grateful Dead
+VENUE  Baton Rouge International Speedway
+CITY  Baton Rouge
+STATE  LA
+DATE  Casey Jones; Morning Dew > Mam Tried > High Time; Easy Wind; Yellow
+Dog Story; Dark Star > St. Stephen > The Eleven > Lovelight
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  
+RECORDING  90 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  09/06/69
+SET1  Schoolgirl; Doin That Rag; He Was A Friend Of Mine; Big Boy Pete; Good
+Lovin; It's All Over Now
+SET2  
+SET3  
+ENCORE  
+COMMENTS  The Dancin In The Streets; jam > Casey Jones circulating with this
+tape is actually 6/22/69.
+RECORDING  50 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  09/07/69
+SET1  Peggy Sue; That'll Be The Day; Johnny B. Goode; Peepin & Hidin; Wipe
+Out jam > Big RR Blues; Louie Louie > Twist & Shout > Blue Moon
+SET2  
+SET3  
+ENCORE  
+COMMENTS  Grateful Dead with members of Jefferson Airpane (definitely Jorma,
+perhaps Spencer and others).
+RECORDING  35 FM
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore East
+CITY  New York
+STATE  NY
+DATE  09/26/69
+SET1  Dark Star > St. Stephen > The Eleven > King Bee > Death Don't Have No
+Mercy
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX lists Early and Late shows and gives this list for the
+first show (noting uncertainty) and lists only Lovelight for the second
+RECORDING  45 A?
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore East
+CITY  New York
+STATE  NY
+DATE  09/27/69
+SET1  Morning Dew; Mama Tried: Next Time You See Me; Casey Jones; China Cat
+Sunflower > High Time; Dire Wolf; Me & My Uncle
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX notes Early and Late shows and gives this list for the
+first show, with an "Uncle John's jam" at the conclusion which does not
+appear on circulating tapes.  For the Late Show DeadBase IX lists  Mama
+Tried; Schoolgirl.
+RECORDING  45 AF
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Cafe a Go Go
+CITY  New York
+STATE  NY
+DATE  09/29/69
+SET1  Doin That Rag > The Seven > Good Lovin > St. Stephen > The Eleven
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX notes Early and Late shows.
+RECORDING  45 A?
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Cafe a Go Go
+CITY  New York
+STATE  NY
+DATE  09/30/69
+SET1  China Cat Sunflower > I Know You Rider; Alligator > drums > The Other
+One
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX notes Early and Late shows.
+RECORDING  35 A?
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Cafe a Go Go
+CITY  New York
+STATE  NY
+DATE  10/01/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX, which notes Early and
+Late shows.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Boston Tea Party
+CITY  Boston
+STATE  MA
+DATE  10/02/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Boston Tea Party
+CITY  Boston
+STATE  MA
+DATE  10/03/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Boston Tea Party
+CITY  Boston
+STATE  MA
+DATE  10/04/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  10/06/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  
+CITY  San Jose
+STATE  CA
+DATE  10/17/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Winterland
+CITY  San Francisco
+STATE  CA
+DATE  10/24/69
+SET1  Casey Jones; Dire Wolf; High Time; Easy Wind; China Cat Sunflower > I
+Know You Rider; That's It For The Other One > Cosmic Charlie
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX lists a Hard To Handle before China Cat and after
+Cosmic Charlie; Mama Tried; Good Lovin.
+RECORDING  45 AF
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Winterland
+CITY  San Francisco
+STATE  CA
+DATE  10/25/69
+SET1  Dark Star > St. Stephen > The Eleven
+SET2  
+SET3  
+ENCORE  
+COMMENTS  The recording in circulation breaks off two minutes into The
+Eleven.  DeadBase IX gives this list:  Good Lovin; Me & My Uncle; China Cat
+Sunflower > I Know You Rider; Casey Jones; High Time; Dark Star > St.
+Stephen > The Eleven > Lovelight.
+RECORDING  35 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Winterland
+CITY  San Francisco
+STATE  CA
+DATE  10/26/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX gives this list:  Hard To Handle; Cold Rain & Snow; Me
+& My Uncle; Next Time You See Me; Dire Wolf; Casey Jones; King Bee; Beat It
+On Down The Line; Good Lovin; Doin That Rag; China Cat Sunflower > I Know
+You Rider; Baby Blue.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  San Jose State University
+CITY  San Jose
+STATE  CA
+DATE  10/31/69
+SET1  Casey Jones; Yellow Dog Story; Dire Wolf; It Hurts Me Too; That's It
+For The Other One > China Cat Sunflower > I Know You Rider; High Time;
+Sittin On Top Of The World; Next Time You See Me; Easy Wind; Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX lists a Mama Tried after I Know You Rider.
+RECORDING  135 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  11/01/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to DeadBase IX, which lists:  Morning
+Dew; Dire Wolf; Cold Rain & Snow; Hard To Handle; Mama Tried; High Time;
+Next Time You See Me; Casey Jones; He Was A Friend Of Mine; Good Lovin; Easy
+Wind; China Cat Sunflower > I Know You Rider; Alligator > drums > Lovelight.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Family Dog at the Great Highway
+CITY  San Francisco
+STATE  CA
+DATE  11/02/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to the Book Of The Deadheads and
+DeadBase IX.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore Auditorium
+CITY  San Francisco
+STATE  CA
+DATE  11/07/69
+SET1  Morning Dew; Mama Tried; Me & My Uncle; Cold Rain & Snow; Next Time
+You See Me; Good Lovin; China Cat Sunflower > I Know You Rider > Dark Star >
+Uncle John's jam > Dark Star > That's It For The Other One > Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  According to DeadBase IX following Morning Dew is Hard To Handle;
+Casey Jones; following Mama Tried is Me & My Uncle; Cold Rain & Snow and
+preceding Good Lovin is High Time. 
+RECORDING  100 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore Auditorium
+CITY  San Francisco
+STATE  CA
+DATE  11/08/69
+SET1  Schoolgirl; Casey Jones; Dire Wolf; Easy Wind; China Cat Sunflower > I
+Know You Rider > High Time; Mama Tried; Good Lovin; Cumberland
+SET2  Dark Star > The Other One > Dark Star > Uncle John's jam > Dark Star >
+St. Stephen > The Eleven > > Caution > Main Ten jam > Caution > Feedback >
+We Bid You Goodnight
+SET3  
+ENCORE  
+COMMENTS  According to DeadBase IX in SET1 there is a King Bee before China
+Cat.  This may all be one set, as DeadBase IX lists it, but this seems
+unlikely.
+RECORDING  190 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Lanai Theater
+CITY  Crockett
+STATE  CA
+DATE  11/15/69
+SET1  Casey Jones; Me & My Uncle; Easy Wind; Cumberland Blues > China Cat
+Sunflower > I Know You Rider > High Time; Next Time You See Me; Mama Tried;
+Big Boss Man; Cosmic Charlie; Dire Wolf; Cold Rain & Snow; Lovin > Lovelight
+
+SET2  
+SET3  
+ENCORE  
+COMMENTS  Moratorium Day benefit.
+RECORDING  150 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Building A, Cal Expo
+CITY  Sacramento
+STATE  CA
+DATE  11/21/69
+SET1  Casey Jones; Schoolgirl; Cold Rain & Snow; Cumberland Blues; Easy
+Wind; Yellow Dog Story
+SET2  Good Lovin; China Cat Sunflower > I Know You Rider; High Time; Me & My
+Uncle; Lovelight
+SET3  
+ENCORE  
+COMMENTS  The SET1 SBD master is defective and is not widely circulated.
+RECORDING  90 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore West
+CITY  San Francisco
+STATE  CA
+DATE  12/04/69
+SET1  Casey Jones; Black Peter; Big Boss Man; Me & My Uncle; Cumberland
+Blues; Dire Wolf; Dark Star > High Time; Schoolgirl; Good Lovin; China Cat
+Sunflower > I Know You Rider; Uncle John's Band
+SET2  
+SET3  
+ENCORE  
+COMMENTS  The SBD circulating is rather degraded.
+RECORDING  135 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore West
+CITY  San Francisco
+STATE  CA
+DATE  12/05/69
+SET1  Me & My Uncle; Casey Jones; Black Peter; Mama Tried; It Hurts Me Too;
+Cumberland Blues; Cryptical Envelopment > drums > The Other One > Eleven Jam
+> The Other One > Cryptical Envelopment > Cosmic Charlie; Dancin In The
+Street; Dire Wolf; China Cat Sunflower > I Know You Rider > High Time\ Uncle
+John's Jam\ The Main Ten > Baby Blue
+SET2  
+SET3  
+ENCORE  
+COMMENTS  DeadBase IX lists the conclusion as Uncle John's Band > Main Ten >
+Baby Blue but all tapes circulating cut in on an Uncle John's jam and have
+another cut (probably quite brief) between it and Main Ten, making it
+impossible to tell what actually happens here from available tapes.  Consult
+vault sources.
+RECORDING  135 A?
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore West
+CITY  San Francisco
+STATE  CA
+DATE  12/07/69
+SET1  Black Peter; Hard To Handle; Cumberland Blues; Mama Tried > Easy Wind;
+Dancin In The Streets; Good Lovin; China Cat Sunflower > I Know You Rider;
+St. Stephen > The Eleven > Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  
+RECORDING  120 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Thelma Theater
+CITY  Los Angeles
+STATE  CA
+DATE  12/10/69
+SET1  Me & My Uncle; Cold Rain & Snow; Casey Jones; Schoolgirl; Morning Dew;
+Black Queen
+SET2  
+SET3  
+ENCORE  
+COMMENTS  Stephen Stills appears on the last 3 tunes in SET1.  DeadBase IX
+gives this list:  China Cat Sunflower > I Know You Rider; Black Peter; Me &
+My Uncle; Cold Rain & Snow; Mama Tried > High Time; Easy Wind; Dire Wolf;
+Schoolgirl; Morning Dew; Black Queen > Lovelight, noting that it is
+"incomplete between Dire Wolf and Casey Jones."  This list presumably
+derives at least in part from Gans' dubbing of tape for the FM broadcast.
+Consult vault sources.
+RECORDING  50 FM
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Thelma Theater
+CITY  Los Angeles
+STATE  CA
+DATE  12/11/69
+SET1  Casey Jones; Cold Rain & Snow; Mama Tried; T.C. plays Bach; Yellow Dog
+Story; Dire Wolf; It Hurts Me Too; China Cat Sunflower > I Know You Rider
+SET2  Black Peter; Me & My Uncle; Hard To Handle; Dark Star > St Stephen >
+The Eleven > Cumberland Blues
+SET3  Morning Dew; Next Time You See Me; Sittin In Top Of The World; Beat It
+On Down The Line; Big Boss Man; Good Lovin > drums > Good Lovin; High Time;
+Dancin; Easy Wind; That's It For The Other One > Cosmic Charlie
+ENCORE  
+COMMENTS  SET1 is an excellent upfront AUD (or perhaps mics on stage) that
+has long circulated as part of these Thelma Theater shows, usually labeled
+either 12/10 or 12/11.  DeadBase III lists it as part of 12/10/69 but the
+new list for this date (see above) apparently makes this impossible, as does
+the fact that these are different versions of Casey Jones and Cold Rain.  It
+seems most likely that SET1 is the beginning of the first set of 12/11/69,
+which continues with SET2.  SET3 is the second set.  Consult vault sources.
+RECORDING  45 AF  180 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Thelma Theater
+CITY  Los Angeles
+STATE  CA
+DATE  12/12/69
+SET1  Cold Rain & Snow; Me & My Uncle; Easy Wind; Cumberland; Black Peter;
+Next Time You See Me; China Cat Sunflower > I Know You Rider; Lovelight\
+Hard To Handle; Casey Jones; Mama Tried > High Time; Dire Wolf; Good Lovin >
+drums > Good Lovin; King Bee; Uncle John's Band > He Was A Friend Of Mine >
+Alligator > drums > Caution > Feedback > We Bid You Goodnight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  It seems probable that this is two sets but it is impossible to
+tell from the tapes where the break might be, though after Lovelight seems
+plausible.  Consult vault sources.
+RECORDING  210 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Swing Auditorium
+CITY  San Bernardino
+STATE  CA
+DATE  12/13/69
+SET1  Casey Jones, Hard To Handle, Black Peter, Mama Tried > China Cat
+Sunflower#, #High Time, Good Lovin > drums > Good Lovin > Cumberland Blues,
+St. Stephen > Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  
+RECORDING  90 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore Auditorium
+CITY  San Francisco
+STATE  CA
+DATE  12/19/69
+SET1  The Monkey & The Engineer; Little Sadie; Long Black Limousine; All
+Around This World
+SET2  Mason's Children; Black Peter; Hard To Handle; Cumberland Blues; Casey
+Jones; Good Lovin; That's It For The Other One > Uncle John's Band >
+Lovelight
+SET3  
+ENCORE  
+COMMENTS  SET1 is acoustic Dead, SET2 electric.  The AUD contains the
+complete show.  
+RECORDING  125 AF  50 SB  45 FM
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore Auditorium
+CITY  San Francisco
+STATE  CA
+DATE  12/20/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to Book Of The Deadheads and DeadBase
+IX, which gives this list:  First Set:  Mason's Children; China Cat
+Sunflower > I Know You Rider; High Time; Me & My Uncle; Hard To Handle;
+Cumberland Blues; Black Peter;  Second Set:  Dark Star > St. Stephen > The
+Eleven > New Speedway Boogie > Lovelight.  Consult vault sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Fillmore Auditorium
+CITY  San Francisco
+STATE  CA
+DATE  12/21/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to the Book Of The Deadheads and
+DeadBase IX, which gives this list:  Smokestack Lightnin; New Speedway
+Boogie; Mama Tired; Dire Wolf; Mason's Children; China Cat Sunflower > I
+Know You Rider; Black Peter; Not Fade Away; Uncle John's Band; High Time;
+Good Lovin; That's It For The Other One > Cumberland Blues.  Consult vault
+sources.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  McFarlin Auditorium, SMU
+CITY  Dallas
+STATE  TX
+DATE  12/26/69
+SET1  The Monkey & The Engineer; Little Sadie; Long Black Limousine; All
+Around This World; The Master's Bouquet; Black Peter; Uncle John's Band
+SET2  Casey Jones; Hard To Handle; Cold Rain & Snow; China Cat Sunflower > I
+Know You Rider; High Time; Me & My Uncle; Dark Star; Lovelight.
+SET3  
+ENCORE  
+COMMENTS  SET1 is acoustic Dead, SET2 electric.  Only the first 41 seconds
+of the Dark Star and the last 10:50 of the Lovelight appear on the tape in
+circulation.
+RECORDING  100 SBD
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  International Speedway
+CITY  Hollywood
+STATE  FL
+DATE  12/28/69
+SET1  Black Peter; Me & My Uncle; China Cat Sunflower > I Know You Rider >
+High Time; Cumberland Blues; Good Lovin; Cold Rain & Snow; Hard To Handle;
+Mason's Children; Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  
+RECORDING  100 SBD
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Boston Tea Party
+CITY  Boston
+STATE  MA
+DATE  12/29/69
+SET1  Mama Tried; Black Peter; Easy Wind; Me & My Uncle; China Cat Sunflower
+> I Know You Rider > High Time; Hard To Handle; Mason's Children;
+SET2  Cumberland Blues, Casey Jones, Good Lovin > drums
+SET3  
+ENCORE  
+COMMENTS  The tape in circulation cuts in on Mama Tried, probably not the
+first tune in the set, and cuts off during drums, early in the second set.
+RECORDING  100 SBD
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Boston Tea Party
+CITY  Boston
+STATE  MA
+DATE  12/30/69
+SET1  Good Lovin; Mama Tried; New Speedway Boogie; Casey Jones; Black Peter;
+Me & My Uncle; Midnight Hour; Cumberland Blues; That's It For The Other One
+> Cosmic Charlie
+SET2  Uncle John's Band; Mason's Children; China Cat Sunflower > I Know You
+Rider; Dark Star > Alligator > drums > The Eleven > jam > Alligator >
+Caution > Feedback > We Bid You Goodnight.
+SET3  
+ENCORE  
+COMMENTS  The tape in circulation has a number of cuts.
+RECORDING  180 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+BAND  Grateful Dead
+VENUE  Boston Tea Party
+CITY  Boston
+STATE  MA
+DATE  12/31/69
+SET1  
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This information according to the Book Of The Deadheads and
+DeadBase IX, which lists:  China Cat Sunflower > I Know You Rider; Mama
+Tried; Next Time You See Me; Cold Rain & Snow; Black Peter; Hard To Handle;
+Me & My Uncle; Mason's Children; Dire Wolf; Uncle John's Band; Alligator >
+drums > Good Lovin > The Eleven; High Time; Cumberland Blues; Big Boy Pete;
+Not Fade Away; Seasons; The Race Is On; Silver Threads; Slewfoot; Dancin In
+The Streets.
+RECORDING  none in circulation 1/97
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #121
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,96 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #176
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Saturday, 15 February 1997     Volume 01 : Number 176
+
+In this issue:
+
+	Re: deadlist format (was Re: 1980 deadlists )
+	expenses
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 14 Feb 1997 16:44:23 -0800 (PST)
+Subject: Re: deadlist format (was Re: 1980 deadlists )
+
+cool.  this makes things easier.  i can probably create a script to do 
+the converting of these text files into html files.  what i will probably 
+do is write it in javascript.  browsers that can't handle that will 
+simply display the page as a text file....(or as <pre> text within some 
+html).
+
+(of course, i can't remember how javascript can call a text file like 
+that -- but that just means i gotta look it up.  [hell, here's hoping it 
+*can*.  i'd really rather do that kind of converting on the client side 
+of things...)
+
+- --nathan
+
+On Fri, 14 Feb 1997, Ryan Shriver wrote:
+
+> Nathan Wolfson wrote:
+> > 
+> > Maybe the stumbling block is that we don't know how to get setlists from
+> > caretakers to search engine.  Posting to the list might work.  But then
+> > where to they go?  Probably need to be saved as a text file, at a particular
+> > place on the server where the search engine is.  Should it be one big text
+> > file?  Lots of little ones?  I'd guess the former, though it's more time
+> > consuming.  Then, I'd assume, we have done all we need to with the setlists,
+> > to make things work.
+> 
+> The search engine looks at one file for searching (an RDB file). Basically, if 
+> you have all the year's files in one directory (1977.txt, 1978.txt, etc), a one 
+> line script can concatenate them all together into one big file (setlists.txt). 
+> So, if 1977.txt gets updated, it's put in the directory, the script is run, and 
+> we have a updated setlists.txt file. This file is converted to setlists.rdb, and 
+> it's ready to search.
+> -- 
+> 				ryan
+> 
+> ---------------------------------------------------------------
+> Ryan Shriver				Product Manager
+> ryan@digicool.com			Digital Creations, L.C.
+> 
+> 	http://www.digicool.com/ryan/jerry/index.html
+> ---------------------------------------------------------------
+> 
+> 
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 14 Feb 1997 23:08:20 -0800 (PST)
+Subject: expenses
+
+regardng costs:  maybe at some point we could consider having a benefit for
+the Web site?  cover bands to cover expenses?  $180 is only 18 heads at $10
+apiece.
+
+------------------------------
+
+End of DeadLists Digest V1 #176
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

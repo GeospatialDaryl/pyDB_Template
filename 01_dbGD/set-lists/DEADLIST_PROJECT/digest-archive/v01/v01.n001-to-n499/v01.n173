@@ -1,0 +1,829 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #173
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 13 February 1997     Volume 01 : Number 173
+
+In this issue:
+
+	deadlist format (was Re: 1980 deadlists )
+	Re: deadlist format (was Re: 1980 deadlists )
+	'71 deadlists in v1.3.1 format
+	Re: deadlist format (was Re: 1980 deadlists )
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 13 Feb 1997 16:48:42 -0500
+Subject: deadlist format (was Re: 1980 deadlists )
+
+In message <199702130607.WAA01249@well.com> Jim Powell writes:
+> nathan & i were also wondering if we couldn't ask john to put 1971 into
+> something resembling the common formatting?  
+
+I'll repost in the newer format.  BTW, if anybody else needs a v1.21
+to v1.3.1 translator in sh/awk/sed, let me know.
+
+> the points still under
+> discussion are fairly minor and if you're consistent the differences are
+> easily adjusted latter.  
+
+I think there is one point that isn't minor, at least not for people
+writing programs and parsers for the data:  I don't think we've agreed
+on the significance of newlines in the format.
+
+The current spec says a set must be written all on one long line, with
+no newlines in the set, like this:
+
+SET2    Truckin' > Drums > The Other One > Ramble On Rose ; Sugar Magnolia ; You Win Again ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+
+As long as your mail reader didn't mangle that line, it should really
+be one long line, even though on an 80 character wide display it is
+displayed as 2 lines with the break in the middle of the word "You".
+
+A few weeks ago there was alot of discussion about allowing newlines
+anywhere, so the above set could be written like this:
+
+SET2    Truckin' > Drums > The Other One > Ramble On Rose ; 
+Sugar Magnolia ; You Win Again ; Not Fade Away > 
+Goin' Down The Road Feelin' Bad > Not Fade Away
+
+That set consists of 3 separate lines, with newlines after the "Ramble
+On Rose ;" and the "Not Fade Away >".  That set isn't acceptable in the
+current format, because there should be a "SET3" where "Sugar" is and
+an "ENCORE" where "Goin'" is, so everything from Sugar Magnolia will
+confuse a program trying to read that set, and will probably get thrown
+away or treated as a bogus third set and encore.
+
+When Ryan posted v1.3.1 of the format proposal I figured there would be
+complaints that sets (and comments) still had to be on one line, but
+there weren't.  Does that mean that the issue is settled and that each
+set will consist of only one line (like the first example above), and
+we can get on with collecting data and formatting it without having to
+change the format again?  Or do we want to allow newlines within sets
+(like the second example above)?  Personally, I'd lean towards allowing
+newlines within sets because I think that would make it easier to
+maintain the lists, even though it would mean programs would need more
+complicated parsers.  But, I don't feel that strongly about it either
+way and really would just like to settle on one or the other so we can
+move onto other issues.
+
+		John
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 13 Feb 1997 14:26:37 -0800
+Subject: Re: deadlist format (was Re: 1980 deadlists )
+
+John wrote:
+>
+> Jim wrote:
+>>
+>> the points still under
+>> discussion are fairly minor and if you're consistent the differences are
+>> easily adjusted latter.  
+>
+>I think there is one point that isn't minor, at least not for people
+>writing programs and parsers for the data:  I don't think we've agreed
+>on the significance of newlines in the format.
+>
+>The current spec says a set must be written all on one long line, with
+>no newlines in the set, like this:
+>
+>SET2    Truckin' > Drums > The Other One > Ramble On Rose ; Sugar Magnolia
+; You Win Again ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade
+Away
+>
+>As long as your mail reader didn't mangle that line, it should really
+>be one long line, even though on an 80 character wide display it is
+>displayed as 2 lines with the break in the middle of the word "You".
+>
+>A few weeks ago there was alot of discussion about allowing newlines
+>anywhere, so the above set could be written like this:
+>
+>SET2    Truckin' > Drums > The Other One > Ramble On Rose ; 
+>Sugar Magnolia ; You Win Again ; Not Fade Away > 
+>Goin' Down The Road Feelin' Bad > Not Fade Away
+>
+>That set consists of 3 separate lines, with newlines after the "Ramble
+>On Rose ;" and the "Not Fade Away >".  That set isn't acceptable in the
+>current format, because there should be a "SET3" where "Sugar" is and
+>an "ENCORE" where "Goin'" is, so everything from Sugar Magnolia will
+>confuse a program trying to read that set, and will probably get thrown
+>away or treated as a bogus third set and encore.
+>
+>When Ryan posted v1.3.1 of the format proposal I figured there would be
+>complaints that sets (and comments) still had to be on one line, but
+>there weren't.  Does that mean that the issue is settled and that each
+>set will consist of only one line (like the first example above), and
+>we can get on with collecting data and formatting it without having to
+>change the format again?  Or do we want to allow newlines within sets
+>(like the second example above)?  Personally, I'd lean towards allowing
+>newlines within sets because I think that would make it easier to
+>maintain the lists, even though it would mean programs would need more
+>complicated parsers.  But, I don't feel that strongly about it either
+>way and really would just like to settle on one or the other so we can
+>move onto other issues.
+>
+>		John
+
+I agree with John on this one, for sure.  For example, the MS Word macro
+that I use to translate the setlists people post to the mailing list into
+html completely ignores tabs, breaks, etc.: it simply treats all
+spaces/tabs/breaks as a single space (default html, of course) and it simply
+starts a new line prior to each one of the field headers (except prior to
+the BAND header, where it creates a double new line -- my html version of
+what would be considered a new record for search purposes).  An analgous
+parsing scheme for the search engines, which is I think what John describes,
+would be the most "fail safe" tact, imho.
+
+(My only concern is that this may fuck with some of the coding that some
+people have done.  Here's hoping it doesn't.)
+
+- ---
+
+
+Anyways, unless there is strong objection, I'd move to consider John's
+suggestion the final word on this matter (even though Ryan may not have time
+to revise the online DataSpec for a while).
+
+Thanks for pointing this out.
+
+- --Nathan
+
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 13 Feb 1997 17:19:33 -0500
+Subject: '71 deadlists in v1.3.1 format
+
+BAND	GD
+DATE	01/22/71
+VENUE	Lane Community College
+CITY	Eugene
+STATE	OR
+SET1	Casey Jones ; Beat It On Down The Line ; It Hurts Me Too ; Me And My Uncle ; Cold Rain & Snow ; Hard To Handle ; Brokedown Palace ; Johnny B. Goode ; China Cat Sunflower > I Know You Rider
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	02/18/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Bertha ; Truckin' ; It Hurts Me Too ; Loser ; Greatest Story Ever Told ~ Johnny B. Goode ; Mama Tried ; Hard To Handle ; Dark Star > Wharf Rat > Dark Star > Me And My Uncle
+SET2	Casey Jones ; Playin' In The Band ; Me And Bobby McGee ; Candyman ; Big Boss Man ; Sugar Magnolia ; Saint Stephen > Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Uncle John's Band
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	02/19/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Truckin' ; Loser ; Cumberland Blues ; It Hurts Me Too ; Bertha ; Playin' In The Band ; Dark Hollow ; Smokestack Lightning ; China Cat Sunflower > I Know You Rider
+SET2	Greatest Story Ever Told > Johnny B. Goode ; Bird Song ; Easy Wind ; Cryptical Envelopement > Drums > The Other One > Wharf Rat ; Good Lovin' ; Casey Jones
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	02/20/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Casey Jones ; Me And My Uncle ; Hard To Handle ; Bertha ; Playin' In The Band ; Bird Song ; Big Boss Man ; Cryptical Envelopement > Drums > The Other One > Wharf Rat ; Sugar Magnolia
+SET2	Truckin' ; Loser ; Next Time You See Me ; Greatest Story Ever Told > Johnny B. Goode ; Ripple ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Love Light
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	02/21/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Cold Rain & Snow ; Me And Bobby McGee ; Loser ; Easy Wind ; Playin' In The Band ; Bertha ; Me And My Uncle ; Ripple ; Next Time You See Me ; Sugar Magnolia ; Greatest Story Ever Told > Johnny B. Goode
+SET2	China Cat Sunflower > I Know You Rider ; Bird Song ; Cumberland Blues ; I'm A King Bee ; Beat It On Down The Line ; Wharf Rat ; Truckin' ; Casey Jones ; Good Lovin' > Drums > Good Lovin' > Uncle John's Band
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	02/23/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Uncle John's Band ; Loser ; Playin' In The Band ; Big Boss Man ; China Cat Sunflower > I Know You Rider ; Me And Bobby McGee ; Bertha ; Next Time You See Me ; Morning Dew ; Sugar Magnolia ; Casey Jones
+SET2	Me And My Uncle ; Bird Song ; Truckin' > Drums > The Other One > Wharf Rat ; Greatest Story Ever Told > Good Lovin' ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	02/24/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Casey Jones ; Me And My Uncle ; Cumberland Blues ; Bird Song ; Me And Bobby McGee ; Bertha ; Hard To Handle ; Loser ; Playin' In The Band ; Good Lovin' > Drums > Good Lovin'
+SET2	Sugar Magnolia ; I'm A King Bee ; Greatest Story Ever Told > Johnny B. Goode ; Deal ; Minglewood Blues ; Truckin' ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Love Light
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	03/21/71
+VENUE	
+CITY	Milwaukee
+STATE	WI
+SET1	Me And My Uncle ; Hard To Handle ; Loser ; Beat It On Down The Line ; Me And Bobby McGee ; Not Fade Away > Goin' Down The Road Feelin' Bad
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	04/05/71
+VENUE	Manhattan Center
+CITY	New York
+STATE	NY
+SET1	Cold Rain & Snow ; Me And Bobby McGee ; The Rub ; Loser ; Playin' In The Band ; Big Railroad Blues ; Me And My Uncle ; Big Boss Man ; China Cat Sunflower > I Know You Rider ; Casey Jones
+SET2	Truckin' > Drums > The Other One > Wharf Rat ; Sugar Magnolia ; I'm A King Bee ; Bertha ; Deal ; Sing Me Back Home ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Love Light
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	04/06/71
+VENUE	Manhattan Center
+CITY	New York
+STATE	NY
+SET1	Bertha ; Beat It On Down The Line ; It Hurts Me Too ; Me And Bobby McGee ; Dire Wolf ; Oh Boy ; I'm A Hog For You Baby ; Playin' In The Band ; Midnight Hour ; Mama Tried ; Cumberland Blues ; Casey Jones
+SET2	Greatest Story Ever Told > Johnny B. Goode ; Loser ; Good Lovin' > Drums > Good Lovin' ; Sugar Magnolia ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Truckin'
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	04/07/71
+VENUE	Boston Music Hall
+CITY	Boston
+STATE	MA
+SET1	Me And My Uncle ; Next Time You See Me ; Casey Jones ; Playin' In The Band ; Loser ; Me And Bobby McGee ; Hard To Handle ; Sugar Magnolia
+SET2	China Cat Sunflower > I Know You Rider ; Saint Stephen > Drums > Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/08/71
+VENUE	Boston Music Hall
+CITY	Boston
+STATE	MA
+SET1	Truckin' ; Bertha ; Next Time You See Me ; Playin' In The Band ; Loser ; Beat It On Down The Line ; Second That Emotion ; Sugar Magnolia ; China Cat Sunflower > I Know You Rider ; Casey Jones
+SET2	Dark Star > Saint Stephen > Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away ; Sing Me Back Home ; Cumberland Blues ; Greatest Story Ever Told > Johnny B. Goode ; Good Lovin' > Drums > Good Lovin'
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	04/17/71
+VENUE	Dillon Gym, Princeton University
+CITY	Princeton
+STATE	NJ
+SET1	Truckin' ; Big Railroad Blues ; Big Boss Man ; Bird Song ; Playin' In The Band ; Hard To Handle ; Loser ; Mama Tried ; Casey Jones ; Sugar Magnolia
+SET2	Good Lovin' > Drums > Good Lovin' ; Me And Bobby McGee ; Deal ; Beat It On Down The Line ; I'm A King Bee ; Bertha ; Sing Me Back Home ; Goin' Down The Road Feelin' Bad > Love Light
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	04/18/71
+VENUE	Lusk Field House (SUNY)
+CITY	Cortland
+STATE	NY
+SET1	Cold Rain & Snow ; Me And My Uncle ; Bertha ; Me And Bobby McGee ; Next Time You See Me ; China Cat Sunflower > I Know You Rider ; Casey Jones
+SET2	Sugar Magnolia ; Second That Emotion ; Truckin' ; Hard To Handle ; Loser ; Playin' In The Band
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/21/71
+VENUE	Rhode Island Auditorium
+CITY	Providence
+STATE	RI
+SET1	Casey Jones ; Mama Tried ; Big Boss Man ; Loser ; Truckin' > Drums > The Other One > Wharf Rat ; Hard To Handle ; Cumberland Blues ; Bird Song ; Me And Bobby McGee
+SET2	Bertha ; Sugar Magnolia ; Good Lovin' > Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Uncle John's Band > Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/22/71
+VENUE	Municpial Auditorium
+CITY	Bangor
+STATE	ME
+SET1	Bertha ; Me And My Uncle ; Next Time You See Me ; Loser ; Playin' In The Band ; Cumberland Blues ; Hard To Handle ; Deal ; Me And Bobby McGee ; Casey Jones
+SET2	China Cat Sunflower > I Know You Rider ; Greatest Story Ever Told > Beat It On Down The Line ; Sing Me Back Home ; Good Lovin' > Drums > Good Lovin' ; Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/24/71
+VENUE	Wallace Wade Stadium (Duke U.)
+CITY	Durham
+STATE	NC
+SET1	Truckin' ; Deal ; Hard To Handle ; Me And Bobby McGee ; Bertha ; Playin' In The Band ; Cumberland Blues ; Next Time You See Me ; Loser ; Sugar Magnolia ; Casey Jones
+SET2	Good Lovin' > Drums > Good Lovin' ; Me And My Uncle ; Sing Me Back Home ; Greatest Story Ever Told > Johnny B. Goode ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away > Uncle John's Band
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/26/71
+VENUE	Fillmore East
+CITY	New York
+STATE	NY
+SET1	Big Boss Man ; Loser ; Playin' In The Band ; Hard To Handle ; Dark Star > Wharf Rat ; Casey Jones
+SET2	Sugar Magnolia (1) ; Hurts Me Too (1) ; Beat It On Down The Line (1) ; China Cat Sunflower > I Know You Rider ; Good Lovin' > Drums > Good Lovin' ; Sing Me Back Home ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	(1) with Duane Allman
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/27/71
+VENUE	Fillmore East
+CITY	New York
+STATE	NY
+SET1	Truckin' ; Mama Tried ; Bertha ; Next Time You See Me ; Cumberland Blues ; Me And Bobby McGee ; Loser ; Hard To Handle ; China Cat Sunflower > I Know You Rider ; Casey Jones
+SET2	Sugar Magnolia ; Deal ; Me And My Uncle ; Bird Song ; Playin' In The Band ; Dire Wolf ; Searchin' (1) ; Riot in Cell Block #9 (1) ; Good Vibrations (2) ; I Get Around (2) ; Help Me Rhonda (1) ; Okie From Muskogee (1) ; Johnny B. Goode (1) ; Sing Me Back Home ; Uncle John's Band ; Love Light
+SET3	
+ENCORE	
+COMMENTS	(1) w/ the Beach Boys (2) only the Beach Boys
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings); johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	04/28/71
+VENUE	Fillmore East
+CITY	New York
+STATE	NY
+SET1	Truckin' > Beat It On Down The Line > Loser ; El Paso ; The Rub ; Bird Song ; Playin' In The Band ; Cumberland Blues ; Ripple ; Me And Bobby McGee ; I'm A King Bee ; Bertha
+SET2	[91:41] Morning Dew [11:27] ; [1:13] ; Me And My Uncle [3:04] ; [0:53] ; Deal [5:08] ; [0:58] ; Hard To Handle [8:54] ; [2:36] ; Cryptical Envelopement [1:55] > Drums [5:01] > The Other One [2:16] ; Sugar Magnolia [6:17] ; [6:18] ; Dark Star (1) [13:47] { theme [3:20] verse 1 [1:05] theme [7:54] verse 2 [1:07] outro [0:21] } > Saint Stephen (1) [6:23] > Not Fade Away (1) [3:41] > Goin' Down The Road Feelin' Bad (1) [6:20] > Not Fade Away (1) [2:21]
+SET3	
+ENCORE	
+COMMENTS	(1) with Tom Constanten
+RECORDING	CCHSB
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	04/29/71
+VENUE	Fillmore East
+CITY	New York
+STATE	NY
+SET1	Truckin' ; Bertha ; It Hurts Me Too ; Cumberland Blues > Me And My Uncle ; Bird Song ; Playin' In The Band ; Loser ; Dark Hollow ; Hard To Handle ; Ripple ; Me And Bobby McGee ; Casey Jones
+SET2	Morning Dew ; Minglewood Blues ; Sugar Magnolia ; Black Peter ; Beat It On Down The Line ; Second That Emotion ; Alligator > Drums > Alligator > Goin' Down The Road Feelin' Bad > Cold Rain & Snow ; China Cat Sunflower > I Know You Rider ; Greatest Story Ever Told > Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	06/21/71
+VENUE	Chateau d'Herouville
+CITY	Herouville
+STATE	France
+SET1	Playin' In The Band ; Big Boss Man ; Black Peter ; Bertha ; Casey Jones ; Cryptical Envelopement > Drums > The Other One > Wharf Rat ; Sugar Magnolia ; Sing Me Back Home ; Johnny B. Goode
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	07/02/71
+VENUE	Fillmore West
+CITY	San Francisco
+STATE	CA
+SET1	Bertha ; Me And Bobby McGee ; Next Time You See Me ; China Cat Sunflower > I Know You Rider ; Playin' In The Band ; Loser ; The Rub ; Me And My Uncle ; Big Railroad Blues ; Hard To Handle ; Deal ; Promised Land ; Good Lovin'
+SET2	Sugar Magnolia ; Sing Me Back Home ; Mama Tried ; Cryptical Envelopement > Drums > The Other One ; Big Boss Man ; Casey Jones ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	08/05/71
+VENUE	Hollywood Palladium
+CITY	Hollywood
+STATE	CA
+SET1	Bertha ; Me And My Uncle ; Mr. Charlie ; Sugaree ; El Paso ; Cryptical Envelopement > Drums > The Other One > Wharf Rat ; Me And Bobby McGee ; Casey Jones
+SET2	Truckin' ; Loser ; Sugar Magnolia
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	08/06/71
+VENUE	Hollywood Palladium
+CITY	Hollywood
+STATE	CA
+SET1	Bertha ; Playin' In The Band ; Loser ; Mr. Charlie ; Cumberland Blues ; Brokedown Palace ; Me And Bobby McGee ; Hard To Handle ; Casey Jones
+SET2	Saint Stephen ; Truckin' > Drums > The Other One > Me And My Uncle > The Other One ; Deal ; Sugar Magnolia ; Morning Dew ; Love Light
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	08/24/71
+VENUE	Auditorium Theater
+CITY	Chicago
+STATE	IL
+SET1	Big Railroad Blues ; Playin' In The Band ; Mr. Charlie ; Sugaree ; El Paso ; Next Time You See Me ; Bertha ; Me And Bobby McGee ; Cumberland Blues
+SET2	Big Boss Man ; Loser ; Bird Song ; Cryptical Envelopement > Drums > The Other One > Me And My Uncle > The Other One > Cryptical Envelopement > Wharf Rat ; Deal ; Brokedown Palace ; Empty Pages
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	10/19/71
+VENUE	Northrup Auditorium
+CITY	Minneapolis
+STATE	MN
+SET1	Bertha ; Me And My Uncle ; Sugaree ; Beat It On Down The Line ; Cumberland Blues ; Tennessee Jed ; Black Peter ; Jack Straw ; Big Railroad Blues ; Brown Eyed Women ; Mexicali Blues ; Comes A Time ; Playin' In The Band ; One More Saturday Night ; Casey Jones
+SET2	Truckin' ; Ramble On Rose ; Me And Bobby McGee ; Brokedown Palace ; Cryptical Envelopement > Drums > The Other One > Cryptical Envelopement > Wharf Rat ; Uncle John's Band ; Sugar Magnolia ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings); johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	10/21/71
+VENUE	Auditorium
+CITY	Chicago
+STATE	IL
+SET1	Cumberland Blues ; Comes A Time ; Mexicali Blues ; Cold Rain & Snow
+SET2	Me And My Uncle ; Dark Star > Sitting On Top Of The World > Dark Star > Me And Bobby McGee ; Brown Eyed Women ; Ramble On Rose ; Sugar Magnolia
+SET3	
+ENCORE	Saint Stephen > Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	10/27/71
+VENUE	Onondaga County War Memorial
+CITY	Syracuse
+STATE	NY
+SET1	Casey Jones ; Me And My Uncle ; Deal ; Jack Straw ; Tennessee Jed ; Beat It On Down The Line ; Sugaree ; Playin' In The Band ; Comes A Time ; Mexicali Blues ; Big Railroad Blues ; Cumberland Blues ; One More Saturday Night
+SET2	Bertha ; Me And Bobby McGee ; Ramble On Rose ; Sugar Magnolia ; Drums > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	Grateful Dead
+DATE	10/29/71
+VENUE	Allan Theater
+CITY	Cleveland
+STATE	OH
+SET1	Truckin' ; Sugaree ; El Paso ; Loser ; Playin' In The Band ; Brown Eyed Women ; Beat It On Down The Line ; Brokedown Palace ; Jack Straw ; Tennessee Jed ; Mexicali Blues ; Big Railroad Blues ; Casey Jones
+SET2	[66:24] Cryptical Envelopement [1:51] > Drums [0:23] > The Other One [20:16] { theme [5:36] spacey jam [0:55] jam [1:30] spacey jam [0:16] theme [0:42] space [0:20] spacey jam [0:09] jam [2:46] theme [1:44] verse 1 [0:34] theme [1:04] space [4:40] } > Me And My Uncle [2:54] > The Other One [2:58] { theme [2:16] verse 2 [0:34] outro [0:08] } > Cryptical Envelopement [1:39] > Deal [4:19] ; Sugar Magnolia [5:55] ; Ramble On Rose [5:50] ; Not Fade Away [4:40] > Goin' Down The Road Feelin' Bad [6:32] > Not Fade Away [2:42] ; One More Saturday Night [4:02]
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	CCH
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick) V: 
+
+BAND	GD
+DATE	10/30/71
+VENUE	Taft Auditorium
+CITY	Cincinnati
+STATE	OH
+SET1	Bertha ; Me And My Uncle ; Sugaree ; Beat It On Down The Line ; Loser ; Playin' In The Band ; Tennessee Jed ; Jack Straw ; Big Railroad Blues ; Me And Bobby McGee ; Brown Eyed Women ; One More Saturday Night
+SET2	Casey Jones ; Mexicali Blues ; Comes A Time ; El Paso ; Ramble On Rose ; Sugar Magnolia ; Truckin' ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings)
+
+BAND	GD
+DATE	10/31/71
+VENUE	
+CITY	Columbus
+STATE	OH
+SET1	
+SET2	Dark Star > Sugar Magnolia ; Saint Stephen > Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	11/07/71
+VENUE	Harding Theatre
+CITY	San Francisco
+STATE	CA
+SET1	Truckin' ; Brown Eyed Women ; Beat It On Down The Line ; Hideaway ; Sugaree ; Jack Straw ; Tennessee Jed ; Cumberland Blues ; El Paso ; Big Railroad Blues ; Comes A Time ; Mexicali Blues ; One More Saturday Night
+SET2	Ramble On Rose ; Me And Bobby McGee ; Loser ; Sugar Magnolia ; Dark Star > Drums > The Other One > Me And My Uncle > The Other One ; Deal ; Brokedown Palace ; Playin' In The Band ; Casey Jones ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Johnny B. Goode ; Uncle John's Band
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	11/11/71
+VENUE	Municipal Auditorium
+CITY	Atlanta
+STATE	GA
+SET1	Bertha ; Me And My Uncle ; Sugaree ; Playin' In The Band ; Tennessee Jed ; Jack Straw ; Casey Jones
+SET2	Big Railroad Blues ; Mexicali Blues ; One More Saturday Night ; Truckin' ; Sugar Magnolia ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	11/12/71
+VENUE	
+CITY	San Antonio
+STATE	TX
+SET1	Truckin' ; Loser ; Beat It On Down The Line ; Sugaree ; Jack Straw ; Tennessee Jed ; El Paso ; Brown Eyed Women ; Mexicali Blues ; Black Peter ; One More Saturday Night
+SET2	Ramble On Rose ; Me And My Uncle ; Cryptical Envelopement > Drums > The Other One > Cryptical Envelopement ; Sugar Magnolia ; Casey Jones
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	11/15/71
+VENUE	Municipal Auditorium
+CITY	Austin
+STATE	TX
+SET1	Loser ; Beat It On Down The Line ; Dark Star > El Paso > Dark Star ; Casey Jones ; One More Saturday Night
+SET2	Cumberland Blues ; Sugar Magnolia ; You Win Again ; Not Fade Away > Goin' Down The Road Feelin' Bad > Jam > Not Fade Away
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	-Chinacat tease before Jam-
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	11/17/71
+VENUE	Civic Auditorium
+CITY	Albuquerque
+STATE	NM
+SET1	Truckin' ; Sugaree ; Beat It On Down The Line ; Tennessee Jed ; El Paso ; Big Railroad Blues ; Jack Straw ; Mama Tried ; Playin' In The Band ; Cumberland Blues ; Me And Bobby McGee ; You Win Again ; Mexicali Blues ; Casey Jones ; One More Saturday Night
+SET2	Cryptical Envelopement > Drums > The Other One > Me And My Uncle > The Other One > Wharf Rat ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Ramble On Rose
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	11/20/71
+VENUE	Pauley Pavilion, UCLA
+CITY	Los Angeles
+STATE	CA
+SET1	Bertha ; Me And My Uncle ; Sugaree ; Beat It On Down The Line ; Tennessee Jed ; Mexicali Blues ; Brown Eyed Women ; El Paso ; Big Railroad Blues ; Jack Straw ; Cumberland Blues ; Playin' In The Band ; Casey Jones ; One More Saturday Night
+SET2	Truckin' > Drums > The Other One > Ramble On Rose ; Sugar Magnolia ; You Win Again ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	htj@mail.geocities.com (Thayer Jennings); johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	12/01/71
+VENUE	Boston Music Hall
+CITY	Boston
+STATE	MA
+SET1	
+SET2	Cryptical Envelopement > Drums > The Other One > Me And My Uncle > The Other One ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	12/02/71
+VENUE	Boston Music Hall
+CITY	Boston
+STATE	MA
+SET1	Bertha ; Playin' In The Band ; Mr. Charlie ; Sugaree ; Beat It On Down The Line ; Black Peter ; Next Time You See Me ; Jack Straw ; Tennessee Jed ; Mexicali Blues ; Smokestack Lightning ; Big Railroad Blues ; Casey Jones ; One More Saturday Night
+SET2	Sugar Magnolia ; Deal ; El Paso ; Comes A Time ; Brokedown Palace ; Uncle John's Band ; Not Fade Away > Love Light ; Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	12/05/71
+VENUE	Felt Forum, Madison Square Garden
+CITY	New York
+STATE	NY
+SET1	Bertha ; Beat It On Down The Line ; Big Boss Man ; Brown Eyed Women ; Muddy Water ; Jack Straw ; Mr. Charlie ; Tennessee Jed ; El Paso ; Deal ; Playin' In The Band ; Next Time You See Me ; Comes A Time ; Casey Jones ; One More Saturday Night
+SET2	Truckin' ; Ramble On Rose ; It Hurts Me Too ; Sugaree ; Sugar Magnolia ; Dark Star > Me And My Uncle > Dark Star > Sitting On Top Of The World ; Me And Bobby McGee ; Big Railroad Blues ; Mexicali Blues ; You Win Again ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	12/10/71
+VENUE	Fox Theater
+CITY	St. Louis
+STATE	MO
+SET1	Bertha ; Me And My Uncle ; Mr. Charlie ; Loser ; Beat It On Down The Line ; Sugaree ; Jack Straw ; Next Time You See Me ; Tennessee Jed ; El Paso ; Big Railroad Blues ; Casey Jones
+SET2	Good Lovin' ; Brokedown Palace ; Playin' In The Band ; Run Rudolph Run ; Deal ; Sugar Magnolia ; Comes A Time ; Truckin' > Drums > The Other One > Sitting On Top Of The World > The Other One > Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	One More Saturday Night
+COMMENTS	-China Cat tease before GDTRFB-
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	12/14/71
+VENUE	Hill Auditorium
+CITY	Ann Arbor
+STATE	MI
+SET1	[84:34] Truckin' [8:11] ; [1:36] ; Sugaree [6:04] ; [1:40] ; Mr. Charlie [3:36] ; Beat It On Down The Line [2:53] ; Loser [5:56] ; [3:43] ; Jack Straw [4:28] ; Next Time You See Me [3:55] ; Tennessee Jed [6:40] ; [2:19] ; El Paso [3:58] ; Big Railroad Blues [3:47] ; [1:04] ; Me And My Uncle [2:38] ; Run Rudolph Run [2:49] ; [1:24] ; Black Peter [7:55] ; Playin' In The Band [6:31] {intro: [0:15] verse 1 and chorus [0:33] interlude [0:18] verse 2 and chorus [0:30] interlude [0:37] verse 3 and chrous [0:26] jam [2:13] intrumental reprise [0:23] vocal reprise [0:56] outro [0:14]} ; Casey Jones [5:48]
+SET2	[81:47] Ramble On Rose [4:49] ; [1:22] ; Mexicali Blues [3:08] ; Big Boss Man [5:23] ; Cryptical Envelopement [1:49] > Drums [3:33] > The Other One [19:04] { theme [1:41] spacey jam [0:27] space [2:13] spacey jam [0:33] theme [1:12] M&MUish jam [0:38] theme [0:44] verse 1 [0:35] theme [0:31] spacey jam [0:51] space [1:16] jam [0:50] space [2:25] spacey jam [0:57] jam [0:54] theme [1:57] verse 2 [0:36] outro [0:07] } > Wharf Rat [8:36] ; [1:41] ; Sugar Magnolia [6:54] ; [1:28] ; You Win Again [3:25] ; Not Fade Away [7:42] > Goin' Down The Road Feelin' Bad [7:30] > Not Fade Away [2:25] 
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	CCHSB3
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick) V: 
+
+BAND	GD
+DATE	12/15/71
+VENUE	Hill Auditorium
+CITY	Ann Arbor
+STATE	MI
+SET1	Bertha ; Me And Bobby McGee ; Mr. Charlie ; China Cat Sunflower > I Know You Rider ; Beat It On Down The Line ; It Hurts Me Too ; Cumberland Blues ; Jack Straw ; You Win Again ; Run Rudolph Run ; Playin' In The Band ; Brown Eyed Women ; Mexicali Blues ; Big Railroad Blues ; Brokedown Palace ; El Paso ; Casey Jones
+SET2	Dark Star > Deal ; Sugar Magnolia ; Love Light > I'm A King Bee > I'm a Man > Love Light
+SET3	
+ENCORE	One More Saturday Night
+COMMENTS	Someone who was at this show said they definitely remember the encore being Uncle John's Band and that they wonder if Saturday Night is even from the same show.
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	GD
+DATE	12/31/71
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+SET1	Dancin' In The Streets ; Mr. Charlie ; Brown Eyed Women ; Beat It On Down The Line ; You Win Again ; Jack Straw ; Sugaree ; El Paso ; Chinatown Shuffle ; Tennessee Jed ; Mexicali Blues ; China Cat Sunflower ; I Know You Rider ; Next Time You See Me ; Playin' In The Band ; Loser ; One More Saturday Night (1)
+SET2	Truckin' > Drums > Other 1 Jam > Me And My Uncle > The Other One ; Black Peter ; Big River ; The Same Thing ; Ramble On Rose ; Sugar Magnolia ; Not Fade Away > Goin' Down The Road Feelin' Bad ; Not Fade Away
+SET3	
+ENCORE	Casey Jones
+COMMENTS	(1) with Donna; KSAN FM broadcast
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Thu, 13 Feb 1997 17:13:23 -0600 (CST)
+Subject: Re: deadlist format (was Re: 1980 deadlists )
+
+> When Ryan posted v1.3.1 of the format proposal I figured there would be
+> complaints that sets (and comments) still had to be on one line, but
+> there weren't.  Does that mean that the issue is settled and that each
+> set will consist of only one line (like the first example above), and
+> we can get on with collecting data and formatting it without having to
+> change the format again?  Or do we want to allow newlines within sets
+> (like the second example above)?  Personally, I'd lean towards allowing
+> newlines within sets because I think that would make it easier to
+> maintain the lists, even though it would mean programs would need more
+> complicated parsers.  But, I don't feel that strongly about it either
+> way and really would just like to settle on one or the other so we can
+> move onto other issues.
+
+I think it is a good idea to maintain the specfication as it is now. If we
+don't break fields on newlines, the parsing code is going to be more
+complicated and resource hungry. All of the relevant code I'm aware for
+this project is being developed in perl and python; high-level interpreted
+languages who aren't known for their ability to optimize. We really need
+to make it as easy as possible for the programmers that maintain and the
+machines that execute the code, IMO. 
+
+I agree that it is difficult to maintain the set-list data when each line
+is hard-wrapped. Many text editors (emacs, BBEdit, etc.) have the ability
+to soft-wrap text, so that it may be edited in 80 cols without breaking at
+that distance. BBEdit Lite 4.0 is a great tool for this kind of work, as
+you can turn off the soft-wrapping to check line breaks easily, as well as
+many other great features it has. The job is going to be a little more
+tricky if you're editing in MS Word, but there are tools better equipped
+to do this job. 
+
+I guess it comes down the issue that was never quite resolved in this
+group a few weeks back; do we make the dead-lists themselves "pretty" or
+user friendly so that Joe Deadhead can dl them into his Win95 machine and
+print them on the laser printer at school (always a good idea: save your
+$$ for tapes!), or do make the dead-lists akin to source code, where the
+final product or pretty lists can be generated using some external
+processing. I'm in favor of the source code method, as I think we have
+enough dedicated folks around to code the software to parse the data into
+the final product. But, like most things, I think there needs to be some
+kind of group consensus on this, and I'm into whatever most folks think is
+The Right Way To Do It... 
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+End of DeadLists Digest V1 #173
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

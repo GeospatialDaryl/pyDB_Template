@@ -1,0 +1,95 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #73
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 30 July 1996       Volume 01 : Number 073
+
+In this issue:
+
+	Re: DeadLists Digest V1 #70
+	updated setlists to deadlist v1.21 format
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Tue, 30 Jul 1996 10:51:36 -0400
+Subject: Re: DeadLists Digest V1 #70
+
+Tim Buller wrote:
+> 
+> > > First of all though, we need more data... I had an FTP site to drop
+> > > data-files off that was never used; is anyone working on this? Maybe we
+> >
+> What I'd like to pursue for the web is finding a Mac from which to
+> serve... I've seen some pretty nice Databases in FileMaker integrated
+> through WebSTAR, and I think this would be the most elegant way to go. In
+> the meantime, I'll keep hacking on a Unix interface, but I don't have
+> access to any DB type stuff, so it's all going to be hacked. If anyone has
+> any ideas or wants to help, it's something we could be doing.
+
+I just joined this list, so I am a little confused about the goal of
+this project. If it is to make setlists searchable, then I might be able
+to help. One of our companies specialties is writing filters (in the
+Python language) to convert ascii text files to RDB (Relational
+DataBase) format. I was looking at John Oleynick's work, and this looks
+like an almost ideal ascii file to work with. Basically, a
+character-delimited ascii file is needed that contains all of the
+setlists. Maybe we could work together, to come up with a standard way
+of formatting the setlists.
+
+Once we would come up with a standardized format for the setlists, a
+filter could be written to convert this data. After that, a small Python
+script is written to make the data accessible from any Web browser.
+
+Thoughts? Comments? Ideas?
+
+					ryan
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Tue, 30 Jul 1996 18:41:51 -0400
+Subject: updated setlists to deadlist v1.21 format
+
+Well, that wasn't so bad after all.  The lists under
+http://paul.rutgers.edu/~johno/dl6595.html are now in v1.21 format.
+I also left a copy in the old v1.2 format in case anyone still wants
+that.
+
+If you want to work with these, please grab them soon since I'll
+have to delete them in a few days to get back under my disk quota.
+
+		John
+
+------------------------------
+
+End of DeadLists Digest V1 #73
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

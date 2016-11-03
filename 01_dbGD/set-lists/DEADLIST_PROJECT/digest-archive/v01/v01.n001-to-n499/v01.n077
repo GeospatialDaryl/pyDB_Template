@@ -1,0 +1,184 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #77
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 1 August 1996      Volume 01 : Number 077
+
+In this issue:
+
+	Conversation about searching
+	Good News
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Thu, 01 Aug 1996 13:12:01 -0400
+Subject: Conversation about searching
+
+Tim Buller wrote:
+> I think I can parse Venue, City and State/Country lists out of the
+> Tour-by-Tour listings... that stuff was generated from lists, and I think
+> I can reconstruct them without too much work.
+
+Great! I just spoke with a friend at work, and he seems to think it will
+be pretty easy to do this, in less than 3 weeks if everything goes as
+planned. Because of the rigid standards in the Deadfile Specs, this
+should be a snap to write a filter to convert the ascii text to an RDB
+file. I want to emphasize how easy this appears because of the hard work
+to make a spec. Thanks to Steve, Nathan, Alan, Tim and all who worked on
+this.
+
+> So we search a single file against a query, or is each record stored in
+> it's own file? I'm sure y'all have it figured out how to return only the
+> relevant data matched from a single query, but that was the main thing I
+> was struggling with.
+
+Here is what happens. A filter (Python script1) is written that parses
+the ascii data, breaking it into a list. A list is very similar in
+structure to an array, but not exactly an array. So, for each show,
+there is one list entry (e.g. list[59] would represent the 59th show).
+Each list has sublists (one for each header entry, like venue, city,
+etc.). Then for some sublists, there are sublists of those sublists
+(e.g. Morning Dew is a sublist of Set 1, which is a sublist of
+list[59]). 
+
+Once the file is broken up this way, it is stored in an RDB file. There
+is a RDB wrapper module that makes Python "think" this file is actually
+a Database.
+
+The next step is to write another script (script2) which translates the
+user's search string into a properly formatted query, which Python can
+use to gather all lists (shows) which match the user's search string.
+Once Python has these matched lists, they are returned to the user. Yet
+another script (script3) is written which tells Python, using HTML, how
+to display the matched data to the user's Web browser. 
+
+Script1 and script2 shouldn't be to hard to write. Script3 is the one
+that takes the most time, but still isn't "real" difficult. In order to
+write script3, we need to decide how the returned data should be
+rendered in HTML. Once this is decided, then a script can be written to
+render the data like we want it. 
+
+So, the two things that I see are the most pressing are the HTML used to
+collect user's search queries, and an HTML layout for returning matched
+queries. The sooner that latter is done, the sooner we can write
+script3. 
+
+> The original project that was envisioned entailed a datafile that would
+> be accessible via a PC-based interface... the web thing sort of came
+> along as a later idea (that's the way I understand it). However, it seems
+> to me to be the most expedient to focus on 1) the web and 2) producing a
+> datafile that folks can import into their own DB software... I'm not sure
+> how concerned we want to be with creating an entire package to do it though.
+
+This approach addresses the Web version. Maybe while we are thinking
+about this, we can keep the PC version on the back-burner, and be
+thinking about it. I am not a PC (or Mac) expert, so I would need help
+in this area. 
+
+> I'll make my site available to it... BW is pretty cheap for me, and I
+> can pay a couple bucks a month or whatever it costs, if it doesn't get
+> too out of control. Eventually, it would be ideal to register a domain
+> for this project, but that's obviously down the road a bit...
+
+Cool. I could also probably host it for a while. I can come up with some
+site requirements for the programming part. Another thing to think about
+is possible setting up logins for a few people involved with this
+project, so one person isn't doing all of the mod's. 
+
+> I'm willing to work on this, which should pretty much be a snap after we
+> get the offical song, venue, city, and state/country lists ratified. No
+> big deal creating the input side of the interface, the output or
+> "presentation" side will be the trick, I think. I'm glad to see this
+> thing picking up steam again... thanks ryan for your re-vitalizing efforts.
+
+Fantastic! Let me know about the input interface, and maybe we can get
+some help from others on defining what the output interface should look
+like. Like any other app, I feel interface is a "big" deal. The better
+the interface, (e.g. simple, clear, functional) the more people that
+will use it, and the more popular it will become. Popularity could
+really help if/when we register a domain. For example, Terrapin Tapes
+could sponsor an ad that would pay for the domain costs, and hosting
+costs, etc. This is still a ways down the road, but nice to think about. 
+
+						ryan
+- --
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Thu, 01 Aug 1996 16:17:02 -0400
+Subject: Good News
+
+Hey all. 
+Well, script 1 (of 3) has been written, and it works quite well. There
+are a few more small tweaks, but I can successfully do the following
+queries:
+
+>>> r[368] (** which means get the 369th show **)
+{'SET2': ["Bertha >\011Good Lovin'", 'Ship of Fools', 'Estimated Prophet
+>\011The Other One >\011Drums >\011Not Fade Away >\011Comes A Time >\011Sugar Magnolia'], 'VENUE': ['War Memorial Auditorium'], 'STATE': ['NY'], 'ENCORE': ["Uncle John's Band"], 'RECORDING': ['no recording'], 'CITY': ['Buffalo'], 'CONTRIBUTORS': ['no contributor'], 'BAND': ['GD'], 'DATE': ['05/09/77'], 'SET1': ["Help On The Way >\011Slipknot! >\011Franklin's Tower", 'Cassidy', 'Brown Eyed Women', 'Mexicali Blues', 'Tennessee Jed', 'Big River', 'Peggy-O', 'Sunrise', 'The Music Never Stopped']}
+
+>>> r[368]['VENUE'] (** get the venue from the 369th show **)
+['War Memorial Auditorium']
+
+>>> r[368]['SET1'][3] (** get 3rd item in Set 1 list **)
+'Mexicali Blues'
+
+I know that Mexicalli was the 6th song in the first set, but at least it
+is counting the songs. My programmer/friend (what a funny name ;-) says
+they _think_ it's possible to break it up so that Help>Slip>Franklin's
+is not considered 1 song, but 3. If this works out, then this could be a
+huge step. Imagine in near-real time, finding the 5th song of the 1st
+set from the 1043th show! Wow!
+
+Needless to say, I am pretty fuckin' happy. From the looks of things, it
+may be rolling sooner than expected. Cross your fingers. 
+
+Other good news: It will be a snap to incorporate upgrades for setlists.
+As long as the new ascii files adhere to the specs, we would just import
+the new ascii file and run this script on it. Also, since there is a
+band field, other bands would be able to be included. Yet another thing:
+Imagine if there was a field that told if the show circulated or not,
+and if so, what portion, etc. Queries could be done for all of the shows
+from Oct. of '68, which contained Alligator, that circulated! Whoopie!
+
+					ryan
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+End of DeadLists Digest V1 #77
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,381 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #13
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Tuesday, 20 February 1996     Volume 01 : Number 013
+
+In this issue:
+
+	Re: Updating the Formatting Spec. Proposal
+	Re: DeadLists Digest V1 #12
+	Re: DeadLists Digest V1 #12
+	Re: DeadLists Digest V1 #12
+	Re: Updating the Formatting Spec. Proposal
+	[none]
+	Re: DeadLists Digest V1 #12
+	Re: Steve's proposals
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: kraitch@eecs.berkeley.edu (mark kraitchman)
+Date: Tue, 20 Feb 1996 08:00:46 -0800 (PST)
+Subject: Re: Updating the Formatting Spec. Proposal
+
+>I'll do it if someone will remind me of the deadlist archives address, so 
+>I can retrieve all the comments and  incorporate them.
+
+Back deadlists digests may be obtained from gdead.berkeley.edu via
+anonymous ftp (pub/gdead/set-lists/DEADLIST_PROJECT/digest-archive)
+or gopher.
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 20 Feb 1996 09:19:16 -0800
+Subject: Re: DeadLists Digest V1 #12
+
+>Any thought to listing Bob's several stories (ie. the U-Boat story of
+>12/18/73, the frequent yellow dog stories, etc.), or even the "smoker"
+>warnings and take a step backs, in set lists?
+
+Good idea to include them - very halpful for tape ID.
+I'd just put a footnote before or after a song, & put the joke in the
+footnote, maybe with keyword "JOKE:" or "PATTER:">
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 20 Feb 1996 09:29:37 -0800
+Subject: Re: DeadLists Digest V1 #12
+
+>>" China Cat Sunflower > jam > I Know You Rider " and " Scarlet
+>>Begonias > jam > Fire On The Mountain " etc. may not be elegant or look
+>>like what we're used to, but they do have the undeniable and
+>>insurmountable advantage of *actually naming the phenomena they
+>>describe* -- which IS what we're trying to do.
+
+We have a slight difference of opinion on this one.
+I think it makes it harder to search for a song sequence, and makes the
+setlists harder to read. It's also such a common phenomona that I think a
+shortcut should be employed, such as ">>". In this case, we still have the
+option of following that (==precededing the next song title) with a
+footnote referencing the name of the jam, should it have one.
+
+If we are going to explicitly label jams, are we going to label intra-song
+jams, like Bird Song, or Playing? Or, are those considered part of the
+song?
+(Remember, in the case of Playing, they don't always finish....).
+
+How do we deal with tucking away a song (or 2 or 3) in the middle of another?
+(Much less finishing it on another night!).
+Appending "reprise" might be a way, but I think it may complicate some
+database functions.
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Tue, 20 Feb 1996 12:30:19 -0500
+Subject: Re: DeadLists Digest V1 #12
+
+At 9:29 AM 2/20/96, Allen J. Baum wrote:
+
+>
+>How do we deal with tucking away a song (or 2 or 3) in the middle of another?
+>(Much less finishing it on another night!).
+>Appending "reprise" might be a way, but I think it may complicate some
+>database functions.
+
+I don't have a useful solution to suggest here, but I think it's important
+the we set this up so that we DON'T have searches return multiple listings
+for the same show (unless it's two distinct songs, like the
+show-opening-and-closing Lovelights of 6/14/69).
+
+If you turn to the "every time played" section of Deadbase and look up, for
+example, Cryptical Envelopment, you see all these citations from '67-'70
+where it shows Cryptical was played =twice= during each show. Of course it
+wasn't. It would be nice to be able to see which shows went back into
+Cryptical and which shows went Other One>something else, but listing the
+song twice (IMHO) is not the way to do it. I'm not wild about the word
+"reprise" but I don't see a better way to do it.
+
+Cryptical Part Two? We Leave The Castle? Which part of The Other One =is=
+"We Leave The Castle," anyway?
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 20 Feb 1996 10:15:23 -0800 (PST)
+Subject: Re: Updating the Formatting Spec. Proposal
+
+Okay, I'm going to get to this this week and post it either at the end of 
+the week or early next week, if all goes well.  
+
+Judging by the number of new ideas posted in the last day, some people 
+may not have said all that they want to yet, so I'll try to wait till the 
+comments ebb and then get cracking.  If this means delaying the next 
+draft of the proposal by a week or so, that's fine.  I'd prefer to have 
+everyone get their two cents in rather than rush into another draft that 
+is going to require a lot more revision before we have a final spec for 
+the data file.
+
+I do think we want to get this nailed down before long, however, since a 
+number of people have contacted me and are "chomping at the bit" to 
+format the lists they have and upload/share them.
+
+So if anyone has been thinking about posting some ideas, please do it 
+*soon* :-)
+
+Thanks,
+Nathan
+
+
+On Tue, 20 Feb 1996, mark kraitchman wrote:
+
+> Nathan wrote:
+>
+> >I'll do it if someone will remind me of the deadlist archives address, so 
+> >I can retrieve all the comments and  incorporate them.
+> 
+> Back deadlists digests may be obtained from gdead.berkeley.edu via
+> anonymous ftp (pub/gdead/set-lists/DEADLIST_PROJECT/digest-archive)
+> or gopher.
+> 
+
+------------------------------
+
+From: pollard@alex.ecs.umass.edu (Brian Pollard)
+Date: Tue, 20 Feb 1996 13:49:10 -0500
+Subject: [none]
+
+I've been following the formatting discussions as much as my 
+free time permits.  I'd like to make the following suggestion
+about the "China Cat Sunflower > I Know You Rider" versus 
+"China Cat Sunflower > jam > Feelin' Groovy jam > I Know You 
+Rider" discussion.  Perhaps many of these comments have already
+been made, or, based on information that I haven't seen, perhaps
+this isn't possible or applicable.
+
+I'd like to see a creation of a secondary field after each 
+song.  Take the below example.  In the {} would be a searchable
+"map" of the song.  There we could put instances of "Feelin' 
+Groovy jam" or other such things.  The "gross" searches, as in 
+"when are all of the first set Dark Stars", can ignore the information
+in the brackets, as can later J-card generating software, etc.
+"Detailed" searches could also be conducted, as in finding every
+Feelin' Groovy jam, or whatever.  Such a search would give you the song
+in which each theme occurs, timings, etc.
+
+SET2
+Dark Star [22:10] {Dark Star theme [2:00] ; Jazzy jam [3:43]; ... } ~>
+drums [9:31] {} ~>
+Dark Star [16:01] {Dark Star theme [1:43] ; second verse [0:49] ; ... } ~>
+Sugar Magnolia {}
+Caution {} ~> 
+Who Do You Love {} ~> 
+Caution {}
+Truckin' {}
+Uncle John's Band {}
+[[2:10:12]]
+
+(note - the above timings are entirely made up.  The end time was 
+put in [[]] for distintion.)
+
+or, for the China/Rider case:
+
+China Cat Sunflower [8:43] { China Cat opening [1:43] ; ... ; Feelin' Groovy
+                             jam [0:48] ; } >
+I Know You Rider [4:10] {} ;
+
+
+Some other notes:  I think that such a creation will make the project
+go much faster.  Basic setlists can be constructed, and thematic
+information and timings can be added as time permits.  Basic searches,
+ignoring the information in the brackets {}, could be conducted more 
+quickly, but all of the information that we can identify in the music 
+can be found, for those that are curious.
+
+The biggest disadvantage that I see with this is that the text file 
+becomes even more unreadable once the bracket subfields begin to be 
+filled.  What are the eventual plans for displaying search results?
+
+Just some thoughts,
+
+- -Brian
+
+(pollard@alex.ecs.umass.edu)
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 20 Feb 1996 11:02:49 -0800
+Subject: Re: DeadLists Digest V1 #12
+
+mibeck@aaln.org (Michael Beck) said:
+
+>
+>   Hmm - in Phish-land, we usually don't even bother with a reprise, except
+>for a few very frequent songs. We just would say something like: "YEM ->
+>David Bowie -> Divided Sky -> Esther -> YEM," and it would just be assumed
+>that everyone realized that the second YEM was a continuation of the first.
+
+It might be another thing that complicates database searches and statistics.
+Damned if you do, dmaned if you don't.
+
+I'm leaning towards some kind of punctuation that indicates the song is
+cut/restarted (as opposed to tape cut/restarted)
+For example, "song* > something > *song", where the "*"s indicate
+cut/restart, depending if it's appended or prefixed.
+
+>Of course, this method wouldn't exactly work if a song was continued over
+>multiple days. In that case, perhaps we could put a note?
+
+Yes, that would work. Of course, there's no real way to tell that it's real
+a continuation, as opposed to a whole new second half. Another reason for
+special punctuation.
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Tue, 20 Feb 1996 14:23:42 -0800
+Subject: Re: Steve's proposals
+
+>> Songs not continuing into each other shall be separated by a 
+>> space then a semi-colon then a space (e.g. songname1 ; 
+>> songname2). Use of a semi-colon will alleviate potential 
+>> problems in parsing caused by commas in song names.
+>> 
+>> In the event that two songs are separated by a pause of greater 
+>> than 60 seconds, then a separator of two semi colons in a row 
+>> shall be used. (e.g. songname1 ;; songname2)
+>
+>Sorry if this is ignorance on my behalf, but why should there be the 
+>space before the semi-colon?  Also, the use of two semi-colons to signify 
+>extra length between songs seems to me to be either taking things just a 
+>little too far, or perhaps not far enough.  If >60secs = one extra 
+>semi-colon; then maybe >90secs = two extra semi-colons etc.
+
+Whatever the list wants to do with the space b/f the semi colon is fine with
+me. 
+
+I'm certainly not married to the 60 pause thing either, but my concept was
+that when the band turns around and tunes for an extended period of time, be
+it 60, 90 or 322 seconds for that matter, that the pause indicates a
+significant tempo shift in a show. Somehow it is very different when they
+come out from one of those longer pauses than when they simply pop into
+another song after a brief pause. 
+
+This being said, I will certainly defer to the list on this issue.
+
+
+Steve
+
+- ----- 
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax:(415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+ 
+ For *TapeTracker for Windows* info:
+          see http://www.barclay.com/tapetracker/ or send email
+      to info@barclay.com (no subject or message text is required)
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Tue, 20 Feb 1996 14:37:34 -0800
+Subject: [none]
+
+the kind of detailed mapping of Dark Stars and other expanded jams that
+Pollard mentions definitely needs to be done, and is being done in many
+quarters.  And I think we might want to make a place in conjunction with our
+lists where such maps can be posted.  But I think it would unduly clutter
+our setlists to try to insert maps inside them, and also swell the size of
+our setlist document unnecessarily.  But I think we should definitely keep
+it in mind to establish a place to post maps.  i have about 50 dark stars
+analysed & would like to post that info somewhere myself.
+
+i see what allen baum means about how writing " china cat sunflower > jam >
+i know you rider " would complicate searches a little bit.  but only to the
+extent of adding 6 characters, which isn't much.
+
+conversely, it seems to me that the difference between an intra-song jam and
+an inter-song jam couldn't be plainer.  the timing of a song with an
+intra-song jam, when compared with other timings of the same song, will give
+you a good idea of how long the jam was:  no particular reason to note the
+length of jam per se.  This isn't the case with inter-song jams.  And since
+what we're trying to do is note what is there, if an inter-song jam is
+there, i think we should note it.  (and in our ultimate edition, if not
+sooner, time it) -- because timing china cat and rider still won't tell you
+where the jamming was;  ditto scarlet > fire, etc.
+
+agree with saz about long pauses affecting the set's tempo but i think
+they're approrpiately registered in a complete timing of the set (as in
+DeadBase).  maybe we need to set up our timing parentheses so that they can
+be inserted at need *between* songs?  
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #13
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

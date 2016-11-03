@@ -1,0 +1,152 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #49
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Thursday, 9 May 1996        Volume 01 : Number 049
+
+In this issue:
+
+	Re: DeadLists Digest V1 #48
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Wed, 8 May 1996 18:15:59 -0700
+Subject: Re: DeadLists Digest V1 #48
+
+>>I wrote:
+>>>My personal preference is the following, a combination of rules 5&6&7:
+>>> Song timings should be in the comments section (listed as a set comment,
+>>>        in timing map format) because it rare to search for that
+>>>        information, and it just gets in the way. (Also, it will be
+>>>        difficult to search for because timings are hard to get exact)
+
+>>
+>>I would consider it VERY useful to be able to search for all Eyes post '85
+>>that break the ten minute mark.  This is how I envisioned the timing
+>>information - not for finding the playin' that lasts 18:32 exactly but for
+>>looking for certain versions of songs that fit in a range.
+>
+>I *totally* agree, as will most folks interested in timings I think.  I
+>couldn't give a damn whether there are any Playins that last exactly 30:23.
+>But I am contstantly wondering whether most of the Stars in 73 (for example)
+>were longer than 30 minutes.
+
+Hmm - I wasn't precluding timing information, or searches by time.
+I was just making my preferences for the database format known - that
+the list of titles, and the list of timings, should be in separate fields.
+
+It is my opinion (which is mine) that this will make the textual database
+more humanly readable. I don't think it will have a significant impact
+on the ability to do timing searches. It may impact how easy it is to
+upload setlists, for people who have annotating things one way or another.
+
+>>I think our biggest problem here on Deadlists is that we are creating data
+>>specifications when we don't know what our end product will look like
+>>(backwards for most software engineering).  Is anyone else thinking about
+>>the software that will use these data files?
+
+>Check out:  http://www2.southwind.net/~tjb9d/gdead/tbt
+>It's probably not exactly what we would be shooting for, but it's the best
+>online version of this kind of thing that I know of.
+
+If you mean "on the net" as opposed to "on a computer", I agree.
+Stak-o-Dead is a bit more complete, but isn't on the web (though
+I've heard about an app that lets web-server run hypercard stacks
+remotely, which would be extreeeemely cool.
+
+> For better
+>descriptions of the kind of end-user attributes we are searching for, check
+>out the original DeadLists proposal, penned by Jim Powell, which can be
+>acccessed from the DeadLists Home Page at
+>
+>http://www.well.com/user/nathan/dlhome.htm
+
+Yes indeedy. I just reread it, on you reccomendation. Comprehensive, it is.
+
+I'd like to search, select, sort, and list by: title, date, venue, timing....
+I'd like searches that let look for sequences of songs, with
+wildcards for both songtitles and seque types between songs (and timings,
+I guess). Special case symbols for beginning/end of set will make it
+possible to search for songs in a particular set position.
+Wildcards should permit
+        ranges (for timings, month/day/year)
+        enumerated selections or any (for everything), and
+        a range of how many (i.e. find 2-4 of anysong followed by Drums...,
+                                     or >6 guzintas).
+
+A restricted version of regular expression syntax, ala grep, might be close
+to what we want
+
+In any case...
+    Look at v1.2
+    Evaluate it in terms of:
+        Will the format make certain types of searches difficult?
+        Is there some kind of information missing
+        Will it make uploading of setlists difficult?
+        Is the text version useful/readable by itself?
+        Is the format ambiguous or hard to parse with fairly simple parsers?
+        Are there mistakes in the syntax (not allowing spaces where we should,
+            or special casing characters that appear in titles, thus creating
+            non-obvious ambiguities.)
+
+    The original proposal says:
+>the setlists need to be modifiable. You also want to be able to add,
+>subtract, >change songs & jam names etc & to flag your corrections for
+>uploading to the >
+>community project's mailbox.
+
+>i want the ability to annotate shows, append notes etc.
+>i want to be able to flag individual songs as remarkable performances, and
+>to >flag individual shows similarly (and then search for flagged items).
+        (I would classify all this in the category of adding personal
+         show/set/song comments)
+
+Personal annotations together with master list updates (in both directions)
+may be tricky. If you put a personal comment in your version, (e.g. "my
+first road show!") - it probably is not something that should get merged
+into the master list, if you are correcting it. Likewise, you don't want
+them to be erased when you reload the master list.
+
+So, we need to have personal comments, as well the the "master" comments.
+It should be a separate file, and we need a format for that as well.
+
+A quick proposal: It looks like an abbreviated database, with a header
+field that says just DATE<tab>COMMENTS, followed by a date, and a comment
+field with comment syntax. Because the comment field requires reference
+marks, and your personal reference marks aren't in the master list, we can
+have reserved reference marks, such as (1.3) for a comment that refers to
+the third song
+of the first set, or (1.2,1.3) for one that refers to the second and third
+song, or (2.4.5) if it refers to the fifth 'phrase' of set2,song4 which has
+a timing map. (I've already proposed (1) as a reserved set1 reference mark)
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #49
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,569 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #356
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Monday, 30 June 1997        Volume 01 : Number 356
+
+In this issue:
+
+	Search Engine Update
+	Re: 1986 tapes in circulation     attn:  johno
+	Re: 1987
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Sun, 29 Jun 1997 18:24:55 -0500 (CDT)
+Subject: Search Engine Update
+
+I've updated the SQL database for the search engine with all the data
+available for 1969-1990, 1992 and 1994-95. I have not yet generated
+Tour-by-Tour sets for 1970, 1987 and 1988, so the set-list links in those
+years won't work. 
+
+If anyone has any input on the design of or interface to the search
+engine, please discuss it in this forum. I'm not a programmer by trade, so
+I tend to make things work in a simple, though maybe not the most
+effective manner. If there are features you would like to see implemented,
+let's talk about it. 
+
+And if anyone wants to look at the ugly code that makes this all work
+(it's a Python 1.4 CGI and the database is mSQL 1.0.11 (see
+www.hughes.com.au for info about Mini-SQL) I'd be happy to make it
+available. This stuff is really simple; I have no doubt that we can
+improve very much the search engine currently in place.
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Sun, 29 Jun 1997 18:00:21 -0700 (PDT)
+Subject: Re: 1986 tapes in circulation     attn:  johno
+
+>>>>> Jim Powell <chimpowl@well.com> writes:
+
+ > I have been able to locate tape of every show except the 1st set
+ > of Buffalo 7/4/86
+
+ > Buffalo 7/4/86:  2nd & enc 80 AUD
+
+I have the 1st set, which fits on a 45-min. side.  It was pretty lousy,
+but anyhow:
+
+
+BAND	Grateful Dead
+DATE	07/04/86
+VENUE	Rich Stadium
+CITY	Buffalo
+STATE	NY
+SET1	Jack Straw 5:09 ; Dupree's Diamond Blues 6:17 ; C.C. Rider 6:36 ;
+Tennessee Jed 7:57; My Brother Esau 4:17 ; Touch of Grey 5:31
+SET2	
+SET3	
+ENCORE	
+COMMENTS	Before the set starts, Phil speaks (with enhancements by 
+Dan Healy) about the technical difficulties.  Bob explains "we were just
+stalling for time."  More comments from Bob before Dupree's.
+RECORDING	AUD45
+CONTRIBUTORS	John Whitehead <jfw@well.com>
+
+
+I take it someone else did set 2 & the encore?
+
+P.S. According to DeadBase, Rich Stadium is actually in Orchard Park, NY.
+
+ ___________________________________________________________________________
+| John F. Whitehead          Work: jfw@cisco.com   Home: jfw@well.com       |
+| Web Technology Analyst     Cisco Systems         http://www.well.com/~jfw |
+|___________________________________________________________________________|
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sun, 29 Jun 1997 21:55:40 -0400
+Subject: Re: 1987
+
+BAND	Grateful Dead
+DATE	01/28/87
+VENUE	San Francisco Civic
+CITY	San Francisco
+STATE	CA
+SET1	Shakedown Street 11:15 ; Get Back 5:36 ; Peggy-O 5:32 ; Walkin' Blues
+5:18 ; It Must Have Been The Roses 5:52 ; It's All Over Now 5:34 ; Row Jimmy
+10:11 ; My Brother Esau 4:28 ; Bird Song 10:20 ; Jack Straw 5:14
+SET2	When Push Comes To Shove 4:14 > Samson and Delilah 6:38 ; Black Muddy
+River 5:42 ; He's Gone 10:58 > Spoonful 5:58 > Drums 9:#07 > Space 1:54 >
+Eyes Of The World 6:38 > Black Peter 9:39 > Around and Around 4:25 > Sugar
+Magnolia 8:40
+SET3	
+ENCORE	U.S. Blues 5:01
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	01/29/87
+VENUE	San Francisco Civic
+CITY	San Francisco
+STATE	CA
+SET1	Funiculi Funicula Tuning ; Hell In A Bucket ; Sugaree ; El Paso ; Loser
+; Little Red Rooster ; Brown Eyed Women ; Cassidy ; Don't Ease Me In
+SET2	Scarlet Begonias 7:53 > Fire On The Mountain 10:11 ; Looks Like Rain
+7:26 ; Terrapin Station 11:27 > Drums 8:#13 > I Need A Miracle 3:50 > Stella
+Blue 7:19 > Goin' Down The Road Feeling Bad 5:44 > Johnny B. Goode 3:46
+SET3	
+ENCORE	It's All Over Now Baby Blue 7:33
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	03/02/87
+VENUE	Henry J. Kaiser Convention Center
+CITY	Oakland
+STATE	CA
+SET1	Funiculi Funicula Tuning ; Jack Straw ; Althea ; C. C. Rider ; Bird
+Song ; Beat It On Down The Line ; Ramble On Rose ; Feel Like A Stranger
+SET2	China Cat Sunflower 5:19 > I Know You Rider 5:09 > Man Smart, Woman
+Smarter 6:00 ; Ship of Fools 7:35 ; Estimated Prophet 10:21 > Eyes Of The
+World 9:58 > Drums > Space #2:21 > Truckin' 6:11 ; Morning Dew 9:15
+SET3	
+ENCORE	Johnny B. Goode 3:51
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	03/23/87
+VENUE	Hampton Coliseum
+CITY	Hampton
+STATE	VA
+SET1	Touch Of Grey 5:50 > Little Red Rooster 7:17 ; Althea 6:57 ; Me And My
+Uncle 2:56 > Big River 4:54 ; Iko Iko 4:59 ; Tons Of Steel 4:45 ; Feel Like
+A Stranger 6:10 ; Don't Ease Me In 3:07
+SET2	Box Of Rain ; Man Smart, Woman Smarter ; Ship of Fools ; Truckin' ;
+Drums ; The Other One ; Stella Blue ; Throwing Stones ; Turn On Your Lovelight
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	03/27/87
+VENUE	Hartford Civic Center
+CITY	Hartford
+STATE	CT
+SET1	Alabama Getaway 4:40 > Greatest Story Ever Told 4:10 ; West L.A.
+Fadeaway 6:43 ; Little Red Rooster 7:26 ; Brown Eyed Women 4:57 ; Beat It On
+Down The Line 3:12 ; Tennessee Jed 7:59 ; The Music Never Stopped 7:53
+SET2	Touch Of Grey 5:54 > Samson and Delilah 7:43 > Cumberland Blues 4:55 ;
+Estimated Prophet 9:55 > Eyes Of The World 8:02 > Drums 6:43# > Space #5:57
+> Uncle John's Band 7:00 > Morning Dew 10:10
+SET3	
+ENCORE	Johnny B. Goode 4:20
+COMMENTS	
+RECORDING	AUD180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), Gordon Sharpless
+<paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	03/29/87
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+SET1	Hell In A Bucket 5:28 ; Bertha 6:13 > Little Red Rooster 7:29 ; Far
+From Me 4:31 ; Friend Of The Devil 7:55 > El Paso 5:12 ; When Push Comes To
+Shove 4:40 ; Let It Grow 12:25
+SET2	Mississippi Half-Step Uptown Toodleloo 7:45 > Playing In The Band 10:16
+> China Doll 6:31 > Man Smart, Woman Smarter 7:20 > Drums 7:02 > Space 7:#18
+> The Wheel 6:54 > Goin' Down The Road Feeling Bad 6:13 > Playing In The
+Band Reprise 3:11 > Black Muddy River 6:00 > Sugar Magnolia 8:45
+SET3	
+ENCORE	The Mighty Quinn
+COMMENTS	
+RECORDING	AUD90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); Gordon Sharpless
+<paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	03/31/87
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+SET1	Jack Straw 5:07 > Franklin's Tower 7:05 ; C.C. Rider 8:02 ; Ramble On
+Rose 6:56 ; Tons Of Steel 5:04 ; Mama Tried 2:33 > Big River 5:#04 ;
+Candyman 6:41 ; Desolation Row 9:58 > Don't Ease Me In 3:19
+SET2	Touch Of Grey 6:07 ; Estimated Prophet 10:42 > Terrapin Station 11:15 >
+Drums 10:13 > Space 6:32 > Uncle John's Band 7:08 > I Need A Miracle 3:38 >
+Stella Blue 8:04 > Around and Around 3:40 > Turn On Your Lovelight
+SET3	
+ENCORE	Brokedown Palace
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	04/03/87
+VENUE	The Centrum
+CITY	Worcester
+STATE	MA
+SET1	Hell In A Bucket 5:45 > Sugaree 8:35 ; C.C. Rider 7:58 ; It Must Have
+Been The Roses 6:15 ; It's All Over Now 7:34 ; Big Railroad Blues 4:06 ; Let
+It Grow 11:51 > Don't Ease Me In 3:14
+SET2	China Cat Sunflower ; I Know You Rider ; Man Smart, Woman Smarter ;
+Crazy Fingers ; Samson and Delilah ; Drums ; The Other One ; Wharf Rat ;
+Throwing Stones ; Not Fade Away
+SET3	
+ENCORE	U.S. Blues 5:24
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	05/02/87
+VENUE	Frost Amphitheater (Stanford U)
+CITY	Palo Alto
+STATE	CA
+SET1	Hell In A Bucket 5:22 ; West L.A. Fadeaway 7:17 ; Beat It On Down The
+Line 3:03 ; Stagger Lee 5:06 ; Little Red Rooster 8:27 ; Dire Wolf 3:12 >
+Far From Me 3:58 ; Jack Straw 6:27 > When Push Comes To Shove 4:38 ; One
+More Saturday Night 4:05#
+SET2	China Cat Sunflower 6:07 > I Know You Rider 5:19 ; Playing In The Band
+8:01 >
+Terrapin Station 11:22 > Drums 6:59 > Space 11:26 > Truckin' 6:21 > Morning
+Dew 11:07 > Around and Around 3:39 > Turn On Your Lovelight 5:38
+SET3	
+ENCORE	Black Muddy River 6:06
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	05/03/87
+VENUE	Frost Amphitheater (Stanford U)
+CITY	Palo Alto
+STATE	CA
+SET1	Touch Of Grey 6:10 > The Promised Land 4:36 ; Row Jimmy 10:04 ; Itsy
+Bitsy Spider Tuning ; Little Bunny Foo Foo Tuning 0:38 ; Peggy-O 7:13 ;
+Never Trust A Woman 5:43 ; Cassidy 6:21 > Don't Ease Me In 3:23
+SET2	Iko Iko 7:03 ; Feel Like A Stranger 7:43 ; Ship of Fools 8:13 ;
+Estimated Prophet 11:09 > Drums 9:36# > Space 6:33 > The Other One 7:02 >
+Black Peter 9:13 > Throwing Stones 8:26 > Not Fade Away 9:01
+SET3	
+ENCORE	Not Fade Away 0:40 > The Mighty Quinn 4:17
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	06/13/87
+VENUE	Ventura County Fairgrounds
+CITY	Ventura
+STATE	CA
+SET1	Mississippi Half-Step Uptown Toodleloo ; Walkin' Blues ; Row Jimmy ;
+When I Paint My Masterpiece ; When Push Comes To Shove ; Cassidy ; Friend Of
+The Devil ; Let It Grow
+SET2	Shakedown Street 12:01 ; Saint Of Circumstance 6:33 > Ship of Fools
+7:50 ; Estimated Prophet 10:31 > Eyes Of The World 7:#02 > Drums 4:#25 >
+Space 7:27 > The Other One 6:06 > Morning Dew 9:40 > Sugar Magnolia 8:54
+SET3	
+ENCORE	Black Muddy River
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	06/30/87
+VENUE	Kingswood Music Theater
+CITY	Toronto
+STATE	XCON
+SET1	Touch Of Gray ; Greatest Story Ever Told ; Loser ; New Minglewood Blues
+; Candyman ; Mama Tried ; Big River ; Ramble On Rose ; When I Paint My
+Masterpiece ; Don't Ease Me In
+SET2	Scarlet Begonias 8:05 > Fire On The Mountain 10:17 ; Estimated Prophet
+10:49 > Eyes Of The World 6:26 > Jam (1) 3:01 > Drums 6:01# > Space #3:41 >
+The Other One 6:53 > China Doll 4:47 > Dear Mr. Fantasy 4:49 > Around and
+Around 3:43 > Good Lovin' 8:29
+SET3	
+ENCORE	Box Of Rain 4:56
+COMMENTS	(1) Bob and Brent Jam
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	07/02/87
+VENUE	Silver Stadium
+CITY	Rochester
+STATE	NY
+SET1	Hell In A Bucket > Bertha ; Walkin' Blues ; Dire Wolf ; My Brother Esau
+; When Push Comes To Shove ; Tons Of Steel ; Me And My Uncle > Mexicali
+Blues ; Brown Eyed Women ; Cassidy ; Deal
+SET2	China Cat Sunflower 6:11 > I Know You Rider 4:48 > Samson and Delilah
+7:28 ; Looks Like Rain 8:48 > He's Gone 10:43 > Drums 6:20# > Space 7:19 >
+Goin' Down The Road Feeling Bad 6:23 > All Along The Watchtower 4:07 >
+Stella Blue 9:00 > Sugar Magnolia 8:14
+SET3	
+ENCORE	Black Muddy River 6:37
+COMMENTS	
+RECORDING	AUD180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), Gordon Sharpless
+<paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	07/06/87
+VENUE	Pittsburgh Civic Arena
+CITY	Pittsburgh
+STATE	PA
+SET1	Feel Like A Stranger 7:19 > Franklin's Tower 7:18 ; New Minglewood
+Blues 7:19 ; Row Jimmy 8:45 ; Mama Tried 2:35 > Big River 5:28 ; Far From Me
+4:39 ; Stagger Lee 5:08 > Desolation Row 10:31 > Don't Ease Me In 3:29
+SET2	Shakedown Street ; Samson and Delilah ; Iko Iko ; Man Smart, Woman
+Smarter ; Drums ; Knockin' On Heaven's Door ; Good Lovin'
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	07/12/87
+VENUE	Giants Stadium (Meadowlands Sports Complex)
+CITY	East Rutherford
+STATE	NJ
+SET1	Hell In A Bucket ; West L.A. Fadeaway ; Greatest Story Ever Told ;
+Loser ; Tons Of Steel ; Take A Step Back Tuning ; Ramble On Rose ; When I
+Paint My Masterpiece ; When Push Comes To Shove ; The Promised Land ; Bertha
+SET2	Morning Dew ; Playing In The Band ; Drums ; The Other One ; Stella Blue
+; Throwing Stones ; Not Fade Away
+SET3	Slow Train 4:01 ; Stuck In Mobile With The Memphis Blues Again 6:03 ;
+Tomorrow Is A Long Time 4:42 ; Highway 61 Revisited 4:12 ; It's All Over Now
+Baby Blue 5:40 ; Ballad Of A Thin Man 4:42 ; John Brown 5:02 ; The Wicked
+Messenger 3:31 ; Queen Jane Approximately 3:45 ; Chimes Of Freedom 7:25 ;
+Joey 9:05 ; All Along The Watchtower 4:50 ; The Times They Are A-Changin' 4:24
+ENCORE	Touch Of Grey 6:01 > Knockin' On Heaven's Door 6:02
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	07/19/87
+VENUE	Autzen Stadium (U of Oregon)
+CITY	Eugene
+STATE	OR
+SET1	Iko Iko ; Feel Like A Stranger ; Franklin's Tower ; New Minglewood
+Blues ; Peggy-O ; Addam's Family Tuning ; When I Paint My Masterpiece ; West
+L.A. Fadeaway ; Let It Grow
+SET2	Gimme Some Lovin' ; Playing In The Band ; He's Gone ; Spoonful ; Drums
+; The Wheel ; Truckin' ; Wharf Rat ; Turn On Your Lovelight
+SET3	Maggie's Farm 3:56 ; Dead Man, Dead Man 4:49 ; Watching The River Flow
+4:24 ; Simple Twist Of Fate 4:43 ; The Ballad Of Frankie Lee And Judas
+Priest 5:13 ; Stuck In Mobile With The Memphis Blues Again 6:11 ; Heart Of
+Mine 4:08 ; It's All Over Now Baby Blue 5:01 ; Rainy Day Woman #12 & #35
+4:29 ; Queen Jane Approximately 6:15 ; Ballad Of A Thin Man 5:11 ; Highway
+61 Revisited 4:44 ; Tangled Up In Blue 7:13
+ENCORE	Touch Of Grey 6:27 > All Along The Watchtower 4:54
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	07/24/87
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Funiculi Funicula Tuning ; Jack Straw ; Mississippi Half-Step Uptown
+Toodleloo ; My Brother Esau ; Friend Of The Devil ; Me And My Uncle > Big
+River ; When Push Comes To Shove ; Far From Me ; Cassidy > Deal
+SET2	Hell In A Bucket ; Scarlet Begonias ; Playing In The Band > Drums >
+Space > Uncle John's Band > Dear Mr. Fantasy > I Need A Miracle > Bertha >
+Sugar Magnolia
+SET3	The Times They Are A-Changin' 5:23 ; Man Of Peace 4:30 ; Maggie's Farm
+5:03 ; I'll Be Your Baby Tonight 4:30 ; I Want You 4:36 ; Highway 61
+Revisited 4:25 ; It's All Over Now Baby Blue 6:05 ; Stuck In Mobile With The
+Memphis Blues Again 6:04 ; Ballad Of A Thin Man 5:41 ; Shelter From The
+Storm 4:47 ; Slow Train 4:56 ; Knockin' On Heaven's Door 8:52
+ENCORE	Touch Of Grey 6:21 ; All Along The Watchtower 6:21
+COMMENTS	
+RECORDING	AUD270
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), Gordon Sharpless
+<paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	08/15/87
+VENUE	Town Park
+CITY	Telluride
+STATE	CO
+SET1	Feel Like A Stranger ; Franklin's Tower ; New Minglewood Blues ;
+Candyman ; Me And My Uncle ; Big River ; Tennessee Jed ; Desolation Row ; Deal
+SET2	Scarlet Begonias 7:13 > Fire On The Mountain 8:57 > Looks Like Rain
+8:19 ; Eyes Of The World 8:23 > Drums 9:50 > Space 6:45 > I Need A Miracle
+4:20 > Bertha 6:11 > Morning Dew 10:54 > One More Saturday Night 4:38
+SET3	
+ENCORE	It's All Over Now Baby Blue 6:51
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	08/20/87
+VENUE	Park West Ski Resort
+CITY	Salt Lake City
+STATE	UT
+SET1	Addam's Family Tuning ; Big Boss Man 5:23 > The Promised Land 3:57 ;
+Dire Wolf 3:21 ; Minglewood Blues 6:59 ; Row Jimmy 9:21 ; It's All Over Now
+6:38 ; Loser 7:06 ; Cassidy 6:34 ; When Push Comes To Shove 4:40
+SET2	China Cat Sunflower 5:20 > I Know You Rider 5:15 ; Man Smart, Woman
+Smarter 7:06 ; Ship of Fools 8:01 ; Truckin' 6:23 > Smokestack Lightnin'
+4:06 > Drums 9:50 > Space 6:07 > The Wheel 4:23 > Gimme Some Lovin' 4:29 >
+All Along The Watchtower 5:18 > Stella Blue 8:18 > Sugar Magnolia 8:09
+SET3	
+ENCORE	The Mighty Quinn 4:26
+COMMENTS	
+RECORDING	SBD90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); Gordon Sharpless
+<paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	09/11/87
+VENUE	Capital Centre
+CITY	Largo
+STATE	MD
+SET1	Bertha ; The Promised Land ; Candyman ; New Minglewood Blues ; When
+Push Comes To Shove ; Tons Of Steel ; Desolation Row ; Deal
+SET2	Happy Birthday Tuning ; Sugar Magnolia 5:15 > Sugaree 10:37 ; Estimated
+Prophet 10:44 > Eyes Of The World 7:26 > Drums 7:33 > Space 6:#05 > Goin'
+Down The Road Feeling Bad 6:27 > Dear Mr. Fantasy 5:19 > All Along The
+Watchtower 3:56 > Wharf Rat 8:49 ; Sunshine Daydream 3:37
+SET3	
+ENCORE	Touch Of Gray
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	09/18/87
+VENUE	Madison Square Garden
+CITY	New York
+STATE	NY
+SET1	Hell In A Bucket 6:14 > Sugaree 10:32 > Walkin' Blues 6:10 ; Candyman
+6:44 ; When I Paint My Masterpiece 4:08 ; Bird Song 9:57
+SET2	Shakedown Street 11:56 > Man Smart, Woman Smarter 6:58 > Terrapin
+Station 13:06 > Drums 8:25 > Space 6:#50 > Goin' Down The Road Feeling Bad
+5:58 > All Along The Watchtower 4:45 > Morning Dew 10:53 > Good Lovin' 4:11
+> La Bamba 1:31 > Good Lovin' 2:33
+SET3	
+ENCORE	Knockin' On Heaven's Door 8:14
+COMMENTS	
+RECORDING	AUD90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), Gordon Sharpless
+<paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	09/23/87
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+SET1	Feel Like A Stranger 7:18 > Franklin's Tower 8:30 ; Walkin' Blues 6:39
+; Friend Of The Devil 8:08 ; Tons Of Steel 5:07 > Desolation Row 10:22 ; Big
+Railroad Blues 5:18 > The Music Never Stopped 8:00
+SET2	Bertha 6:42 > Cumberland Blues 5:16 ; Playing In The Band 7:25 > Uncle
+John's Band 7:02 > Playing In The Band Jam 2:01 > Drums 10:27 > Space 8:19 >
+I Need A Miracle 3:45 > Dear Mr. Fantasy 6:00 > Around and Around 3:50 >
+Good Lovin' 4:56 > La Bamba 1:48 > Good Lovin' 1:51
+SET3	
+ENCORE	U.S. Blues 5:11
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	10/02/87
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Cold Rain & Snow 6:16 ; Little Red Rooster 8:07 ; Stagger Lee 4:59 ; Me
+And My Uncle 3:04 > Mexicali Blues 4:32 ; Row Jimmy 9:03 ; Far From Me 4:21
+; Let It Grow 12:56
+SET2	China Cat Sunflower 5:48 > I Know You Rider 5:08 ; Man Smart, Woman
+Smarter 7:52 ; Ship of Fools 7:47 ; Truckin' 9:21 > Drums 8:17 > Space 7:34
+> The Wheel 4:53 > Gimme Some Lovin' 4:53 > All Along The Watchtower 6:07 ;
+Don't Ease Me In 3:27
+SET3	
+ENCORE	Black Muddy River 6:01
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	10/03/87
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Hey Pocky Away ; New Minglewood Blues ; Candyman ; When I Paint My
+Masterpiece ; West L.A. Fadeaway ; My Brother Esau ; Bird Song ; The Music
+Never Stopped
+SET2	Maggie's Farm 6:02 > Cumberland Blues 4:13 > Looks Like Rain 9:11 >
+Terrapin Station 12:03 > Drums 7:24 > Space 5:#46 > The Other One 7:46 >
+Stella Blue 8:25 > Throwing Stones 9:55 > Turn On Your Lovelight 5:18
+SET3	
+ENCORE	The Mighty Quinn 4:30
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), Gordon Sharpless <paleo550@philly.infi.net>
+
+BAND	Grateful Dead
+DATE	12/31/87
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Bertha 6:58 > The Promised Land ; Cold Rain & Snow 5:40 > Little Red
+Rooster 8:23 ; When Push Comes To Shove 4:51 ; When I Paint My Masterpiece
+4:55 ; Bird Song 9:27 ; The Music Never Stopped 6:47
+SET2	Hell In A Bucket 6:19 > Uncle John's Band 10:35 > Terrapin Station
+13:01 > Drums 8:57 > Space 7:09 > The Other One 7:47 > Wharf Rat 10:11 >
+Throwing Stones 9:18 > Not Fade Away 6:31
+SET3	Man Smart, Woman Smarter ; Iko Iko (1) ; Banana Boat Song (1) > Do You
+Wanna Dance? (1) ; Knockin' On Heaven's Door (1) 6:49
+ENCORE	
+COMMENTS	(1) with the Neville Brothers
+RECORDING	FM180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), Gordon Sharpless
+<paleo550@philly.infi.net>
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #356
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

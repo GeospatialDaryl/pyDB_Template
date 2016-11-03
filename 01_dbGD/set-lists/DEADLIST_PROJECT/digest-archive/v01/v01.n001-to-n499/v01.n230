@@ -1,0 +1,76 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #230
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Saturday, 5 April 1997       Volume 01 : Number 230
+
+In this issue:
+
+	minor timings for 72; search engines
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 05 Apr 1997 11:30:49 -0800
+Subject: minor timings for 72; search engines
+
+Based on Gans' Dead Hour logs:
+
+4/8/72
+Star 31:37 
+Sugar Mag> Caution 26:40
+Sat Night 4:52
+
+- ---
+
+Are we going to be using SQL for the seach engines -- or something more like
+a Boolean search of a text file?  If we know roughly what the input will
+need to look like, eg:
+
+select DATE, VENUE, CITY, STATE
+    from [whatever]
+    where (whatever)
+
+or, eg:
+
+find (Dark near Star) and (Stella near Blue)
+
+or whatever,
+
+we can start to brainstorm the web front end for searching.  Of course, the
+Tour by Tour site already has a front end -- and it might make more sense to
+adapt that.  (I'd definitely vote for the latter approach, unless we can
+really muster a few hundred "people hours" amongst us to go developing what
+is, essentially, still bleading-edge data warehousing code.)
+
+- ---
+
+- -nathan
+
+
+------------------------------
+
+End of DeadLists Digest V1 #230
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

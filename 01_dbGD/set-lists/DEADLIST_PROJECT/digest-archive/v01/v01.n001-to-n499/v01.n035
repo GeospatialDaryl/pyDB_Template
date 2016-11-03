@@ -1,0 +1,63 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #35
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 21 March 1996      Volume 01 : Number 035
+
+In this issue:
+
+	hey now
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 21 Mar 1996 10:36:39 -0800 (PST)
+Subject: hey now
+
+Postings have fallen off to nothing of late.  Unless that changes, I'll 
+take it as an indication that after making the few corrections/additions 
+to the data file format proposal that have been suggested, we can agree 
+that we have a standardized format and start to collate setlists.
+
+I would like to propose an additional field (perhaps that would follow 
+all the others) for each entry.  This field would always be "empty" in 
+the downloadable datafile, but could be filled by each individual user 
+with whatever other info (s)he desires.  For instance, I would use this 
+field to note whether I have a particular performance in my own 
+collection.  I suppose others might use the field for other purposes.
+
+(I'd like to have a seperate, "personal", field for this kind of 
+information for two reasons:  1) when I upload info from my modified 
+datafile to the list for consideration, I don't want to have to edit any 
+of the fields.  I just want to upload my info (ommitting the info in the 
+one "personal" field entirely).  And, 2) it will be easier for me (for 
+instance) to search for which tapes I have in my collection if such info 
+is in a field on its own.)
+
+
+------------------------------
+
+End of DeadLists Digest V1 #35
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

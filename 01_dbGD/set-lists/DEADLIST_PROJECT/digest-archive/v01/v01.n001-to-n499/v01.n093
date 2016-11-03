@@ -1,0 +1,146 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #93
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 19 December 1996     Volume 01 : Number 093
+
+In this issue:
+
+	Re: Project Update
+	Re: Project Update
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Wed, 18 Dec 1996 19:18:38 -0500
+Subject: Re: Project Update
+
+DISCLAIMER: I know everyone in this group must think I'm the biggest
+slacker and bottleneck to every take on a project. I sincerely apologize
+for this long delay (I want this thing up and running very badly), but
+my programmer friend is having to write most of this from scratch (I
+originally thought she could use a lot of existing code) and as she
+works on it, she is adding neat features that will help out in the long
+run (like a script that checks incoming data to make sure it is correct,
+before an update is done). Again, I am very sorry it has taken so long.
+I am working on it, trust me :-)
+
+OK. Now, here is what I have done lately. This message is going to be
+pretty long, so get comfortable ;-)
+
+1. Fixed all the fields for the '65 - '75 setlists. There were many
+errors (like 3 letter state abbreviations, etc.). I stopped at '75, so I
+could have a correct, working input data file to feed the program, when
+it gets complete.
+
+2. Used DB IX (latest one) to completely update the setlists from '65 -
+mid'69. After glancing at the pre '75 setlists, the '72 - '75 setlists
+look fine (complete), but pre '72 setlists were mostly made from
+people's tapes and not DB. No big deal, but they are pretty incomplete.
+So, after what I have done, '70 and '71 will need to be done. I would
+recommend that only people with access to a recent DB do these. It took
+me about 3 hours per year to do the setlists.
+
+John Oleynick wrote:
+> For venues at colleges having "Stadium Name (College Name)" sounds
+> good.  For "College Name" I think we could just use a "common name"
+> like "UCLA" or "Berkeley" instead of the official name "University of
+> California, Los Angeles" or "University of California, Berkeley".
+
+Yeah, I have been following DB pretty closely. If there is no name for
+the venue, and just the school is listed, I have done:
+? (Oregon State U)
+
+Where a venue is listed with a school, I have done:
+Assembly Hall (U of Illinois)
+Campus Stadium (UC Santa Barbara)
+Pauley Pavilion (UCLA)
+
+As you see, for the California schools, I have used UC followed by the
+school name [i.e. Greek Theater (UC Berkeley)]
+
+So, what needs to be done? Basically, there are 3 years ('69, '70, '71)
+of pretty incomplete data. I have done some work on '69 (up to the end
+of April). I think that 3 people could handle these (one per year)
+without too much problem. Depending on your typing speed, knowledge of
+cut and paste ;-), it should take you around 3-4 hours to do a year. If
+three people will be willing to volunteer, I can send them the chunk of
+existing data from a specific year. You can modify it, and then send it
+back. I have some time saving tips that I could also pass along to make
+the process much easier.
+
+Once we have correct, complete setlist for pre '75, we will hopefully
+have a program to munge them. Also, we will have resources (like an
+official venue list, city list, etc) that can be reused to avoid
+confusion down the road.
+
+Again, I am very sorry it has taken longer than I originally expected.
+The person doing the program has been working on it in their spare time,
+but it's one of those things that is more complicated than it first
+appeared. We are also trying to make this as modular as possible, which
+usually takes a little longer. Thanks everyone for not flaming me ;-),
+and I'll talk with you'll soon.
+
+P.S. Please feel free to ask questions, inquire, refute, etc.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Marc Blaker <BLAKER_M@HOSP.STANFORD.EDU>
+Date: Wed, 18 Dec 1996 16:58:48 -0800 (PST)
+Subject: Re: Project Update
+
+Hi all,
+
+Ryan wrote:
+
+>2. Used DB IX (latest one) to completely update the setlists from '65 -
+>mid'69. After glancing at the pre '75 setlists, the '72 - '75 setlists
+>look fine (complete), but pre '72 setlists were mostly made from
+>people's tapes and not DB. No big deal, but they are pretty incomplete.
+>So, after what I have done, '70 and '71 will need to be done. I would
+>recommend that only people with access to a recent DB do these. It took
+>me about 3 hours per year to do the setlists.
+
+Ryan writes about using Deadbase 9 for the 65-71 setlists.  I seem to have 
+many handwritten setlists for that era as DB 9 is not complete plus new tapes
+surface all the time.  I will send Ryan my setlists that are not found in 
+DB 9, perhaps we could all do the same.
+
+Marc Blaker
+
+
+------------------------------
+
+End of DeadLists Digest V1 #93
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

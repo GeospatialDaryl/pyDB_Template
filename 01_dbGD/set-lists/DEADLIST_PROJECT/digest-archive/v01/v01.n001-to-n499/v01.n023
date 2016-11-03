@@ -1,0 +1,319 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #23
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest        Wednesday, 28 February 1996    Volume 01 : Number 023
+
+In this issue:
+
+	Re: how to deal with reprises (datafile/songname discussion)
+	Re: song titles list 
+	Re: song titles list 
+	Re: how to deal with reprises (datafile/songname discussion) 
+	Re: how to deal with reprises (datafile/songname discussion)
+	Re: how to deal with reprises (datafile/songname discussion) 
+	Re: how to deal with reprises (datafile/songname discussion) 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: lester@gandalf.sp.trw.com (Jeff Lester)
+Date: Wed, 28 Feb 1996 12:36:30 -0800
+Subject: Re: how to deal with reprises (datafile/songname discussion)
+
+Nathan wrote:
+
+>Of course, this screws with searching for shows where *only*
+>a Playin Reprise occurs -- if we want to count such an instance as the
+>occurance of a Playing at that show, right?, 
+
+I don't think the appearnce of only a Playing Reprise should count as
+an appearance of a Playing, since it really isn't.
+
+Anybody know if all of the appearances of a Playing get counted in DB's
+total times played lists? Seems like they do, since the every time played
+section lists them. Meaning Playing->UJB->Plying Reprise gets listed in
+DB with 2 entries under every time played. This could seriously skew the
+list of the all time most played songs, where Playing is second only to Me
+and My Uncle, I believe.
+
+I don't think there are any split Me and My Uncles. :-)
+
+- -Jeff Lester
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Wed, 28 Feb 96 16:29:30 -0500
+Subject: Re: song titles list 
+
+> >Winin' Boy Blues
+> 
+> Is this not spelt "Whinin'"?
+
+It's definitely "Winin'".
+
+> If we decided to treat post 79 drums and space segments as seperate
+> entities how will we determine when one ends and the other starts?
+
+It's usually not that difficult, and we don't need to worry about it
+until we are actually timing shows.  Are there any >79 shows that
+have just drums and no space ?
+
+> Then in the past couple years we would have the Bralove segments to
+> contend with too.
+
+Indeed.  They are harder to distinguish as they tend to overlap more
+at the edges.  I usually just include it in the "space" portion.
+
+> Also, what about distinctions between feedback and space?  Would it
+> pretty much just be a difference of timeframe and context?
+
+Feedback is feedback (see "Live Dead").  Space uses "normal"
+instrument sounds (including midi stuff).  I don't usually list
+"feedback" separately unless it has significant length (>1 min or so),
+and more than one member of the band is using true feedback.
+
+> I guess Phil and Ned/Seastones would figure into this debate too.
+
+How many P&N sets actually run into/are included in regular GD sets ?
+Could we just have a "song" called "Seastones" for those few ?
+
+> Also will we take into consideration some of the spaces that have
+> aquired names like Earthquake Space and Raven Space?
+
+I say yes, just as we should list "named jams".  Are there any "named
+spaces" that don't include spoken parts, like these do ?
+
+> I really like the weird stuff.
+
+You seem to imply that some people don't.  Is this true ?      :-)
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Wed, 28 Feb 96 16:31:50 -0500
+Subject: Re: song titles list 
+
+> >Corinna
+> 
+> or is it Corrina?
+
+David Gans lists it as "Corrina" in the GDH timing sheets.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Wed, 28 Feb 96 17:03:11 -0500
+Subject: Re: how to deal with reprises (datafile/songname discussion) 
+
+> I don't think the appearnce of only a Playing Reprise should count as
+> an appearance of a Playing, since it really isn't.
+
+I agree.  Having "Playing Reprise" as a separate title does solve that
+problem.
+
+> Anybody know if all of the appearances of a Playing get counted in DB's
+> total times played lists? Seems like they do, since the every time played
+
+DB is clearly working with a very simple database model.  It appears
+that their statistics count every "instance" of a song in a setlist.
+As they only use "Playing Reprise" when the rest of the song isn't
+played, this leads to counting it twice (or even three times) for a
+given show.
+
+A more intelligent statistics generator could be made to only count a
+song once for each show.  That leaves the problem of the few shows
+where a song really was played twice, such as 6/14/69 (Lovelight) and
+4/1/80(?) (Promised Land).  
+
+> > Of course, this begs the question of what to do with the Dark Star's and 
+> > Uncle John's Band's and Other One's (and Me & My Uncles) that are 
+> > similarly split.
+>
+> I'd be into hybridizing these sandwiches a la the convention for the tail
+> end of a Playin in isolation.  That is, if we have "Playing Reprise"s (and
+> I think we probably should) why can't we also have "Cryptical Reprise"s,
+> "Uncle John's Reprise"s, etc?
+
+This only works well when it really is a reprise, which those all are.
+I just looked at a setlist for 4/1/91 that listed the second half of
+Dark Star as "Dark Star Reprise", which I think is misleading at best.
+
+Could we stop concentrating on Playing (even if it is the most common
+example) and consider the problem more generally ?
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+
+------------------------------
+
+From: Pauli Sexton <sext0005@gold.tc.umn.edu>
+Date: Wed, 28 Feb 1996 16:47:32 -0600 (CST)
+Subject: Re: how to deal with reprises (datafile/songname discussion)
+
+> >Of course, this screws with searching for shows where *only*
+> >a Playin Reprise occurs -- if we want to count such an instance as the
+> >occurance of a Playing at that show, right?, 
+> 
+> I don't think the appearnce of only a Playing Reprise should count as
+> an appearance of a Playing, since it really isn't.
+> 
+Right, but it's nice to be able to track all the split Playin's, be it 
+spread over one show or more.  If someone wants to complete their copy of 
+Playin' on 10/11/84 it'd be nice to be able to find it listed as 
+something other than Playin' on 10/12/84.  By not distinquishing it 
+that'd be impossible unless you had the tape already.  
+
+> Anybody know if all of the appearances of a Playing get counted in DB's
+> total times played lists? Seems like they do, since the every time played
+> section lists them. Meaning Playing->UJB->Plying Reprise gets listed in
+> DB with 2 entries under every time played. This could seriously skew the
+> list of the all time most played songs, where Playing is second only to Me
+> and My Uncle, I believe.
+
+No, it doesn't.  just the number of shows that it was played in.  
+
+> I don't think there are any split Me and My Uncles. :-)
+> 
+
+Not split (that I know of) lyrics, but the song has made multiple 
+appearances when it was part of the late 71 Other One jams.  I doubt we 
+could list Me and My Uncle Intro, when it was played later in the set.  
+See the Deadbase review of 12/1/71 to see how complicated that could 
+get.  Oddly, in the set lists they include the Other One intro but not 
+the Me and My Uncle intro.  
+
+But we should list Other One > Me and My Uncle Jam > Other One even though 
+Me and My Uncle was played in its entirety in set I.
+
+paul
+
+------------------------------
+
+From: Pauli Sexton <sext0005@gold.tc.umn.edu>
+Date: Wed, 28 Feb 1996 17:25:54 -0600 (CST)
+Subject: Re: how to deal with reprises (datafile/songname discussion) 
+
+> DB is clearly working with a very simple database model.  It appears
+> that their statistics count every "instance" of a song in a setlist.
+> As they only use "Playing Reprise" when the rest of the song isn't
+> played, this leads to counting it twice (or even three times) for a
+> given show.
+ 
+It doesn't.  It lists each occurance in Every Time Played, but doesn't 
+count them in Table, which lists the number of *shows* each song was 
+played by year/cumulative.  
+
+> A more intelligent statistics generator could be made to only count a
+> song once for each show.  That leaves the problem of the few shows
+> where a song really was played twice, such as 6/14/69 (Lovelight) and
+> 4/1/80(?) (Promised Land).  
+
+Deadbase doesn't count these in the Table, just the # of shows a song was 
+played at, regardless of the number of times it was played at one show.
+ 
+> > > Of course, this begs the question of what to do with the Dark Star's and 
+> > > Uncle John's Band's and Other One's (and Me & My Uncles) that are 
+> > > similarly split.
+> >
+> > I'd be into hybridizing these sandwiches a la the convention for the tail
+> > end of a Playin in isolation.  That is, if we have "Playing Reprise"s (and
+> > I think we probably should) why can't we also have "Cryptical Reprise"s,
+> > "Uncle John's Reprise"s, etc?
+> 
+> This only works well when it really is a reprise, which those all are.
+> I just looked at a setlist for 4/1/91 that listed the second half of
+> Dark Star as "Dark Star Reprise", which I think is misleading at best.
+ 
+Why?  What's wrong with Dark Star Reprise to list the second half of Dark 
+Star?  If we're gonna do it with Playin', why not with Dark Star and 
+Uncle John's Band and Other One?  
+
+paul
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Wed, 28 Feb 96 18:48:38 -0500
+Subject: Re: how to deal with reprises (datafile/songname discussion) 
+
+> > DB is clearly working with a very simple database model.  It appears
+> > that their statistics count every "instance" of a song in a setlist.
+> > As they only use "Playing Reprise" when the rest of the song isn't
+> > played, this leads to counting it twice (or even three times) for a
+> > given show.
+>  
+> It doesn't.  It lists each occurance in Every Time Played, but doesn't 
+> count them in Table, which lists the number of *shows* each song was 
+> played by year/cumulative.  
+
+This is stated in DB ?  I haven't looked at those tables much.
+
+> > A more intelligent statistics generator could be made to only count a
+> > song once for each show.  That leaves the problem of the few shows
+> > where a song really was played twice, such as 6/14/69 (Lovelight) and
+> > 4/1/80(?) (Promised Land).  
+> 
+> Deadbase doesn't count these in the Table, just the # of shows a song was 
+> played at, regardless of the number of times it was played at one show.
+
+Is that what WE want ?  If they really play it twice, shouldn't it be
+counted twice ?
+
+> Why?  What's wrong with Dark Star Reprise to list the second half of Dark 
+> Star?  If we're gonna do it with Playin', why not with Dark Star and 
+> Uncle John's Band and Other One?  
+
+(I'm not concerned with Uncle John's - that is a true reprise)
+
+1.  It's a misuse of a musical term that has a definition outside of
+this effort in a way that may not be obvious to everyone.  We want
+this to be usable by people other than the ones who create it, right ?
+
+2.  Applying the term "reprise" to the second half of a "sandwich"
+such as 9/28/72: Other One>Bobby McGee>Other One does not do a very
+good job of telling people who haven't heard it what is going on.
+
+Obviously, my objections are mostly "aesthetic", and if we can't come
+up with a better solution, I guess we'll have to use this one.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+End of DeadLists Digest V1 #23
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

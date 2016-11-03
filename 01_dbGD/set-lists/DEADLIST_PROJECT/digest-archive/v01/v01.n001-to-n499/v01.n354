@@ -1,0 +1,109 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #354
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Sunday, 29 June 1997        Volume 01 : Number 354
+
+In this issue:
+
+	site update, pt II:  the song names page(s)
+	Re: site update, pt II:  the song names page(s)
+	1971, more info 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 28 Jun 1997 17:16:07 -0700
+Subject: site update, pt II:  the song names page(s)
+
+Everyone with a few minutes to spare and a frames capable browser
+(Navigator, Explorer, etc.) should check out the new Song Names page(s).
+Matt has put together a great deal of impressive/useful information -- and
+delivered it all as a well-mapped frames experience.  (All I've done to it
+is add the graphic, change some colors, add a couple of links, and
+re-organize the files so that they would be easier to maintain on my end --
+relatively minor tweaks.)
+
+Take a look!
+
+- -nathan
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 28 Jun 1997 18:04:16 -0700
+Subject: Re: site update, pt II:  the song names page(s)
+
+At 05:16 PM 6/28/97 -0700, you wrote:
+>Everyone with a few minutes to spare and a frames capable browser
+>(Navigator, Explorer, etc.) should check out the new Song Names page(s).
+>Matt has put together a great deal of impressive/useful information -- and
+>delivered it all as a well-mapped frames experience.  (All I've done to it
+>is add the graphic, change some colors, add a couple of links, and
+>re-organize the files so that they would be easier to maintain on my end --
+>relatively minor tweaks.)
+
+Actually, for some reason, the frame that contains the song info doesn't
+work for me, once it's online.  Anyone have a notion regarding why .HTM is
+considered a "null" data type?
+
+- --nathan@well.com
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sun, 29 Jun 1997 01:18:27 -0700
+Subject: 1971, more info 
+
+Looking over John's most recent 1971 update, he lists all the dates that we
+still need info for.  Comparing this with chimpowl's list, only the
+following dates cannot be verified from circulating (or privately held
+outside the vault) tape:
+
+3/18
+4/25 
+10/22 
+11/6 
+12/7
+
+So, if anyone on the list has tape of this shows, they should compare it
+against what is on the web site -- and post any additional info they can.
+(John and Jim should connect when they can, regarding the other shows John
+was unable to find info about.)
+
+- --
+
+btw, the song names pages now seem to be working.  little mod to the
+.htaccess file, and the server is now able to handle the .HTM [cf. .htm] files.
+
+- --nathan (who should be asleep)
+
+
+------------------------------
+
+End of DeadLists Digest V1 #354
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

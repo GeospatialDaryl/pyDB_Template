@@ -1,0 +1,442 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #136
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 17 January 1997      Volume 01 : Number 136
+
+In this issue:
+
+	[none]
+	Re: Song titles
+	Re: setlist formats and email fuckups 
+	Re: Spec /  Software / 1993
+	[none]
+	Re: Song titles
+	[none]
+	Re: Song titles
+	Re: setlist formats and email fuckups
+	Re: Song titles
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 16 Jan 1997 18:24:32 -0800 (PST)
+Subject: [none]
+
+the idea is to make lists that are minimally formatted so that they can be
+transmitted effectively in the LOWEST COMMON DENOMINATOR form.  additional
+formatting can always be added.  if e-mail is the lowest common denominator,
+and it seems like it is, then that's the limbo pole our stats have gotta go
+below.
+
+a forward slash is already used as a separator with dates.  i'm game to
+switch to another symbol if we can find one that's agreeable.  i think we
+definitely do need this symbol for pre-75 lists.  what about using a dollar
+sign (as in -s-plice)?  $?
+
+Legibility is a primary desideratum for this project.  Our lists must be
+downloadable intact by a nitwit using a combination ouiji-board & abacus and
+they must be intelligible to the uninitiated at first glance.  Insofar as
+cluttering our lists makes them less legible it's to be avoided.
+
+If we produce lists that are uniformly formatted, minimalist in their
+simplicity, and legible then ANY person, as well as ANY search engine or
+setlist software, will be able to make use of them with a minimum of fuss
+and a maximum of accuracy -- including yours, Matt.
+
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Thu, 16 Jan 1997 23:13:23 -0800 (PST)
+Subject: Re: Song titles
+
+>
+>Shouldn't we be making an attempt to standardize the song titles in
+>these setlists, before putting them out for (semi)public consumption ?
+>
+>I've noted "casualisms" (Playin', etc), "incomplete" titles
+>("Schoolgirl"), and inconsistent usages (Truckin' vs.  Truckin).
+>
+>Also, the song titles list on the DeadList web page contains a number
+>of these.  Seems like time to get that list properly "official".
+>
+>----
+>Brian McAllister                    Application programmer/Shift Physicist
+>mcallister@mit.edu                            MIT-Bates Linear Accelerator
+>(617) 253-9537                                               Middleton, MA
+>
+
+I totally agree, Brian.  About a year ago, we went through a flurry of
+discussion regarding song titles.  I tried to summarize those as best I
+could.  That is what is at <http://www.well.com/~nathan/dlsongs.htm>.  If
+you have a notion, please feel free to download that page and re-write it,
+adding in what you think needs to be there -- and then post it to the
+mailing list.  Any work in this direction will be an improvement.
+
+For now, ideally we should stick as closely as possible to the song names
+that are there -- not because they are necessarily best, but because that
+will get us close to standardization.
+
+Bottom line, though, is that it's the database rather than the human-read
+setlists that need the songnames consistent -- so, the current method
+creates setlists that are useful for half our purposes....and lets the data
+collectors get a few steps down the road, which will probably help improve
+the quality of our data, in the long run (even if it means cleaning up some
+formatting issues, after-the-fact).
+
+BTW, I don't mean to pin the revisino of the songs list on Brian.  Anyone
+who can make the time to do it is welcome to it (though you might want to
+let the list know you're doing it -- so we don't duplicate efforts).  In
+fact, maybe we need a Song Names List Caretaker?
+
+- --Nathan
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Thu, 16 Jan 1997 23:13:32 -0800 (PST)
+Subject: Re: setlist formats and email fuckups 
+
+Jim wrote:
+
+>the idea is to make lists that are minimally formatted so that they can be
+>transmitted effectively in the LOWEST COMMON DENOMINATOR form.  additional
+>formatting can always be added.  if e-mail is the lowest common denominator,
+>and it seems like it is, then that's the limbo pole our stats have gotta go
+>below.
+
+after looking into this some more, i can see where it won't work as simply
+as this.
+
+LOWEST COMMON DENOMINATOR is fine.  the problem is that email is not such an
+entity.  it lacks *any kind* of a COMMON DENOMINATOR for the kinds of
+matters we're talking about.  what invisible character my email program at
+home (Eudora) uses at the ends of lines is different than what the email
+program i use at work (Netscape 3.0 Mail) uses to break lines (no character)
+which is different from what the email program i use when telnetting (PINE)
+does to the ends of lines.  some add a carriage return, some add a line
+break, some add nothing and assume the program on the other end will break
+the lines on its own (and while Eudora will take one of those emails without
+broken lines and break them [by adding invisible characters], Netscape mail
+will let each paragraph run across the page as one long line, sometimes
+making me scroll for many screens to read what has been written).  
+
+my point being:  either we resign ourselves to batch processing the setlists
+after email has fucked them up OR we figure out a different way to transmit
+the data.  i vote for the former:  i think we should make it easy to submit
+data.  email is easy.  i'd suggest we use enclosures, but i know some folks
+here are working from serial dialups/command line accounts, and uploading
+shit to enclose in that kind of environment is a drag -- and often doesn't
+acheive the unadulterated status we're striving for anyway.
+
+SMTP and POP3 are *not* my forte.  (i was once asked to test that stuff and
+said "gee, your browser needs some work, doesn't it?")  but hopefully
+there'll be a ready solution?  (maybe we need to get the command line people
+into the 90s? :-)
+
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Thu, 16 Jan 1997 23:25:00 -0800 (PST)
+Subject: Re: Spec /  Software / 1993
+
+Matt --  this is some great news.  Thanks much for the update.  You're
+creating a beautiful beast here!
+
+>I should have a Mac version (PPC only unless anyone wants a 68K version)
+>earliest and then an NT/95 version a few days later.  I have no plans on
+>doing a Windoze 3.1 version unless someone wants one.  I can also do an
+>OS/2 version if anyone wants that.  I am thinking about later doing an
+>openVMS version (I want to see this run on an AXP machine  :-) and a unix
+>version only if there is reasonable interest.  Please let me know.
+
+Can we call you Matthew "Netscape release strategy" Cramer? 
+
+>The final version should be out during early spring - this release will
+>allow other bands, keep track of tons of useless info, interface the show
+>databases to a tape list, and allow you to keep a contact file which
+>contains trading partners tape lists.  Plus there will be a bunch of cute
+>little features.  If you have ever said "I wish this tape tracking program
+>would blah blah blah" drop me a line.  I'll keep it and then see if it
+>reasonable to add in the final release.  If it is feasible I plan to add
+>tape-tree creation functions and j-card printing (I am undecided about the
+>j-cards...I sort of like it when people take the time to create their own
+>j-card by hand or by computer - it helps to give each tape a feeling of
+>individuality).
+
+I don't think it's really important for this project -- but I think J-card
+printing is a cool feature....
+
+>Email will be a BAD way to handle these docs, unless they are done as
+>attachments (someone already pointed this out, I believe).  Rather than
+>letting email dictate our spec, let's have the spec dictate how we
+>distribute the files.
+
+Some folks that are not going to be technologically happening when we say
+"ftp your flat text file to ftp.myserver.us, using the pub/incoming/
+directory and an anonymous logon".  In fact, I think we may have trouble
+getting people to do enclosures ('cause I don't even think the source files
+on peoples own machines are going to be free from invisible formatting
+characters in every instance, etc.).  Maybe we should simply anticipate
+having to clean up the lists a bit after getting them all together?  I'm not
+sure.  But it is definitely something the people who know about text
+formatting need to figure out, rather than people like me, who couldn't tell
+you the difference between a unix, mac and pc "line break" without looking
+it up...
+
+>Please - don't worry about cluttering the setlists!  Isn't the end goal to
+>have data files that will interface with local programs and www search
+>engines?  The data files DO NOT have to be user-friendly!
+
+The ideal was to have both the user friendly, browsable lists ALSO act as
+the datafile lists.  One set of lists covering two purposes.  It's looking
+more like that might not be a reachable goal.  But should be throw the baby
+out with the bath water yet, by letting the two totally diverge?  I'd rather
+try to keep them similar enough that translating the messy human lists into
+machine lists is as easy and creating a couple of appropriate
+search-and-replace procedures.....
+
+Am I off base here?
+
+>Also, in this regards, the spec indicates that it is preferrable to list
+>long shows (early and late) as two seperate entries so that there are never
+>more than 3 sets in any entry.  This is a little screwy, IMNSHO.  The spec
+>argues that there would be a lot of wasted space/memory at the application
+>layer since most shows would never have more than two sets.  This is not
+>really a problem because we could allocate enough memory for the exact
+>nmber of sets when the data is loaded into the application.  For
+>non-programmers who have no idea what I mean just take my word for it -
+>this problem is nonexistant.  For example, I would prefer to have 5/2/70
+>listed a one show.  I know other people brought this up using different
+>arguments - from my standpoint the latter method is superior.  Of course if
+>the group decides it likes the 3 set per show limit then my code will match
+>the spec.
+
+This is cool news.  I think that if you are *quite* sure about these
+matters, it'd be cool to go with this tact.  Of course, if we keep revising
+the spec(s) like this, we're going to create more problems than we solve --
+so maybe others should wiegh in with their opinions here?
+
+>As a final note, if no one ends up taking 1993 I'll do it - but it will be
+>after I finish a considerable amount of this program.  So, in the interim
+>if soneone else wants it they are more than welcome to do it.  But I would
+>hate to see a year with a considerable amount of good moments
+>(respectively, of course) not get a decent treatment.  :-)
+
+Noted.  I won't put your name on it -- so as not to pressure you or dissuade
+someone else who might be dying to do that year.  But from the sounds of
+things, I think it's yours :-)
+
+>P.S. Jim - could you put _something_ in your subject header?   :-)
+
+And you want people to use *enclosures*?!?!?
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 17 Jan 1997 01:19:27 -0800 (PST)
+Subject: [none]
+
+a setlist is a string of code, song names punctuated with one of four
+intervening other markers.  if it's uniformly formatted it can serve to
+build whatever database in whatever format.  
+
+making it legible AND uniform is no big problem *at all*.  it just requires
+that the song names be readable to the uninitiated, and that they be
+uniform.  this is totally a non issue.  the issue is keeping extraneous
+formatting out of our lists.  anyone who wants it can add it ad lib after
+download.  
+
+we want to create lists for a website whence people can download THE BEST
+DEADLISTS & related information -- and download them in totally basic, easy
+to handle form, year by year.  we want these documents to be machine
+searchable, which means they must be uniform and which again makes
+simplicity desirable.
+
+we might want to post other documents as well.  i have a friend who's
+assembling timings of all Bird Songs, for instance.  This would be a cool
+document to be able to download; I was using it last night to help check out
+the supposed Springfield 72 Bird Song.  I have another friend who's working
+on Eyes.  I'm working on Dark Star & Playin.  Etc.
+
+if e-mail is going to sprinkle stray carriage returns through our lists no
+matter what, maybe we should use a special character to indicate where we
+actually want carriage returns, say a capital pi (option-shifted-P -- will
+that get through e-mail?).  that way, after download, you can remove ALL the
+carriage returns and then turn the capital pi's into carriage returns.
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Fri, 17 Jan 1997 10:54:15 +0000 (GMT)
+Subject: Re: Song titles
+
+On Thu, 16 Jan 1997, Nathan Wolfson wrote:
+
+> BTW, I don't mean to pin the revisino of the songs list on Brian.  Anyone
+> who can make the time to do it is welcome to it (though you might want to
+> let the list know you're doing it -- so we don't duplicate efforts).  In
+> fact, maybe we need a Song Names List Caretaker?
+
+Well if Brian doesn't want to take that on I'll volunteer
+to be the caretaker for the song list - I've been lurking
+here for awhile feeling that I should contribute in some
+way - and at least I understand the file spec. for the
+song list ;-)
+
+I've noted a few that need revising so if someone else
+takes this on I'll be in touch.
+
+There's also a few maybe for which there is no
+definitive title - something like Nobody's Fault 
+which has been recorded with numerous variations
+of title from the 30s onward.
+
+I wouldn't have thought changes in song title would
+distract too much from the great work the set list
+compilers are doing as long as they are not presented
+with a new change every day.  If each year list is
+internally consistent with song title use then changing
+a title within the list is straightforward enough.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 17 Jan 1997 03:19:17 -0800 (PST)
+Subject: [none]
+
+also maybe there's a programming wiz around here who could make us a
+deadsong spellchecker that we could run on these lists to get everything
+superconsistant
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Fri, 17 Jan 1997 09:26:21 -0500
+Subject: Re: Song titles
+
+Matt wrote:
+> 
+> I wouldn't have thought changes in song title would
+> distract too much from the great work the set list
+> compilers are doing as long as they are not presented
+> with a new change every day.  If each year list is
+> internally consistent with song title use then changing
+> a title within the list is straightforward enough.
+
+Welcome aboard Matt! The current songlist is very complete, but there 
+are a few tunes and jams missing (Cardboard Cowboy comes to mind). If 
+you (or Brian) become the songlist "guru", it will be important for 
+you to work with the setlist guys to make any updates to the songlist. 
+In turn, I can turn to one person for the most up-to-date version of the 
+song list for our search engine.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Fri, 17 Jan 1997 09:49:35 -0500
+Subject: Re: setlist formats and email fuckups
+
+Nathan Wolfson wrote:
+> 
+> my point being:  either we resign ourselves to batch processing the setlists
+> after email has fucked them up OR we figure out a different way to transmit
+> the data.  i vote for the former:  i think we should make it easy to submit
+> data.  email is easy.  i'd suggest we use enclosures, but i know some folks
+> here are working from serial dialups/command line accounts, and uploading
+> shit to enclose in that kind of environment is a drag -- and often doesn't
+> acheive the unadulterated status we're striving for anyway.
+
+In the end Nathan, you are the one I will ask for the setlist data for our 
+search engine. So, IMHO, it's between you and the setlist guys for deciding on 
+a way that is convenient to both parties.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Fri, 17 Jan 1997 14:50:55 +0000 (GMT)
+Subject: Re: Song titles
+
+On Fri, 17 Jan 1997, Ryan Shriver wrote:
+
+> Welcome aboard Matt! The current songlist is very complete, but there 
+> are a few tunes and jams missing (Cardboard Cowboy comes to mind). If 
+> you (or Brian) become the songlist "guru", it will be important for 
+> you to work with the setlist guys to make any updates to the songlist. 
+> In turn, I can turn to one person for the most up-to-date version of the 
+> song list for our search engine.
+
+Mention of the word guru there makes me realise that when
+I volunteered I should have pointed out that I am in no way
+putting myself forward as an expert on the subject - just willing 
+to coordinate communication between those wanting to change the
+list and those wanting to use it.
+
+I will happily stay in lurkerdom if more knowledgeable
+folk step forward.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+End of DeadLists Digest V1 #136
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

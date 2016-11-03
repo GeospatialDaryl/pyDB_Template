@@ -1,0 +1,333 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #175
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 14 February 1997      Volume 01 : Number 175
+
+In this issue:
+
+	the spec, again -- or:
+	Re: 
+	Re: deadlist format (was Re: 1980 deadlists )
+	Re: deadlist format (was Re: 1980 deadlists )
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 14 Feb 1997 08:45:44 -0800
+Subject: the spec, again -- or:
+
+let's leave well-enough alone:  as soon as we agree on the endline matter,
+it'd make the most sense to keep the rest of it as it is, right?
+
+>Final-Recipient: RFC822; deadlsits@nemesis.Berkeley.EDU
+>Action: failed
+>Status: 5.1.1
+>Remote-MTA: DNS; nemesis.berkeley.edu
+>Diagnostic-Code: SMTP; 550 <deadlsits@nemesis.Berkeley.EDU>... User unknown
+>Last-Attempt-Date: Fri, 14 Feb 1997 08:33:05 -0800 (PST)
+>Return-Path: <nathan@well.com>
+>Received: from wolfson.vip.best.com (dynamic26.pm04.sf1.best.com
+[206.184.197.122])
+>	by mail.well.com (8.8.5/8.8.5) with SMTP id IAA03276
+>	for <deadlsits@gdead.berkeley.edu>; Fri, 14 Feb 1997 08:32:50 -0800 (PST)
+>Message-Id: <1.5.4.32.19970214164217.0072f8e8@mail.well.com>
+>X-Sender: nathan@mail.well.com
+>X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+>Mime-Version: 1.0
+>Content-Type: text/plain; charset="us-ascii"
+>Date: Fri, 14 Feb 1997 08:42:17 -0800
+>To: deadlsits@nemesis.Berkeley.EDU
+>From: Nathan Wolfson <nathan@well.com>
+>Subject: Re: 
+>
+>At 07:16 PM 2/13/97 -0800, Jim wrote:
+>>the lists we post for downloading should be easily readable by uninitiated
+>>people *as well as* machine usable (uniformly formatted).  it should be that
+>>difficult to serve both these ends simultaneously.
+>
+>This won't work.  Look at what the lists have to look like, behind the
+>scenes, to be placed on the Web:
+>
+>--------------------------------------
+><P>BAND Grateful Dead
+><BR>VENUE       Winterland Arena
+><BR>CITY        San Francisco
+><BR>STATE       CA
+><BR>DATE        2/22/74
+><br>SET1        U.S. Blues [5:27] ; Beat It On Down The Line [3:22] ; Brown
+>Eyed Women [4:52] ; Mexicali Blues [3:36] ; It Must Have Been The Roses
+>[4:43] ; Black Throated Wind [6:53] ; They Love Each Other [5:39] ; Big
+>River [5:08] ; Loose Lucy [6:35] ; El Paso [4:
+>33] ; Row Jimmy [8:30] ; Playin' in the Band [20:55]
+><BR>SET2        Tennessee Jed [7:49] ; Me And My Uncle [2:58] ; Ship of
+>Fools [5:31] ; The Race Is On [3:03] ; China Cat Sunflower [8:51] &#062; I
+>Know You Rider [5:26] ; Truckin' [7:47] &#062; Nobody's Fault But Mine
+>[3:07] &#062; Jam [2:29] &#062; Goin' Down the Road [6:14]
+><BR>SET3        Mississippi Half Step [7:50] ; Promised Land [3:37] ;
+>Brokedown Palace [5:28] ; Jack Straw [4:10#] ; Eyes of the World &#062;
+>China Doll &#062; Wharf Rat &#062; Sugar Magnolia
+><br>ENCORE      Uncle John's Band
+><BR>COMMENTS    
+>RECORDING       270 SBD: The complete show & soundcheck
+><BR>CONTRIBUTORS        buller@math.ukans.edu, chimpowl@well.com,
+>paleo550@philly.infi.net
+>
+><P>BAND Grateful Dead
+><BR>VENUE       Winterland Arena
+><BR>CITY        San Francisco
+><BR>STATE       CA
+><BR>DATE        2/23/74
+><br>SET1        Around & Around [4:46] ; Dire Wolf [4:15]; Me And Bobby
+>McGee [5:34] ; Sugaree [7:01] ; Mexicali Blues [3:17] ; Here Comes Sunshine
+>[9:#17] ; Beat It On Down The Line [3:25] ; Ship of Fools [5:16] ; Jack
+>Straw [4:33] ; Deal [4:18] ; Promised Land [3:
+>00] &#062; Bertha [5:51] &#062; Greatest Story Ever Told [5:06]
+><BR>SET2        Row Jimmy [8:34] ; Weather Report Suite Prelude [1:16]
+>&#062; Weather Report Suite Part 1 [4:15] &#062; Let It Grow [12:21] &#062;
+>Stella Blue [8:13] ; Big River [4:36] ; Ramble on Rose [6:45] ; Me And My
+>Uncle [2:41] ; He's Gone [13:45] &#062; Truckin' [7:55] &#062; Drums [
+>3:24] &#062; The Other One [20:41] &#062; Eyes of the World &#062; One More
+>Saturday Night ; Casey Jones
+><BR>SET3        
+><br>ENCORE      Johnny B. Goode ; We Bid You Goodnight
+><BR>COMMENTS    
+>RECORDING       220 SBD + AUD: The complete show except a cut in Here Comes
+>Sunshine, in SBD except Saturday Night & Casey Jones which are patched in
+>from excellent AUD.
+><BR>CONTRIBUTORS        buller@math.ukans.edu, chimpowl@well.com,
+>paleo550@philly.infi.net
+>-----------------------------------
+>
+>This kind of mark-up creates the following output:
+>
+>----------------------------------
+>BAND Grateful Dead 
+>VENUE Winterland Arena 
+>CITY San Francisco 
+>STATE CA 
+>DATE 2/22/74 
+>SET1 U.S. Blues [5:27] ; Beat It On Down The Line [3:22] ; Brown Eyed Women
+>[4:52] ; Mexicali Blues [3:36] ; It Must Have Been The Roses [4:43] ; Black
+>Throated
+>Wind [6:53] ; They Love Each Other [5:39] ; Big River [5:08] ; Loose Lucy
+>[6:35] ;
+>El Paso [4: 33] ; Row Jimmy [8:30] ; Playin' in the Band [20:55] 
+>SET2 Tennessee Jed [7:49] ; Me And My Uncle [2:58] ; Ship of Fools [5:31] ; The
+>Race Is On [3:03] ; China Cat Sunflower [8:51] > I Know You Rider [5:26] ;
+>Truckin' [7:47] > Nobody's Fault But Mine [3:07] > Jam [2:29] > Goin' Down the
+>Road [6:14] 
+>SET3 Mississippi Half Step [7:50] ; Promised Land [3:37] ; Brokedown Palace
+>[5:28] ; Jack Straw [4:10#] ; Eyes of the World > China Doll > Wharf Rat >
+Sugar
+>Magnolia 
+>ENCORE Uncle John's Band 
+>COMMENTS RECORDING 270 SBD: The complete show & soundcheck 
+>CONTRIBUTORS buller@math.ukans.edu, chimpowl@well.com,
+>paleo550@philly.infi.net 
+>
+>BAND Grateful Dead 
+>VENUE Winterland Arena 
+>CITY San Francisco 
+>STATE CA 
+>DATE 2/23/74 
+>SET1 Around & Around [4:46] ; Dire Wolf [4:15]; Me And Bobby McGee [5:34] ;
+>Sugaree [7:01] ; Mexicali Blues [3:17] ; Here Comes Sunshine [9:#17] ; Beat
+>It On
+>Down The Line [3:25] ; Ship of Fools [5:16] ; Jack Straw [4:33] ; Deal [4:18] ;
+>Promised Land [3: 00] > Bertha [5:51] > Greatest Story Ever Told [5:06] 
+>SET2 Row Jimmy [8:34] ; Weather Report Suite Prelude [1:16] > Weather Report
+>Suite Part 1 [4:15] > Let It Grow [12:21] > Stella Blue [8:13] ; Big River
+>[4:36] ;
+>Ramble on Rose [6:45] ; Me And My Uncle [2:41] ; He's Gone [13:45] > Truckin'
+>[7:55] > Drums [ 3:24] > The Other One [20:41] > Eyes of the World > One More
+>Saturday Night ; Casey Jones 
+>SET3 
+>ENCORE Johnny B. Goode ; We Bid You Goodnight 
+>COMMENTS RECORDING 220 SBD + AUD: The complete show except a cut in
+>Here Comes Sunshine, in SBD except Saturday Night & Casey Jones which are
+>patched in from excellent AUD. 
+>CONTRIBUTORS buller@math.ukans.edu, chimpowl@well.com,
+>paleo550@philly.infi.net 
+>----------------------------------------------
+>
+>Which admittedly isn't *a lot* different.  But the marked-up version
+>presented first is not going to be useful for machines that parse, nor too much
+>for humans.  But it is the only reasonable way at this point to present the
+>lists on the Web. (Yes, we could write a program to create the html on the
+>fly.  But it's not my specialty, the coders amongst us have got their work
+>cut out for them, and I really don't want to spend more than the 10 to 15
+>hrs per week on this project that I already do....so getting that code
+>together is *not* likely to happen soon.)
+>
+>"the lists we post for downloading should be easily readable by uninitiated
+>people *as well as* machine usable" is a good concept -- but the lists we
+>post to the mailing list and the lists that are posted to the Web, as noted
+>above, have to be *different*.
+>
+>>we can eliminate the BAND field in our format without harm.  it is
+>>superfluous to our purposes.
+>
+>i'd like to leave it in, because:
+>
+>1)  the fewer changes we make now, the easier it is to keep everything
+>consistent, and 
+>2)  i think that field will become useful -- because if this project takes
+>off, it will likely snowball at least into a similar project for the various
+>Garcia Bands  (and i would hope that we'd be willing to share out methods
+>and code with ABB-heads, Airplane-heads, phish-heads and/or whoever else
+>might like to put together a similar online effort).
+>
+>--nathan
+>
+>
+
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 14 Feb 1997 17:37:22 -0500
+Subject: Re: 
+
+Jim Powell wrote:
+> 
+> the lists we post for downloading should be easily readable by uninitiated
+> people *as well as* machine usable (uniformly formatted).  it should be that
+> difficult to serve both these ends simultaneously.
+
+Nope, it's not. As long as the original input file meets specs, we can make an 
+easily readable format file (HTML) with a script. I've done this for my site, 
+and it's a snap. It's much easier to create a "pretty" version for browsing 
+from a file that meets specs than the other way around.
+
+> we can eliminate the BAND field in our format without harm.  it is
+> superfluous to our purposes.
+
+Yes, but I'd like to be able to reuse the search engine for my JGB site, and 
+possibly any other site (Hornsby, Weir, etc if there is interest) without 
+having to modify it. If possible, I'd prefer if we could leave the BAND field 
+in place.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 14 Feb 1997 18:04:33 -0500
+Subject: Re: deadlist format (was Re: 1980 deadlists )
+
+Tim Buller wrote:
+> 
+> I think it is a good idea to maintain the specfication as it is now. If we
+> don't break fields on newlines, the parsing code is going to be more
+> complicated and resource hungry. All of the relevant code I'm aware for
+> this project is being developed in perl and python; high-level interpreted
+> languages who aren't known for their ability to optimize. We really need
+> to make it as easy as possible for the programmers that maintain and the
+> machines that execute the code, IMO.
+
+I agree with Tim, though we are both computer geeks and probably think alike 
+;-) We need a data specification so that things can be developed in parallel 
+and I can know what to expect the data to look like. Major changes to the 
+spec in midstream causes delays, and I don't think we need any more delays.
+
+> I agree that it is difficult to maintain the set-list data when each line
+> is hard-wrapped. Many text editors (emacs, BBEdit, etc.) have the ability
+> to soft-wrap text, so that it may be edited in 80 cols without breaking at
+
+There are many text editor's out there that don't have line wrapping. I use 
+PFE, which is freeware that runs on Win 3.1, Win 95 and Win NT. For a free 
+copy, goto http://www.lancs.ac.uk/people/cpaap/pfe/
+
+Emacs is a good one for Unix machines, and I'm sure there are Mac text 
+editors out there that don't have manditory line wrapping.
+
+> processing. I'm in favor of the source code method, as I think we have
+> enough dedicated folks around to code the software to parse the data into
+> the final product. But, like most things, I think there needs to be some
+> kind of group consensus on this, and I'm into whatever most folks think is
+> The Right Way To Do It...
+
+Again, I agree with Tim. There are many things we can do with the data, but 
+all this depends on receiving the data in a specified format.
+
+I've been swamped with work lately, so I haven't had much time to devote to 
+this. I have written some tools that do nice conversions from a spec format 
+into nice looking HTML. Unfortunately, there are some platform issues, so I 
+can't easily move them to Tim's Linux box (or Nathan's machine). I'm working 
+on a work-around for this, and I'll keep everyone posted on my progress.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 14 Feb 1997 18:19:10 -0500
+Subject: Re: deadlist format (was Re: 1980 deadlists )
+
+Nathan Wolfson wrote:
+> 
+> Maybe the stumbling block is that we don't know how to get setlists from
+> caretakers to search engine.  Posting to the list might work.  But then
+> where to they go?  Probably need to be saved as a text file, at a particular
+> place on the server where the search engine is.  Should it be one big text
+> file?  Lots of little ones?  I'd guess the former, though it's more time
+> consuming.  Then, I'd assume, we have done all we need to with the setlists,
+> to make things work.
+
+The search engine looks at one file for searching (an RDB file). Basically, if 
+you have all the year's files in one directory (1977.txt, 1978.txt, etc), a one 
+line script can concatenate them all together into one big file (setlists.txt). 
+So, if 1977.txt gets updated, it's put in the directory, the script is run, and 
+we have a updated setlists.txt file. This file is converted to setlists.rdb, and 
+it's ready to search.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #175
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

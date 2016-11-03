@@ -1,0 +1,151 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #61
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Wednesday, 22 May 1996       Volume 01 : Number 061
+
+In this issue:
+
+	Search Engine Prelims
+	Re: Search Engine Prelims 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 22 May 1996 13:59:54 -0500 (CDT)
+Subject: Search Engine Prelims
+
+I hope to adapt a simple search CGI search engine to search the DeadList 
+set-lists from the web. To get started on this, I'd like some data to 
+work with, so when you get anything complete, please ul it to:
+
+ftp.southwind.net/users/t/tjb9d/incoming
+
+or e-mail it to me. Maybe now would be a good time to figure out who gets 
+what, so...
+
+1965
+1966
+1967
+1968
+1969 - ??
+1970 - Jim Powell
+1971 - John Oleynick
+1972
+1973
+1974
+1975
+1976
+1977
+1978
+1979
+1980
+1981
+1982
+1983
+1984
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995 - Barry Barnes
+
+Let's toss this thing around for a while... maybe put it on the web site 
+or something with links to folk's e-mail or pages. Whatever.... let me 
+know as soon as you get things done....
+
+	Tim
+
+====
+Tim Buller                                                 Mac Tech Support 
+SouthWind Internet Access, Inc.           http://www2.southwind.net/~tjb9d/
+Serving South Central Kansas                   e-mail:<tjb9d@southwind.net>
+
+
+------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 22 May 1996 14:52:06 -0500 (CDT)
+Subject: Re: Search Engine Prelims 
+
+> > I hope to adapt a simple search CGI search engine to search the DeadList 
+> > set-lists from the web. To get started on this, I'd like some data to 
+> > work with, so when you get anything complete, please ul it to:
+> > 
+> > ftp.southwind.net/users/t/tjb9d/incoming
+> 
+> Hi Tim,
+>      What do you want to use for a field separator?  The spec says
+> a tab, but a couple of weeks ago Nathan suggested changing that to
+> be a newline.  Yesterday I asked Allen Baum and Nathan, and Allen
+> said probably a newline and Nathan said probably still a tab (for now, 
+> at least) but it would depend on what your search engine wanted.
+
+	I think a tab would give us the most flexibility. The biggest 
+advantage I see is that we will be able to format the data better within 
+fields, i.e.
+
+<Tab>
+SET 1
+Shakedown
+Little Red Rooster
+Sugaree
+Masterpiece
+Alligator
+
+instead of 
+
+<newline>
+SET 1,Shakedown,Rooster,Sugaree,Masterpiece,Alligator.
+
+Plus, almost everything can import tab-delimited text. It will add a lot 
+of flexibility platform-wise hopefully. We can use the same data on the 
+web that folks can import into their own DBs.
+
+> I'll be able to give you some preliminary data, hopefully within
+> a day or 2.
+
+Wow! I'll be out of town for the next, but should be able to spend some 
+time on it next week. Don't kill yourself for it; it's just set-lists :) 
+Thanks (I've cc:ed the list on this, just so folks can add their input).
+
+	Tim
+
+====
+Tim Buller                                                 Mac Tech Support 
+SouthWind Internet Access, Inc.           http://www2.southwind.net/~tjb9d/
+Serving South Central Kansas                   e-mail:<tjb9d@southwind.net>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #61
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

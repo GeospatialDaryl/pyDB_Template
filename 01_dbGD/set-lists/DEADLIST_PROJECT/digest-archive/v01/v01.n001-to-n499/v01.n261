@@ -1,0 +1,196 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #261
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 22 April 1997       Volume 01 : Number 261
+
+In this issue:
+
+	Re: Peanut Butter
+	The Forum
+	massive updates (Thanks, Ryan!)
+	Deadlists sighting
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 22 Apr 1997 09:10:04 -0500 (CDT)
+Subject: Re: Peanut Butter
+
+On Tue, 22 Apr 1997, Matt wrote:
+
+> Anyone looking to put together a big collection of versions
+> can also find it on Barney's Favourites Vol 1 (1993) and
+> Disney's Funny Food Songs (1994).
+
+Also to be found on the "Tiedrich Sings Along with Barney" outtakes now
+circulating; often mislabeled as 5/8/77 II.
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: Richard Plumb <rplumb@access.digex.net>
+Date: Tue, 22 Apr 1997 11:15:52 -0400 (EDT)
+Subject: The Forum
+
+On Tue, 22 Apr 1997, Jim Powell wrote:
+
+> 
+> 2).	the forum is in LA County, i believe, but not the city.  That's the
+> place where the LA cops strangled that UC Santa Barbara sophmore outside the
+> last Dec 89 show, isn't it?
+> 
+The Forum is in Inglewood, CA.  It didn't get the name Great Western Forum
+until sometime in 1990.
+
+rich
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 22 Apr 1997 08:37:50 -0700
+Subject: massive updates (Thanks, Ryan!)
+
+I'm cc-ing the group on this whole message, because there may be someone who
+has something to contribute, that we can't anticipate.
+
+My only substantial comment:  The script to convert the text song names file
+into .html would be useful.
+
+- --nathan
+
+At 10:31 AM 4/22/97 -0400, Ryan wrote:
+
+>Hey Guys,
+>I'm sending this to each of you because, well, I think each of you has
+>an interest. I'm not sending this to the entire group because I don't
+>think all of it is appropriate. If you think parts of this are (and they
+>may be), please forward them to the group. This is a little long winded,
+>but I wanted to communicate as much information as possible so that it's
+>easier down the stretch.
+>
+>As you probably know, I used John's 1971 setlists as a test for my new
+>script, and they worked fine. John, I must applaud your close attention
+>to detail with these setlists! It really helps when you follow the spec
+>so closely. I did have a few minor corrections and song additions that I
+>wanted to run by you guys. The setlist corrections were:
+>
+>1. 12/04/71: changed % delimiter to ; (my program can be modified to
+>accept the %, but as of yet no one else has used this notation so I
+>haven't modified the program)
+>2. 12/04/71: changed Run Run Rudolph to Run Rudolph Run
+>3. 03/03/71: changed Me & Bobby McGee to Me And Bobby McGee
+>4. 03/03/71: changed King Bee to I'm A King Bee
+>
+>That was it! The 'revised' setlist file with these changes is named
+>1971-131.txt. As for the song additions, these are the songs I added to
+>the 'official song list' text file my program uses:
+>
+>1. China Cat Sunflower Tease (11/15/71)
+>2. Good Vibrations (04/27/71)
+>3. I Get Around (04/27/71)
+>
+>I realize these last two weren't played by the GD, but in order for my
+>program to work correctly, every song in the setlists must _exactly_
+>match an entry in the 'official song list' text file. It is noted in the
+>setlist for 04/27/71 that these last two songs were done only by the
+>Beach Boys, so I don't think there should be any confusion.
+>
+>Matt and Nathan: About this 'official song list' text file. This is
+>basically a standard text file with all the 'official' songs, jams,
+>tunings, etc appearing one per line. This is something that you and
+>Nathan will have to work together on in order to keep this file in sync
+>with the version you are keeping. It will take me about 10 minutes to
+>write a script that writes the 'official song list'.html file (to be
+>displayed on the Web site) given the 'official song list'.txt file. Let
+>me know if this is desireable and I'll make it happen.
+>
+>John: I'll put your revised setlist.txt file (1971-131.txt) on my FTP
+>site (in the upload directory) so you can pick it up. As you can
+>probably figure out, this is the file that should be used for any
+>corrections/updates to the setlists.
+>
+>And finally :-), John, do you still have the script that converts files
+>to the official format? If so, this is going to be very, very, very
+>important in getting the other setlists online easily. My program must
+>have the setlists in the data spec format (including brackets around
+>timings, correct delimiters, etc). Something else that would be very
+>useful would be a program to convert Playin' to Playing and Feelin' to
+>Feeling, etc. This is by far the biggest bottleneck in my program. Let
+>me (and Nathan) know about your conversion script.
+>
+>Sorry to be so long winded, but I'm going to have to in order for this
+>transition to go as smoothly as possible. Talk with you folks later.
+>-- 
+>				- shrive
+>-------------------------
+>Ryan Shriver 
+>602 Caroline St. Apt. B
+>Fredericksburg, VA 22401
+>540-373-5486
+>(ryan@gator.digicool.com)
+>-------------------------
+>
+>
+
+
+------------------------------
+
+From: Christopher Weber <cweber@ksu.edu>
+Date: Tue, 22 Apr 1997 16:27:54 -0500 (CDT)
+Subject: Deadlists sighting
+
+Silberman mentioned our site in his recent Jamtv article about jerry:
+
+"Dead lyricist Robert Hunter has taken to the
+                             Web with the enthusiasm of a poet embracing
+                             a new language, posting journals and letters
+                             of penetrating candor. Earlier this year, a
+                             conferencing area opened its gates on
+                             dead.net. And a new generation of Deadhead
+                             scholars are making sites like The Annotated
+                             Grateful Dead Lyrics Page and The
+                             DeadLists Project powerful tools for study of
+                             the vast corpus of improvised music that the
+                             Dead brought into the world. "
+
+
+www.jamtv.com
+"is Jerry Dead?"
+
+Chris
+
+------------------------------
+
+End of DeadLists Digest V1 #261
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

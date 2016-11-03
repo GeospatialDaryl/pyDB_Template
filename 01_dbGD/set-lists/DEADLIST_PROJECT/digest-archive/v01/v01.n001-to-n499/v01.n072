@@ -1,0 +1,95 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #72
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 30 July 1996       Volume 01 : Number 072
+
+In this issue:
+
+	Re: DeadLists Digest V1 #70 
+	Re: DeadLists Digest V1 #70 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Mon, 29 Jul 1996 19:22:41 -0400
+Subject: Re: DeadLists Digest V1 #70 
+
+In message <Pine.BSI.3.94.960729143146.25477B-100000@onyx.southwind.net> you wr
+ite:
+> First of all though, we need more data... I had an FTP site to drop
+> data-files off that was never used; is anyone working on this? Maybe we
+
+Between moving and starting a new job I haven't done much in the past 2
+months, but I just put a copy of my "sparse" setlists for '65-'95 under
+http://paul.rutgers.edu/~johno/dl6595.html.  These are incomplete, many
+(most) transitions are wrong, and they probably have other problems but
+should at least work for testing.  Unfortunately they are still in the
+v1.2 format since I haven't had time to update my Lisp-to-Dead-list
+format conversion program.  I'll start working on that this week.
+
+			John
+
+------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Mon, 29 Jul 1996 18:31:14 -0500 (CDT)
+Subject: Re: DeadLists Digest V1 #70 
+
+> > First of all though, we need more data... I had an FTP site to drop
+> > data-files off that was never used; is anyone working on this? Maybe we
+> 
+> Between moving and starting a new job I haven't done much in the past 2
+> months, but I just put a copy of my "sparse" setlists for '65-'95 under
+
+I echo those sentiments (I'm moving this week, and will be jobless in 24
+hours), so I hope to pick things up again after I get established. Hey,
+maybe if I can't find a job, I can work on this full-time! 
+
+What I'd like to pursue for the web is finding a Mac from which to
+serve... I've seen some pretty nice Databases in FileMaker integrated
+through WebSTAR, and I think this would be the most elegant way to go. In
+the meantime, I'll keep hacking on a Unix interface, but I don't have
+access to any DB type stuff, so it's all going to be hacked. If anyone has
+any ideas or wants to help, it's something we could be doing.
+
+	Tim
+
+ ====
+Tim Buller                              e-mail:<tjb9d@southwind.net>
+Mac & Dead Support                      http://www2.southwind.net/~tjb9d/gdead
+
+   "There are two major products to come out of Berkeley: LSD and Unix. 
+         This is probably not a coincidence." - John Dodge in PCWeek
+
+
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #72
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

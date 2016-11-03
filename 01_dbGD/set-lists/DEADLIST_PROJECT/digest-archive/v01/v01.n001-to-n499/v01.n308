@@ -1,0 +1,1792 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #308
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Tuesday, 20 May 1997        Volume 01 : Number 308
+
+In this issue:
+
+	Re: Archive
+	Re: Archive
+	search engine comments
+	Re: Archive
+	Re: search engine comments
+	Re: Archive
+	Re: search engine comments
+	Re: Archive 
+	1989 (fwd)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: KEVIN_WEIL@NON-HP-USA-om31.om.hp.com
+Date: Tue, 20 May 97 12:41:44 -0400
+Subject: Re: Archive
+
+     
+     We can definitely get around using an additional field for each show.  
+     I had originally outlined section A like the other sections, for 
+     example:
+     
+     A. Information regarding shows - timings, missing songs, etc.
+        1. Specific Dates
+           3/18/77
+                                v001.n104
+                                v00x.n00x
+                                v00y.n00y
+           4/22/77
+                                v001.n104
+     
+        2. Years/Parts of Years
+           1977
+                2/26-9/3
+                                v001.n104
+                9/28-12/31
+                                v001.n105
+     
+     Obviously this is going to get quite large over time.  In hindsight, 
+     Nathan, I think you're right - it's probably better to keep the 
+     references separate, even at the expense of some redundancy.
+     
+     Kevin
+
+______________________________ Reply Separator _________________________________
+Subject: Re: Archive
+Author:  Non-HP-nathan (nathan@well.com) at HP-USA,mimegw4
+Date:    5/19/97 7:41 PM
+
+
+I like everything about this EXCEPT adding the field to the end of each 
+show.  Can we get around that somehow?  (even if it increases the burden 
+on the server?)
+     
+- --Nathan
+     
+On Mon, 19 May 1997 KEVIN_WEIL@non-hp-usa-om31.om.hp.com wrote:
+     
+>      
+>      Here are some ideas regarding indexing the archive: 
+>      
+>      This index outline is based upon a thematical approach, and would work 
+>      nicely in web page environment.  Please feel free to add/comment:
+>      
+>      A. Information regarding shows - timings, missing songs, etc. 
+>         1. Specific Dates
+>         2. Years/Parts of Years
+>      B. Information regarding the DeadList site 
+>         1. Structure
+>            a. Server Space, etc.
+>         2. Capabilities
+>            a. Search Engine
+>            b. Expanded Functionality 
+>      C. Caretaking
+>         1. Who's Who
+>         2. Updates/Additions/Discussion 
+>      D. Administration
+>         1. Guidelines For Updating 
+>            a. Set List Format
+>         2. Instructions
+
+
+------------------------------
+
+From: KEVIN_WEIL@NON-HP-USA-om31.om.hp.com
+Date: Tue, 20 May 97 13:04:29 -0400
+Subject: Re: Archive
+
+     
+     Thanks Matt - Yes, SONGS should also be a heading of their own.  Good 
+     point.
+     
+     New format for section A would be:
+     
+     A. Information regarding shows - timings, missing/clipped songs, etc.
+        1. Specific Dates
+           4/22/77
+                Samson And Delilah
+                                        v01.n104      
+        2. Years/Parts of Years
+        3. Songs
+                Bertha
+                                        v0x.n00x
+                China Cat Sunflower-> I Know You Rider "between" jam
+                                        v01.n007
+                Eyes Of The World "post" jam
+                                        v01.n007
+                Jams
+                        Naming Jams
+                                        v01.n007
+                                        v01.n008
+                Samson And Delilah
+                                        v01.n104 
+     
+     This adds the benefit of cross-referencing a digest issue to both song and 
+     date when the topic is as the above example for Samson And Delilah.
+      
+     Kevin
+
+______________________________ Reply Separator _________________________________
+Subject: Re: Archive
+Author:  Non-HP-mps (mps@dmu.ac.uk) at HP-USA,mimegw4
+Date:    5/20/97 11:50 AM
+
+
+     
+     
+On Mon, 19 May 1997 KEVIN_WEIL@non-hp-usa-om31.om.hp.com wrote:
+     
+>      
+>      Here are some ideas regarding indexing the archive: 
+>      
+>      This index outline is based upon a thematical approach, and would work 
+>      nicely in web page environment.  Please feel free to add/comment:
+>      
+>      A. Information regarding shows - timings, missing songs, etc. 
+>         1. Specific Dates
+>         2. Years/Parts of Years
+     
+.... snipped ....
+     
+     
+Kevin,
+     
+I know I've been focussing on song name issues so I maybe 
+I'm overstressing their importance - but there's been a lot
+of discussion about them - maybe enough to merit a section heading 
+of their own.  Thus rather than *naming jams* coming under caretaking 
+as in your example it would come under a song names section.
+     
+But in truth any sort of index involvin *words* would be better 
+then the current archive.
+     
+Matt
+     
+I--------------------------------------------------------------------I 
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 20 May 1997 10:37:13 -0700 (PDT)
+Subject: search engine comments
+
+I think Tim's search engine does all of these except:
+
+1) "post drums Truckins" -- which is considerably more difficult that 
+"second set Truckins" and, in fact, might require another fieldor two 
+(ie, dividing the SETII field into pre-drums, drums/sapce, post-drums 
+fields, which we probably don't want to do), and
+
+2) "all Birdsongs longer than twenty minutes" -- which i could be wrong 
+about (but it wasn't obvious how to do this kind of search).  this will 
+be easier to implement that #1 (which will be nearly impossible -- or, at 
+least, as difficult as EVERYTHING else the search engine does, combined), 
+if my understanding of SQL is correct.
+
+- --nathan
+
+
+On Tue, 20 May 1997, Jim Powell wrote:
+
+> at a minimum the search engine for deadlists should be able 
+> 
+> -- to generate lists of all occurances of single songs and of strings of
+> songs at least three songs long (e.g. list on request all Scarlet > Fire,
+> Samsons, all Dark Stars)
+> 
+> -- it should be able to limit (i.e. sort & edit) these lists by period (e.g.
+> all Bird Songs before 80, all Bird Song > Promised Lands in 93)
+> 
+> -- it should be able to limit these lists by the song's place in the show
+> (e.g. all 1st set China Cat > Riders, all 2nd set Bird Songs, all post drums
+> Help > Slip > Franklins, all post drums Truckins, all post 86 post drums
+> Truckins, all non-1st-set closing Might As Wells, all Berthas in the 2nd
+> half of the 1st set ...)
+> 
+> -- it should be able to sort by days of the week:  all Monday Playins,
+> Monday Dark Stars ... 
+> 
+> -- it should report timings with the dates; ideally, it should be able to
+> sort by timings (e.g. longest Bird Song for 85)
+> 
+> What else?
+> 
+> 
+> 
+> 
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 20 May 1997 10:41:47 -0700 (PDT)
+Subject: Re: Archive
+
+Coolness.  Let us know how we can help you implment this -- and where it 
+should reside.  There is space on www.deadlists.com, for sure, though 
+we'd have to work out the particulars of what kind of scripts would need 
+to be running, etc.
+
+- --nathan
+
+On Tue, 20 May 1997 KEVIN_WEIL@NON-HP-USA-om31.om.hp.com wrote:
+
+>      
+>      We can definitely get around using an additional field for each show.  
+>      I had originally outlined section A like the other sections, for 
+>      example:
+>      
+>      A. Information regarding shows - timings, missing songs, etc.
+>         1. Specific Dates
+>            3/18/77
+>                                 v001.n104
+>                                 v00x.n00x
+>                                 v00y.n00y
+>            4/22/77
+>                                 v001.n104
+>      
+>         2. Years/Parts of Years
+>            1977
+>                 2/26-9/3
+>                                 v001.n104
+>                 9/28-12/31
+>                                 v001.n105
+>      
+>      Obviously this is going to get quite large over time.  In hindsight, 
+>      Nathan, I think you're right - it's probably better to keep the 
+>      references separate, even at the expense of some redundancy.
+>      
+>      Kevin
+> 
+> 
+> ______________________________ Reply Separator _________________________________
+> Subject: Re: Archive
+> Author:  Non-HP-nathan (nathan@well.com) at HP-USA,mimegw4
+> Date:    5/19/97 7:41 PM
+> 
+> 
+> I like everything about this EXCEPT adding the field to the end of each 
+> show.  Can we get around that somehow?  (even if it increases the burden 
+> on the server?)
+>      
+> --Nathan
+>      
+> On Mon, 19 May 1997 KEVIN_WEIL@non-hp-usa-om31.om.hp.com wrote:
+>      
+> >      
+> >      Here are some ideas regarding indexing the archive: 
+> >      
+> >      This index outline is based upon a thematical approach, and would work 
+> >      nicely in web page environment.  Please feel free to add/comment:
+> >      
+> >      A. Information regarding shows - timings, missing songs, etc. 
+> >         1. Specific Dates
+> >         2. Years/Parts of Years
+> >      B. Information regarding the DeadList site 
+> >         1. Structure
+> >            a. Server Space, etc.
+> >         2. Capabilities
+> >            a. Search Engine
+> >            b. Expanded Functionality 
+> >      C. Caretaking
+> >         1. Who's Who
+> >         2. Updates/Additions/Discussion 
+> >      D. Administration
+> >         1. Guidelines For Updating 
+> >            a. Set List Format
+> >         2. Instructions
+> 
+> 
+> 
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Tue, 20 May 1997 10:49:43 -0700 (PDT)
+Subject: Re: search engine comments
+
+>>>>> Nathan Wolfson <nathan@well.com> writes:
+
+ > I think Tim's search engine does all of these except:
+
+ > 1) "post drums Truckins" -- which is considerably more difficult that 
+ > "second set Truckins" and, in fact, might require another fieldor two 
+ > (ie, dividing the SETII field into pre-drums, drums/sapce, post-drums 
+ > fields, which we probably don't want to do), and
+
+There should be no need to make drums/space any special type of divider.
+
+If there is a search mechanism for searching for "Scarlet > Fire", it
+shouldn't be too hard to adapt it to search for "Scarlet * Eyes" to find
+any occurrence of Scarlet that is followed somewhere in the show by Eyes.
+Thus finding a post-drums Truckin' would be a matter of searching for
+"Drums * Truckin'" where there are any number of songs between the two.
+(I'm not proposing the asterisk, just using it as an example of a
+wildcard.)  Similarly, it would be nice to search on "Birdsong & Cassidy",
+where it would return shows where both appeared, no matter if they
+occurred in a different order or not consecutively.
+
+	- jfw
+
+ ___________________________________________________________________________
+| John F. Whitehead          Work: jfw@cisco.com   Home: jfw@well.com       |
+| Web Technology Analyst     Cisco Systems         http://www.well.com/~jfw |
+|___________________________________________________________________________|
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Tue, 20 May 1997 10:52:03 -0700 (PDT)
+Subject: Re: Archive
+
+>>>>> KEVIN WEIL <KEVIN_WEIL@non-hp-usa-om31.om.hp.com> writes:
+
+ > Yes, SONGS should also be a heading of their own.
+
+Wake up to find out that you are deadlists of the world,
+Each show has its fields, its homepage and comments of its own.
+Wake now, discover that you are the song that the new tape brings,
+Each show has its songs, its evenings and headings of its own.
+
+
+(sorry!)
+	- jfw
+ ___________________________________________________________________________
+| John F. Whitehead          Work: jfw@cisco.com   Home: jfw@well.com       |
+| Web Technology Analyst     Cisco Systems         http://www.well.com/~jfw |
+|___________________________________________________________________________|
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 20 May 1997 10:57:52 -0700 (PDT)
+Subject: Re: search engine comments
+
+I stand corrected :-)  Glad I was wrong.
+
+Maybe John can step in and assist Tim with this, if Tim doesn't have to 
+the time to develop it?  (just a thought)
+
+- -nathan
+
+On Tue, 20 May 1997, John F. Whitehead wrote:
+
+> >>>>> Nathan Wolfson <nathan@well.com> writes:
+> 
+>  > I think Tim's search engine does all of these except:
+> 
+>  > 1) "post drums Truckins" -- which is considerably more difficult that 
+>  > "second set Truckins" and, in fact, might require another fieldor two 
+>  > (ie, dividing the SETII field into pre-drums, drums/sapce, post-drums 
+>  > fields, which we probably don't want to do), and
+> 
+> There should be no need to make drums/space any special type of divider.
+> 
+> If there is a search mechanism for searching for "Scarlet > Fire", it
+> shouldn't be too hard to adapt it to search for "Scarlet * Eyes" to find
+> any occurrence of Scarlet that is followed somewhere in the show by Eyes.
+> Thus finding a post-drums Truckin' would be a matter of searching for
+> "Drums * Truckin'" where there are any number of songs between the two.
+> (I'm not proposing the asterisk, just using it as an example of a
+> wildcard.)  Similarly, it would be nice to search on "Birdsong & Cassidy",
+> where it would return shows where both appeared, no matter if they
+> occurred in a different order or not consecutively.
+> 
+> 	- jfw
+> 
+>  ___________________________________________________________________________
+> | John F. Whitehead          Work: jfw@cisco.com   Home: jfw@well.com       |
+> | Web Technology Analyst     Cisco Systems         http://www.well.com/~jfw |
+> |___________________________________________________________________________|
+> 
+> 
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Tue, 20 May 1997 14:45:03 -0400
+Subject: Re: Archive 
+
+In message <H00004eb06a4cfd6@MHS> you write:
+>      
+>      Here are some ideas regarding indexing the archive:
+>      
+>      This index outline is based upon a thematical approach, and would work 
+>      nicely in web page environment.  Please feel free to add/comment:
+>	[ ... ]
+
+Hi Kevin,
+     Would go through each article by hand and decide where it should
+go in the index?  That sounds great, but also sounds like it would be alot of
+work.
+     I've seen some other mailing lists that are automatically archived
+with something called hypermail, which turns the messages into html
+with links by date, subject, etc.  There's some info about hypermail at
+http://www.ipps.lsa.umich.edu/software/hypermail/hypermail.html and a
+sample of a mailing list archived with it at
+http://www.eit.com/www.lists/ .  I don't think hypermail would be as
+good as indexing everything by hand, but I think it would be alot less
+work to maintain once it was setup.
+
+
+			John
+
+
+------------------------------
+
+From: Christopher Weber <cweber@ksu.edu>
+Date: Tue, 20 May 1997 16:13:21 -0500 (CDT)
+Subject: 1989 (fwd)
+
+Here's the updated 1989 list.  I'm still working on more timings... if 
+anyone has any input, let me know.
+
+Chris
+
+
+BAND	Grateful Dead
+DATE	02/05/89
+VENUE	Henry J. Kaiser Convention Center
+CITY	Oakland
+STATE	CA
+SET1	Touch Of Gray ; Feel Like A Stranger ; Franklin's Tower ; Little Red Rooster ; Althea ; We Can Run ; Desolation Row ; Don't Ease Me In
+SET2	Cold Rain & Snow ; Man Smart, Woman Smarter ; Standing On the Moon ; Drums ; I Will Take You Home ; He's Gone ; I Need A Miracle ; Morning Dew
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	02/06/89
+VENUE	Henry J. Kaiser Convention Center
+CITY	Oakland
+STATE	CA
+SET1	Not Fade Away ; Wang Dang Doodle ; Jack-A-Roe ; Queen Jane Approximately ; Brown Eyed Women ; Cassidy ; Tennessee Jed
+SET2	Hell In A Bucket ; Looks Like Rain ; Terrapin Station ; Drums ; The Other One ; Stella Blue ; Turn On Your Lovelight
+SET3	
+ENCORE	Black Muddy River
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	02/07/89
+VENUE	Henry J. Kaiser Convention Center
+CITY	Oakland
+STATE	CA
+SET1	Hey Pocky Away ; Jack Straw ; Loser ; Walkin' Blues ; Just A Little Light ; Standing On the Moon ; Stuck In Mobile With The Memphis Blues Again ; Bird Song
+SET2	Iko Iko ; Victim Or The Crime ; We Can Run ; Uncle John's Band ; Drums ; The Wheel ; Throwing Stones ; Foolish Heart ; Good Lovin'
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	02/10/89
+VENUE	The Forum
+CITY	Inglewood
+STATE	CA
+SET1	Feel Like A Stranger ; Franklin's Tower ; Walkin' Blues ; To Lay Me Down ; When I Paint My Masterpiece ; Friend Of The Devil ; Let It Grow
+SET2	Just A Little Light ; Truckin' ; Crazy Fingers ; Playing In The Band ; Drums ; The Wheel ; Gimme Some Lovin' ; Wharf Rat ; Sugar Magnolia
+SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	02/11/89
+VENUE	The Forum
+CITY	Inglewood
+STATE	CA
+SET1	Mississippi Half-Step Uptown Toodleloo ; New Minglewood Blues ; Candyman ; Big River ; Built To Last ; Queen Jane Approximately ; We Can Run ; Bird Song
+SET2	China Cat Sunflower [6:02] > I Know You Rider [5:10] >
+        Man Smart, Woman Smarter [7:30] ; Standing On the Moon [5:48] ;
+        Estimated Prophet [13:04] > I Will Take You Home [3:40] >
+        Drums [12:40] (1) > Space [2:27] > Eyes Of The World [8:42] (2) >
+        I Need A Miracle [4:39] > Black Peter [8:58] >
+        Turn On Your Lovelight [4:39]  
+SET3	
+ENCORE	Box Of Rain
+COMMENTS	(1) with Airto and Diana Moreira, Flora Purim (2) with 
+Airto Moreira
+RECORDING	SBD 90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	02/12/89
+VENUE	The Forum
+CITY	Inglewood
+STATE	CA
+SET1	Cold Rain & Snow [5:15] ; Hell In A Bucket [6:29] ; Row Jimmy [8:59] ;
+	Beat It On Down The Line [3:02] > The Promised Land [3:58] ;
+	West L.A. Fadeaway [6:29] ; How Long Blues [4:03] (1) ;
+	Gimme Some Lovin' [7:22] (1) 
+SET2	Iko Iko [6:55] ; Monkey And The Engineer [2:47] ;
+	Alabama Getaway [4:17] ; Dire Wolf [3:07] ; Cassidy [6:16] ;
+	Stuck In Mobile With The Memphis Blues Again [7:56] (2) ;
+	Drums [6:48#] % Space [#6:44] > The Other One [7:16] (3) >
+	Stella Blue [7:38] > Foolish Heart [7:07]
+SET3	
+ENCORE	Not Fade Away [8:00] ; Knockin' On Heaven's Door [7:02] (2)
+COMMENTS	(1) with Spencer Davis (2) with Bob Dylan 
+		(3) { spacey o1 jam [2:22] verse 1 [0:38] theme [1:44]
+			verse 2 [0:39] outro [1:53] }
+RECORDING	SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), cweber@ksu.edu 
+
+BAND	Grateful Dead
+DATE	03/27/89
+BAND  Grateful Dead
+DATE  03/27/89
+VENUE  The Omni
+CITY  Atlanta
+STATE  GA
+SET1  Mississippi Half-Step Uptown Toodleloo [8:26] ~ Walkin' Blues 
+[6:52] ; [1:11] ; Built To Last [4:09] % We Can Run [4:33] ; Queen Jane 
+Approximately [6:20] % Candyman [6:23] % Cassidy [6:58] ; Touch Of Gray 
+[6:04] 
+SET2  Scarlet Begonias [9:04] > Fire On The Mountain [10:45] ; 
+Estimated Prophet [10:42] > Eyes Of The World [8:46] > Drums (1) [9:#31] 
+; Space [7:38] > The Wheel [4:58] > I Need A Miracle [4:08] > Standing On 
+the Moon [6:20] ~ Turn On Your Lovelight [7:59]
+SET3
+ENCORE  U.S. Blues [5:20]
+COMMENTS  (1) 0:17 secs of 'dead air' between Drums and Space
+RECORDING   160 A?.  The complete show circulates in good AUD.  Minor 
+splice (tape flip) in Drums.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings), <cweber@ksu.edu>
+
+BAND	Grateful Dead
+DATE	03/28/89
+VENUE	The Omni
+CITY	Atlanta
+STATE	GA
+SET1 Let The Good Times Roll [3:42] ~ Franklin's Tower [9:24] > Feel Like A
+Stranger [7:20] ; Stagger Lee [5:11] ; Stuck In Mobile With The Memphis Blues
+Again [8:24] % Ramble On Rose [6:50] % Let It Grow [11:09] ~ Don't Ease 
+Me In
+[3:13]
+SET2  Samson and Delilah [6:14] ; Ship of Fools [6:45] ; Playing In The Band
+(1) [13:01] ; Foolish Heart [7:55] > Drums [9:04] > Space (2) [12:#43] > 
+Gimme
+Some Lovin' [6:01] ~ Wharf Rat [9:28] > Throwing Stones [8:43] > Not Fade 
+Away
+(3) [7:58]
+SET3
+ENCORE  Box Of Rain [5:11]
+COMMENTS  (1) {Playing In The Band [2:50] > Playing In The Band Jam 
+[7:57] >
+Playing In The Band Reprise [2:14]} * (2) {Space with drums [0:#59] > Space
+[5:47] > Space with drums [5:57]} * (3) {Not Fade Away [6:23] > Weir 
+keeps NFA
+rhythm with crowd [1:35]}
+RECORDING  160 A?.  The complete show circulates in good AUD.  Minor splice
+(tape flip) in Space.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings)
+
+BAND  Grateful Dead
+DATE  03/30/89
+VENUE  Greensboro Coliseum
+CITY  Greensboro
+STATE  NC
+SET1  Bertha [#3:59] ~ Jack Straw [5:41] ; [2:18] ; Row Jimmy [10:28] ; 
+[2:11]
+; Blow Away [7:21] ; When I Paint My Masterpiece [4:48] % Bird Song 
+[11:36] ;
+The Promised Land [4:12]
+SET2  China Cat Sunflower [4:46] > I Know You Rider [5:50] ; Looks Like Rain
+[8:10] ~ He's Gone [10:46] > Jam [4:18] > Drums [0:19#] ; Space [#0:25] > 
+The
+Other One (1) [9:36] > Stella Blue [8:36] ~ Sugar Magnolia (2) [8:06]
+SET3
+ENCORE  Knockin' On Heaven's Door [6:35]
+COMMENTS  (1) {Other One-ish Jam [3:53] > The Other One [5:43]} * (2) {Sugar
+Magnolia [5:00] ; [0:11] ; Sunshine Daydream [2:55]}
+RECORDINGS  140 MS.  The complete show, except most of Drums and Space,
+circulates in fair quality Matrix SBD.  Possibly specific to my lineage, the
+beginning of Bertha is clipped.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings) 
+
+BAND  Grateful Dead
+DATE  03/31/89
+VENUE  Greensboro Coliseum
+CITY  Greensboro
+STATE  NC
+SET1  Hell In A Bucket ; Sugaree [#7:01] ; New Minglewood Blues [] ; Peggy-O
+[5:57] % Me And My Uncle [3:01] > Big River [5:06] % Loser [6:39] % 
+Victim Or
+The Crime [#4:53] ; Standing On the Moon [7:41]
+SET2  Hey Pocky Away [5:32] ~ Truckin' [6:29] > Terrapin Station [11:32] 
+> Jam
+[4:20] > Drums [1:37#] ; Space [#0:51] > I Will Take You Home [3:42] ; 
+All
+Along The Watchtower [4:57] > Morning Dew [11:16] ~ Good Lovin' [6:28]
+SET3
+ENCORE  Brokedown Palace [5:07]
+COMMENTS
+RECORDINGS  140 MS.  The complete show circulates in fair quality 
+Matrix SBD.
+Possibly specific to my lineage, Hell In A Bucket and most of Drums and 
+Space
+are missing and Sugaree is clipped.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings)	 
+
+BAND	Grateful Dead
+DATE	04/02/89
+VENUE	Pittsburgh Civic Arena
+CITY	Pittsburgh
+STATE	PA
+SET1	Iko Iko ; Little Red Rooster ; Dire Wolf ; It's All Over Now ; We Can Run ; Brown Eyed Women ; Queen Jane Approximately ; Tennessee Jed ; The Music Never Stopped
+SET2     Shakedown Street [11:25] ~ Man Smart, Woman Smarter [8:09] ~ 
+Foolish     
+Heart [7:38] > Drums [4:31#] ; The Wheel ; Dear Mr. Fantasy ; Hey Jude ; 
+Around and 
+Around ; Goin' Down The Road Feeling Bad ; Turn On Your Lovelight SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	180 AUD.
+CONTRIBUTORS	(Stack O Dead),  <htj@geocities.com> (Thayer Jennings)
+
+BAND	Grateful Dead
+DATE	04/03/89
+VENUE	Pittsburgh Civic Arena
+CITY	Pittsburgh
+STATE	PA
+SET1	Greatest Story Ever Told ; Bertha ; Walkin' Blues ; Jack-A-Roe ; El Paso ; Built To Last ; Victim Or The Crime ; Just Like Tom Thumb's Blues ; Don't Ease Me In
+SET2	Blow Away ; Estimated Prophet ; Crazy Fingers ; Uncle John's Band ; Drums ; Gimme Some Lovin' ; I Need A Miracle ; Stella Blue ; Sugar Magnolia
+SET3	
+ENCORE	Johnny B. Goode ; Black Muddy River
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/05/89
+VENUE	Chrysler Arena (U of Michigan)
+CITY	Ann Arbor
+STATE	MI
+SET1	Stagger Lee ; Franklin's Tower ; New Minglewood Blues ; Candyman ; Stuck In Mobile With The Memphis Blues Again ; Far From Me ; Dupree's Diamond Blues ; Let It Grow ; U.S. Blues
+SET2	Samson and Delilah ; Cumberland Blues ; Man Smart, Woman Smarter ; Terrapin Station ; Drums ; China Doll ; Throwing Stones ; Not Fade Away
+SET3	
+ENCORE	The Mighty Quinn (Quinn The Eskimo)
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/06/89
+VENUE	Chrysler Arena (U of Michigan)
+CITY	Ann Arbor
+STATE	MI
+SET1	Touch Of Gray ; Little Red Rooster ; Brown Eyed Women ; Mama Tried ; Althea ; When I Paint My Masterpiece ; Bird Song ; The Promised Land
+SET2	Scarlet Begonias ; Fire On The Mountain ; Playing In The Band ; Built To Last ; Drums ; I Will Take You Home ; The Other One ; Wharf Rat ; Around and Around ; Playing In The Band Reprise
+SET3	
+ENCORE	Brokedown Palace
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/08/89
+VENUE	River Bend Music Center
+CITY	Cincinnati
+STATE	OH
+SET1	Let The Good Times Roll ; Wang Dang Doodle ; West L.A. Fadeaway ; Blow Away ; Queen Jane Approximately ; Loser ; Cassidy ; Don't Ease Me In
+SET2	China Cat Sunflower ; I Know You Rider ; Looks Like Rain ; Eyes Of The World ; Drums ; The Wheel ; Dear Mr. Fantasy ; Hey Jude ; I Need A Miracle ; Black Peter ; One More Saturday Night
+SET3	
+ENCORE	Box Of Rain
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/09/89
+VENUE	Freedom Hall
+CITY	Louisville
+STATE	KY
+SET1	Hell In A Bucket [6:25] ; Sugaree [9:17] ; Walkin' Blues [7:02] ;
+	It Must Have Been The Roses [5:25] ; Me And My Uncle [3:09] >
+	Big River [5:12] ; Ramble On Rose [6:26] ; Desolation Row [10:26] ;
+	Foolish Heart [7:50]
+SET2	Louie Louie [4:27] ; Man Smart, Woman Smarter [6:37] ; 
+	Ship of Fools [6:32] ; Estimated Prophet [11:09] >
+	Uncle John's Band [8:00] > Jam [1:39] > Drums [4:19#] > Space [#1:43] >
+	The Other One [6:53] (1) > Stella Blue [8:01] >
+	Sugar Magnolia [8:26] (2)
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	(1) { o1ish jam [0:40] theme [1:21] verse 1 [0:36] theme [2:03]
+			verse 2 [0:38] theme [1:35] }
+		(2) { Sugar Magnolia [5:33] stop [0:07] Sunshine Daydream [2:46] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	04/11/89
+VENUE	Rosemont Horizon
+CITY	Chicago
+STATE	IL
+SET1	Shakedown Street ; Little Red Rooster ; Friend Of The Devil ; Victim Or The Crime ; Built To Last ; We Can Run ; Stuck In Mobile With The Memphis Blues Again ; Deal
+SET2	Samson and Delilah ; Crazy Fingers ; Playing In The Band ; Terrapin Station ; Drums ; Gimme Some Lovin' ; Standing On the Moon ; Throwing Stones ; Not Fade Away
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/12/89
+VENUE	Rosemont Horizon
+CITY	Chicago
+STATE	IL
+SET1	Jack Straw ; Row Jimmy ; New Minglewood Blues ; Tennessee Jed ; When I Paint My Masterpiece ; Cumberland Blues ; Let It Grow
+SET2	Touch Of Gray ; Truckin' ; Smokestack Lightnin' ; Spoonful ; Smokestack Lightnin' ; He's Gone ; Drums ; I Will Take You Home ; All Along The Watchtower ; Wharf Rat ; Turn On Your Lovelight
+SET3	
+ENCORE	Black Muddy River
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/13/89
+VENUE	Rosemont Horizon
+CITY	Chicago
+STATE	IL
+SET1	Iko Iko ; Greatest Story Ever Told ; Peggy-O ; It's All Over Now ; To Lay Me Down ; Cassidy ; Don't Ease Me In
+SET2	Foolish Heart ; Looks Like Rain ; Eyes Of The World ; Drums ; The Wheel ; I Need A Miracle ; Dear Mr. Fantasy ; Hey Jude ; Goin' Down The Road Feeling Bad ; Good Lovin'
+SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/15/89
+VENUE	Mecca
+CITY	Milwaukee
+STATE	WI
+SET1	Mississippi Half-Step Uptown Toodleloo ; Feel Like A Stranger ; Franklin's Tower ; Walkin' Blues ; When Push Comes To Shove ; Queen Jane Approximately ; Blow Away ; The Promised Land
+SET2	China Cat Sunflower ; I Know You Rider ; Playing In The Band ; Drums ; I Will Take You Home ; All Along The Watchtower ; Morning Dew
+SET3	
+ENCORE	One More Saturday Night
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/16/89
+VENUE	Mecca
+CITY	Milwaukee
+STATE	WI
+SET1	Hell In A Bucket ; They Love Each Other ; Little Red Rooster ; Stagger Lee ; Mama Tried ; Mexicali Blues ; Bird Song
+SET2	Scarlet Begonias ; Fire On The Mountain ; Saint Of Circumstance ; Truckin' ; Drums ; The Other One ; Stella Blue ; Throwing Stones ; Turn On Your Lovelight
+SET3	
+ENCORE	Box Of Rain
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/17/89
+VENUE	Assembly Hall (Indiana U)
+CITY	Bloomington
+STATE	IN
+SET1	Iko Iko ; New Minglewood Blues ; Row Jimmy ; Far From Me ; Built To Last ; Victim Or The Crime ; Bertha
+SET2	Cold Rain & Snow ; Samson and Delilah ; Crazy Fingers ; Estimated Prophet ; Eyes Of The World ; Drums ; The Wheel ; Gimme Some Lovin' ; Wharf Rat ; Not Fade Away
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/28/89
+VENUE	Irvine Meadows Amphitheater
+CITY	Laguna Hills
+STATE	CA
+SET1	Cold Rain & Snow ; Little Red Rooster ; Peggy-O ; Queen Jane Approximately ; Just A Little Light ; Ramble On Rose ; Picasso Moon ; Bird Song
+SET2	Crazy Fingers ; Playing In The Band ; Uncle John's Band ; Terrapin Station ; Drums ; The Wheel ; I Need A Miracle ; Standing On the Moon ; Sugar Magnolia ; Touch Of Gray
+SET3	
+ENCORE	The Mighty Quinn
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/29/89
+VENUE	Irvine Meadows Amphitheater
+CITY	Laguna Hills
+STATE	CA
+SET1	Hell In A Bucket ; Sugaree ; Walkin' Blues ; Brown Eyed Women ; Stuck In Mobile With The Memphis Blues Again ; Built To Last ; Blow Away ; One More Saturday Night
+SET2	China Cat Sunflower ; I Know You Rider ; Looks Like Rain ; He's Gone ; Spoonful ; Drums ; I Will Take You Home ; The Other One ; Wharf Rat ; Throwing Stones ; Turn On Your Lovelight
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	04/30/89
+VENUE	Irvine Meadows Amphitheater
+CITY	Laguna Hills
+STATE	CA
+SET1	Mississippi Half-Step Uptown Toodleloo ; Wang Dang Doodle ; Stagger Lee ; When I Paint My Masterpiece ; We Can Run ; Picasso Moon ; Deal
+SET2	Box Of Rain ; Iko Iko ; Estimated Prophet ; Eyes Of The World ; Drums ; Truckin' ; Gimme Some Lovin' ; Stella Blue ; Around and Around
+SET3	
+ENCORE	Good Lovin' ; It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	05/06/89
+VENUE	Frost Amphitheater (Stanford U)
+CITY	Palo Alto
+STATE	CA
+SET1	Jack Straw [5:14] ; Peggy-O [5:38] ; Walkin' Blues [6:26] ;
+	They Love Each Other [5:46] ; The Race is On [2:45] ;
+	West L.A. Fadeaway [6:18] % Just A Little Light [4:23] ;
+	Queen Jane Approximately [5:10] ; China Cat Sunflower [6:00] >
+	I Know You Rider [5:30]
+SET2	Let The Good Times Roll [3:24] ; Hey Pocky Away [5:46] ;
+	Samson and Delilah [6:07] ; Ship of Fools [7:04] ;
+	Playing In The Band [8:19] > Eyes Of The World [7:32] > Drums [8:#44] >
+	Space [6:58] > I Will Take You Home [4:04] ; The Wheel [4:00] >
+	I Need A Miracle [4:06] > Wharf Rat [9:48] > Around and Around [3:45] >
+	Not Fade Away [6:46]
+SET3	
+ENCORE	Black Muddy River [5:35]
+COMMENTS	
+RECORDING	FM 180 (KZSU)
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	05/07/89
+VENUE	Frost Amphitheater (Stanford U)
+CITY	Palo Alto
+STATE	CA
+SET1	Iko Iko [6:15] ; Little Red Rooster ; Bertha [6:28] ; [2:49] ; 
+	Me And My Uncle [2:40] > Mexicali Blues [3:54] ; Built To Last [4:20] ;
+	Picasso Moon [5:29] ; Bird Song [10:58]
+SET2	Foolish Heart [8:57] > Victim Or The Crime [5:47] ; 
+	Crazy Fingers [7:34] > Man Smart, Woman Smarter [6:39] > 
+	He's Gone [12:41] > Drums [8:#02] > Space [7:52] > 
+	The Other One [5:40] (1) > Black Peter [9:02] > 
+	Turn On Your Lovelight [6:19]
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	(1) { theme [1:15] verse 1 [0:36] theme [2:52] verse 2 [0:35] 
+			outro [0:22] }
+RECORDING	FM 180 (KZSU; all copies missing encore?)
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	05/27/89
+VENUE	Oakland Stadium
+CITY	Oakland
+STATE	CA
+SET1	Touch Of Gray ; Greatest Story Ever Told ; Althea ; Walkin' Blues ; Iko Iko ; Stuck In Mobile With The Memphis Blues Again ; Bird Song ; The Promised Land
+SET2	Hell In A Bucket ; Fire On The Mountain ; Blow Away ; Truckin' ; Drums ; I Will Take You Home ; The Other One ; Wharf Rat ; Turn On Your Lovelight
+SET3	
+ENCORE	Brokedown Palace
+COMMENTS	Concert Against Aids
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	06/18/89
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Foolish Heart ; Jack Straw ; Alabama Getaway ; Queen Jane Approximately ; Cold Rain & Snow ; Little Red Rooster ; Hey Pocky Away ; Iko Iko
+SET2	Samson and Delilah ; Cumberland Blues ; Saint Of Circumstance ; He's Gone ; Drums ; The Wheel ; I Need A Miracle ; Stella Blue
+SET3	
+ENCORE	Around and Around ; Good Lovin' ; U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	06/19/89
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Feel Like A Stranger ; Franklin's Tower ; Walkin' Blues ; Candyman ; We Can Run ; When Push Comes To Shove ; Stuck In Mobile With The Memphis Blues Again ; Bird Song
+SET2	China Cat Sunflower ; I Know You Rider ; Playing In The Band ; Crazy Fingers ; Playing In The Band Reprise ; Drums ; I Will Take You Home ; All Along The Watchtower ; Black Peter ; Throwing Stones ; Not Fade Away
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	06/21/89
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Jam [0:47] ; Hide Away [1:39] ; Touch Of Gray [6:10] ;
+	New Minglewood Blues [7:04] ; Ramble On Rose [6:00] ;
+	Box Of Rain [4:47] ; Dire Wolf [#3:07] ;
+	When I Paint My Masterpiece [5:07] ; Row Jimmy [9:55] ;
+	Cassidy [6:20] ; Deal [10:16]
+SET2	Scarlet Begonias [7:46] > Hell In A Bucket [5:44] (1) ;
+	Ship of Fools [7:44] (1) ; Estimated Prophet [10:14] (1) >
+	Eyes Of The World [12:40] (1) > Drums [#9:52] > Space [15:02] >
+	Truckin' [6:51] (1) > The Other One [5:16] (1,2) > 
+	Morning Dew [11:#42] (1,3) ~ Turn On Your Lovelight [8:12] (1) 
+SET3	
+ENCORE	Brokedown Palace [5:23#]
+COMMENTS	(1) with Clarence Clemmons
+		(2) { theme [1:12] verse 1 [0:40] theme [2:26] verse 2 [0:37]
+			outro [0:21] }
+		(3) Morning Dew timing from 2 different tapes, one of
+			which had the last 3 minutes cut and one of
+			which had a 1 minute cut in one of the
+			early verses, so the time should be
+			complete and correct
+RECORDING	FM 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND  Garcia, Weir and Los Lobos
+DATE  07/02/89
+VENUE  Sullivan Stadium Parking Lot
+CITY  Foxboro
+STATE  MA
+SET1  This Land Is Your Land (1) [9:31] ; Come On Baby Let The Good Times 
+Roll
+[0:52] ; Sittin' On Top Of The World [2:48] ; This Land Is Your Land (2) 
+[5:49]
+SET2
+SET3
+ENCORE
+COMMENTS  This acoustic rehearsal took place in the 'backstage' parking 
+lot of
+Sullivan Stadium before the show.  (From the position of the sun and the
+complaints about the heat, I'd estimate it was early afternoon.) * (1) 
+Multiple
+takes (approximately seven) of This Land Is Your Land {[0:20] ; [#0:19] ;
+[1:53] ; [0:28] ; [#0:24] ; [1:28] ; [2:47]} * (2) Two takes of This Land Is
+Your Land {[#1:55] ; [3:06]}
+RECORDINGS  20 HiFiVHS.  Pro-shot; two cameras.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings)
+ 
+BAND	 Grateful Dead 
+DATE	 07/02/89 
+VENUE	 Sullivan Stadium 
+CITY	Foxboro
+STATE	MA
+SET1	Playing In The Band ; Crazy Fingers ; Wang Dang Doodle ; We Can Run ; Tennessee Jed ; Queen Jane Approximately ; Cassidy ; Don't Ease Me In
+SET2	Friend Of The Devil ; Truckin' ; He's Gone ; Drums ; The Wheel ; Dear Mr. Fantasy ; Hey Jude ; Sugar Magnolia
+SET3	
+ENCORE	The Mighty Quinn
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	(Stack O Dead), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	07/04/89
+VENUE	Rich Stadium
+CITY	Orchard Park
+STATE	NY
+SET1	Bertha [6:40] > Greatest Story Ever Told [3:47] ;
+        Cold Rain & Snow [5:58] ; Walkin' Blues [6:14] ; Row Jimmy [9:38] ;
+        When I Paint My Masterpiece [5:0] % Stagger Lee [5:13] ;
+        Looks Like Rain [6:17] > Deal [7:06] 
+SET2	Touch Of Gray [5:41] ~ Man Smart, Woman Smarter [7:55] ;
+        Ship of Fools [7:22] > Playing In The Band Reprise [3:19] >
+        Terrapin Station [11:14] > Drums [8:#51] > Space [5:29] >
+        I Will Take You Home [4:11] > All Along The Watchtower [5:18] >
+        Morning Dew [10:25] ~ Not Fade Away [7:39]  
+SET3	
+ENCORE	U.S. Blues [5:26]
+COMMENTS	
+RECORDING	SBD 180, AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	07/07/89
+VENUE	JFK Stadium
+CITY	Philadelphia
+STATE	PA
+SET1	Hell In A Bucket [6:34] ; Iko Iko [7:13] ; Little Red Rooster [9:03] ;
+	Ramble On Rose [7:11] ;
+	Stuck In Mobile With The Memphis Blues Again [8:51] ;
+	Loser [7:14] ; Let It Grow [12:36] > Blow Away [12:29]
+SET2	Box Of Rain [4:37] > Scarlet Begonias [10:26] >
+	Fire On The Mountain [13:23] ; Estimated Prophet [9:18] >
+	Standing On the Moon [8:12] ; Drums [9:#30] > Space [6:53] >
+	The Other One [10:34] (1) > Wharf Rat [10:27] >
+	Turn On Your Lovelight [6:47]
+SET3	
+ENCORE	Knockin' On Heaven's Door [8:33]
+COMMENTS	Bruce Hornsby opened 
+	(1) { o1ish space [4:22] spacey jam [1:21] theme [0:44] verse 1 [0:38]
+		theme [1:59] verse 2 [0:39] outro [0:51] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	07/09/89
+VENUE	Giants Stadium
+CITY	East Rutherford
+STATE	NJ
+SET1	Shakedown Street [13:01] ; Jack Straw [5:39] ;
+        West L.A. Fadeaway [7:31] ; Victim Or The Crime [7:12] ;
+        Brown Eyed Women [5:24] ; Queen Jane Approximately [5:45] ;
+        Bird Song [11:17]  
+SET2	China Cat Sunflower [6:04] > I Know You Rider [6:21] ;
+        Samson and Delilah [7:20] ; Built To Last [5:20] ; Truckin' [7:54] >
+        Jam [2:57] > Drums [7:26] > Space [10:#26] >
+        Gimme Some Lovin' [5:09] > Goin' Down The Road Feeling Bad [6:35] >
+        Throwing Stones [10:12] > Not Fade Away [9:56] 
+SET3	
+ENCORE	Brokedown Palace [5:21]
+COMMENTS	Neville Brothers opened	
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), cweber@ksu.edu 
+(Chris Weber)
+
+BAND	Grateful Dead
+DATE	07/10/89
+VENUE	Giants Stadium
+CITY	East Rutherford
+STATE	NJ
+SET1	Feel Like A Stranger [7:22] ~ Franklin's Tower [8:57] ;
+        Walkin' Blues [6:18] ; Jack-A-Roe [4:23] ;
+        When I Paint My Masterpiece [5:36] % Tennessee Jed [8:17] ;
+        The Music Never Stopped [6:31] > Don't Ease Me In [3:27] 
+SET2	Foolish Heart [9:34] ; Just A Little Light [4:57] ;
+        Playing In The Band [6:29] > Uncle John's Band [8:58] > Jam [3:34] >
+        Drums [17:#18] (1) > Space [10:06] > Iko Iko [8:02] (1) >
+        All Along The Watchtower [5:39] (1) > Morning Dew [10:38] (1) ;
+        Sugar Magnolia [4:06#] (1)   
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	Neville Brothers opened (1) with members of the Neville Brothers
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), cweber@ksu.edu 
+(Chris Weber)
+
+BAND	Grateful Dead
+DATE	07/12/89
+VENUE	Robert F. Kennedy Stadium
+CITY	Washington
+STATE	DC
+SET1	Touch Of Gray ; New Minglewood Blues ; Mississippi Half-Step Uptown Toodleloo ; Just Like Tom Thumb's Blues ; Far From Me ; Cassidy ; Friend Of The Devil ; The Promised Land
+SET2	Sugaree ; Man Smart, Woman Smarter ; Ship of Fools ; Estimated Prophet ; Eyes Of The World ; Drums ; I Need A Miracle ; Dear Mr. Fantasy ; Black Peter ; Turn On Your Lovelight
+SET3	
+ENCORE	Black Muddy River
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	07/13/89
+VENUE	Robert F. Kennedy Stadium
+CITY	Washington
+STATE	DC
+SET1	Hell In A Bucket ; Cold Rain & Snow ; Little Red Rooster ; Tennessee Jed ; Stuck In Mobile With The Memphis Blues Again ; To Lay Me Down ; Let It Grow
+SET2	He's Gone ; Looks Like Rain ; Terrapin Station ; Drums ; I Will Take You Home ; The Other One ; Wharf Rat ; Throwing Stones ; Good Lovin'
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	07/15/89
+VENUE	Deer Creek Amphitheater
+CITY	Noblesville
+STATE	IN
+SET1	Bertha ; Greatest Story Ever Told ; Candyman ; Walkin' Blues ;
+        Peggy-O ; Queen Jane Approximately ; We Can Run ; Bird Song 
+SET2	Foolish Heart [9:49] > Victim Or The Crime [7:11] >
+        Crazy Fingers [8:46] > Truckin' [7:56] > Smokestack Lightnin' [7:24] >
+        Jam [2:15] > Drums [9:22] > Space [15:17] > China Doll [7:44] >
+        All Along The Watchtower [6:30] > Stella Blue [6:07#] ;
+        Sugar Magnolia  
+SET3	
+ENCORE	Brokedown Palace
+COMMENTS	
+RECORDING	SBD 90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), (stack-o-dead setlists)
+
+BAND	Grateful Dead
+DATE	07/17/89
+VENUE	Alpine Valley Music Theater
+CITY	East Troy
+STATE	WI
+SET1	Let The Good Times Roll ; Feel Like A Stranger ; Built To Last ; Me And My Uncle ; Cumberland Blues ; It's All Over Now ; Row Jimmy ; When I Paint My Masterpiece ; When Push Comes To Shove ; The Music Never Stopped
+SET2	[1:22:23] ; China Cat Sunflower 6:25 > I Know You Rider 6:00 ~ 
+Playing In The Band 8:29 > Uncle 
+John's Band 8:46 > Standing On the Moon 9:14 > Drums 10:41 ; [0:36], 
+Space 10:59 > The Wheel 4:36 > 
+Gimme Some Lovin' 4:28 > Goin' Down The Road Feeling Bad 6:14 > Not Fade 
+Away 9:55 SET3	 ENCORE	% And We Bid You Good Night 2:43 % Johnny B. 
+Goode #3:24 COMMENTS	
+RECORDING	SBD 180
+CONTRIBUTORS	(Stack O Dead), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	07/18/89
+VENUE	Alpine Valley Music Theater
+CITY	East Troy
+STATE	WI
+SET1	Tuning 0:11 ; Touch Of Gray 6:27 ~ Jack Straw 5:06; Jack-A-Roe 4:37; 
+New Minglewood Blues ; 
+Friend Of The Devil ; Stuck In Mobile With The Memphis Blues Again ; Bird Song ;
+ The Promised Land
+SET2	Sugar Magnolia ; Scarlet Begonias ; Man Smart, Woman Smarter ; Eyes 
+Of The World ; Drums ; China Doll ; Dear Mr. Fantasy ; Hey Jude ; Throwing 
+Stones ; Sunshine Daydream
+SET3	
+ENCORE	The Mighty Quinn
+COMMENTS	
+RECORDING 	SBD 180
+CONTRIBUTORS	(Stack O Dead), cweber@ksu.edu
+
+BAND  Grateful Dead
+DATE  07/19/89
+VENUE  Alpine Valley Music Theatre
+CITY  East Troy
+STATE  WI
+SET1  Hell In A Bucket (1) [6:37] ~ Sugaree [11:20] ; [1:58] ; Mama Tried
+[2:38] > Mexicali Blues [5:06] ; [1:10] ; Althea [7:45] ; [2:44] ; Victim Or
+The Crime (1) [7:20] ~ West L.A. Fadeaway [8:02] ; Desolation Row [11:57] >
+Deal [9:31]
+SET2  Box Of Rain [4:51] ~ Foolish Heart [11:45] > Looks Like Rain [8:49] ~
+Terrapin [15:19] > Drums [10:16] > Space (3) [10:05] > The Other One 
+[7:46] >
+The Wheel [4:06] > Morning Dew [11:58]
+SET3
+ENCORE  Turn On Your Lovelight [7:20]
+COMMENTS (1) ??? Tuning before Hell In A Bucket * (2) ??? Tuning before 
+Victim
+Or The Crime * (3) {Space with drums [1:08] > Space [8:57]}
+RECORDINGS  200 HiFiVHS.  The complete show circulates in good quality 
+Pro-shot
+video (audio from SBD). 180 SBD.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	08/04/89
+VENUE	Cal Expo Amphitheater
+CITY	Sacramento
+STATE	CA
+SET1	Bertha ; Greatest Story Ever Told ; Althea ; Mama Tried ; Mexicali Blues ; Let The Good Times Roll ; Built To Last ; Queen Jane Approximately ; Jack-A-Roe ; Cassidy ; Deal
+SET2	Truckin' [#7:07] > Wang Dang Doodle [4:19] >
+        Crazy Fingers [9:09] > Cumberland Blues [5:23] >
+        Eyes Of The World [9:16] > Drums [5:48] > Space [8:#12] >
+        The Wheel [3:56] > I Need A Miracle [4:01] > Stella Blue [7:51] >
+        Sugar Magnolia [9:09]  
+SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	SBD 90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	08/05/89
+VENUE	Cal Expo Amphitheater
+CITY	Sacramento
+STATE	CA
+SET1	One More Saturday Night ; Cold Rain & Snow ; We Can Run ; Stagger Lee ; Stuck In Mobile With The Memphis Blues Again ; Row Jimmy ; Let It Grow
+SET2	Hey Pocky Away ; Playing In The Band ; I Know You Rider ; Terrapin Station ; Drums ; Standing On the Moon ; Throwing Stones ; Not Fade Away
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	08/06/89
+VENUE	Cal Expo Amphitheater
+CITY	Sacramento
+STATE	CA
+SET1	Let The Good Times Roll [3:55] ;
+        Feel Like A Stranger [7:39] ~ Franklin's Tower [7:51] ;
+        Walkin' Blues [6:09] ; Ramble On Rose [7:45] ;
+        When I Paint My Masterpiece [5:04] % Bird Song [11:59] 
+SET2	Scarlet Begonias [8:50] > Fire On The Mountain [12:37] ;
+        Samson and Delilah [6:27] % Ship of Fools [7:29] ;
+        Man Smart, Woman Smarter [8:13] > Drums [8:49] > Space [7:33] >
+        I Will Take You Home [3:53] > The Other One [9:13] >
+        Wharf Rat [9:39] > Turn On Your Lovelight [6:08] 
+SET3	
+ENCORE	Johnny B. Goode [3:24] > And We Bid You Good Night [2:29]
+COMMENTS	(1) { theme [1:21] verse 1 [0:40] theme [5:23] verse 2 [0:35]
+			outro [1:14] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	08/17/89
+VENUE	Greek Theater (UC Berkeley)
+CITY	Berkeley
+STATE	CA
+SET1	Hell In A Bucket [6:10] ; Sugaree [9:35] ; Walkin' Blues [2:58] ;
+        Jack-A-Roe [4:08] ; Queen Jane Approximately [5:52] %
+        Candyman [6:24] ; The Music Never Stopped [6:55] >
+        Don't Ease Me In [3:13]  
+SET2	Touch Of Gray [6:25] > Man Smart, Woman Smarter [7:52] ;
+        Ship of Fools [7:58] ; Estimated Prophet > Eyes Of The World > Drums >
+        Space > The Wheel > Gimme Some Lovin' >
+        Goin' Down The Road Feeling Bad > Good Lovin' 
+SET3	
+ENCORE	The Mighty Quinn
+COMMENTS	
+RECORDING	FM 180 (KPFA)
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	08/18/89
+VENUE	Greek Theater (UC Berkeley)
+CITY	Berkeley
+STATE	CA
+SET1	Cold Rain & Snow [6:11] ; New Minglewood Blues [7:21] ;
+	Row Jimmy [9:07] ; When I Paint My Masterpiece [5:02] ;
+	Built To Last [4:39] ; Victim Or The Crime [6:01] ; Bird Song [11:23] ;
+	The Promised Land [4:23]
+SET2	Iko Iko [5:52] ; Looks Like Rain [8:45] ; Terrapin Station [12:13] >
+	Drums [12:46] > Space [8:32] > Crazy Fingers [8:49] >
+	I Need A Miracle [4:35] > Stella Blue [8:43] > Throwing Stones [8:39] >
+	Turn On Your Lovelight [6:22]
+SET3	
+ENCORE	Black Muddy River [6:09] ; And We Bid You Good Night [2:30] (1)
+COMMENTS	(1) And We Bid You Good Night was a second encore
+RECORDING	FM 180 (KPFA)
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	08/19/89
+VENUE	Greek Theater (UC Berkeley)
+CITY	Berkeley
+STATE	CA
+SET1	Let The Good Times Roll [3:48] ; Jack Straw [4:59] ;
+        We Can Run [5:09] ; Tennessee Jed [7:46] ; It's All Over Now [7:19] ;
+        Loser [7:13] % Stuck In Mobile With The Memphis Blues Again [8:44] ;
+        Box Of Rain [4:31]  
+SET2	China Cat Sunflower [6:32] > I Know You Rider [5:58] ;
+        Playing In The Band [7:29] > Uncle John's Band [13:00] >
+        Drums [7:12] > Space [9:53] > The Other One [8:24] (1) >
+        Wharf Rat [8:58] > Not Fade Away [9:07] 
+SET3	
+ENCORE	Foolish Heart [8:34]
+COMMENTS	(1) { theme [1:55] verse 1 [0:39] theme [1:33] verse 2 [0:39]
+			theme [3:38] }
+RECORDING	FM 180 (KPFA)
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	09/29/89
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Let The Good Times Roll [4:03] ; Feel Like A Stranger [7:17] ;
+        Franklin's Tower [9:17] ; Wang Dang Doodle [5:59] ;
+        Jack-A-Roe [4:37] ;
+        Stuck In Mobile With The Memphis Blues Again [8:59] %
+        We Can Run [6:01] ; Bird Song [12:38] ; The Promised Land [4:22] 
+SET2	China Cat Sunflower [6:00] > I Know You Rider [5:39] ;
+        Blow Away [7:43] ; Playing In The Band [8:52] >
+        Terrapin Station [13:#43] > Drums [4:12#] % Space [#0:25] >
+        I Need A Miracle [4:44] > Death Don't Have No Mercy [6:41] >
+        Sugar Magnolia [8:28]  
+SET3	
+ENCORE	The Mighty Quinn [3:11]
+COMMENTS	
+RECORDING	SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	09/30/89
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Bertha ; Greatest Story Ever Told ; West L.A. Fadeaway ; Queen Jane Approximately ; Row Jimmy ; Let It Grow
+SET2	Iko Iko ; Estimated Prophet ; Truckin' ; Smokestack Lightnin' ; Drums ; I Will Take You Home ; The Wheel ; All Along The Watchtower ; Touch Of Gray
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	10/01/89
+VENUE	Shoreline Amphitheater
+CITY	Mountain View
+STATE	CA
+SET1	Jack Straw ; Ramble On Rose ; Walkin' Blues ; Built To Last ; When I Paint My Masterpiece ; Just A Little Light ; Cassidy ; Don't Ease Me In
+SET2	Hell In A Bucket ; Scarlet Begonias ; Man Smart, Woman Smarter ; He's Gone ; Drums ; The Other One ; Wharf Rat ; Turn On Your Lovelight
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	10/08/89
+VENUE	Hampton Coliseum
+CITY	Hampton
+STATE	VA
+SET1	Foolish Heart ; Walkin' Blues ; Candyman ; Me And My Uncle ; Big River ; Stagger Lee ; Queen Jane Approximately ; Bird Song ; The Promised Land
+SET2	Help On The Way [3:26] > Slipknot! [5:18] >
+        Franklin's Tower [7:52] ; Victim Or The Crime [8:01] >
+        Eyes Of The World [8:57] > Drums [10:11] > Space [7:#48] >
+        I Need A Miracle [4:42] > The Wheel [4:07] >
+        Gimme Some Lovin' [4:22] > Morning Dew [11:34] 
+SET3	
+ENCORE	And We Bid You Good Night [2:27]
+COMMENTS	
+RECORDING	SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/09/89
+VENUE	Hampton Coliseum
+CITY	Hampton
+STATE	VA
+SET1	Feel Like A Stranger [7:09] ; Built To Last [4:14] ;
+        Little Red Rooster [7:40] ; Ramble On Rose [6:23] ;
+        We Can Run [5:34] ; Jack-A-Roe [4:14] %
+        Stuck In Mobile With The Memphis Blues Again [8:20] ;
+        Row Jimmy [10:13] ; The Music Never Stopped [7:40] 
+SET2	Playing In The Band [10:35] > Uncle John's Band [10:22] >
+        Playing In The Band Reprise [3:38] > Dark Star [18:#27] >
+        Drums [9:22] > Space [7:05] > Death Don't Have No Mercy [8:18] >
+        Dear Mr. Fantasy [4:43] > Hey Jude Reprise [3:25] >
+        Throwing Stones [9:#59] > Good Lovin' [6:35] 
+SET3	
+ENCORE	Attics Of My Life [5:03]
+COMMENTS	
+RECORDING	AUD 180, SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/11/89
+VENUE	Brendan Byrne Arena
+CITY	East Rutherford
+STATE	NJ
+SET1	Let The Good Times Roll ; Bertha ; Greatest Story Ever Told ; Loser ; When I Paint My Masterpiece ; Althea ; Just A Little Light ; Don't Ease Me In
+SET2	China Cat Sunflower ; I Know You Rider ; Estimated Prophet ; Terrapin Station ; Drums ; The Wheel ; All Along The Watchtower ; Black Peter ; Turn On Your Lovelight
+SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	10/12/89
+VENUE	Brendan Byrne Arena
+CITY	East Rutherford
+STATE	NJ
+SET1	Hell In A Bucket ; Sugaree ; Blow Away ; Tennessee Jed ; Queen Jane Approximately ; Bird Song ; Jack Straw
+SET2	Hey Pocky Away ; Cumberland Blues ; Looks Like Rain ; He's Gone ; Drums ; The Other One ; Wharf Rat ; Sugar Magnolia
+SET3	
+ENCORE	Brokedown Palace
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead)
+
+BAND  Garcia and Weir with the Late Night Band
+DATE  10/13/89
+VENUE  NBC Studios
+CITY  New York
+STATE  NY
+SET1  Second That Emotion [3:42]
+SET2
+SET3
+ENCORE
+COMMENTS  "The David Letterman Show"
+RECORDINGS   5 TV-SBD.
+CONTRIBUTORS  <htj@geocities.com> (Thayer Jennings)
+
+BAND	Grateful Dead
+DATE	10/14/89
+VENUE	Brendan Byrne Arena
+CITY	East Rutherford
+STATE	NJ
+SET1	Touch Of Gray ; New Minglewood Blues ; We Can Run ; Friend Of The Devil ; Mama Tried ; Mexicali Blues ; Help On The Way ; Slipknot! ; Franklin's Tower
+SET2	Foolish Heart ; Man Smart, Woman Smarter ; Scarlet Begonias ; Truckin' ; Drums ; China Doll ; One More Saturday Night
+SET3	
+ENCORE	Black Muddy River
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	(Stack O Dead)
+
+BAND	Grateful Dead
+DATE	10/15/89
+VENUE	Brendan Byrne Arena
+CITY	East Rutherford
+STATE	NJ
+SET1	Let The Good Times Roll [3:36] ; Iko Iko [7:09] ;
+        Walkin' Blues [5:44] ; Far From Me [4:02] ; Row Jimmy [9:34] %
+        Victim Or The Crime [8:01] > Standing On the Moon [7:22] 
+SET2	Samson and Delilah [6:33] ; Just A Little Light [4:27] ;
+        Crazy Fingers [8:18] > Estimated Prophet [12:11] >
+        Eyes Of The World [9:24] > Drums [8:#31] > Space [10:26] >
+        Stella Blue [7:44]> Throwing Stones [8:51] > Not Fade Away [8:09] 
+SET3	
+ENCORE	Not Fade Away Jam [2:34] ; Box Of Rain [4:41]
+COMMENTS	
+RECORDING	SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/16/89
+VENUE	Brendan Byrne Arena
+CITY	East Rutherford
+STATE	NJ
+SET1	Picasso Moon [6:44] ; Mississippi Half-Step Uptown Toodleloo [6:332] ;
+	Feel Like A Stranger [7:08] ; Never Trust A Woman [6:24] ; [2:27] ;
+	Built To Last [4:38] ;
+	Stuck In Mobile With The Memphis Blues Again [8:46] ;
+	Let It Grow [11:55] ; Deal [8:20]
+SET2	Dark Star [10:42] (1) > Playing In The Band [7:27] >
+       	Uncle John's Band [8:53] > Playing In The Band Jam [8:31] >
+        Drums [6:21] > Space [4:#22] > I Will Take You Home [4:10] >
+        I Need A Miracle [3:47] > Dark Star [5:06] (2) >
+        Attics Of My Life [4:23] > 
+	Playing In The Band Reprise [3:03]
+SET3	
+ENCORE	And We Bid You Good Night
+COMMENTS	(1) { theme [5:12] verse 1 [0:52] theme [4:38] } 
+		(2) { theme [3:33] verse 2 [1:04] theme [0:29] }
+RECORDING	SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/18/89
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+SET1	Shakedown Street [13:06] ; Little Red Rooster [8:35] ;
+        Peggy-O [6:52] % Queen Jane Approximately [6:07] ; Bird Song [13:28] ;
+        The Music Never Stopped [6:22]  
+SET2	China Cat Sunflower [5:46] > I Know You Rider [5:52] %
+        Ship of Fools [7:54] ; Man Smart, Woman Smarter [7:27] >
+        Terrapin Station [13:26] > Jam [4:14] > Drums [7:28] > Space [7:25] >
+        Gimme Some Lovin' [4:28] > All Along The Watchtower [6:15] >
+        Black Peter [9:48] > Around and Around [3:43] > Good Lovin' [6:03] 
+SET3	
+ENCORE	U.S. Blues [5:18]
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/19/89
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+SET1	Hell In A Bucket ; West L.A. Fadeaway ; Victim Or The Crime ; Built To Last ; Blow Away ; When I Paint My Masterpiece ; Cumberland Blues ; Cassidy ; Don't Ease Me In
+SET2	Help On The Way [3:50] > Slipknot! [5:37] > Franklin's Tower [8:27] ;
+	Estimated Prophet [12:12] > Eyes Of The World [9:44] > Drums [11:#15] >
+	Space [9:13] > The Wheel [4:54] > Dear Mr. Fantasy [7:28] > 
+	Hey Jude Reprise [2:11] > Death Don't Have No Mercy [5:24] >
+	Turn On Your Lovelight [5:23]
+SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	AUD 100
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/20/89
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+SET1	Touch Of Gray [6:19] ~ Greatest Story Ever Told [4:10] ;
+        Candyman [6:44] ; Picasso Moon [7:26] ; Just A Little Light [4:44] %
+        Tennessee Jed ; Stuck In Mobile With The Memphis Blues Again [8:56] ;
+        Stagger Lee [5:39] ; The Promised Land [4:27] ;
+        California Earthquake [5:50]  
+SET2	Hey Pocky Away [6:48] ; Scarlet Begonias [10:03] >
+        Fire On The Mountain [13:44] ; Truckin' [7:07] >
+        The Other One Jam [14:33] (1) > Drums [10:#35] > Space [11:00] >
+        I Will Take You Home [5:06] > The Other One [11:11] (2) >
+        Wharf Rat [10:26] ; Sugar Magnolia [5:52#] 
+SET3	
+ENCORE	Brokedown Palace
+COMMENTS	(1) { theme [5:12] space [4:24] theme [0:32] space [0:33]
+			theme [0:36] space [2:14] spacey jam [0:45] 
+			space [0:17] }
+		(2) { theme [3:02] verse 1 [0:41] theme [5:22] verse 2 [0:43]
+			theme [1:23] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/22/89
+VENUE	Charlotte Coliseum
+CITY	Charlotte
+STATE	NC
+SET1	Foolish Heart [8:03] ; New Minglewood Blues [7:28] ;
+        Mississippi Half-Step Uptown Toodleloo [5:56] ;
+        Queen Jane Approximately [6:00] ; Ramble On Rose [6:47] ;
+        Beat It On Down The Line [3:13] ; Bird Song [14:12] ;
+        Johnny B. Goode [3:55]  
+SET2	Blow Away [10:00] ; Samson and Delilah [6:20] ;
+        Help On The Way [3:44] > Slipknot! [6:33] > Franklin's Tower [9:40] >
+        Jam [7:#17] > Drums [5:55] > Space [8:43] > I Need A Miracle [4:04] >
+        Stella Blue [8:36] > Throwing Stones [9:11] > Not Fade Away [7:51#] 
+SET3	
+ENCORE	Black Muddy River [5:53]
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/23/89
+VENUE	Charlotte Coliseum
+CITY	Charlotte
+STATE	NC
+SET1	California Earthquake [5:05] ; Feel Like A Stranger [7:19] ;
+        Loser [6:42] ; Walkin' Blues [5:24] ; Bertha [6:21] >
+        When I Paint My Masterpiece [5:05] % Tennessee Jed [7:15] ;
+        Let It Grow [12:09]  
+SET2	Touch Of Gray [6:10] ; Looks Like Rain [7:58] ;
+        We Can Run [6:28] ; Crazy Fingers [7:47] > Terrapin Station [13:55] %
+        Drums [#4:53] > Space [6:19] > I Will Take You Home [4:42] >
+        Goin' Down The Road Feeling Bad [7:13] > Standing On the Moon [8:29] >
+        Turn On Your Lovelight [6:33]  
+SET3	
+ENCORE	Attics Of My Life [5:18]
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/25/89
+VENUE	Miami Arena
+CITY	Miami
+STATE	FL
+SET1	Hell In A Bucket [5:51] ; Sugaree [10:10] ;
+	Just A Little Light [4:48] ; Friend Of The Devil [7:56] ; 
+	Stuck In Mobile With The Memphis Blues Again [8:38] ;
+	Cold Rain & Snow [6:18] ; Picasso Moon [6:27] ; Deal [8:57]
+SET2	Playing In The Band [10:07] > Uncle John's Band [12:01] > 
+	Playing In The Band Reprise [5:55] ; Standing On the Moon [8:05] >
+	Truckin' [7:47] > Jam [1:#30] > Drums [8:17] > Space [9:54] > 
+	Gimme Some Lovin' [4:59] > Wharf Rat [10:11] >
+	Sugar Magnolia [8:20] (1)
+SET3	
+ENCORE	U.S. Blues [5:13]
+COMMENTS	(1) { Sugar Magnolia [5:25] stop [0:02] Sunshine Daydream [2:53] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	10/26/89
+VENUE	Miami Arena
+CITY	Miami
+STATE	FL
+SET1	Foolish Heart [8:04] ; Little Red Rooster [7:59] ;
+        Stagger Lee [5:44] ; Me And My Uncle [2:39] > Big River [4:43] %
+        Brown Eyed Women [4:40] ; Victim Or The Crime [7:32] >
+        Don't Ease Me In [3:11] 
+SET2	Estimated Prophet [12:32] > Blow Away [9:58] ; 
+        Dark Star [26:#17] (1) > Drums [8:22] > Space [6:02] >
+        The Wheel [4:33] > All Along The Watchtower [5:06] >
+        Stella Blue [7:45] > Not Fade Away [7:07] 
+SET3	
+ENCORE	And We Bid You Good Night [2:07]
+COMMENTS	(1) { theme [2:02] verse 1 [1:05] theme/jam [10:14] 
+			verse 2 [1:03] theme/space [12:#53] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	12/06/89
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Shakedown Street ; Walkin' Blues ; Friend Of The Devil ; Queen Jane Approximately ; Jack-A-Roe ; Just A Little Light ; Victim Or The Crime ; Don't Ease Me In
+SET2	Scarlet Begonias [7:59] > Sugar Magnolia [2:50] ;
+        Ship of Fools [7:49] (1) > Terrapin Station [15:42] > Jam [7:38] >
+        Drums [4:27#] ; Space [#2:30] (1) > The Wheel [5:17] (1) >
+        All Along The Watchtower [5:59] (1) >
+        Standing On the Moon [10:50] (1) ~ Sunshine Daydream [3:41] (1)  
+SET3	
+ENCORE	Black Muddy River [4:23] (1)
+COMMENTS	(1) with Clarence Clemmons; Earthquake Relief Benefit
+RECORDING	SBD 90
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	12/08/89
+VENUE	The Forum
+CITY	Inglewood
+STATE	CA
+SET1	Let The Good Times Roll ; Feel Like A Stranger ; Beat It On Down The Line ; Ramble On Rose ; Cassidy ; Blow Away
+SET2	Help On The Way ; Slipknot! ; Franklin's Tower ; Looks Like Rain ; He's Gone ; Drums ; I Will Take You Home ; The Other One ; Wharf Rat ; Throwing Stones ; Not Fade Away
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	12/09/89
+VENUE	The Forum
+CITY	Inglewood
+STATE	CA
+SET1	Touch Of Gray ; New Minglewood Blues ; Row Jimmy ; Mexicali Blues ; Cumberland Blues ; Bird Song ; One More Saturday Night
+SET2	Foolish Heart ; Playing In The Band ; Crazy Fingers ; Uncle John's Band ; Playing In The Band Reprise ; Drums ; Dear Mr. Fantasy ; Hey Jude ; Turn On Your Lovelight
+SET3	
+ENCORE	Knockin' On Heaven's Door
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	(Stack O Dead), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	12/10/89
+VENUE	The Forum
+CITY	Inglewood
+STATE	CA
+SET1	Hell In A Bucket [7:06] ; Sugaree [9:00] (1) ; We Can Run [6:00] ;
+        When I Paint My Masterpiece [5:02] ; Loser [6:55] ;
+        Victim Or The Crime [9:37] ; C. C. Rider [5:48] (2) ;
+        I'm A Man [4:34] (2)
+SET2	Jack Straw [5:31] > China Cat Sunflower [6:52] >
+        I Know You Rider [7:05] % Man Smart, Woman Smarter [8:31] >
+        Drums [12:20] > Space [7:21] > The Wheel [5:16] >
+        I Need A Miracle [4:53] > Stella Blue [9:07] > Good Lovin' [7:00] 
+SET3	
+ENCORE	It's All Over Now Baby Blue [6:09#]
+COMMENTS	(1) with Bruce Hornsby (2) with Spencer Davis
+RECORDING	SBD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick), cweber@ksu.edu
+
+BAND	Grateful Dead
+DATE	12/27/89
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Cold Rain & Snow [5:52] ; Greatest Story Ever Told [4:06] ;
+	Never Trust A Woman [5:54] ; Althea [6:58] ; Me And My Uncle [3:01] >
+	Big River [4:41] ; Just Like Tom Thumb's Blues [4:11] %
+	Bird Song [12:45] ; The Promised Land [4:19]
+SET2	Iko Iko [7:43] ; Playing In The Band [13:11] > Crazy Fingers [8:22] >
+	Uncle John's Band [8:40] > Drums [11:#05] > Space [8:20] >
+	The Wheel [5:01] > I Need A Miracle [3:49] > Morning Dew [11:41]
+SET3	
+ENCORE	Johnny B. Goode [3:49] ; Black Muddy River [5:55]
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	12/28/89
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Let The Good Times Roll [4:12] ; Feel Like A Stranger [8:02] ;
+	Dire Wolf [3:06] ; Little Red Rooster [8:34] ; Ramble On Rose [6:31] ;
+	Queen Jane Approximately [5:33] % Just A Little Light [6:35] ;
+	Let It Grow [11:01]
+SET2	Foolish Heart [8:43] > Looks Like Rain [8:10] ;
+	Eyes Of The World [10:42] > Drums [12:03] > Space [8:#46] >
+	Gimme Some Lovin' [5:12] > All Along The Watchtower [6:03] >
+	Stella Blue [7:34] > Turn On Your Lovelight [5:18]
+SET3	
+ENCORE	U.S. Blues [4:54]
+COMMENTS	
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	12/30/89
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Bertha [6:22] > Good Lovin' [4:02] > Sugaree [9:30] ;
+        Walkin' Blues [6:42] ; Jack-A-Roe [4:10] ;
+        When I Paint My Masterpiece [5:02] % West L.A. Fadeaway [6:58] ;
+        The Music Never Stopped [7:32]  
+SET2	Jack Straw [5:58] > China Cat Sunflower [5:26] >
+        I Know You Rider [5:12] ; Estimated Prophet [12:34] >
+        Terrapin Station [13:51] > Jam [1:51] % Drums [#11:#32] (1) >
+        Space [7:47] > I Will Take You Home [4:18] >
+	The Other One [10:18] (2) > Standing On the Moon [7:57] >
+	One More Saturday Night [4:02] 
+SET3	
+ENCORE	It's All Over Now Baby Blue [6:43]
+COMMENTS	(1) with Airto
+		(2) { theme [2:40] verse 1 [0:41] theme [5:02] verse 2 [0:40]
+			theme [1:15] }
+RECORDING	AUD 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+BAND	Grateful Dead
+DATE	12/31/89
+VENUE	Oakland Coliseum
+CITY	Oakland
+STATE	CA
+SET1	Sugar Magnolia [4:43] ; Touch Of Gray [6:31] ; 
+	Man Smart, Woman Smarter [8:41] ; Big Boss Man [5:00] (1) ; 
+	Stuck In Mobile With The Memphis Blues Again [8:24] ;
+	Shakedown Street [11:00]
+SET2	Iko Iko [6:28] ; Victim Or The Crime [8:40] > Dark Star [13:07] (2) >
+	Drums [12:16] > Space [6:16] > Dear Mr. Fantasy [6:34] >
+	Hey Jude Reprise [3:36] > Goin' Down The Road Feeling Bad [5:06] >
+	Throwing Stones [9:06] ~ Not Fade Away [7:13]
+SET3	
+ENCORE	Brokedown Palace [4:42] ~ Sunshine Daydream [3:32] ;
+        In The Midnight Hour [4:53] (3)   
+COMMENTS	(1) with Bonnie Rait
+		(2) { theme [6:25] verse 1 [1:00] theme [2:05] spacey [4:37] }
+		(3) Midnight Hour was really a second encore
+RECORDING	FM 180
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #308
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

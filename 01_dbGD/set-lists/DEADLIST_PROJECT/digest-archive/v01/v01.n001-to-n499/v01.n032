@@ -1,0 +1,280 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #32
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 6 March 1996      Volume 01 : Number 032
+
+In this issue:
+
+	Re: second draft of datafile proposal
+	Re: second draft of datafile proposal -- comments field
+	Re: second draft of datafile proposal -- time/place
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 5 Mar 1996 17:25:08 -0800
+Subject: Re: second draft of datafile proposal
+
+I said:
+>>The '*song' syntax does essentially the same thing.
+>>I guess I just like doing this sort of thing with punctuation characters
+>>instead of normal alphabetic strings that might get confused for song titles.
+
+jeff tiedrich said:
+>It all boils down to a matter of taste; both methods are equally
+>functional. My own personal preference is to spell everything out 'cause
+>IMHO it makes it easier to -quickly- grasp the information at hand....
+>.. neither method is -intrinsically- superior. So ... do we ..., flip a coin?
+
+I agree completely. And I'll even supply the coin :-)
+
+I guess my motivation is to have a very basic database that someone
+can use without much effort- lots of extraneous detail is elsewhere
+in notes, and powerheads can get at that if they wish. Having seen the
+second draft proposal of -tease, -jam, -continued, -reprise, etc. suffixes
+though, I have to say that I like it.
+- --------
+I'll use (what I think is) standard regular expression syntax below:
+i.e. things in "[]" are optional
+     things separated by "|" mean pick one of the things
+     things separated by "-" mean a range from thing1 to thing2
+     things with trailing "*" mean 0-infinite repetitions of thing
+>----------------------------------------------------------------------
+>
+>From: Nathan Wolfson <nhw1@axe.humboldt.edu>
+>> when using the note
+>> referals, will we treat something like "song1 > song2" as one entity? In
+>> other words, in the example above, does "(2)" refer to "Cumberland Blues"
+>> *and* "Promised Land," or just the latter?
+>> Small, picky point, I know,
+
+>I think that unless otherwise specified, a number after a song name would
+>direct one to a note that only adresses something about that song name.
+>BUT, one could readily say ", also on Cumberland" in the comment.  OR,
+>one could place a "(2)" after each song name in the set list (which is
+>what I prefer) during which Carlos performed.
+
+I absolutely agree. In fact, I think that the note syntax should be
+more like "( <n> [,<n>]* ), so a song can point to multiple notes, and
+as suggested, notes can point to multiple songs.
+
+We should probably decide if the multiple note syntax is (n,m) or (n)(m).
+
+>> Also, why are we using asteriks to delimit the comments?
+> Would simple periods (.) work for the comments section?
+
+I think some songs have periods in the titles (e.g. "Dr.", "Mr.", etc), so
+avoiding them might be a good idea - or, since it's in the note section,
+might make no difference.
+
+I will have to say I have an aesthetic preference for period, and dislike
+for asterisk. How about "%" ?
+
+- --------
+Date field format:
+  I think its a little too restrictive.
+  I think the format should be something like mm/dd/yyt, where:
+        mm is 1-12  |   01-12   | ??
+        dd is 1-31  |   01-31   | ??
+        yy is 65-95 | 1965-1995 | ??
+        t  is [ "@" | "+" ][ "a" | "b" ]
+ So, dates aren't 9 characters max, but it is still easily parsed, and you
+now have the flexibility of early/late openers, etc.
+
+Actually, maybe there are two different standards going on here: the list
+submittal standard, and the database standard. What I'm suggesting here is
+a submittal standard - the fixed date is fine for the database, though more
+flexibility may be required for the modifiers
+- --------
+Venue:
+  Do we want to mark indoor vs. outdoor shows specially, or count on people
+knowing that an amphitheater is generally outdoors? Will anyone care?
+- --------
+Set Timings:
+
+Again, I'd like to see a bit more flexibility.
+I'd like to see anything relating to a set, as opposed to a song,
+in the curly braces. So, set timing would be placed as suggested
+at the end of the set, but the syntax would be { [time] } instead
+of just {time}. This also allows { (footnotes) [time] }, which is
+the same format as what follows a song.
+- --------
+OK, I'd like to settle this once and for all. Is it:
+         "Openner"      or "Opener" ?
+         "Openning Act" or "Opening Act" ?
+grrrr (as he twists and abuses his spelling bee trophy hat....)
+- --------
+Notes:
+The example listed was:
+(1) Bobby on acoustic * Guest: (2) Carlos Santana *
+Openner: Dave Mathews Band
+
+Shouldn't it be: (extra crlfs inserted for clarity)
+
+(1) Bobby on acoustic *
+(2) Guest: Carlos Santana * Openner: Dave Mathews Band
+
+I'm not clear on why the Open[n]er is listed under note 2.
+(it could be listed separately as a SET1 note, using syntax
+I suggested above, or even a blank note "()" to indicate something
+pertaining to an entire show, like a benefit or open[n]er).
+
+In that case it would look like:
+
+( ) Open[n]er: Dave Mathews Band *
+(1) Bobby on acoustic *
+(2) Guest: Carlos Santana *
+
+Actually, given that every note is preceded by a (n),
+it's not clear why we need to have any other kind of separation character,
+like the asterisk.
+
+- --------
+Source:
+
+Do we want compensation listings as well? (Dolby A,B,C, etc)
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 5 Mar 1996 17:44:18 -0800 (PST)
+Subject: Re: second draft of datafile proposal -- comments field
+
+> We should probably decide if the multiple note syntax is (n,m) or (n)(m).
+
+I would definitely vote for the latter.  Won't this be easier to search 
+for?
+
+[regarding the symbol to separate items in the comments field:] 
+
+> I will have to say I have an aesthetic preference for period, and dislike
+> for asterisk. How about "%" ?
+
+I'd prefer a "#" or a "!" -- though I guess the latter might occur in 
+song titles (which seems to be a concern, otherwise we'd use a comma or a 
+colon or something.
+
+> --------
+> Date field format:
+>   I think its a little too restrictive.
+>   I think the format should be something like mm/dd/yyt, where:
+>         mm is 1-12  |   01-12   | ??
+>         dd is 1-31  |   01-31   | ??
+>         yy is 65-95 | 1965-1995 | ??
+>         t  is [ "@" | "+" ][ "a" | "b" ]
+>  So, dates aren't 9 characters max, but it is still easily parsed, and you
+> now have the flexibility of early/late openers, etc.
+
+I thought this was what the proposal said.  But I could be 
+mis-understanding either the proposal (I think I copied the date 
+specifications verbatim from the old proposal) or this comment.
+
+> Venue:
+>   Do we want to mark indoor vs. outdoor shows specially, or count on people
+> knowing that an amphitheater is generally outdoors? Will anyone care?
+
+Let's do this in the comments field, if anyone wants to note it.  I once 
+mused on the idea of collecting such info, time of day, season, phase of 
+the moon, barometric pressure, temp, etc., etc., for a whole bunch of 
+shows and seeing how they correlated with performances....but I digress.
+
+> --------
+> Notes:
+> The example listed was:
+> (1) Bobby on acoustic * Guest: (2) Carlos Santana *
+> Openner: Dave Mathews Band
+> 
+> Shouldn't it be: (extra crlfs inserted for clarity)
+> 
+> (1) Bobby on acoustic *
+> (2) Guest: Carlos Santana * Openner: Dave Mathews Band
+> 
+> I'm not clear on why the Open[n]er is listed under note 2.
+> (it could be listed separately as a SET1 note, using syntax
+> I suggested above, or even a blank note "()" to indicate something
+> pertaining to an entire show, like a benefit or open[n]er).
+> 
+> In that case it would look like:
+> 
+> ( ) Open[n]er: Dave Mathews Band *
+> (1) Bobby on acoustic *
+> (2) Guest: Carlos Santana *
+
+I am glad you noted this.  I too would prefer to see general notes at the 
+start of the comments section and then specific notes tagged to specific 
+songs (etc., by numbers) *following* more general notes.
+
+> Actually, given that every note is preceded by a (n),
+> it's not clear why we need to have any other kind of separation character,
+> like the asterisk.
+
+Very good idea.  Perhaps rather than a null "( )" notation, we could list 
+general notes with a "(0)" -- and every item in the comments field would 
+be separated by either a "(0)" or a "(x)" and we'd need no further 
+characters to separate the items.
+
+
+------------------------------
+
+From: Pauli Sexton <sext0005@gold.tc.umn.edu>
+Date: Tue, 5 Mar 1996 21:49:36 -0600 (CST)
+Subject: Re: second draft of datafile proposal -- time/place
+
+> > Venue:
+> >   Do we want to mark indoor vs. outdoor shows specially, or count on people
+> > knowing that an amphitheater is generally outdoors? Will anyone care?
+> 
+> Let's do this in the comments field, if anyone wants to note it.  I once 
+> mused on the idea of collecting such info, time of day, season, phase of 
+> the moon, barometric pressure, temp, etc., etc., for a whole bunch of 
+> shows and seeing how they correlated with performances....but I digress.
+> 
+Well, I seem to be in the minority, but I think outdoor/indoor and 
+sunlight/evening would be important to be able to sort with, especially 
+to use my favoirte example, to check out how broad daylight Star's 
+compare with indoor, dead of winter, late night Star's.  Judging from the 
+one on 8/27/72, it doesn't make much of a difference to the band, but 
+it might be interesting anyway.
+
+A belated comment on the source=audience field, I didn't notice a "Stage  
+Audience" option, which there certainly should be.
+
+paul
+
+------------------------------
+
+End of DeadLists Digest V1 #32
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

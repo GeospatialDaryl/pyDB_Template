@@ -1,0 +1,229 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #124
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Sunday, 12 January 1997      Volume 01 : Number 124
+
+In this issue:
+
+	[none]
+	A segue is a segue... 
+	Re: A segue is a segue...
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Sun, 12 Jan 97 03:08:41 -0500
+Subject: [none]
+
+> but i don't see any point in making note of John Scott's confusion about the
+> tape in circulation labeled "9/27/69" always and never anything else that
+> i've seen.  I try to limit citations of DeadBase to cases where I think
+> their information actually adds to our evidence.  
+
+Not sure if you mis-typed or mis-read.  I was referring to 9/29, not
+9/27.  When I got my copy of this set in 1978, it was labelled "Action
+House, Long Island 1969", which the person I got it from was sure was
+wrong as he was living quite close to the Action House in 1969, and
+was sure he would have heard about the show.
+
+> Your last item (on 11/7/69) raises the most interesting questions, though.
+> The notes I was working from catch the cut in Dark Star, which we probably
+> owe to the person who put the tape into circulation.  It's my assumption
+> that the Uncle John's jam continues on the vault master back into Dark Star,
+> and so I wrote the list to reflect that.  Do you think this was a mistake?
+> Should we always list the defects of the tapes we're working from, even when
+> we feel sure of what was actually played -- or even, as in this case, of
+> what is actually on the vault master SBD?
+
+If we know the master is incomplete, that should definitely be noted.
+When the best circulating copies are incomplete, but the master may
+not be... ?  Would someone intentionally cut pieces from a tape while
+dubbing it from the master (as opposed to omitting whole songs) ?
+Do we know that this cut wasn't due to a tape change on the master ?
+
+> Similarly, my notes list the tunings before Next Time as follows:
+> 
+> comments on hall acoustics from Mr. Lesh, Star Spangled-Banner > Looney
+> Tunes, Another Ditty, Take Me Out To The Ballgame;
+> 
+> I omitted this from the list I transcribed into Deadlists format, I think
+> correctly.  Do you agree?  Perhaps it merits a note, however?
+
+As we apparently are not listing "tunings" in the setlist, it would
+seem proper to omit it.  Given the length and uniqueness (lunacy!) it
+most decidedly merits a note.
+
+> BAND  Grateful Dead
+> VENUE  Fillmore Auditorium
+> CITY  San Francisco
+> STATE  CA
+> DATE  11/07/69
+> SET1  Morning Dew; Mama Tried; Me & My Uncle; Cold Rain & Snow; Next Time
+> You See Me; Good Lovin; China Cat Sunflower > I Know You Rider > Dark Star >
+> Uncle John's jam > Dark Star > Cryptical Envelopment > drums > The Other One
+> > Lovelight
+> SET2  
+> SET3  
+> ENCORE  
+> COMMENTS  According to DeadBase IX following Morning Dew is Hard To Handle;
+> Casey Jones; following Mama Tried is Me & My Uncle; Cold Rain & Snow and
+> preceding Good Lovin is High Time.  The tape in circulation has cuts from
+> somewhere in the Uncle John's jam back into Dark Star; the cut is probably
+> courtesy of the person who put the tape into circulation.  The Lovelight
+> also cuts off before its conclusion on the tape in circulation, but this may
+> be the master reels.  Consult vault sources.  There is a long pause for
+> tunings before Next Time You See Me, which includes:  comments on hall
+> acoustics from Mr. Lesh; Star Spangled-Banner > Looney Tunes, Another Ditty,
+> Take Me Out To The Ballgame.
+> RECORDING  100 SB
+> CONTRIBUTORS  <chimpowl@well.com>
+
+I think you could list the tunings as I suggested re: Woodstock.  That
+is, put a "reference" in the setlist:
+
+	...; Cold Rain & Snow; (1); Next Time You See Me
+
+This way, the comment doesn't need the "before Next Time You See Me"
+phrase.  More efficient, and according to the spec.
+
+There's also a confusion here I didn't comment on before.  Why the
+comment about DeadBase listing Uncle & Cold Rain after Mama Tried, if
+they are on your tape, as implied by the setlist ?
+
+***
+
+I'm curious whether we are actually working from the same version of
+this tape (11/7/69).  Does yours have another splice in Dark Star,
+after the first verse but before the Uncle John's jam ?  I also don't
+remember the "comments on hall acoustics", but I may have missed that.
+
+***
+
+Here's another picky question: should there be a distinction between a
+jam based on a song, and an instrumental version of the song ?  The
+Uncle John's from 11/8/69 is really a better example of this point.  I
+would say that it isn't a *jam* on the tune, but the actual music for
+the verse, just without the vocals.  To me this is distinct from
+something like the 6/23/74 Dark Star, as there they never play the
+actual verse music at all. Probably not worth worrying about, given
+how rare this sort of thing is.  OTOH, *my* tape is labelled "Uncle
+John's Band (instr)".
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Sun, 12 Jan 97 03:38:01 -0500
+Subject: A segue is a segue... 
+
+> Basically, a segue is a segue and should be indicated by a single symbol.
+
+Fine.
+
+Let me state it this way: I believe it is desirable to have a symbol that
+indicates a contiguous transition which is *not* a true segue (or at least not
+a guzinta).
+
+Something like:
+
+        >  =  a transition which occurs over an interval of more than X
+              seconds (guzinta).  This transition section may be of
+              "standard" form, or a unique improvisation.
+
+        ~  =  a transition which occurs over an interval of less than X
+              seconds.
+
+where X is small (3 - 5).
+
+
+> If we want to specify that there's a "jam in between which is neither the
+> one song nor the other, than we should write (e.g.):
+> 
+> 4/27/69    Lovelight > Me & My Uncle > jam > Sittin On Top Of The World
+
+So every "China Cat > Rider" becomes "China Cat > jam > Rider" ?
+
+Or do we *assume* that *everyone* who uses this database knows that the
+China>Rider transition is fundamentally different from a Mama Tried>Mexicali
+type transition ?
+
+(BTW: To those who have timed tapes, where do *you* put the division, at the
+end of China Cat or at the beginning of Rider ?)
+
+
+** Soapbox Mode on **
+
+To me, some of the most magic moments the Dead produced came in these
+transitions.  When I look at a setlist for a show I've never heard, I want to
+know what the flow was like - for me that's a key element of how a show
+*feels*.
+
+For instance, I have found myself generally unexcited by shows from 1985, as I
+feel they tend to be lacking in this aspect.  Sure, they play a bunch of songs
+without stopping, and the individual songs are well played, but there is often
+very little flow or continuity from one song into the next.
+
+I believe that the information I'm asking for can be objectively determined,
+and would be useful to many.
+
+** Soapbox Mode off **
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Sun, 12 Jan 1997 07:46:47 -0500
+Subject: Re: A segue is a segue...
+
+At 3:38 AM 1/12/97, Brian McAllister wrote:
+
+>
+>(BTW: To those who have timed tapes, where do *you* put the division, at the
+>end of China Cat or at the beginning of Rider ?)
+
+Using the timings from the Europe 72 album as a model, everything up to the
+beginning of Rider would be considered as part of China Cat.
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #124
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

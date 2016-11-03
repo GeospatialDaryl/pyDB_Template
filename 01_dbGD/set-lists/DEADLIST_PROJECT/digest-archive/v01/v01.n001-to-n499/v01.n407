@@ -1,0 +1,281 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #407
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Monday, 11 August 1997       Volume 01 : Number 407
+
+In this issue:
+
+	Re: database (fwd)
+	Re: database (fwd)
+	6/12/76 comments...
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Mon, 11 Aug 1997 15:04:38 -0500 (CDT)
+Subject: Re: database (fwd)
+
+Nathan-
+	I'm posting this to the list since something seems to be funny
+between smtp.well.com and my mail server... I'll try to figure out what's
+happening. In the meantime, I apologize for filling up everybody else's
+mailbox...
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Systems Specialist                       Snow Hall 643, (785) 864-7311
+Department of Mathematics     University of Kansas, Lawrence, KS 66045
+
+- ---------- Forwarded message ----------
+Date: Mon, 11 Aug 1997 14:57:22 -0500 (CDT)
+From: Tim Buller <buller@math.ukans.edu>
+To: Nathan Wolfson <nathan@well.com>
+Subject: Re: database
+
+On Fri, 8 Aug 1997, Nathan Wolfson wrote:
+
+> The deadlists database is on a unix box right now, right?  Kevin Weil has 
+> offered to construct a new version of the data tables and work up more 
+> types of queries for us -- but he is most comfortable with NT.
+> 
+> Barring the ability to move the database to that kind of box (which I am 
+> looking into with  my ISP), he has offered to simply re-work the data 
+> tables and the SQL.  If he puts that together, would it be fairly 
+> straightforward for you to adapt?
+
+Sure, the database engine would have no problems with multiple tables,
+etc. and I can adapt my CGIs with a few hours work, I'm sure, since
+they're just hacked together anyways :)
+
+I've got some things ready to implement, I just haven't had time to do it
+lately. Once the semester gets rolling over here, I should have some more
+free time. 
+
+I'll be happy to do anything I can...
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Systems Specialist                       Snow Hall 643, (785) 864-7311
+Department of Mathematics     University of Kansas, Lawrence, KS 66045
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Mon, 11 Aug 1997 14:04:38 -0700 (PDT)
+Subject: Re: database (fwd)
+
+I'm cc-ing the list here, too.  Kevin wrote a note to me earlier today.  
+I'll exceprt the relevent parts here -- and if Kevin and Tim are the 
+one's most interested in working on this matter, they can speak offline 
+if they like.  Both of you have better ideas/abilities than I do in this 
+area, for sure, so while I will continue to bounce ideas around with you 
+guys, I'll stay out of the way as much as I can (and just be available to 
+assist where I can/where you want).
+
+Here is what Kevin wrote, in reponse to my query asking how we might want 
+to split the data up into multiple tables (its in one table now, which 
+gets us 90% of what we want) and how some new queries might be added:
+
+     Here is a sample query for locating a song within a set or any set.
+     This is using three related tables: Artist, Date and Tape. These
+     tables are linked the same way as in the sample relationship picture I
+     sent you on Friday.
+
+     SELECT DATE.DateID, ARTISTS.Artist, TAPE.Set, TAPE.TapeSongs
+     FROM (ARTISTS INNER JOIN [DATE] ON ARTISTS.[Artist ID] =
+     DATE.ArtistID) INNER JOIN TAPE ON DATE.ShowID = TAPE.ShowID
+     WHERE (((TAPE.Set)="One") AND ((TAPE.TapeSongs) Like "*Dark Star*"))
+     ORDER BY DATE.DateID;
+
+     Where it says "One" is the input from the user as to what set to
+     search in.  I used "One" as an example, but the user can leave the
+     field, (TAPE.Set), blank to search in all sets.  Asterisks are used
+     with the song name to find it anywhere in the TAPE data.  Changing the
+     song name input to: "*Dark Star*Drums*" finds all instances of Dark
+     Star before drums, etc.
+
+     This was a quickie, but the way it works is the same.  I would just
+     formalize the WHERE clause statements to pull from actual input fields
+     on a query form - or web page form.
+
+I haven't attached the diagram he sent me, because some folks might not 
+like the size of the file :-)
+
+Kevin, if you have time to create a short text description of the tables, 
+you might want to forward that to the list -- or simply forward the jpeg 
+to Tim?
+
+- --nathan
+
+On Mon, 11 Aug 1997, Tim Buller wrote:
+
+> Nathan-
+> 	I'm posting this to the list since something seems to be funny
+> between smtp.well.com and my mail server... I'll try to figure out what's
+> happening. In the meantime, I apologize for filling up everybody else's
+> mailbox...
+> 
+> 	Tim
+> 
+> ====
+> Tim Buller                                       buller@math.ukans.edu
+> Systems Specialist                       Snow Hall 643, (785) 864-7311
+> Department of Mathematics     University of Kansas, Lawrence, KS 66045
+> 
+> ---------- Forwarded message ----------
+> Date: Mon, 11 Aug 1997 14:57:22 -0500 (CDT)
+> From: Tim Buller <buller@math.ukans.edu>
+> To: Nathan Wolfson <nathan@well.com>
+> Subject: Re: database
+> 
+> On Fri, 8 Aug 1997, Nathan Wolfson wrote:
+> 
+> > The deadlists database is on a unix box right now, right?  Kevin Weil has 
+> > offered to construct a new version of the data tables and work up more 
+> > types of queries for us -- but he is most comfortable with NT.
+> > 
+> > Barring the ability to move the database to that kind of box (which I am 
+> > looking into with  my ISP), he has offered to simply re-work the data 
+> > tables and the SQL.  If he puts that together, would it be fairly 
+> > straightforward for you to adapt?
+> 
+> Sure, the database engine would have no problems with multiple tables,
+> etc. and I can adapt my CGIs with a few hours work, I'm sure, since
+> they're just hacked together anyways :)
+> 
+> I've got some things ready to implement, I just haven't had time to do it
+> lately. Once the semester gets rolling over here, I should have some more
+> free time. 
+> 
+> I'll be happy to do anything I can...
+> 
+> 	Tim
+> 
+> ====
+> Tim Buller                                       buller@math.ukans.edu
+> Systems Specialist                       Snow Hall 643, (785) 864-7311
+> Department of Mathematics     University of Kansas, Lawrence, KS 66045
+> 
+> 
+> 
+> 
+
+------------------------------
+
+From: swrenn@ensr.com
+Date: Fri, 8 Aug 97 21:50:09 AKD
+Subject: 6/12/76 comments...
+
+Some comments about your listing for 6/12/76.  I still have my original 
+(master) open reel of the WBCN broadcast of this show.  I also attended this 
+show (it helps to have a brother to stay at home to run the decks - at least 
+he was able to attend 3 of the 4 nights!).  
+
+My tape doesn't  have any cuts in any of the songs (I won't get into the 
+splices I had to perform to get a complete, "uncut"  version of Comes A Time, 
+though).   There are several WBCN station id's throughout, each with a plug 
+for Ampex tape (after Row Jimmy, Looks Like Rain, and Comes A Time).  
+
+With regard to the suggestion that the Dead did not leave the stage after 
+Around & Around, this is incorrect.  My tape continues to run, and the 
+announcer (Old Saxaphone Joe) talks about the Dead leaving the stage and 
+rambles for several minutes about whether the Dead would come back for an 
+encore.  I do have a cut at this point, but have the Dead returning to the 
+stage - I have about 5 minutes of nothing but crowd noise and voice-over.   
+Plus, I was there and remember!  
+
+Sunshine Daydream *WAS* played, and the Sugar Mag-> U.S. Blues-> Sunshine 
+Daydream should definitely be viewed as a segue - the time between the last 
+notes of U.S. Blues and Sunshine Daydream was pretty much the same as the 
+time that would be between the end of Sugar Magnolia and Sunshine Daydream ( 
+I time it at less than 4 seconds!).  
+
+The Wheel was not broadcast.  In fact, the announcer comes in with the crowd 
+noise just before Cassidy, and announces that "...the Dead are now back on 
+stage" , as if the set was just beginning.  Boy, was this a major 
+disappointment when I got home that night!  There are also several parts 
+where stage banter goes on, such as Weir announcing that it's Billy's 
+Birthday tonight (several times!), and Phil announcing that "in this 
+computerized world (1976??) we still depend on batteries" (after having some 
+trouble with his new bass).  I also remember the sound check ((I was an usher 
+at the time and recall sitting all alone in the front row of the house, 
+watching them play Sugar Magnolia over and over , at least 3 or 4 times, from 
+the break where they jam out after singing the last verse.  
+
+Oh, yes, and the sound check for 6/9/76 included a very scorching Franklin's 
+Tower, that all of us lucky enough to have been admitted early were going 
+nuts over!  Jerry just aired it out!  In fact as we were let in by the 
+rent-a-guard guys, the loud strains of Franklins were just echoing throughout 
+the place.  Everyone scrambled to the nearest doorway to the theater to watch 
+and listen.  Standing ovation from the 20-25 folks in attendance.  And who 
+knows what they played prior to our arrival.  I am not aware that any of the 
+soundchecks for this run are available on tape, however.  Just my own strong 
+recollection.
+
+
+*****************************************************************************
+********************************
+BAND Grateful Dead 
+VENUE Boston Music Hall 
+CITY Boston 
+STATE MA 
+DATE 06/12/76 
+SET1 Samson and Delilah [5:30] ; Row Jimmy [9:43] ; The Music Never
+Stopped [4:48] ; Brown Eyed Women [4:36] ; Big River [5:12] % Mission In
+The Rain [6#:46] % Looks Like Rain [7:38] % Friend Of The Devil [7:51] ; (1)
+Lazy Lightnin' [3:13] > Supplication [4:27] ; High Time [8:54] : The
+Promised Land 
+SET2 The Wheel : Cassidy [4:08] ; Tennessee Jed [8:27] ; [0:05] ; Let It
+Grow [7:04] > Drums [0:48] > Let It Grow [3:08] > Wharf Rat [9:37] > Space
+Jam [2:35] > Comes A Time [7:28] ; [0:09] ; Dancin' In The Street [10:08] >
+Jam [0:24] > Around and Around [5:38] ; [0:35] ; Sugar Magnolia [5:18] >
+U.S. Blues [5:05] ; [0:21] 
+SET3 
+ENCORE 
+COMMENTS Sugar Magnolia > U.S. Blues > Sunshine Daydream is listed
+as the encore, but there is only 35 seconds between Around and
+Sugar Magnolia - its doubtful they ever left the stage * Sunshine
+Daydream is either missing or was not played; either way it did not
+segue from U.S. Blues - there's at least 21 seconds of 'dead-air'
+immediately following U.S. Blues * (1) ??? Tuning 
+RECORDINGS 180 FM-SB. The complete show, except The Wheel and
+a splice in Mission In The Rain, circulates in FM-SBD (broadcast on
+WBCN-FM). The Wheel is available in excellent AUD. Specific to the
+FM-SBD lineage, a splice in Mission In The Rain. The Promised Land
+and The Wheel missing from timed copy. 
+CONTRIBUTORS <htj@geocities.com> (Thayer Jennings),
+<chimpowl@well.com> (Jim Powell) 
+
+------------------------------
+
+End of DeadLists Digest V1 #407
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

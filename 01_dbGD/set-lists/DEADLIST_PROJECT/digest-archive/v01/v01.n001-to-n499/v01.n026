@@ -1,0 +1,503 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #26
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Friday, 1 March 1996        Volume 01 : Number 026
+
+In this issue:
+
+	Re: DeadLists Digest V1 #25
+	generating setlists
+	Definitions
+	How could we overlook ...
+	[none]
+	[none]
+	[none]
+	Re: 
+	[none]
+	Re: 
+	[none]
+	[none]
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Thu, 29 Feb 1996 16:06:18 -0800
+Subject: Re: DeadLists Digest V1 #25
+
+>The advantage to having "<songname> Tease" in the set lists is that one
+>could then search for specific (or all) teases. I would call this a good
+>thing.
+
+But you can do that by taking it out off-line (out of the setlists field),
+into the footnotes section as well, right?
+- ----------
+>Might we want to consider the phrase "continues"? Then you would have a
+>song list such as ...
+>
+>Dark Star ->
+>Drums ->
+>Dark Star continues ->
+>Sugar Magnolia
+>
+>... so that anyone browing song lists could see exactly what's going on.
+>And the database module could be written to ignore "x continues" when
+>tabulating every-time-played instances. The "notes" field could state on
+>which sides of the drums the verses were sung.
+
+The '*song' syntax does essentially the same thing.
+I guess I just like doing this sort of thing with punctuation characters
+instead of normal alphabetic strings that might get confused for song titles.
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Thu, 29 Feb 96 21:13:36 -0500
+Subject: generating setlists
+
+[This spiel really is relevant to the ongoing discussion of reprises,
+teases, jams, etc. but I need to cover a few points first.  There are
+also some loosely connected ideas at the end]
+
+The description of this project given in the "Welcome" message for
+this list relegates the production of labels/setlists to a secondary
+(or even tertiary) position.
+
+While I agree that the desire for a database that allows sophisticated
+analysis of the GD's body of work is the major goal here, I believe
+that IN THE LONG VIEW the ability to generate labels/setlists from this
+wonderful, better, more accurate database will be one of the most
+commonly used features.  I further believe that this goal is
+compatible and synergistic with our major goal of detailed analysis.
+
+It is therefore to our advantage to design the database such that it
+is easy to generate the sort of detailed set descriptions that we've
+been discussing.
+
+What's the point ?
+
+I'd like the ability to generate either a setlist like:
+
+	Truckin' ->
+	The Other One ->
+	Me & Bobby McGee >
+	The Other One [Reprise | continues] ->
+	Morning Dew	
+
+and one like this (intentionally extreme):
+
+	Truckin' ->
+	Phil solo ->
+	The Other One [1] ->
+	Tiger jam ->
+	feedback ->
+	space ->
+	Other One jam ->
+	jam ->
+	El Paso tease ->
+	jam ->	
+	Me and Bobby McGee ->	
+	jam ->
+	The Other One [2] ->
+	jam ->
+	Morning Dew	
+
+Identifying all these "jams" with footnotes would be a mess, whereas
+it should be easy to have a search engine that will ignore them if
+they occur "inline".
+
+Doing the verse numbers with footnotes does makes sense, as you could
+say "first verse only" just as easily as "first verse", whereas
+notating that in the setlist itself would be cumbersome.
+
+Let me add that Matt Cramer is quite right that producing these
+various formats or various "sorts" and extracts of the data is an
+application issue rather than a database issue, but the data has to be
+there in a usable format.
+
+
+BTW: While the above example is a fantasy, here's how I labelled part
+of  my tape of 11/8/69:
+
+Dark Star [1] -> space -> jam -> The Other One -> jam ->
+The Other One [1] -> jam -> Dark Star ->
+Uncle John's Band (inst) -> Dark Star [2]//
+
+
+Hmm. This brings up another point.  Should we distinguish between jams
+based on a song and instrumental versions of a song ?  To my mind
+there is a difference.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Thu, 29 Feb 96 21:39:44 -0500
+Subject: Definitions
+
+> there are passages of Dead i'm content to call < space > from at
+> least 1/22/68 (and that's just the earliest date that comes to mind.
+
+To clarify, here are my working definitions, which have nothing to do
+with dates, and everything to do with what is going on.
+
+These are listed roughly in order of decreasing structure.
+
+<Song> Instrumental:
+
+	All or part of a song which normally includes vocals, during
+	which no vocals actually performed.  Must include the parts
+	of the song which normally provide backing to the vocals,
+	otherwise it is a "<song> jam".
+
+<Song> Jam:
+	Uses some combination of melodic themes, distinctive rhythmic
+	elements or chord progressions that are clearly identifiable
+	with a particular song.
+
+"Named" Jam:
+	As above, but the recognizable elements are not from an actual
+	song, rather they reappear in separate performances.
+
+Jam:
+	Improvised music, not identifiable as originating with a
+	particular song, which has a flowing pulse or beat.  Often
+	involves distinct melodic or harmonic fragments (motifs),
+	giving the appearance of song-like structure.
+
+Space:
+	Improvised music which does not have a pulse or beat.  Usually
+	does not use obvious motifs or melodic fragments.  All or most
+	of the instruments are being played in a "normal" fashion, in
+	terms of the sounds produced and the approach to the
+	instrument.  Midi sounds are included as the instrument is
+	still played in a normal fashion.
+
+Feedback:
+	Improvised music where all or most of the sounds are produced
+	using acoustic feedback.
+
+
+I would say that all of these have been used by the Dead from early in
+their career up to the end, with the exception of Feedback, which I
+have assumed became impossible when the on-stage instrument speakers
+were eliminated.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Thu, 29 Feb 96 21:41:50 -0500
+Subject: How could we overlook ...
+
+... one of the more common "reprises", at least in the old days:
+
+	NFA -> GDTRFB -> NFA Reprise
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 29 Feb 1996 19:29:01 -0800
+Subject: [none]
+
+for the sake of being immediately intelligible to the less-initiated we
+should keep special signs & symbols to a mimimum.  
+
+same with abbreviations (though I don't really need to see Goin Down The
+Road Feelin Bad spelled out fully every time around)
+
+
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Thu, 29 Feb 96 23:02:40 -0500
+Subject: [none]
+
+Jim Powell writes:
+
+> for the sake of being immediately intelligible to the less-initiated
+> we should keep special signs & symbols to a mimimum.
+
+In the raw database ?  Do we intend for the "less-initiated" to be
+dealing with it directly ?
+
+If you are talking about how the "access application" presents it,
+that is a different matter entirely.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 29 Feb 1996 22:26:34 -0800
+Subject: [none]
+
+ability to print setlists would be cool but that's front end.  gotta start
+at the very beginning:  first things first:  database before front-end,
+database format before database.  but the beginning must have the ends in
+view.  which is what we're doing.
+
+reverting to the issue of punctuation, i would again urge (as simplest and
+in most common usage):
+
+
+,[#]    i.e. comma plus space    =    pause by band after song
+;[#]                                           =  tape splice:  includes end
+of set, band leaves stage (tape shut off)
+[#]>[#]                              =  guzinta
+
+if this entails eliminating commas from song names, so be it
+
+another possibility for indicating splice might be backslash:    \
+
+
+------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Thu, 29 Feb 1996 22:42:57 -1000
+Subject: Re: 
+
+Dear gawd, please let us not see "Big RXR Blues" any more.
+
+    David Gans      tnf@well.com    http://www.well.com/user/tnf/
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 29 Feb 1996 23:34:42 -0800
+Subject: [none]
+
+re brian's query:
+
+yes, a basic perameter of the project is creating a raw database uploadable
+in proper format by mere mortals such as us, who are going to create it
+piecemeal off our tapes & other sources, and downloadable similarly,
+readable every step of the way, once we settle on what format will work best
+for us (not work best for the machine, but for us, for our purposes).  on
+that database you lofty programmer types can build whatever frontends you
+please, and but meanwhile all along we'll all have the basic information
+accessible and in a constant state of improvement, at once a resource and an
+ongoing research.
+
+
+------------------------------
+
+From: mibeck@aaln.org (Michael Beck)
+Date: Fri, 1 Mar 1996 02:49:24 -0800
+Subject: Re: 
+
+>ability to print setlists would be cool but that's front end.  gotta start
+>at the very beginning:  first things first:  database before front-end,
+>database format before database.  but the beginning must have the ends in
+>view.  which is what we're doing.
+
+   Good call.
+
+>[notation proposal]
+>if this entails eliminating commas from song names, so be it
+
+   I think that's a little too risky, especially if we want to be able to
+scale this data format to other bands and yet-as-unknown songs. Besides,
+the *name* of the song has a comma in it - and isn't the *name* of the song
+what we're trying to record? I would suggest we come up with something a
+little less common to separate the song names: perhaps a semi-colon? Then,
+as you suggest, we could use a "\" to indicate a splice.
+
+                                                         - Michael
+
+P.S.- By the way, I'm not quite sure what you mean by the term "splice." Is
+this a tape-specific notation (as in actual tape *splice*), or a song
+splice (as discussed here before: a "fib"), or do you want it to apply just
+to any extended pause?
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 1 Mar 1996 01:26:48 -0800
+Subject: [none]
+
+as makers of this here research tool we can permit ourselves a certain
+amount of leeway to facilitate our endeavor, i think.  including at least a
+HINT of abbreviation in song names, if it proves handy, certainly up to the
+exclusion of commas if we feel like it, and probably extending even to Goin
+Down The Road.  ready intelligibility is the key to widest usefulness.
+
+by splice i mean a pause in the tape.  where you can hear the tape stop or
+cut & some other tape take up, whether the same tape just a bit later, with
+30 seconds of fiddling around between songs cut out, or some other tape
+source entirely taking up, or whatever -- and what-exactly-ever is, often,
+precisely the question.  
+
+with early tapes in particular, where it's a question of reporting exactly
+what the tape contains & trying to puzzle things together from there, it's
+sometimes extremely useful to know where such pauses come. 
+
+for instance, there's a tape that's been around for years labeled "fillmore
+east 2/10/70."  a long time ago dolgushkin proved that the dead DIDN'T play
+fillmore east on 2/10/70.  much more recently a list came around for a
+fillmore east 2/13/70 early show.  last night it occured to me to crosscheck
+the two but i couldn't find the list.  fortunately, nathan had it handy.
+we're checking on where it comes from.  here it is:
+
+
+Fillmore East 2/13/70 Early Show:  Cold Rain & Snow, Beat It On Down The
+Line, Good Lovin, Mama Tried > Black Peter, Hard To Handle, St. Stephen >
+Not Fade Away, Casey Jones.
+
+
+Now here's the list for my tape, using semi-colon for splices, commas for
+pauses, > for guzintas:
+
+
+"Fillmore East 2/10/70":  45 AUD/3:  A:  Casey Jones; Cold Rain & Snow, Beat
+It On Down The Line, Good Lovin; Mama Tried > Black Peter, Hard To Handle.
+
+
+So I think we have an ID here:  this is Fillmore East 2/13/70 Early Show,
+the first 45 mins.  But what's with Casey Jones, which comes last on the
+list but first on this tape?  Here's where being able to report splices
+comes in:
+
+There's a splice after Casey Jones on my tape (as the semi-colon indicates),
+so Casey Jones *could have been* placed there first, for whatever reason,
+when the tape was copied.  There's only one other such splice in the tape,
+after Good Lovin, and this could easily be someone splicing out Bobby
+fiddling around getting it together to sing Mama Tried.  Other than that the
+tape preserves continuity between songs even when they mess around for 30
+secs or so before starting the next.  So this tends even to suggest that
+maybe the Casey Jones has been moved to the head of this tape from the end
+of the list.  Can't tell from the tape though, audience response doesn't
+sound particularly like an encore, though perhaps like an audience
+responding to an encore they didn't know was gonna come so soon (get that
+early show out the door & hustle in the late).  Audience response to Cold
+Rain *does* sound like the first song, though.  This tape doesn't prove the
+rest of the list correct but inclines that way.
+
+
+Of course, loads of pre-75 AUD tapes have stretches of noodling between
+songs cut out, as do some SBDs, and there's no need to report every such
+splice.  But in a case like the one we're discussing, it's crucial to an
+accurate report of the evidence:::::
+
+and THAT'S what we're setting up:  a place & format to allow us to assemble
+& crosscheck accurate reports of the evidence.
+
+
+once we have that database together, all the rest flows from it.  which is
+why getting the foundations right are worth a couple months of talking in
+spirals, till we get it talked through & sorted out.
+
+
+thanks for helping
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 1 Mar 1996 01:41:49 -0800
+Subject: [none]
+
+or maybe it would be even more useful to use:
+
+,     =     an unexamined junction between songs, could be a pause or a
+guzinta or even a splice
+
+;     =     an examined junction between songs (the person posting the list
+claims to have examined it, and signs her or his name thereto), which turned
+out to be a pause between songs without a splice
+
+>     =     an examined junction between songs which turned out to be a
+guzinta
+
+\     =     an examined junction between songs which turned out to be a
+splice 
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 1 Mar 1996 03:50:36 -0800
+Subject: [none]
+
+we'll need a field or something for "source" of the list to be specified by
+person reporting
+
+SBD tape by ear:  i.e. you listened to the tape afresh with careful
+attention & made a new list
+
+AUD tape by ear:  ditto
+
+tapelist by ear  (i.e. list on tape case label - "j-card'- that you made by
+listening to tape)
+
+tapelist transcribed  (list on tape case label that you made by copying list
+that came with tape or other list)
+
+other list transcribed:  as specified  -  for example, the list we have from
+latvala for family dog 8/30/69
+
+
+it would be useful it we could collect here a list of other deadlist
+resources online & otherwise.  i have a vintage 87 copy of stack-o-dead, for
+instance, whose lists start with 2/22/74 and go up through early 88.  it's
+lists are sometimes better than DeadBase's.  i assume there's a later
+edition around somewhere?  does it have lists for earlier?  what other lists
+sources are there besides?
+
+
+------------------------------
+
+End of DeadLists Digest V1 #26
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,223 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #138
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Saturday, 18 January 1997     Volume 01 : Number 138
+
+In this issue:
+
+	Song titles etc
+	Re: DeadLists Digest V1 #137
+	2/26/73
+	7/19/74
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Fri, 17 Jan 97 19:34:45 -0500
+Subject: Song titles etc
+
+A very quick note.
+
+Just got a chance to scan my mail (wasn't at work today), but not to
+read much of it yet. 
+
+I'm interested in at least contributing to a more "official" list of
+titles.  I've already started checking over the current list.
+
+More when I have a chance to catch up.
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Fri, 17 Jan 1997 17:04:42 -0800
+Subject: Re: DeadLists Digest V1 #137
+
+>I think we can teach folks who are submitting the set-lists to use FTP, if
+>they don't already know. WS_FTP and Fetch are two of the most intuitive
+
+Well, I probably have the smallest tape collection on the list, (and
+probably the worst short term memroy, so don't ask me why 5/8/77 is great),
+so it's unlikely that I'll be downloading setlists, but... I couldn't FTP
+them if I wanted to. Our firewall lets us FTP in, but not out, and FTP'ing
+in is a bit of a strain as well - not straightforward. There may be others
+in that boat.
+
+We may want to do what someone suggested: revise the spec so it is
+insensitive to any kind of whitespace. That means blank lines are ignored,
+and can't be used to separate concerts. (I'd suggest ^L, a control
+character that mailers will probably pass, and is fairly universally
+recognized as a newpage character).
+
+I'd also suggest replacing the 'unknown' song separator with something like '#'
+(I thought I suggested it last email, but it seems to have gotten lost
+somewhere) so that each field can be uniquely (and easily) identified by
+the sequence <whitespace><keyword>:<whitespace>
+- --------------------------------------
+someone said:
+
+>> Well if Brian doesn't want to take that on I'll volunteer
+>> to be the caretaker for the song list - I've been lurking
+>> here for awhile feeling that I should contribute in some
+>> way - and at least I understand the file spec. for the
+>> song list ;-)
+
+The statk-o-dead has a list of 300+ songs, and all the variations that it
+searches for. Email me if you want to use it & I'll try to extract it and
+send it.
+
+- ---------------------------
+>From: "John F. Whitehead" <jfw@well.com>
+>>> if e-mail is going to sprinkle stray carriage returns through our lists no
+>>> matter what, maybe we should use a special character to indicate where we
+>>> actually want carriage returns,
+.....
+>I have written a quick hack that parses set lists into its component
+>parts.  It works no matter where you put carriage returns, linefeeds,
+>newlines, tabs, or spaces.  It doesn't care whether there are 3 sets or
+>30.  It just handles whatever you give it.
+
+Good job. This is why I let real programmers do this sort of thing - it
+would have taken me forever.  Is this C, or PERL, or what?
+
+>------------------------------
+>
+>From: "Matthew S. Cramer" <cramer@voicenet.com>
+
+>I figured having multiple shows for the same day in the data file may make
+>searching and getting statistical analysis more cumbersome.
+
+Yes, but I think there are cases where there were 2 actual shows in a night-
+didn't some of the Fillmore East shows have early and late? On the other hand,
+I complained that they were only a few exceptions in the >3 set case, so that
+argument could be used against me here.
+
+>Jim Powell <chimpowl@well.com> then writes: i have a friend who's
+>>assembling timings of all Bird Songs, for instance.
+
+>Could I be picky and ask that we have a spec, or at least a consistent
+>format, for these files also?
+
+There is something in the current spec that permits this. Check out the
+stuff on timing maps.
+
+>I started writing a DOS program that will read the show files and compare
+>then with the song names file.
+
+And I've got some of the title lists you might be interested in.
+
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 18 Jan 1997 00:36:21 -0800 (PST)
+Subject: 2/26/73
+
+Partly because I just finished dubbing all this & have the information at my
+fingertips, and partly thinking it might be cool if we felt free to post
+write-ups of favorite shows here for the respective Year Caretaker's
+information and use; and partly in hopes of stirring up the last missing
+bits of this truly tasty show:
+
+BAND  Grateful Dead
+VENUE  Pershing Municipal Auditorium
+CITY  Lincoln
+STATE  NB
+DATE  02/26/73
+SET1  Promised Land; Deal; Mexicali Blues; Loser; Jack Straw; Don't Ease Me
+In; Box Of Rain; China Cat Sunflower > I Know You Rider; Looks Like Rain;
+Loose Lucy; Beat It On Down The Line; Row Jimmy; El Paso; Big RR Blues;
+Playin In The Band
+SET2  They Love Each Other\ Dark Star > Eyes Of The World > Mississippi
+Halfstep;; Me & My Uncle; Not Fade Away > Goin Down The Road Feelin Bad >
+Not Fade Away
+SET3  
+ENCORE  
+COMMENTS  The superior AF master supplies the 1st set.  There is a brief cut
+in Mexicali.  The tape breaks off during I Know You Rider after "Wish I was
+a headlight" and resumes during Looks Like Rain before "Did you ever listen
+to the sound."  China Cat Sunflower through Looks Like Rain circulates
+separately in the inferior AF to cover this cut (Bobby's guitar is very
+prominent on this master).  At the end of the first set on the superior AF
+tape is spliced in They Love Each Other from the inferior AF; this breaks
+off half way.  According to DeadBase VII the second set opens:  They Love
+Each Other; Big River; Tennessee Jed; Greatest Story; Dark Star ...  The SB
+in circulation runs from Dark Star through Not Fade Away.  There is a cut
+during the jam before the second vocals of Eyes Of The World.  Most copies
+of the SBD in circulation are somewhat fast.  Consult vault sources.
+RECORDING  80 SB  85 AF  25 AF
+CONTRIBUTORS  chimpowl@well.com
+
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 18 Jan 1997 01:56:48 -0800 (PST)
+Subject: 7/19/74
+
+and here's one attn:  tim
+
+BAND  Grateful Dead
+VENUE  Selland Arena
+CITY  Fresno
+STATE  CA
+DATE  07/19/74
+SET1  Bertha; Mexicali Blues; Deal; Beat It On Down The Line; Row Jimmy; Me
+& Bobby McGee; Scarlet Begonias; El Paso; Tennessee Jed; Playin In The Band
+27:08
+SET2  Seastones > Seastones w/ Garcia
+SET3  Brown Eyed Women; Me & My Uncle; Musta Been Those Roses; Jack Straw;
+He's Gone > US Blues; Weather Report Prelude > Let It Grow > jam > Spanish
+jam > Eyes Of The World > China Doll; Saturday Night.
+ENCORE  
+COMMENTS  The beginning of Bertha and of Tennessee Jed are clipped on the
+AUD and there is a cut at 10:51 of the Playin In The Band.  The SBD in
+circulation runs from He's Gone through China Doll.
+RECORDING  180 AF  70 SB
+CONTRIBUTORS  chimpowl@well.com
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #138
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

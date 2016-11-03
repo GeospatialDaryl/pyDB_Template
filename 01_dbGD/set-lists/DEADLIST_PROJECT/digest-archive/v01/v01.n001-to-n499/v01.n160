@@ -1,0 +1,198 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #160
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 31 January 1997      Volume 01 : Number 160
+
+In this issue:
+
+	Song name searches
+	Re: updates 
+	Re: updates 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Matthew S. Cramer" <cramer@voicenet.com>
+Date: 31 Jan 97 11:14:54 -0500
+Subject: Song name searches
+
+I have completed a command-line app for MacOS (PPC) and Windoze32 (Win 95
+or WinNT) that will non-politely tell you if it does not recognize a song
+name in the set or encore fields of a data file.  There are some details:
+
+1) The song list:
+This file must be plain text, and named songs.dat (even on the mac), and in
+the same location as the executable.  I have allowed for the file to have
+header info, but the real song list must have the string "START DATA" on
+the line before the first song, and "END DATA" on the line after the last
+song.
+
+2) Spec:
+Data must absolutely comply to the spec - song times must be in brackets,
+spaces must be in the correct places (i.e. "song1 ; song2" and not
+"song1;song2".  I have taken the liberty of assuming we will be changing
+the cut symbol from "\" to "/".  Whoever can officially change the spec,
+please do this...I don't think anyone gave any reason they wanted "\" and
+not using it makes C programming much easier ("\" is a control in text
+output and input in C code).
+
+3) Executing:
+To search a file just enter it when the program asks you to and it will
+spit out what it believes are errors.  IT IS CASE SENSITIVE.  I ran it on
+Tim's first 1974 list and it found a number of errors, mostly typos, so I
+feel it served it's purpose.  Make sure the data file is in the same folder
+as the app and song list file.
+
+4) Jams and reprises:
+The utility will not recognize reprises, tunings, and jams, unless they are
+truely listed in the list.  Use your own judgement here.
+
+To get the app just send me an email and tell which platform you want it
+for and I will email it to you.  I'll try to get everyone a copy be the end
+of the day.  Eventually I'll move it to my web server so you can download
+it from there.
+
+This is an alpha version that uses the parsing and searching routines that
+the real app I am writing will use, so it is actually doing much more than
+it appears to be doing.  Sorry there is no GUI, but if there was I would be
+in the C++ world and I don't want to be there yet.  :-)
+
+If it crashes or does anything strange let me know.  I have only tested
+this on a 601 PowerMac and a Compaq Pentium Pro NT, so take it FWIW.
+
+
+
+Matt
+
+
+- --
+  #----------------------------------------------------------------------#
+  # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+  #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+  # "All science is either Physics or      I    feeling that counts."    #
+  #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+  #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+
+
+
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Fri, 31 Jan 1997 15:56:51 -0500
+Subject: Re: updates 
+
+Nathan writes:
+> Ryan wrote:
+> >I'll chime in here with my $0.02. The setlists I posted were from data I 
+> >received a while back, and I can't vouch for their accuracy. There are many 
+> >typos and missing fields in the data. I think most of these lists came from 
+> >DB, because there are no listed contributors or recordings for the setlists.
+> 
+> Note:  The setlists Ryan posted, while a GREAT example of what can be done
+> with a parsing/converting program, are not good sources for setlist info for
+> our purposes, imho -- not simply becuase they may be from DeadBase but
+> because they are incomplete and probably inaccurate, from a quick look.
+
+I think those are some setlists that I had been using for about 4
+years, and put into the deadlists format last summer.  The setlists
+initially came from a number of places:
+
+'65-'71:  my (rather incomplete) tape collection
+'72,'73:  files which appeared on gdead.berkeley.edu 
+'74-'89:  a file from ftp.apple.com.  I think this was from
+		Stak-O-Dead and I think one time I asked Allen
+		where the information came from but now I forget
+		(I know it wasn't Deadbase, though)
+'90-'91:  Eric Simon's Useless Dead Stats, which were posted to r.m.gd
+'92-'95:  setlists I gathered from dead-heads and r.m.gd
+
+
+For '74-'95, I think this is a reasonable starting point for data.
+There certainly are a number of errors, and '74-'89 doesn't have any of
+the transitions marked (except for what's in my tape collection), but I
+think it would be easier to correct what's there then completely redo
+all of those years.
+
+		John
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 31 Jan 1997 14:19:52 -0800 (PST)
+Subject: Re: updates 
+
+Thanks for the post, John.  Mea culpa!
+
+(It would be good to nail down where some of the ftp.apple.com info came 
+from, but no big deal either way I suppose.  That is as reasonable a 
+source as most.)
+
+- --Nathan
+
+On Fri, 31 Jan 1997, John Oleynick wrote:
+
+> Nathan writes:
+> > Ryan wrote:
+> > >I'll chime in here with my $0.02. The setlists I posted were from data I 
+> > >received a while back, and I can't vouch for their accuracy. There are many 
+> > >typos and missing fields in the data. I think most of these lists came from 
+> > >DB, because there are no listed contributors or recordings for the setlists.
+> > 
+> > Note:  The setlists Ryan posted, while a GREAT example of what can be done
+> > with a parsing/converting program, are not good sources for setlist info for
+> > our purposes, imho -- not simply becuase they may be from DeadBase but
+> > because they are incomplete and probably inaccurate, from a quick look.
+> 
+> I think those are some setlists that I had been using for about 4
+> years, and put into the deadlists format last summer.  The setlists
+> initially came from a number of places:
+> 
+> '65-'71:  my (rather incomplete) tape collection
+> '72,'73:  files which appeared on gdead.berkeley.edu 
+> '74-'89:  a file from ftp.apple.com.  I think this was from
+> 		Stak-O-Dead and I think one time I asked Allen
+> 		where the information came from but now I forget
+> 		(I know it wasn't Deadbase, though)
+> '90-'91:  Eric Simon's Useless Dead Stats, which were posted to r.m.gd
+> '92-'95:  setlists I gathered from dead-heads and r.m.gd
+> 
+> 
+> For '74-'95, I think this is a reasonable starting point for data.
+> There certainly are a number of errors, and '74-'89 doesn't have any of
+> the transitions marked (except for what's in my tape collection), but I
+> think it would be easier to correct what's there then completely redo
+> all of those years.
+> 
+> 		John
+> 
+> 
+> 
+
+------------------------------
+
+End of DeadLists Digest V1 #160
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,342 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #183
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest        Wednesday, 19 February 1997    Volume 01 : Number 183
+
+In this issue:
+
+	Re: multiple deadlists formats?
+	Re: We need to prioritize
+	Re: DeadLists Digest V1 #182
+	Re: multiple deadlists formats? 
+	Re: We need to prioritize 
+	Re: multiple deadlists formats?
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 19 Feb 1997 09:58:35 -0500
+Subject: Re: multiple deadlists formats?
+
+John Oleynick wrote:
+> 
+> It looks like there are good reasons to allow newlines within sets and
+> comments (easy human readability and writeability) and good reasons to
+> not allow newlines within sets and comments (efficiency of search
+> engines; it would break existing search engines' code).  Why don't we
+> just support both formats and provide tools to convert between the
+> two?
+
+I don't have a problem with this, however, I'm a little leary of defining two 
+formats. But in the end, I need the setlists in v1.3.1 format, so however they 
+arrive at that it really doesn't matter to me.
+
+My goal is to make updating a simple process. From the time we get an updated 
+setlist file, there should only be about 2 or 3 steps that are involved before 
+it goes "live" (on the Web site and into the search engine). All of these steps 
+should involve running scripts for converting, so humans really shouldn't need 
+to manually edit any files.
+
+John and Tim, I have created a script for converting text->RDB->HTML. I can 
+modify this to go text->HTML without too much problems. To take a look at what 
+I've done, see 
+http://www.digicool.com/ryan/jerry/jgb/temp_jerry/legion_of_mary.html
+
+This is what my Jerry site will eventually look like (it's obviously not 
+finished yet). Every piece of this information was done by a Python script, 
+including the last modified date. I've even figured a way to automatically 
+generate a "Tapes in Circulation" list, with the dates as hyperlinks to their 
+setlists. (Click on Circulation in the above URL).
+
+So, what does this mean? I can have a script ready by next Tuesday for anyone 
+who wants it. All you need to run this script is Python 1.3, which you can get 
+freely from http://www.python.org. There are binaries available for many 
+platforms, and it literally takes 5 minutes to install a binary (I did one last 
+week). 
+
+I can do some really great things with Python, and it's much, much, much better 
+than Unix shell scripts or other tools. In the future, I am tinkering with 
+running this script using a Web browser, so Nathan could go to a URL (password 
+protected) run all these scripts by filling in a form. For now, the scripts 
+will have to be run from the command line.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 19 Feb 1997 10:06:47 -0500
+Subject: Re: We need to prioritize
+
+Matthew S. Cramer wrote:
+> 
+> 1)  Line breaks - should they matter (especially in the set fields), and if
+> they do, where should they be?
+
+I'm in favor (and the spec says) one line break per field. This _is_ the format. 
+However, if John has written a script to convert non-tab-multiple-line-break-data 
+to this format, then contributors can write to this "lower" format, and we can do 
+the conversion. For the record, one line break is the format and that's what I 
+think should stand.
+
+> 2)  To bracket or not to bracket
+
+This is an aesthetic thing for me, and I prefer brackets, but then again I'm not 
+entering all the data, so what I think probably doesn't matter ;-)
+
+> 3)  The evil "\" - for anyone programming in C++ and it's family (C and
+> Java) "\" is a control character.  ANYTHING would be better.  "/" would
+> make sense and no one but programmers should really care.
+
+Doesn't matter to me.
+
+> 4)  "BAND" field - do we keep it or don't we keep it?
+
+Keep it.
+
+> 5)  Where do the song maps go?
+
+In curly brackets {} or parenthesis (). I think curly brackets look better.
+
+> This stuff should be decided first, before we get any farther.  Sorry to
+> sound like I am complaining but everytime I make some progress in the stuff
+> I am writing the spec gets briefly discussed and changed so I go back and
+> start over.  These are minor issues so let's just make up our minds (how
+> about by the end of the week?) and then continue on.  Once we pick a spec
+> let's make it ABSOLUTE until all of the years are done and a beta version
+> of the project is complete.  Then we can go back, revise the spec, and
+> begin on a second version of the project.
+
+I completely agree Matt. We do need to decide on these issues, as no one wants to 
+waste time working on a program, just to have to redo it because the spec 
+changes.
+
+> If there is currently no one officially in charge of managing the spec I
+> would be more than happy to do it.
+
+That would be me. Check out the site. I can make updates to the spec when we 
+decide on these issues.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Wed, 19 Feb 1997 09:43:44 -0800
+Subject: Re: DeadLists Digest V1 #182
+
+>From: "Matthew S. Cramer" <cramer@voicenet.com>
+
+>We are making some great progress (insert applause here for all
+>contributing caretakers)
+        clap, clap,clap,clap.....
+> but I think we need to prioritize on finalizing the spec NOW.
+
+Goody, another chance toput my .02 in:
+
+>1)  Line breaks - should they matter
+        Having read all the argument about how mailers mangle lists
+        (and seeing it in action)...
+        I would vote no... (but I'd also like to see unmistakable, easier
+        to parse markers for lines, like ":" after keywords like BAND:,
+        and maybe the newpage character for sets)
+>
+>2)  To bracket or not to bracket
+        Bracket timings. Yes, they're redundant. Redundancy is good.
+        (say this many times until you believe it) Redundancy is good,
+        Redundancy makes sure mistakes get caught.
+>
+>3)  The evil "\" - for anyone programming in C++ and it's family (C and
+>Java) "\" is a control character.  ANYTHING would be better.  "/" would
+>make sense and no one but programmers should really care.
+        Change it to "/" or "%"
+
+>4)  "BAND" field - do we keep it or don't we keep it?
+        Keep it - a tool is being developed here, and it will have many
+        more uses if we have this field.
+
+>5)  Where do the song maps go?
+        I'm not sure of the level of detail you are asking here. I assume
+        you are talking about position, not syntax (i.e. inside "{","}"
+        pairs.
+        The spec allows maps to go in two places: immediately after the
+        song, or in the comments field, pointed to by a reference mark
+        immediately after the song.
+
+
+I'd also volunteer to be spec keeper, though there are other volunteer(s),
+and I didn't seem to have much success getting people to keep to the
+current spec.
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Wed, 19 Feb 1997 13:10:28 -0500
+Subject: Re: multiple deadlists formats? 
+
+Ryan writes:
+> I don't have a problem with this, however, I'm a little leary of defining two
+>  
+> formats. But in the end, I need the setlists in v1.3.1 format, so however the
+> y 
+> arrive at that it really doesn't matter to me.
+
+Yes, I've been leary of defining a second format, partially just on
+the general principle that there should be 0, 1 or an infinite number
+of things, and partially because it would be more confusing to have
+multiple formats.  But, it looks like there are good reasons for
+both formats.  As long as the formats aren't too different, and as
+long as there is an easy way to convert between the two, then I
+think we can avoid most of the problems of multiple formats and
+also get out of the rut we seem to be in trying to decide on
+one format.  I think the second format (v1.3.1-alt, v1.3.1-ez, 
+v1.3.1-newlines, whatever) should be defined to be just like the
+standard datebase format with only a few exceptions.  Off the top
+of my head I'd say the second format should be just like the regular
+format except:
+	1.  newlines can occur anywhere within a field
+	2.  tabs aren't required anywhere
+	3.  square brackets around timings are optional
+and other than that everything else would be the same.  The same
+transition characters, the same field names, the same song names,
+the same comment convention, etc.
+
+> My goal is to make updating a simple process. From the time we get an updated
+> setlist file, there should only be about 2 or 3 steps that are involved befor
+> e 
+> it goes "live" (on the Web site and into the search engine). All of these ste
+> ps 
+> should involve running scripts for converting, so humans really shouldn't nee
+> d 
+> to manually edit any files.
+
+Definitely.  Except for the year caretakers, I think the lists should
+be untouched by human hands.  I also think that as long as a caretaker
+is editing a year, the current format is a little rough for human
+hands (although it's certainly easier than the earlier format and
+other formats I've used).
+
+		John
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Wed, 19 Feb 1997 13:29:11 -0500
+Subject: Re: We need to prioritize 
+
+Tim replies to Matt:
+> Several folks have voiced opinions on the points you outlined, but that
+> hasn't really led to any decision making. As I see it, we have two
+> options. Either pick someone to make the final decision on these issues,
+> and let their word be authoritative, or try to figure out some sort of
+> voting process. Anyone who takes the time to vote probably has a valid
+> opinion, so I don't think we would need to worry about whose votes are the
+> most valid, etc.
+
+Yes, I think some sort of voting process would be good.  That sounds
+good to let anyone who cares vote, although I think we especially
+need to hear from the people who are working on the lists and search
+engines (Jim, Gordon, Nathan, Ryan, Matt and maybe a couple of others
+who have slipped my mind).  I don't know if we need a formal voting
+process or if everyone can just reply to this message and someone
+can tally the votes.
+
+I'll throw in my opinions here:
+1)  Line breaks - extend the spec to define an alternative format that
+	is easier for humans to read and write and also easy to
+	convert to the existing format.
+
+2)  To bracket or not to bracket - The regular format should require
+	brackets, the alternative format should make them optional
+
+3)  The evil "\" - sure, get rid of it and use "/" or "%"
+
+4)  "BAND" field - keep it
+
+5)  Where do the song maps go - inside a delimiting pair {}. ()'s
+	should only be used for comments, not song maps.
+	
+	
+			John
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Wed, 19 Feb 1997 16:12:44 -0600 (CST)
+Subject: Re: multiple deadlists formats?
+
+Ryan's work on the legion of mary page (which is looking very nice) and
+John's sh/sed/awk filter inspired me to fritter the day away at work today
+working on a perl script to convert deadlists from 1.3.1 spec to Phase III
+HTML file for the tour-by-tour site if any of you are familiar with that.
+I have 74 up right now, if you'd like to see how it looks. There may be
+some broken things still, let me know if you find errors. My main goal for
+that project right now is to integrate our data into it to provide a
+consistent, clean format for folks to browse set-lists. Search
+capabilities right now are minimal; I plan to link this into whatever
+search engine Ryan and Company produce that will be the "official" search
+engine. Anyways, I think what I've done is a nice demonstration of what is
+possible with good data that adheres to the spec. If anybody cares to see
+the perl script that did it, I'll be happy to show you, although it's not
+pretty... leave the kids at home for this one!
+
+http://www.math.ukans.edu/tbt
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+End of DeadLists Digest V1 #183
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

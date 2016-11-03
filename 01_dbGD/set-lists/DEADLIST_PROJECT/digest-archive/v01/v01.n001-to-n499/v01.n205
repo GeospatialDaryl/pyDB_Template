@@ -1,0 +1,92 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #205
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Monday, 10 March 1997       Volume 01 : Number 205
+
+In this issue:
+
+	Re: 
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Mon, 10 Mar 1997 11:31:18 -0500
+Subject: Re: 
+
+Jim Powell wrote:
+> 
+> there's no reason to put brackets around song timings that follow song
+> names.  Simplicity itself urges that we drop them.
+
+I'd still like to see these in the official spec, for aesthetic reasons.
+However, since John has written a script to automatically add these, I
+don't see why it matters to the people inputing the setlists. I've been
+really busy lately, but I'll try and update the data spec soon with all
+the recent information.
+
+> there *is* good reason to set off song maps inserted into lists with
+> brackets, since otherwise their internal nomenclature can become confused
+> with the setlists.  Simplicity itself urges that brackets be retained for
+> this purpose.
+
+Agreed.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Mon, 10 Mar 1997 12:32:11 -0500
+Subject: [none]
+
+In message <199703080313.TAA06369@well.com> you write:
+> there's no reason to put brackets around song timings that follow song
+> names.  Simplicity itself urges that we drop them.
+
+The new script, which will be ready for prime time Real Soon Now, will
+automatically put in the brackets so you won't ever have to
+put in brackets or see them.  I've been able to take your '69
+data and Gordon's '77 and '82 data and feed it to the script
+and convert the data to v1.3.1 format with all of the brackets,
+tabs and newlines that make the parsers happy.  So, you can
+use the format you've been using without brackets and the parsers
+can continue using the format they've been using with brackets.
+
+		John
+
+
+------------------------------
+
+End of DeadLists Digest V1 #205
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

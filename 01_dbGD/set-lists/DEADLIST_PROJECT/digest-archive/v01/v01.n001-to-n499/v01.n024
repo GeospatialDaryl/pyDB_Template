@@ -1,0 +1,350 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #24
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 29 February 1996     Volume 01 : Number 024
+
+In this issue:
+
+	[none]
+	Re: DeadLists Digest V1 #20
+	Re: accomodating teases
+	Re: how to deal with reprises (datafile/songname discussion) 
+	Re: 
+	Re: how to deal with reprises (datafile/songname discussion) 
+	Re: accomodating teases
+	Re:
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Wed, 28 Feb 1996 16:09:47 -0800
+Subject: [none]
+
+i'm with brian pretty much down the line except that there are passages of
+Dead i'm content to call < space > from at least 1/22/68 (and that's just
+the earliest date that comes to mind.  (and welcome brian mcallister!
+sounds like you know your stuff & how to use it too). 
+
+it's seldom difficult to distinguish where space begins in a post 79 drums >
+space sequence.  by convention i regard space as starting when one of the
+non-drummers re-enters, whether or not the drummers stick around.
+
+(as for bralove's segments, i regard them as a bore & a good opportunity for
+a pee break.  him & kaiser should have a micro-talent/mega-equipment
+contest.  vince could judge it.)
+
+it shouldn't be hard to set up a statistics generator to count or list only
+one song per show however many times it appears in the show.  it also
+shouldn't be hard to set it up so that it would ignore or note teases, jams,
+reprises, or whatever other suffixes.
+
+I would prefer < Dark Star second vocals > to < Dark Star reprise > but
+having a uniform suffix might be worth going against aesthetic preference
+
+there are a few cases where a song is actually played twice on a date &
+where one would therefore want it listed as such & counted twice.  For
+example, there are 2 distinct Dark Stars at Matrix 10/30/68.  on the other
+hand, that's probably the only 2 Dark Star date.  I would want Dark Star
+counted just once for 6/17/91, although it shows up 7 times in the course of
+the show.  using a suffix like Dark Star jam would be one way to rig this so
+a statistics generator could be taught to deal as we want it to deal.
+
+(remember, the goal is to set up the machine to do what we want it to do,
+not to do what the machine finds it most convenient to do)
+
+and yes, how could we forget the Me & My Uncle jams of 71!
+
+
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Wed, 28 Feb 1996 16:44:55 -0800
+Subject: Re: DeadLists Digest V1 #20
+
+>i think we need to be able to accomodate "teases" in some measure.  for
+>instance, i'm checking out Richmond 10/8/83.  The 2nd set concludes ...
+>Truckin > Spoonful > Wharf Rat > Sugar Magnolia tease > Good Lovin, US
+>Blues.
+
+I would advocate taking it out of line (I'm always doing that) with the
+footnoting property, perhaps with a TEASE: keyword. In general, I like to
+put exceptional stuff (guests, breakouts, whatever) in footnotes. It might
+be hard to search for Wharf Rat > Good Lovin' in the presence of a tease in
+the middle, but pretty ease to do a global search of a Sugar Mag. tease &&
+(Wharf Rat > Good Lovin')
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 28 Feb 1996 17:31:55 -0800 (PST)
+Subject: Re: accomodating teases
+
+> >i think we need to be able to accomodate "teases" in some measure.  for
+> >instance, i'm checking out Richmond 10/8/83.  The 2nd set concludes ...
+> >Truckin > Spoonful > Wharf Rat > Sugar Magnolia tease > Good Lovin, US
+> >Blues.
+> 
+> I would advocate taking it out of line (I'm always doing that) with the
+> footnoting property, perhaps with a TEASE: keyword. In general, I like to
+> put exceptional stuff (guests, breakouts, whatever) in footnotes. It might
+> be hard to search for Wharf Rat > Good Lovin' in the presence of a tease in
+> the middle, but pretty ease to do a global search of a Sugar Mag. tease &&
+> (Wharf Rat > Good Lovin')
+
+Couldn't the software simply ignore all items such as "<songname> Tease" 
+in a search of setlists?  I think this has been proposed.  Maybe it's so 
+difficult to code that some folks are still trying to avoid "teases" 
+"jams" etc. in the setlists?
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 28 Feb 1996 17:54:43 -0800 (PST)
+Subject: Re: how to deal with reprises (datafile/songname discussion) 
+
+> > Why?  What's wrong with Dark Star Reprise to list the second half of Dark 
+> > Star?  If we're gonna do it with Playin', why not with Dark Star and 
+> > Uncle John's Band and Other One?  
+> 
+> (I'm not concerned with Uncle John's - that is a true reprise)
+> 
+> 1.  It's a misuse of a musical term that has a definition outside of
+> this effort in a way that may not be obvious to everyone.  We want
+> this to be usable by people other than the ones who create it, right ?
+
+Some of what we are calling reprises aren't techincally such, as you 
+note.  But Playin, UJB, Cryptical, Dark Star, arguably many instances of 
+the Other One and probably others contain a restatement of the theme (or 
+a "recapitulation of the exposition", to quote from the Harvard Dictionary 
+of Music), which makes them a "reprise" in the technical sense and 
+probably makes naming them "reprises" intelligible to folks outside this 
+project.
+
+> 2.  Applying the term "reprise" to the second half of a "sandwich"
+> such as 9/28/72: Other One>Bobby McGee>Other One does not do a very
+> good job of telling people who haven't heard it what is going on.
+
+The problem with  "Other One>B McGee>Other One" is that it looks like two 
+instances of a complete song, whereas that is not the case.  I'm open to 
+calling the second half of the Other One something other than an Other 
+One Reprise.  The only alternative offered so far is "*Other One" which I 
+like less than "Other One Reprise".  The former, I suspect, is even 
+less easily deciphered by the lay Head.  Neither route is ideal.  Any 
+third options?
+
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Wed, 28 Feb 1996 18:43:02 -0500
+Subject: Re: 
+
+>(as for bralove's segments, i regard them as a bore & a good opportunity for
+>a pee break.  him & kaiser should have a micro-talent/mega-equipment
+>contest.  vince could judge it.)
+
+amusing, but not really relevant to accurately documenting dead shows, eh?
+personally, i think the bralove stuff falls under the rubric of "space."
+
+>I would prefer < Dark Star second vocals > to < Dark Star reprise > but
+>having a uniform suffix might be worth going against aesthetic preference
+
+why not <... second verse>? since that what it really is? 
+
+we *are* sort of redefining reprise here.
+
+        --xian
+- --
+xian =%7o		http://www.pobox.com/~xian
+Enterzone		http://enterzone.berkeley.edu/enterzone.html
+SYX.com			http://www.syx.com
+
+4 out of 5 dentists surveyed recommend Enterzone
+	for their patients who read zines
+
+A Pink Worm Flower, the Live Rock 'n' Roll Ride, The Good, the Bad, and Comix 
+You in The Puritans Stimulants Age Etch-a-Sketch Me One More Ratdog Solution
+The 6 Stories, 3 Cage Poems, 6 Jaw Bone marstgred 
+Man On the Very Short Line from Mars
+The Nylons Committee (actual size)
+Welcome to the Golden Back Drop
+Spring in Review
+
+
+------------------------------
+
+From: Pauli Sexton <sext0005@gold.tc.umn.edu>
+Date: Wed, 28 Feb 1996 21:53:02 -0600 (CST)
+Subject: Re: how to deal with reprises (datafile/songname discussion) 
+
+> > It doesn't.  It lists each occurance in Every Time Played, but doesn't 
+> > count them in Table, which lists the number of *shows* each song was 
+> > played by year/cumulative.  
+> 
+> This is stated in DB ?  I haven't looked at those tables much.
+ 
+No, it is not stated.
+
+> > Deadbase doesn't count these in the Table, just the # of shows a song was 
+> > played at, regardless of the number of times it was played at one show.
+> 
+> Is that what WE want ?  If they really play it twice, shouldn't it be
+> counted twice ?
+ 
+Yes, I was just relaying what Deadbase does based on the two examples you 
+gave.  
+
+> (I'm not concerned with Uncle John's - that is a true reprise)
+> Obviously, my objections are mostly "aesthetic", and if we can't come
+> up with a better solution, I guess we'll have to use this one.
+
+Well, there are a number of alternatives, and I wouldn't want my moronic
+misuse of language to upset the experts among us ... I'm simply saying   
+that 'reprise' would be one of many ways to say 'part II' or 'second 
+verse' or whatever.  The important point is that whatever we use for 
+one might be considered a framework for other Dead phenomena of similar 
+measure.  
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 28 Feb 1996 20:18:59 -0800 (PST)
+Subject: Re: accomodating teases
+
+This insight makes things clearer to me.  I hope the list finds it useful.
+
+On Wed, 28 Feb 1996, Matthew S. Cramer wrote:
+
+> Nathan Wolfson <nathan@well.com> writes:
+> >Couldn't the software simply ignore all items such as "<songname> Tease"
+> >in a search of setlists?  I think this has been proposed.  Maybe it's so
+> >difficult to code that some folks are still trying to avoid "teases"
+> >"jams" etc. in the setlists?
+> 
+> I may be jumping the gun here a little bit, but I think it is necessary so
+> we can try and get this stuff cleared up as soon as possible.
+> 
+> Firstly, I am a software engineer for a company that designs traffic
+> control software.  We do all of our stuff in c/c++.  I am assuming this is
+> how we will code our applications for use with the data file.
+> 
+> It will be totally trivial to tell our application to ignore certain things
+> in the data file when doing searches.  We just need to be consistent.
+> Imagine a search menu option with fields for entering song names, and then
+> check boxes for ignoring named jams, teases, reprises, transitional jams
+> (i.e. the thing between scarlet->fire), tunings, and general jams, etc.
+> 
+> So how about a list for things we wish to be included in the data file?  I
+> would say we include:
+> 
+> ANY sort of jams (with different syntax for transitional jams, named jams,
+> and misc. jams)
+> 
+> Tunings (Funicula Funiwhatever was included on the track listing for DP3)
+> 
+> Teases
+> 
+> Reprises (where a song occurs in part for a second time)
+> 
+> 
+> 
+> I see potential problems with things like the Main Ten vs. Playin Jam; and
+> also.... are we going to do things like Dark Star Jam if there is music but
+> no words...but what if it is the second time in a set....then dark star jam
+> reprise...yuck.
+> 
+> Sorry for that last sentence...it's late...hopefully my point is clear.
+> 
+> 
+> 
+> Later,
+> 
+> Matt
+> 
+>   #----------------------------------------------------------------------#
+>   # Matt Cramer <matt@main.cpcnet.com>     G   "Damn the rules, its the  #
+>   #                                        A    feeling that counts."    #
+>   # "All science is either Physics or      I           --John Coltrane   #
+>   #  stamp collecting."  --Rutherford      A                             #
+>   #----------- http://boss.cpcnet.com/personal/matt/Home.html -----------#
+> 
+> 
+> 
+
+------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Wed, 28 Feb 1996 23:21:36 -1000
+Subject: Re:
+
+>>I would prefer < Dark Star second vocals > to < Dark Star reprise > but
+>>having a uniform suffix might be worth going against aesthetic preference
+>
+>why not <... second verse>? since that what it really is?
+
+Second verse is thwhat it is.
+
+    David Gans      tnf@well.com    http://www.well.com/user/tnf/
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 29 Feb 1996 00:31:17 -0800
+Subject: [none]
+
+can't we just assume that we all know what we mean by 
+
+Other One > Me & My Uncle > Other One
+
+and program to not count (when counting) more than one song per show, and
+maybe also program in an override for those rare instances like 10/30/68.  
+
+anyways, counting isn't that major a function.  you only need to do it once,
+you know.
+
+
+and thanks matt cramer.  you've got it nailed.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #24
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

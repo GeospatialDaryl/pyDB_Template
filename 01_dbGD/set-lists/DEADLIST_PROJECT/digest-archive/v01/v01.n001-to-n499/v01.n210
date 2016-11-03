@@ -1,0 +1,316 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #210
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 12 March 1997      Volume 01 : Number 210
+
+In this issue:
+
+	Update: Caretakers, Years, Code
+	Re: Update: Caretakers, Years, Code
+	Re: Update: Caretakers, Years, Code 
+	Re: Update: Caretakers, Years, Code
+	Re: Update: Caretakers, Years, Code 
+	Re: Update: Caretakers, Years, Code 
+	Re: Update: Caretakers, Years, Code
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 12 Mar 1997 08:41:56 -0800
+Subject: Update: Caretakers, Years, Code
+
+There are only five years left without caretakers.  If you've been thinking
+of stepping forward but haven't, you should :-)
+
+I anticipate there being the opportunity down the road for a few years to
+change hands.  Gordon, for one, has taken on more years than he intended (or
+so is my impression) to help get things rolling.  So if the year you really
+want is already taken, the opportunity may come around again.
+
+Regarding the code that appeared here recently:  If the creators of code
+want to send me compiled versions for various platforms, I'll be happy to
+place those on the web site for download.  (It has an ftp directory that I
+am not using, but I'd almost rather just use an HTTP download, since the
+files are relatively small.  If anyone objects, I can do it the other way --
+or do both.)
+
+(BTW, if anyone is wondering why I haven't worked the few formatting
+glitches out of the SongNames page:  Matt plans to have a revised version
+together soon, so I figure we'll just go with that.)
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Wed, 12 Mar 1997 10:59:26 -0600 (CST)
+Subject: Re: Update: Caretakers, Years, Code
+
+> Regarding the code that appeared here recently:  If the creators of code
+> want to send me compiled versions for various platforms, I'll be happy to
+> place those on the web site for download.  (It has an ftp directory that I
+> am not using, but I'd almost rather just use an HTTP download, since the
+> files are relatively small.  If anyone objects, I can do it the other way --
+> or do both.)
+
+Unlesss I've missed something, the only code I've seen is John's
+super-duper gawk script; awk is an interpreted language, i.e. you need an
+interpreter to execute it (in this case gawk). So basically, if you have
+the intepreter installed on your Unix box, Mac, PC you just change the
+first line "#! /usr/local/bin/gawk" or whatever it is to reflect the
+location of the interpreter (that's how you do it on Unix anyways, can't
+say for Mac/PC)
+
+All of the code I'm aware of for this project is being developed in
+interpreted languages: awk, lisp (does that count?), perl, python, etc.
+Unless somebody starts hacking C code, we shouldn't need to compile our
+code into executables. 
+
+One important exception is the Deadlists Manager app, which I believe is
+available for Mac or PC. I love this beauty, and urge all year caretakers
+to run their data through it, if at all possible. 
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 12 Mar 1997 12:48:45 -0500
+Subject: Re: Update: Caretakers, Years, Code 
+
+In message <1.5.4.32.19970312164156.0081949c@mail.well.com> Nathan
+writes:
+> I anticipate there being the opportunity down the road for a few years to
+> change hands.  Gordon, for one, has taken on more years than he intended (or
+> so is my impression) to help get things rolling.  So if the year you really
+> want is already taken, the opportunity may come around again.
+
+Nathan, instead of listing a caretaker for these years could you
+put something like:  "This year still needs a caretaker.  Philip
+Q. Random is the temporary "acting caretaker" to provide some
+initial data, but if you're interested in taking over as caretaker 
+for the year please do!"
+
+> Regarding the code that appeared here recently:  If the creators of code
+> want to send me compiled versions for various platforms, I'll be happy to
+> place those on the web site for download.  (It has an ftp directory that I
+> am not using, but I'd almost rather just use an HTTP download, since the
+> files are relatively small.  If anyone objects, I can do it the other way --
+> or do both.)
+
+As Tim pointed out, the code I sent is in gawk, which an interpreted
+language so you can't really have a compiled version of the program
+available for download.  You just download the source code and run it
+using your gawk interpreter.  I can write up a little documentation
+that says something like "You need a gawk interpreter to run this
+program.  If you're using a PC or Mac you can download a gawk
+interpreter from (a href="somehwere") here(/a).  If you're using a Unix
+system, it might already have a gawk interpreter or you can download
+the source code from (a href="somehwere") here(/a) and compile it
+yourself."
+
+			John
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 12 Mar 1997 10:43:58 -0800 (PST)
+Subject: Re: Update: Caretakers, Years, Code
+
+My mistake.
+
+Is there a good FAQ online (or a short tutorial) for those of us not 
+familiar with running interpretated language scripts?  (Like I don't have 
+more than half a  clue, but assume it isn't real complicated...)
+
+UNIX is the usual place for these things to be done, but ideally the FAQ 
+will cover how to set up a WinTel and MacOS machine for these beasts, as 
+well, since I think those are what most of the Caretakers have most ready 
+accesss to and are most familiar with.
+
+- --nathan
+
+On Wed, 12 Mar 1997, Tim Buller wrote:
+
+> > Regarding the code that appeared here recently:  If the creators of code
+> > want to send me compiled versions for various platforms, I'll be happy to
+> > place those on the web site for download.  (It has an ftp directory that I
+> > am not using, but I'd almost rather just use an HTTP download, since the
+> > files are relatively small.  If anyone objects, I can do it the other way --
+> > or do both.)
+> 
+> Unlesss I've missed something, the only code I've seen is John's
+> super-duper gawk script; awk is an interpreted language, i.e. you need an
+> interpreter to execute it (in this case gawk). So basically, if you have
+> the intepreter installed on your Unix box, Mac, PC you just change the
+> first line "#! /usr/local/bin/gawk" or whatever it is to reflect the
+> location of the interpreter (that's how you do it on Unix anyways, can't
+> say for Mac/PC)
+> 
+> All of the code I'm aware of for this project is being developed in
+> interpreted languages: awk, lisp (does that count?), perl, python, etc.
+> Unless somebody starts hacking C code, we shouldn't need to compile our
+> code into executables. 
+> 
+> One important exception is the Deadlists Manager app, which I believe is
+> available for Mac or PC. I love this beauty, and urge all year caretakers
+> to run their data through it, if at all possible. 
+> 
+> 	Tim
+> 
+> ====
+> Tim Buller                                       buller@math.ukans.edu
+> Math Department Systems Specialist                       Snow Hall 643
+> University of Kansas, Lawrence, KS 66045                  913-864-7311
+> 
+> 
+> 
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 12 Mar 1997 10:53:54 -0800 (PST)
+Subject: Re: Update: Caretakers, Years, Code 
+
+On Wed, 12 Mar 1997, John Oleynick wrote:
+
+> In message <1.5.4.32.19970312164156.0081949c@mail.well.com> Nathan
+> writes:
+> > I anticipate there being the opportunity down the road for a few years to
+> > change hands.  Gordon, for one, has taken on more years than he intended (or
+> > so is my impression) to help get things rolling.  So if the year you really
+> > want is already taken, the opportunity may come around again.
+> 
+> Nathan, instead of listing a caretaker for these years could you
+> put something like:  "This year still needs a caretaker.  Philip
+> Q. Random is the temporary "acting caretaker" to provide some
+> initial data, but if you're interested in taking over as caretaker 
+> for the year please do!"
+
+I am not sure what I think of this.  I think unless a current caretaker 
+asks me to put a note on their year like that, I won't.  People are often 
+hesitant when they sign on for a year but I don't want to fomralize that 
+feeling unless instructed to do so:
+
+So if you are a caretaker and would like to only caretake for a short 
+while, please let me know I will put a note on the years you are 
+interested in giving up as soon as someone comes along to take it.
+
+Sound reasonable?
+
+> 
+> > Regarding the code that appeared here recently:  If the creators of code
+> > want to send me compiled versions for various platforms, I'll be happy to
+> > place those on the web site for download.  (It has an ftp directory that I
+> > am not using, but I'd almost rather just use an HTTP download, since the
+> > files are relatively small.  If anyone objects, I can do it the other way --
+> > or do both.)
+> 
+> As Tim pointed out, the code I sent is in gawk, which an interpreted
+> language so you can't really have a compiled version of the program
+> available for download.  You just download the source code and run it
+> using your gawk interpreter.  I can write up a little documentation
+> that says something like "You need a gawk interpreter to run this
+> program.  If you're using a PC or Mac you can download a gawk
+> interpreter from (a href="somehwere") here(/a).  If you're using a Unix
+> system, it might already have a gawk interpreter or you can download
+> the source code from (a href="somehwere") here(/a) and compile it
+> yourself."
+> 
+
+As my email response to Tim's post indicates, I was obviously confused 
+:-)  And the idea of a ReadMe intro for the script would be great.  
+Bascially, a paragraph or two that would walk us idiots through the use 
+of such a script would be great.
+
+- --nathan
+
+
+
+
+
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Wed, 12 Mar 1997 14:13:49 -0500
+Subject: Re: Update: Caretakers, Years, Code 
+
+In message <Pine.3.89.9703121013.A12484-0100000@well.com> you write:
+> > Nathan, instead of listing a caretaker for these years could you
+> > put something like:  "This year still needs a caretaker.  Philip
+> > Q. Random is the temporary "acting caretaker" to provide some
+> > initial data, but if you're interested in taking over as caretaker 
+> > for the year please do!"
+> 
+> I am not sure what I think of this.  I think unless a current caretaker 
+> asks me to put a note on their year like that, I won't.  People are often 
+> hesitant when they sign on for a year but I don't want to fomralize that 
+> feeling unless instructed to do so:
+
+Oh yes, I meant only for certain years and only if the current
+caretaker wants to be "acting caretaker" and not "perennial
+caretaker".  For myself, I'd like a note like that on '89 and '94,
+which I'm working on because no on else is and would gladly give up if
+someone else wants to take them.  As for my other year, '71, well
+someone can have that when they pry my cold, dead fingers from it (with
+no guns or PGP keys, gotta feel strongly about something :-).
+
+		John
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Wed, 12 Mar 1997 17:39:45 -0500
+Subject: Re: Update: Caretakers, Years, Code
+
+>There are only five years left without caretakers.  If you've been thinking
+>of stepping forward but haven't, you should :-)
+>
+>I anticipate there being the opportunity down the road for a few years to
+>change hands.  Gordon, for one, has taken on more years than he intended (or
+>so is my impression) to help get things rolling.  So if the year you really
+>want is already taken, the opportunity may come around again.
+
+Impression correct. I am continuing to upload years every other week or so,
+and will continue to do so until the work is done (I just started 1983).
+Most of the years I'm uploading will involve minimal amount of caretaking. I
+am more than willing to give up any of the years except my original 77-78-79
+undertaking.
+
+Gordon
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #210
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

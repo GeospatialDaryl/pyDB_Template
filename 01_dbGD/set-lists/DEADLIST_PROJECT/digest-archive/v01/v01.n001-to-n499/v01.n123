@@ -1,0 +1,1029 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #123
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Saturday, 11 January 1997     Volume 01 : Number 123
+
+In this issue:
+
+	annoying carriage return problem test
+	[none]
+	1978: 1/6-5/17
+	[none]
+	website update
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 11 Jan 1997 21:23:34 -0500
+Subject: annoying carriage return problem test
+
+BAND  Grateful Dead
+VENUE  Selland Arena
+CITY  Fresno
+STATE  CA
+DATE  01/15/78
+SET1  Bertha #4:47 > Good Lovin' 5:55 ; Dire Wolf 3:39 ; Mexicali Blues 3:28
+> Big River 5:59 ; It Must Have Been the Roses 6:09 ; Passenger 4:37 ;
+Brown-Eyed Women 5:17 ; The Music Never Stopped 7:53
+SET2  Samson & Delilah 7:49 ; Friend of the Devil 8:28 ; Sunrise 3:15# ;
+Terrapin Station 10:05 > Playing in the Band 27:#21 > Wharf Rat 11:04 >
+Sugar Magnolia 9:38
+SET3
+ENCORE  none
+COMMENTS
+RECORDINGS  first set SBD, second set AUD.  Approximately 90 to 120 seconds
+off the front of Bertha is missing on the SBD. The aud has Sunrise cutting
+off at the indicated spot. The original AUD master appears to have had the
+first three songs of the second set recorded on the first set with the cut
+off of Sunrise (presumably) resulting from the master. A fast tape flip
+splice occurs in Wharf Rat, however in subsequent dubs, with Wharf Rat moved
+further onto the B side, a slight overlap will occur- this has been deducted
+from the timing. The splice in the middle of PITB is indeterminable but
+probably insignificant.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Sat, 11 Jan 97 21:27:20 -0500
+Subject: [none]
+
+> in my view we can eliminate the tilde [ ~ ] from the specs since it's not
+> doing much besides doubling for the guzinta [ > ].  In my view, if one wants
+> to specify a jam between songs one should note it as "jam" in the list.
+
+Do we not also want to distinguish between a no-pause-but-abrupt transition
+and a true segue ?
+
+Should these all be described the same way ?
+
+	8/19/70: St Stephen > Sugar Magnolia
+	 3/1/69: Dark Star > St Stephen ...
+	11/8/69: Dark Star > The Other One ...
+	5/27/93: Cassidy > Uncle John's Band > Cassidy ...
+	10/2/94: Mama Tried > Mexicali Blues
+
+**********
+
+> also, I found that the double semi-colon [ ;; ] to indicate a L O N G pause
+> between songs came in handy on a few occasions, so again, I think we should
+> keep it.
+
+Here's one that definitely needs this:
+
+VENUE  Woodstock, Max Yasgur's Farm
+DATE  08/16/69
+SET1  St. Stephen > Mama Tried; Dark Star > High Time; Lovelight
+COMMENTS  Generally only the first 45 minutes of this set circulate --
+omitting the Lovelight (and who IS that dosed freak raving about a "third
+coast" therein?).  There is a cut in Stephen on all circulating copies.
+
+should probably be:
+
+SET1  St. Stephen > Mama Tried; (1); Dark Star > High Time; Lovelight
+COMMENTS  Generally only the first 45 minutes of this set circulate --
+omitting the Lovelight (and who IS that dosed freak raving about a "third
+coast" therein?).  There is a cut in Stephen on all circulating copies.
+<tab>(1) Broken PA rap, with Wavy Gravy(?) and Country Joe McDonald	
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 11 Jan 1997 21:56:33 -0500
+Subject: 1978: 1/6-5/17
+
+BAND  Grateful Dead
+VENUE  Swing Auditorium
+CITY  San Bernardino
+STATE  CA
+DATE  01/06/78
+SET1  The Promised Land 4:16 ; Dire Wolf 3:43 ; Mama Tried 2:42 > Big River
+6:28 ; Loser 7:36 ; Looks Like Rain 8:04 ; Tennessee Jed 8:48 ; Minglewood
+Blues 5:31 ; Deal 7:07 ; Lazy Lightnin' 3:28 > Supplication 5:25
+SET2  Playing in the Band 23:05 > Estimated Prophet 11:43 > Drums 6:24 > The
+Other One 7:23 > Truckin' 11:21
+SET3
+ENCORE  Johnny B. Goode 4:20
+COMMENTS
+RECORDINGS   AUD complete 180
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Golden Hall
+CITY  San Diego
+STATE  CA
+DATE  01/07/78
+SET1  Minglewood Blues 5:28 ; Cassidy 4:46 ; Sunrise 4:06 ; Passenger 4:57 ;
+Mexicali Blues 3:38 > Me & My Uncle 3:08 ; Looks Like Rain 8:11 ; El Paso
+4:37 > Let it Grow 13:51 > The Promised Land 4:37
+SET2  Jack Straw 7:17 ; Dancin' in the Streets 22:10 > Samson & Delilah 7:32
+; Playing in the Band 9:57 > Drums 6:03 > Not Fade Away 14:59 > Around &
+Around 8:29
+SET3
+ENCORE  One More Saturday Night 4:52
+COMMENTS
+RECORDINGS  AUD and SBD complete 180. Timings from AUD.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Golden Hall
+CITY  San Diego
+STATE  CA
+DATE  01/08/78
+SET1  Jack Straw 6:35 ; Mama Tried 2:51 > Big River 6:22 ; Sunrise 3:44 ;
+It's All Over Now 7:58 ; Looks Like Rain 7:41 ; Lazy Lightnin' 3:21 >
+Supplication 6:06
+SET2  Samson & Delilah 7:21 ; Good Lovin' 6:00 ; Estimated Prophet 13:20 >
+Drums 8:24 > The Other One 15:10 > Truckin' 7:51 > Sugar Magnolia 9:#11
+SET3
+ENCORE  Johnny B. Goode 4:10
+COMMENTS
+RECORDINGS  AUD and SBD complete at 135. Timed from AUD. Pause before
+Sunshine Daydream was edited out.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Shrine Auditorium
+CITY  Los Angeles
+STATE  CA
+DATE  01/10/78
+SET1  Bertha 6:57 > Good Lovin' 5:52; Brown-Eyed Women 5:30 ; Mexicali Blues
+3:36 > Me & My Uncle 3:06 ; Friend of the Devil 7:56 ; Cassidy 4:59 ;
+Candyman 6:59 ; Passenger 4:34 ; Sunrise 3:48 ; Deal 5:50 > The Music Never
+Stopped 7:07
+SET2  Jack Straw 5:40 ; It Must Have Been the Roses 6:47 ; Estimated Prophet
+13:01 > He's Gone 12:22 > Drums 6:26 > The Other One 9:14 > Wharf Rat 10:26
+> Franklin's Tower 10:09 > Around & Around 7:41#
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDINGS  SBD. AUDs do exist but are virtually uncirculated. Five seconds
+was added to He's Gone to accurately (I believe) account for a minor splice.
+Around & Around cuts off near the end on SBD copies.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Shrine Auditorium
+CITY  Los Angeles
+STATE  CA
+DATE  01/11/78
+SET1  Minglewood Blues 5:16 ; Dire Wolf 3:41 ; Looks Like Rain 7:54 ; They
+Love Each Other 6:48 ; Big River 5:47 > El Paso 4:03 ; Brown-Eyed Women 4:44
+; Let it Grow 11:31
+SET2  Samson & Delilah 7:30 ; Sunrise 3:49 ; Terrapin Station 10:57 >
+Playing in the Band 14:17 > Drums 2:58 > Space 3:54 > St. Stephen 9:25 > Not
+Fade Away 9:05 > Playing in the Band 7:31
+SET3
+ENCORE  Passenger 4:33
+COMMENTS
+RECORDINGS  Predominantly SBDs circulate but a truly excellent AUD exists
+which supplied this timing
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Arlington Theatre
+CITY  Santa Barbara
+STATE  CA
+DATE  01/13/78
+SET1  Mississippi Half-Step 8:49 ; Mexicali Blues 3:36 > Big River 5:55 ;
+Candyman 6:59 ; It's All Over Now 7:15 ; Brown-Eyed Women 3:00# ; Beat it on
+Down the Line 3:31 ; Friend of the Devil 8:47 ; Lazy Lightnin' 3:31 >
+Supplication 6:06
+SET2  Bertha 6:35 > Good Lovin' 5:51 ; Sunrise ; Dancin' in the Streets
+16:58 > Drums 3:56 > Jam 13:51 > Wharf Rat 12:02? > Truckin' 9:23 > Around &
+Around 8:23
+SET3
+ENCORE  Sugar Magnolia 9:47
+COMMENTS
+RECORDINGS  SBD 180, AUD Dancin' thru end. Show through Good Lovin' timed
+from SBD version with Brown-Eyed Women cutting off as indicated. An AUD from
+Dancin' through the end of the show supplied the remainder of the timings.
+Wharf Rat splices then overlaps- it is probably 30 seconds to a minute
+shorter than indicated. Second set will be retimed upon acquisition of a SBD
+version.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Civic Auditorium
+CITY  Bakersfield
+STATE  CA
+DATE  01/14/78
+SET1  Jack Straw 6:05 ; Dire Wolf 4:09 ; Cassidy 4:42 ; They Love Each Other
+7:05 ; Mama Tried 2:41 > Me & My Uncle 3:18 ; Loser 7:06 ; Looks Like Rain
+7:25 ; Deal 5:53 ; Let it Grow 12:08
+SET2  Samson & Delilah 7:36 ; Candyman 7:54 ; Estimated Prophet 12:18 > Eyes
+of the World 13:45 > Space 6:14 > Not Fade Away 14:42 > One More Saturday
+Night 4:52
+SET3
+ENCORE  none
+COMMENTS
+RECORDINGS  SBD 180, an AUD does exist but is virtually uncirculated
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Selland Arena
+CITY  Fresno
+STATE  CA
+DATE  01/15/78
+SET1  Bertha #4:47 > Good Lovin' 5:55 ; Dire Wolf 3:39 ; Mexicali Blues 3:28
+> Big River 5:59 ; It Must Have Been the Roses 6:09 ; Passenger 4:37 ;
+Brown-Eyed Women 5:17 ; The Music Never Stopped 7:53
+SET2  Samson & Delilah 7:49 ; Friend of the Devil 8:28 ; Sunrise 3:15# ;
+Terrapin Station 10:05 > Playing in the Band 27:#21 > Wharf Rat 11:04 >
+Sugar Magnolia 9:38
+SET3
+ENCORE  none
+COMMENTS
+RECORDINGS  first set SBD, second set AUD.  Approximately 90 to 120 seconds
+off the front of Bertha is missing on the SBD. The aud has Sunrise cutting
+off at the indicated spot. The original AUD master appears to have had the
+first three songs of the second set recorded on the first set with the cut
+off of Sunrise (presumably) resulting from the master. A fast tape flip
+splice occurs in Wharf Rat, however in subsequent dubs, with Wharf Rat moved
+further onto the B side, a slight overlap will occur- this has been deducted
+from the timing. The splice in the middle of PITB is indeterminable but
+probably insignificant.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Auditorium
+CITY  Sacramento
+STATE  CA
+DATE  01/17/78
+SET1  The Promised Land 4:09 ; Dire Wolf 4:04 ; Cassidy 4:31 ; Loser 7:27 ;
+Looks Like Rain 7:37 ; Row Jimmy 8:#09 ; Minglewood Blues 5:24 ; It Must
+Have Been the Roses 7:12 ; The Music Never Stopped 7:23
+SET2  Bertha 6:09 > Good Lovin' 5:38 ; Candyman 6:47 ; Estimated Prophet
+13:15 > He's Gone 19:#59 > Drums 3:01 > The Other One 14:00 > Black Peter
+11:43 > Truckin' 3:15 > Around & Around
+SET3
+ENCORE  U.S. Blues
+COMMENTS
+RECORDINGS  SBD 180 through 3:15 of Truckin'. Splice in Row Jimmy is
+significant. Splice in He's Gone likely insignificant. He's Gone timing
+includes Jams.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Civic Auditorium
+CITY  Stockton
+STATE  CA
+DATE  01/18/78
+SET1  Mississippi Half-Step 9:58 ; Mama Tried 3:01 > Me & My Uncle 3:21 ;
+Peggy O. 6:56 ; Jack Straw 6:19 ; Friend of the Devil 6:51# ; It's All Over
+Now 7:45 ; Row Jimmy 10:09 ; Lazy Lightnin' 3:22 > Supplication 5:27
+SET2  Terrapin Station 11:50 > Playing in the Band 19:41 > Passenger 5:14 >
+Space 4:49 > Estimated Prophet 9:#19 > Stella Blue 11:59 ; Sugar Magnolia 10:44
+SET3
+ENCORE  Around & Around 8:32
+COMMENTS
+RECORDINGS  SBD 180. FOTD cuts off as indicated- significant cut. Splice in
+Estimated
+Prophet, occuring at 1:27, appears significant.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  MacArthur Court, University of Oregon
+CITY  Eugene
+STATE  OR
+DATE  01/22/78
+SET1  Minglewood Blues 5:16 ; Dire Wolf 3:55 ; Cassidy 4:38 ; Peggy O. 7:01
+; El Paso 4:34 ; Tennessee Jed 8:31 ; Jack Straw 5:28 ; Row Jimmy 10:10 ;
+The Music Never Stopped 8:01
+SET2  Bertha 6:27 > Good Lovin' 5:40 ; Ship of Fools 7:18 ; Samson & Delilah
+7:46; Terrapin Station 10:50 > Drums 8:06 > The Other One 21:42 > St.
+Stephen 7:39 > Not Fade Away 14:31 > Around & Around 8:19
+SET3
+ENCORE  U.S. Blues 5:22
+COMMENTS  The final 4:38 of The Other One is a Garcia solo then includes
+quotes of the theme from the movie Close Encounters of the Third Kind.
+RECORDINGS  AUD 180, SBD of set one and set two of Terrapin >> end. The SBD
+has a 52 second splice in St. Stephen occuring during the jam.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Uptown Theatre
+CITY  Chicago
+STATE  IL
+DATE  01/30/78
+SET1  The Promised Land 4:08 ; Dire Wolf 3:24 ; Mexicali Blues 3:27 ; Big
+River 5:33 ; Brown-Eyed Women 5:15 ; Looks Like Rain 7:39 ; Peggy O. 6:33 ;
+It's All Over Now 7:29 ; Deal 5:21 ; Lazy Lightnin' 3:14 > Supplication 5:17
+SET2  Bertha 6:19 > Good Lovin' 5:10 ; Ship of Fools 7:19 ; Estimated
+Prophet 12:18 > Eyes of the World 13:21 > Space 4:21 > Stella Blue 9:17 >
+Franklin's Tower 13:25 > Around & Around 7:48
+SET3
+ENCORE  Johnny B. Goode 3:48
+COMMENTS
+RECORDINGS  AUD 180, tapes from at least two masters circulate
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Uptown Theatre
+CITY  Chicago
+STATE  IL
+DATE  01/31/78
+SET1  Mississippi Half-Step 10:10 ; Passenger 5:15 ; Tennessee Jed 8:51 ; El
+Paso 4:12 ; Candyman 6:50 ; Minglewood Blues 5:05 ; They Love Each Other
+6:54 ; Let it Grow 11:58
+SET2  Scarlet Begonias 11:57 > Fire on the Mountain 9:16 ; Samson & Delilah
+8:15 ; Terrapin Station 10:11 > Playing in the Band 9:#04 > Drums 1:26# >
+Space 7:42 > Black Peter 12:54 > Truckin' 8:53 > Good Lovin' 5:53
+SET3
+ENCORE  none
+COMMENTS
+RECORDINGS  AUD 180, tapes from at least two masters circulate. The splice
+in PITB may be nothing more than an insignificant tape flip. The cutting off
+of drums would appear to be intentional and the missing amount is
+inestimable from this tape.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Uptown Theatre
+CITY  Chicago
+STATE  IL
+DATE  02/01/78
+SET1  Jack Straw 5:57 ; Friend of the Devil 8:08 ; Mama Tried 2:40 > Me & My
+Uncle 3:23 ; Ramble on Rose 7:20 ; Cassidy 5:10 ; Sunrise 3:54 ; Sugaree 10:39
+SET2  Samson & Delilah 8:24 ; It Must Have Been the Roses 7:47 ; Estimated
+Prophet 12:27 > He's Gone 10:47 > Drums 6:13 > Jam 8:18 > The Other One
+11:02 > Wharf Rat 9:47 > Sugar Magnolia 10:04
+SET3
+ENCORE  Around & Around 8:00
+COMMENTS
+RECORDINGS  AUD 180
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Dane County Coliseum
+CITY  Madison
+STATE  WI
+DATE  02/03/78
+SET1  Cold, Rain, & Snow 5:43 ; Mexicali Blues 3:30 > Big River 5:55 ; They
+Love Each Other 7:02 ; Looks Like Rain 7:41 ; Loser 7:21 ; Passenger 4:33 ;
+Brown-Eyed Women 5:05 ; El Paso 4:10 ; Peggy O. 6:28 ; The Music Never
+Stopped 7:40
+SET2  Good Lovin' 5:56 ; Ship of Fools 7:34 ; Estimated Prophet 12:34 > Eyes
+of the World 15:08 > Playing in the Band 25:31 > The Wheel 5:20 > Playing in
+the Band 9:10
+SET3
+ENCORE  Johnny B. Goode 4:15
+COMMENTS
+RECORDINGS  AUD 180, multiple masters
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Auditorium
+CITY  Milwaukee
+STATE  WI
+DATE  02/04/78
+SET1  Jack Straw 5:26 ; Tennessee Jed 8:14 ; Mama Tried 2:36 > Me & My Uncle
+3:17 ; Row Jimmy 9:22 ; Beat it on Down the Line 3:10 ; Candyman 6:39 ; It's
+All Over Now 5:08# ; Deal 5:49
+SET2  Samson & Delilah 7:51 ; Dupree's Diamond Blues 4:23 ; Dancin' in the
+Streets 13:30 > Terrapin Station 9:23 > Playing in the Band 10:18 > Drums
+2:33 > Not Fade Away 13:30 > Black Peter 10:42 > Around & Around 8:01
+SET3
+ENCORE  One More Saturday Night 4:33
+COMMENTS
+RECORDINGS  AUD 180, at least two masters. On timed tape of set one It's All
+Over Now cuts off with a significant portion missing
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  UniDome, University of Northern Iowa
+CITY  Cedar Falls
+STATE  IA
+DATE  02/05/78
+SET1  Bertha 6:22 > Good Lovin' 5:35 ; Brown-Eyed Women 5:50 ; El Paso 4:15
+; Tennessee Jed 8:23 ; Sunrise 3:45 ; Minglewood Blues 5:17 ; Friend of the
+Devil 8:21 ; Passenger 5:11 ; Deal 6:33
+SET2  Samson & Delilah 10:59 ; Scarlet Begonias 12:31 > Fire on the Mountain
+16:13 ; Truckin' 8:#17 > Drums 1:59 > The Other One 8:59 > Wharf Rat 8:54 >
+Around & Around 8:04
+SET3
+ENCORE  U.S. Blues 5:17
+COMMENTS
+RECORDINGS  AUD 180, at least three masters. Splice in Truckin' appears to be an
+insignificant tape flip
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Curtis Hixon Convention Center
+CITY  Tampa
+STATE  FL
+DATE  04/06/78
+SET1  Bertha 6:57 > Good Lovin' 5:59 ; Dire Wolf 3:55 ; Me & My Uncle 3:03 >
+Big River 5:47 ; Friend of the Devil 7:59 ; Passenger 4:40 ; Candyman 7:14 ;
+Lazy Lightnin' 3:25 > Supplication 4:15
+SET2  Samson & Delilah 7:59 ; It Must Have Been the Roses 6:06 ; Estimated
+Prophet 12:17 > He's Gone 12:28 > Drums 10:#34 > The Other One 15:46 > Wharf
+Rat 11:21 > Around & Around 7:37
+SET3
+ENCORE  U.S. Blues 5:28
+COMMENTS
+RECORDINGS  SBD 160, also AUDs exist but are in low circulation. The first
+set was timed from an AUD. The splice in Drums appears to be insignificant
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Sportatorium
+CITY  Pembroke Pines
+STATE  FL
+DATE  04/07/78
+SET1  The Promised Land 4:15 ; Sugaree 11:24 ; Cassidy 4:42 ; Tennessee Jed
+8:21 ; Mama Tried 2:32 > Mexicali Blues 3:29 ; Peggy O. 8:44 ; Minglewood
+Blues 5:26 ; Loser 7:24 ; The Music Never Stopped 7:54
+SET2  Jack Straw 6:28 ; Ship of Fools ; Good Lovin' 6:40 ; Terrapin Station
+11:11 > Playing in the Band 9:50 > Drums 11:#16 > Not Fade Away 10:39 >
+Black Peter 10:41 > Playing in the Band 4:46
+SET3
+ENCORE  Johnny B. Goode 4:03
+COMMENTS
+RECORDINGS  SBD 180, AUDs in low circulation from at least two masters.
+Splice in Drums likely an insignificant tape flip. Each set was timed from
+different AUDs with Ship of Fools missing from my copies.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Coliseum
+CITY  Jacksonville
+STATE  FL
+DATE  04/08/78
+SET1  Mississippi Half-Step 10:57 ; Me & My Uncle 3:01 > Big River 6:36 ;
+They Love Each Other 6:51 ; Looks Like Rain 8:28 ; Deal 6:19 ; El Paso 4:14
+; It Must Have Been the Roses 7:02 ; Lazy Lightnin' 3:43 > Supplication 5:06
+SET2  Samson & Delilah 7:41 ; Scarlet Begonias 11:27 > Fire on the Mountain
+11:19 ; Estimated Prophet 11:36 > Eyes of the World 11:54 > Drums 13:33# >
+Space 6:36 ; Sugar Magnolia 10:29
+SET3
+ENCORE  One More Saturday Night 4:57
+COMMENTS
+RECORDINGS  SBD 180, at least one AUD, including one excellent version used
+for the timings here, are in low circulation. Cut-off in Drums appears to be
+minor.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Fox Theatre
+CITY  Atlanta
+STATE  GA
+DATE  04/10/78
+SET1  The Promised Land 4:26 ; Brown-Eyed Women 5:08 ; It's All Over Now
+7:48 ; Peggy O. 8:02 ; Cassidy 5:01 ; Dire Wolf 4:08 ; El Paso 4:25 ; Row
+Jimmy 9:16 ; Passenger 5:12 ; Candyman 7:25 ; The Music Never Stopped 8:#31
+SET2  Jack Straw 6:02 ; Ship of Fools 7:20 ; Dancin' in the Streets 11:58 >
+Drums 15:23# > Franklin's Tower 16:23 > Black Peter 11:50 > Around & Around 8:02
+SET3
+ENCORE  U.S. Blues
+COMMENTS  soundcheck: Salt Lake City
+RECORDINGS  SBD 180, the splice in TMNS occurs near the end of the song, is of
+indeterminate length, and is criminal. Assumably this is on all SBDs? The
+only AUD I have encountered from this show is of the second set only (minus
+U.S. Blues) and is *phenomenal*. It was used for the timings listed here.
+U.S. Blues circulates on the SBDs, I'm simply missing it.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Fox Theatre
+CITY  Atlanta
+STATE  GA
+DATE  04/11/78
+SET1  Bertha 6:06 > Good Lovin' 5:39 ; Friend of the Devil 8:00 ; Me & My
+Uncle 3:11 > Big River 5:57 ; Tennessee Jed 8:28 ; Looks Like Rain 7:27 ;
+Brown-Eyed Women 5:25 ;
+Minglewood Blues 5:20 ; Deal 7:17
+SET2  Samson & Delilah 7:12 ; Scarlet Begonias 12:50 > Fire on the Mountain
+10:15 ; Sunrise 3:57 ; Terrapin Station 11:42 > Drums 15:#05 > Space 1:42 >
+Iko Iko 10:34 > Sugar Magnolia 10:02
+SET3
+ENCORE  Johnny B. Goode 4:07
+COMMENTS
+RECORDINGS  SBD 180, I have yet to find any AUDs of this show. The splice in
+drums appears to be insignificant
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Cameron Indoor Stadium, Duke University
+CITY  Durham
+STATE  NC
+DATE  04/12/78
+SET1  Jack Straw 5:47 ; Dire Wolf 4:02 ; Beat it on Down the Line 3:19 ;
+Peggy O. 8:05 ; Mama Tried 2:31 > Mexicali Blues 3:47; Funiculi Funicula :49
+; Row Jimmy 10:25 ; Minglewood Blues 5:12; Loser 8:25 ; Lazy Lightnin' 3:55
+> Supplication 5:29
+SET2  Bertha 7:35 > Good Lovin' 6:43 ; It Must Have Been the Roses 7:19 ;
+Estimated Prophet 11:58 > Eyes of the World 12:11 > Drums 20:17 > Truckin'
+8:58 > Wharf Rat 10:34 > Around & Around 8:16
+SET3
+ENCORE  U.S. Blues 5:33
+COMMENTS
+RECORDINGS  SBD 180, AUD 180. Timings from AUD. Insignificant tape flips in
+Eyes and Around & Around. The SBD does not have a complete U.S .Blues.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Cassell Coliseum, Virginia Polytechnic Institute and State University
+CITY  Blacksburg
+STATE  VA
+DATE  04/14/78
+SET1  The Promised Land 4:12 ; Tennessee Jed 8:13; Me & My Uncle 2:56 > Big
+River 5:19 ; Peggy O. 7:35 ; Looks Like Rain 8:06 ; Dire Wolf 3:59 ; It's
+All Over Now 7:15 ; Dupree's Diamond Blues 4:42 ; The Music Never Stopped 8:27
+SET2  Samson & Delilah 7:02 ; Ship of Fools 7:30 ; Dancin' in the Streets
+16:38 > Drums 20:28 > Space 3:16 > The Other One 8:07 > Black Peter 10:49 >
+Sugar Magnolia 9:06
+SET3
+ENCORE  Johnny B. Goode 4:09
+COMMENTS
+RECORDINGS  SBD 180, AUD 180- multiple masters- all in low circulation.
+Timings from both SBD and AUD to compensate for any splices, cuts.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  William & Mary Hall, College of William & Mary
+CITY  Williamsburg
+STATE  VA
+DATE  04/15/78
+SET1  Mississippi Half-Step 9:30 ; Passenger 4:05 ; Friend of the Devil 6:18
+; El Paso 4:12 ; Brown-Eyed Women 4:53 ; Let it Grow 13:20 ; Deal 6:37
+SET2  Bertha 5:40 > Good Lovin' 6:16 ; Candyman 7:12 ; Sunrise 3:45 >
+Playing in the Band 14:02 > Drums 10:#46 > Not Fade Away 13:49 > Morning Dew
+10:27 ; Around & Around 7:48
+SET3
+ENCORE  One More Saturday Night 4:30
+COMMENTS
+RECORDINGS  SBD 180, AUD 180 from multiple masters in low circulation.
+Timings from AUDs, splice in Drums is of indeterminable but probably
+significant length. FOTD and Bertha are complete times. Unusually short
+times result from forgotten verses.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Civic Center
+CITY  Huntington
+STATE  WV
+DATE  04/16/78
+SET1  Jack Straw 5:35 ; Dire Wolf 3:51 ; Cassidy 4:24 ; Peggy O. 7:38 ;
+Mexicali Blues 3:24 > Mama Tried 2:26 ; They Love Each Other 6:51 ;
+Minglewood Blues 5:15 ; Scarlet Begonias 9:53 > Fire on the Mountain 9:00
+SET2  Samson & Delilah 7:05 ; Ship of Fools 7:40 ; Estimated Prophet 11:43 >
+Eyes of the World 11:06 > Drums 14:40 > Space 3:59 > Iko Iko 11:35 > Sugar
+Magnolia 9:26
+SET3
+ENCORE  U.S. Blues 5:07
+COMMENTS
+RECORDINGS  SBD 180, AUD of set two from Estimated >> end also circulates
+and was used for the timings presented here
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Civic Arena
+CITY  Pittsburgh
+STATE  PA
+DATE  04/18/78
+SET1  Minglewood Blues ; Sugaree #11:21 ; Looks Like Rain 7:50 ; Dire Wolf
+3:50 ; Beat it on Down the Line 3:22 ; Loser 7:16 ; El Paso 4:23 ; Tennessee
+Jed 9:07 ; Lazy Lightnin' 3:48 > Supplication 5:54
+SET2  Scarlet Begonias 14:28 > Dancin' in the Streets 14:10 > Drums 6:#07 >
+Samson & Delilah 7:55 ; Terrapin Station 11:17 > Around & Around 8:42
+SET3
+ENCORE  U.S. Blues
+COMMENTS  SBD 180, AUD 180. The timings here came from an AUD missing
+Minglewood and U.S. Blues and having major cuts in Sugaree and Drums. The
+opening verse and nearly the entire first jam are missing from Sugaree and
+Drums could be missing ten minutes or more. These can made up by the SBD.
+RECORDINGS
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Auditorium
+CITY  Columbus
+STATE  OH
+DATE  04/19/78
+SET1  Bertha > Good Lovin' ; Friend of the Devil ; Passenger ; Candyman ;
+Cassidy ; Peggy O. ; Me & My Uncle > Big River ; Deal
+SET2  Samson & Delilah 7:23 ; It Must Have Been the Roses 7:18 ; Estimated
+Prophet 14:19 > He's Gone 11:10 > Drums 18:#56 > Space 8:37 > The Other One
+8:14 > Wharf Rat 9:57# > Around & Around
+SET3
+ENCORE  Werewolves of London 10:27
+COMMENTS
+RECORDINGS  SBD 90 of the second set through most of Wharf Rat with a likely
+minor splice in Drums. I have not been able to locate any AUDs of this show
+except for the Werewolves encore which came attached to my AUD of 4/18 and
+would appear to be from the same original source. I firmly believe a
+complete AUD exists in its entirety somewhere.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Rupp Arena
+CITY  Lexington
+STATE  KY
+DATE  04/21/78
+SET1  The Promised Land 4:26 ; Dire Wolf #1:28 ; Mama Tried 2:42 > Mexicali
+Blues 3:47 ; Ramble on Rose 8:13 ; Funiculi Funicula 1:33 ; Passenger 4:56 ;
+Row Jimmy 10:48 ; It's All Over Now 8:01 ; Brown-Eyed Women 5:28 ; The Music
+Never Stopped 9:04
+SET2  Samson & Delilah 8:03 ; Ship of Fools 7:50 ; Playing in the Band 16:07
+> Drums 14:#07 > Space 5:47 > Stella Blue 11:54 ; Truckin' 9:27 > Playing in
+the Band 6:01
+SET3
+ENCORE  Werewolves of London 6:39 ; U.S. Blues
+COMMENTS  Space includes a Staying Alive jam
+RECORDINGS  SBD 180 missing U.S. Blues, most of Dire Wolf is cut. Cut in
+Drums is
+indeterminable. I have never seen an AUD of this show.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Municipal Auditorium
+CITY  Nashville
+STATE  TN
+DATE  04/22/78
+SET1  Bertha 7:25 > Good Lovin' 6:37 ; Candyman 7:23 ; Looks Like Rain 8:03
+; Tennessee Jed 9:15 ; Jack Straw 6:11 ; Peggy O. 8:13 ; Minglewood Blues
+6:01 ; Deal 7:31
+SET2  Lazy Lightnin' > Supplication ; It Must Have Been the Roses 7:34 ;
+Estimated Prophet 12:48 > Eyes of the World 12:33 > Drums 14:#16 > Not Fade
+Away 11:15 > Wharf Rat 12:26 > Sugar Magnolia 9:24
+SET3
+ENCORE  One More Saturday Night 5:05
+COMMENTS
+RECORDINGS  SBD 180. An excellent AUD exists but I have only been able to
+locate the second set which was used for the timings presented for that set.
+The splice in Drums is indeterminable. Lazy Lightnin'/Supplication does
+circulate, it's simply missing from my copy.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Horton Field House, Illinois State University
+CITY  Normal
+STATE  IL
+DATE  04/24/78
+SET1  The Promised Land 4:35 ; Ramble on Rose 7:17 ; Me & My Uncle 3:07 >
+Big River 6:05 ; Friend of the Devil 9:00 ; Cassidy 5:07 ; Brown-Eyed Women
+5:16 ; Passenger 5:08 ; It Must Have Been the Roses 7:36 ; The Music Never
+Stopepd 8:21
+SET2  Scarlet Begonias 12:33 > Fire on the Mountain 10:58 > Good Lovin' 6:31
+; Terrapin
+Station 10:04 > Drums 13:#13 > Space 6:37 > Not Fade Away 10:53 > Black
+Peter 11:17 > Around & Around 5:#29
+SET3
+ENCORE  Werewolves of London 7:13
+COMMENTS
+RECORDINGS  SBD 180. Splice in Drums is indeterminable, splice in Around &
+Around is significant. I do not know whether that results from the master,
+or is particular to my
+copy/lineage. I have yet to see any AUDs of this show.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Thompson Arena, Dartmouth College
+CITY  Hanover
+STATE  NH
+DATE  05/05/78
+SET1  The Promised Land 4:22 ; Dire Wolf 4:01 ; Cassidy 4:41 ; Candyman 6:40
+; El Paso 4:22 ; They Love Each Other 7:16 ; Passenger 5:00# ; Brown-Eyed
+Women 5:15 ; Lazy Ligthnin' 3:38 > Supplication 5:34
+SET2  Bertha 6:49 > Good Lovin' 6:18 ; Ship of Fools 7:28 ; Estimated
+Prophet 12:29 : Eyes of the World 12:33 > Drums 16:54 > Space 3:49 > Not
+Fade Away 11:16 > Stella Blue 10:08 > Around & Around 9:14
+SET3
+ENCORE  Werewolves of London 7:43
+COMMENTS
+RECORDINGS  AUD 180, Passenger cuts off as indicated. I do not know whether
+that originates from the master or is specific to my lineage.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Patrick Gymnasium, University of Vermont
+CITY  Burlington
+STATE  VT
+DATE  05/06/78
+SET1  Sugaree 13:04 ; Minglewood Blues 5:24 ; Peggy O. 7:28 ; Beat it on
+Down the Line 3:18 ; Loser 6:58 ; Looks Like Rain 8:37 ; It Must Have Been
+the Roses 6:30 ; Me & My Uncle 3:06 > Big River 6:18 ; Deal 7:02
+SET2  Samson & Delilah 7:56 ; Sunrise 3:54 ; Terrapin Station 10:57 >
+Playing in the Band 16:47 > Drums 3:31# > Space 1:11 > Wharf Rat 10:26 >
+Sugar Magnolia 10:15
+SET3
+ENCORE  One More Saturday Night
+COMMENTS
+RECORDINGS  AUD 180, SBD first set. Timings from a SBD for set one, and an
+AUD for set two with most of the drums and encore edited out.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Field House, Rensselaer Polytechnic Institute
+CITY  Troy
+STATE  NY
+DATE  05/07/78
+SET1  Jack Straw 6:23 ; Dire Wolf 4:03 ; Mexicali Blues 3:42 > Mama Tried
+2:36 ; Tennessee Jed 8:31 ; It's All Over Now 8:10 ; Friend of the Devil
+5:#43; Passenger 5:08; Brown-Eyed Women 5:20 ; The Music Never Stopped 8:17
+SET2  Scarlet Begonias 10:50 > Fire on the Mountain 10:00 ; Estimated
+Prophet 12:26 > He's Gone 12:14 > Drums 17:33 > Iko Iko 9:39 > The Other One
+8:17 > Black Peter 12:27 > Around & Around 8:37
+SET3
+ENCORE  U.S. Blues 5:52
+COMMENTS
+RECORDINGS  SBD 180 with major splice in FOTD and missing end of Black Peter
+through encore. Full times supplied by an AUD.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Onondaga Auditorium
+CITY  Syracuse
+STATE  NY
+DATE  05/09/78
+SET1  Franklin's Tower 10:25 ; Minglewood Blues 5:19 ; Row Jimmy 10:07 ;
+Looks Like Rain 7:52 ; Friend of the Devil 8:59 ; El Paso 4:34 ; Candyman
+6:48 ; Passenger 5:07; Deal 6:58
+SET2  Samson & Delilah 7:50 ; Ship of Fools 7:17 ; Dancin' in the Streets
+14:14 > Drums 15:39# > Space 7:16 > Not Fade Away 8:04 > Black Peter 9:23 >
+Around & Around 7:57
+SET3
+ENCORE  Werewolves of London 6:27
+COMMENTS
+RECORDINGS  AUD 180 with indetermimable cut in drums
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Coliseum
+CITY  New Haven
+STATE  CT
+DATE  05/10/78
+SET1  Jack Straw 5:38 ; They Love Each Other 6:43 ; Cassidy 4:46 ; Ramble on
+Rose 6:58 ; Me & My Uncle 2:58 > Big River 6:16 ; Peggy O. 7:19 ; Let it
+Grow 9:45 > Deal 5:39#
+SET2  Bertha 7:56 > Good Lovin' 6:12 ; It Must Have Been the Roses 6:17 ;
+Estimated Prophet 11:50 > Eyes of the World 12:12 > Drums 19:00# > Space
+9:03 > The Other One 7:35 > Wharf Rat 10:13 > Sugar Magnolia 9:19
+SET3
+ENCORE  U.S. Blues 5:22
+COMMENTS
+RECORDINGS  AUD 180, cut off on Deal is significant but is likely specific
+to my lineage and not the master, drums are near complete.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Civic Center
+CITY  Springfield
+STATE  MA
+DATE  05/11/78
+SET1  Cold, Rain, & Snow 6:31 ; Beat it on Down the Line 3:19 ; Friend of
+the Devil 8:19 ; Looks Like Rain 8:54 ; Loser 7:22 ; Mexicali Blues 3:40 >
+Mama Tried 2:33 ; Tennessee Jed 8:25 ; Minglewood Blues 5:19 ; Peggy O. 7:19
+; Lazy Lightnin' 3:21 > Supplication 5:58#
+SET2  Scarlet Begonias 9:13 > Fire on the Mountain 8:53 ; Dancin' in the
+Streets 15:00 > Drums 21:55 > Space :30 > Not Fade Away 9:49 > Stella Blue
+8:56 > Around & Around 8:50
+SET3
+ENCORE  Werewolves of London 7:06 ; Johnny B. Goode
+COMMENTS
+RECORDINGS  AUD 180, multiple masters, cut-off of Supplication and omission
+of Johnny B. Goode may be specific to my copy/lineage only
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Spectrum
+CITY  Philadelphia
+STATE  PA
+DATE  05/13/78
+SET1  Jack Straw #4:42 ; Dire Wolf 3:49 ; Beat it on Down the Line 3:03 ;
+Peggy O. 6:52 ; El Paso 4:31 ; Row Jimmy 9:43 ; Minglewood Blues 5:14 ;
+Candyman 7:08 ; The Music Never Stopped 8:36
+SET2  Bertha 6:51 > Good Lovin' 6:20 ; Terrapin Station 11:05 > Playing in
+the Band 13:03 > Drums 19:02# > Space 2:14 > Truckin' 10:39 > Black Peter
+10:40 > Sugar Magnolia 10:09
+SET3
+ENCORE  One More Saturday Night 4:47
+COMMENTS
+RECORDINGS AUD 180, multiple masters. Timed version missing beginning of
+Jack Straw with an estimated complete time of approximately 5:36. Cut in
+drums probably minor.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Civic Center
+CITY  Providence
+STATE  RI
+DATE  05/14/78
+SET1  Mississippi Half-Step 10:54 ; Cassidy 5:20 ; They Love Each Other 6:37
+; Looks Like Rain 8:12 ; It Must Have Been the Roses 6:13 ; Me & My Uncle
+2:52 > Big River 5:#39 ; Brown-Eyed Women 5:20 ; Let it Grow 17:13
+SET2  Samson & Delilah 9:57 ; Ship of Fools 6:59 ; Estimated Prophet 13:10 >
+Eyes of the World 15:54 > Drums 11:#31 > Not Fade Away 15:22 > Goin' Down
+the Road 7:50 > Around & Around 8:09
+SET3
+ENCORE  U.S. Blues 5:08
+COMMENTS
+RECORDINGS  AUD 180. Splice in Big River appears to be a tape flip. A
+significant part of Drums may be missing.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Uptown Theatre
+CITY  Chicago
+STATE  IL
+DATE  05/16/78
+SET1  Jack Straw 6:05 ; Dire Wolf 3:35 ; Mexicali Blues 3:22 > Mama Tried
+2:32 ; Peggy O. 7:36 ; Cassidy 5:38 ; Row Jimmy 11:00 ; Passenger 5:13 ;
+Brown-Eyed Women 5:24 ; The Music Never Stopped 9:45
+SET2  Scarlet Begonias 10:31 ; Fire on the Mountain 10:27 ; El Paso 4:37 ;
+Ship of Fools 7:42 ; Estimated Prophet 12:45 > He's Gone 12:18 > Drums 2:57#
+> Space 7:42 > Comes a Time 10:03 > Sugar Magnolia 10:08
+SET3
+ENCORE  Johnny B. Goode
+COMMENTS
+RECORDINGS  AUD 180, missing most of drums and encore. I don't know if that
+is specific to all circulating copies.
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+BAND  Grateful Dead
+VENUE  Uptown Theatre
+CITY  Chicago
+STATE  IL
+DATE  05/17/78
+SET1  Mississippi Half-Step 9:24 > Franklin's Tower 14:19 ; Me & My Uncle
+3:04 > Big River 5:44 ; It Must Have Been the Roses 6:53 ; Looks Like Rain
+9:05 ; Tennessee Jed 8:57 ; Funiculi Funicula 1:25 ; Lazy Lightnin' 3:20 >
+Supplication 6:38
+SET2  Samson & Delilah 7:05 ; Friend of the Devil 8:44 ; Dancin' in the
+Streets 14:35 > Drums 18:16 > Space 1:48 > Terrapin Station 10:54 ; Not Fade
+Away 13:53 ; Around & Around 8:56
+SET3
+ENCORE  Werewolves of London 7:06
+COMMENTS
+RECORDINGS  AUD 180
+CONTRIBUTORS  <paleo550@philly.infi.net> (Gordon Sharpless)
+
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 11 Jan 1997 19:46:24 -0800 (PST)
+Subject: [none]
+
+Brian asks
+
+ > Should these all be described the same way ?
+
+ >       8/19/70: St Stephen > Sugar Magnolia
+ >         3/1/69: Dark Star > St Stephen ...
+ >        11/8/69: Dark Star > The Other One ...
+ >        5/27/93: Cassidy > Uncle John's Band > Cassidy ...
+ >        10/2/94: Mama Tried > Mexicali Blues
+
+
+In my view, the answer is YES, as far as the symbol indicating a segue goes
+(i.e. > ).  Basically, a segue is a segue and should be indicated by a
+single symbol.
+
+If we want to specify that there's a "jam in between wheich is neither the
+one song nor the other, than we should write (e.g.):
+
+4/27/69    Lovelight > Me & My Uncle > jam > Sittin On Top Of The World
+
+
+*
+
+thanks for the feedback on the lists for 69.  i was moving accumulated lists
+on my harddrive into the deadlists format & didn't catch all the necessary
+changes, i guess.  thanks for helping.
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Sat, 11 Jan 1997 23:02:54 -0800 (PST)
+Subject: website update
+
+Been working on the site some  --  http://www.well.com/~nathan/dlhome.htm
+- --  and though the image map on the home page is still offline, there are
+now ready links to:
+
+Archives of all the mailing list's discussions.
+A place for year-by-year setlists to be posted (I've only got one year up so
+far).
+Link to the datafile spec (outdated as it is, it's the best we've got and
+covers circa 90% or more of what need to be nailed down).
+Link to a songlist (which could stand more updating).
+
+PLEASE NOTE:  Using < and > around email names in the setlists is tripping
+up Netscape 3.0.  Only to the extent that email address for contributors
+don't show up, yet.  So it might be a good idea to simply put the email
+address there, with no brackets.  I'd remove all the brackets, but then the
+song transitions themselves would be removed, so....
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 11 Jan 1997 23:20:29 -0800 (PST)
+Subject: [none]
+
+Thanks again, Brian, for the feedback.
+
+I fixed the KC Jones & added a semi-colon to the woodstock entry together
+with a note.
+
+but i don't see any point in making note of John Scott's confusion about the
+tape in circulation labeled "9/27/69" always and never anything else that
+i've seen.  I try to limit citations of DeadBase to cases where I think
+their information actually adds to our evidence.  
+
+On the other hand in the interest of thoroughness and given the obscurity of
+the period, I've entered under COMMENTS all DeadBase lists for 69-70 shows
+we don't have on tape even though I know that every time tapes do turn up
+during this period they show DeadBase's lists to be inaccurate.  
+
+I think this would be a wise practice through 72, anyways.  After that, we
+have just about everything and can do a much better job working off the
+tapes.
+
+Your last item (on 11/7/69) raises the most interesting questions, though.
+The notes I was working from catch the cut in Dark Star, which we probably
+owe to the person who put the tape into circulation.  It's my assumption
+that the Uncle John's jam continues on the vault master back into Dark Star,
+and so I wrote the list to reflect that.  Do you think this was a mistake?
+Should we always list the defects of the tapes we're working from, even when
+we feel sure of what was actually played -- or even, as in this case, of
+what is actually on the vault master SBD?
+
+Similarly, my notes list the tunings before Next Time as follows:
+
+comments on hall acoustics from Mr. Lesh, Star Spangled-Banner > Looney
+Tunes, Another Ditty, Take Me Out To The Ballgame;
+
+I omitted this from the list I transcribed into Deadlists format, I think
+correctly.  Do you agree?  Perhaps it merits a note, however?
+
+Here is a rewrite of the entry for 11/07/69.  Will this do?
+
+
+BAND  Grateful Dead
+VENUE  Fillmore Auditorium
+CITY  San Francisco
+STATE  CA
+DATE  11/07/69
+SET1  Morning Dew; Mama Tried; Me & My Uncle; Cold Rain & Snow; Next Time
+You See Me; Good Lovin; China Cat Sunflower > I Know You Rider > Dark Star >
+Uncle John's jam > Dark Star > Cryptical Envelopment > drums > The Other One
+> Lovelight
+SET2  
+SET3  
+ENCORE  
+COMMENTS  According to DeadBase IX following Morning Dew is Hard To Handle;
+Casey Jones; following Mama Tried is Me & My Uncle; Cold Rain & Snow and
+preceding Good Lovin is High Time.  The tape in circulation has cuts from
+somewhere in the Uncle John's jam back into Dark Star; the cut is probably
+courtesy of the person who put the tape into circulation.  The Lovelight
+also cuts off before its conclusion on the tape in circulation, but this may
+be the master reels.  Consult vault sources.  There is a long pause for
+tunings before Next Time You See Me, which includes:  comments on hall
+acoustics from Mr. Lesh; Star Spangled-Banner > Looney Tunes, Another Ditty,
+Take Me Out To The Ballgame.
+RECORDING  100 SB
+CONTRIBUTORS  <chimpowl@well.com>
+
+
+*
+
+So, are Gordon & I the only people who are gonna post any lists around here?
+
+------------------------------
+
+End of DeadLists Digest V1 #123
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

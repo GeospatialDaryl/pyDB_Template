@@ -1,0 +1,73 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #74
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 31 July 1996      Volume 01 : Number 074
+
+In this issue:
+
+	Re: updated setlists to deadlist v1.21 format
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 31 Jul 1996 09:40:52 -0400
+Subject: Re: updated setlists to deadlist v1.21 format
+
+John Oleynick wrote:
+> 
+> Well, that wasn't so bad after all.  The lists under
+> http://paul.rutgers.edu/~johno/dl6595.html are now in v1.21 format.
+> I also left a copy in the old v1.2 format in case anyone still wants
+> that.
+
+John, 
+Your work looks great! I think I would like to work with this project.
+Just some thoughts: should all fields be searchable (say, via drop down
+boxes for each field), or should there just be a text entry box where
+people would type in the string they are looking for? I can see
+advantages to each, or a mixture of both. Maybe if there could be a
+group consensus on what should be searchable, we could start to think
+about the interface. 
+
+I would not be the one writing code, but a programmer/friend I work
+with. They said that they could probably have something working in 3-4
+weeks (they are really busy right now). If some others of you who would
+like to work on interface and deciding which fields are searchable, etc.
+I would like to be part of this. Let me know, b/c I think this is a
+worthwhile endeavor.
+
+					ryan
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+End of DeadLists Digest V1 #74
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

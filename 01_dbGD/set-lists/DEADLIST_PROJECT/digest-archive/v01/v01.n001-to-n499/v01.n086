@@ -1,0 +1,523 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #86
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 31 October 1996     Volume 01 : Number 086
+
+In this issue:
+
+	Project Update
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Thu, 31 Oct 1996 17:19:25 -0500
+Subject: Project Update
+
+Hey all.
+Forgive the long arrival of this update information. This message might
+be a little long, and written in stream-of-consciousness-mode, but there
+is lots of stuff to report. OK, here we go:
+
+While working on the search interface, we were trying to import all the
+venues into the searchable Web interface. What we discovered were lots
+of errors in the data, especially the venue fields. These errors were
+generally one of two types; either misspelled words or duplication of
+venues with different names. For example, the following were all entries
+for Shoreline Amphitheater:
+
+Shoreline
+Shoreline Amphitheatre
+Shoreline Ampitheater
+Shoreline Amphitheater
+
+As you can see, this starts to become a nightmare with over a thousand
+records. I just finished (I think) going through the entire database
+file and fixing all the incorrect entries. This experience has taught me
+a few things:
+
+1. We need an official venue list, just like the one for songs. I will
+attach the list I extracted below, in hopes you folks can look at it and
+make corrections, additions, and/or deletions. Email is not a real
+efficient mechanism for doing group work, but it's all we have right
+now, so we'll go ahead and use it.
+
+2. It would be nice if we could all agree on spellings for
+"Amphitheater" (vs. Amphitheatre) and "Theater" (vs. Theatre). I know
+that some are spelled one way while some are spelled the other, but it
+would make everyone's job a lot easier if we could always spell these
+the same way.
+
+3. Watch your spelling! I know it's easy to misspell words, but the
+computer is ignorant when doing searching. It uses something called
+"exact string matching". For example, "Winteriand" and "Winterland" are
+two entirely different venues according to the computer. If, for
+instance, the venue for 10/19/74 was misspelled "Winteriand" and you
+tried to do a search for all "Winterland" shows, 10/19/74 wouldn't
+match. This applies to all fields.
+
+4. It would also be nice if we could come up with a convention for
+labeling venues that were at colleges or universities. For instance, the
+following were all entries for Pauley Pavillion:
+
+Pauley Pavilion, UCLA
+Pauley Pavilion (UCLA)
+Pauley Pavilion, U.C.L.A.
+
+Something along the lines of:
+
+Venue name (College name) 
+
+would be fine. We would have to refine College name a little further
+(e.g. "U of Illinois" vs. "Univ of Illinois" vs. "University of
+Illinois"), but this would be a start. I am open to suggestions for how
+to deal with this. Please let me know if you have some ideas about this.
+
+
+O.K. I guess that's enough for this update. Most of the fields seem to
+be coming along, but we still have to do the cities field to make
+corrections in spelling, etc. I apologize about this taking so long, but
+this project was a lot bigger than I first anticipated. The search is
+pretty much ready to go, but we have to fix the data in order for the
+search to work. Once we have a correct data file, we can start testing
+the search via a Web interface.
+
+Below is the venue list that I extracted. I will also put a copy up at:
+http://www.digicool.com/ryan/songlist.html
+
+The online version will be the most up-to-date (incorporating all the
+changes sent in to me). Hopefully, when this is finished, Nathan can put
+the "official" one up on the deadlists site. Anyhoo, please let me know
+about the venue list and your ideas on some of the things I mentioned
+above. Thanks. 
+
+Venue List
+- ----------
+(Unknown)
+Aarhus University
+Academy of Music
+Adams Field House (U of Montana)
+Aladdin Theater
+Alexandra Palace
+Alfond Arena (U of Maine)
+Allan Kirby Field House (Lafayette College)
+Allan Theater
+Alligator Alley Gym (U of Florida)
+Alpine Valley Music Theater
+Alumni Stadium (U of Mass)
+American University
+Anaheim Stadium
+Arena (U of Southern Illinois)
+Arizona State University
+Arlington Theater
+Arrowhead Stadium
+Assembly Center (Louisiana State U)
+Assembly Hall (Indiana U)
+Assembly Hall (U of Illinois)
+Athletic Center, Rutgers U.
+Auditorium
+Auditorium Coliseum
+Auditorium Theatre
+Augusta Civic Center
+Autzen Stadium (U of Oregon)
+Avalon Ballroom
+Bakersfield Civic Auditorium
+Baltimore Civic Center
+Barton Hall (Cornell U)
+Bayfront Center
+Beacon Theatre
+Beat Club
+Berkeley Community Theatre
+Bickershaw Festival
+Billerica Forum
+Birmingham-Jefferson Civic Center Coliseum
+Blockbuster Desert Sky Pavillion
+Blossom Music Center
+Bob Marley Performing Arts Center
+Boise Pavillion
+Boreal Ridge Ski Resort
+Boston Garden
+Boston Music Hall
+Boston Tea Party
+Boutwell Auditorium
+Brendan Byrne Arena
+Broome County Arena
+Buckeye Lake Music Center
+COBO Arena
+CSUDH Soccer Field
+Cafe a Go Go
+Cal Expo Amphitheatre
+Calavaras County Fairgrounds
+Cameron Indoor Stadium (Duke U)
+Campus Stadium (UC Santa Barbara)
+Cape Cod Coliseum
+Capitol Center
+Capitol Theater
+Cardinal Stadium
+Carolina Coliseum (U of South Carolina)
+Carousel Ballroom
+Carrier Dome (Syracuse U)
+Carter Finley Stadium
+Charlotte Coliseum
+Chrysler Arena (U of Michigan)
+Cincinnati Gardens
+City Hall
+City Island
+Civic Arena
+Civic Auditorium
+Civic Center
+Civic Center Arena
+Civic Hall
+Cleveland Music Hall
+Cleveland Public Hall
+Club Melk Weg
+Cole Field House (U of Maryland)
+Coliseum
+Colt Park
+Community War Memorial
+Compton Terrace Amphitheater
+Concertgebouw
+Convention Center
+Copps Coliseum
+Cotterrell Gym (Colgate U)
+County Coliseum
+Cow Palace
+Cumberland County Civic Center
+Curtis Hixon Convention Hall
+Dallas Convention Center
+Dane County Coliseum
+Dean Smith Center, UNC
+Deer Creek Amphitheater
+Denver Coliseum
+Des Moines Civic Center
+Deutsches Museum Halle
+Devore Field (Southwestern U)
+Dillon Gym, Princeton University
+Dillon Stadium
+Dupont Gym, MIT
+Eagle's Auditorium
+Edmundson Pavilion (U of Washington)
+Electric Factory
+Empire Pool
+Events Center (U of Colorado)
+Fairgrounds
+Fairgrounds Arena
+Felt Forum, Madison Square Garden
+Festhalle
+Feyline Field
+Field House (Northern Illinois U)
+Field House (Rensselaer Polytechnic Institute)
+Field House (Seneca College)
+Fiesta Hall (County Fairgrounds)
+Fillmore Auditorium
+Fillmore East
+Fillmore West
+Five Seasons Center
+Folsom Field (U of Colorado)
+Ford Auditorium
+Forum Theater
+Fox Theater
+Foxboro Stadium
+Franklin County Airport
+Franklin Field
+Freedom Hall
+Frost Amphitheater (Stanford U)
+G W Forum
+Giants Stadium (Meadowlands Sports Complex)
+Glen Helen Regional Park
+Glenns Falls Civic Center
+Golden Hall
+Grand Center
+Grand Prix Racecourse
+Great American Music Hall
+Greek Theater (U of California)
+Greensboro Coliseum
+Gruga Halle
+Gym, S.U.N.Y.
+HJK
+Hampton Coliseum
+Hara Arena
+Harding Theatre
+Harpur College
+Hartford Civic Center
+Henry J. Kaiser Auditorium
+Henry J. Kaiser Convention Center
+Hershey Park Stadium
+Hill Auditorium
+Hofheinz Pavilion
+Holleder Stadium
+Hollywood Bowl
+Hollywood Palladium
+Horton Field House, Illinois State U.
+Hubert H. Humphrey Metrodome
+Huntington Civic Center
+Indianapolis Convention Center
+International Amphitheater
+Irvine Meadows Amphitheater
+Istadium
+JFK Stadium
+Jahrhundert Halle
+Jai-Alai Fronton
+Joe Louis Arena
+KQED Studios
+Kansas City Municipal Auditorium
+Kezar Stadium
+Kiel Auditorium
+Kinckerbocker Arena
+Kingswood Music Theater
+Knickerbocker Arena
+LA Memorial Coliseum
+LA Sports Arena
+Labor Temple
+Laguna Seca Raceway
+Lakefront Arena, University of New Orleans
+Lakeland Civic Center
+Lane Community College
+Lindley Meadows, Golden Gate Park
+Lloyd Noble Center (U of Oklahoma)
+Long Beach Arena
+Loyola College
+Madison Square Garden
+Manhattan Center
+Manor Downs
+Marin County Veteran's Auditorium
+Market Square Arena
+Masonic Temple
+Max Yasgur's Farm
+McArthur Court (U of Oregon)
+McGaw Memorial Hall, Northwestern U.
+McNichols Sports Arena
+Mecca
+Memorial Auditorium
+Memorial Coliseum
+Memorial Coliseum (State Fairgrounds)
+Memorial Coliseum (U of Alabama)
+Memorial Hall
+Memorial Stadium
+Merriweather Post Pavilion
+Metropolitan Sports Center
+Miami Arena
+Mile High Stadium
+Mill Valley Recreation Center
+Milwaukee Auditorium
+Mississippi River Festival
+Monterey Performing Arts Center
+Moody Coliseum (SMU)
+Morgantown Civic Center
+Moscone Center
+Municipal Auditorium
+Music Mall
+Musikhalle
+NBC Studios
+Nashville Municipal Auditorium
+Nassau Veterans Memorial Coliseum
+Nevada County Fairgrounds
+Niagara Falls Convention Center
+Northrup Auditorium
+Oakland Auditorium Arena
+Oakland Coliseum
+Oakland Coliseum Arena
+Oakland Coliseum Stadium
+Oakland Stadium
+Oklahoma City Music Hall
+Old Renaissance Faire Grounds
+Olympia Halle
+Olympia Theater
+Olympic Center
+Omaha Auditorium
+Onondaga War Memorial Auditorium
+Orchard Park
+Oregon County Fair Site
+Orlando Arena
+Orpheum Theatre
+Oxford Plains Speedway
+P.N.E. Coliseum
+Palais des Sports
+Paramount Northeast
+Paramount Northwest Theatre
+Paramount Theater
+Park West Ski Resort
+Paterson State College
+Patrick Field House (U of Vermont)
+Pauley Pavilion (UCLA)
+Pavilion (U Illinois at Chicago)
+Performing Arts Center
+Pershing Municipal Auditorium
+Philadelphia Civic Center
+Pine Knob Music Theater
+Pittsburgh Civic Arena
+Playhouse Theater
+Polo Field Golden Gate Park
+Poplar Creek Pavilion
+Portland International Speedway
+Portland Meadows
+Portland Memorial Coliseum
+Providence Civic Center
+Public Hall
+Queens College
+Raceway Park
+Radio City Music Hall
+Radio Luxembourg
+Rainbow Theater
+Rec Hall (Penn State U)
+Recreation Hall (UC Davis)
+Red Rocks Amphitheater
+Red Vest
+Reno Centennial Coliseum
+Reunion Arena
+Rheinhalle
+Rich Stadium
+Richfield Coliseum
+Richmond Coliseum
+River Bend Music Center
+River Front Coliseum
+Riverport Amphitheatre
+Robert F. Kennedy Stadium
+Robertson Gym (UC Santa Barbara)
+Rochester Silver Stadium
+Roosevelt Stadium
+Roscoe Maples Pavilion, Stanford U.
+Rosemont Horizon
+Rubber Bowl
+Rupp Arena (Lexington Center)
+Sacramento Memorial Auditorium
+Saenger Performing Arts Center
+Salt Lake City Delta Center
+Salt Palace
+Sam Boyd Silver Bowl
+San Diego Sports Arena
+San Francisco Civic
+San Jose State U.
+Sandstone Amphitheater
+Santa Cruz County Fairgrounds
+Santa Fe Downs
+Saratoga Performing Arts Center
+Seattle Center Arena
+Seattle Center Coliseum
+Seattle Memorial Stadium
+Selland Arena
+Shea's Theater
+Shoreline Amphitheater
+Shrine Auditorium
+Shrine Exposition Hall
+Silva Hall (Hult Center)
+Silver Stadium
+Soccer Field, CSUDH
+Soldier Field
+Soldiers' and Sailors' Memorial Hall
+Son Et Lumiere Theater
+Southern Star Amphitheater
+Spartan Stadium
+Spokane Coliseum
+Sports Palace
+Sports and Music Center
+Sportsahala
+Springer's Inn
+Springfield Civic Center
+St. John's Arena; Ohio State Univ.
+St. Louis Arena
+St. Paul Civic Center
+Stabler Arena (Lehigh U)
+Stadt Halle
+Stanley Theater
+Star Lake Ampitheatre
+Starlight Theater
+State Fair Coliseum
+State Fairgrounds
+Stockton Civic Aud.
+Sullivan Stadium
+Summit Arena
+Sun Dome
+Swing Auditorium
+Tacoma Dome
+Tampa Stadium
+The Ark
+The Centrum
+The Fabulous Forum
+The Hippodrome
+The ICC
+The Matrix
+The Met Center Bloomington
+The Mosque
+The Omni
+The Palace
+The Palladium
+The Pyramid Arena
+The Scope
+The Spectrum
+The Sportatorium
+The Strand Lyceum
+The Summit
+The Zenith
+Thelma Theatre
+Thompson Arena (Dartmouth College)
+Three Rivers Stadium
+Tivoli Gardens
+Tivoli Theater
+Tower Theater
+Town Park
+Trooper's Hall
+Tulsa Fairgrounds Pavilion
+USAir Arena
+Uni Dome (University of Northern Iowa)
+Universal Amphitheatre
+University of Iowa
+University of Nevada
+University of New Mexico
+University of Virginia
+Uptown Theater
+Utica Memorial Auditorium
+Utica Memorial Coliseum
+Vanderbilt University
+Ventura County Fairgrounds
+Veterans Memorial Auditorium
+Veterans' Memorial Coliseum
+Veterans' Memorial Hall
+Virginia Polytechnic University
+WPI
+Walter Koebel Halle
+War Memorial Auditorium
+Warfield Theater
+Wembley Arena
+West High Auditorium
+Wichita
+William and Mary Hall
+Winterland Arena
+World Music Theater
+Zoo Amphitheater
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #86
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

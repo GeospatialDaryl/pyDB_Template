@@ -1,0 +1,66 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #5
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 15 February 1996     Volume 01 : Number 005
+
+In this issue:
+
+	DeadList Formatting Specification Proposal
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Thu, 15 Feb 1996 14:05:24 -0800
+Subject: DeadList Formatting Specification Proposal
+
+The formatting spec proposal that I drafted is now available from
+ftp.nbn.com/home/softsell/ftp as DEADLIST.TXT. If can also be accessed from
+http://www.barclay.com/tapetracker/files.html in the "Miscellaneos" section.
+
+To quote the rider that is included on the proposal:
+
+>The following is a *proposal* created to help develop a 
+>consensus for the deadlists project, it should *in*no*way* be 
+>construed as a final spec being pushed on the group. 
+
+Please understand this. 
+
+
+Steve
+
+- ----- 
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax:(415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+ 
+ For *TapeTracker for Windows* info:
+          see http://www.barclay.com/tapetracker/ or send email
+      to info@barclay.com (no subject or message text is required)
+
+
+------------------------------
+
+End of DeadLists Digest V1 #5
+*****************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

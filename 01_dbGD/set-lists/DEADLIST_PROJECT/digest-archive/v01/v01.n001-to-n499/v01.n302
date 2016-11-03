@@ -1,0 +1,84 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #302
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Saturday, 17 May 1997       Volume 01 : Number 302
+
+In this issue:
+
+	mSQL search engine
+	Re: DeadLists Digest V1 #301
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Sat, 17 May 1997 02:30:33 -0500 (CDT)
+Subject: mSQL search engine
+
+I've made some modifications to the seach engine on the Tour-by-Tour site
+as per Nathan's suggestions. Please let me know what you think. How
+important is a multiple keywork search, i.e. to find all Dark Stars and
+Stella Blues in SET2, not necessarily Dark Star > Stella Blue? I think the
+plan remains to adapt this to the deadlists site... so it would be nice to
+know what kind of things folks would like to see.
+
+http://www.math.ukans.edu/tbt/
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: Michael Creedy <M.Creedy@bton.ac.uk>
+Date: Sat, 17 May 1997 11:58:59 +0100 (BST)
+Subject: Re: DeadLists Digest V1 #301
+
+I have tried to access this site a number of times,
+(ftp.deadlists.com) using different programmes and always seem to
+get no further than logging on. No data seems to be available and
+the directory seems to be unrecognisable. What am I doing wrong?
+
+{********************************************}
+{Michael Creedy		  M.Creedy@bton.ac.uk}
+{			 		     }
+{Electronic Engineering B.Eng(2)	     }
+{^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^}
+{Incoming Ethical & Environmental Officer '97}
+{Students Union				     }
+{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+{University of Brighton			     } 
+{	"Live long and prosper"		     }
+{********************************************}
+
+
+------------------------------
+
+End of DeadLists Digest V1 #302
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

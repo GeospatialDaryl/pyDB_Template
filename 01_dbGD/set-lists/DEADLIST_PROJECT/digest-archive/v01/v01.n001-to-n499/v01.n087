@@ -1,0 +1,101 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #87
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 1 November 1996      Volume 01 : Number 087
+
+In this issue:
+
+	Re: DeadLists Digest V1 #86
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Thu, 31 Oct 1996 17:18:14 -0800
+Subject: Re: DeadLists Digest V1 #86
+
+>From: "Ryan Shriver" <ryan@digicool.com>
+>Date: Thu, 31 Oct 1996 17:19:25 -0500
+
+>While working on the search interface, ... we discovered ... lots
+>of errors in the data, especially the venue fields. These errors were
+>generally one of two types; either misspelled words or duplication of
+>venues with different names. For example....
+>
+>1. We need an official venue list, just like the one for songs.....
+>2. It would be nice if we could all agree on spellings....
+...>
+>4. It would also be nice if we could come up with a convention for
+>labeling venues that were at colleges or universities.
+
+An alternative is a entry helper application and an alias file-
+I did an alias file for the stak-o-dead setlists;
+
+Basically, you type in a venue name-
+First, expand the name using some common expansions.
+For example, the song alias routine automatically creates versions
+by stripping off leading 'A' and 'The', changing -ing endings to
+- -in or -in', changing 'and' to '&', stripping off parens, etc.
+For venues, you'd probable change aud. to auditorium, theatre to theater,
+remove periods, e.g. (U.C.L.A) ->(UCLA)-> UCLA
+I brute forced it by generating all possibilities, then seeing if
+any of them matched something in the alias file.
+
+if it can't find it in the alias file, it ought to pop up a list of venues
+that closely match (first n characters, or something). You either say
+yea, that one, or,
+no, this is new, or,
+oops, I mistyped it.
+If it's one that's already been seen, it adds the current one as an alias
+to the one already seen, but enters the 'master' name, else it enters the
+new venue.
+
+This is not a cure for bad typing, but it sure makes it easier to enter
+things- you have a good chunk of database now, & it makes sense to use
+that data to help you enter more data.
+
+Having said that, it's one more program to write (I did it in hypercard,
+and it's ugly), but if it's table driven, it would be useful for venues and
+setlists both (and we know that few setlists have spellings that match any
+other!)
+
+>Below is the venue list that I extracted. I will also put a copy up at:
+>http://www.digicool.com/ryan/songlist.html
+
+typo alert: it didn't work (and shouldn't be songlist, should it?)
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #87
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

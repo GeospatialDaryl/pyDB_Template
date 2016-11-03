@@ -1,0 +1,293 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #116
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Tuesday, 7 January 1997      Volume 01 : Number 116
+
+In this issue:
+
+	Re: Year Caretakers & Setlist formats
+	Format for search results
+	Re: Format for search results
+	Re: Format for search results
+	Re: Should we allow FindMail Communications to archive our list?
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Tue, 07 Jan 1997 10:26:25 -0500
+Subject: Re: Year Caretakers & Setlist formats
+
+- ------------4DE311C04EF41
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+Nathan Wolfson wrote:
+>
+> my point of view is this:  The Field Headers.  Do we need headers for
+each
+> setlist that say: Venue, SetI, SetII, etc.?
+
+Yes. Each record should appear exactly as seen in the data spec file.
+For example:
+
+BAND VENUE CITY STATE DATE SET1 SET2.........
+BAND [tab]      Grateful Dead
+VENUE [tab]    Oakland Coliseum
+etc....
+
+Each record should be 13 lines, 1 line for the field definitions (BAND
+VENUE, etc..) and 12 lines, each for one field of data. There should be
+one carriage return per field, at the end of that field's data. Make
+sure the fields are in the correct order, as seen in the data spec file.
+
+When inputing setlists, I found that it's easy to create one record with
+the correct syntax, then just copy & paste that record over for each new
+setlist. This both saves a bunch of typing, and it ensures the correct
+syntax is reused. I hate to harp, but it is _very_ important that we all
+use this same syntax, or problems will arise later down the road.
+- --
+    ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver    Product Manager
+ryan@digicool.com   Digital Creations, L.C.
+
+ http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+
+- ------------4DE311C04EF41
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset=us-ascii
+
+<HTML><BODY>
+
+<DT>Nathan Wolfson wrote:<BR>
+&gt;&nbsp;<BR>
+&gt; my point of view is this:&nbsp; The Field Headers.&nbsp; Do we need
+headers for each<BR>
+&gt; setlist that say: Venue, SetI, SetII, etc.?<BR>
+<BR></DT>
+
+<DT>Yes. Each record should appear exactly as seen in the data spec file.
+For example:</DT>
+
+<DT>&nbsp;</DT>
+
+<DT>BAND VENUE CITY STATE DATE SET1 SET2.........</DT>
+
+<DT>BAND [tab]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grateful Dead</DT>
+
+<DT>VENUE [tab]&nbsp;&nbsp;&nbsp; Oakland Coliseum</DT>
+
+<DT>etc....</DT>
+
+<DT>&nbsp;</DT>
+
+<DT>Each record should be 13 lines, 1 line for the field definitions (BAND
+VENUE, etc..) and 12 lines, each for one field of data. There should be
+one carriage return per field, at the end of that field's data. Make sure
+the fields are in the correct order, as seen in the data spec file.</DT>
+
+<DT>&nbsp;</DT>
+
+<DT>When inputing setlists, I found that it's easy to create one record
+with the correct syntax, then just copy &amp; paste that record over for
+each new setlist. This both saves a bunch of typing, and it ensures the
+correct syntax is reused. I hate to harp, but it is _very_ important that
+we all use this same syntax, or problems will arise later down the road.<BR>
+- --&nbsp;<BR>
+&nbsp;&nbsp;&nbsp; ryan<BR>
+<BR>
+- ---------------------------------------------------------------<BR>
+Ryan Shriver&nbsp;&nbsp;&nbsp; Product Manager<BR>
+ryan@digicool.com&nbsp;&nbsp; Digital Creations, L.C.<BR>
+<BR>
+&nbsp;http://www.digicool.com/ryan/jerry/index.html<BR>
+- ---------------------------------------------------------------<BR>
+&nbsp;</DT>
+
+</BODY>
+</HTML>
+- ------------4DE311C04EF41--
+
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Tue, 07 Jan 1997 10:41:52 -0500
+Subject: Format for search results
+
+- ------------14ED142567292
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+This might be a minor point, but I would like to solicit ideas for the
+format of the search results. I've come up with a sample format at:
+http://www.digicool.com/ryan/results.html
+
+For those that are interested, please take a look and let me know what
+you think.
+
+[Just a little info about how this works] Once a person selects their
+search criteria, and submit it, the results are returned. Lets say we
+have 50 matching results. On the program's end, I can specify to return
+the first n matching results (n being some number), with links to the
+rest. If you have ever used a Web search engine, you probably have seen
+this format used.
+- --
+    ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver    Product Manager
+ryan@digicool.com   Digital Creations, L.C.
+
+ http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+
+- ------------14ED142567292
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset=us-ascii
+
+<HTML><BODY>
+
+<DT>This might be a minor point, but I would like to solicit ideas for
+the format of the search results. I've come up with a sample format at:</DT>
+
+<DT>http://www.digicool.com/ryan/results.html</DT>
+
+<DT>&nbsp;</DT>
+
+<DT>For those that are interested, please take a look and let me know what
+you think.</DT>
+
+<DT>&nbsp;</DT>
+
+<DT>[Just a little info about how this works] Once a person selects their
+search criteria, and submit it, the results are returned. Lets say we have
+50 matching results. On the program's end, I can specify to return the
+first n matching results (n being some number), with links to the rest.
+If you have ever used a Web search engine, you probably have seen this
+format used.&nbsp;<BR>
+- --&nbsp;<BR>
+&nbsp;&nbsp;&nbsp; ryan<BR>
+<BR>
+- ---------------------------------------------------------------<BR>
+Ryan Shriver&nbsp;&nbsp;&nbsp; Product Manager<BR>
+ryan@digicool.com&nbsp;&nbsp; Digital Creations, L.C.<BR>
+<BR>
+&nbsp;http://www.digicool.com/ryan/jerry/index.html<BR>
+- ---------------------------------------------------------------<BR>
+&nbsp;</DT>
+
+</BODY>
+</HTML>
+- ------------14ED142567292--
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Tue, 7 Jan 1997 09:22:38 -0800 (PST)
+Subject: Re: Format for search results
+
+>This might be a minor point, but I would like to solicit ideas for the
+>format of the search results. I've come up with a sample format at:
+>http://www.digicool.com/ryan/results.html
+>
+>For those that are interested, please take a look and let me know what
+>you think.
+>
+
+Looks good to me BUT I think I am less particular about this matter than
+some folks here -- which means I'll keep quiet, since we might as well get
+it as near perfect as possible (and not just settle for what's alright,
+right? :-)
+
+- -----
+
+A somewhat unrelated point:  I'm re-working the deadlists page on my site to
+be quicker to navigate and to reflect some of the new features we need
+(setlists posted on the Web for discussion, etc.).  I was going to continue
+to mention the Web-discussion-area...but then got to thinking that none of
+us use it -- so maybe we shouldn't suggest that people check it out (since
+it may give the wrong impression about this project).  What do people think?
+
+- -----
+
+And, finally:  Would the people who intend to caretake particular years,
+post that info again.  I went crawling through the digests yesterday trying
+to find it (we neeed another search engine :-) and couldn't.  Please post
+your name, your year(s), and your contact email address.
+
+Thanks!
+Nathan
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 7 Jan 1997 12:08:06 -0600 (CST)
+Subject: Re: Format for search results
+
+Sorry about the empty messages Nathan...
+
+> And, finally:  Would the people who intend to caretake particular years,
+> post that info again.  I went crawling through the digests yesterday trying
+> to find it (we neeed another search engine :-) and couldn't.  Please post
+> your name, your year(s), and your contact email address.
+
+I can do 73 and 74, unless someone else really wants 73. 74 is my
+favorite year, and the year I know the best. Also, the year I was born...
+ahh sad irony that it is...
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: kraitch@eecs.berkeley.edu (mark kraitchman)
+Date: Tue, 7 Jan 1997 15:29:13 -0800 (PST)
+Subject: Re: Should we allow FindMail Communications to archive our list?
+
+I think only one person thought we shouldn't allow
+FindMail Communications to archive deadlists email.
+
+I personally don't have any strong feelings about this, so I
+haven't replied back to FindMail Communications and I haven't
+unsubscribed FindMail Communications from deadlists...
+
+------------------------------
+
+End of DeadLists Digest V1 #116
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

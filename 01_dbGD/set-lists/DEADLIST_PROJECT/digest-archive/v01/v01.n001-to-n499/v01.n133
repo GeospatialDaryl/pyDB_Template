@@ -1,0 +1,733 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #133
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 16 January 1997     Volume 01 : Number 133
+
+In this issue:
+
+	Re: 
+	1974 v1
+	Re: 1974 v1
+	Song titles
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Thu, 16 Jan 1997 11:50:43 -0500
+Subject: Re: 
+
+Jim Powell wrote:
+> 
+> a list that is simple (i.e. minimal), uniform and legible to the uninitiated
+> will serve the needs of search engines and humans alike.  no real
+> contradiction if we get our specs properly nailed.
+
+True. I've been working on polishing up the specs document and hope to have 
+something for everyone to see by mid-next week. I'll pass it on to Nathan and he 
+can put it on our Web site for everyone to comment on.
+
+> if it's as easy as it ought to be to tell a search engine to ignore numerals
+> then we don't need square brackets around timings in setlists & they should
+> be eliminated from our protocol according to the principle of simplicity.
+
+Brackets aren't a necessity, they are more for aesthetic reasons. It makes no 
+difference to me what format everyone wants. Basically, the way it works is that 
+the search engine will return all the information between song delimiters. So, 
+the search engine doesn't care whether its [7:45], {7:45}, or 7:45, so long as 
+it's between the song and the song's delimiter. Obviously whatever surrounds the 
+timings shouldn't be one of the song delimiters.
+
+> seeing as it should be no challenge to a programmer to create a function to
+> insert a tab before or after every colon, semi-colon or guzinta that occurs
+> between SET1, SET2, SET3 or ENCORE and a carriage return, according to the
+> same principle of simplicity tabs should be eliminated from our specs.
+
+The way it is right now, the only place tabs should be are between the field 
+names and the field information (SET1<tab>Ramble On Rose;). We could write a 
+function to automatically insert the tabs, but I don't think it's that hard to 
+press the tab key instead of the space key. If we are trying to get these things 
+online ASAP, then it would save time from my end if everyone used the tab key.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Thu, 16 Jan 1997 12:35:56 -0600 (CST)
+Subject: 1974 v1
+
+Here are the 74 lists I have put together from my tapes. Several of them
+are completely or partially empty; though the set-lists can be found, I
+didn't have the tape (or all of the tape). In some of them, I have noted
+set-lists from other sources in the comments. The RECORDING field are
+Jim's "tapes in circulation" notes. If you can fill in the blanks, or fix
+errors, please mail the corrected deadlist back to me. I would also like
+to hear any style comments, etc.
+
+On a different note, I'll release 73 if anyone wants to do it. If nobody
+claims it by the time I get around to it, I will do it. 
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	2/22/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	Set-list from gdead.berkeley.edu is SET1	U.S. Blues ; Beat It On Down The Line ; Brown Eyed Women ; Mexicali Blues ; It Must Have Been The Roses ; Black Throated Wind ; They Love Each Other ; Big River ; Loose Lucy ; El Paso ; Row Jimmy ; Playin'
+ in the Band, SET2	Tennessee Jed ; Me And My Uncle ; Ship Of Fools ; The Race Is On ; China Cat Sunflower > I Know You Rider ; Truckin' > Nobody's Fault But Mine Jam > Goin' Down The Road Feelin' Bad, SET3	Mississippi Half Step ; Promised Land ; Brokedown
+ Palace ; Jack Straw ; Eyes Of The World > China Doll > Wharf Rat > Sugar Magnolia, ENCORE	Uncle John's Band
+RECORDING	270 SBD: The complete show & soundcheck
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	2/23/74
+SET1	Around & Around ; Here Comes Sunshine ; Beat It On Down The Line ; Ship of Fools ; Jack Straw ; Deal ; Promised Land > Bertha > Greatest Story Ever Told
+SET2	Row Jimmy ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let it Grow > Stella Blue ; He's Gone > Truckin > Drums > The Other One > Eyes of the World > One More Saturday Night
+SET3	
+ENCORE	Johnny B. Goode ; We Bid You Goodnight
+COMMENTS	DB IX lists Dire Wolf ; Bobby McGee ; Sugaree ; Mexicali Blues after Around & Around, Big River ; Ramble On Rose ; Me And My Uncle after Stella Blue, and Casey Jones as ENCORE1.
+RECORDING	220 SBD + AUD: The complete show except a cut in Here Comes Sunshine, in SBD except Saturday Night & Casey Jones which are patched in from excellent AUD.
+CONTRIBUTORS 	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	2/24/74
+SET1	U.S. Blues ; Mexicali Blues ; Brown Eyed Women ; Beat It On Down The Line ; Candyman ; Jack Straw ; China Cat Sunflower > I Know You Rider ; El Paso ; Loser ; Playin'
+SET2	Cumberland Blues ; It Must Have Been The Roses ; Big River ; Bertha ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let it Grow > Row Jimmy ; Ship of Fools ; Promised Land ; Dark Star > Morning Dew ; Sugar Magnolia > Not Fade Away > Go
+in' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	It's All Over Now Baby Blue
+COMMENTS	
+RECORDING	225 FM-SBD: The complete show, in FM-SBD; Ship Of Fools through the Baby Blue also circulates in SBD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Cow Palace
+CITY	Daly City
+STATE	CA
+DATE	3/23/74
+SET1
+SET2
+SET3	
+ENCORE	
+COMMENTS	Set-list from gdead.berkeley.edu is SET1	U.S. Blues ; Promised Land ; Brown Eyed Women ; Mexicali Blues ; Tennessee Jed ; Black Throated Wind ; Scarlet Begonias ; Beat It On Down The Line ; It Must Have Been The Roses ; El Paso ; Deal ; Cassidy ;
+ China Cat Sunflower > I Know You Rider ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow, SET2	Playin' in the Band > Uncle John's Band > Morning Dew > Uncle John's Band > Playin' in the Band ; Ship of Fools ; Big River ; Ramble O
+n Rose ; Me And My Uncle ; Bertha ; Around & Around ; Wharf Rat > Sugar Magnolia ; Casey Jones, ENCORE	One More Saturday Night
+RECORDING	220 AUD & 100 SBD: The complete show circulates in fairly listenable AUD. The conclusion of the 1st set (El Paso through Weather Report Suite) and the beginning of the 2nd (Playin < UJB < Dew < UJB < Playin) also circulate in FM-SBD, and there i
+s an SBD of Ship Of Fools out there as well.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	University of Nevada
+CITY	Reno
+STATE	NV
+DATE	5/12/74
+SET1	
+SET2	
+SET3	Mississippi Half Step ; Truckin > Nobody's Fault But Mine Jam > The Other One > Mind Left Body Jam > Row Jimmy ; Big River ; Ship of Fools ; Sugar Magnolia
+ENCORE	
+COMMENTS	DB IX lists SET1 as Promised Land ; Tennessee Jed, SET2 as China Cat Sunflower > I Know You Rider ; El Paso ; U.S. Blues ; Greatest Story Ever Told ; It Must Have Been The Roses ; Me And Bobby McGee ; Deal ; Around & Around
+RECORDING	90 AUD AP: Of this show only what DB calls the "3rd set" circulates, in very good AUD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Adams Field House, University of Montana
+CITY	Missoula
+STATE	MT
+DATE	5/14/74
+SET1	
+SET2	Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > Dark Star > China Doll
+SET3	
+ENCORE	
+COMMENTS	DB IX lists SET1 as Bertha ; Me And My Uncle ; Loser ; Black Throated Wind ; Scarlet Begonias > It Must Have Been The Roses ; Jack Straw ; Tennessee Jed ; Deal ; Big River ; Brown Eyed Women ; Playin' in the Band. SET2 as listed here is preceded 
+by U.S. Blues ; Mexicali Blues ; Row Jimmy, and followed by Promised Land ; Not Fade Away > Goin ' Down the Road Feelin' Bad > One More Saturday Night
+RECORDING	200 AUD + 55 SBD: The complete show except cuts in Playin & Dark Star circulates in listenable AUD (though really lo gen copies are hard to find). The 55 minutes of SBD run from Weather Report Suite through China Doll, with a cut in China Doll.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	P.N.E Coliseum
+CITY	Vancouver, British Columbia
+STATE	CANADA
+DATE	5/17/74
+SET1
+SET2
+SET3	
+ENCORE	
+COMMENTS	Province noted in CITY, is this a good way to do it? Set-list from gdead.berkeley.edu is SET1	Promised Land ; Deal ; The Race Is On ; Ramble On Rose ; Jack Straw ; Dire Wolf ; Beat It On Down The Line ; Loose Lucy ; Big River ; It Must Have Been 
+The Roses ; Mexicali Blues ; Row Jimmy ; Playin' in the Band, SET2	U.S. Blues ; Me And My Uncle ; Ship of Fools ; Money Money ; China Cat Sunflower > I Know You Rider ; Greatest Story Ever Told ; Sugaree ; Truckin' > Nobody's Fault But Mine Jam > Eyes Of 
+The World > China Doll ; Sugar Magnolia
+RECORDING	180 AUD: The complete show, in very good AUD deteriorating to quite listenable AUD for Truckin through Sugar Magnolia. The only tape I've seen has the 1st set songs in completely scrambled sequence (if DB's order is correct, as it probably is).
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Memorial Coliseum
+CITY	Portland
+STATE	OR
+DATE	5/19/74
+SET1	Mississippi Half Step ; Mexicali Blues ; Big Railroad Blues ; Black Throated Wind ; Scarlet Begonias ; Beat It On Down The Line ; Loose Lucy ; Money Money ; China Cat Sunflower > I Know You Rider
+SET2	Promised Land > Bertha > Greatest Story ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > Wharf Rat ; Big River ; Peggy-O ; Truckin > Jam > Mind Left Body Jam > Not Fade Away > Goin' Down The Road Feelin' Bad > One More Sat
+urday Night
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	DB IX lists Tennessee Jed ; Me And Bobby McGee ; Sugaree ; Jack Straw ; It Must Have Been The Roses ; El Paso]
+after BIODTL, Ship of Fools after Greatest Story
+RECORDING	225 SBD + AUD: The complete show, in SBD except Tennessee Jed through El Paso & Ship Of Fools, which are available in excellent AUD. The AUD portion also circulates in fairly corroded copies; there are probably copies of several AUD masters circ
+ulating.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Edmundson Pavillion, University of Washingon
+CITY	Seattle
+STATE	WA
+DATE	5/21/74
+SET1
+SET2	Playin' in the Band
+SET3	
+ENCORE	
+COMMENTS	Set-list from gdead.berkeley.edu is SET1	Me And My Uncle ; Brown Eyed Women ; Beat It On Down The Line ; Deal ; Mexicali Blues ; It Must Have Been The Roses ; The Race Is On ; Scarlet Begonias ; El Paso ; Row Jimmy ; Money Money ; Ship of Fools ;
+ Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > China Doll, SET2	Playin' in the Band ; U.S. Blues ; Big River ; Stella Blue ; Around & Around ; Eyes Of The World > Wharf Rat > Sugar Magnolia, ENCORE	Johnny B. Goode
+RECORDING	200 AUD & 50 SBD: The complete show except the encore breaks off, in truly excellent AUD. The 46:23 Playin also circulates in SBD patched with 0:26 of the AUD, and in FM-SBD with the same patch.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com> <buller@math.ukans.edu>
+
+BAND	Grateful Dead
+VENUE	Campus Stadium, University of California Santa Barbara
+CITY	Santa Barbara
+STATE	CA
+DATE	5/25/74
+SET1	U.S. Blues; Mexicali Blues ; Deal ; Jack Straw ; Scarlet Begonias ; Beat It On Down The Line ; Brown Eyed Women ; Me And My Uncle ; Sugaree ; El Paso ; China Cat Sunflower > I Know  You Rider ; Around & Around
+SET2	Promised Land ; Ship of Fools ; Big River ; Tennessee Jed ; Truckin'' > Jam > Space > Let It Grow > Wharf Rat ; Sugar Magnolia > Goin' Down The Road Feelin' Bad > One More Saturday Night
+SET3	
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	180 SBD: The complete show. Also, 180 AUD: The entire show circulates in 2 versions deriving from different AUD masters, one truly excellent & the other very good but with some windshielding problems.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com> <buller@math.ukans.edu>
+
+BAND	Grateful Dead
+VENUE	Coliseum Stadium
+CITY	Oakland
+STATE	CA
+DATE	6/8/74
+SET1	
+SET2	Playin' In The Band > Wharf Rat > Playin' In The Band
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	180 AUD & 45 FM-SBD: The complete show circulates in tapes deriving from 2 different AUD masters, both truly excellent (they often circulate labeled "SBD"). There is also 45 minutes of FM-SBD now circulating, containing Playin < Wharf Rat < Play
+in.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	State Fairgrounds
+CITY	Des Moines
+STATE	IA
+DATE	6/16/74
+SET1	Scarlet Begonias
+SET2	Ship of Fools ; U.S. Blues The Race Is On ; Eyes Of The World > Big River ; Playin' In The Band ; Tennessee Jed ; Me And My Uncle ; Deal ; Greatest Story Ever Told
+SET3	Truckin' > Nobody's Fault But Mine Jam > Wharf Rat > Goin' Down The Road Feelin' Bad
+ENCORE	
+COMMENTS	DB IX lists Ship of Fools at end of SET2.
+RECORDING	220 SBD + AUD: There is still some question about the complete contents & sequence of this show. DeadBase's complete list circulates, all of it in SBD except the 2nd set only in truly excellent AUD. There is also a very good AUD of the 1st set i
+n circulation, and perhaps more is yet to emerge. (Note 1/97: the are rumors of a first set soundboard tape circulating from the same source as the 6/20/74 SET1 tape now circulating).
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>, Tim Buller <buller@math.ukans.edu>
+
+BAND	Grateful Dead
+VENUE	Freedom Hall
+CITY	Louisville
+STATE	KY
+DATE	6/18/74
+SET1	Promised Land ; It Must Have Been The Roses ; Black Throated Wind ; Ramble on Rose ; Beat It On Down The Line ; Loser ; Mexicali Blues ; Eyes Of The World > China Doll ; Around & Around
+SET2	Loose Lucy ; El Paso; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > The Other One > It's A Sin Jam > Stella Blue ; Big River ; Tennessee Jed ; Sugar Magnolia
+SET3	
+ENCORE	Morning Dew
+COMMENTS	DB IX lists Row Jimmy after El Paso
+RECORDING	180 SBD: The complete show except Row Jimmy breaks off.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	The Omni
+CITY	Atlanta
+STATE	GA
+DATE	6/20/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	90 SBD: The first set, which began to circulate late in 96. This tape is supposedly from the cassette master of a roadie who toured with the band during this period. He has apparently lost, or never taped, the second set.
+CONTRIBUTORS	Recording Info: Tim Buller <buller@math.ukans.edu>
+
+BAND	Grateful Dead
+VENUE	Jai-Alai Fronton
+CITY	Miami
+STATE	FL
+DATE	6/22/74
+SET1	Promised Land > Bertha > Greatest Story Ever Told ; Deal ; Me And Bobby McGee ; Scarlet Begonias ; Jack Straw ; Loose Lucy ; Mexicali Blues ; Sugaree ; The Race Is On ; It Must Have Been The Roses ; Playin' In The Band
+SET2	China Cat Sunflower > I Know You Rider ; Ship Of Fools ; El Paso ; Eyes Of The World > Wharf Rat > Sugar Magnolia
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	225 SBD + AUD: The complete show including the soundcheck (except that Playin breaks off after 27:20) circulates in SBD, except Promised Land, Bertha, Sugaree & Ship of Fools, which are supplied by an excellent AUD. The soundcheck cuts in on a N
+obody's jam and then continues with < Other 1 jam < space < Tiger < jam, where it breaks off after about 25 minutes.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Jai-Alai Fronton
+CITY	Miami
+STATE	FL
+DATE	6/23/74
+SET1	Ramble On Rose ; Black Throated Wind ; Mississippi Half Step ; Beat It On Down The Line ; Row Jimmy ; Jack Straw ; Let It Rock ; Cumberland Blues ; El Paso ; To Lay Me Down ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > 
+China Doll
+SET2	Phil & Ned > Ship Of Fools ; Big River ; Black Peter ; Around & Around ; Dark Star Jam > Spanish Jam > U.S. Blues ; Uncle John's Band > One More Saturday Night
+SET3	
+ENCORE	Casey Jones
+COMMENTS	DB IX lists Phil & Ned as Set 1.5, Set 2 opens with Space > Ship Of Fools
+RECORDING	190 SBD + SA + AUD. The complete show including Seastones circulates, the 1st set in SBD, Seastones & the 2nd set in tape made by Phil with mics on stage, & the encore supplied by an excellent AUD, which also circulates separately.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Civic Center
+CITY	Providence
+STATE	RI
+DATE	6/26/74
+SET1	Big River ; Brown Eyed Women ; Beat It On Down The Line ; Scarlet Begonias ; Black Throated Wind ; Row Jimmy ; Mexicali Blues ; Deal ; The Race Is On ; Mississippi Half Step ; El Paso ;Ship of Fools; Weather Report Suite Prelude > Weather Report Suit
+e Part 1 > Let It Grow > It Must Have Been The Roses
+SET2	Phil & Ned
+SET3	U.S. Blues ; Me And My Uncle ; Jam > China Cat Sunflower > I Know You Rider ; Truckin' > The Other One Jam > Spanish Jam > Wharf Rat > Sugar Magnolia
+ENCORE	Eyes of the World
+COMMENTS	SET2 is listed as Set 1.5 in DBIX, SET3 as Set 2
+RECORDING	200 AUD + SBD: The complete show including Seastones circulates in good AUD. Mississippi Halfstep through Musta Been Those Roses & Me & My Uncle also circulate in somewhat degraded SBD, and the jam < China Cat < Rider also circulates in FM-SBD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Boston Garden
+CITY	Boston
+STATE	MA
+DATE	6/28/74
+SET1	Mississippi Half Step > It Must Have Been The Roses > Jack Straw ; Beat It On Down The Line ; Deal ; Mexicali Blues ; Tennessee Jed ; Me And Bobby McGee ; Loose Lucy ; El Paso ; Sugaree ; Around & Around
+SET2	Sugar Magnolia > Scarlet Begonias ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > Space > Mind Left Body Jam> Jam > U.S. Blues ; Promised Land > Goin' Down The Road Feelin' Bad > Sunshine Daydream
+SET3	
+ENCORE	Ship of Fools
+COMMENTS	DB IX lists Phil & Ned as Set 1.5, Big River ; To Lay Me Down ; Me And My Uncle ; Me And Bobby McGee to follow Scarlet Begonias
+RECORDING	225 SBD + AUD: The complete show including Seastones circulates. The 1st set is supplied by a very good AUD, Seastones by a fairly listenable AUD, and the 2nd set & encore by SBD; the SBDs of Big River through Row Jimmy in circulation are just a
+ hint degraded.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Civic Center Arena
+CITY	Springfield
+STATE	MA
+DATE	6/30/74
+SET1	Don't Ease Me In ; Black Throated Wind ; Peggy-O ; Jack Straw ; Loser ; Greatest Story Ever Told ; Cumberland Blues ; Dire Wolf ; Playin' In The Band > Uncle John's Band > Playin' In The Band
+SET2	China Cat Sunflower > I Know You Rider ; El Paso ; U.S. Blues > Truckin > Nobody's Fault But Mine Jam > Eyes Of The World > Stella Blue ; Not Fade Away > Goin' Down The Road Feelin' Bad > One More Saturday Night
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Big River ; Row Jimmy to follow I Know You Rider
+RECORDING	180 AUD: The complete show except Seastones circulates in excellent AUD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Selland Arena
+CITY	Fresno
+STATE	CA
+DATE	7/19/74
+SET1	
+SET2	He's Gone > U.S. Blues ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > Spanish Jam > Eyes Of The World > China Doll
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	180 AUD + SBD: The complete show including Seastones circulates in a very good AUD; there is a cut in the 26:55 Playin and Seastones breaks off near the end. He's Gone through China Doll also circulates in SBD (about 65 minutes).
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Hollywood Bowl
+CITY	Hollywood
+STATE	CA
+DATE	7/21/74
+SET1	Promised Land ; Tennessee Jed ; Me And My Uncle ; Sugaree ; Jack Straw ; Mississippi Half Step > It Must Have Been The Roses ; El Paso ; Scarlet Begonias ; Around & Around
+SET2	Phil & Ned
+SET3	China Cat Sunflower > I Know You Rider ; Big River ; Row Jimmy ; Playin' In The Band > Wharf Rat > Truckin' > Nobody's Fault But Mine Jam > Playin' In The Band ;  Ship of Fools ; Sugar Magnolia
+ENCORE	U.S. Blues
+COMMENTS	SET2 is Set 1.5, SET3 is Set 2
+RECORDING	180 AUD: The complete show including Seastones except that Scarlet Begonias breaks off at 6:24, the 1st set in very good AUD, the 2nd in truly excellent AUD. It's unclear to me whether these AUDs derive from 2 separate masters, or moved mics, or
+ more generational deterioration on the 1st sets circulating.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	International Amphitheatre
+CITY	Chicago
+STATE	IL
+DATE	7/25/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	Not one note circulates (1/97)
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Civic Center
+CITY	Roanoke
+STATE	VA
+DATE	7/27/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	160 AUD: The complete show except Seastones & the encore circulates in very good AUD.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Capital Centre
+CITY	Landover
+STATE	MD
+DATE	7/29/74
+SET1	Promised Land ; Sugaree ; Black Throated Wind ; It Must Have Been The Roses ; Cumberland Blues ; Scarlet Begonias ; Jack Straw ; Deal ; El Paso; To Lay Me Down ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow
+SET2	He's Gone > Truckin' > Nobody's Fault But Mine > The Other One > Spanish Jam > Wharf Rat ; Around & Around ; Peggy-O ; U.S. Blues ; Sugar Magnolia
+SET3	
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	180 AUD: The complete show except Seastones circulates in very good AUD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Dillon Stadium
+CITY	Hartford
+STATE	CT
+DATE	7/31/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	270 AUD + SBD: The complete show including Seastones circulates in excellent AUD. There is also SBD circulating for Scarlet Begonias through Big River, Weather Report Suite, and the Truckin' jam through Saturday Night.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Civic Convention Hall Auditorium
+CITY	Philadelphia
+STATE	PA
+DATE	8/4/74
+SET1	
+SET2	Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > Wharf Rat > U.S. Blues
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Ship of Fools ; Big River ; Loose Lucy ; Me And My Uncle ; It Must Have Been The Roses to precede this fragment, Sugar Magnolia to follow it, Casey Jones as ENCORE
+RECORDING	180 AUD: The complete show except Seastones circulates in excellent AUD; I've yet to find a copy of Playin that doesn't break off at 21:00.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Civic Convention Hall Auditorium
+CITY	Philadelphia
+STATE	PA
+DATE	8/5/74
+SET1	Promised Land ; Brown Eyed Women ; Beat It On Down The Line ; Dire Wolf ; Me And Bobby McGee ; Tennessee Jed ; Jack Straw ; Deal ; El Paso ; China Cat Sunflower >IKnow You Rider ; Around & Around
+SET2	Phil & Ned
+SET3	Mississippi Half Step > It Must Have Been The Roses ; Big River ; Ramble On Rose ; Me And My Uncle ; Scarlet Begonias ; He's Gone > Truckin' > Space > Stella Blue
+ENCORE	
+COMMENTS	DB IX lists SET2 as Set 1.5, SET3 as Set 2, One More Saturday Night to follow Stella Blue, U.S. Blues as ENCORE
+RECORDING	190 SBD + AUD: The complete show including Seastones circulates in SBD, except that Stella Blue breaks off & Saturday Night is missing; the encore is supplied from an AUD. I've been told that copies of the SBD exist without these cuts but I've y
+et to hear one.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Roosevelt Stadium
+CITY	Jersey City
+STATE	NJ
+DATE	8/6/74
+SET1	Bertha ; Mexicali Blues ; Don't Ease Me In ; Beat It On Down The Line ; Sugaree ; Jack Straw ; Promised Land ; Deal ; Eyes Of The World ; Playin' In The Band > Scarlet Begonias > Playin' In The Band
+SET2	Uncle John's Band ; El Paso ; Black Peter ; Loose Lucy ; Big River ; Ship Of Fools ; Me And My Uncle ; Row Jimmy ; Sugar Magnolia > He's Gone > Truckin' > Spanish Jam > The Other One > Goin' Down The Road Feelin' Bad > Sunshine Daydream
+SET3	
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	245 SBD: The complete show including Seastones circulates in SBD, except Truckin' through US Blues, which can be patched in from superb AUD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Alexandra Palace
+CITY	London
+STATE	ENGLAND
+DATE	9/9/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	145 SBD: The complete show circulates in SBD.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Alexandra Palace
+CITY	London
+STATE	ENGLAND
+DATE	9/10/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	135 AUD: The very good AUD tape circulating contains Peggy O (with the beginning missing), Black-Throated Wind, China Cat < Rider, Weather Report Suite < Stella Blue; Seastones; & the 2nd set complete except for Ramble On Rose and a cut in the 2
+3:14 Dark Star.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Alexandra Palace
+CITY	London
+STATE	ENGLAND
+DATE	9/11/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	250 AUD: The complete show including Seastones is assembled from 2 AUD masters, the 1st excellent & the 2nd very good; the better master supplies everything except the 1st set & Wharf Rat.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Olympiahalle
+CITY	Munich
+STATE	FEDERAL REPUBLIC OF GERMANY
+DATE	9/14/74
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	Do we need to make the FRG distinction?
+RECORDING	235 AUD: The complete show including Seastones in excellent AUD.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Parc des Expositions
+CITY	Dijon
+STATE	FRANCE
+DATE	9/18/74
+SET1	Uncle John's Band ; Jack Straw ; Friend Of The Devil; Black Throated Wind ; Scarlet Begonias ; Mexicali Blues ; Row Jimmy ; Beat It On Down The Line ; Deal ; The Race is On ; To Lay Me Down ; Playin
+SET2	Loose Lucy ; Big River ; Peggy-O ; Me & My Uncle ; Eyes Of The World > China Doll > He's Gone > Truckin' > Drums > Caution Jam > ; Ship of Fools ; Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	DB IX lists U.S. Blues as ENCORE
+RECORDING	200 SBD: The complete show including Seastones circulates in SBD. Most tapes circulating derive from a French pirate LP, which scrambles the sequence & introduces a number of cuts (and labels the whole mess "Palais Des Sportes 9/22/74"). SBD der
+iving directly from the reels also circulates, however, and is worth seeking out.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com> 
+
+BAND	Grateful Dead
+VENUE	Palais des Sports
+CITY	Paris
+STATE	FRANCE
+DATE	9/20/74
+SET1	Cumberland Blues ; Jack Straw ; It Must Have Been The Roses ; Beat It On Down The Line ; Scarlet Begonias ; Black Throated Wind ; Friend of the Devil ; El Paso ; Row Jimmy ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow > S
+tella Blue ; Around & Around
+SET2	China Cat Sunflower > I Know You Rider ; Big River ; Brown Eyed Women ; Greatest Story Ever Told ; Brokedown Palace ; Truckin' > Eyes Of The World > Not Fade Away > Goin' Down The Road Feelin' Bad > One More Saturday Night
+SET3	
+ENCORE	
+COMMENTS	DB IX lists U.S. Blues as ENCORE
+RECORDING	210 AUD + SBD: The complete show. The opening 6 songs (Cumberland Blues through Black-Throated Wind) and Round & Around are supplied by a fairly listenable AUD, the rest of the 1st set by a mildly degraded SBD, and the 2nd set & encore by SBD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Palais des Sports
+CITY	Paris
+STATE	FRANCE
+DATE	9/21/74
+SET1	
+SET2	Phil & Ned > Playin' In The Band > Drums > Playin' In The Band
+SET3	Row Jimmy ; Big River ; Ship of Fools ; Uncle John's Band ; Morning Dew ; Sugar Magnolia
+ENCORE	
+COMMENTS	DB IX lists Around & Around after Uncle John's Band, Casey Jones as ENCORE
+RECORDING	100 SBD: This tape cuts in on Seastones and continues unbroken through the end of the show. The 1st set is nowhere to be found.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	10/16/74
+SET1	Bertha ; Jack Straw ; Deal ; Mexicali Blues ; It Must Have Been The Roses ; Beat It On Down The Line ; Scarlet Begonias ; Me And Bobby McGee ; Tennessee Jed ;Cumberland Blues ; Playin' In The Band
+SET2	Space > Wharf Rat > Space > Eyes Of The World ; Big River ; Ship Of Fools ; Truckin' > Goin Down The Road Feelin' Bad > Uncle John's Band ; Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Phil & Ned to open SET2, U.S. Blues as ENCORE
+RECORDING	245 AUD: The complete show including Seastones circulates in very good AUD, generally in the scrambled sequence listed in DB III. There is also pre FM-SBD circulating of Scarlet Begonias, Me & Bobby McGee, Musta Been Those Roses, Big River, and 
+Playin (there is a reel-flip in Playin); part of Seastones, Wharf Rat, Big River, Happy Birthday Bobby & US Blues.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	10/17/74
+SET1	Promised Land ; Mississippi Half Step ; Black Throated Wind ; Friend Of The Devil ; Jack Straw ; Loser ; El Paso ; China Cat Sunflower > I Know You Rider ; Me Any My Uncle ; It Must Have Been The Roses ; Weather Report Suite Prelude > Weather Report 
+Suite Part 1 > Let It Grow
+SET2	Scarlet Begonias ; Big River ; Ramble On Rose ; Mexicali Blues ; He's Gone > The Other One > Spanish Jam > Mind Left Body Jam > The Other One > Stella Blue > Sugar Magnolia
+SET3	
+ENCORE	Casey Jones ; U.S. Blues
+COMMENTS	DB IX lists Phil & Ned as Set 1.5
+RECORDING	180 SBD: The complete show except Seastones, with a cut in China Cat Sunflower & US Blues breaking off.
+CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	10/18/74
+SET1	Around & Around ; Sugaree ; Mexicali Blues ; Peggy-O ; Beat It On Down The Line ; Brown Eyed Women ; Cumberland Blues ; El Paso ; Tennessee Jed ; Jack Straw ; Row Jimmy ; Weather Report Suite Prelude > Weather Report Suite Part 1 > Let It Grow
+SET2	Phil & Ned > Jam > Dark Star > Morning Dew
+SET3	Promised Land> Bertha > Greatest Story Ever Told ; Ship of Fools ; Not Fade Away > Goin' Down The Road Feelin' Bad > One More Saurday.Night
+ENCORE	U.S. Blues
+COMMENTS	
+RECORDING	215 AUD: The complete show including Seastones circulates in truly excellent AUD (sometimes labeled "SBD") as well as complete SBD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	10/19/74
+SET1	Mississippi Half Step ; Me And My Uncle ; Friend Of The Devil ; Beat It On Down The Line ; It Must Have Been The Roses ; El Paso ; Loose Lucy ; Black Throated Wind ; Scarlet Begonias ; To Lay Me Down ; Mama Tried ; Eyes Of The World > China Doll Big 
+River
+SET2	Uncle John's Band ; Big Railroad Blues ; The Race Is On ; Tomorrow Is Forever ; Mexicali Blues ; Dire Wolf ; Sugar Magnolia > He's Gone > Truckin' > Caution Jam > Drums > Truckin' > Black Peter ; Sunshine Daydream
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Phil & Ned as Set 1.5, One More Saturday Night ; U.S. Blues as ENCORE
+RECORDING	215 AUD: The complete show including Seastones circulates in truly excellent AUD (often labeled "SBD") as well as complete SBD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+BAND	Grateful Dead
+VENUE	Winterland Arena
+CITY	San Francisco
+STATE	CA
+DATE	10/20/74
+SET1	Cold Rain and Snow ; Mama Tried ; Deal ; Beat It On Down The Line ; Loser ; Jack Straw ; Tennessee Jed ; El Paso ; Brokedown Palace ; China Cat Sunflower > I Know You Rider ; Around & Around ; Phil & Ned
+SET2	Playin' In The Band > Drums > Not Fade Away > Drums > The Other One > Wharf Rat > Playin' In The Band
+SET3	Good Lovin ; It Must Have Been The Roses ; Promised Land ; Eyes Of The World > Stella Blue > Sugar Magnolia
+ENCORE	Johnny B. Goode ; Mississippi Half Step > We Bid You Good Night
+COMMENTS	SET2 SET3 ENCORE with Mickey Hart. DB IX lists Phil & Ned as Set 1.5, Johnny B. Goode as E1, Mississippi Half Step > We Bid You Good Night as E2
+RECORDING	280 AUD: The complete show including Seastones circulates in truly excellent AUD (often labeled "SBD") as well as complete SBD.
+CONTRIBUTORS	Tape: Tim Buller <buller@math.ukans.edu>, Recording Info: Jim Powell <chimpowl@well.com>
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 16 Jan 1997 13:47:44 -0800 (PST)
+Subject: Re: 1974 v1
+
+On Thu, 16 Jan 1997, Tim Buller wrote:
+
+> Here are the 74 lists I have put together from my tapes. Several of them
+> are completely or partially empty; though the set-lists can be found, I
+> didn't have the tape (or all of the tape). In some of them, I have noted
+> set-lists from other sources in the comments. The RECORDING field are
+> Jim's "tapes in circulation" notes. If you can fill in the blanks, or fix
+> errors, please mail the corrected deadlist back to me. I would also like
+> to hear any style comments, etc.
+
+Tim, *you* should list yourself as a contributor on every one of these 
+lists, I think.
+
+> BAND	Grateful Dead
+> VENUE	Winterland Arena
+> CITY	San Francisco
+> STATE	CA
+> DATE	2/22/74
+> SET1	
+> SET2	
+> SET3	
+> ENCORE	
+> COMMENTS	Set-list from gdead.berkeley.edu is SET1	U.S. Blues ; Beat It On Down The Line ; Brown Eyed Women ; Mexicali Blues ; It Must Have Been The Roses ; Black Throated Wind ; They Love Each Other ; Big River ; Loose Lucy ; El Paso ; Row Jimmy ; Playin'
+>  in the Band, SET2	Tennessee Jed ; Me And My Uncle ; Ship Of Fools ; The Race Is On ; China Cat Sunflower > I Know You Rider ; Truckin' > Nobody's Fault But Mine Jam > Goin' Down The Road Feelin' Bad, SET3	Mississippi Half Step ; Promised Land ; Brokedown
+>  Palace ; Jack Straw ; Eyes Of The World > China Doll > Wharf Rat > Sugar Magnolia, ENCORE	Uncle John's Band
+> RECORDING	270 SBD: The complete show & soundcheck
+> CONTRIBUTORS	Recording Info: Jim Powell <chimpowl@well.com>
+
+should read:
+CONTRIBUTORS buller@math.ukans.edu, chimpowl@well.com
+
+These set lists look good.  Once again, we have a slight variation on our 
+theme of formats.  I think I like the way you delineate who contributed 
+what info in the CONTRIBUTORS field.  But, of course, none of the other 
+setlists specify this yet....   The other variation on the theme:  
+listing more than just "270 SBD" in the recording's column.  I'm not sure 
+about this notation.  Shouldn't our setlists ultimately reflect the tape 
+we list here in the RECORDINGS field (or be qualified by a note in the 
+comments that the setlist is not from tape) -- making this further 
+notation in the RECORDINGS field redundant?  I'm not sure -- but it might be 
+worth talking about.
+
+IN any event, thanks much for posting this.  I'll get it on the web site 
+ASAP (which might be a few days).
+
+
+
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Thu, 16 Jan 97 16:59:35 -0500
+Subject: Song titles
+
+Shouldn't we be making an attempt to standardize the song titles in
+these setlists, before putting them out for (semi)public consumption ?
+
+I've noted "casualisms" (Playin', etc), "incomplete" titles
+("Schoolgirl"), and inconsistent usages (Truckin' vs.  Truckin).
+
+Also, the song titles list on the DeadList web page contains a number
+of these.  Seems like time to get that list properly "official".
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+------------------------------
+
+End of DeadLists Digest V1 #133
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

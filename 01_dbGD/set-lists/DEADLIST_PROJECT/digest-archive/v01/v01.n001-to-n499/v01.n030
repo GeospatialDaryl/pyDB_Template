@@ -1,0 +1,392 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #30
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Monday, 4 March 1996        Volume 01 : Number 030
+
+In this issue:
+
+	second draft of datafile proposal
+	Re: second draft of datafile proposal
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nhw1@axe.humboldt.edu>
+Date: Sun, 03 Mar 1996 20:05:39 -0800 (PST)
+Subject: second draft of datafile proposal
+
+Here is the next draft.  Two majors issues are unresolved.  First, the 
+debate regarding how to identify reprises seems inconclusive.  I have 
+gone with what looked best to me, based on the discussions that have 
+ensued.  Second, we need to determine how we are going to include song 
+maps in the database (amidst the main setlist but in a filterable form OR 
+in the comments or a similar, seperate field).  There are also some 
+abbreviations that need to be standardized (for recording types and for 
+contributor's info sources).  I try to note these items in the proposal.
+
+Standard caveat:  This is not intended as anything other than a summary 
+of what we have been discussing.  I have tried to take into account most 
+of what people have suggested, though obviously some items are mutually 
+exclusive.  In these cases, I have gone with what seemed to be the most 
+pursuasively proposed scenario -- but no case has been made so strongly 
+as to rule out the alternatives if people have compelling reason for 
+wanting to construct things in another manner (for instance, putting song 
+maps off to the edge of a vertical setlist, etc.)
+
+DeadLists Formatting Specification Proposal
+Version 1.1 (3/5/96) 
+====================================================
+FIELD NAMES:
+- --------------
+BAND, DATE, VENUE, CITY, STATE, SET1, SET2, SET3, 
+ENCORE, COMMENTS, RECORDING, CONTRIBUTORS
+
+Each field shall be separated by a TAB and the field 
+names listed above shall be included in the file as a 
+header record. The STATE file shall be used for COUNTRY 
+in the event of a venu outside the US.
+
+Note:
+A rigid TAB delimited format was used because provides 
+a format that both programmer and non-programmers like 
+can easily use. This format will allow non-programmers 
+to open the data in a spreadsheet for manipulation or 
+create mail-merge show lists using a word processor.
+
+FIELD FORMATTING:
+- ------------------
+DATE:
+
+Each base "Date" shall be a basic eight string in the 
+form mm/dd/yy (e.g. "02/04/88"). In the event of 
+uncertain dates, unknown elements will be replace by 
+question marks (e.g. "Some day in Feb. of 1984" shall 
+be "02/??/84" and "some day in 1969" shall be 
+"??/??/69"). In the event that a percise date is 
+stated, but its accuracy is questioned, a ninth 
+character will be used for a question mark (e.g. 
+"04/01/68?").
+
+The ninth character shall also serve as a flag other 
+information about a given show as follows:
+"a" - Early Show
+"b" - Late Show
+"@" - Openning Sets in which band member(s) 
+participated 
+"+" - Sound Check
+
+For example, an Early Show on Feburary 4, 1992 shall be 
+designated as 02/04/92a.
+
+Note:
+Using the supplemental flags above will allow use of 
+only three set list fields per show record and avoid a 
+number of problems associated with having upward of 
+seven sets per show record. Some of the more serious of 
+the potential problems caused by *not* using the 
+flagging system as described above:
+
+1) Simple queries such as finding out all times a 
+particular song was played in a particular set will not 
+work, because there will no way to determine which of 
+the "Sets" is the first GD set vs. an openning set.
+
+2) When the data is imported into a database 
+application for manipulation, the file size would be 
+significantly larger than if the flagging method was 
+used, because sufficeint room in each of the seven? set 
+list fields would have to be allocated to handle a full 
+set list, when in reality, relatively few of the fields 
+above SET THREE would ever be used.
+
+SET FIELDS:
+
+Songs shall be named according to a mutually agreed
+upon list under development at this time.  As needed, 
+new song names, jam names, tuning names, and so on, 
+will be added.
+
+There will be standard song modifiers to note special 
+occurences that we want to be able to filter or sort 
+different from other regular song names.  These will 
+be:
+
+"jam"  to name an unspecified insturmental tune
+
+"<songname>-jam"  to specify a recognizable insertion 
+of a known song that doesn't actually become that song.
+
+"<songname>-continued"  to specify the return to a song 
+that does not conclude the tune.
+
+"<songname>-reprise"  to specify the return to a song's 
+conclusion, whether begun during that show.
+
+"<songname>-tease"  to specify the hint of a song that 
+then beomes something else.
+
+
+Song Delimiters:
+
+:  Until examined, all songs will be seperated by a 
+colon  (e.g. songname1 : songname2).
+
+;  Songs not continuing into each other shall be 
+separated by a space then a semi-colon then a space 
+(e.g. songname1 ; songname2).
+
+>  Songs that segue into each other by means of a 
+defined jam or contiguous transition -- a guzinta -- 
+shall be separated by a space then the character ">" 
+then a space (e.g. songname1 > songname2).
+
+~  Songs that segue into each other, not by means of a 
+defined transition, but through an intentional pause 
+shall be separated by a space then a tilde (e.g. 
+songname1 ~ songname2).
+
+;;  In the event that two songs are separated by a 
+pause of greater than 60 seconds, then a separator of 
+two semi colons in a row shall be used (e.g. songname1 
+;; songname2.)  It will be possible to insert the exact 
+length of the pause within square brackets, between the 
+semi-colons (e.g. songname1 ; [3:20] ; songname2).
+
+\  Where a tape splice or flip or pause prevents the 
+examination of the space between songs, a backslash 
+will be used (e.g. songnamw1 \ songname2).
+
+Song Timings:
+
+Song timings, where known, shall follow directly after 
+a song name by one space and before the song divider by 
+a single space and shall be enclosed in brackets (e.g. 
+songname1 [2:33] > songname2).  
+
+The placement of timing maps has yet to be determined:  
+Timing maps may be placed within setlists (e.g. 
+Estimated Prophet [14:32] {intro [1:20]; verses 1&2 
+[3:20]; instrumental chorus [1:55]; verse 3&fadeout 
+[3:22]; var of theme [2:43]; jazzy jam [5:58]} > Eyes 
+[19:10]).  These maps could then be filtered out of 
+most searches but called upon according to the end 
+user's interest in the details.  Timing maps may also 
+be placed in the COMMENTS field, with appropriate 
+footnoting (see 'reference mark' -- the next item).
+
+Reference Marks:
+
+Reference marks to notes contained in the COMMENTS 
+field (such as guest arists on songs, etc.) shall be 
+placed in parenthesis just between the timings and song 
+names, separted from both by a space (e.g. songname1 
+(1) [2:33] > songname 2). In the COMMENTS field the 
+reference marks shall precede the reference (e.g. "(1) 
+with Carlos Santana").
+
+Set Timings:
+
+Set Timings shall be placed at the end of the set list 
+string and shall be placed inside of curly brackets and 
+shall be in stated in  hours:minutes:seconds  format 
+(e.g. songname10 [6:32] {2:35:45}).
+
+Miscellaneous:
+
+Set lists for acoustic sets shall begin with the pharse 
+"Acoustic:". If acoustic songs are played as part of a 
+set, but the set is not composed of all acoustic songs, 
+the accoustic songs shall be referenced as acoustic in 
+the COMMENTS, using the reference mark specification 
+covered above.
+
+COMMENTS:
+
+Descriptions of items referenced in the Set List
+fields shall follow the identical reference mark in the 
+Comments field (see SET LISTS formatting above for an 
+example).
+
+The following unique descriptions shall precede 
+information contained in the comments that fit under 
+their respect comment subcategories. Each should be 
+followed by a space before the actual information and 
+would only be included if relevant to the show being 
+described.
+
+Following are proposed subcategories:
+
+"Guest:" - Followed by name(s) of guests, separated by 
+colons which would be referenced up to the songs that 
+they played on by a number in parentheses.
+
+"Openner:" - Followed by the names of openning act(s) 
+separated by colons.
+
+Note:
+The primary benefit of using subcategories is that it
+would allow users to run queries such as "display all 
+shows with "Guests:". If this ability is not important 
+to the group then perhaps the subcategories should be 
+abandoned to reduce cluttering of the COMMENTS field.
+Finally, Each comment element will be separated by a 
+"*". General comments will be placed in the COMMENTS 
+field before subcatgories. (e.g. "Jerry sang no songs 
+due to illness * Openner: Beethoven)
+
+RECORDING:
+
+This category will be used to track the kinds 
+circulating recordings of each performance using 
+standard source abbreviations.  An example of what kind 
+of information this might include (focussed on two 
+early years) can be found at http://www.winternet.
+com/~edoherty.  For later years, specifications such 
+as the various kinds of aud tapes available for a 
+particular show  and what kind of sbd tapes will be
+included, though we might want to include 
+some default assumptions regarding the availability of 
+at least analogue aud tape from the taper's pit of Dead 
+shows for every show since the section was created in 
+'84.  
+
+Proposed abbreviations:
+
+format:
+C=cassette; P=PCM; D=DAT; R=open reel; B=HiFiBeta; 
+V=HiFiVHS
+
+location:
+A=audience (unknown location); F=Front of Sbd Audience; 
+T=taper's section
+
+generation: M=master; /#="# is generation" (master=0 
+gen)
+
+CONTRIBUTORS
+
+The source of each set list will be noted with an email address of the 
+person that submitted it.  Many dates will have many contributors.  
+These will be deleted with time as the consensus emerges that "this list 
+is correct".  Each contributor will be asked to notate the manner in 
+which they know their setlist (these abbreviations could use some help 
+:-)
+
+V: verified list against a tape that they have by writing a new setlist 
+while listening closely to the tape.
+
+A: assumed that the list they have on their tape insert or tape list or 
+other such record is correct.
+
+O: other means of acuiring the list (which we might want to better 
+specify) such as online resources, reports from the vault, and so on.
+
+FULL EXAMPLE OF PROPOSED FORMATTING:
+- -------------------------------------
+For readability purposes, the fields have been oriented 
+vertically. Data is totally bogus.
+BAND
+Grateful Dead
+VENUE
+Oakland Coliseum
+CITY
+Oakland
+STATE
+CA
+DATE
+10/17/91a
+SET1
+Touch Of Gray [5:04] ~ Little Red Rooster : Lazy River 
+Road ; When I Paint My Masterpiece (1) ;; Childhood's 
+End [5:32] ; Cumberland Blues > Promised Land (2) 
+{59:26}
+SET2
+Shakedown Street [10:34] ; Samson & Delilah ; So Many
+Roads ; Samba In The Rain > Corinna > Drums > Space > 
+Unbroken Chain ~ Sugar Magnolia [6:56] {1:45:23}
+SET3
+ENCORE
+Black Muddy River ; Box Of Rain
+COMMENTS
+(1) Bobby on acoustic * Guest: (2) Carlos Santana *
+Openner: Dave Mathews Band
+RECORDING
+SC/1 ; FD ; TC; AD 
+
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Mon, 4 Mar 1996 09:13:19 -0500
+Subject: Re: second draft of datafile proposal
+
+>
+>Proposed abbreviations:
+>
+>format:
+>C=cassette; P=PCM; D=DAT; R=open reel; B=HiFiBeta;
+>V=HiFiVHS
+
+>location:
+>A=audience (unknown location); F=Front of Sbd Audience;
+>T=taper's section
+
+We should also have abbreviations for:
+
+Broadcast show (literally, soundboard feed > FM, AM, CATV, etc broadcast > tape)
+
+RE-broadcast show (for example, tape > Gan's FM broadcast > tape) -- I
+think Jim Powell calls these FM-SBDs but I think it's important to
+distinguish these tapes from tapes that =originated= in a broadcast
+situation.
+
+PRE-fm tape (literally, soundboard feed > radio (or whatever) station >
+archival tape made at the studio )
+
+Are there any other recording situations I haven't covered?
+
+>generation: M=master; /#="# is generation" (master=0
+>gen)
+
+Clarification need here, 'cause everyone seems to have a different
+definition of master tape. In my worldview, the master tape is the ONLY
+actual tape that was in the deck that recorded the show. These seems
+obvious, but a lot of people call a tape that's MR>PCM>DAT>cassette the
+"cassette master" (ok, I'll concede this point) and then go beyond the pale
+and call it a gen0 cassette. I don't agree with this.
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #30
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

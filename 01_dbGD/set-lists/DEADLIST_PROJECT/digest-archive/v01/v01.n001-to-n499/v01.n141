@@ -1,0 +1,110 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #141
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Monday, 20 January 1997      Volume 01 : Number 141
+
+In this issue:
+
+	setlists format request
+	Re: 1977: 2/26-9/3 v2
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Sun, 19 Jan 1997 17:23:13 -0800 (PST)
+Subject: setlists format request
+
+Based on the discussions regarding how to best make transferring setlists
+work, we're:
+
+1)  ignoring tabs (they're treated like any other white space)
+
+and
+
+2)  ignoring line breaks (and using an otherwise non-used character to
+indicate where they should fall).
+
+This means:
+
+People submitting lists to be can do it exactly as they have been EXCEPT
+absolute line breaks (that is, at the end of a field, like at the end of all
+the songs in SETI or at the end of the RECORDINGS list), there needs to be
+some 7-bit character that we are not already using in the setlists.  This
+character will be appended by me for posting lists to the WEB (with <br>,
+for those who are interested) and this character will be used by the search
+engine(s) to know that one field has ended and another has begun.
+
+I'd like to propose for now that this character be  +  (plus sign).  This
+may not be the best one down the road.   But I don't think the setlists use
+the symbol, so I can safely convert this symbol to whatever else we might
+deem better. 
+
+Everyone can still hit "return" at the end of a field when they are typing
+it into email (or a text editor to transfer to email).  This will make the
+lists sent to the group by email easier to read).  But ultimately, the "  +
+"  is going to be what matters.
+
+- -------------
+
+I have one question:  How do we distinguish between two different shows?
+Currently it looks simply like two carraige returns.  Could we use something
+like "++" or would that mess with parsing later on?
+
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Mon, 20 Jan 1997 09:43:51 -0500
+Subject: Re: 1977: 2/26-9/3 v2
+
+Great setlists Gordon, and kudos on sticking so closely to the format. 
+While reading over your lists, I discovered a question I had discovered 
+earlier but had forgotten about until now.
+
+When the venue is listed "Civic Center", we (on the search side) can't 
+differentiate between the Civic Center, Lakeland, FL or the Civic 
+Center, Baltimore, MD? For both these entries (and many more), the venue 
+is listed only as the "Civic Center", so it's impossible to search for 
+the Baltimore Civic Center unless you search for both "Civic Center" and 
+"Baltimore". Does this present a problem to anyone? Will it possibly 
+confuse a user? Should we use "Lakeland Civic Center" or "Baltimore 
+Civic Center"?
+
+Comments? Ideas?
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #141
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

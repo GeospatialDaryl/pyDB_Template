@@ -1,0 +1,139 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #85
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Monday, 9 September 1996      Volume 01 : Number 085
+
+In this issue:
+
+	Re: ...a *small* question...
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Mon, 09 Sep 1996 10:35:43 -0400
+Subject: Re: ...a *small* question...
+
+Tom Morrison/PicTel wrote:
+> 
+> for you data base folks...
+> 
+> is the database engine/template in a format whereupon someone
+> could *port* the template to "another band" and create a database
+> for a band...lets take for the simple example: Zero?
+
+Hey Tom!
+Sure, the way this is going to be designed, any band's setlist can be
+incorporated, as long as it matches the Data Spec format for deadlists.
+
+> btw, where can I testride/use the current database?
+
+< to all deadlist participants >
+A co-worker of mine has been working on this, and assures me that it
+will be finished soon :-) Here are some things we are doing, that I
+didn't mention before:
+
+1. Automatically filling in all fields in the HTML pull-down menus from
+the input ascii data. For example:
+
+Songs:
+Alabama Getaway (58)
+Playing in the Band (420)
+
+Venues:
+Hampton Coliseum (23)
+
+Where 58 would be the number of times that Alabama Getaway occured in
+the input data file, including all sets and encore. The songs field is a
+little tricky because we are having to merge 4 fields (Set 1, Set 2, Set
+3, Encore) to come up with a complete list, then counting the
+occurences. All of this information is dynamically generated when a
+person first loads in the HTML search page. If it takes a long time to
+load in the HTML search page for the average user, then we may have to
+eliminate the occurences for the songs field in order to speed things up
+a bit. We'll just have to see how it goes.
+
+2. All fields are pull-down menu boxes. The fields are:
+- - Songs
+- - Jams/Reprises/Tunings
+- - Month
+- - Year
+- - Venue
+- - Set
+- - City
+- - State/Country
+
+Multiple selections are possible for each field. This means that only 1
+pull-down menu is necessary for songs, but a person can select from 0..n
+songs, n being a very large number. The default for each field is Any. 
+
+I am sorry it has taken so long on my end, but I am trying to get this
+as close to perfect as possible the first time, so I can make any
+modifications (with my limited Python skills) later, and not have to
+keep asking my co-worker.
+
+Some things that we should start thinking about are:
+
+- - Hosting: I might have a line on this one, as our parent company is in
+the ISP (Internet Service Provider) business. They can also do virtual
+hosting (our site could be www.deadlist.com, or whatever). I will have
+to check on the pricing information. 
+
+- - Updating: Who will have access to update the information? How often do
+we plan on updating the information with revised setlists, etc.?
+Updating should be a snap, just run a couple of procedures on the most
+current data. This is a process I want to make as simple as possible, so
+that updating is not limited to nerdy folks like myself ;-)
+
+- - Advertising: I think that advertising can/should support the entire
+cost of the site, that way none of us is shelling out money every month
+for hosting. Possible advertisers could be Terrapin Tapes, Head shops on
+the Internet, etc. Maybe some of you have connections with some
+businesses that could benefit from advertising on this site?
+
+- - Other artists: I know some folks want to see other artists setlists
+(Hornsby, JGB, Zero, etc.). Maybe the site could grow to be more
+inclusive???
+
+OK, back to reality :-) I will send a message to the list when there is
+something for you all to test. I apologize again for the delay, but
+sometimes it's hard to convince a non deadhead just how cool this thing
+really is. Thanks for listening to my ideas, and I welcome discussion on
+any of the issues. 
+
+More to come...
+
+					ryan
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+End of DeadLists Digest V1 #85
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

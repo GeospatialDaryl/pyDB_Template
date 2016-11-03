@@ -1,0 +1,227 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #232
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Sunday, 6 April 1997        Volume 01 : Number 232
+
+In this issue:
+
+	Search engine info
+	More 4/8/72 timings
+	2/2/69 question
+	Man Smart
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Sun, 06 Apr 1997 15:08:01 -0400
+Subject: Search engine info
+
+Jim Powell wrote:
+> 
+> so i'm fondly hoping that our search-engines will be able to answer such
+> questions as < list all 2nd set Bird Songs > or < 2nd set Let It Grows >
+
+Yes to both of these.
+
+> < TLEOs in the 2nd half of the 1st set > ?
+
+No on this one (well, for the first version of the search engine). Sorry
+I haven't been giving updates on this lately. The person who is working
+on this just took a long vacation and got engaged. Work has also been
+really hectic lately, with lots of changes going on in the company, so
+we haven't had much time to devote to this. I'll try to get things going
+again on my end for this search engine this week.
+
+The search will be what is known as a "fielded search". So, you will be
+able to search the setlist data by the fields we have created (DATE,
+VENUE, SET1, etc). I've come up with a first stab at the interface for
+the search, and it can be seen at
+http://www.digicool.com/ryan/deadlist.html Please note that most fields
+aren't filled in yet, but this will give you an idea of what it will
+look like. 
+
+The following fields will be statically filled in:
+Songs, Jams-Reprises-Tunings, Month, Year, Set, State-Country
+
+The following fields will be dynamically (when the page is accessed by a
+web browser) filled in:
+Venue, City
+
+The reason for the dynamically filled-in fields is that this information
+will be extracted from the input setlist data. There is a great
+performance penalty for dynamically loading all fields (especially
+songs), so that's why it will be statically done (to save time for the
+end user).
+
+Nathan, this should handle most of your questions/comments in the other
+email. We won't be using SQL, because the setlists will be housed in a
+quasi-database that won't accept SQL queries.
+
+As a side note, I've been working on developing some useful tools that
+we can use with our setlist data, like making an HTML page with all the
+songs:
+
+Bird Song
+05/26/72, 07/26/72
+
+Where the dates would be hyperlinks to their setlists (static HTML
+pages), and the songs would be a hyperlink to the song information
+(provided by Matt Schofield). I don't want to promise anything yet, but
+there are lots of possibilities. Later.
+- --
+				- shrive
+- --------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@gator.digicool.com			Digital Creations
+
+The Jerry Site - http://www.digicool.com/ryan/jerry/index.html
+- --------------------------------------------------------------
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Sun, 6 Apr 1997 13:45:43 -0800
+Subject: More 4/8/72 timings
+
+At 11:30 -0800 4/5/97, Nathan Wolfson wrote:
+
+>Based on Gans' Dead Hour logs:
+>
+>4/8/72
+>Star 31:37
+>Sugar Mag> Caution 26:40
+>Sat Night 4:52
+
+
+Here are some other timings from that date:
+
+Truckin'  11:26
+Big Railroad Blues  4:15
+It Hurts Me Too  5:54
+
+  David Gans    tnf@well.com
+  Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+  http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Sun, 6 Apr 1997 13:50:29 -0800
+Subject: 2/2/69 question
+
+>BAND  Grateful Dead
+>VENUE  Guthrie Theater
+>CITY  St. Paul
+>STATE  MN
+>DATE  02/02/69
+>SET1  Schoolgirl; Louie Louie tease; Dark Star > St. Stephen > The Eleven;
+>Death Don't Have No Mercy > That's It For The Other One > Lovelight.
+>SET2
+>SET3
+>ENCORE
+>COMMENTS  The tape breaks off during The Eleven and cuts in after the
+>beginning of Death Don't Have No Mercy.  DeadBase IX gives no setlist for
+>this date but includes a show at "Labor Temple, Minneapolis" and notes it as
+>the "Grand opening of the Minneapolis Labor Temple."  If DeadBase's
+>information is accurate, it may be that this tape is actually to be dated
+>"02/03/69."
+>RECORDING  90 SB
+>CONTRIBUTORS  <chimpowl@well.com>
+
+I'm listening to a tape of this from Nathan, and there is a Dew at the end
+of it.  Is this part of 2/2/69 or not?
+
+Also, the clone I got from Nathan cuts off (the DAT ends) in the middle of
+the "Thought I heard a young man moan" verse.   Is the song complete on
+other tapes?
+
+  David Gans    tnf@well.com
+  Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+  http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Sun, 6 Apr 1997 14:17:19 -0800
+Subject: Man Smart
+
+At 06:09 -0800 3/12/97, Matt wrote:
+>
+>> On Harry Belafonte's CALYPSO album, it's "Man Smart (Woman Smarter)."
+>>
+>
+>You're right - in fact looking through various references
+>there's only one Belafonte LPs that use Man Smart, Woman Smarter
+>the rest have Man Smart (Woman Smarter).
+>
+>Recordings by others favour Man Smart, Woman Smarter
+>but only by a small majority.
+>
+>Other variations on LPs are;
+>
+>  Man Smart
+>  Man Smart Woman Smarter
+>  Man Smart and Woman Smarter
+>  Man Smart/Woman Smarter
+>
+>
+>Not sure where this leaves us - maybe hoping that Dick picks
+>a show with this on so we can use his choice of name;-)
+
+Here's what ASCAP shows for the song:
+
+Tcode  430020461
+Title  MAN SMART WOMAN SMARTER
+Writer(s):  SPAN NORMAN
+Publisher(s):  MUSIC WORKSHOP
+               MCA MUSIC PUBLISHING/A DIV
+               CLARA MUSIC PUBLISHING CORP
+
+Performers(s): PALMER R
+               CARPENTERS
+               CASH R
+               BELAFONTE H
+
+Maybe it's not possible to punctuate, I don't know :^)
+
+The URL for this info is  http://www.ascap.com/ace
+I know BMI has a database, too.  Someone with some time on his/her hands
+might want to run some searches for the titles we're wondering about.
+
+  David Gans    tnf@well.com
+  Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+  http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #232
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

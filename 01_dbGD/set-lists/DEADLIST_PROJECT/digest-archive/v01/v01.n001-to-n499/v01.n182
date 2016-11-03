@@ -1,0 +1,462 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #182
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest        Wednesday, 19 February 1997    Volume 01 : Number 182
+
+In this issue:
+
+	Re: Song name list - either/or
+	multiple deadlists formats?
+	song names
+	Re: multiple deadlists formats?
+	Re: Song name list - either/or
+	We need to prioritize
+	Re: We need to prioritize
+	Song name list - deletions
+	Song name list - deletions (2)
+	Re: Song name list - either/or 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Tue, 18 Feb 1997 16:22:01 -0800
+Subject: Re: Song name list - either/or
+
+>Minglewood.
+
+Are we voting?  I think just "Minglewood" is adequate.  That's what I use,
+anyway.
+
+
+>Iko or Aiko
+>
+>Most recorded versions of this seem to use Iko & Iko
+>was used on the Roots of the GD CD.  So that's what
+>I'll use unless persuaded otherwise.
+>
+>The current list has Aiko Aiko.
+
+I think "Aiko" is a dreadful afffectation.
+
+
+
+
+>Mindbender or Confusion's Prince
+>
+>I've seen Mindbender used mostly on tapes - other
+>than that I've no idea - I'll use that unless
+>persuaded otherwise.
+
+
+I believe I have heard Phil lesh refer to this song as "The Mindbender."
+
+
+>The Rub or Ain't It Crazy
+>
+>The Rub seems to be in the majority on tapes
+>but Ain't It Crazy is used on Lightnin' Hopkins
+>LP/CDs.  I'll use Ain't It Crazy unless  ....
+
+There's an old Mother McCree's tape in which this is intro'd as "The Rub,"
+so I guess that's what the guys themselves preferred.
+
+
+    David Gans    tnf@well.com
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+    http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Tue, 18 Feb 1997 19:37:10 -0500
+Subject: multiple deadlists formats?
+
+It looks like there are good reasons to allow newlines within sets and
+comments (easy human readability and writeability) and good reasons to
+not allow newlines within sets and comments (efficiency of search
+engines; it would break existing search engines' code).  Why don't we
+just support both formats and provide tools to convert between the
+two?  
+
+To see if this would be difficult, I just threw together a
+sh/sed/awk script to convert a setlist like this, with embedded
+newlines and no tabs:
+
+BAND GD 
+DATE 02/18/71
+VENUE Capitol Theatre
+CITY Port Chester
+STATE NY
+SET1 Bertha 5:19 ; Truckin' 8:14 ; It Hurts Me Too  4:59 ; Loser 5:57 ;
+Greatest Story Ever Told 3:45 > Johnny B. Goode 2:32 ; Mama Tried 2:47 ;
+Hard To Handle 7:50 ; Dark Star 7:02 > Wharf Rat 7:15 > Dark Star 7:21 > Me
+And My Uncle 3:18 
+SET2 Casey Jones 4:17 ; Playin' In The Band 5:09 ; Me And Bobby McGee 5:48 ;
+Candyman 6:38 ; Big Boss Man 4:41 ; Sugar Magnolia 5:32 ; Saint Stephen 6:05
+> Not Fade Away 4:33 > Goin' Down The Road Feelin' Bad 4:54 > Not Fade Away
+3:55 > Uncle John's Band 5:56
+SET3 
+ENCORE 
+COMMENTS 
+RECORDING no recording info yet
+CONTRIBUTORS johno@paul.rutgers.edu (John Oleynick); htj@mail.geocities.com
+(Thayer Jennings)
+
+into one like this, that is in the official v1.3.1 format and has a
+tab after each fieldname and each set and comment on exactly one line:
+
+BAND	GD 
+DATE	02/18/71
+VENUE	Capitol Theatre
+CITY	Port Chester
+STATE	NY
+SET1	Bertha [5:19] ; Truckin' [8:14] ; It Hurts Me Too [4:59] ; Loser [5:57] ; Greatest Story Ever Told [3:45] > Johnny B. Goode [2:32] ; Mama Tried [2:47] ; Hard To Handle [7:50] ; Dark Star [7:02] > Wharf Rat [7:15] > Dark Star [7:21] > Me And My Uncle [3:18] 
+SET2	Casey Jones [4:17] ; Playin' In The Band [5:09] ; Me And Bobby McGee [5:48] ; Candyman [6:38] ; Big Boss Man [4:41] ; Sugar Magnolia [5:32] ; Saint Stephen [6:05] > Not Fade Away [4:33] > Goin' Down The Road Feelin' Bad [4:54] > Not Fade Away [3:55] > Uncle John's Band [5:56]
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	no recording info yet
+CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); htj@mail.geocities.com (Thayer Jennings)
+
+That was done by a 51 line script.  I haven't written a script that
+converts in the other direction, but I think that would be even easier.
+
+I also write another (10 line) script that takes a list in v1.3.1 format and
+converts it into the html format that Nathan described:
+
+<P>BAND	GD 
+<BR>DATE	02/18/71
+<BR>VENUE	Capitol Theatre
+<BR>CITY	Port Chester
+<BR>STATE	NY
+<BR>SET1	Bertha [5:19] ; Truckin' [8:14] ; It Hurts Me Too [4:59] ; Loser [5:57] ; Greatest Story Ever Told [3:45] &#062  Johnny B. Goode [2:32] ; Mama Tried [2:47] ; Hard To Handle [7:50] ; Dark Star [7:02] &#062  Wharf Rat [7:15] &#062  Dark Star [7:21] &#062  Me And My Uncle [3:18] 
+<BR>SET2	Casey Jones [4:17] ; Playin' In The Band [5:09] ; Me And Bobby McGee [5:48] ; Candyman [6:38] ; Big Boss Man [4:41] ; Sugar Magnolia [5:32] ; Saint Stephen [6:05] &#062  Not Fade Away [4:33] &#062  Goin' Down The Road Feelin' Bad [4:54] &#062  Not Fade Away [3:55] &#062  Uncle John's Band [5:56]
+<BR>SET3	
+<BR>ENCORE	
+<BR>COMMENTS	
+<BR>RECORDING	no recording info yet
+<BR>CONTRIBUTORS	johno@paul.rutgers.edu (John Oleynick); htj@mail.geocities.com (Thayer Jennings)
+
+With these scripts, the list maintainers can use the "human readable"
+format with embedded newlines, and all the webmasters and search
+engine maintainers have to do is run a script or two to convert the
+data into the v1.3.1 format in the spec or into HTML.  I'd be glad to
+maintain and improve these scripts and also to convert data for people who
+need the data in a different format but don't have a Unix machine
+where they can run the scripts.
+
+So, what does everyone think of agreeing to disagree and then
+supporting 2 different formats and tools to convert between them?
+
+			John
+
+------------------------------
+
+From: Thayer Jennings <htj@geocities.com>
+Date: Tue, 18 Feb 1997 16:41:23 -0800
+Subject: song names
+
+Just my $.02...
+
+>Minglewood, New Minglewood Blues or All New Minglewood Blues?
+just 'Minglewood Blues'
+
+>Iko or Aiko?
+Iko
+
+>Mindbender or Confusion's Prince?
+Mindbender
+
+>The Rub or Ain't It Crazy?
+no strong opinion
+
+>One Kind Favor or See That My Grave Is Kept Clean?
+I personally prefer One Kind Favor
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 18 Feb 1997 19:03:57 -0600 (CST)
+Subject: Re: multiple deadlists formats?
+
+> So, what does everyone think of agreeing to disagree and then
+> supporting 2 different formats and tools to convert between them?
+
+I think this sounds like the best solution I've heard to solve our
+formatting problems. Thanks for doing the work on this John. Could I get a
+copy of the script that converts the "human readable" lists (i.e. with
+nl's embedded in the SET, COMMENT fields, etc.) to the "spec" lists? I've
+been working on something to do this myself, albeit not very hard, and I
+will happily abandon that project now!
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Tue, 18 Feb 1997 16:22:08 -0800
+Subject: Re: Song name list - either/or
+
+>Iko Iko, though, right; not just Iko (once)?
+
+Yes, of course:  Iko Iko
+
+
+    David Gans    tnf@well.com
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+    http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: "Matthew S. Cramer" <cramer@voicenet.com>
+Date: 18 Feb 97 22:34:17 -0500
+Subject: We need to prioritize
+
+We are making some great progress (insert applause here for all
+contributing caretakers) but I think we need to prioritize on finalizing
+the spec NOW.  The spec needs to be fixed FIRST, so that caretakers don't
+have to go back through their lists and redo the formatting (and
+programmers don't have to toss hundreds of lines of code).  Various issues
+have been raised yet they never seem to be resolved.  I am trying to come
+up with some more software for this project (I have a couple of bugs to fix
+and I have a GUI ready) but I put it on hold because we don't have a
+consistent spec.  I remember these points being made:
+
+1)  Line breaks - should they matter (especially in the set fields), and if
+they do, where should they be?
+
+2)  To bracket or not to bracket
+
+3)  The evil "\" - for anyone programming in C++ and it's family (C and
+Java) "\" is a control character.  ANYTHING would be better.  "/" would
+make sense and no one but programmers should really care.
+
+4)  "BAND" field - do we keep it or don't we keep it?
+
+5)  Where do the song maps go?
+
+
+This stuff should be decided first, before we get any farther.  Sorry to
+sound like I am complaining but everytime I make some progress in the stuff
+I am writing the spec gets briefly discussed and changed so I go back and
+start over.  These are minor issues so let's just make up our minds (how
+about by the end of the week?) and then continue on.  Once we pick a spec
+let's make it ABSOLUTE until all of the years are done and a beta version
+of the project is complete.  Then we can go back, revise the spec, and
+begin on a second version of the project.
+
+If there is currently no one officially in charge of managing the spec I
+would be more than happy to do it.
+
+Cheers to Matt for the great progress he is making with the official song
+list.
+(I vote "New Minglewood Blues" for every version, BTW).
+
+
+Matt
+
+- --
+  #----------------------------------------------------------------------#
+  # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+  #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+  # "All science is either Physics or      I    feeling that counts."    #
+  #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+  #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 18 Feb 1997 23:33:26 -0600 (CST)
+Subject: Re: We need to prioritize
+
+> We are making some great progress (insert applause here for all
+> contributing caretakers) but I think we need to prioritize on finalizing
+> the spec NOW.  The spec needs to be fixed FIRST, so that caretakers don't
+> have to go back through their lists and redo the formatting (and
+> programmers don't have to toss hundreds of lines of code).  Various issues
+> have been raised yet they never seem to be resolved.  I am trying to come
+> up with some more software for this project (I have a couple of bugs to fix
+> and I have a GUI ready) but I put it on hold because we don't have a
+> consistent spec.  I remember these points being made:
+
+Several folks have voiced opinions on the points you outlined, but that
+hasn't really led to any decision making. As I see it, we have two
+options. Either pick someone to make the final decision on these issues,
+and let their word be authoritative, or try to figure out some sort of
+voting process. Anyone who takes the time to vote probably has a valid
+opinion, so I don't think we would need to worry about whose votes are the
+most valid, etc.
+
+For the record, my opinions are:
+
+1)  Line breaks - maintain the current spec; newline only at the end of a
+field.
+
+2)  To bracket or not to bracket - bracket
+
+3)  The evil "\" - get rid of it, substitute / or %
+
+4)  "BAND" field - keep it
+
+5)  Where do the song maps go - inside a delimiting pair () or {} maybe in
+the SET field
+
+I too am anxious to get his nailed down as quickly as possible, but as
+John has demonstrated, it's not too difficult to convert the data from one
+format to another...
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Wed, 19 Feb 1997 10:32:16 +0000 (GMT)
+Subject: Song name list - deletions
+
+Thanks again for the replies to my list of possible
+deletions from the song list - here's a summary;
+
+Centerfield
+Down On The Corner
+Fortunate Son
+
+  AIDS Benefit 5/27/89 John Fogerty Band w/ Garcia & Weir
+
+
+This Time Forever
+Tom Dooley
+winin' Boy Blues
+ 
+  Acoustic show 11/17/78 Loyola College Chicago
+  Weir/Garcia/Lesh/Hart
+
+
+Turtle Dove
+
+  12/17/87  Warfield  Garcia/Weir/Kahn/Baez
+
+
+Little Star
+
+  According to DeadBase is the real/alternate name for Bob Star
+
+
+Nathan suggests that we err on the side leaving songs in the
+list rather than taking them out which seems reasonable to me.
+
+Therefore the above will stay in - except for Little Star.
+
+The following will go;
+
+Any Wonder
+Diamond Joe
+Dreadful Wind & Rain
+He Ain't Give You None
+I'm Troubled
+If I Lose Let Me Lose
+Lucky Man
+Midnight Special
+The Night They Drove Old Dixie Down
+What'll You Raise
+
+
+Matt
+
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Wed, 19 Feb 1997 10:37:44 +0000 (GMT)
+Subject: Song name list - deletions (2)
+
+Whoops - missed one of the occurences for the songs queried.
+
+This Time Forever
+
+   In post-drums guitar duet section of an 80s BCT show 
+    
+
+Matt
+
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+
+------------------------------
+
+From: Brian McAllister <brian@hotrats.mit.edu>
+Date: Wed, 19 Feb 97 08:49:17 -0500
+Subject: Re: Song name list - either/or 
+
+> Minglewood.
+
+We are using the official, full names of songs in this database, right ?
+In this case, to accomodate the two versions under one title, "New
+Minglewood Blues" seems most appropriate to me.
+
+> The Rub or Ain't It Crazy
+
+I'm with David on this one.  Jerry & Pigpen clearly knew it as "The Rub".
+
+- ----
+Brian McAllister                    Application programmer/Shift Physicist
+mcallister@mit.edu                            MIT-Bates Linear Accelerator
+(617) 253-9537                                               Middleton, MA
+
+
+------------------------------
+
+End of DeadLists Digest V1 #182
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,79 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #304
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Sunday, 18 May 1997        Volume 01 : Number 304
+
+In this issue:
+
+	Re: mSQL search engine
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 17 May 1997 16:43:51 -0700
+Subject: Re: mSQL search engine
+
+Looking good.  Only thing:  One can search for all Dark Stars in Set1 or
+Set2 or Set3 or Encores -- but not for all Dark Stars (regardless of field),
+right?  Or so it looks ('cause the radio buttons only allow one field to be
+specified for searching).  Is this a limitation of the background
+implementation of sql here -- or is it a modifiable part of the search engine?
+
+I quite like the ability to tailor the extent of the info returned in the
+"report".  Makes an "all times played" search results much more readable
+than DB, imho.
+
+(have other people been mailing comments directly to Tim?  i figure i'll
+post to the mailing list, so we're all in the loop.... and maybe can inspire
+some more ideas.)
+
+- --nathan
+
+At 02:30 AM 5/17/97 -0500, you wrote:
+>I've made some modifications to the seach engine on the Tour-by-Tour site
+>as per Nathan's suggestions. Please let me know what you think. How
+>important is a multiple keywork search, i.e. to find all Dark Stars and
+>Stella Blues in SET2, not necessarily Dark Star > Stella Blue? I think the
+>plan remains to adapt this to the deadlists site... so it would be nice to
+>know what kind of things folks would like to see.
+>
+>http://www.math.ukans.edu/tbt/
+>
+>	Tim
+>
+>====
+>Tim Buller                                       buller@math.ukans.edu
+>Math Department Systems Specialist                       Snow Hall 643
+>University of Kansas, Lawrence, KS 66045                  913-864-7311
+>
+>
+>
+
+
+------------------------------
+
+End of DeadLists Digest V1 #304
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

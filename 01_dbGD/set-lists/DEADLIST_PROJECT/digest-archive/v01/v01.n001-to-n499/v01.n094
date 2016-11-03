@@ -1,0 +1,320 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #94
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 19 December 1996     Volume 01 : Number 094
+
+In this issue:
+
+	Re: Project Update 
+	Re: Project Update
+	Re: Project Update
+	Copyright issues
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 19 Dec 1996 13:11:03 -0500
+Subject: Re: Project Update 
+
+In message <32B889DE.C77@digicool.com> Ryan writes:
+> DISCLAIMER: I know everyone in this group must think I'm the biggest
+> slacker and bottleneck to every take on a project. I sincerely apologize
+
+Ryan, I think you're the only one in the group who hasn't been a
+slacker for the past 6 months.  Based on the activity on the mailing
+list, I think everyone else, myself included, has been too busy with
+other things like changing jobs, moving, etc. and you've been the only
+one doing anything.
+
+> 1. Fixed all the fields for the '65 - '75 setlists. There were many
+> errors (like 3 letter state abbreviations, etc.). I stopped at '75, so I
+> could have a correct, working input data file to feed the program, when
+> it gets complete.
+
+Good.  I'll see if I can write a program to fix the rest of the post-'75
+states.  Are there any other data inconsistency problems like that?
+
+> 2. Used DB IX (latest one) to completely update the setlists from '65 -
+> mid'69. After glancing at the pre '75 setlists, the '72 - '75 setlists
+> look fine (complete), but pre '72 setlists were mostly made from
+> people's tapes and not DB. No big deal, but they are pretty incomplete.
+> So, after what I have done, '70 and '71 will need to be done. I would
+> recommend that only people with access to a recent DB do these. It took
+> me about 3 hours per year to do the setlists.
+
+I don't think we can do this.  I think we'd be violating Deadbase's
+copyright if we just typed in the setlists from DB.  
+
+But we don't have to go to DB for setlist data, we can get it from
+our tapes without violating anyone's copyright.  The existing
+'65-'71 lists were from my tape collection, which is pretty sparse,
+but there are people out there who have very complete tape
+collections and they can provide us with setlists once we get
+rolling.
+
+> So, what needs to be done? Basically, there are 3 years ('69, '70, '71)
+> of pretty incomplete data. I have done some work on '69 (up to the end
+> of April). I think that 3 people could handle these (one per year)
+> without too much problem. Depending on your typing speed, knowledge of
+> cut and paste ;-), it should take you around 3-4 hours to do a year. If
+> three people will be willing to volunteer, I can send them the chunk of
+
+I think for these 3 years we already have volunteers to collect and/or
+provide setlist data from tapes.  I volunteered to do '71 and once we
+get rolling I'll start trying to get more '71 setlists from other
+people (everything I have is already in there, although now I'm
+going through the tapes again, timing them, separating ">" and "~"
+transitions, etc.).
+
+> Once we have correct, complete setlist for pre '75, we will hopefully
+> have a program to munge them. Also, we will have resources (like an
+> official venue list, city list, etc) that can be reused to avoid
+> confusion down the road.
+
+While you're working on the program to munge the the data, maybe some
+other people could start working on collecting more data and cleaning it
+up?
+
+> Again, I am very sorry it has taken longer than I originally expected.
+> The person doing the program has been working on it in their spare time,
+> but it's one of those things that is more complicated than it first
+> appeared. We are also trying to make this as modular as possible, which
+
+No problem, aren't things always that way :-)?  
+
+		John
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Thu, 19 Dec 1996 13:51:48 -0500
+Subject: Re: Project Update
+
+John Oleynick wrote:
+> 
+> > 1. Fixed all the fields for the '65 - '75 setlists. There were many
+> > errors (like 3 letter state abbreviations, etc.). I stopped at '75, so I
+> > could have a correct, working input data file to feed the program, when
+> > it gets complete.
+> 
+> Good.  I'll see if I can write a program to fix the rest of the post-'75
+> states.  Are there any other data inconsistency problems like that?
+
+Yeah. Basically, there are incomplete fields (venue, city), and
+sometimes multiple fields on one line. Some of the venue names are
+screwed up also. Some people have listed Drums, and some have listed
+Drums > Space, etc, while others have listed Drums Jam (to denote that
+there is no song named Drums), etc. It really varies with periods of
+setlists. Sometimes 6 months worth are perfect, and then other times
+there is something wrong with every record for 2 months. 
+
+> > 2. Used DB IX (latest one) to completely update the setlists from '65 -
+> > mid'69. After glancing at the pre '75 setlists, the '72 - '75 setlists
+> > look fine (complete), but pre '72 setlists were mostly made from
+> > people's tapes and not DB. No big deal, but they are pretty incomplete.
+> > So, after what I have done, '70 and '71 will need to be done. I would
+> > recommend that only people with access to a recent DB do these. It took
+> > me about 3 hours per year to do the setlists.
+> 
+> I don't think we can do this.  I think we'd be violating Deadbase's
+> copyright if we just typed in the setlists from DB.
+
+I was wondering about this. We could ask permission, but DB might turn
+us down as competition. However, setlists don't "belong" to DB. I think
+I remember Steve Silberman mentioning a similar situation with the
+Helping Phriendly Book (Phish's setlist book). Basically, they couldn't
+copyright the setlists because they really had no "claim of ownership"
+to them. I'll ask Steve and see what he says. I don't really want to
+have bad blood between DB and us, but their setlists are a good jumping
+off point and most people working on this own DB. Maybe if we had
+updates to their lists, they would be welcome to use our updates in
+there newer editions? Input welcome on this subject.
+
+> But we don't have to go to DB for setlist data, we can get it from
+> our tapes without violating anyone's copyright.  The existing
+> '65-'71 lists were from my tape collection, which is pretty sparse,
+> but there are people out there who have very complete tape
+> collections and they can provide us with setlists once we get
+> rolling.
+
+The only problem with this is that we would have to wait on other people
+(with the tapes) to all contribute, instead of having DB to use. Again,
+this really goes back to DB's right to their setlists. I can tell you
+from managing my Jerry site, that sometimes tapes aren't necessarily
+correct. It often takes a few tapes to determine the order, and
+mislabled tapes float around.
+
+> I think for these 3 years we already have volunteers to collect and/or
+> provide setlist data from tapes.  I volunteered to do '71 and once we
+> get rolling I'll start trying to get more '71 setlists from other
+> people (everything I have is already in there, although now I'm
+> going through the tapes again, timing them, separating ">" and "~"
+> transitions, etc.).
+
+Cool, you get '71. 
+
+> While you're working on the program to munge the the data, maybe some
+> other people could start working on collecting more data and cleaning it
+> up?
+
+Good idea. Like I mentioned before, there is some clean up that can be
+done. Cleaning up isn't too bad, because you don't have to do much
+typing, you just have to have a careful eye. Volunteers please drop me
+an email, and I'll send you out a section to work on.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 19 Dec 1996 12:21:30 -0800 (PST)
+Subject: Re: Project Update
+
+Hey now,
+
+Great to see that I'm not the only one mulling this project over -- and 
+that others are making more progres than I.  (I've changed jobs thrice 
+since we started, so...)
+
+Just one thing I wanted to comment on from this exchange:
+
+> > > 2. Used DB IX (latest one) to completely update the setlists from '65 -
+> > > mid'69. After glancing at the pre '75 setlists, the '72 - '75 setlists
+> > > look fine (complete), but pre '72 setlists were mostly made from
+> > > people's tapes and not DB. No big deal, but they are pretty incomplete.
+> > > So, after what I have done, '70 and '71 will need to be done. I would
+> > > recommend that only people with access to a recent DB do these. It took
+> > > me about 3 hours per year to do the setlists.
+> > 
+> > I don't think we can do this.  I think we'd be violating Deadbase's
+> > copyright if we just typed in the setlists from DB.
+> 
+> I was wondering about this. We could ask permission, but DB might turn
+> us down as competition. However, setlists don't "belong" to DB. I think
+> I remember Steve Silberman mentioning a similar situation with the
+> Helping Phriendly Book (Phish's setlist book). Basically, they couldn't
+> copyright the setlists because they really had no "claim of ownership"
+> to them. I'll ask Steve and see what he says. I don't really want to
+> have bad blood between DB and us, but their setlists are a good jumping
+> off point and most people working on this own DB. Maybe if we had
+> updates to their lists, they would be welcome to use our updates in
+> there newer editions? Input welcome on this subject.
+> 
+> > But we don't have to go to DB for setlist data, we can get it from
+> > our tapes without violating anyone's copyright.  The existing
+> > '65-'71 lists were from my tape collection, which is pretty sparse,
+> > but there are people out there who have very complete tape
+> > collections and they can provide us with setlists once we get
+> > rolling.
+> 
+> The only problem with this is that we would have to wait on other people
+> (with the tapes) to all contribute, instead of having DB to use. Again,
+> this really goes back to DB's right to their setlists. I can tell you
+> from managing my Jerry site, that sometimes tapes aren't necessarily
+> correct. It often takes a few tapes to determine the order, and
+> mislabled tapes float around.
+
+The long solution is, as noted, to go directly to our collective collections 
+and copy the setlists.  AMongst us, we have more info than in DeadBase, 
+if one removes from DeadBase's trove their incorrect/incomplete data.
+
+But the short solution, which avoids copying from DeadBase, is to contact 
+Jim Powell (chimpowl@well.com) and ask him for a copy of his pre-72 
+list.  In it, you will find corrected setlists for every (within 2-3%) 
+circulating tape from those years.   For the uncirculating tape, DeadBase 
+IX is wrong about half the time, as soon as the tape actually hits the 
+street, so drawing on them for those setlists is a gamble at best (and 
+not as reliable as I suspect we would like the DeadLists database to be).
+
+We also have offers from various Dead scholoars/writers who have done 
+setlist research in the vault to "fill in" gaps in what we can discern 
+from circulating tape -- but only after we have put together our own 
+setlists as best we can.
+
+Cheers,
+Nathan
+
+------------------------------
+
+From: MBell@mail.utexas.edu (Michael Bell)
+Date: Thu, 19 Dec 1996 16:04:38 -0600 (CST)
+Subject: Copyright issues
+
+Regarding concerns of copyright issues and Deadbase:
+
+I don't think you can copyright facts, which setlists are.  I think the
+only way it would be a copyright violation would be if we used the same
+formatting and abbreviations as Deadbase.  Since this project is using
+different formatting I don't think there is a problem.
+
+I seem to remember a discussion of this here sometime back.
+
+peace and happy holidays
+
+Michael Bell
+MBell@mail.utexas.edu
+
+
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 19 Dec 1996 15:30:10 -0800 (PST)
+Subject: [none]
+
+john, we have ALL the lists we need from tapes.  There are NO lists in
+DeadBase that are WORTH copying in the absence of tapes to check them
+against.  And for early tapes & additional lists we have the assurance of
+help from inside.  Meanwhile, though, tapes exist for more than 85% of shows
+from 69-75, more than 95% of shows between 76-81, and 100% of shows after
+81.  The only area where we could additional information would be of serious
+assistance is pre-69, and here, DeadBase's lists (those not backed by tapes)
+have proven just exactly worthless:  every new tape that emerges reveals
+their inaccuracy.  So I don't think DeadBase's copyright has any bearing on
+our project at all.
+
+gathering our setlists from tapes isn't, as nathan calls it, "the long
+solution."   It is the ONLY solution.  If we copy DeadBase's lists (leaving
+copyright questions aside) we would only be copying DeadBase's mistakes,
+which I would estimate run about 10% after 75 and much higher before.  To
+make our project worthwhile, we NEED to start with the tapes.
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #94
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,157 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #69
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Thursday, 20 June 1996       Volume 01 : Number 069
+
+In this issue:
+
+	WWW Search Engine
+	Re: WWW Search Engine
+	Re: WWW Search Engine
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 19 Jun 1996 18:18:56 -0500 (CDT)
+Subject: WWW Search Engine
+
+I've created a very rudimentary search engine for the sample 1971-1974 
+data that was parsed by John Oleynick (thanks John!). You can see it under
+
+http://www2.southwind.net/~tjb9d/deadlist
+
+Caveat - this is NOT a finished product, just the first stage so we can 
+get some ideas. If there are any more qualified CGI programmers, I would 
+appreciate any / all help. 
+
+Basically, the data from the form is grep from a version of the datafile 
+which has a tag at the the end of each line indicating which date the 
+line belongs to. A list of dates which match the query string is then 
+returned as a list of links to the appropriate region in a "pretty" 
+version of the datafile. Although the search itself is relatively fast, 
+the entire "pretty" datafile must be presented each time. Obviously, this 
+will need to be improved. Also, the manner of the presentation will need 
+to be much more helpful... right now it sucks.
+
+Lately I've been thinking that a good way to manage this project would be 
+as a FileMaker DB that could be interfaced via the Web. This would 
+require a Mac-based server, which I don't have access to, and I'm not 
+familiar with programming CGI on any non-Unix based platform. At any 
+rate, it's something to think about. 
+
+It'd be nice if we could get someone to dump a connection and a machine 
+on our laps to handle this stuff, but I guess that probably won't happen 
+anytime soon. Anyone write grants???
+
+====
+Tim Buller                              e-mail:<tjb9d@southwind.net>
+Mac & Dead Support                      http://www2.southwind.net/~tjb9d/gdead
+
+   "There are two major products to come out of Berkeley: LSD and Unix. 
+         This is probably not a coincidence." - John Dodge in PCWeek
+
+
+
+
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Wed, 19 Jun 1996 21:28:46 -0400
+Subject: Re: WWW Search Engine
+
+At 6:18 PM 6/19/96, Tim Buller wrote:
+
+>Lately I've been thinking that a good way to manage this project would be
+>as a FileMaker DB that could be interfaced via the Web. This would
+>require a Mac-based server, which I don't have access to, and I'm not
+>familiar with programming CGI on any non-Unix based platform. At any
+>rate, it's something to think about.
+
+Things move fast in the web-development world and my knowledge may already
+be out of date but the last I knew, the Mac web server app -- MacHTTP --
+does NOT "speak" CGI -- scripts must be written in AppleScript.
+
+I'd be happy to learn that this was no longer true. Anyone?
+
+Also it'd be nice if people would stop using Tim's comments page to grovel
+for tapes. Though I doubt they're coming from any Deadlists people.
+
+                        .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: matt@main.cpcnet.com (Matthew S. Cramer)
+Date: Thu, 20 Jun 1996 00:34:19 -0400
+Subject: Re: WWW Search Engine
+
+jeff@tiedrich.com (jeff tiedrich) wrote:
+>At 6:18 PM 6/19/96, Tim Buller wrote:
+>
+>>Lately I've been thinking that a good way to manage this project would be
+>>as a FileMaker DB that could be interfaced via the Web. This would
+>>require a Mac-based server, which I don't have access to, and I'm not
+>>familiar with programming CGI on any non-Unix based platform. At any
+>>rate, it's something to think about.
+>
+>Things move fast in the web-development world and my knowledge may already
+>be out of date but the last I knew, the Mac web server app -- MacHTTP --
+>does NOT "speak" CGI -- scripts must be written in AppleScript.
+>
+>I'd be happy to learn that this was no longer true. Anyone?
+
+What about Webstar?  I am sure there are some Mac web servers that can
+handle cgi.  I think Webstar is one of them.
+
+What about using a web server that is sql compatible?  Then the folks
+programming in c could use the same database as the folks writing cgi
+stuff.  I know of a few web servers that can use imbedded sql that run
+under Windows NT.  Anyone have an extra copy of Oracle?
+
+
+
+Matt
+
+  #----------------------------------------------------------------------#
+  # Matt Cramer <matt@main.cpcnet.com>     G   "Damn the rules, its the  #
+  #                                        A    feeling that counts."    #
+  # "All science is either Physics or      I           --John Coltrane   #
+  #  stamp collecting."  --Rutherford      A                             #
+  #----------- http://boss.cpcnet.com/personal/matt/Home.html -----------#
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #69
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

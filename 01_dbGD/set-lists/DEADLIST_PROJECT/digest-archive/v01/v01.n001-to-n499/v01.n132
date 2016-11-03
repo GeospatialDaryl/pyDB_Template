@@ -1,0 +1,209 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #132
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 16 January 1997     Volume 01 : Number 132
+
+In this issue:
+
+	site update
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Wed, 15 Jan 1997 20:47:36 -0800 (PST)
+Subject: site update
+
+I won't continue to post notices here once things are rolling along more
+regularly, but for now:
+
+1969 has been adapted to html a bit better; 1977 is up.  I couldn't find the
+second half of Gordon's initial version of 1978, otherwise I would have
+posted that too.  I am holding off on posting Jim's 1970 setlists because he
+has indicated that a revised version based on lots of useful feedback (sent
+to him via email) will be ready shortly. 
+
+BTW, these formats are *not* the same.  And the discussions here conflate
+the needs of two different sets of setlists:  one for the web site and one
+for the search engine.  Though we should continue to try to nail each type
+down (and hopefully create a clear path of translation between the two), I
+think that these two formats are similar enough that re-working them should
+not be a big hassle.   And this data is awesome.
+
+ 
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 16 Jan 1997 02:07:43 -0800 (PST)
+Subject: [none]
+
+a list that is simple (i.e. minimal), uniform and legible to the uninitiated
+will serve the needs of search engines and humans alike.  no real
+contradiction if we get our specs properly nailed.
+
+if it's as easy as it ought to be to tell a search engine to ignore numerals
+then we don't need square brackets around timings in setlists & they should
+be eliminated from our protocol according to the principle of simplicity.
+
+seeing as it should be no challenge to a programmer to create a function to
+insert a tab before or after every colon, semi-colon or guzinta that occurs
+between SET1, SET2, SET3 or ENCORE and a carriage return, according to the
+same principle of simplicity tabs should be eliminated from our specs.
+
+regarding flagging comments relating to specific songs in a setlist with
+footnote markers or the like in the lists:  the down side is a list
+cluttered with footnotes.
+
+*
+
+
+here are four miscellaneous Deadlists, the first particularly attn: Jeff,
+the next two particularly attn: Eric, the last for who all comes along.
+
+
+
+BAND  Grateful Dead
+VENUE  Winterland
+CITY  San Francisco
+STATE  CA
+DATE  10/22/67
+SET1  Morning Dew\ New Potato Caboose\ It Hurts Me Too\ Cold Rain & Snow\
+Lovelight\ Beat It On Down The Line\ Cryptical Envelopment 1:25 > The Other
+One 4:33 > Cryptical reprise 0:53 > The Other One jam 7:29
+SET2  
+SET3  
+ENCORE  
+COMMENTS  The Other One has different lyrics, and note that no drums
+intervene between Cryptical and The Other One.  The splices between songs
+make it impossible to determine the sequence of songs or complete contents
+of the show.  The That's It and New Potato are the ones Gans broadcast
+several years ago on KPFA; perhaps he has more information to offer.
+Consult vault sources.
+RECORDING  65 SB
+CONTRIBUTORS  chimpowl@well.com
+
+
+
+BAND  Grateful Dead
+VENUE  Folsom Field
+CITY  Boulder
+STATE  CO
+DATE  09/03/72
+SET1  Promised Land; Sugaree; Me & My Uncle; Tennessee Jed; Black-Throated
+Wind; Bird Song; Beat It On Down The Line; Mississippi Halfstep; Playin In
+The Band; Casey Jones
+SET2  Bertha; El Paso; Brown Eyed Women; Mexicali Blues; China Cat Sunflower
+> I Know You Rider; Truckin; Loser; He's Gone > The Other One > Wharf Rat;
+Johnny B. Goode
+SET3  Cold Rain & Snow; Sugar Magnolia > Sunshine Daydream; Deal; Jack
+Straw; Ramble On Rose; Rockin Pneumonia; Not Fade Away > Goin Down The Road
+> Not Fade Away
+ENCORE  
+COMMENTS  The good AUD master (which could be Bear's) supplies the first set
+and the opening 3 songs of the second set; the poor AUD master supplies the
+only tape of Mexicali Blues currently circulating (1/97); the SBD provides
+the rest of the show from China Cat Sunflower on, except that Sunshine
+Daydream cuts before the end (this can be patched with from the inferior
+AUD).
+RECORDING  90 AF  135 SB  270 A?
+CONTRIBUTORS  chimpowl@well.com
+
+
+
+BAND  Grateful Dead
+VENUE  Civic Center Arena
+CITY  Springfield
+STATE  MA
+DATE  10/02/72
+SET1  Bird Song 13:29 \ Black-Throated Wind\ El Paso\ Greatest Story 5:23 \
+Jack Straw\ Don't Ease Me In\ Playin In The Band 21:05 \ Casey Jones\
+Promised Land\ China Cat Sunflower 3:08 > jam 3:00 > I Know You Rider 4:52
+SET2  
+SET3  
+ENCORE  
+COMMENTS  This tape seems to be what it claims to be.  The splices between
+all songs make it impossible to determine the sequence.  The unremitting
+series of Weir tunes on Side A between Bird Song and Don't Ease Me In makes
+this look like first set excerpts.  (My copy of this tape has a Me & My
+Uncle as filler at the end of Side A in rather degraded SBD -- obviously not
+part of the rest of the tape.)  The sequence from Playin In The Band through
+I Know You Rider could well be correct, with Playin, Casey Jones ending the
+first set and Promised Land opening the second.  There is a brief cut in the
+Greatest Story jam.  As for the AUD master, the mics were definitely in the
+sweet spot but either on the master or at some point in this copy's history
+levels were set too high and some distortion resulted; unfortunately, my
+guess is the distortion is on the master.  The question remains where is the
+rest of the show.  DeadBase VII gives this list:  First Set:  Cold Rain &
+Snow; Mexicali Blues; Tennessee Jed; Beat It On Down The Line; Bird Song;
+Black-Throated Wind; Big RR Blues; El Paso; Brown-Eyed Women; Cumberland
+Blues; Jack Straw; Don't Ease Me In; Playin In The Band; Casey Jones;
+Second Set:  Promised Land; He's Gone > Me & Bobby McGee; China Cat
+Sunflower > I Know You Rider; Tomorrow Is Forever; Greatest Story;
+Mississippi Halfstep > Stella Blue; Truckin > Nobody's Fault jam > drums >
+Uncle John's jam > Morning Dew; Sugar Magnolia;  Encore:  Uncle John's Band
+> Johnny B. Goode.  Consult vault sources.
+RECORDING  90 AF
+CONTRIBUTORS  chimpowl@well.com
+
+
+
+BAND  Grateful Dead
+VENUE  Tower Theater
+CITY  Upper Darby
+STATE  PA
+DATE  06/23/76
+SET1  Music Never Stopped; Sugaree; Mama Tried; Row Jimmy; Big River; High
+Time; Looks Like Rain; Brown Eyed Women; Lazy Lightnin > Supplication;
+Friend Of The Devil; Promised Land
+SET2  Samson & Delilah; Might As Well; Let It Grow 6:32 > drums 2:58 > Let
+It Grow jam 4:10 > Cosmic Charlie 7:27; St. Stephen 10:01 > Not Fade Away
+8:39 > St. Stephen 0:47 > drums 0:25; 0:21; Dancin In The Streets 9:16 > The
+Wheel 4:44\ Johnny B. Goode
+SET3  
+ENCORE  
+COMMENTS  There are copies of several AUD masters in circulation.  The tape
+these timings come from cuts in on the beginning of St. Stephen; there is
+perhaps a minute missing here.  Keith plays electric piano during the St.
+Stephen jam.  After the St. Stephen reprise there is a brief passage of the
+drums introduction to The Wheel; about half way through one drummer starts
+trying to go into Dancin instead.  After a moment of confusion the music
+pauses for 21 seconds and then proceeds into Dancin.  This tape also has a
+(very deft) splice between The Wheel and Johnny B. Goode, obscuring what
+might be going on here.  Altogether, it would be useful to consult another
+tape.
+RECORDING  160 AF
+CONTRIBUTORS  chimpowl@well.com
+
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #132
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

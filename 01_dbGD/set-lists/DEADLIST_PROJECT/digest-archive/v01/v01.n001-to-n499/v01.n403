@@ -1,0 +1,90 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #403
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Monday, 28 July 1997        Volume 01 : Number 403
+
+In this issue:
+
+	separate BAND entries
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Sun, 27 Jul 1997 21:45:04 -0700 (PDT)
+Subject: separate BAND entries
+
+For consistency, shouldn't we make use of the BAND field?  If we don't,
+how else are we going to search on GD material without pulling in NRPS
+stuff?  That way "set 1" is always the Dead's first set, and "set 2" is
+always the Dead's second set.  E.g., split 8/19/70 into two entries:
+
+ > BAND  Grateful Dead
+ > VENUE  Fillmore West
+ > CITY  San Francisco
+ > STATE  CA
+ > DATE  08/19/70
+ > SET1  The Monkey & The Engineer; How Long Blues; Friend Of The Devil; Dark
+ > Hollow; Candyman; Ripple > Brokedown Palace; Truckin; Cocaine; Rosalie
+ > McFall
+ > SET2  Cold Rain & Snow; Me & My Uncle; Easy Wind; China Cat Sunflower > I
+ > Know You Rider; St. Stephen > Sugar Magnolia; Good Lovin; Minglewood; Casey
+ > Jones; Not Fade Away > Lovelight
+ > SET3
+ > ENCORE  
+ > COMMENTS  SET 1 is acoustic Dead with the occasional assistance of NRPS
+ > members; according to DeadBase VII the set concluded with  Cumberland Blues;
+ > Wake Up Little Susie; New Speedway Boogie; Cold Jordan; Swing Low Sweet
+ > Chariot.  SET 2 is electric Dead.  Sugar Magnolia concludes without 
+ > Sunshine Daydream.  Between the two sets there was a NRPS set with
+ > Garcia, pedal steel. 
+ > RECORDING  180 AF (Uher Reel)
+ > CONTRIBUTORS  chimpowl@well.com  brian@hotrats.mit.edu
+
+ > BAND  New Riders of the Purple Sage
+ > VENUE  Fillmore West
+ > CITY  San Francisco
+ > STATE  CA
+ > DATE  08/19/70
+ > SET1  Six Days On The Road; Glendale Train; Whatcha Gonna Do
+ > SET2
+ > SET3
+ > ENCORE  
+ > COMMENTS  Features Jerry Garcia, pedal steel.  This set occurred
+ > between the acoustic and electric sets by the Dead.
+ > RECORDING  20 AF (Uher Reel) (same source as Dead sets)
+ > CONTRIBUTORS  chimpowl@well.com  brian@hotrats.mit.edu
+
+	- jfw
+
+ ___________________________________________________________________________
+| John F. Whitehead          Work: jfw@cisco.com   Home: jfw@well.com       |
+| Web Technology Analyst     Cisco Systems         http://www.well.com/~jfw |
+|___________________________________________________________________________|
+
+------------------------------
+
+End of DeadLists Digest V1 #403
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

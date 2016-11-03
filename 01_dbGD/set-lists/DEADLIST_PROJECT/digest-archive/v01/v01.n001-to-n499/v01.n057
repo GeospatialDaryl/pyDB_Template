@@ -1,0 +1,102 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #57
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Thursday, 16 May 1996       Volume 01 : Number 057
+
+In this issue:
+
+	Dead DATs in circulation 75-79
+	Re: data file spec 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Rik Santos <afn18258@afn.org>
+Date: Thu, 16 May 1996 10:24:13 -0400 (EDT)
+Subject: Dead DATs in circulation 75-79
+
+Howdy all.
+My buddy John and I are trying to document this correct histories of
+Grateful Dead DATs tapes that are in circulation for the years 1975 through
+1979 and we need the help of those who are 'in the know'.  Let it be said
+beforehand that we are *not* groveling for the tapes themselves.  We are
+only interested in their histories and knowing wether or not they actually
+exist.  Along that vein, we also do not care who you are and your *full*
+anonymity is assured. This is *not* a tape trading service and your name
+will at no point, become publically involved. We are simply two DAT traders
+who are doing their best to preserve the music of the Grateful Dead in the
+most accurate manner possible.  Your help is invaluable and very much
+appreciated.  If you like, you may check out Eric Doherty's 'Tapes in
+Circulation 69-70' to get a better idea of what we are trying to accomplish.
+It can be found at...
+	http://www.winternet.com/~edoherty
+
+We can be reached at either:
+afn18258@afn.org [me]
+	or
+jalst44+@pitt.edu [John]
+
+Thank you for your time and bandwidth.
+
+Rik
+******************************************************************************
+'Now there are 29 skaters on Wollman rink
+ circling in singles and in pairs		-Joni Mitchell
+ in this vigorous anonymity
+ a blank face at the window stares and stares and stares....'
+******************************************************************************
+
+
+
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Thu, 16 May 1996 11:46:52 -0400
+Subject: Re: data file spec 
+
+In message <199605120748.AAA02273@mh1.well.com> Nathan writes:
+> being the anarchist/libertarian that i am with regard to decision-making
+> processes, i would like there to be a *concensus* with regard to the
+> datafile spec before we "ratify" it.  that said, unless anyone has any
+> serious problems with the most recent version/proposal, i "move" that we
+> accept this version as our "official" policy (with song timings following
+> their names and set timings placed at the end of each set; maps and notes
+> being placed in the comments section).
+> 
+> i realize this may not be everyone's ideal.  but i think it is workable.
+
+Whatever happened to the proposal to change the field separator from a
+tab to a newline/linefeed/carriage return?  Personally I'd prefer a
+newline, but whatever the separator is, I agree that the spec is
+workable and we should "ratify" it and move on.
+
+		John
+
+
+------------------------------
+
+End of DeadLists Digest V1 #57
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

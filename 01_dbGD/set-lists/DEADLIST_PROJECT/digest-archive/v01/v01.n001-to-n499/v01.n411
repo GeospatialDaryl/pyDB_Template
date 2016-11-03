@@ -1,0 +1,72 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #411
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 14 August 1997      Volume 01 : Number 411
+
+In this issue:
+
+	Re: DeadLists Digest V1 #410
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Wed, 13 Aug 1997 17:20:12 -0700
+Subject: Re: DeadLists Digest V1 #410
+
+>From: Steve Biederman <steve_biederman@MENTORG.COM>
+>Subject: Deadlist Data Spec?
+>Here's a comment and a question:
+>2) " '%'   Where a tape splice, flip or pause prevents examination of
+>           the space between songs, a backslash will be used
+>           (e.g. (song1)\ (song2))."
+>   Is this supposed to be '%' or '\'?
+
+        I'd have to look back, but I believe it was '\', and was
+        changed to '%' to avoid problems with unix systems that
+        use '\'  as an escape or quoting character.
+
+>Some of the lists on the web site don't adhere to the statement in the
+>spec that the date field must be 8 characters MM/DD/YY.
+
+        Originally the spec was M[M]/D[D]/YY - do they at least meet that?
+
+>Some of them don't adhere to the statement that the order of the fields
+
+        (sigh) Time for Dlint, or the DeadList verifier.
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. fax. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #411
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

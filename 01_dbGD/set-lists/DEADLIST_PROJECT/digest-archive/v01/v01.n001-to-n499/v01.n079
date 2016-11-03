@@ -1,0 +1,230 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #79
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Saturday, 3 August 1996      Volume 01 : Number 079
+
+In this issue:
+
+	Re: DeadLists Digest V1 #70 
+	Re: DeadLists Digest V1 #74
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 2 Aug 1996 17:08:25 -0700 (PDT)
+Subject: Re: DeadLists Digest V1 #70 
+
+good point!  the first data file spec i actually formatted for html with 
+headers, coded characters, etc.  the most recent version of the spec i 
+was really pressed on time to get online and i just threw <pre> tags 
+around the text file that had been created...  duh!
+
+the fact that i haven't caught that error and the spec has been there at 
+least a month like that says a lot about how busy i have been at work 
+(working an extra 15 hours of overtime this week to get a product out the 
+door on time, etc.)
+
+yes, a .txt file would have been the proper html way to do that page 
+quick and dirty.  i'll try to get to it this weekend.  for now, the 
+work-around will be to "view source" on your browser -- and then just 
+conentrate on the main body of the spec.
+
+sorry for the gaff, folks.
+
+and, btw, i am really excited by the fact that this is begining to get 
+moving again.
+
+quickly:  i think that the search form (where one inputs the 
+specifications of what one wants to find) should be a combo of pull down 
+menus (mostly) and text entry fields for maybe just a few things.  pull 
+down menus will make it possible to not have to worry about whether i 
+spell it Playin' and you spell it Playing and someone else writes out 
+Playing In The Band.  one would just select the song name from the list.  
+dates and states/countries could be done the same way.  i should know 
+but: can html2.0 forms handle nested pull down menus?  i'm thinking that 
+one would not want to scroll through all the song titles with letters A 
+through P to get to Playin but simply to scroll through a list of letters 
+and then step down to the menu with all the songs that start with that 
+letter.  we could also have the same song in multiple places (L > Long 
+Way To Go Home *and* W > Way to Go Home, etc.) since html 2.0 forms make 
+such redundancy pretty easy.
+
+some experimentation is definitely appropriate here.  i haven't though it 
+all the way through, for sure.  but i thought i'd share my initial 
+reaction.  the final decider about such matters, of course, will be the 
+person or people who do the coding :-)  [i'll do what i can to help, but 
+can't commit to *anything* right now :-( ]
+
+anyways, glad we're truckin' again! 
+- --nathan
+
+On Wed, 31 Jul 1996, Hawkwind wrote:
+
+> On Wed, 31 Jul 1996, John Oleynick wrote:
+> > When you look at the spec on the web, you have to tell your web browser
+> > to show the raw HTML source and not try to interpret it.  The spec has
+> > BNF-like descriptions like "A <song> IS A <song name> <comment>
+> > <transition> <tab>" but web browsers (at least lynx and Netscape) try
+> > to interpret that as HTML so all you see is "A   IS A  " which doesn't
+> > make much sense!  In lynx, hit the "\" (backslash) key to show the raw
+> > HTML (Nathan, I've been meaning to mention this problem to you; it
+> > looks like we need something like <pre> and </pre> that tells HTML
+> > browsers to not format and not interpret everything in between,
+> > although I don't know if that's possible in HTML).
+> 
+> <pre> and </pre> won't work.  Typically they turn on a monospace font, and
+> indicated that text flow and word space formatting are turned off, but do
+> *not* turn off HTML tag interpretation.  Per the HTML specs, the character
+> entities which should be used are &lt; for < and &gt; for > when these 
+> characters appear in text.  E.g.:
+> 
+> "A &lt;song&gt; IS A &lt;song name&gt; &lt;comment&gt; &lt;transition&gt; 
+> &lt;tab&gt;"
+> 
+> Rather a pain :(, but then < and > *are* the HTML tag delimiters. 
+> 
+> Alternately, at least for Netscape, Mosaic & WebExplorer, if the file is
+> given a non-html extension, like spec.txt or spec.asc, it will not be
+> interpreted as HTML.
+> 
+> Back to lurking...
+> 
+>   peace, miner
+> o<------------<<<<<<<<------------(0)------------>>>>>>>>------------>o
+> |          Miner Gleason                    hawkwind@nando.net        |
+> |                                                                     |
+> |     "...it's all a dream we dreamed one afternoon, long ago..."     |
+> o<------------<<<<<<<<------------(0)------------>>>>>>>>------------>o
+> 
+> 
+> 
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 2 Aug 1996 17:20:26 -0700 (PDT)
+Subject: Re: DeadLists Digest V1 #74
+
+i think the breakdown presented here of what is possible cf. ambitous 
+makes sense.
+
+i think the initial version of this product should be placed on the web.  
+ideally, the datafile could be downloaded via ftp (or whatever).  and 
+then people could create local search engines derived from their software 
+of choice, until something better is hacked and shared.  (too bad cgi 
+trips can't be run locally otherwise people could just download the 
+whole freakin' site and run it using their browser on their own desktop.)
+
+
+On Wed, 31 Jul 1996, Ryan Shriver wrote:
+
+> Tim Buller wrote:
+> >
+> > Nathan and I had discussed this at some length when we were
+> > conceptualizing... basically what I came up with, and implemented in a
+> > very, very crude manner was a search engine to parse what I call "header"
+> > info; band, date, venue, city, etc. This data was returned as a link to
+> > the complete datafile. Basically, this was an interim solution to get
+> > something up and working, and then see how we wanted to proceed. I think
+> > that it is rather difficult to construct an search engine until we figure
+> > out what our needs are, and this is a good way to figure that out.
+> 
+> I took a look at Nathan's Original Deadlists Proposal. Some of his ideas
+> I see as feasable in a first rev of this software. Others, I think, are
+> a little ambitious. For the first rev, I envision fielded-searching
+> based on the header information for each show. 
+> 
+> I am thinking about drop-down boxes for the following:
+> Songs (3 or 4 drop down boxes, using the official song list)
+> Set (1, 2, 3, Encore, or Any)
+> Venue (Specific Venue, or Any. Need to construct official Venue list)
+> City (Specific City, or Any. Need to construct official City list)
+> State (Specific State/Country, or Any. Need to construct official
+> State/Country list)
+> 
+> And a text entry box for the Date (form mm/dd/yy).
+> 
+> The text entry would use string matching. So, for instance, to look for
+> all occurences of Might As Well in 1976, one would click on the
+> drop-down box and hightlight 'Might As Well', and type in 83 in the date
+> field. Somehow incorporate wildcards, so someone could search for
+> 02/??/77 and find all of the shows from Feb. of '77. Maybe we could
+> modify John's data file to insert a '19' before the yy in all of the
+> date fields to help clear some confusion (e.g. 1983 vs. 83).
+> 
+> The Venue, City and State lists could probably be extracted from John's
+> data, with a little script, so these wouldn't need to be done by hand. 
+> 
+> Things that I think are a little ambitious at this point are:
+> 1. Searching on show/set openers, closers, pre/post drums.
+> 2. Defining every song as 1st, 2nd, 3rd, etc. song of the set/show.
+> Although, this may not be as bad as I think. 
+> 3. Uploading changes, notes, times, comments via a Web interface. 
+> 
+> > I'm a systems man myself, not a programmer either. I would like to work on
+> > some part of the interface, maybe the data presentation layer, since that
+> > seems the most challenging to me right now. My skills are limited to perl
+> > hacking though... I'm not familiar with python, though if you could
+> > recommend a good book, I'd like to check it out (is there an O'Reilly
+> > book?) Anyways, count me in. We may want to start dividing tasks already
+> > on this job... maybe if we start pretending it's a real software dev.
+> > project it will turn into one :) Later,
+> 
+> Basically the way we have done this for other projects (like putting
+> newspaper's classified ads on the Web, in a searchable format) is to
+> define what we want to search on, then design an HTML page and form to
+> capture the search date from the user. Once the data is captured, a
+> query is performed against the setlists, and a HTML page is dynamically
+> generated and returned to the user, with us specifying the appropriate
+> format of the page returned (in HTML).
+> 
+> Tim-> O'Reilly is suppose to come out with a Python book this fall. For
+> now, try http://www.python.org/ for more information. I am thinking
+> about learning Python, so I can be more directly involved with
+> programming of the scripts needed.
+> 
+> Stuff we need to start thinking about:
+> 1. Is this only for the Web, or should it run on someone's PC?
+> 2. For the Web version, who is doing the hosting?
+> 3. Defining what is or isn't in the first rev of this software package.
+> 4. Designing the Web interface to capture user's requests (in HTML) and
+> the layout of page returned with user's query results. 
+> 
+> This is all I have for now. I look forward to other people's input :-)
+> 
+> 					ryan
+> -- 
+> 
+> Ryan Shriver		Product Manager		Digital Creations
+> ryan@digicool.com				http://www.digicool.com/
+> 
+> Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+> 
+
+------------------------------
+
+End of DeadLists Digest V1 #79
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

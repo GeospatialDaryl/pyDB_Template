@@ -1,0 +1,84 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #298
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Tuesday, 13 May 1997        Volume 01 : Number 298
+
+In this issue:
+
+	Re: Search Engine
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 13 May 1997 10:00:07 -0500 (CDT)
+Subject: Re: Search Engine
+
+Sorry it's taken so long... I've been out of town.
+
+> I love it!  I would like to be able to specify how much of a setlist I 
+> see in the results page (ie, right now you have dates and places -- and 
+> it would be cool to have the option to get the full records)
+
+Hmm... this shouldn't be too hard to implement.
+
+> and it would be cool (though significantly more difficult?) to be able
+> to find patterns of songs (ie, all Dark Star > Stella)... 
+
+You can do this now, if the songs are right next to each other (i.e. "Dark
+Star > Morning Dew")... it would be tricker to find all the Dark Stars and
+Morning Dews in the second set, etc. I'd like to get some sort of boolean
+search going, so that one could type "Dark Star AND Morning Dew" and then
+have the fields as checkboxes rather than radio buttons. This shouldn't be
+too hard, but I need to figure out how to parse the boolean operands out
+of the query string, as right now the query string that you type in is
+passed directly as an SQL query.
+
+> imho, this is great.  Tim do we need to speak offline about how to 
+> translate this engine to deadlists.com?
+
+It shouldn't be any big deal at all... the only thing is your never needs
+to be running the msqld daemon; I'm not sure if that's something best.com
+currently has implemented or not. A lot of ISPs will charge some extra fee
+for accessing an SQL database, since so much web commerce is based on it.
+An alternative would be to run the daemon on a remote site, either here,
+or somewhere else, and then simply query it remotely. Not a big deal at
+all for me. I'll work on the thing a bit in the next couple days, and
+hopefully get it to a "production" level, and then we can figure out the
+details of implementing it for deadlists.com. Please let me know if you
+have other ideas, etc. Have a good one,
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+End of DeadLists Digest V1 #298
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

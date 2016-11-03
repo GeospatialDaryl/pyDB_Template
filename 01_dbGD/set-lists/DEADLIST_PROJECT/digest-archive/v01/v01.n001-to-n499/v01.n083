@@ -1,0 +1,85 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #83
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Wednesday, 21 August 1996     Volume 01 : Number 083
+
+In this issue:
+
+	More progress
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 21 Aug 1996 17:38:50 -0400
+Subject: More progress
+
+John Oleynick wrote:
+> 
+> Tim Buller writes:
+> > I've also put the lists of venues, cities, and state / countries into
+> > ftp.southwind.net/users/t/tjb9d/deadlist/
+> >
+> > These lists, esp. the venues, need pretty extensive editing. I just took
+> > the data straight out of John's datafile... I did it by hand because I'm
+> > bored, but I think we can automate the process pretty easily.
+> 
+> Yes, the venue names probably are still pretty messy.  I think we just
+> need a program that reads the lists, counts the times they played at
+> each venue and then prints the counts.  Then when we see that they
+
+I went to see Phish this past weekend, so I'm just gettting back into
+the swing of things. I have made some progress with the scripts. I can
+now successfully do queries from the command line. The next step is to
+work on the Web part. 
+
+I discovered that the scripts can automatically determine the number of
+occurences for each field in the Web input screen (and populate it). For
+instance, if they played in Tennessee 10 times, then the abbreviation
+"TN (10)" will appear in the input screen under the pull down menu for
+State/Country. What this means is that all of the <select><option> stuff
+will be done automatically. This is bad news for Tim, who has spent lots
+of time working on this :-(
+
+Tim, I copied your input screen HTML, so I could do tests locally. 
+
+Hopefully, by next week there will be a rough model to test. Once this
+is in place, we can all take a crack at it and make recommendations for
+changes.
+
+More to come.
+
+					ryan 
+- -- 
+
+Ryan Shriver		Product Manager		Digital Creations
+ryan@digicool.com				http://www.digicool.com/
+
+Legion in the Way Band - http://www.digicool.com/ryan/jerry/index.html
+
+------------------------------
+
+End of DeadLists Digest V1 #83
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,333 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #47
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Wednesday, 8 May 1996       Volume 01 : Number 047
+
+In this issue:
+
+	DeadLists Formatting Proposal V1.2 (long)
+	Re: DeadLists Formatting Proposal V1.2 (long)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 7 May 1996 16:31:29 -0700
+Subject: DeadLists Formatting Proposal V1.2 (long)
+
+Things to know about this proposal:
+      The proposal is divided into 2 parts:
+      The first is a textual description of the database format.
+          Examples are provided.
+      The second is an attempt at a formal BNF description, hopefully
+          good enough such that someone who has a clue (i.e., someone
+          other than me) can use it to generate a parser.
+
+      I would expect the major controversies to be:
+          Where do comments go? - after the thing being commented on?
+          In a separate comments section (referenced by a footnote marker?)
+          Both? (which is how the following is described)
+          Some comments after the thing, and different kinds in=20
+          a separate section?
+
+          Where does timing information go? (Choices as above)
+          Where does timing map information go?
+
+      I would prefer that the answers to these questions be consistent; that=
+ there be a good rule to describe why it goes one place rather than another.=
+=20
+      Examples of (possibly contradictory) rules are:=20
+1. Timings, timingmaps & comments should be placed near the thing they apply=
+ to.
+2. Timings, timingmaps & comments should all go in the same place.=20
+3. All set stuff should be together; all song stuff should be together.
+4. Things that apply to every set/song should go in the setlist field;
+5. Things that only occasionally apply should go in the comments field.
+6. Things that are not often searched for should go in the comments field.
+7. Keywords should be treated like any other comment.
+
+The scheme I've outlined here actually allows that information to be placed=
+ as close to the thing being described as possible, or permits a pointer to=
+ the information to be placed there instead (i.e. a footnote). This means=
+ that there can be identical setlists with different formats, which may not=
+ be a desireable thing. This reflects my desire for setlist upload format=
+ flexibility more than the way the master database should look. I can't=
+ remember who thought that a lisp style format was a good idea, but I'm=
+ getting more fond of it everyday.
+
+My personal preference is the following, a combination of rules 5&6&7:
+      Song timings should be in the comments section (listed as a set=
+ comment,=20
+        in timing map format) because it rare to search for that=20
+        information, and it just gets in the way. (Also, it will be=20
+        difficult to search for because timings are hard to get exact)
+        Timing map format means that all the timings for songs in a set
+        are together, and next to the associated song titles.
+      Song and set comments should be in a comments section because only a=
+=20
+        minority of songs require it.
+      Timing maps should be in the comments section because only a minority
+        of songs require or are capable of being mapped.
+      Reference marks (1), (2), and (e) be reserved for set comments, so the=
+y
+        don't have to be entered explicitly. Possibly (s) or (0) or=20
+        something might be reserved for overall show comments, to make=20
+        parsing and searching a bit easier. I've put this in the proposal
+        below, but it's easily removed.
+
+DeadLists Formatting Specification Proposal
+
+   * Steve Zimmerman (saz@well.com) created the first version of this
+     document.
+   * Nathan Wolfson (nathan@well.com) updated Steve's version 1.0 using
+     input from the DeadLists Mailing List.
+   * Allen Baum (baum@apple.com) updated Nathan's version 1.1  in order
+     to get his two cents in & make the spec a bit more rigorous.
+   * The document is in need of final polishing, to be based on yet
+     more intermininable discussions on the mailing list.=20
+     For further information, visit the DeadLists Project Home Page.
+
+- ----------------------------------------------------------------------------
+DeadLists Formatting Specification Proposal
+Version 1.2 (5/2/96)
+
+=46IELD NAMES:
+
+BAND, DATE, VENUE, CITY, STATE, SET1, SET2, SET3, ENCORE, COMMENTS,=20
+RECORDING, CONTRIBUTORS
+
+      Each field shall be separated by a TAB and the field names listed abov=
+e
+shall be included in the file as a header record. The STATE file shall be
+used for COUNTRY in the event of a venue outside the US.
+
+      Note: A rigid TAB delimited format was used because provides a format=
+ that both programmer and non-programmers like can easily use. This format w=
+ill
+allow non-programmers to open the data in a spreadsheet for manipulation or
+create mail-merge show lists using a word processor.
+
+=46IELD FORMATTING:
+
+DATE:
+      A "Date" is a string of the form mm/dd/yy (e.g.
+"02/04/88"). Leading zeroes are optional, as are the leading digits
+in the year (i.e. '19', and eventually, '20'). If the century digits
+are not present, '19' is assumed.
+
+      In the event of uncertain dates, unknown elements will be
+replace by question marks (e.g.=20
+      "Some day in Feb. of 1984" shall be "02/??/84" and=20
+      "some day in 1969"         shall be "??/??/69" and
+      "no clue whatsoever"       shall be "??/??/??" ).=20
+
+      Following the date are flags to indicate other information about a=
+ given show: "a" =3D Early Show, "b" =3D Late Show, "@" =3D Opening Sets in=
+ which band member(s) participated, "+" =3D Sound Check
+
+      For example, an early show opener on February 4, 1992 shall be=
+ designated as 02/04/92a@.
+
+      In the event that a precise date or show is stated, but its accuracy=
+ is questioned, a trailing question mark following the date and flags will=
+ be added,  (e.g. "04/01/68a?") .
+
+Note:   Using the supplemental flags above will allow use of only three set =
+list
+      fields per show record and avoid a number of problems associated with
+      having upward of seven sets per show record. Otherwise, there would be
+      some problems such as:
+
+      * Simple queries (e.g. finding all times a particular song was
+      played in a particular set) will not work, because there will no way t=
+o
+      determine which of the "Sets" is the first GD set vs. an opening set.
+      * When data is imported into a database application for manipulation,
+      the file size would be significantly larger than if the flagging metho=
+d
+      was used, because sufficient room in each of the seven? set list field=
+s
+      would have to be allocated to handle a full set list, when in reality,
+      relatively few of the fields above SET THREE would ever be used.
+
+SET FIELDS:
+      Songs shall be named according to a mutually agreed upon list under
+development at this time (see URL http://??????). New song names, jam names,=
+ tuning names, and so on, will be added ss needed.
+
+Song Modifiers
+      There will be standard song modifiers to note special occurrences that=
+ we want to be able to filter or sort differently from other regular song na=
+mes.
+These are:
+
+      * "<song-name>-jam" specifies a recognizable insertion of a known song
+      that doesn't actually become that song.
+      * "<song-name>-continued" specifies the return to a song that does not
+      conclude the tune.
+      * "<song-name>-reprise" specifies the return to a song's conclusion,
+      whether or not begun during that show.
+      * "<song-name>-tease" specifies the hint of a song that then becomes
+      something else.
+
+      The use of the song name 'jam' refers to an unspecified instrumental=
+ tune.=20
+      If and when it gets classified, it will become "<song-name>-jam"
+      The use of 'tuning' or 'technical-difficulties' are self evident.
+
+Song Delimiters: (NOTE: all song delimiters should be preceded and trailed=
+ by a space!!)
+      ':'      Until examined, all songs will be separated by a colon=20
+      (e.g. <song1> : <song2> ).
+      ';'      Songs not continuing into each other are separated by a semic=
+olon
+      (e.g. <song1> ; <song2>).
+      '>'      Songs that segue into each other by means of a defined jam or
+      contiguous transition -- a guzinta -- are separated by the character '=
+>'
+      (e.g. <song1> > <song2>).
+      '~'      Songs that segue into each other, not by means of a defined
+      transition, but through an intentional pause are separated by a  tilde
+      (e.g. <song1> ~ <song2>).
+      ';;'     In the event that two songs are separated by a pause of=
+ greater=20
+      than 60 seconds, a separator of two consecutive semicolons is used=20
+      (e.g. <song1> ;; <song2>.) =20
+      It's possible to insert the length of the pause between the semicolons
+      (e.g. <song1>; [3:20] ; <song2>) using the standard timing format.
+      '\'      Where a tape splice, flip or pause prevents examination of=
+ the =20
+      space between songs, a backslash will be used (e.g. <song1>\ <song2>).
+
+Song and Set Timings:
+      Song and set timings, where known, are enclosed in square brackets=
+ directly following the item being timed,
+(e.g. <song1> [2:33] > <song2>... for song timings ,=20
+or      SET1 [33:42]   <song1>... for set  timings)
+
+      Timing maps may also be placed after timings. Timing maps are=
+ collections of timings describing the substructure of an song. They are=
+ placed immediately after song timings, inside the timing brackets=20
+(e.g. SET1 [33:42] Estimated Prophet [14:32] {intro: [1:20] verses1&2 [3:20]=
+ instrumental chorus [1:55]  verse 3 & fadeout [3:22] var of theme [2:43]=
+ jazzy jam [5:58] > Eyes [19:10]). ... )=20
+Note that a timing map following a set timing is all of the song timings!
+
+      The timings, and timing maps can be filtered out of most searches but=
+ called upon according to the end user's interest in the details. Timing=
+ maps may also be placed in the COMMENTS field, with appropriate footnoting=
+ (see 'reference mark's ).
+
+COMMENTS:
+      Comments are usually notes such as guest artists on songs, acoustic=
+ versions, etc.)  There are two kinds of comments: literal, and reference ma=
+rks.
+
+      A literal comment is a textual description of some kind placed after=
+ the object being commented on, delimited by an asterisk ('*'). Literal=
+ comments placed before any songs in a setlist apply to the entire set,=
+ (since there is no description of the set besides the field descriptor=
+ SET1, SET2, or ENCORE.) Literal comments after songs apply to just the=
+ song. Literal comments must not contain parenthesis, or asterisks, to avoid=
+ confusion with reference marks.
+
+      Reference marks are numbered references to comments contained in the=
+ COMMENTS field. The numbers are placed in parenthesis following the item=
+ being commented on as in the literal comments above. For each numbered=
+ reference mark, there must be an associated reference mark in the COMMENTs=
+ field, followed by the corresponding comment. (e.g. "(3) with Carlos Santan=
+a").
+
+      There is no requirement that an item have only one reference mark, nor=
+ that more than one item can share a reference mark, e.g. <song1> (3) (4) ;=
+ <song2> (4). Thus, a song might have two reference marks, one referring to=
+ guests, and one to acoustic, or two songs might refer to the same guest=
+ artist comment. There are 4 reserved reference marks, (s), (1), (2), (e) co=
+rresponding
+to the entire show, set1, set2, and encore.
+
+COMMENT FIELD:
+      The comments field can contain any of the item descriptions that would=
+ follow an item, such as timings, timing maps, and literal comments. All of=
+ the descriptions in the COMMENT field except the first are required be=
+ labelled with a reference mark; The first descriptions in the COMMENTs=
+ field, if unmarked, refer to the entire show.=20
+
+      The format of referred comments is:=20
+      reference mark (optional for first items, else enclosed in the usual=
+ parenthesis) followed by=20
+      a timing map (enclosed in the usual curly brackets) and/or a literal=
+ comment (followed by the usual asterisk).
+
+Comment Keywords:
+      Several keywords are predefined, and are appended with a colon ( ":" )=
+
+------------------------------
+
+From: "Matthew S. Cramer" <matt@main.cpcnet.com>
+Date: Wed, 8 May 1996 09:19:40 -0400
+Subject: Re: DeadLists Formatting Proposal V1.2 (long)
+
+At 04:31 PM 5/7/96 -0700, baum@apple.com (Allen J. Baum) wrote:
+>My personal preference is the following, a combination of rules 5&6&7:
+>      Song timings should be in the comments section (listed as a set comment, 
+>        in timing map format) because it rare to search for that 
+>        information, and it just gets in the way. (Also, it will be 
+>        difficult to search for because timings are hard to get exact)
+
+FWIW:
+
+I would consider it VERY useful to be able to search for all Eyes post '85
+that break the ten minute mark.  This is how I envisioned the timing
+information - not for finding the playin' that lasts 18:32 exactly but for
+looking for certain versions of songs that fit in a range.
+
+I think our biggest problem here on Deadlists is that we are creating data
+specifications when we don't know what our end product will look like
+(backwards for most software engineering).  Is anyone else thinking about
+the software that will use these data files?  Personally, I had begun
+working on a freeware tape tracking program (basically to put Geier out of
+business) when I heard about this project, so I put it on hold.  My plans
+included a searchable database, label generation, contact sheet, and a
+"trades in progress" organizer, as well as a place to map out tape trees.
+Any other ideas for the user end?
+
+
+
+
+Later,
+
+Matt
+- --
+Matthew S. Cramer <matt@main.cpcnet.com>
+Sonex Corporation, Dept. of Engineering
+Coming Soon: <matt@main.sonex.com>
+Personal Home Page:  http://boss.cpcnet.com/personal/matt/home.html
+
+
+------------------------------
+
+End of DeadLists Digest V1 #47
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

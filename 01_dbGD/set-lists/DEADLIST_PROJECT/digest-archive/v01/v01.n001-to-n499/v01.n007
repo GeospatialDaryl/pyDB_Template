@@ -1,0 +1,789 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #7
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 16 February 1996      Volume 01 : Number 007
+
+In this issue:
+
+	Jams
+	Re: Jams
+	Re: DeadLists Digest V1 #6
+	Re: DeadLists Digest V1 #5 (Part 1)
+	Re: Jams
+	Re: Jams
+	Re: Jams
+	Re: Jams
+	Re: Jams
+	Re: Jams
+	Re:  Jams
+	Re: Jams
+	Re: Jams
+	Re:  Jams
+	Re: Jams
+	Re:  Jams
+	Re: Jams
+	Re: Jams
+	Re: Jams 
+	Re:  Jams
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: jbosco@dasw.com (John Bosco)
+Date: Fri, 16 Feb 96 10:55:30 EST
+Subject: Jams
+
+Jim Powell <chimpowl@well.com> wrote:
+
+>
+>We can eliminate the ~> sign entirely.  There's no difference between the
+>early-70s opener Promised Land > Bertha > Greatest Story or the late 80s
+>opener Hell In A Bucket > Sugaree, and Slipknot > Franklin's Tower:  They
+>all end on one beat & step into the following song on the next.  There *is*
+>a difference between these examples and China Cat Sunflower > I Know You
+>Rider, or Estimated Prophet > Eyes Of The World, or Scarlet Begonias > Fire
+>On The Mountain, because in these three later cases music intervenes between
+>the two songs, an indetermitate passage of jamming, and in the last best
+>final edition of our deadlist things like China Cat Sunflower > jam > I Know
+>You Rider and Scarlet Begonias > jam > Fire On The Mountain should be the
+>norm.  In the interim we might decide to understand that by "China Cat
+>Sunflower > I Know You Rider" we really mean "China Cat Sunflower > jam > I
+>Know You Rider".  Or perhaps it would be better to do everything this way to
+>start.  If we *did* want to represent transitional jamming by a symbol
+>rather than by "jam" (which I would urge strongly *against*), it seems to me
+>">>" would make a better symbol.  But not only do we not need it; it will
+>keep us from specifying jams where we should be.
+>
+
+I don't know, I've always used "jam" to indicate a jam when there isn't always
+a jam, like pre-drums for instance, it seems to me a jam is always in China
+Rider, or Scarlet Fire to some degree, but there wasn't always a Women are
+Smarter -> Jam -> Drums. Jam to me has always meant, hey check this out, I 
+don't think it should get over used. While on the subject I also never under-
+stood why some people would write Dark Star -> Jam -> whatever, isn't the
+whole piece Dark Star?
+
+Just some thoughts,
+John
+
+------------------------------
+
+From: MBell@MAIL.UTEXAS.EDU (Michael Bell)
+Date: Fri, 16 Feb 1996 11:21:56 -0600
+Subject: Re: Jams
+
+jbosco@dasw.com (John Bosco) wrote:
+
+>I don't know, I've always used "jam" to indicate a jam when there isn't always
+>a jam, like pre-drums for instance, it seems to me a jam is always in China
+>Rider, or Scarlet Fire to some degree, but there wasn't always a Women are
+>Smarter -> Jam -> Drums. Jam to me has always meant, hey check this out, I
+>don't think it should get over used. While on the subject I also never under-
+>stood why some people would write Dark Star -> Jam -> whatever, isn't the
+>whole piece Dark Star?
+>
+>Just some thoughts,
+>John
+
+I think the term "jam" should be used as sparingly as possible.  It should
+only be used for a musical sequence that has no connection to any song.
+The jam on the Watkins Glen Soundcheck is an example.  Indicating "jam"
+after songs like Dark Star, Terrapin, Playin', etc does not really make any
+sense, since it is the intention to explore with those songs.  And I agree
+that indicating "jam" between China and Rider and Scarlet and Fire is
+redundant, not matter how far out things get.
+
+Anyone for just saying "China Rider" and dispensing with the arrows?  I've
+always thought of it as an organic whole.  Complete song titles could be
+used when they are played seperatly.  I guess that would probably not be
+good for search functions though.  Hmmm.
+
+Michael Bell
+MBell@mail.utexas.edu
+
+
+
+
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Fri, 16 Feb 1996 09:42:38 -0800
+Subject: Re: DeadLists Digest V1 #6
+
+>>I'd like to see a bit more
+>>standardization on subfield separators
+.....
+>>       sub-subfld sep : COMMA
+.....
+>>Of course, we have to be careful about song titles with imbedded commas,
+>>colons,  and parens.....
+>
+>I think of all these, commas are the most prevalent and that we should avoid
+>using commas for our purposes.
+
+Unfortunately, you're right. I'm not sure what other punctuation appears in
+song titles - we should either:
+        - avoid using any as delimiters anywhere
+        - parse song titles specially so nobody cares
+        - make our 'official' song titles nnot have those delimiters.
+
+For example, I suspect that "Terrapin: At a Siding" is the official title.
+
+>>Maybe we can produce a BNF-style description of this?
+>
+>I'd run right out and do it this minute if I knew what that was. I came into
+>computers from the MBA, not computer science side. Help me out.
+
+OK, I'll volunteer to do this when the comments die down a bit and
+consensus is starting to appear. While I can produce the BNF, what I don't
+remember is how to decide whethers it's LRn or whatever (essentially a
+measure of how easy it is to build a parser for it). Any real CS type on
+the list remember this & wants to help?
+
+
+>------------------------------
+>From: Jim Powell <chimpowl@well.com>
+
+>On the whole it seems to me Steve has done an excellent job with this & done
+>us all a great service.
+
+Hear, hear.
+
+.......
+
+
+> If we *did* want to represent transitional jamming by a symbol
+>rather than by "jam" (which I would urge strongly *against*), it seems to me
+>">>" would make a better symbol.  But not only do we not need it; it will
+>keep us from specifying jams where we should be.
+
+Sigh. Naturally, I disagree some. I like the idea of >> to mark
+transitional jams. I might distinguish between them and major jams that
+seem to stand on their own (though I suspect the most of those are actually
+inside a song).
+Maybe we want >> for short transitional, >>> for longer???
+(Maybe someone wants to do a "jam taxonomy" project :-)
+
+>------------------------------
+>From: Nathan Wolfson <nathan@well.com>
+
+>I would favor revising the distinction so that contiguous jamming is
+>noted ">" and one song continuing after anoter without missing a beat
+>(e.g., Franklin's after Slipknot) is designated "~".  I agree that the
+>"~>" described in the proposal isn't really of use.
+
+Sounds reasonable.
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Fri, 16 Feb 1996 11:07:36 -0800
+Subject: Re: DeadLists Digest V1 #5 (Part 1)
+
+>Return-Path: mibeck@aaln.org
+>X-Sender: mibeck@cs.vassar.edu
+>Date: Fri, 16 Feb 1996 13:24:18 -0800
+>To: Steve Zimmerman <saz@well.com>
+>From: mibeck@aaln.org (Michael Beck)
+>Subject: Re: DeadLists Digest V1 #5 (Part 1)
+>
+>>>I think this is a little too rigid.
+>>>I think you should allow multiple flags after the initial 8 character date,
+>>>for example 9/13/71a@ for an early show openner (or is it opener?). You
+>>>might want to set the order in which the flags occur.
+>>
+>>Good point. If we want to be able to specify two extra items per date then
+>>it would seem that the order that you have used in your example would be
+>>best, late show / early show flag then @ openner flag.
+>
+>   Yeah, I agree - we don't need to limit the number of flags; that's what
+>we have field delimiters for. Just parse until you hit a <tab>. Besides, I
+>could see someone wanting to store something like "09/13/71a@?" or, even
+>more likely, "09/13/71a+?" very easily.
+>
+>>[Jim Powell said]:
+>>Using double semi-colons (";;") to designate longer pauses between songs
+>>will be very problematical for older tapes, which frequently have
+>>intervening pauses snipped out.  I think we can dispense with this double
+>>semi-colon symbol.  Let's KEEP IT SIMPLE.
+>
+>   I also agree here - two tapes of the same show might differ drastically
+>in the amount of noodling they cut out, etc.. Also, for the record, I like
+>one-character sub-field delimiters in the setlist field. That would make me
+>a much happier parser. :)
+>
+>>RECORDING:
+>>
+>>This category will be used to track the circulating recordings
+>>of each performance using standard source abbreviations.
+>>Perhaps only the "best" (very subjective, I know) recording of
+>>each source category (AUD, SBD, MATRIX) should be included. For
+>>example, there are DAUD, DFOB, CAUD, DSBD and CSBD recordings
+>>circulating of a show, only the DFOB and DSBD would be listed
+>>b/c they are the "best" recordings of each source category.
+>
+>   Hmm - I don't like the subjectiveness of this. Some people prefer
+>cassette audience tapes over anything else (bizarre, I know), and in their
+>case, this data would then become meaningless. I think we have to do all or
+>nothing: CAUD, DAUD, PAUD, RAUD, CFOB, DFOB, PFOB, RFOB, CSBD, DFOB, PFOB,
+>RSBD, CMTX, DMTX, PMTX, RMTX. (C=Cassette, D=DAT, P=PCM, R=Reel)
+>   However, we have to decide how detailed we're going to get - there's
+>probably more of a difference between a Type I Cassette and a Type IV Metal
+>Cassette than between a Metal and Reel, or between Metal and DAT/PCM. Does
+>that mean we should now start storing the type of Cassettes people used? Of
+>course not, but it does illustrate my point.
+>
+>>Set lists for acoustic sets shall begin with the pharse
+>>"Acoustic:". If acoustic songs are played as part of a set, but
+>>the set is not composed of all acoustic songs, the accoustic
+>>songs shall be referenced as acoustic in the COMMENTS, using
+>>the reference mark specification covered above.
+>
+>   I would suggest we either have all capital or all lower case set
+>attributes. I also agree with whomever it was that said we should stick the
+>attributes at the end of the setlist, with the overall set time. I think
+>that will scale much better, if we ever need to add more attributes.
+>   Also, just out of curiosity, are people really stuck on using
+>"<space>;<space>" to delimit songs, etc.? If not, this seems to me to be a
+>waste of space, and will make an engine just a *little bit* more difficult
+>to write. I realize it does improve readability, however.
+>
+>                                                          - Michael
+>
+>P.S.- Wasn't sure how much of this was duplicate material, so I just sent
+>it to you. Feel free to forward it to the list, if you feel it has any
+>worth.
+>
+>
+>
+>
+
+Steve
+
+- ----- 
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax:(415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+ 
+ For *TapeTracker for Windows* info:
+          see http://www.barclay.com/tapetracker/ or send email
+      to info@barclay.com (no subject or message text is required)
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 16 Feb 1996 11:15:41 -0800 (PST)
+Subject: Re: Jams
+
+> I don't know, I've always used "jam" to indicate a jam when there isn't always
+> a jam, like pre-drums for instance, it seems to me a jam is always in China
+> Rider, or Scarlet Fire to some degree, but there wasn't always a Women are
+> Smarter -> Jam -> Drums. Jam to me has always meant, hey check this out, I 
+> don't think it should get over used. While on the subject I also never under-
+> stood why some people would write Dark Star -> Jam -> whatever, isn't the
+> whole piece Dark Star?
+
+I agree that blindly placing the word "jam" between a China Cat and a 
+Rider seems a little redundant, since we know it's basically always 
+there.  But eventually, those "jam"s will become better documented, such 
+as the Other One maps posted here a while ago.  At that point, it will be 
+nice to be able to note, for example, in a Dark Star:  Dark Star jam 
+[12:17] > First Star Verse [1:35] > Star Space jam [22:45] > Dew 
+[12:19].  I think this tells one more than simply seeing  Dark Star 
+[41:42] > Dew [12:19].
+
+I'm not sure what the broken down jams between, for example, China Cat 
+and Rider will look like, but there have been many recurrent themes over 
+the years that will eventually be timed and their exact chronological 
+placement noted.  That said, I would tend to avoid simply placing the 
+word "jam" in a place where we already expect a jam, at least until we 
+have something to say about that jamming.
+
+just my $.02
+
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Fri, 16 Feb 1996 11:17:41 -0800
+Subject: Re: Jams
+
+I think the structured thing between CHina Cat and Rider from last '73 thru
+10/74 shoud be NAMED, somehow.  or maybe that is just another item for the
+footnotes, since it has a known lifespan.
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Fri, 16 Feb 1996 14:16:20 -0500
+Subject: Re: Jams
+
+At 11:17 AM 2/16/96, David Gans wrote:
+>I think the structured thing between CHina Cat and Rider from last '73 thru
+>10/74 shoud be NAMED, somehow.  or maybe that is just another item for the
+>footnotes, since it has a known lifespan.
+
+It would be nice if somebody (nudge nudge, David!) could sit Weir or Lesh
+down, play some recurring jam-snippets and say, "hey, could -you- name this
+jam?" It would be good to know if the Dead themselves ever had names for
+the more-recurring themes.
+
+It'd be nice to finally have a name for the post '73-4 Eyes jam. The
+closest I've come to a citation is a 9/17/73 pre-show interview with Weir,
+Keith and Donna where Weir calls it the "7/4 jam after Eyes" (and Keith
+groans, "I -hate- playing in 7/4").
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Fri, 16 Feb 1996 11:20:12 -0500
+Subject: Re: Jams
+
+At 11:17 AM 2/16/96 -0800, you wrote:
+>I think the structured thing between CHina Cat and Rider from last '73 thru
+>10/74 shoud be NAMED, somehow.  or maybe that is just another item for the
+>footnotes, since it has a known lifespan.
+
+I just call that the "almost Uncle John's band, very nearly Feelin' Groovy" jam.
+
+''-)
+
+        --xian
+- --
+xian =%7o		http://www.pobox.com/~xian
+Enterzone               http://enterzone.berkeley.edu/enterzone.html
+   \
+    \ 
+     \
+      \
+      \//
+       \
+sonic curves youth primus nails helmet king francisco san crimson redux again
+man from back drop desert oblique comix and mars cormorant inch selihoth
+save me i am a underwater chicken wire mother cop dreams gondolier
+review of a berry newt the humphries elizabeth eats the fire
+since the land of the last dogs and men to know china times
+nude eye sensation roadkill innnocence and male breasts 
+the nine very short way you live now stories
+warning: dangerous reviews of swans ahead!
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 16 Feb 1996 11:25:45 -0800 (PST)
+Subject: Re: Jams
+
+> Anyone for just saying "China Rider" and dispensing with the arrows?  I've
+> always thought of it as an organic whole.  Complete song titles could be
+> used when they are played seperatly.  I guess that would probably not be
+> good for search functions though.  Hmmm.
+
+Then we couldn't time where the recurrent themes occur during the jam in 
+between the two songs, nor could be note that there are different 
+recurrent themes (=different "jams", which some folks have already begun 
+to name) that occur in the 73 transitional spaces cf. those themes that 
+recur in the late 80s transitional spaces between China Cat and I Know 
+You Rider (as one example).
+
+I realize some people may not care to track the progression of different 
+themes that the band enjoyed riffing off of at various times, but this is 
+by far what I find most interesting about the band:  the manner in which 
+these seemingly organic/anarchic spaces transformed over time and really 
+contained a lot of inspired coherence (that seldom stayed the same long 
+enough to get stale) if one listens closely and comparatively enough.
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Fri, 16 Feb 1996 14:23:38 -0500
+Subject: Re: Jams
+
+At 11:21 AM 2/16/96, Michael Bell wrote:
+>
+>Anyone for just saying "China Rider" and dispensing with the arrows?  I've
+>always thought of it as an organic whole.  Complete song titles could be
+>used when they are played seperatly.  I guess that would probably not be
+>good for search functions though.  Hmmm.
+
+Not at all good for search functions. In such a case you'd never be able to
+search on ONLY China Cats.
+
+For a long time I've thought that we've been too liberal where we put ">"
+notations on our tape labels. Over the last few years, very few second set
+songs actually jammed into each other, particularly post-drums. More often,
+a song would wind down and come to a discernable stop before the next song
+would start. Even though there was usually no break in the playing, it
+really can't be called jamming.
+
+(Deadbase notes that their criteria for using ">" is any instance where the
+pause between songs is "less than three seconds." yecch!)
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Fri, 16 Feb 1996 11:32:52 -0800
+Subject: Re:  Jams
+
+We definitely need to draw the the distinctioon between continuous music and
+"fibs" (followed immediately by).  That's why I use -> for continuous and ;
+for sequential.
+
+Jim Powell proposes >> for continuous jamming; I'm not sure I understand why
+that is any better (or worse, for that matter) than a single >
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Fri, 16 Feb 1996 14:25:54 -0500
+Subject: Re: Jams
+
+>
+>I just call that the "almost Uncle John's band, very nearly Feelin'
+>Groovy" jam.
+>
+
+Tsk tsk tsk, Xian. And after all that time I spent explaining the
+difference between the chord structures of UJB and Feelin' Groovy to you.
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Fri, 16 Feb 1996 11:37:11 -0500
+Subject: Re: Jams
+
+tiedrich .wrote:
+
+>For a long time I've thought that we've been too liberal where we put ">"
+>notations on our tape labels. Over the last few years, very few second set
+>songs actually jammed into each other, particularly post-drums. More often,
+>a song would wind down and come to a discernable stop before the next song
+>would start. Even though there was usually no break in the playing, it
+>really can't be called jamming.
+
+no, but it could be called a transition. jerry's term was a "splice."
+
+>(Deadbase notes that their criteria for using ">" is any instance where the
+>pause between songs is "less than three seconds." yecch!)
+
+a good criterion for splice, though. still, not as good as the question of,
+is it on the right beat. The slipnot!>flanklin's transition was sometimes
+played throughand sometimes a perfectly timed pause.
+
+        --xian
+- --
+xian =%7o		http://www.pobox.com/~xian
+Enterzone               http://enterzone.berkeley.edu/enterzone.html
+   \
+    \ 
+     \
+      \
+      \//
+       \
+sonic curves youth primus nails helmet king francisco san crimson redux again
+man from back drop desert oblique comix and mars cormorant inch selihoth
+save me i am a underwater chicken wire mother cop dreams gondolier
+review of a berry newt the humphries elizabeth eats the fire
+since the land of the last dogs and men to know china times
+nude eye sensation roadkill innnocence and male breasts 
+the nine very short way you live now stories
+warning: dangerous reviews of swans ahead!
+
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Fri, 16 Feb 1996 11:37:16 -0500
+Subject: Re:  Jams
+
+At 11:32 AM 2/16/96 -0800, you wrote:
+>We definitely need to draw the the distinctioon between continuous music and
+>"fibs" (followed immediately by).  That's why I use -> for continuous and ;
+>for sequential.
+>
+>Jim Powell proposes >> for continuous jamming; I'm not sure I understand why
+>that is any better (or worse, for that matter) than a single >
+
+I think it's intended to distinguish from a "splice," which would get the
+single ">"
+
+        --xian
+
+
+
+- --
+xian =%7o		http://www.pobox.com/~xian
+Enterzone               http://enterzone.berkeley.edu/enterzone.html
+   \
+    \ 
+     \
+      \
+      \//
+       \
+sonic curves youth primus nails helmet king francisco san crimson redux again
+man from back drop desert oblique comix and mars cormorant inch selihoth
+save me i am a underwater chicken wire mother cop dreams gondolier
+review of a berry newt the humphries elizabeth eats the fire
+since the land of the last dogs and men to know china times
+nude eye sensation roadkill innnocence and male breasts 
+the nine very short way you live now stories
+warning: dangerous reviews of swans ahead!
+
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Fri, 16 Feb 1996 12:16:09 -0800
+Subject: Re: Jams
+
+Then again, there are instances of that China->Rider jam that occur in other
+places, or (fdor example) coming from something else into Rider.  it only
+happened a few times, but there you go.  I think we need to give it a name.
+
+------------------------------
+
+From: David Gans <tnf@well.com>
+Date: Fri, 16 Feb 1996 12:18:53 -0800
+Subject: Re:  Jams
+
+>I think it's intended to distinguish from a "splice," which would get the
+>single ">"
+
+"SPlice" as in "edit"?  That's not what > means to me!
+
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Fri, 16 Feb 1996 15:13:58 -0500
+Subject: Re: Jams
+
+At 12:16 PM 2/16/96, David Gans wrote:
+>Then again, there are instances of that China->Rider jam that occur in other
+>places, or (fdor example) coming from something else into Rider.  it only
+>happened a few times, but there you go.  I think we need to give it a name.
+
+Hey, we could take after astronomers: the first person to cite a jam gets
+to name it. We could have Xian's Jam, Powell's Jam, Nathan's Jam ....
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Fri, 16 Feb 1996 12:29:03 -0500
+Subject: Re: Jams
+
+How about China Cat Sunflower -> "China Cat Sunflower->I Know You Rider
+transition jam" -> I Know You Rider ?
+
+        --xian
+
+just kidding
+
+At 12:16 PM 2/16/96 -0800, you wrote:
+>Then again, there are instances of that China->Rider jam that occur in other
+>places, or (fdor example) coming from something else into Rider.  it only
+>happened a few times, but there you go.  I think we need to give it a name.
+- --
+xian =%7o		http://www.pobox.com/~xian
+Enterzone               http://enterzone.berkeley.edu/enterzone.html
+   \
+    \ 
+     \
+      \
+      \//
+       \
+sonic curves youth primus nails helmet king francisco san crimson redux again
+man from back drop desert oblique comix and mars cormorant inch selihoth
+save me i am a underwater chicken wire mother cop dreams gondolier
+review of a berry newt the humphries elizabeth eats the fire
+since the land of the last dogs and men to know china times
+nude eye sensation roadkill innnocence and male breasts 
+the nine very short way you live now stories
+warning: dangerous reviews of swans ahead!
+
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Fri, 16 Feb 96 15:37:38 -0500
+Subject: Re: Jams 
+
+> I don't know, I've always used "jam" to indicate a jam when there isn't always
+> a jam, like pre-drums for instance, it seems to me a jam is always in China
+> Rider, or Scarlet Fire to some degree, but there wasn't always a Women are
+> Smarter -> Jam -> Drums. Jam to me has always meant, hey check this out, I
+> don't think it should get over used.
+
+Well put.
+
+> While on the subject I also never under- stood why some people would
+> write Dark Star -> Jam -> whatever, isn't the whole piece Dark Star?
+
+Sometimes, but often not.  For example, I often see references to
+5/11/72 as as "45-minute Star".  What happens in the period starting
+~1 minute after the verse until the intro to Sugar Magnolia is not
+Dark Star.  It is a free improvisation, and should be indicated as
+such.  My tape is labelled
+
+Dark Star > drums > Phil > Dark Star [verse 1] > space > jam > S. Magnolia
+
+The ability of the Dead to produce these spontaneous moments on a
+regular basis is what set them apart from most "rock" bands, and even
+most jazz.  When recurring themes are used, we can try to label them
+(Feelin' Groovy, Tighten Up, Mind Left Body, Spanish Jam, etc.), but
+there are many unique performances that do not derive in any clear
+fashion from a particular song or theme.
+
+I feel very strongly that these should be distinguished when they
+occur between songs (as above), and I personally try to indicate them
+when they occur "within" a song.  My label for 12/31/72 II has many
+parts within what DeadBase simply calls "Other One".
+
+> I think the term "jam" should be used as sparingly as possible.  It should
+> only be used for a musical sequence that has no connection to any song.
+> The jam on the Watkins Glen Soundcheck is an example.
+
+Yes.
+
+> Indicating "jam" after songs like Dark Star, Terrapin, Playin', etc
+> does not really make any sense, since it is the intention to explore
+> with those songs.
+
+Disagree.  When the "exploration" no longer has any connection to the
+starting point, it should be listed separately.  Would you list
+12/2/73 II as "... > Playing > He's Gone > ...", without noting what
+happens in between those songs ?
+
+> And I agree that indicating "jam" between China and Rider and
+> Scarlet and Fire is redundant, not matter how far out things get.
+
+Scarlet>Fire, maybe.  As others have pointed out, the "jam" between
+China Cat and Rider took many forms over the years, from the rigidly
+structured transition of '72 (which I do NOT think should be
+delineated) to the distinct '73/4 jam, to the '90s transitions (which
+I haven't heard enough of to know if there are recurring themes).
+
+> Then again, there are instances of that China->Rider jam that occur in other
+> places, or (fdor example) coming from something else into Rider.  it only
+> happened a few times, but there you go.
+
+3/31/73 II comes to mind [... Other One [1] > space > "pre-Rider jam" > Rider ]
+
+> I think we need to give it a name.
+
+Please !
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Fri, 16 Feb 1996 12:33:55 -0500
+Subject: Re:  Jams
+
+no, splice meaning jerry's term for an abrupt transition with no jamming
+inbetween.
+
+        --x
+
+At 12:18 PM 2/16/96 -0800, you wrote:
+>>I think it's intended to distinguish from a "splice," which would get the
+>>single ">"
+>
+>
+>"SPlice" as in "edit"?  That's not what > means to me!
+>
+>
+>
+- --
+xian =%7o		http://www.pobox.com/~xian
+Enterzone               http://enterzone.berkeley.edu/enterzone.html
+   \
+    \ 
+     \
+      \
+      \//
+       \
+sonic curves youth primus nails helmet king francisco san crimson redux again
+man from back drop desert oblique comix and mars cormorant inch selihoth
+save me i am a underwater chicken wire mother cop dreams gondolier
+review of a berry newt the humphries elizabeth eats the fire
+since the land of the last dogs and men to know china times
+nude eye sensation roadkill innnocence and male breasts 
+the nine very short way you live now stories
+warning: dangerous reviews of swans ahead!
+
+
+------------------------------
+
+End of DeadLists Digest V1 #7
+*****************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

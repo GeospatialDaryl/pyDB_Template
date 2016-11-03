@@ -1,0 +1,174 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #144
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Tuesday, 21 January 1997      Volume 01 : Number 144
+
+In this issue:
+
+	Re: Song titles etc 
+	Re: DeadLists Digest V1 #141
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Tue, 21 Jan 1997 15:20:37 +0000 (GMT)
+Subject: Re: Song titles etc 
+
+On Tue, 21 Jan 1997, Brian McAllister wrote:
+
+> I have no problem with Matt being the coordinator/caretaker/guru for
+> this.  I think that many of us can contribute to it, but there needs
+> to be one person who takes on a commitment to maintain the "official"
+> list.
+
+Looks like it's me then - you can add my name wherever
+needed Nathan.
+
+I'm in full agreement with the guidelines that Brian
+suggested for the song list.
+
+One entry per song and that should be as close as we can
+get to the *official* title of the song based on;
+
+- - official Dead releases
+- - official release by composer
+- - other sources
+- - if all else fails : group discussion
+ 
+
+A question for the set list file spec experts.  Are there
+any non-alphanumeric characters that occur in song titles
+that would cause problems?  The characters that I think
+occur are;
+
+   comma
+   apostrophe
+   question mark
+   exclamation mark
+   ordinary parenthesis
+   hash
+
+Parentheses seem to be the likliest to cause trouble
+but I'm not sure.
+
+
+So if anyone has any amendments ready,  complete lists
+of songs to crosscheck against the master list or other 
+information send them along.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Tue, 21 Jan 1997 10:03:42 -0800
+Subject: Re: DeadLists Digest V1 #141
+
+>From: nathan@well.com (Nathan Wolfson)
+>
+>Based on the discussions regarding how to best make transferring setlists
+>work, we're:
+>
+>1)  ignoring tabs (they're treated like any other white space)
+>2)  ignoring line breaks (and using an otherwise non-used character to
+>indicate where they should fall).
+
+>I have one question:  How do we distinguish between two different shows?
+>Currently it looks simply like two carraige returns.  Could we use something
+>like "++" or would that mess with parsing later on?
+
+Ah, the spec, the spec....
+... says to use a page break character, which is ctl-L, or ^L, or 
+(It will be interesting to see how the last character of the above line
+comes out of people's mailers.)
+
+I'd use a the uparrow character, myself (shift 6)- or maybe even "^L"...
+you won't find that in any setlist.
+
+The reason for all the niggling little details is not necessity. As people
+have pointed out, you can search for <blah-blah> and put in a break. It's
+really for redundancy, so when someone does mess it up, the parser can
+still figure out what's going on. If no one has figured this out yet, I'm
+big on redundancy, so
+a program can then go in and do the work (or at least spot the something
+isn't quite right), so a person never has to.
+>------------------------------
+>
+>From: "Ryan Shriver" <ryan@digicool.com>
+>When the venue is listed "Civic Center", we (on the search side) can't
+>differentiate between the Civic Center, Lakeland, FL or the Civic
+>Center, Baltimore, MD?
+
+I'd personally be looking for Lakeland, rather than Civic Center.
+If I'm searching for a New Years show, I'm much more likely to look
+for Oakland than try to remember how to spell Coliseum or HJK vs. H.J.K.
+- -----------------
+Some bizarreness in some mailer or something somewhere turned "F" into =46,
+in case no one figured it out. Weird:
+>=46eel Like a Stranger is really
+   Feel Like a Stranger
+ and
+>=46rom Just a Little LightFrom Just a Little Light
+should be
+   From Just a Little Light
+
+>You=B9re Still There
+ is
+>You're Still There
+- --------------------------
+>From: Brian McAllister <brian@hotrats.mit.edu>
+>.... each song on the "official" list should have one
+>and only one entry.  It may be useful to have a list of variants for
+>automating the processing of submitted data, but they don't belong on
+>the official list.  I saw some entries on the Stak-O-Dead list which
+>are quite "wrong", but might show up in randomly submitted info ("Good
+>Loving", for instance).
+
+
+Exactly the intent. I made up the list as I was entering setlists, & found
+variant names of songs that wwere hard to reconcile, so I automated it
+as much as I could with this list. The only person who needed the variant names
+is the once maintaining the real list, go gets random setlists and converts.
+- ---------------------
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #144
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

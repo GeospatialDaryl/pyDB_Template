@@ -1,0 +1,136 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #122
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Saturday, 11 January 1997     Volume 01 : Number 122
+
+In this issue:
+
+	[none]
+	comments on the spec
+	Year caretakers.
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: pollard@alex.ecs.umass.edu (Brian Pollard)
+Date: Sat, 11 Jan 1997 11:13:00 -0500
+Subject: [none]
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 11 Jan 1997 13:11:18 -0500
+Subject: comments on the spec
+
+Song separators:
+I think several of the symbols are unnecessary.
+';;' for pauses greater than 60 seconds. Too many tapes have pauses edited.
+Oftentimes the edit is not going to be detectable.
+'\' for edits between songs. Again, edits are not always detectable, and
+secondly this is pointless for most any show where circulating tapes
+originate from more than one master.
+In general, my opinion of pauses between songs, whether timing them, or
+simply notating them as complete or incomplete is pointless and we should do
+away with it. I'm all for defining segues, stop-start no pauses, etc, but to
+try to document what they *didn't* play is superfluos.
+
+'~' or '>'? How *exactly* do we define the difference? Without an exact
+definition to work with I think we would be creating potentially subjective
+and contradictory information based upon who submitted the list and what
+they consider a segue.
+
+Using common acronyms (UCLA, MIT, SUNY). For the most part I'm against this.
+I think we should use the full name of the school (Univ. of Cal.- Los
+Angeles; Mass. Inst. of Tech., etc.). I propose this simply to remove any
+subjectivity as to what is a common acronym and what isn't. UCLA may be
+universally 'common', but how about VPI, which is actually referred to as
+Virginia Tech? or is it PSU or Penn State? UVA or Univ. of Va.? Common to
+one person is not necessarily common to another. I say we just put the full
+name in and remove it as in issue (unless of course I'm the only one who
+sees this as an issue).
+
+comments?
+
+Gordon
+
+
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Sat, 11 Jan 1997 13:51:21 -0500
+Subject: Year caretakers.
+
+Probably stating the obvious here, but I volunteer for 1977-78-79.
+
+Gordon
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Sat, 11 Jan 1997 14:32:39 -0800 (PST)
+Subject: [none]
+
+in my view we can eliminate the tilde [ ~ ] from the specs since it's not
+doing much besides doubling for the guzinta [ > ].  In my view, if one wants
+to specify a jam between songs one should note it as "jam" in the list.
+
+I would like to keep the backslash to indicate splices between songs.  On
+several occasions in the lists for 1969 and 1970 I found it useful.
+
+also, I found that the double semi-colon [ ;; ] to indicate a L O N G pause
+between songs came in handy on a few occasions, so again, I think we should
+keep it.
+
+*
+
+More on Alan's questions:
+
+I DO want the field headings on the left margin.  I DON'T think we need the
+field headings run across the top as well.
+
+I DON'T think the field headings need a trailing colon but if that makes
+programming easier I'm game.  However, I note that they'd be very easy for a
+programmer to insert.
+
+I DON'T think we need tabs between songs in the setlists.
+
+*
+
+It would make sense to me if John Oleynick were to post what he has of 1971
+lists here, and then the rest of us can start filling in the blanks, and
+when we have complete document we can repost it preparatory to putting it up
+on our website to be.  Make sense?  I'll add the lists for the shows where
+we have NRPS tapes.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #122
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

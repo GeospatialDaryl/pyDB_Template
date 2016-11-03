@@ -1,0 +1,84 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #161
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Saturday, 1 February 1997     Volume 01 : Number 161
+
+In this issue:
+
+	Re: DeadLists Digest V1 #160
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Fri, 31 Jan 1997 17:03:33 -0800
+Subject: Re: DeadLists Digest V1 #160
+
+>From: "Matthew S. Cramer" <cramer@voicenet.com>
+>I have completed a command-line app for MacOS (PPC) and Windoze32 (Win 95
+>or WinNT) that will non-politely tell you if it does not recognize a song
+>name in the set or encore fields of a data file.  There are some details:
+
+Can it suggest an alternative or closest match? That might be a quick way
+to fix a song with several common aliases.
+In any case, I'm impressed. I talk a lot about doing stuff like this,
+but it's all talk and no action.
+- ---------------------
+>From: John Oleynick <johno@john.rutgers.edu>
+> The setlists initially came from a number of places:
+>...'74-'89:  a file from ftp.apple.com.  I think this was from
+>                Stak-O-Dead and I think one time I asked Allen
+>                where the information came from but now I forget
+>                (I know it wasn't Deadbase, though)
+- ----------------------
+>From: Nathan Wolfson <nathan@well.com>
+
+>(It would be good to nail down where some of the ftp.apple.com info came
+>from, but no big deal either way I suppose.  That is as reasonable a
+>source as most.)
+
+The '64->89 stuff should all be public domain, which is the main issue.
+It was done before DeadBase was ever released, and I think had been
+floating around the net for a number of years. I wouldn't be surprised
+if that is how DeadBase started. I think I actually got those lists from
+sources other than stak-o-dead as well, so other people had access and were
+using them. I never saw a list with pre-74 sets that wasn't a deadbase
+copy.
+I suppose I could ask Jon Gilbert where he got the setlists for Stak-o-Dead,
+if anyone truly cares, but I suspect the author is 'trad.'.....:-)
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #161
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

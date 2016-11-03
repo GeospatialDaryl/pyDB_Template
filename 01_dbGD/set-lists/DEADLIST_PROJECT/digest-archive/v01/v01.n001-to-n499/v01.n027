@@ -1,0 +1,297 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #27
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Friday, 1 March 1996        Volume 01 : Number 027
+
+In this issue:
+
+	"First things first..."
+	Re: DeadLists Digest V1 #25
+	First things first
+	Re: First things first
+	Database readability
+	database complexity, 2 versions?
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Barry Barnes <barnes@tech.iupui.edu>
+Date: Fri, 1 Mar 1996 09:58:42 -0500 (EST)
+Subject: "First things first..."
+
+Brian McAllister wrote some good comments re: printing setlists from the 
+Deadlist database.  And Jim Powell wrote:
+> ability to print setlists would be cool but that's front end.  gotta start
+> at the very beginning:  first things first:  database before front-end,
+> database format before database.  but the beginning must have the ends in
+> view.  which is what we're doing.
+
+Everything I know about programming says you MUST start with the output 
+first!  What is the purpose/output of Deadlist?  For me it will be 
+generating personal lists and set/j-cards.  If this is true for most of 
+us, then it's all gotta be in the database in a format we can easily 
+print out.
+
+Barry
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Fri, 1 Mar 1996 10:40:27 -0500
+Subject: Re: DeadLists Digest V1 #25
+
+At 4:06 PM 2/29/96, Allen J. Baum wrote:
+>>The advantage to having "<songname> Tease" in the set lists is that one
+>>could then search for specific (or all) teases. I would call this a good
+>>thing.
+>
+>But you can do that by taking it out off-line (out of the setlists field),
+>into the footnotes section as well, right?
+>----------
+>>Might we want to consider the phrase "continues"? Then you would have a
+>>song list such as ...
+>>
+>>Dark Star ->
+>>Drums ->
+>>Dark Star continues ->
+>>Sugar Magnolia
+>>
+>>... so that anyone browing song lists could see exactly what's going on.
+>>And the database module could be written to ignore "x continues" when
+>>tabulating every-time-played instances. The "notes" field could state on
+>>which sides of the drums the verses were sung.
+>
+>The '*song' syntax does essentially the same thing.
+>I guess I just like doing this sort of thing with punctuation characters
+>instead of normal alphabetic strings that might get confused for song titles.
+
+It all boils down to a matter of taste; both methods are equally
+functional. My own personal preference is to spell everything out 'cause
+IMHO it makes it easier to -quickly- grasp the information at hand without
+doing any mental translation. (Anyone who's seen my tape labels [especially
+recently] knows I tend to get very pedantic.)
+
+But neither method is -intrinsically- superior. So how do we decide, flip a
+coin?
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Fri, 01 Mar 96 13:35:30 -0500
+Subject: First things first
+
+Jim Powell wrote:
+> 
+> ability to print setlists would be cool but that's front end.  gotta start
+> at the very beginning:  first things first:  database before front-end,
+> database format before database.  but the beginning must have the ends in
+> view.  which is what we're doing.
+
+Indeed.  My point was that that ease of extracting the information we
+want to see in setlists should be one of the design criteria for the
+database format.
+
+We certainly should concern ourselves later with the software that will
+do the extraction, formatting and printing.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: jeff@tiedrich.com (jeff tiedrich)
+Date: Fri, 1 Mar 1996 13:33:28 -0500
+Subject: Re: First things first
+
+At 1:35 PM 3/1/96, brian@hotrats.mit.edu wrote:
+>Jim Powell wrote:
+>>
+>> ability to print setlists would be cool but that's front end.  gotta start
+>> at the very beginning:  first things first:  database before front-end,
+>> database format before database.  but the beginning must have the ends in
+>> view.  which is what we're doing.
+>
+>Indeed.  My point was that that ease of extracting the information we
+>want to see in setlists should be one of the design criteria for the
+>database format.
+
+A thought regarding of the complexity of the data (jam, phil+bill, tuning
+jams, etc) in the raw database: it's easier to filter out information we
+don't need than it is to add it in later on, so let's get as detailed as we
+possibly can from the word go.
+
+                .tiedrich
+
+- --
+jeff tiedrich             tiedrich.com -- wake up and smell the pixels!
+jeff@tiedrich.com         webdesign and more: http://www.tiedrich.com/
+
+
+
+------------------------------
+
+From: brian@hotrats.mit.edu
+Date: Fri, 01 Mar 96 14:11:03 -0500
+Subject: Database readability
+
+Jim Powell wrote:
+> for the sake of being immediately intelligible to the less-initiated
+> we should keep special signs & symbols to a mimimum.
+
+I responded:
+> In the raw database ?  Do we intend for the "less-initiated" to be
+> dealing with it directly ?
+
+And Jim answered:
+> yes, a basic perameter of the project is creating a raw database uploadable
+> in proper format by mere mortals such as us, who are going to create it
+> piecemeal off our tapes & other sources, and downloadable similarly,
+> readable every step of the way, once we settle on what format will work best
+> for us (not work best for the machine, but for us, for our purposes).  on
+> that database you lofty programmer types can build whatever frontends you
+> please
+
+Maybe I misunderstood you.  By "less-initiated", I thought we were
+referring to those outside of this project, who might not have access
+to our database format spec and its defined terminology.  Certainly
+that format and terminology should be as "readable" as possible.  I
+don't see how we can incorporate all the information we want without
+some "special signs & symbols".
+
+I would assume that anyone downloading the database would also get a
+set of definitions, etc along with it.  Would you expect to be able to
+use DeadBase's "every time played" lists without the definitions for
+all those acronyms ?
+
+Is there any practical difference between defining what name to use
+for a song and how to label a "reprise" of it ?
+
+I see no conflict between a requirement for readability and a desire
+for a data format that makes writing frontends easier.
+
+- ----
+Brian McAllister                             Internet: mcallister@mit.edu
+Bates LINAC (MIT), Middleton, Ma             (617) 253-9537
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Fri, 01 Mar 1996 14:14:36 -0500
+Subject: database complexity, 2 versions?
+
+In regards to deciding how much information to keep in our database,
+how to print setlists and tape labels if we keep so much detail, etc.,
+what if we just distribute multiple versions of the database?  We could
+have the master "kitchen sink" database that has information like:
+
+	Chinacat Sunflower {5:30} -> China-Rider Transitional Jam {3:00} ->
+	Feelin' Groovy/UJB-like Transitional Jam {2:00} -> 
+	China-Rider Transitional Jam Continues {1:00} ->
+	I Know You Rider {7:00}
+
+From this master database we could also generate and distribute an alternate
+more "traditional" database that only has the traditional level of detail:
+
+	Chinacat Sunflower -> I Know You Rider
+
+Both databases would be kept in the same tab-separated format that
+would be usable by any PC or Mac database user, the only difference
+being that one database would only have the traditional amount of
+information that is kept about setlists and the other database would
+have all of the information.  We (deadlists folks) would only really
+work with the master "kitchen sink" database and would use a program to
+generate the "traditional" database.  A random person who only wants to
+look at setlists or print tape labels could just download the
+"traditional" database while someone who wants to seek out tapes with
+the longest Phil + Bill jams could download the "kitchen sink"
+database.
+
+			John
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 1 Mar 1996 12:52:27 -0800
+Subject: [none]
+
+the reason punctuation is an issue is because we're basically gathering
+setlists off tapes to make up our database, and when conflicts arise we'll
+need to be precise about splices in our reports.  And then, we want to be
+accurate about guzintas cuz guzintas are what it's ALL about.  (There are
+fewer than 50 shows altogether for which we don't have tapes that will equal
+or surpass DeadBase's information.  And we have other sources to cover most
+of these.)
+
+once we've agreed on the format in which we want to upload lists for shows,
+we'll need to start assembling setlists piecemeal from our tapes.
+
+we'll need a place in cyberspace to assemble our lists, let's call it <
+lists >, filed by date, retrievable by date or the whole list, one entry per
+date, first person to post a list signs it first.  thereafter anyone else
+may sign off on a list if she or he has confirming evidence to offer, and
+confirmng evidence is always useful.
+
+if someone has evidence that appears to challenge a posted list, we'll need
+another place to post that, call it  < challenges > .  an initial challenge
+would state what details of what list need what alteration, in the
+challenger's view of the evidence.  then it would be up to the person
+posting the challenge to get in touch with the person who posted the
+original list (& signed it with an e-mail address), and see if they can
+resolve the issue together in e-mail, and report back in a month max.  if
+need be we'll change the posting in < lists >.  if the two posters can't
+agree, then they can write up a statement of their inconclusiveness about
+the evidence as they differently see it, and post this in < challenges >.
+with luck, this will elicit further evidence on the quesiton from the
+community at large.  we might want to post more persistantly inconclusive
+issues from this conference under another, < queries >.
+
+and we'll need a central bulletin board where how all this set up operates,
+and how to go about posting lists, and the proper format, etc.  call it <
+protocols > or < information >.  among other protocols, we'll need one
+describing how to speed-check a tape before you bother timing it, if you're
+going to do a timing.
+
+it might be that as we work over early tapes we'll generate a list of <
+bogus tapes >.
+
+and we'll need a place, maybe just an extension of this one, where we can
+talk about issues arrising from our ongoing project as the lists begin to
+accumulate, so maybe call it < deadlists >.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #27
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

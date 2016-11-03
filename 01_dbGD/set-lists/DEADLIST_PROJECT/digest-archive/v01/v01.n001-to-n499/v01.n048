@@ -1,0 +1,133 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #48
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Wednesday, 8 May 1996       Volume 01 : Number 048
+
+In this issue:
+
+	Re: DeadLists Formatting Proposal V1.2 (long)
+	Next step...
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Wed, 8 May 1996 10:26:03 -0700
+Subject: Re: DeadLists Formatting Proposal V1.2 (long)
+
+>At 04:31 PM 5/7/96 -0700, baum@apple.com (Allen J. Baum) wrote:
+>>My personal preference is the following, a combination of rules 5&6&7:
+>>      Song timings should be in the comments section (listed as a set
+comment, 
+>>        in timing map format) because it rare to search for that 
+>>        information, and it just gets in the way. (Also, it will be 
+>>        difficult to search for because timings are hard to get exact)
+>
+>FWIW:
+>
+>I would consider it VERY useful to be able to search for all Eyes post '85
+>that break the ten minute mark.  This is how I envisioned the timing
+>information - not for finding the playin' that lasts 18:32 exactly but for
+>looking for certain versions of songs that fit in a range.
+
+I *totally* agree, as will most folks interested in timings I think.  I
+couldn't give a damn whether there are any Playins that last exactly 30:23.
+But I am contstantly wondering whether most of the Stars in 73 (for example)
+were longer than 30 minutes.  (BTW, my guess is that they *weren't*, even
+though there were many long ones.)
+
+>I think our biggest problem here on Deadlists is that we are creating data
+>specifications when we don't know what our end product will look like
+>(backwards for most software engineering).  Is anyone else thinking about
+>the software that will use these data files?  Personally, I had begun
+>working on a freeware tape tracking program (basically to put Geier out of
+>business) when I heard about this project, so I put it on hold.  My plans
+>included a searchable database, label generation, contact sheet, and a
+>"trades in progress" organizer, as well as a place to map out tape trees.
+>Any other ideas for the user end?
+
+Matt,
+
+Check out:  http://www2.southwind.net/~tjb9d/gdead/tbt
+
+It's probably not exactly what we would be shooting for, but it's the best
+online version of this kind of thing that I know of.  For better
+descriptions of the kind of end-user attributes we are searching for, check
+out the original DeadLists proposal, penned by Jim Powell, which can be
+acccessed from the DeadLists Home Page at 
+
+http://www.well.com/user/nathan/dlhome.htm
+
+I think the Deadlists group probably won't tackle the "trades in progress"
+tracker for individuals nor the tape tree mapping stuff.  Both are worthy
+items, but just getting a really accurate database of the kind described byt
+the various DeadList proposals is going to be work-enough for now.  Besides,
+this is going to be an *online* database (albeit with a downloadable data
+fail, so that peole chould do their own searching offline using their own
+software), so creating utilities for indiviual traders doesn't really mesh
+with the intital goal(s) of the project, imho.
+
+- --nathan
+
+
+
+------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 8 May 1996 15:38:11 -0500 (CDT)
+Subject: Next step...
+
+After reading the archives, and studing the Spec v 1.2, it seems like 
+this project is well on its way. There seems to be at least some consensus 
+about how to organize the lists, which is a bug step, knowing how picky 
+heads can be about these things.
+
+I think now may be a good time to consider the next move. Are we ready to 
+start compiling these things? If so, we need to figure out a central 
+place to put them. Maybe now would also be a good time to break down what 
+kind of work needs to be done, specifically. My main interest in this 
+project is to work on a web front-end for searching the set-list data. 
+Perhaps we should discuss how this should function? Are there PC / Mac 
+developers on this list who will be making applications to do the same 
+kind of thing?
+
+I guess the big question for me after reading the digests is are we 
+satisfied enough with the specification to "move on." If not, I think it 
+is important to ratify that document. If so, a new discussion is order. 
+Later,
+
+	Tim
+
+====
+Tim Buller                                                 Mac Tech Support 
+SouthWind Internet Access, Inc.           http://www2.southwind.net/~tjb9d/
+Serving South Central Kansas                   e-mail:<tjb9d@southwind.net>
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #48
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

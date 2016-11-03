@@ -1,0 +1,893 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #186
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 20 February 1997     Volume 01 : Number 186
+
+In this issue:
+
+	Re: Proposed data spec changes
+	1973 Part 1
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Thu, 20 Feb 1997 19:21:26 -0600 (CST)
+Subject: Re: Proposed data spec changes
+
+> We need the setlists to be in the format specified on the Data Spec. John 
+> Oleynick says he has a script to convert non-tab and multiple-newline data to 
+> the correct format. If this is the case, then as far as I'm concerned, 
+> contributors can write to this "easier" format (for lack of a better word) 
+> and we can convert the data with a script.
+
+John's filter works very well; I've used it to convert text files saved
+from the web site into v.1.3.1 spec compliant files for parsing into the
+Tour-by-tour set-list files for all of the years that have been posted.
+His work demonstrates how easily the newline and bracket problems can be
+fixed; my opinion is we leave the spec as it is, but accept data with any
+of these problems which can be easily fixed...
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Thu, 20 Feb 1997 22:02:21 -0600 (CST)
+Subject: 1973 Part 1
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+  Send mail to mime@docserver.cac.washington.edu for more info.
+
+- --1915877608-903869518-856497741=:4880
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Here's the first third of 73... I thought it might be useful to pore over
+this while I'm working on the rest of it... there may be some errors in
+the RECORDING and COMMENTS fields, so please let me know.
+
+	Tim
+
+I'm attaching it to this message in plaintext and MIME formats, as my
+mailer tends to wrap lines from files that are read in
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+BAND	Grateful Dead
+VENUE	Roscoe Maples Pavillion, Stanford University
+CITY	Palo Alto
+STATE	CA
+DATE	2/9/73
+SET1	Promised Land ; Row Jimmy ; Black Throated Wind ; Deal ; Me And My Uncle ; Sugaree ; Looks Like Rain ; Loose Lucy ; Mexicali Blues ; Brown Eyed Women ; El Paso ; Here Comes Sunshine ; Playin' In The Band
+SET2	China Cat Sunflower > I Know You Rider ; Jack Straw ; They Love Each Other ; Truckin' > Eyes Of The World > China Doll ; Big River ; Ramble On Rose ; Box Of Rain ; Wave That Flag ; Sugar Magnolia ; Uncle John's Band ; Around & Around
+SET3	
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	210 SBD
+CONTRIBUTORS	buller@math.ukans.edu
+
+BAND	Grateful Dead
+VENUE	Dane County Coliseum
+CITY	Madison
+STATE	WI
+DATE	2/15/73
+SET1	Loose Lucy ; Beat It On Down The Line ; Brown Eyed Women ; Mexicali Blues ; Tennessee Jed ; Looks Like Rain ; Box Of Rain ; Row Jimmy ; Jack Straw ; China Cat Sunflower > I Know You Rider ; Me And My Uncle ; Bertha ; Playin' In The Band ; Casey Jones
+
+SET2	Here Comes Sunshine ; El Paso ; You Ain't Woman Enough ; They Love Each Other ; Big River ; Dark Star > Eyes Of The World > China Doll ; Promised Land ; Sugaree ; Sugar Magnolia
+SET3	
+ENCORE	Uncle John's Band ; One More Saturday Night
+COMMENTS	
+RECORDING	190 SBD + AUD: The complete show except the encores, SBD except Casey Jones & Sunshine Daydream patched in from listenable AUD (which does not circulate) (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	St. Paul Auditorium
+CITY	St. Paul
+STATE	MN
+DATE	2/17/73
+SET1	Promised Land ; He's Gone ; Looks Like Rain ; Box Of Rain ; Wave That Flag ; Mexicali Blues ; Bird Song ; Beat It On Down The Line ; Loose Lucy ; Me And Bobby McGee ; Stella Blue ; El Paso ; They Love Each Other ; Playin' In The Band
+SET2	Truckin' ; Row Jimmy ; Big River ; You Ain't Woman Enough ; Here Comes Sunshine > China Cat Sunflower > I Know You Rider ; Around & Around ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away ; One More Saturday Night
+SET3	
+ENCORE	Casey Jones
+COMMENTS	 
+RECORDING	220 SBD
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	International Amphitheatre
+CITY	Chicago
+STATE	IL
+DATE	2/19/73
+SET1	
+SET2	He's Gone > Truckin' > The Other One > Eyes Of The World > China Doll ; Sugar Magnolia ; Casey Jones
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Promised Land ; Box Of Rain ; Brown Eyed Women ; El Paso as SET1
+RECORDING	90 SBD: The 2nd set conclusion from He's Gone through Casey Jones (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Assembly Hall, University of Illinois
+CITY	Champaign-Urbana
+STATE	IL
+DATE	2/21/73
+SET1	
+SET2	
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	not in circulation (2/97)
+CONTRIBUTORS	buller@math.ukans.edu
+
+BAND	Grateful Dead
+VENUE	Assembly Hall, University of Illinois
+CITY	Champaign-Urbana
+STATE	IL
+DATE	2/22/73
+SET1	Promised Land ; They Love Each Other ; El Paso ; Bird Song ; Mexicali Blues ; Deal ; Looks Like Rain ; Tennessee Jed ; Box Of Rain ; Playin' In The Band
+SET2	Wave That Flag ; Me And My Uncle ; Dark Star > Eyes Of The World > China Doll ; Around & Around ; Goin' Down The Road Feelin' Bad > One More Saturday Night
+SET3	
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	160 SBD + AUD: The SBD contains the 1st set & Wave That Flag, the AUD Me & My Uncle through Casey Jones; the AUD is quite good. The 1st set AUD also circulate (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Fieldhouse, University of Iowa
+CITY	Iowa City
+STATE	IA
+DATE	2/24/73
+SET1	Bertha ; Mexicali Blues ; Brown Eyed Women ; Looks Like Rain ; Loose Lucy ; Beat It On Down The Line ; China Cat Sunflower > I Know You Rider ; Jack Straw ; Here Comes Sunshine ; El Paso ; Box Of Rain ; Tennessee Jed ; Playin' In The Band
+SET2	They Love Each Other ; Greatest Story Ever Told ; Row Jimmy ; Big River ; Ramble On Rose ; Me And Bobby McGee ; Truckin' > Nobody's Fault But Mine Jam > Eyes Of The World > Sugar Magnolia
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Wave That Flag ; You Ain't Woman Enough after Me And Bobby McGee
+RECORDING	60 AUD + 15 SBD: The AUD contains Wave That Flag, You Ain't Woman Enough, and Truckin > Nobody's Jam > Eyes Of The World < Sugar Magnolia. The SBD contains Truckin > Nobody's jam & breaks off in the middle of Nobody's jam. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Pershing Municipal Auditorium
+CITY	Lincoln
+STATE	NE
+DATE	2/26/73
+SET1	Promised Land ; Deal ; Mexicali Blues ; Loser ; Jack Straw ; Don't Ease Me In ; Box Of Rain ; China Cat Sunflower > I Know You Rider ; Looks Like Rain ; Loose Lucy ; Beat It On Down The Line ; Row Jimmy ; El Paso ; Big Railroad Blues ; Playin' In The
+ Band
+SET2	They Love Each Other ; Dark Star > Eyes Of The World > Mississippi Half Step ; Me And My Uncle ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away
+SET3	
+ENCORE	
+COMMENTS	Order of this show is uncertain. DB IX lists Big River ; Tennessee Jed ; Greatest Story Ever Told to follow They Love Each Other. The superior AF master supplies the 1st set.  There is a brief cut in Mexicali.  The tape breaks off during I Know Y
+ou Rider after "Wish I was a headlight" and resumes during Looks Like Rain before "Did you ever listen to the sound."  China Cat Sunflower through Looks Like Rain circulates separately in the inferior AF to cover this cut (Bobby's guitar is very prominent
+ on this master).  At the end of the first set on the superior AF tape is spliced in They Love Each Other from the inferior AF; this breaks off half way. The SB in circulation runs from Dark Star through Not Fade Away.  There is a cut during the jam befor
+e the second vocals of Eyes Of The World.  Most copies of the SBD in circulation are somewhat fast.  Consult vault sources. (2/97)
+RECORDING	80 SBD  85 FOB  25 FOB
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Salt Palace
+CITY	Salt Lake City
+STATE	UT
+DATE	2/28/73
+SET1	Cold Rain & Snow ; Beat It On Down The Line ; They Love Each Other ; Mexicali Blues ; Sugaree ; Box Of Rain ; El Paso ; He's Gone ; Jack Straw
+SET2	China Cat Sunflower > I Know You Rider ; Big River ; Row Jimmy ; Promised Land ; Truckin' > The Other One > Eyes Of The World > Morning Dew ; Sugar Magnolia
+SET3	
+ENCORE	And We Bid You Good Night
+COMMENTS	
+RECORDING	135 SBD: The complete show except Truckin, Morning Dew, Sugar Magnolia & We Bid You Goodnight. The 1st set & 2nd set opening SBD circulating is somewhat degraded. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Nassau Veterans Memorial Coliseum
+CITY	Uniondale
+STATE	NY
+DATE	3/15/73
+SET1	Promised Land ; Mississippi Half Step ; Mexicali Blues ; They Love Each Other ; Looks Like Rain ; Deal ; Beat It On Down The Line ; Box Of Rain ; Row Jimmy ; Me And My Uncle ; Tennessee Jed ; El Paso ; Here Comes Sunshine ; Playin' In The Band
+SET2	Loose Lucy ; Big River ; Sugaree ; Jack Straw ; Stella Blue ; Truckin' > The Other One > Eyes Of The World > China Doll ; You Ain't Woman Enough ; Sugar Magnolia ; Casey Jones
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	90 SBD: They Love Each Other, Mexicali Blues, Playin In The Band, Row Jimmy, Beat It On Down The Line, Here Comes Sunshine (breaks off), Truckin > Nobody's jam > The Other One > Eyes Of The World (breaks off). The SBD in circulation is quite deg
+raded; it contains the songs in this order, with a flip before Truckin. Phil plays briefly with Stronger Than Dirt during The Other One (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Nassau Veterans Memorial Coliseum
+CITY	Uniondale
+STATE	NY
+DATE	3/16/73
+SET1	China Cat Sunflower > I Know You Rider ; Jack Straw ; Wave That Flag ; Looks Like Rain ; Ramble On Rose ; Box Of Rain ; Beat It On Down The Line ; They Love Each Other ; El Paso ; Row Jimmy ; Mexicali Blues ; Bird Song ; Playin' In The Band
+SET2	Promised Land > Bertha > Greatest Story Ever Told ; Loser ; Big River ; Don't Ease Me In ; Me And My Uncle ; Dark Star > Truckin' > Morning Dew ; Sugar Magnolia
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	180 SBD + AUD. The compete show except only the opening 10:12 of Playin is available in a combination of SBD and AUD. The SBD supplies the 1st set except only the first 1:43 of Playin, and also Morning Dew and Sugar Magnolia. The AUD supplies th
+e first 10:12 of Playin plus the 2nd set complete except Sugar Magnolia. Soundboard tape is from 7" Reel of Betty's Board. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Nassau Veterans Memorial Coliseum
+CITY	Uniondale
+STATE	NY
+DATE	3/19/73
+SET1	Promised Land ; He's Gone ; Mexicali Blues ; They Love Each Other ; Looks Like Rain ; Wave That Flag ; Box Of Rain ; The Race Is On ; Row Jimmy ; El Paso ; China Cat Sunflower > I Know You Rider ; Around & Around ; Tennessee Jed ; Playin' In The Band
+
+SET2	Loose Lucy ; Me And My Uncle ; Brown Eyed Women ; Big River ; Mississippi Half Step ; Stella Blue ; Jack Straw ; Truckin' > The Other One > Eyes Of The World > China Doll ; Johnny B. Goode ; Casey Jones
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Casey Jones as Encore 1, One More Saturday Night as Encore 2.
+RECORDING	225 AUD + SBD: The complete show, the 1st set & encore in listenable AUD, the 2nd set in SBD. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Utica Memorial Auditorium
+CITY	Utica
+STATE	NY
+DATE	3/21/73
+SET1	Bertha ; Me And My Uncle ; Wave That Flag ; Looks Like Rain ; Tennessee Jed ; Box Of Rain ; Jack Straw ; You Ain't Woman Enough ; Row Jimmy ; Beat It On Down The Line ; Here Comes Sunshine ; The Race Is On ; Loser ; El Paso ; China Cat Sunflower > I 
+Know You Rider ; Playin' In The Band
+SET2	Greatest Story Ever Told ; They Love Each Other ; Mexicali Blues ; Brown Eyed Women ; Big River ; Brokedown Palace ; Me And Bobby McGee ; Weather Report Suite Prelude > Dark Star > Eyes Of The World > Wharf Rat ; Sugar Magnolia ; Casey Jones
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	255 SBD: The complete show except a cut in Eyes Of The World. Soundboard tape is from 7" Reel of Betty's Board. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Utica Memorial Auditorium
+CITY	Utica
+STATE	NY
+DATE	3/22/73
+SET1	Promised Land ; Sugaree ; Mexicali Blues ; They Love Each Other ; Looks Like Rain ; Deal ; Beat It On Down The Line ; Bird Song ; Jack Straw ; Box Of Rain ; You Ain't Woman Enough ; The Race Is On ; Row Jimmy ; El Paso ; China Cat Sunflower > I Know 
+You Rider ; Playin' In The Band ; Casey Jones
+SET2	Big River ; Wave That Flag ; Me And My Uncle ; Here Comes Sunshine ; Truckin' > The Other One > Eyes Of The World > China Doll ; Sugar Magnolia
+SET3	
+ENCORE	One More Saturday Night
+COMMENTS	DB IX lists Casey Jones as Encore 2.
+RECORDING	255 SBD + AUD: The complete show in SBD except China Cat Sunflower through Here Comes Sunshine in excellent AUD. Soundboard tape is from 7" Reel of Betty's Board. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	The Spectrum
+CITY	Philadelphia
+STATE	PA
+DATE	3/24/73
+SET1	Bertha ; Beat It On Down The Line ; Don't Ease Me In ; The Race Is On ; Cumberland Blues ; Box Of Rain ; Row Jimmy ; Jack Straw ; They Love Each Other ; Mexicali Blues ; Tennessee Jed ; Looks Like Rain ; Wave That Flag ; El Paso ; Here Comes Sunshine
+ ; Me And Bobby McGee ; Loser ; Playin' In The Band
+SET2	Promised Land ; China Cat Sunflower > I Know You Rider ; Big River ; Stella Blue ; Me And My Uncle ; He's Gone > Truckin' > Spanish Jam > Dark Star > Sing Me Back Home > Sugar Magnolia
+SET3	
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	160 SBD: The last 3 songs of the 1st set (Me & Me And Bobby McGee, Loser, Playin) and the complete 2nd set. Soundboard tape is from 7" Reel of Betty's Board. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Baltimore Civic Center
+CITY	Baltimore
+STATE	MD
+DATE	3/26/73
+SET1	Promised Land ; Mississippi Half Step ; The Race Is On ; Wave That Flag ; Jack Straw ; Sugaree ; Mexicali Blues ; Box Of Rain ; Row Jimmy ; Beat It On Down The Line ; Brown Eyed Women ; El Paso ; China Cat Sunflower > I Know You Rider ; Looks Like Ra
+in ; Don't Ease Me In ; Playin' In The Band
+SET2	Ramble On Rose ; Big River ; Here Comes Sunshine ; Greatest Story Ever Told ; Candyman ; Me And My Uncle ; He's Gone > Truckin' > Weather Report Suite Prelude > Wharf Rat > Me And Bobby McGee > Eyes Of The World > Morning Dew ; One More Saturday Nigh
+t
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	270 AUD: The complete show in listenable AUD. A soundboard tape is from 7" Reel of Betty's Board is also available (how much??) (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Springfield Civic Center Arena
+CITY	Springfield
+STATE	MA
+DATE	3/28/73
+SET1	Cumberland Blues ; Here Comes Sunshine ; Mexicali Blues ; Wave That Flag ; Beat It On Down The Line ; Loser ; Jack Straw ; Box Of Rain ; They Love Each Other ; El Paso ; Row Jimmy ; Around & Around ; Brown Eyed Women ; You Ain't Woman Enough ; Looks 
+Like Rain ; China Cat Sunflower > I Know You Rider
+SET2	Promised Land ; Loose Lucy ; Big River ; Mississippi Half Step ; Me And My Uncle ; Don't Ease Me In ; The Race Is On ; Stella Blue ; Weather Report Suite Prelude > Dark Star > Eyes Of The World > Playin' In The Band ; Johnny B. Goode
+SET3	
+ENCORE	
+COMMENTS	DB IX lists Big River ; Mississippi Half Step before WRS Prelude.
+RECORDING	210 AUD + SBD: The complete show except the beginning of Cumberland Blues circulates in excellent AUD. A SBD of the last 75 minutes of the show, WRS Prelude through Johnny B. Goode, also circulates, but it is marred by a steady hum; and unfortun
+ately, it has rendered the AUD of this portion of the show quite rare. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Community War Memorial
+CITY	Rochester
+STATE	NY
+DATE	3/30/73
+SET1	Promised Land ; Deal ; Looks Like Rain ; They Love Each Other ; Mexicali Blues ; Box Of Rain ; Cumberland Blues ; Candyman ; Beat It On Down The Line ; Don't Ease Me In ; El Paso ; Row Jimmy ; The Race Is On ; Bird Song ; Playin' In The Band
+SET2	China Cat Sunflower > I Know You Rider ; Jack Straw ; Wave That Flag ; Greatest Story Ever Told ; Truckin' > Eyes Of The World > Not Fade Away > Goin' Down The Road Feelin' Bad > One More Saturday Night
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	170 AUD: The complete show except the end of Saturday Night, in listenable AUD. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	War Memorial Auditorium
+CITY	Buffalo
+STATE	NY
+DATE	3/31/73
+SET1	Mississippi Half Step ; The Race Is On ; Sugaree ; Mexicali Blues ; Box Of Rain ; Tennessee Jed ; Jack Straw ; Big Railroad Blues ; El Paso ; Row Jimmy ; Looks Like Rain ; They Love Each Other ; Playin' In The Band
+SET2	Promised Land > Bertha > Greatest Story Ever Told ; He's Gone > Truckin' > Drums > The Other One > Spanish Jam > I Know You Rider ; Sugar Magnolia
+SET3	
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	50 FM-SBD: He's Gone through I Know You Rider (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Boston Garden
+CITY	Boston
+STATE	MA
+DATE	4/2/73
+SET1	Promised Land ; Deal ; Mexicali Blues ; Brown Eyed Women ; Beat It On Down The Line ; Row Jimmy ; Looks Like Rain ; Wave That Flag ; Box Of Rain ; Big River ; China Cat Sunflower > I Know You Rider ; You Ain't Woman Enough ; Jack Straw ; Don't Ease M
+e In ; Playin' In The Band
+SET2	Ramble On Rose ; Me And My Uncle ; Mississippi Half Step ; Greatest Story Ever Told ; Loose Lucy ; El Paso ; Stella Blue ; Around & Around ; Here Comes Sunshine > Jam > Space > Me And Bobby McGee > Weather Report Suite Prelude > Eyes Of The World > C
+hina Doll ; Sugar Magnolia ; Casey Jones
+SET3	
+ENCORE	Johnny B. Goode > And We Bid You Good Night
+COMMENTS	
+RECORDING	225 SBD: The complete show is hard to find; most copies circulating are a patchwork of somewhat degraded scraps of SBD, omit several songs, and contain a notorious cut in the jam between Here Comes Sunshine and Me And Me And Bobby McGee. (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Iowa State Fairgrounds
+CITY	Des Moines
+STATE	IA
+DATE	5/13/73
+SET1	Promised Land ; Deal ; Mexicali Blues ; They Love Each Other ; Box Of Rain ; Loser ; China Cat Sunflower > I Know You Rider ; Beat It On Down The Line ; El Paso ; Row Jimmy ; Me And My Uncle ; Don't Ease Me In > Around & Around
+SET2	Tennessee Jed ; Big River ; Bertha ; Jack Straw ; Sugaree ; Looks Like Rain ; Here Comes Sunshine ; Playin' In The Band
+SET3	Mississippi Half Step ; Greatest Story Ever Told ; Brown Eyed Women ; He's Gone > Truckin' > Drums > The Other One > Eyes Of The World > China Doll ; Sugar Magnolia
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	270 SBD
+CONTRIBUTORS	buller@math.ukans.edu
+
+BAND	Grateful Dead
+VENUE	Campus Stadium, University of California Santa Barbara
+CITY	Santa Barbara
+STATE	CA
+DATE	5/20/73
+SET1	Bertha ; Me And My Uncle ; Box Of Rain ; Deal ; Looks Like Rain ; Tennessee Jed ; The Race Is On ; China Cat Sunflower > I Know You Rider ; Beat It On Down The Line ; They Love Each Other ; Playin' In The Band
+SET2	Promised Land ; Brown Eyed Women ; Mexicali Blues ; Row Jimmy ; Jack Straw ; Big Railroad Blues ; Greatest Story Ever Told ; Here Comes Sunshine ; Big River ; Loser ; El Paso ; Casey Jones
+SET3	Truckin' > The Other One > Eyes Of The World > Stella Blue ; Sugar Magnolia
+ENCORE	Johnny B. Goode
+COMMENTS	
+RECORDING	270 AUD: The complete show, in good AUD. SBD of Jack Straw and the 3rd set & encore also circulate (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Kezar Stadium
+CITY	San Francisco
+STATE	CA
+DATE	5/26/73
+SET1	Promised Land ; Deal ; Jack Straw ; Tennessee Jed ; The Race Is On ; Sugaree ; Mexicali Blues ; Row Jimmy ; Looks Like Rain ; They Love Each Other ; Playin' In The Band
+SET2	Here Comes Sunshine ; El Paso ; Loser ; Beat It On Down The Line ; You Ain't Woman Enough ; Box Of Rain ; China Cat Sunflower > I Know You Rider ; Big River ; Bertha ; Around & Around
+SET3	Mississippi Half Step ; Me And My Uncle ; He's Gone > Truckin' > The Other One > Eyes Of The World > China Doll ; Sugar Magnolia
+ENCORE	Casey Jones
+COMMENTS	
+RECORDING	270 SBD
+CONTRIBUTORS	buller@math.ukans.edu
+
+BAND	Grateful Dead
+VENUE	Robert F. Kennedy Stadium
+CITY	Washington
+STATE	DC
+DATE	6/9/73
+SET1	Promised Land ; Deal ; Looks Like Rain ; They Love Each Other ; Jack Straw ; Loose Lucy ; Mexicali Blues ; Row Jimmy ; El Paso ; Box Of Rain ; Sugaree ; Beat It On Down The Line ; Tennessee Jed ; China Cat Sunflower > I Know You Rider
+SET2	He's Gone > Truckin' > Playin' In The Band ; Loser ; Me And My Uncle ; Mississippi Half Step ; Big River ; Eyes Of The World > China Doll ; Sugar Magnolia
+SET3	
+ENCORE	
+COMMENTS	
+RECORDING	180 SBD: The complete show except the conclusion of Sunshine Daydream (2/97)
+CONTRIBUTORS	buller@math.ukans.edu, chimpowl@well.com
+
+BAND	Grateful Dead
+VENUE	Robert F. Kennedy Stadium
+CITY	Washington
+STATE	DC
+DATE	6/10/73
+SET1	Morning Dew ; Beat It On Down The Line ; Ramble On Rose ; Jack Straw ; Wave That Flag ; Looks Like Rain ; Box Of Rain ; They Love Each Other ; The Race Is On ; Row Jimmy ; El Paso ; Bird Song ; Playin' In The Band
+SET2	Eyes Of The World > Stella Blue ; Big River ; Here Comes Sunshine ; Around & Around ; Dark Star > He's Gone > Wharf Rat > Truckin' ; Sugar Magnolia
+SET3	It Takes A Lot To Laugh It Takes A Train To Cry ;
+That's Alright Mama ; Promised Land ; Not Fade Away > Goin' Down The Road Feelin' Bad > Not Fade Away ; Johnny B. Goode
+ENCORE	
+COMMENTS	SET3 with The Allman Brothers Band & Merl Saunders
+RECORDING	280 SBD
+CONTRIBUTORS	buller@math.ukans.edu
+
+- --1915877608-903869518-856497741=:4880
+Content-Type: TEXT/PLAIN; charset=US-ASCII; name="73p1v1.txt"
+Content-Transfer-Encoding: BASE64
+Content-ID: <Pine.SUN.3.95.970220220221.4880C@titania>
+Content-Description: 
+
+QkFORAlHcmF0ZWZ1bCBEZWFkDQpWRU5VRQlSb3Njb2UgTWFwbGVzIFBhdmls
+bGlvbiwgU3RhbmZvcmQgVW5pdmVyc2l0eQ0KQ0lUWQlQYWxvIEFsdG8NClNU
+QVRFCUNBDQpEQVRFCTIvOS83Mw0KU0VUMQlQcm9taXNlZCBMYW5kIDsgUm93
+IEppbW15IDsgQmxhY2sgVGhyb2F0ZWQgV2luZCA7IERlYWwgOyBNZSBBbmQg
+TXkgVW5jbGUgOyBTdWdhcmVlIDsgTG9va3MgTGlrZSBSYWluIDsgTG9vc2Ug
+THVjeSA7IE1leGljYWxpIEJsdWVzIDsgQnJvd24gRXllZCBXb21lbiA7IEVs
+IFBhc28gOyBIZXJlIENvbWVzIFN1bnNoaW5lIDsgUGxheWluJyBJbiBUaGUg
+QmFuZA0KU0VUMglDaGluYSBDYXQgU3VuZmxvd2VyID4gSSBLbm93IFlvdSBS
+aWRlciA7IEphY2sgU3RyYXcgOyBUaGV5IExvdmUgRWFjaCBPdGhlciA7IFRy
+dWNraW4nID4gRXllcyBPZiBUaGUgV29ybGQgPiBDaGluYSBEb2xsIDsgQmln
+IFJpdmVyIDsgUmFtYmxlIE9uIFJvc2UgOyBCb3ggT2YgUmFpbiA7IFdhdmUg
+VGhhdCBGbGFnIDsgU3VnYXIgTWFnbm9saWEgOyBVbmNsZSBKb2huJ3MgQmFu
+ZCA7IEFyb3VuZCAmIEFyb3VuZA0KU0VUMwkNCkVOQ09SRQlDYXNleSBKb25l
+cw0KQ09NTUVOVFMJDQpSRUNPUkRJTkcJMjEwIFNCRA0KQ09OVFJJQlVUT1JT
+CWJ1bGxlckBtYXRoLnVrYW5zLmVkdQ0KDQpCQU5ECUdyYXRlZnVsIERlYWQN
+ClZFTlVFCURhbmUgQ291bnR5IENvbGlzZXVtDQpDSVRZCU1hZGlzb24NClNU
+QVRFCVdJDQpEQVRFCTIvMTUvNzMNClNFVDEJTG9vc2UgTHVjeSA7IEJlYXQg
+SXQgT24gRG93biBUaGUgTGluZSA7IEJyb3duIEV5ZWQgV29tZW4gOyBNZXhp
+Y2FsaSBCbHVlcyA7IFRlbm5lc3NlZSBKZWQgOyBMb29rcyBMaWtlIFJhaW4g
+OyBCb3ggT2YgUmFpbiA7IFJvdyBKaW1teSA7IEphY2sgU3RyYXcgOyBDaGlu
+YSBDYXQgU3VuZmxvd2VyID4gSSBLbm93IFlvdSBSaWRlciA7IE1lIEFuZCBN
+eSBVbmNsZSA7IEJlcnRoYSA7IFBsYXlpbicgSW4gVGhlIEJhbmQgOyBDYXNl
+eSBKb25lcw0KU0VUMglIZXJlIENvbWVzIFN1bnNoaW5lIDsgRWwgUGFzbyA7
+IFlvdSBBaW4ndCBXb21hbiBFbm91Z2ggOyBUaGV5IExvdmUgRWFjaCBPdGhl
+ciA7IEJpZyBSaXZlciA7IERhcmsgU3RhciA+IEV5ZXMgT2YgVGhlIFdvcmxk
+ID4gQ2hpbmEgRG9sbCA7IFByb21pc2VkIExhbmQgOyBTdWdhcmVlIDsgU3Vn
+YXIgTWFnbm9saWENClNFVDMJDQpFTkNPUkUJVW5jbGUgSm9obidzIEJhbmQg
+OyBPbmUgTW9yZSBTYXR1cmRheSBOaWdodA0KQ09NTUVOVFMJDQpSRUNPUkRJ
+TkcJMTkwIFNCRCArIEFVRDogVGhlIGNvbXBsZXRlIHNob3cgZXhjZXB0IHRo
+ZSBlbmNvcmVzLCBTQkQgZXhjZXB0IENhc2V5IEpvbmVzICYgU3Vuc2hpbmUg
+RGF5ZHJlYW0gcGF0Y2hlZCBpbiBmcm9tIGxpc3RlbmFibGUgQVVEICh3aGlj
+aCBkb2VzIG5vdCBjaXJjdWxhdGUpICgyLzk3KQ0KQ09OVFJJQlVUT1JTCWJ1
+bGxlckBtYXRoLnVrYW5zLmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0KQkFO
+RAlHcmF0ZWZ1bCBEZWFkDQpWRU5VRQlTdC4gUGF1bCBBdWRpdG9yaXVtDQpD
+SVRZCVN0LiBQYXVsDQpTVEFURQlNTg0KREFURQkyLzE3LzczDQpTRVQxCVBy
+b21pc2VkIExhbmQgOyBIZSdzIEdvbmUgOyBMb29rcyBMaWtlIFJhaW4gOyBC
+b3ggT2YgUmFpbiA7IFdhdmUgVGhhdCBGbGFnIDsgTWV4aWNhbGkgQmx1ZXMg
+OyBCaXJkIFNvbmcgOyBCZWF0IEl0IE9uIERvd24gVGhlIExpbmUgOyBMb29z
+ZSBMdWN5IDsgTWUgQW5kIEJvYmJ5IE1jR2VlIDsgU3RlbGxhIEJsdWUgOyBF
+bCBQYXNvIDsgVGhleSBMb3ZlIEVhY2ggT3RoZXIgOyBQbGF5aW4nIEluIFRo
+ZSBCYW5kDQpTRVQyCVRydWNraW4nIDsgUm93IEppbW15IDsgQmlnIFJpdmVy
+IDsgWW91IEFpbid0IFdvbWFuIEVub3VnaCA7IEhlcmUgQ29tZXMgU3Vuc2hp
+bmUgPiBDaGluYSBDYXQgU3VuZmxvd2VyID4gSSBLbm93IFlvdSBSaWRlciA7
+IEFyb3VuZCAmIEFyb3VuZCA7IE5vdCBGYWRlIEF3YXkgPiBHb2luJyBEb3du
+IFRoZSBSb2FkIEZlZWxpbicgQmFkID4gTm90IEZhZGUgQXdheSA7IE9uZSBN
+b3JlIFNhdHVyZGF5IE5pZ2h0DQpTRVQzCQ0KRU5DT1JFCUNhc2V5IEpvbmVz
+DQpDT01NRU5UUwkgDQpSRUNPUkRJTkcJMjIwIFNCRA0KQ09OVFJJQlVUT1JT
+CWJ1bGxlckBtYXRoLnVrYW5zLmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0K
+QkFORAlHcmF0ZWZ1bCBEZWFkDQpWRU5VRQlJbnRlcm5hdGlvbmFsIEFtcGhp
+dGhlYXRyZQ0KQ0lUWQlDaGljYWdvDQpTVEFURQlJTA0KREFURQkyLzE5Lzcz
+DQpTRVQxCQ0KU0VUMglIZSdzIEdvbmUgPiBUcnVja2luJyA+IFRoZSBPdGhl
+ciBPbmUgPiBFeWVzIE9mIFRoZSBXb3JsZCA+IENoaW5hIERvbGwgOyBTdWdh
+ciBNYWdub2xpYSA7IENhc2V5IEpvbmVzDQpTRVQzCQ0KRU5DT1JFCQ0KQ09N
+TUVOVFMJREIgSVggbGlzdHMgUHJvbWlzZWQgTGFuZCA7IEJveCBPZiBSYWlu
+IDsgQnJvd24gRXllZCBXb21lbiA7IEVsIFBhc28gYXMgU0VUMQ0KUkVDT1JE
+SU5HCTkwIFNCRDogVGhlIDJuZCBzZXQgY29uY2x1c2lvbiBmcm9tIEhlJ3Mg
+R29uZSB0aHJvdWdoIENhc2V5IEpvbmVzICgyLzk3KQ0KQ09OVFJJQlVUT1JT
+CWJ1bGxlckBtYXRoLnVrYW5zLmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0K
+QkFORAlHcmF0ZWZ1bCBEZWFkDQpWRU5VRQlBc3NlbWJseSBIYWxsLCBVbml2
+ZXJzaXR5IG9mIElsbGlub2lzDQpDSVRZCUNoYW1wYWlnbi1VcmJhbmENClNU
+QVRFCUlMDQpEQVRFCTIvMjEvNzMNClNFVDEJDQpTRVQyCQ0KU0VUMwkNCkVO
+Q09SRQkNCkNPTU1FTlRTCQ0KUkVDT1JESU5HCW5vdCBpbiBjaXJjdWxhdGlv
+biAoMi85NykNCkNPTlRSSUJVVE9SUwlidWxsZXJAbWF0aC51a2Fucy5lZHUN
+Cg0KQkFORAlHcmF0ZWZ1bCBEZWFkDQpWRU5VRQlBc3NlbWJseSBIYWxsLCBV
+bml2ZXJzaXR5IG9mIElsbGlub2lzDQpDSVRZCUNoYW1wYWlnbi1VcmJhbmEN
+ClNUQVRFCUlMDQpEQVRFCTIvMjIvNzMNClNFVDEJUHJvbWlzZWQgTGFuZCA7
+IFRoZXkgTG92ZSBFYWNoIE90aGVyIDsgRWwgUGFzbyA7IEJpcmQgU29uZyA7
+IE1leGljYWxpIEJsdWVzIDsgRGVhbCA7IExvb2tzIExpa2UgUmFpbiA7IFRl
+bm5lc3NlZSBKZWQgOyBCb3ggT2YgUmFpbiA7IFBsYXlpbicgSW4gVGhlIEJh
+bmQNClNFVDIJV2F2ZSBUaGF0IEZsYWcgOyBNZSBBbmQgTXkgVW5jbGUgOyBE
+YXJrIFN0YXIgPiBFeWVzIE9mIFRoZSBXb3JsZCA+IENoaW5hIERvbGwgOyBB
+cm91bmQgJiBBcm91bmQgOyBHb2luJyBEb3duIFRoZSBSb2FkIEZlZWxpbicg
+QmFkID4gT25lIE1vcmUgU2F0dXJkYXkgTmlnaHQNClNFVDMJDQpFTkNPUkUJ
+Q2FzZXkgSm9uZXMNCkNPTU1FTlRTCQ0KUkVDT1JESU5HCTE2MCBTQkQgKyBB
+VUQ6IFRoZSBTQkQgY29udGFpbnMgdGhlIDFzdCBzZXQgJiBXYXZlIFRoYXQg
+RmxhZywgdGhlIEFVRCBNZSAmIE15IFVuY2xlIHRocm91Z2ggQ2FzZXkgSm9u
+ZXM7IHRoZSBBVUQgaXMgcXVpdGUgZ29vZC4gVGhlIDFzdCBzZXQgQVVEIGFs
+c28gY2lyY3VsYXRlICgyLzk3KQ0KQ09OVFJJQlVUT1JTCWJ1bGxlckBtYXRo
+LnVrYW5zLmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0KQkFORAlHcmF0ZWZ1
+bCBEZWFkDQpWRU5VRQlGaWVsZGhvdXNlLCBVbml2ZXJzaXR5IG9mIElvd2EN
+CkNJVFkJSW93YSBDaXR5DQpTVEFURQlJQQ0KREFURQkyLzI0LzczDQpTRVQx
+CUJlcnRoYSA7IE1leGljYWxpIEJsdWVzIDsgQnJvd24gRXllZCBXb21lbiA7
+IExvb2tzIExpa2UgUmFpbiA7IExvb3NlIEx1Y3kgOyBCZWF0IEl0IE9uIERv
+d24gVGhlIExpbmUgOyBDaGluYSBDYXQgU3VuZmxvd2VyID4gSSBLbm93IFlv
+dSBSaWRlciA7IEphY2sgU3RyYXcgOyBIZXJlIENvbWVzIFN1bnNoaW5lIDsg
+RWwgUGFzbyA7IEJveCBPZiBSYWluIDsgVGVubmVzc2VlIEplZCA7IFBsYXlp
+bicgSW4gVGhlIEJhbmQNClNFVDIJVGhleSBMb3ZlIEVhY2ggT3RoZXIgOyBH
+cmVhdGVzdCBTdG9yeSBFdmVyIFRvbGQgOyBSb3cgSmltbXkgOyBCaWcgUml2
+ZXIgOyBSYW1ibGUgT24gUm9zZSA7IE1lIEFuZCBCb2JieSBNY0dlZSA7IFRy
+dWNraW4nID4gTm9ib2R5J3MgRmF1bHQgQnV0IE1pbmUgSmFtID4gRXllcyBP
+ZiBUaGUgV29ybGQgPiBTdWdhciBNYWdub2xpYQ0KU0VUMwkNCkVOQ09SRQkN
+CkNPTU1FTlRTCURCIElYIGxpc3RzIFdhdmUgVGhhdCBGbGFnIDsgWW91IEFp
+bid0IFdvbWFuIEVub3VnaCBhZnRlciBNZSBBbmQgQm9iYnkgTWNHZWUNClJF
+Q09SRElORwk2MCBBVUQgKyAxNSBTQkQ6IFRoZSBBVUQgY29udGFpbnMgV2F2
+ZSBUaGF0IEZsYWcsIFlvdSBBaW4ndCBXb21hbiBFbm91Z2gsIGFuZCBUcnVj
+a2luID4gTm9ib2R5J3MgSmFtID4gRXllcyBPZiBUaGUgV29ybGQgPCBTdWdh
+ciBNYWdub2xpYS4gVGhlIFNCRCBjb250YWlucyBUcnVja2luID4gTm9ib2R5
+J3MgamFtICYgYnJlYWtzIG9mZiBpbiB0aGUgbWlkZGxlIG9mIE5vYm9keSdz
+IGphbS4gKDIvOTcpDQpDT05UUklCVVRPUlMJYnVsbGVyQG1hdGgudWthbnMu
+ZWR1LCBjaGltcG93bEB3ZWxsLmNvbQ0KDQpCQU5ECUdyYXRlZnVsIERlYWQN
+ClZFTlVFCVBlcnNoaW5nIE11bmljaXBhbCBBdWRpdG9yaXVtDQpDSVRZCUxp
+bmNvbG4NClNUQVRFCU5FDQpEQVRFCTIvMjYvNzMNClNFVDEJUHJvbWlzZWQg
+TGFuZCA7IERlYWwgOyBNZXhpY2FsaSBCbHVlcyA7IExvc2VyIDsgSmFjayBT
+dHJhdyA7IERvbid0IEVhc2UgTWUgSW4gOyBCb3ggT2YgUmFpbiA7IENoaW5h
+IENhdCBTdW5mbG93ZXIgPiBJIEtub3cgWW91IFJpZGVyIDsgTG9va3MgTGlr
+ZSBSYWluIDsgTG9vc2UgTHVjeSA7IEJlYXQgSXQgT24gRG93biBUaGUgTGlu
+ZSA7IFJvdyBKaW1teSA7IEVsIFBhc28gOyBCaWcgUmFpbHJvYWQgQmx1ZXMg
+OyBQbGF5aW4nIEluIFRoZSBCYW5kDQpTRVQyCVRoZXkgTG92ZSBFYWNoIE90
+aGVyIDsgRGFyayBTdGFyID4gRXllcyBPZiBUaGUgV29ybGQgPiBNaXNzaXNz
+aXBwaSBIYWxmIFN0ZXAgOyBNZSBBbmQgTXkgVW5jbGUgOyBOb3QgRmFkZSBB
+d2F5ID4gR29pbicgRG93biBUaGUgUm9hZCBGZWVsaW4nIEJhZCA+IE5vdCBG
+YWRlIEF3YXkNClNFVDMJDQpFTkNPUkUJDQpDT01NRU5UUwlPcmRlciBvZiB0
+aGlzIHNob3cgaXMgdW5jZXJ0YWluLiBEQiBJWCBsaXN0cyBCaWcgUml2ZXIg
+OyBUZW5uZXNzZWUgSmVkIDsgR3JlYXRlc3QgU3RvcnkgRXZlciBUb2xkIHRv
+IGZvbGxvdyBUaGV5IExvdmUgRWFjaCBPdGhlci4gVGhlIHN1cGVyaW9yIEFG
+IG1hc3RlciBzdXBwbGllcyB0aGUgMXN0IHNldC4gIFRoZXJlIGlzIGEgYnJp
+ZWYgY3V0IGluIE1leGljYWxpLiAgVGhlIHRhcGUgYnJlYWtzIG9mZiBkdXJp
+bmcgSSBLbm93IFlvdSBSaWRlciBhZnRlciAiV2lzaCBJIHdhcyBhIGhlYWRs
+aWdodCIgYW5kIHJlc3VtZXMgZHVyaW5nIExvb2tzIExpa2UgUmFpbiBiZWZv
+cmUgIkRpZCB5b3UgZXZlciBsaXN0ZW4gdG8gdGhlIHNvdW5kLiIgIENoaW5h
+IENhdCBTdW5mbG93ZXIgdGhyb3VnaCBMb29rcyBMaWtlIFJhaW4gY2lyY3Vs
+YXRlcyBzZXBhcmF0ZWx5IGluIHRoZSBpbmZlcmlvciBBRiB0byBjb3ZlciB0
+aGlzIGN1dCAoQm9iYnkncyBndWl0YXIgaXMgdmVyeSBwcm9taW5lbnQgb24g
+dGhpcyBtYXN0ZXIpLiAgQXQgdGhlIGVuZCBvZiB0aGUgZmlyc3Qgc2V0IG9u
+IHRoZSBzdXBlcmlvciBBRiB0YXBlIGlzIHNwbGljZWQgaW4gVGhleSBMb3Zl
+IEVhY2ggT3RoZXIgZnJvbSB0aGUgaW5mZXJpb3IgQUY7IHRoaXMgYnJlYWtz
+IG9mZiBoYWxmIHdheS4gVGhlIFNCIGluIGNpcmN1bGF0aW9uIHJ1bnMgZnJv
+bSBEYXJrIFN0YXIgdGhyb3VnaCBOb3QgRmFkZSBBd2F5LiAgVGhlcmUgaXMg
+YSBjdXQgZHVyaW5nIHRoZSBqYW0gYmVmb3JlIHRoZSBzZWNvbmQgdm9jYWxz
+IG9mIEV5ZXMgT2YgVGhlIFdvcmxkLiAgTW9zdCBjb3BpZXMgb2YgdGhlIFNC
+RCBpbiBjaXJjdWxhdGlvbiBhcmUgc29tZXdoYXQgZmFzdC4gIENvbnN1bHQg
+dmF1bHQgc291cmNlcy4gKDIvOTcpDQpSRUNPUkRJTkcJODAgU0JEICA4NSBG
+T0IgIDI1IEZPQg0KQ09OVFJJQlVUT1JTCWJ1bGxlckBtYXRoLnVrYW5zLmVk
+dSwgY2hpbXBvd2xAd2VsbC5jb20NCg0KQkFORAlHcmF0ZWZ1bCBEZWFkDQpW
+RU5VRQlTYWx0IFBhbGFjZQ0KQ0lUWQlTYWx0IExha2UgQ2l0eQ0KU1RBVEUJ
+VVQNCkRBVEUJMi8yOC83Mw0KU0VUMQlDb2xkIFJhaW4gJiBTbm93IDsgQmVh
+dCBJdCBPbiBEb3duIFRoZSBMaW5lIDsgVGhleSBMb3ZlIEVhY2ggT3RoZXIg
+OyBNZXhpY2FsaSBCbHVlcyA7IFN1Z2FyZWUgOyBCb3ggT2YgUmFpbiA7IEVs
+IFBhc28gOyBIZSdzIEdvbmUgOyBKYWNrIFN0cmF3DQpTRVQyCUNoaW5hIENh
+dCBTdW5mbG93ZXIgPiBJIEtub3cgWW91IFJpZGVyIDsgQmlnIFJpdmVyIDsg
+Um93IEppbW15IDsgUHJvbWlzZWQgTGFuZCA7IFRydWNraW4nID4gVGhlIE90
+aGVyIE9uZSA+IEV5ZXMgT2YgVGhlIFdvcmxkID4gTW9ybmluZyBEZXcgOyBT
+dWdhciBNYWdub2xpYQ0KU0VUMwkNCkVOQ09SRQlBbmQgV2UgQmlkIFlvdSBH
+b29kIE5pZ2h0DQpDT01NRU5UUwkNClJFQ09SRElORwkxMzUgU0JEOiBUaGUg
+Y29tcGxldGUgc2hvdyBleGNlcHQgVHJ1Y2tpbiwgTW9ybmluZyBEZXcsIFN1
+Z2FyIE1hZ25vbGlhICYgV2UgQmlkIFlvdSBHb29kbmlnaHQuIFRoZSAxc3Qg
+c2V0ICYgMm5kIHNldCBvcGVuaW5nIFNCRCBjaXJjdWxhdGluZyBpcyBzb21l
+d2hhdCBkZWdyYWRlZC4gKDIvOTcpDQpDT05UUklCVVRPUlMJYnVsbGVyQG1h
+dGgudWthbnMuZWR1LCBjaGltcG93bEB3ZWxsLmNvbQ0KDQpCQU5ECUdyYXRl
+ZnVsIERlYWQNClZFTlVFCU5hc3NhdSBWZXRlcmFucyBNZW1vcmlhbCBDb2xp
+c2V1bQ0KQ0lUWQlVbmlvbmRhbGUNClNUQVRFCU5ZDQpEQVRFCTMvMTUvNzMN
+ClNFVDEJUHJvbWlzZWQgTGFuZCA7IE1pc3Npc3NpcHBpIEhhbGYgU3RlcCA7
+IE1leGljYWxpIEJsdWVzIDsgVGhleSBMb3ZlIEVhY2ggT3RoZXIgOyBMb29r
+cyBMaWtlIFJhaW4gOyBEZWFsIDsgQmVhdCBJdCBPbiBEb3duIFRoZSBMaW5l
+IDsgQm94IE9mIFJhaW4gOyBSb3cgSmltbXkgOyBNZSBBbmQgTXkgVW5jbGUg
+OyBUZW5uZXNzZWUgSmVkIDsgRWwgUGFzbyA7IEhlcmUgQ29tZXMgU3Vuc2hp
+bmUgOyBQbGF5aW4nIEluIFRoZSBCYW5kDQpTRVQyCUxvb3NlIEx1Y3kgOyBC
+aWcgUml2ZXIgOyBTdWdhcmVlIDsgSmFjayBTdHJhdyA7IFN0ZWxsYSBCbHVl
+IDsgVHJ1Y2tpbicgPiBUaGUgT3RoZXIgT25lID4gRXllcyBPZiBUaGUgV29y
+bGQgPiBDaGluYSBEb2xsIDsgWW91IEFpbid0IFdvbWFuIEVub3VnaCA7IFN1
+Z2FyIE1hZ25vbGlhIDsgQ2FzZXkgSm9uZXMNClNFVDMJDQpFTkNPUkUJDQpD
+T01NRU5UUwkNClJFQ09SRElORwk5MCBTQkQ6IFRoZXkgTG92ZSBFYWNoIE90
+aGVyLCBNZXhpY2FsaSBCbHVlcywgUGxheWluIEluIFRoZSBCYW5kLCBSb3cg
+SmltbXksIEJlYXQgSXQgT24gRG93biBUaGUgTGluZSwgSGVyZSBDb21lcyBT
+dW5zaGluZSAoYnJlYWtzIG9mZiksIFRydWNraW4gPiBOb2JvZHkncyBqYW0g
+PiBUaGUgT3RoZXIgT25lID4gRXllcyBPZiBUaGUgV29ybGQgKGJyZWFrcyBv
+ZmYpLiBUaGUgU0JEIGluIGNpcmN1bGF0aW9uIGlzIHF1aXRlIGRlZ3JhZGVk
+OyBpdCBjb250YWlucyB0aGUgc29uZ3MgaW4gdGhpcyBvcmRlciwgd2l0aCBh
+IGZsaXAgYmVmb3JlIFRydWNraW4uIFBoaWwgcGxheXMgYnJpZWZseSB3aXRo
+IFN0cm9uZ2VyIFRoYW4gRGlydCBkdXJpbmcgVGhlIE90aGVyIE9uZSAoMi85
+NykNCkNPTlRSSUJVVE9SUwlidWxsZXJAbWF0aC51a2Fucy5lZHUsIGNoaW1w
+b3dsQHdlbGwuY29tDQoNCkJBTkQJR3JhdGVmdWwgRGVhZA0KVkVOVUUJTmFz
+c2F1IFZldGVyYW5zIE1lbW9yaWFsIENvbGlzZXVtDQpDSVRZCVVuaW9uZGFs
+ZQ0KU1RBVEUJTlkNCkRBVEUJMy8xNi83Mw0KU0VUMQlDaGluYSBDYXQgU3Vu
+Zmxvd2VyID4gSSBLbm93IFlvdSBSaWRlciA7IEphY2sgU3RyYXcgOyBXYXZl
+IFRoYXQgRmxhZyA7IExvb2tzIExpa2UgUmFpbiA7IFJhbWJsZSBPbiBSb3Nl
+IDsgQm94IE9mIFJhaW4gOyBCZWF0IEl0IE9uIERvd24gVGhlIExpbmUgOyBU
+aGV5IExvdmUgRWFjaCBPdGhlciA7IEVsIFBhc28gOyBSb3cgSmltbXkgOyBN
+ZXhpY2FsaSBCbHVlcyA7IEJpcmQgU29uZyA7IFBsYXlpbicgSW4gVGhlIEJh
+bmQNClNFVDIJUHJvbWlzZWQgTGFuZCA+IEJlcnRoYSA+IEdyZWF0ZXN0IFN0
+b3J5IEV2ZXIgVG9sZCA7IExvc2VyIDsgQmlnIFJpdmVyIDsgRG9uJ3QgRWFz
+ZSBNZSBJbiA7IE1lIEFuZCBNeSBVbmNsZSA7IERhcmsgU3RhciA+IFRydWNr
+aW4nID4gTW9ybmluZyBEZXcgOyBTdWdhciBNYWdub2xpYQ0KU0VUMwkNCkVO
+Q09SRQkNCkNPTU1FTlRTCQ0KUkVDT1JESU5HCTE4MCBTQkQgKyBBVUQuIFRo
+ZSBjb21wZXRlIHNob3cgZXhjZXB0IG9ubHkgdGhlIG9wZW5pbmcgMTA6MTIg
+b2YgUGxheWluIGlzIGF2YWlsYWJsZSBpbiBhIGNvbWJpbmF0aW9uIG9mIFNC
+RCBhbmQgQVVELiBUaGUgU0JEIHN1cHBsaWVzIHRoZSAxc3Qgc2V0IGV4Y2Vw
+dCBvbmx5IHRoZSBmaXJzdCAxOjQzIG9mIFBsYXlpbiwgYW5kIGFsc28gTW9y
+bmluZyBEZXcgYW5kIFN1Z2FyIE1hZ25vbGlhLiBUaGUgQVVEIHN1cHBsaWVz
+IHRoZSBmaXJzdCAxMDoxMiBvZiBQbGF5aW4gcGx1cyB0aGUgMm5kIHNldCBj
+b21wbGV0ZSBleGNlcHQgU3VnYXIgTWFnbm9saWEuIFNvdW5kYm9hcmQgdGFw
+ZSBpcyBmcm9tIDciIFJlZWwgb2YgQmV0dHkncyBCb2FyZC4gKDIvOTcpDQpD
+T05UUklCVVRPUlMJYnVsbGVyQG1hdGgudWthbnMuZWR1LCBjaGltcG93bEB3
+ZWxsLmNvbQ0KDQpCQU5ECUdyYXRlZnVsIERlYWQNClZFTlVFCU5hc3NhdSBW
+ZXRlcmFucyBNZW1vcmlhbCBDb2xpc2V1bQ0KQ0lUWQlVbmlvbmRhbGUNClNU
+QVRFCU5ZDQpEQVRFCTMvMTkvNzMNClNFVDEJUHJvbWlzZWQgTGFuZCA7IEhl
+J3MgR29uZSA7IE1leGljYWxpIEJsdWVzIDsgVGhleSBMb3ZlIEVhY2ggT3Ro
+ZXIgOyBMb29rcyBMaWtlIFJhaW4gOyBXYXZlIFRoYXQgRmxhZyA7IEJveCBP
+ZiBSYWluIDsgVGhlIFJhY2UgSXMgT24gOyBSb3cgSmltbXkgOyBFbCBQYXNv
+IDsgQ2hpbmEgQ2F0IFN1bmZsb3dlciA+IEkgS25vdyBZb3UgUmlkZXIgOyBB
+cm91bmQgJiBBcm91bmQgOyBUZW5uZXNzZWUgSmVkIDsgUGxheWluJyBJbiBU
+aGUgQmFuZA0KU0VUMglMb29zZSBMdWN5IDsgTWUgQW5kIE15IFVuY2xlIDsg
+QnJvd24gRXllZCBXb21lbiA7IEJpZyBSaXZlciA7IE1pc3Npc3NpcHBpIEhh
+bGYgU3RlcCA7IFN0ZWxsYSBCbHVlIDsgSmFjayBTdHJhdyA7IFRydWNraW4n
+ID4gVGhlIE90aGVyIE9uZSA+IEV5ZXMgT2YgVGhlIFdvcmxkID4gQ2hpbmEg
+RG9sbCA7IEpvaG5ueSBCLiBHb29kZSA7IENhc2V5IEpvbmVzDQpTRVQzCQ0K
+RU5DT1JFCQ0KQ09NTUVOVFMJREIgSVggbGlzdHMgQ2FzZXkgSm9uZXMgYXMg
+RW5jb3JlIDEsIE9uZSBNb3JlIFNhdHVyZGF5IE5pZ2h0IGFzIEVuY29yZSAy
+Lg0KUkVDT1JESU5HCTIyNSBBVUQgKyBTQkQ6IFRoZSBjb21wbGV0ZSBzaG93
+LCB0aGUgMXN0IHNldCAmIGVuY29yZSBpbiBsaXN0ZW5hYmxlIEFVRCwgdGhl
+IDJuZCBzZXQgaW4gU0JELiAoMi85NykNCkNPTlRSSUJVVE9SUwlidWxsZXJA
+bWF0aC51a2Fucy5lZHUsIGNoaW1wb3dsQHdlbGwuY29tDQoNCkJBTkQJR3Jh
+dGVmdWwgRGVhZA0KVkVOVUUJVXRpY2EgTWVtb3JpYWwgQXVkaXRvcml1bQ0K
+Q0lUWQlVdGljYQ0KU1RBVEUJTlkNCkRBVEUJMy8yMS83Mw0KU0VUMQlCZXJ0
+aGEgOyBNZSBBbmQgTXkgVW5jbGUgOyBXYXZlIFRoYXQgRmxhZyA7IExvb2tz
+IExpa2UgUmFpbiA7IFRlbm5lc3NlZSBKZWQgOyBCb3ggT2YgUmFpbiA7IEph
+Y2sgU3RyYXcgOyBZb3UgQWluJ3QgV29tYW4gRW5vdWdoIDsgUm93IEppbW15
+IDsgQmVhdCBJdCBPbiBEb3duIFRoZSBMaW5lIDsgSGVyZSBDb21lcyBTdW5z
+aGluZSA7IFRoZSBSYWNlIElzIE9uIDsgTG9zZXIgOyBFbCBQYXNvIDsgQ2hp
+bmEgQ2F0IFN1bmZsb3dlciA+IEkgS25vdyBZb3UgUmlkZXIgOyBQbGF5aW4n
+IEluIFRoZSBCYW5kDQpTRVQyCUdyZWF0ZXN0IFN0b3J5IEV2ZXIgVG9sZCA7
+IFRoZXkgTG92ZSBFYWNoIE90aGVyIDsgTWV4aWNhbGkgQmx1ZXMgOyBCcm93
+biBFeWVkIFdvbWVuIDsgQmlnIFJpdmVyIDsgQnJva2Vkb3duIFBhbGFjZSA7
+IE1lIEFuZCBCb2JieSBNY0dlZSA7IFdlYXRoZXIgUmVwb3J0IFN1aXRlIFBy
+ZWx1ZGUgPiBEYXJrIFN0YXIgPiBFeWVzIE9mIFRoZSBXb3JsZCA+IFdoYXJm
+IFJhdCA7IFN1Z2FyIE1hZ25vbGlhIDsgQ2FzZXkgSm9uZXMNClNFVDMJDQpF
+TkNPUkUJDQpDT01NRU5UUwkNClJFQ09SRElORwkyNTUgU0JEOiBUaGUgY29t
+cGxldGUgc2hvdyBleGNlcHQgYSBjdXQgaW4gRXllcyBPZiBUaGUgV29ybGQu
+IFNvdW5kYm9hcmQgdGFwZSBpcyBmcm9tIDciIFJlZWwgb2YgQmV0dHkncyBC
+b2FyZC4gKDIvOTcpDQpDT05UUklCVVRPUlMJYnVsbGVyQG1hdGgudWthbnMu
+ZWR1LCBjaGltcG93bEB3ZWxsLmNvbQ0KDQpCQU5ECUdyYXRlZnVsIERlYWQN
+ClZFTlVFCVV0aWNhIE1lbW9yaWFsIEF1ZGl0b3JpdW0NCkNJVFkJVXRpY2EN
+ClNUQVRFCU5ZDQpEQVRFCTMvMjIvNzMNClNFVDEJUHJvbWlzZWQgTGFuZCA7
+IFN1Z2FyZWUgOyBNZXhpY2FsaSBCbHVlcyA7IFRoZXkgTG92ZSBFYWNoIE90
+aGVyIDsgTG9va3MgTGlrZSBSYWluIDsgRGVhbCA7IEJlYXQgSXQgT24gRG93
+biBUaGUgTGluZSA7IEJpcmQgU29uZyA7IEphY2sgU3RyYXcgOyBCb3ggT2Yg
+UmFpbiA7IFlvdSBBaW4ndCBXb21hbiBFbm91Z2ggOyBUaGUgUmFjZSBJcyBP
+biA7IFJvdyBKaW1teSA7IEVsIFBhc28gOyBDaGluYSBDYXQgU3VuZmxvd2Vy
+ID4gSSBLbm93IFlvdSBSaWRlciA7IFBsYXlpbicgSW4gVGhlIEJhbmQgOyBD
+YXNleSBKb25lcw0KU0VUMglCaWcgUml2ZXIgOyBXYXZlIFRoYXQgRmxhZyA7
+IE1lIEFuZCBNeSBVbmNsZSA7IEhlcmUgQ29tZXMgU3Vuc2hpbmUgOyBUcnVj
+a2luJyA+IFRoZSBPdGhlciBPbmUgPiBFeWVzIE9mIFRoZSBXb3JsZCA+IENo
+aW5hIERvbGwgOyBTdWdhciBNYWdub2xpYQ0KU0VUMwkNCkVOQ09SRQlPbmUg
+TW9yZSBTYXR1cmRheSBOaWdodA0KQ09NTUVOVFMJREIgSVggbGlzdHMgQ2Fz
+ZXkgSm9uZXMgYXMgRW5jb3JlIDIuDQpSRUNPUkRJTkcJMjU1IFNCRCArIEFV
+RDogVGhlIGNvbXBsZXRlIHNob3cgaW4gU0JEIGV4Y2VwdCBDaGluYSBDYXQg
+U3VuZmxvd2VyIHRocm91Z2ggSGVyZSBDb21lcyBTdW5zaGluZSBpbiBleGNl
+bGxlbnQgQVVELiBTb3VuZGJvYXJkIHRhcGUgaXMgZnJvbSA3IiBSZWVsIG9m
+IEJldHR5J3MgQm9hcmQuICgyLzk3KQ0KQ09OVFJJQlVUT1JTCWJ1bGxlckBt
+YXRoLnVrYW5zLmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0KQkFORAlHcmF0
+ZWZ1bCBEZWFkDQpWRU5VRQlUaGUgU3BlY3RydW0NCkNJVFkJUGhpbGFkZWxw
+aGlhDQpTVEFURQlQQQ0KREFURQkzLzI0LzczDQpTRVQxCUJlcnRoYSA7IEJl
+YXQgSXQgT24gRG93biBUaGUgTGluZSA7IERvbid0IEVhc2UgTWUgSW4gOyBU
+aGUgUmFjZSBJcyBPbiA7IEN1bWJlcmxhbmQgQmx1ZXMgOyBCb3ggT2YgUmFp
+biA7IFJvdyBKaW1teSA7IEphY2sgU3RyYXcgOyBUaGV5IExvdmUgRWFjaCBP
+dGhlciA7IE1leGljYWxpIEJsdWVzIDsgVGVubmVzc2VlIEplZCA7IExvb2tz
+IExpa2UgUmFpbiA7IFdhdmUgVGhhdCBGbGFnIDsgRWwgUGFzbyA7IEhlcmUg
+Q29tZXMgU3Vuc2hpbmUgOyBNZSBBbmQgQm9iYnkgTWNHZWUgOyBMb3NlciA7
+IFBsYXlpbicgSW4gVGhlIEJhbmQNClNFVDIJUHJvbWlzZWQgTGFuZCA7IENo
+aW5hIENhdCBTdW5mbG93ZXIgPiBJIEtub3cgWW91IFJpZGVyIDsgQmlnIFJp
+dmVyIDsgU3RlbGxhIEJsdWUgOyBNZSBBbmQgTXkgVW5jbGUgOyBIZSdzIEdv
+bmUgPiBUcnVja2luJyA+IFNwYW5pc2ggSmFtID4gRGFyayBTdGFyID4gU2lu
+ZyBNZSBCYWNrIEhvbWUgPiBTdWdhciBNYWdub2xpYQ0KU0VUMwkNCkVOQ09S
+RQlKb2hubnkgQi4gR29vZGUNCkNPTU1FTlRTCQ0KUkVDT1JESU5HCTE2MCBT
+QkQ6IFRoZSBsYXN0IDMgc29uZ3Mgb2YgdGhlIDFzdCBzZXQgKE1lICYgTWUg
+QW5kIEJvYmJ5IE1jR2VlLCBMb3NlciwgUGxheWluKSBhbmQgdGhlIGNvbXBs
+ZXRlIDJuZCBzZXQuIFNvdW5kYm9hcmQgdGFwZSBpcyBmcm9tIDciIFJlZWwg
+b2YgQmV0dHkncyBCb2FyZC4gKDIvOTcpDQpDT05UUklCVVRPUlMJYnVsbGVy
+QG1hdGgudWthbnMuZWR1LCBjaGltcG93bEB3ZWxsLmNvbQ0KDQpCQU5ECUdy
+YXRlZnVsIERlYWQNClZFTlVFCUJhbHRpbW9yZSBDaXZpYyBDZW50ZXINCkNJ
+VFkJQmFsdGltb3JlDQpTVEFURQlNRA0KREFURQkzLzI2LzczDQpTRVQxCVBy
+b21pc2VkIExhbmQgOyBNaXNzaXNzaXBwaSBIYWxmIFN0ZXAgOyBUaGUgUmFj
+ZSBJcyBPbiA7IFdhdmUgVGhhdCBGbGFnIDsgSmFjayBTdHJhdyA7IFN1Z2Fy
+ZWUgOyBNZXhpY2FsaSBCbHVlcyA7IEJveCBPZiBSYWluIDsgUm93IEppbW15
+IDsgQmVhdCBJdCBPbiBEb3duIFRoZSBMaW5lIDsgQnJvd24gRXllZCBXb21l
+biA7IEVsIFBhc28gOyBDaGluYSBDYXQgU3VuZmxvd2VyID4gSSBLbm93IFlv
+dSBSaWRlciA7IExvb2tzIExpa2UgUmFpbiA7IERvbid0IEVhc2UgTWUgSW4g
+OyBQbGF5aW4nIEluIFRoZSBCYW5kDQpTRVQyCVJhbWJsZSBPbiBSb3NlIDsg
+QmlnIFJpdmVyIDsgSGVyZSBDb21lcyBTdW5zaGluZSA7IEdyZWF0ZXN0IFN0
+b3J5IEV2ZXIgVG9sZCA7IENhbmR5bWFuIDsgTWUgQW5kIE15IFVuY2xlIDsg
+SGUncyBHb25lID4gVHJ1Y2tpbicgPiBXZWF0aGVyIFJlcG9ydCBTdWl0ZSBQ
+cmVsdWRlID4gV2hhcmYgUmF0ID4gTWUgQW5kIEJvYmJ5IE1jR2VlID4gRXll
+cyBPZiBUaGUgV29ybGQgPiBNb3JuaW5nIERldyA7IE9uZSBNb3JlIFNhdHVy
+ZGF5IE5pZ2h0DQpTRVQzCQ0KRU5DT1JFCQ0KQ09NTUVOVFMJDQpSRUNPUkRJ
+TkcJMjcwIEFVRDogVGhlIGNvbXBsZXRlIHNob3cgaW4gbGlzdGVuYWJsZSBB
+VUQuIEEgc291bmRib2FyZCB0YXBlIGlzIGZyb20gNyIgUmVlbCBvZiBCZXR0
+eSdzIEJvYXJkIGlzIGFsc28gYXZhaWxhYmxlIChob3cgbXVjaD8/KSAoMi85
+NykNCkNPTlRSSUJVVE9SUwlidWxsZXJAbWF0aC51a2Fucy5lZHUsIGNoaW1w
+b3dsQHdlbGwuY29tDQoNCkJBTkQJR3JhdGVmdWwgRGVhZA0KVkVOVUUJU3By
+aW5nZmllbGQgQ2l2aWMgQ2VudGVyIEFyZW5hDQpDSVRZCVNwcmluZ2ZpZWxk
+DQpTVEFURQlNQQ0KREFURQkzLzI4LzczDQpTRVQxCUN1bWJlcmxhbmQgQmx1
+ZXMgOyBIZXJlIENvbWVzIFN1bnNoaW5lIDsgTWV4aWNhbGkgQmx1ZXMgOyBX
+YXZlIFRoYXQgRmxhZyA7IEJlYXQgSXQgT24gRG93biBUaGUgTGluZSA7IExv
+c2VyIDsgSmFjayBTdHJhdyA7IEJveCBPZiBSYWluIDsgVGhleSBMb3ZlIEVh
+Y2ggT3RoZXIgOyBFbCBQYXNvIDsgUm93IEppbW15IDsgQXJvdW5kICYgQXJv
+dW5kIDsgQnJvd24gRXllZCBXb21lbiA7IFlvdSBBaW4ndCBXb21hbiBFbm91
+Z2ggOyBMb29rcyBMaWtlIFJhaW4gOyBDaGluYSBDYXQgU3VuZmxvd2VyID4g
+SSBLbm93IFlvdSBSaWRlcg0KU0VUMglQcm9taXNlZCBMYW5kIDsgTG9vc2Ug
+THVjeSA7IEJpZyBSaXZlciA7IE1pc3Npc3NpcHBpIEhhbGYgU3RlcCA7IE1l
+IEFuZCBNeSBVbmNsZSA7IERvbid0IEVhc2UgTWUgSW4gOyBUaGUgUmFjZSBJ
+cyBPbiA7IFN0ZWxsYSBCbHVlIDsgV2VhdGhlciBSZXBvcnQgU3VpdGUgUHJl
+bHVkZSA+IERhcmsgU3RhciA+IEV5ZXMgT2YgVGhlIFdvcmxkID4gUGxheWlu
+JyBJbiBUaGUgQmFuZCA7IEpvaG5ueSBCLiBHb29kZQ0KU0VUMwkNCkVOQ09S
+RQkNCkNPTU1FTlRTCURCIElYIGxpc3RzIEJpZyBSaXZlciA7IE1pc3Npc3Np
+cHBpIEhhbGYgU3RlcCBiZWZvcmUgV1JTIFByZWx1ZGUuDQpSRUNPUkRJTkcJ
+MjEwIEFVRCArIFNCRDogVGhlIGNvbXBsZXRlIHNob3cgZXhjZXB0IHRoZSBi
+ZWdpbm5pbmcgb2YgQ3VtYmVybGFuZCBCbHVlcyBjaXJjdWxhdGVzIGluIGV4
+Y2VsbGVudCBBVUQuIEEgU0JEIG9mIHRoZSBsYXN0IDc1IG1pbnV0ZXMgb2Yg
+dGhlIHNob3csIFdSUyBQcmVsdWRlIHRocm91Z2ggSm9obm55IEIuIEdvb2Rl
+LCBhbHNvIGNpcmN1bGF0ZXMsIGJ1dCBpdCBpcyBtYXJyZWQgYnkgYSBzdGVh
+ZHkgaHVtOyBhbmQgdW5mb3J0dW5hdGVseSwgaXQgaGFzIHJlbmRlcmVkIHRo
+ZSBBVUQgb2YgdGhpcyBwb3J0aW9uIG9mIHRoZSBzaG93IHF1aXRlIHJhcmUu
+ICgyLzk3KQ0KQ09OVFJJQlVUT1JTCWJ1bGxlckBtYXRoLnVrYW5zLmVkdSwg
+Y2hpbXBvd2xAd2VsbC5jb20NCg0KQkFORAlHcmF0ZWZ1bCBEZWFkDQpWRU5V
+RQlDb21tdW5pdHkgV2FyIE1lbW9yaWFsDQpDSVRZCVJvY2hlc3Rlcg0KU1RB
+VEUJTlkNCkRBVEUJMy8zMC83Mw0KU0VUMQlQcm9taXNlZCBMYW5kIDsgRGVh
+bCA7IExvb2tzIExpa2UgUmFpbiA7IFRoZXkgTG92ZSBFYWNoIE90aGVyIDsg
+TWV4aWNhbGkgQmx1ZXMgOyBCb3ggT2YgUmFpbiA7IEN1bWJlcmxhbmQgQmx1
+ZXMgOyBDYW5keW1hbiA7IEJlYXQgSXQgT24gRG93biBUaGUgTGluZSA7IERv
+bid0IEVhc2UgTWUgSW4gOyBFbCBQYXNvIDsgUm93IEppbW15IDsgVGhlIFJh
+Y2UgSXMgT24gOyBCaXJkIFNvbmcgOyBQbGF5aW4nIEluIFRoZSBCYW5kDQpT
+RVQyCUNoaW5hIENhdCBTdW5mbG93ZXIgPiBJIEtub3cgWW91IFJpZGVyIDsg
+SmFjayBTdHJhdyA7IFdhdmUgVGhhdCBGbGFnIDsgR3JlYXRlc3QgU3Rvcnkg
+RXZlciBUb2xkIDsgVHJ1Y2tpbicgPiBFeWVzIE9mIFRoZSBXb3JsZCA+IE5v
+dCBGYWRlIEF3YXkgPiBHb2luJyBEb3duIFRoZSBSb2FkIEZlZWxpbicgQmFk
+ID4gT25lIE1vcmUgU2F0dXJkYXkgTmlnaHQNClNFVDMJDQpFTkNPUkUJDQpD
+T01NRU5UUwkNClJFQ09SRElORwkxNzAgQVVEOiBUaGUgY29tcGxldGUgc2hv
+dyBleGNlcHQgdGhlIGVuZCBvZiBTYXR1cmRheSBOaWdodCwgaW4gbGlzdGVu
+YWJsZSBBVUQuICgyLzk3KQ0KQ09OVFJJQlVUT1JTCWJ1bGxlckBtYXRoLnVr
+YW5zLmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0KQkFORAlHcmF0ZWZ1bCBE
+ZWFkDQpWRU5VRQlXYXIgTWVtb3JpYWwgQXVkaXRvcml1bQ0KQ0lUWQlCdWZm
+YWxvDQpTVEFURQlOWQ0KREFURQkzLzMxLzczDQpTRVQxCU1pc3Npc3NpcHBp
+IEhhbGYgU3RlcCA7IFRoZSBSYWNlIElzIE9uIDsgU3VnYXJlZSA7IE1leGlj
+YWxpIEJsdWVzIDsgQm94IE9mIFJhaW4gOyBUZW5uZXNzZWUgSmVkIDsgSmFj
+ayBTdHJhdyA7IEJpZyBSYWlscm9hZCBCbHVlcyA7IEVsIFBhc28gOyBSb3cg
+SmltbXkgOyBMb29rcyBMaWtlIFJhaW4gOyBUaGV5IExvdmUgRWFjaCBPdGhl
+ciA7IFBsYXlpbicgSW4gVGhlIEJhbmQNClNFVDIJUHJvbWlzZWQgTGFuZCA+
+IEJlcnRoYSA+IEdyZWF0ZXN0IFN0b3J5IEV2ZXIgVG9sZCA7IEhlJ3MgR29u
+ZSA+IFRydWNraW4nID4gRHJ1bXMgPiBUaGUgT3RoZXIgT25lID4gU3Bhbmlz
+aCBKYW0gPiBJIEtub3cgWW91IFJpZGVyIDsgU3VnYXIgTWFnbm9saWENClNF
+VDMJDQpFTkNPUkUJQ2FzZXkgSm9uZXMNCkNPTU1FTlRTCQ0KUkVDT1JESU5H
+CTUwIEZNLVNCRDogSGUncyBHb25lIHRocm91Z2ggSSBLbm93IFlvdSBSaWRl
+ciAoMi85NykNCkNPTlRSSUJVVE9SUwlidWxsZXJAbWF0aC51a2Fucy5lZHUs
+IGNoaW1wb3dsQHdlbGwuY29tDQoNCkJBTkQJR3JhdGVmdWwgRGVhZA0KVkVO
+VUUJQm9zdG9uIEdhcmRlbg0KQ0lUWQlCb3N0b24NClNUQVRFCU1BDQpEQVRF
+CTQvMi83Mw0KU0VUMQlQcm9taXNlZCBMYW5kIDsgRGVhbCA7IE1leGljYWxp
+IEJsdWVzIDsgQnJvd24gRXllZCBXb21lbiA7IEJlYXQgSXQgT24gRG93biBU
+aGUgTGluZSA7IFJvdyBKaW1teSA7IExvb2tzIExpa2UgUmFpbiA7IFdhdmUg
+VGhhdCBGbGFnIDsgQm94IE9mIFJhaW4gOyBCaWcgUml2ZXIgOyBDaGluYSBD
+YXQgU3VuZmxvd2VyID4gSSBLbm93IFlvdSBSaWRlciA7IFlvdSBBaW4ndCBX
+b21hbiBFbm91Z2ggOyBKYWNrIFN0cmF3IDsgRG9uJ3QgRWFzZSBNZSBJbiA7
+IFBsYXlpbicgSW4gVGhlIEJhbmQNClNFVDIJUmFtYmxlIE9uIFJvc2UgOyBN
+ZSBBbmQgTXkgVW5jbGUgOyBNaXNzaXNzaXBwaSBIYWxmIFN0ZXAgOyBHcmVh
+dGVzdCBTdG9yeSBFdmVyIFRvbGQgOyBMb29zZSBMdWN5IDsgRWwgUGFzbyA7
+IFN0ZWxsYSBCbHVlIDsgQXJvdW5kICYgQXJvdW5kIDsgSGVyZSBDb21lcyBT
+dW5zaGluZSA+IEphbSA+IFNwYWNlID4gTWUgQW5kIEJvYmJ5IE1jR2VlID4g
+V2VhdGhlciBSZXBvcnQgU3VpdGUgUHJlbHVkZSA+IEV5ZXMgT2YgVGhlIFdv
+cmxkID4gQ2hpbmEgRG9sbCA7IFN1Z2FyIE1hZ25vbGlhIDsgQ2FzZXkgSm9u
+ZXMNClNFVDMJDQpFTkNPUkUJSm9obm55IEIuIEdvb2RlID4gQW5kIFdlIEJp
+ZCBZb3UgR29vZCBOaWdodA0KQ09NTUVOVFMJDQpSRUNPUkRJTkcJMjI1IFNC
+RDogVGhlIGNvbXBsZXRlIHNob3cgaXMgaGFyZCB0byBmaW5kOyBtb3N0IGNv
+cGllcyBjaXJjdWxhdGluZyBhcmUgYSBwYXRjaHdvcmsgb2Ygc29tZXdoYXQg
+ZGVncmFkZWQgc2NyYXBzIG9mIFNCRCwgb21pdCBzZXZlcmFsIHNvbmdzLCBh
+bmQgY29udGFpbiBhIG5vdG9yaW91cyBjdXQgaW4gdGhlIGphbSBiZXR3ZWVu
+IEhlcmUgQ29tZXMgU3Vuc2hpbmUgYW5kIE1lIEFuZCBNZSBBbmQgQm9iYnkg
+TWNHZWUuICgyLzk3KQ0KQ09OVFJJQlVUT1JTCWJ1bGxlckBtYXRoLnVrYW5z
+LmVkdSwgY2hpbXBvd2xAd2VsbC5jb20NCg0KQkFORAlHcmF0ZWZ1bCBEZWFk
+DQpWRU5VRQlJb3dhIFN0YXRlIEZhaXJncm91bmRzDQpDSVRZCURlcyBNb2lu
+ZXMNClNUQVRFCUlBDQpEQVRFCTUvMTMvNzMNClNFVDEJUHJvbWlzZWQgTGFu
+ZCA7IERlYWwgOyBNZXhpY2FsaSBCbHVlcyA7IFRoZXkgTG92ZSBFYWNoIE90
+aGVyIDsgQm94IE9mIFJhaW4gOyBMb3NlciA7IENoaW5hIENhdCBTdW5mbG93
+ZXIgPiBJIEtub3cgWW91IFJpZGVyIDsgQmVhdCBJdCBPbiBEb3duIFRoZSBM
+aW5lIDsgRWwgUGFzbyA7IFJvdyBKaW1teSA7IE1lIEFuZCBNeSBVbmNsZSA7
+IERvbid0IEVhc2UgTWUgSW4gPiBBcm91bmQgJiBBcm91bmQNClNFVDIJVGVu
+bmVzc2VlIEplZCA7IEJpZyBSaXZlciA7IEJlcnRoYSA7IEphY2sgU3RyYXcg
+OyBTdWdhcmVlIDsgTG9va3MgTGlrZSBSYWluIDsgSGVyZSBDb21lcyBTdW5z
+aGluZSA7IFBsYXlpbicgSW4gVGhlIEJhbmQNClNFVDMJTWlzc2lzc2lwcGkg
+SGFsZiBTdGVwIDsgR3JlYXRlc3QgU3RvcnkgRXZlciBUb2xkIDsgQnJvd24g
+RXllZCBXb21lbiA7IEhlJ3MgR29uZSA+IFRydWNraW4nID4gRHJ1bXMgPiBU
+aGUgT3RoZXIgT25lID4gRXllcyBPZiBUaGUgV29ybGQgPiBDaGluYSBEb2xs
+IDsgU3VnYXIgTWFnbm9saWENCkVOQ09SRQlDYXNleSBKb25lcw0KQ09NTUVO
+VFMJDQpSRUNPUkRJTkcJMjcwIFNCRA0KQ09OVFJJQlVUT1JTCWJ1bGxlckBt
+YXRoLnVrYW5zLmVkdQ0KDQpCQU5ECUdyYXRlZnVsIERlYWQNClZFTlVFCUNh
+bXB1cyBTdGFkaXVtLCBVbml2ZXJzaXR5IG9mIENhbGlmb3JuaWEgU2FudGEg
+QmFyYmFyYQ0KQ0lUWQlTYW50YSBCYXJiYXJhDQpTVEFURQlDQQ0KREFURQk1
+LzIwLzczDQpTRVQxCUJlcnRoYSA7IE1lIEFuZCBNeSBVbmNsZSA7IEJveCBP
+ZiBSYWluIDsgRGVhbCA7IExvb2tzIExpa2UgUmFpbiA7IFRlbm5lc3NlZSBK
+ZWQgOyBUaGUgUmFjZSBJcyBPbiA7IENoaW5hIENhdCBTdW5mbG93ZXIgPiBJ
+IEtub3cgWW91IFJpZGVyIDsgQmVhdCBJdCBPbiBEb3duIFRoZSBMaW5lIDsg
+VGhleSBMb3ZlIEVhY2ggT3RoZXIgOyBQbGF5aW4nIEluIFRoZSBCYW5kDQpT
+RVQyCVByb21pc2VkIExhbmQgOyBCcm93biBFeWVkIFdvbWVuIDsgTWV4aWNh
+bGkgQmx1ZXMgOyBSb3cgSmltbXkgOyBKYWNrIFN0cmF3IDsgQmlnIFJhaWxy
+b2FkIEJsdWVzIDsgR3JlYXRlc3QgU3RvcnkgRXZlciBUb2xkIDsgSGVyZSBD
+b21lcyBTdW5zaGluZSA7IEJpZyBSaXZlciA7IExvc2VyIDsgRWwgUGFzbyA7
+IENhc2V5IEpvbmVzDQpTRVQzCVRydWNraW4nID4gVGhlIE90aGVyIE9uZSA+
+IEV5ZXMgT2YgVGhlIFdvcmxkID4gU3RlbGxhIEJsdWUgOyBTdWdhciBNYWdu
+b2xpYQ0KRU5DT1JFCUpvaG5ueSBCLiBHb29kZQ0KQ09NTUVOVFMJDQpSRUNP
+UkRJTkcJMjcwIEFVRDogVGhlIGNvbXBsZXRlIHNob3csIGluIGdvb2QgQVVE
+LiBTQkQgb2YgSmFjayBTdHJhdyBhbmQgdGhlIDNyZCBzZXQgJiBlbmNvcmUg
+YWxzbyBjaXJjdWxhdGUgKDIvOTcpDQpDT05UUklCVVRPUlMJYnVsbGVyQG1h
+dGgudWthbnMuZWR1LCBjaGltcG93bEB3ZWxsLmNvbQ0KDQpCQU5ECUdyYXRl
+ZnVsIERlYWQNClZFTlVFCUtlemFyIFN0YWRpdW0NCkNJVFkJU2FuIEZyYW5j
+aXNjbw0KU1RBVEUJQ0ENCkRBVEUJNS8yNi83Mw0KU0VUMQlQcm9taXNlZCBM
+YW5kIDsgRGVhbCA7IEphY2sgU3RyYXcgOyBUZW5uZXNzZWUgSmVkIDsgVGhl
+IFJhY2UgSXMgT24gOyBTdWdhcmVlIDsgTWV4aWNhbGkgQmx1ZXMgOyBSb3cg
+SmltbXkgOyBMb29rcyBMaWtlIFJhaW4gOyBUaGV5IExvdmUgRWFjaCBPdGhl
+ciA7IFBsYXlpbicgSW4gVGhlIEJhbmQNClNFVDIJSGVyZSBDb21lcyBTdW5z
+aGluZSA7IEVsIFBhc28gOyBMb3NlciA7IEJlYXQgSXQgT24gRG93biBUaGUg
+TGluZSA7IFlvdSBBaW4ndCBXb21hbiBFbm91Z2ggOyBCb3ggT2YgUmFpbiA7
+IENoaW5hIENhdCBTdW5mbG93ZXIgPiBJIEtub3cgWW91IFJpZGVyIDsgQmln
+IFJpdmVyIDsgQmVydGhhIDsgQXJvdW5kICYgQXJvdW5kDQpTRVQzCU1pc3Np
+c3NpcHBpIEhhbGYgU3RlcCA7IE1lIEFuZCBNeSBVbmNsZSA7IEhlJ3MgR29u
+ZSA+IFRydWNraW4nID4gVGhlIE90aGVyIE9uZSA+IEV5ZXMgT2YgVGhlIFdv
+cmxkID4gQ2hpbmEgRG9sbCA7IFN1Z2FyIE1hZ25vbGlhDQpFTkNPUkUJQ2Fz
+ZXkgSm9uZXMNCkNPTU1FTlRTCQ0KUkVDT1JESU5HCTI3MCBTQkQNCkNPTlRS
+SUJVVE9SUwlidWxsZXJAbWF0aC51a2Fucy5lZHUNCg0KQkFORAlHcmF0ZWZ1
+bCBEZWFkDQpWRU5VRQlSb2JlcnQgRi4gS2VubmVkeSBTdGFkaXVtDQpDSVRZ
+CVdhc2hpbmd0b24NClNUQVRFCURDDQpEQVRFCTYvOS83Mw0KU0VUMQlQcm9t
+aXNlZCBMYW5kIDsgRGVhbCA7IExvb2tzIExpa2UgUmFpbiA7IFRoZXkgTG92
+ZSBFYWNoIE90aGVyIDsgSmFjayBTdHJhdyA7IExvb3NlIEx1Y3kgOyBNZXhp
+Y2FsaSBCbHVlcyA7IFJvdyBKaW1teSA7IEVsIFBhc28gOyBCb3ggT2YgUmFp
+biA7IFN1Z2FyZWUgOyBCZWF0IEl0IE9uIERvd24gVGhlIExpbmUgOyBUZW5u
+ZXNzZWUgSmVkIDsgQ2hpbmEgQ2F0IFN1bmZsb3dlciA+IEkgS25vdyBZb3Ug
+UmlkZXINClNFVDIJSGUncyBHb25lID4gVHJ1Y2tpbicgPiBQbGF5aW4nIElu
+IFRoZSBCYW5kIDsgTG9zZXIgOyBNZSBBbmQgTXkgVW5jbGUgOyBNaXNzaXNz
+aXBwaSBIYWxmIFN0ZXAgOyBCaWcgUml2ZXIgOyBFeWVzIE9mIFRoZSBXb3Js
+ZCA+IENoaW5hIERvbGwgOyBTdWdhciBNYWdub2xpYQ0KU0VUMwkNCkVOQ09S
+RQkNCkNPTU1FTlRTCQ0KUkVDT1JESU5HCTE4MCBTQkQ6IFRoZSBjb21wbGV0
+ZSBzaG93IGV4Y2VwdCB0aGUgY29uY2x1c2lvbiBvZiBTdW5zaGluZSBEYXlk
+cmVhbSAoMi85NykNCkNPTlRSSUJVVE9SUwlidWxsZXJAbWF0aC51a2Fucy5l
+ZHUsIGNoaW1wb3dsQHdlbGwuY29tDQoNCkJBTkQJR3JhdGVmdWwgRGVhZA0K
+VkVOVUUJUm9iZXJ0IEYuIEtlbm5lZHkgU3RhZGl1bQ0KQ0lUWQlXYXNoaW5n
+dG9uDQpTVEFURQlEQw0KREFURQk2LzEwLzczDQpTRVQxCU1vcm5pbmcgRGV3
+IDsgQmVhdCBJdCBPbiBEb3duIFRoZSBMaW5lIDsgUmFtYmxlIE9uIFJvc2Ug
+OyBKYWNrIFN0cmF3IDsgV2F2ZSBUaGF0IEZsYWcgOyBMb29rcyBMaWtlIFJh
+aW4gOyBCb3ggT2YgUmFpbiA7IFRoZXkgTG92ZSBFYWNoIE90aGVyIDsgVGhl
+IFJhY2UgSXMgT24gOyBSb3cgSmltbXkgOyBFbCBQYXNvIDsgQmlyZCBTb25n
+IDsgUGxheWluJyBJbiBUaGUgQmFuZA0KU0VUMglFeWVzIE9mIFRoZSBXb3Js
+ZCA+IFN0ZWxsYSBCbHVlIDsgQmlnIFJpdmVyIDsgSGVyZSBDb21lcyBTdW5z
+aGluZSA7IEFyb3VuZCAmIEFyb3VuZCA7IERhcmsgU3RhciA+IEhlJ3MgR29u
+ZSA+IFdoYXJmIFJhdCA+IFRydWNraW4nIDsgU3VnYXIgTWFnbm9saWENClNF
+VDMJSXQgVGFrZXMgQSBMb3QgVG8gTGF1Z2ggSXQgVGFrZXMgQSBUcmFpbiBU
+byBDcnkgOw0KVGhhdCdzIEFscmlnaHQgTWFtYSA7IFByb21pc2VkIExhbmQg
+OyBOb3QgRmFkZSBBd2F5ID4gR29pbicgRG93biBUaGUgUm9hZCBGZWVsaW4n
+IEJhZCA+IE5vdCBGYWRlIEF3YXkgOyBKb2hubnkgQi4gR29vZGUNCkVOQ09S
+RQkNCkNPTU1FTlRTCVNFVDMgd2l0aCBUaGUgQWxsbWFuIEJyb3RoZXJzIEJh
+bmQgJiBNZXJsIFNhdW5kZXJzDQpSRUNPUkRJTkcJMjgwIFNCRA0KQ09OVFJJ
+QlVUT1JTCWJ1bGxlckBtYXRoLnVrYW5zLmVkdQ0KDQpCQU5ECUdyYXRlZnVs
+IERlYWQNClZFTlVFCQ0KQ0lUWQkNClNUQVRFCQ0KREFURQkvNzMNClNFVDEJ
+DQpTRVQyCQ0KU0VUMwkNCkVOQ09SRQkNCkNPTU1FTlRTCQ0KUkVDT1JESU5H
+CQ0KQ09OVFJJQlVUT1JTCWJ1bGxlckBtYXRoLnVrYW5zLmVkdQ0KDQo=
+- --1915877608-903869518-856497741=:4880--
+
+------------------------------
+
+End of DeadLists Digest V1 #186
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

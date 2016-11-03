@@ -1,0 +1,117 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #42
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Saturday, 13 April 1996      Volume 01 : Number 042
+
+In this issue:
+
+	Re: addendum 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 12 Apr 1996 17:07:34 -0700 (PDT)
+Subject: Re: addendum 
+
+I agree with this fully.  Who would like to volunteer for what?  I know a 
+while back we broke it down into some groups of years that various people 
+were constructing "in circulation" lists for.  For example, Eric Doherty 
+has 69 and 70 covered.  Paul Sexton is working on a similar list for 
+66-68.  I think that Jim Powell has similar info for like 72-74.
+
+If these folks want to volunteer to take on the task of being the 
+"listmasters" for the years they have been researching, they should speak 
+up.  In addition to whatever info they are already collecting, they 
+should start to try to collect the kind of info the datafile spec outlines.
+
+I haven't changed the datafile spec to direct folks to put each "field" 
+on a separate line (or have a line break after each field, which is a 
+more accurate way to describe the fields that will be longer than a 
+line), but I am tempted to do so.  Any objections?
+
+Once this last issue is settled, people can start amassing set lists in 
+the proper format (with the provision that a few song titles might nee to 
+be standardized down the line before uploading the collected lists.)  
+(This standardization of song titles shouldn't be too hard.  In our 
+individual lists of setlists, as long as we are each internally 
+consistent with song names, we can use a "find/replace" feature of any 
+word-processing program to get all the songnames into a single "style" 
+once we have decided what the definitive songnames should be.)
+
+- -------------------------------
+
+Once we know who the "listmasters" are, I will construct a page where 
+people who access the DeadLists web site can simply click a button and 
+send mail to the right list-master with lists that they would like to 
+submit.  Of course, I won't have that "submissions" page online *until* 
+we have the initial truckload of setlists online -- so people can see 
+what has already been put together and then only submit new stuff if they 
+think it corrects or supplements what the master datafile already has.
+
+This creates one problem:  How do we discuss troubling lists?  Do we 
+create a semi-official policy whereby if the listmaster of a particular 
+era and someone submitting info can't agree, then the "facts" are 
+presented to the list for discussion?  This seems like a reasonable 
+method.  (Of course, the BBS-style part of the web site could perform 
+this function, but then people have to regularly check in with that 
+forum, which might not be as easy as simply receiving some mail when 
+there is a need for discussion.)
+
+- --------------------
+
+Back to figuring out the query form and the script(s) to search the 
+impending datafile.....
+
+
+
+On Fri, 12 Apr 1996, John Oleynick wrote:
+
+> To spread the work around, perhaps instead of having one "keeper of the
+> setlist file" we could split it up by year and have a number of
+> "keepers of a year of the setlist file"?  Also, instead of having the
+> update forms on the web page directly update the database, the forms
+> could just mail the new entry to the "keeper of that year of the
+> setlist file" and the "year keeper" could sort out bogus entries,
+> resolve conflicting setlists, etc. and keep their year of the setlists
+> on the web page up-to-date.  Depending on the number of people who want
+> to be "keepers" we could break it up some other way, like "keeper of 5
+> years of the setlist file" if not many people volunteer, or "keeper of
+> 6 months of the setlist file" if alot of people do.  I would defintely
+> volunteer to keep part of the setlist file, but I don't think I have
+> time to keep the whole file.
+> 
+> I think it would definitely be a good idea to jump start this with a
+> truck load of lists from someone.  Once we get something started
+> the "year keepers" can then cross check with other truck loads or
+> individual lists.
+> 
+> 			John
+> 
+
+------------------------------
+
+End of DeadLists Digest V1 #42
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,191 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #120
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 10 January 1997      Volume 01 : Number 120
+
+In this issue:
+
+	Re: 
+	Re: 
+	Formatting
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Fri, 10 Jan 1997 10:33:31 -0500
+Subject: Re: 
+
+Jim Powell wrote:
+> 
+> basically the current format looks good to me.  it worked well enough for
+> 1970, which is in many respects the hardest year.
+
+Agreed. I didn't see anything wrong with the current one that couldn't be 
+fixed with a comment in the comment field (2 separate encores, 4 sets, etc.).
+
+> in doing 1970 I omitted the left-hand margin headers (BAND / VENUE / CITY
+> etc) when there was nothing in that field.  doing 1969 i'm listing all 12
+> fields as headings down the left margin whether or not there's anything in
+> them.  my question is, which is correct?  or does it make any difference?
+
+The latter is correct (what you did for the '69 lists). Basically, the 
+bottom line is that we all need to use the same format. Since the data spec 
+example shows each field heading preceeding it's field, then that's what 
+we'll go with.
+
+Oh, about the song timings. Although it would be nice if everyone put the 
+timings in brackets (i.e. Ramble on Rose [7:05]; ), the program won't break 
+if they are not. When results are returned, the timings will still be 
+returned with the correct song (just not in brackets).
+
+One last thing about song seperators. If there is a break between songs, use 
+a ";". If a song flows into another, use a ">". If you don't know, use a ":". 
+
+> This is anything formatting i'm not getting right in the 1969 lists?
+
+Your lists look very good! There is one thing that we might need to come to 
+conclusion on. Here is an example:
+BAND  Grateful Dead
+VENUE  Washington University
+CITY  St. Louis
+STATE  MO
+DATE  04/17/69
+
+I (not knowing any better) had been listing entries like the above as such:
+BAND  Grateful Dead
+VENUE  ? (Washington U)
+CITY  St. Louis
+STATE  MO
+DATE  04/17/69
+
+Since the venue is not known, only the college name. (Maybe someone visiting 
+the site, will see the "?", and fill in the blank?) In addition (for brevity) 
+I was always making University just "U", and surrounding college names with 
+parenthesis. For universities in California, I had been using:
+VENUE Greek Theater (UC Berkeley)
+And for schools with common acronyms (UCLA, MIT, SUNY), I used these. I'm not 
+saying my way is right, it's just what I had been using. Comments?
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Fri, 10 Jan 1997 10:54:47 -0500
+Subject: Re: 
+
+John Oleynick wrote:
+> 
+> Are we really going to change the format?  How difficult will it
+
+Not to my knowledge.
+
+> If we do change the format I think we should limit the changes as much
+> as possible.  I'd propose limiting the changes to the following:
+>         1.  remove the initial fields line and make the field name the
+>                 first subfield of every field.
+>         2.  eliminate the requirement that a tab separate each
+>                 field; songs are already separated by the transitions.
+>         3.  allow a field to span multiple lines.  If a line beings
+>                 with a space then treat it as the continuation of the
+>                 previous line, otherwise treat it as a new field.
+
+I will comment on one thing I missed in Jim's post. About the field definitions line 
+(i.e. BAND VENUE CITY STATE DATE....). I noticed that Jim and Gordon didn't have 
+them in their listings. Although the spec says they sould be there, they really 
+aren't necessary. However (and this is a big however), if we decide not to use them, 
+EVERYONE must obstain from using them. Like most things in this project, the most 
+important thing is that all persons must adhere to the same format. 
+
+It looks like most people have one blank line between records, and this is 
+fine. Again, since I'm not inputing lists, it should be up to others to decide this 
+matter. I just want to make sure we are all on the same sheet of paper.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Fri, 10 Jan 1997 11:59:45 -0500
+Subject: Formatting
+
+Yet another email from me today. Appologies for all the yacking from my end.
+
+I'll note some observations below that I have run across when viewing lists. 
+These are not directed at anyone in particular, but just some comments about 
+formatting.
+
+Tabs are the essential seperator in the setlists data. There are 13 lines for 
+each record. We have not decided on the first line (BAND VENUE CITY STATE...), 
+but either it is there, or a <carriage return> is in it's place. For the next 
+12 lines, the form is:
+
+FIELDNAME<tab>Information goes here<carriage return>
+
+For the SET1, SET2, SET3 and ENCORE fields, the format is more specific:
+
+FIELDNAME<tab>Song 1 [time]<blank_space><delimitor><tab>Song 12<carriage 
+return>
+
+[time] is optional, but after each song, there should be one blank space, the 
+appropriate delimitor (; or > or :) and then one tab. At the end of all the 
+songs for a field, there is one carriage return.
+
+For the COMMENTS, RECORDING and CONTRIBUTORS fields, no matter how long the 
+lines are, there should only be one carriage return at the end of the data. I 
+really can't tell if this is what is being used, because my email reader wraps 
+lines at a certain length. 
+
+If everyone is already following these, I appoligize and will get off my 
+soapbox.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #120
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

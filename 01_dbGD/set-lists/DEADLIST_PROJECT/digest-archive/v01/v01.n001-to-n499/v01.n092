@@ -1,0 +1,88 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #92
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest        Wednesday, 18 December 1996    Volume 01 : Number 092
+
+In this issue:
+
+	Re: Project Update 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Wed, 18 Dec 1996 18:28:43 -0500
+Subject: Re: Project Update 
+
+Ryan, would you be interested in any updated setlist data?  I've
+started going through some shows in '71, timing them and checking out
+transitions to figure out if they are ">", "~" or ";".  So far I've
+done exactly 1 show, and a few 2nd sets.
+
+A few comments on Ryan's last update:
+In message <327925ED.3975@digicool.com> you write:
+> While working on the search interface, we were trying to import all the
+> venues into the searchable Web interface. What we discovered were lots
+> of errors in the data, especially the venue fields. These errors were
+
+Yes, that must have been a mess because the setlists came from a number
+of different people and sources.  Thanks for cleaning it up!
+
+> 4. It would also be nice if we could come up with a convention for
+> labeling venues that were at colleges or universities. For instance, the
+> following were all entries for Pauley Pavillion:
+> 
+> Pauley Pavilion, UCLA
+> Pauley Pavilion (UCLA)
+> Pauley Pavilion, U.C.L.A.
+> 
+> Something along the lines of:
+> 
+> Venue name (College name) 
+> 
+> would be fine. We would have to refine College name a little further
+> (e.g. "U of Illinois" vs. "Univ of Illinois" vs. "University of
+> Illinois"), but this would be a start. I am open to suggestions for how
+> to deal with this. Please let me know if you have some ideas about this.
+
+For venues at colleges having "Stadium Name (College Name)" sounds
+good.  For "College Name" I think we could just use a "common name"
+like "UCLA" or "Berkeley" instead of the official name "University of 
+California, Los Angeles" or "University of California, Berkeley".
+
+> The search is
+> pretty much ready to go, but we have to fix the data in order for the
+> search to work. Once we have a correct data file, we can start testing
+> the search via a Web interface.
+
+Let me know if there's any way I can help cleaning up the data.
+
+		John
+
+
+------------------------------
+
+End of DeadLists Digest V1 #92
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

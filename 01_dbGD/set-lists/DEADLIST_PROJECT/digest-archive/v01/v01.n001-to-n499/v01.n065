@@ -1,0 +1,528 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #65
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Friday, 31 May 1996        Volume 01 : Number 065
+
+In this issue:
+
+	DeadList Spec V1.21 - explanation
+	DeadList Spec V1.21 - Technical Description
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Fri, 31 May 1996 09:35:05 -0700
+Subject: DeadList Spec V1.21 - explanation
+
+   * Steve Zimmerman <saz@well.com> created the first version of this
+     document.
+   * Nathan Wolfson <nathan@well.com> updated Steve's version 1.0 using
+     input from the DeadLists Mailing List.
+   * Allen Baum <baum@apple.com> updated Nathan's version 1.1  in order
+     to get his two cents in & make the spec a bit more rigorous.
+   * The document is in need of final polishing, to be based on yet
+     more intermininable discussions on the mailing list.
+     For further information, visit the DeadLists Project Home Page.
+
+Changes from version 1.2 to version 1.21:
+     - Tabs are now mandatory subfield separators, e.g. between
+        songs in a set,
+        referenced comments in the comments field, and
+        contributors in the contributors field.
+     - An asterisk is used to separate sub-subfields, e.g
+        comment items in a comment (not new), and
+        timing items in a timing-map.
+     - Many minor readjustments of the technical definition for clarity.
+     - Timings and timing maps are allowed inside the extended-silence
+       separator ';;'
+     - Shows (records) are separated by <newpage>, which is generally
+       a <control-L> character.
+     - New definition of <contrib-field> to eliminate ambiguities that would
+       made parsing rather difficult: email address now in angle brackets.
+Questions for V1.22:
+     - Should the initial <fields> field be eliminated, and the fieldname
+       keyword be added as the first subfield in a field? (e.g.
+         SET1: <tab> JackStraw ; ...
+     - Should setlists always have a tab preceding the first songname?
+       This would ensure that the songname is always the first thing encountered
+       in a subfield (not the case if there are set comments/timings). this
+       could be combined with first proposed change, so a set field looks like:
+         SET1: [32:24] <tab> Jackstraw ; ...
+- ----------------------------------------------------------------------------
+DeadLists Formatting Specification Proposal - Explanation
+Version 1.21 (5/29/96)
+
+The record of a show will consist of a list of fields, separated by
+<newline>. Shows will be separated by <newpage>
+
+FIELD NAMES:
+
+BAND, DATE, VENUE, CITY, STATE, SET1, SET2, SET3, ENCORE, COMMENTS,
+RECORDING, CONTRIBUTORS
+
+      Each field shall be separated by a NEWLINE and the field names listed
+above shall be included in the file as a header record. The STATE file shall be
+used for COUNTRY in the event of a venue outside the US.
+
+      Subfields shall be separated by TABs whenever appropriate.
+      Note: A rigid TAB delimited format was used because provides a format
+that both programmer and non-programmers like can easily use. This format
+will
+allow non-programmers to open the data in a spreadsheet for manipulation or
+create mail-merge show lists using a word processor.
+
+FIELD FORMATTING:
+
+DATE:
+      A "Date" is a string of the form mm/dd/yy (e.g.
+"02/04/88"). Leading zeroes are optional, as are the leading digits
+in the year (i.e. '19', and eventually, '20'). If the century digits
+are not present, '19' is assumed.
+
+      In the event of uncertain dates, unknown elements will be
+replace by question marks (e.g.
+      "Some day in Feb. of 1984" shall be "02/??/84" and
+      "some day in 1969"         shall be "??/??/69" and
+      "no clue whatsoever"       shall be "??/??/??" ).
+
+      Following the date are flags to indicate other information about a
+given show: "a" = Early Show, "b" = Late Show, "@" = Opening Sets in which
+band member(s) participated, "+" = Sound Check
+
+      For example, an early show opener on February 4, 1992 shall be
+designated as 02/04/92a@.
+
+      In the event that a precise date or show is stated, but its accuracy
+is questioned, a trailing question mark following the date and flags will
+be added,  (e.g. "04/01/68a?") .
+
+Note:   Using the supplemental flags above will allow use of only three set list
+      fields per show record and avoid a number of problems associated with
+      having upward of seven sets per show record. Otherwise, there would be
+      some problems such as:
+
+      * Simple queries (e.g. finding all times a particular song was
+      played in a particular set) will not work, because there will no way to
+      determine which of the "Sets" is the first GD set vs. an opening set.
+      * When data is imported into a database application for manipulation,
+      the file size would be significantly larger than if the flagging method
+      was used, because sufficient room in each of the seven? set list fields
+      would have to be allocated to handle a full set list, when in reality,
+      relatively few of the fields above SET THREE would ever be used.
+
+SET FIELDS:
+      Songs shall be named according to a mutually agreed upon list under
+development at this time (see URL http://??????). New song names, jam
+names, tuning names, and so on, will be added ss needed.
+
+Song Modifiers
+      There will be standard song modifiers to note special occurrences
+that we want to be able to filter or sort differently from other regular
+song names.
+These are:
+
+      * "<song-name>-jam" specifies a recognizable insertion of a known song
+      that doesn't actually become that song.
+      * "<song-name>-continued" specifies the return to a song that does not
+      conclude the tune.
+      * "<song-name>-reprise" specifies the return to a song's conclusion,
+      whether or not begun during that show.
+      * "<song-name>-tease" specifies the hint of a song that then becomes
+      something else.
+
+      The use of the song name 'jam' refers to an unspecified instrumental
+tune.
+      If and when it gets classified, it will become "<song-name>-jam"
+      The use of 'tuning' or 'technical-difficulties' are self evident.
+
+Song Delimiters: (NOTE: all song delimiters should be preceded and trailed
+by a space!!)
+      ':'        Until examined, all songs will be separated by a colon
+      (e.g. <song1> : <song2> ).
+      ';'       Songs not continuing into each other are separated by a
+semicolon
+      (e.g. <song1> ; <song2>).
+      '>'       Songs that segue into each other by means of a defined jam or
+      contiguous transition -- a guzinta -- are separated by the character '>'
+      (e.g. <song1> > <song2>).
+      '~'       Songs that segue into each other, not by means of a defined
+      transition, but through an intentional pause are separated by a  tilde
+      (e.g. <song1> ~ <song2>).
+      ';;'      In the event that two songs are separated by a pause of greater
+      than 60 seconds, a separator of two consecutive semicolons is used
+      (e.g. <song1> ;; <song2>.)
+      It's possible to insert the length of the pause between the semicolons
+      (e.g. <song1>; [3:20] ; <song2>) using the standard timing format, or even
+       a timing map with comments!
+      '\'       Where a tape splice, flip or pause prevents examination of the
+      space between songs, a backslash will be used (e.g. <song1>\ <song2>).
+
+Song and Set Timings:
+      Song and set timings, where known, are enclosed in square brackets
+directly following the item being timed,
+(e.g.       <song1> [2:33] > <song2>... for song timings ,
+or  [33:42] <song1>...                  for set  timings)
+
+      Timing maps may also be placed after timings. Timing maps are
+collections of timings describing the substructure of an song. They are
+placed immediately after song timings, inside the timing brackets
+(e.g.       [33:42] Estimated Prophet [14:32] {intro: [1:20] verses1&2
+[3:20] instrumental chorus [1:55]  verse 3 & fadeout [3:22] var of theme
+[2:43] jazzy jam [5:58] > Eyes [19:10]). ... )
+Note that a timing map immediately following a set timing (before the first
+song) is really just the song timings!
+
+      The timings, and timing maps can be filtered out of most searches but
+called upon according to the end user's interest in the details. Timing
+maps may also be placed in the COMMENTS field, with appropriate footnoting
+(see 'reference mark's ).
+
+COMMENTS:
+      Comments are usually notes such as guest artists on songs, acoustic
+versions, etc.)  There are two kinds of comments: literal, and reference
+marks.
+
+      A literal comment is a textual description of some kind placed after
+the object being commented on, inside parenthesis. Multiple items can be
+listed inside the parenthesis, separated with an asterisk.
+      Literal comments placed before any songs in a setlist apply to the
+entire set, (since there is no description of the set besides the field
+name SET1, SET2, or ENCORE.)
+      Literal comments after songs apply to just the song. Literal comments
+must not contain parenthesis, or asterisks, and must not start with a
+digit, to avoid confusion with reference marks.
+
+      Reference marks are numbered references to comments contained in the
+COMMENTS field. The numbers are placed in parenthesis following the item
+being commented on as in the literal comments above. For each numbered
+reference mark, there must be an associated reference mark in the COMMENTs
+field, followed by the corresponding comment. (e.g. "(1) with Carlos
+Santana").
+
+      There is no requirement that an item have only one reference mark,
+nor that more than one item can share a reference mark, e.g. <song1> (1)
+(2) ; <song2> (2). Thus, a song might have two reference marks, one
+referring to guests, and one to acoustic, or two songs might refer to the
+same guest artist comment.
+
+COMMENT FIELD:
+      The comments field can contain any of the item descriptions that
+would follow an item, such as timings, timing maps, and literal comments.
+All of the descriptions in the COMMENT field except the first are required
+be labelled with a reference mark; The first descriptions in the COMMENTs
+field, if unmarked, refer to the entire show.
+
+      The format of referred comments is:
+      reference mark (optional
+        for first items, else enclosed in the usual parenthesis)
+followed by
+      an optional timing     (enclosed in the usual square brackets) followed by
+      an optional timing map (enclosed in the usual curly  brackets) followed by
+      a literal comment (multiple items separated by an asterisk),   followed by
+      a tab (if it's not the last comment.
+
+Comment Keywords:
+      Several keywords are predefined, and are appended with a colon ( ":" ).
+They are Acoustic:, Guest:, and Opener:. They can be used as literal
+comments, or can be placed in the Comments field and referred to by
+reference Marks.
+      An acoustic set could be denoted by a literal comment of Acoustic:
+preceding any songs in the set, or be referred by a reference mark in that
+position. Individual acoustic songs could be noted in the same way,
+following the song title (and any timing information for that song)
+
+RECORDING:
+
+This category will be used to track the kinds circulating recordings of
+each performance using standard source abbreviations. An example of the
+kind of information this might include (focused on two early years) can be
+found at
+http://www.winternet.com/~edoherty. For later years, specifications such as
+the various kinds of audience tapes available for a particular show and
+what kind of soundboard tapes exist will be included (though we might want
+to include some default assumptions regarding the availability of at least
+analog audience tape from the taper's pit of Dead shows for every show
+since the section was created in '84.
+
+Proposed abbreviations:
+
+   * format:
+      o C=cassette  <eq>    Cassettes and open reel can list an equalization
+      o R=open reel <eq>    or compression used, tape type, and speed such as:
+      o P=PCM                 o A=Dolby A     o MO=metal oxide  o 75=7 1/2 ips
+      o D=DAT                 o B=Dolby B     o CH=chromium     o 35=3 3/4 ips
+      o B=HiFiBeta            o C=Dolby C
+      o V=HiFiVHS             o D= DBx
+   * source:
+      o SB=SBD patch
+      o MS=matrix SBD recording
+      o FM=FM broadcast
+      o PF=pre-broadcast FM recording
+      o A?=audience (unknown location)
+      o AF=audience Front of Sbd Audience
+      o TS=audience taper's section
+   * generation:
+      o M=master
+      o 1-9 =  generation number (master=0 gen)
+
+CONTRIBUTORS
+
+The source of each set list will be noted with names and email addresses of the
+people that submitted it. Some dates will have many contributors. These will
+be deleted with time as the consensus emerges that "this list is correct".
+Each contributor will be asked to notate the manner in which they know their
+setlist and which parts of the setlist they contributed
+   * V: verified list against a tape that they have by writing a new setlist
+     while listening closely to the tape.
+   * A: assumed that the list they have on their tape insert or tape list or
+     other such record is correct.
+   * O: other means of acquiring the list (which we might want to better
+     specify) such as on-line resources, reports from the vault, and so on.
+
+- ----------------------------------------------------------------------------
+
+FULL EXAMPLE OF PROPOSED FORMATTING:
+
+Data is totally bogus, and the initial fieldnames aren't (currently) included.
+
+BAND VENUE CITY STATE DATE SET1 SET2 SET3 ENCORE COMMENTS RECORDING CONTRIBUTORS
+BAND    Grateful Dead
+VENUE   Oakland Coliseum
+CITY    Oakland
+STATE   CA
+DATE    10/17/91a
+SET1    [59:26] Touch Of Gray [5:04] ~ Little Red Rooster (1): Lazy River
+Road ;        When I Paint My Masterpiece (1) ;; Childhood's End [5:32] ;
+      Cumberland Blues > Promised Land (2)
+SET2    [45:23] Shakedown Street [10:34] ; Samson & Delilah ; So Many Roads ;
+      Playing in the Band > Corinna > Drums > Space [30:01] {noodling [5:26] *
+      teasing [9:32]* real jam [5:03] } > Playing in the Band-reprise ~
+      Sugar Magnolia [6:56]
+SET3
+ENCORE  Black Muddy River ; Box Of Rain
+COMMENTS        Opener: Dave Matthew's Band (1) Bobby on acoustic * Guest:
+                Baba on Drums (2) Guest: Carlos Santana
+RECORDING       CBMO3.50TS
+CONTRIBUTORS    <bp@dead.net> (Black Peter) V: from the vault! * Thanks Dick!
+                <annie_b@san.angel> (Annie Bonneau) A: a little bird told me
+
+
+
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Fri, 31 May 1996 09:35:18 -0700
+Subject: DeadList Spec V1.21 - Technical Description
+
+   * Steve Zimmerman <saz@well.com> created the first version of this
+     document.
+   * Nathan Wolfson <nathan@well.com> updated Steve's version 1.0 using
+     input from the DeadLists Mailing List.
+   * Allen Baum <baum@apple.com> updated Nathan's version 1.1  in order
+     to get his two cents in & make the spec a bit more rigorous.
+   * The document is in need of final polishing, to be based on yet
+     more intermininable discussions on the mailing list.
+     For further information, visit the DeadLists Project Home Page.
+
+Changes from version 1.2 to version 1.21:
+     - Tabs are now mandatory subfield separators, e.g. between songs in a set,
+       referenced comments in the comments field, and contributors in the
+       contributors field.
+     - An asterisk is used to separate sub-subfields, e.g comment items
+       in a comment (not new), and timing items in a timing-map.
+     - Many minor readjustments of the technical definition for clarity.
+     - Timings and timing maps are allowed inside the extended-silence
+       separator ';;'
+     - Shows (records) are separated by <newpage>, which is generally
+       a <control-L> character.
+     - New definition of <contrib-field> to eliminate ambiguities that would
+       made parsing rather difficult: email address now in angle brackets.
+Questions for V1.22:
+     - Should the initial <fields> field be eliminated, and the fieldname
+       keyword be added as the first subfield in a field? (e.g.
+         SET1: <tab> JackStraw ; ...
+     - Should setlists always have a tab preceding the first songname?
+       This would ensure that the songname is always the first thing encountered
+       in a subfield (not the case if there are set comments/timings). this
+       could be combined with first proposed change, so a set field looks like:
+         SET1: [32:24] <tab> Jackstraw ; ...
+- ----------------------------------------------------------------------------
+DeadLists Formatting Specification Proposal Formal Description:
+Version 1.21 (5/29/96)
+- ---------------------------------------------------------
+Notation
+An item inside angle brackets ( "<..>" ) is a type of an object.
+      The type is either a literal string, or constructed of other objects.
+
+Items within curly brackets  ( "{..}" ) are items that must occur together.
+      Normally this is to delimit a range, or set of repeated items.
+Items inside square brackets ( "[..]" ) are optional.
+Items separated by a dash ( "-" ) indicate a selection range.
+      The first item indicates the lowest value of the range, and the second
+      item indicated the highest.
+Items separated by a vertical bar ( "|" ) indicate selection items;
+      exactly one of the items is to be selected. If inside square brackets
+      then none of the items is also valid.
+Items followed by an  asterisk ( "*" )   can be repeated zero or more times.
+      To force something to be repeated on or more times, use <item> {<item>}*
+Items inside single quotes ( "'..'" ) are literals. These can be used to
+      insert characters that would otherwise be interpreted as formatting
+      characters, such as brackets. To insert a single quote, use two
+      consecutive single quotes.
+Newlines and whitespace inside item definitions are for formatting only,
+      and are NOT part of the field definition; Use <crlf> if a newline is
+      required, <ws> if spaces are required, and <ws?> if whitespace is
+      permitted. The amount of whitesspace is irrelevant.
+
+Several objects are predefined literals:
+      <crlf> is a newline (either a control-M or control-J
+               or the character pair control-M,control-J.
+      <newpage> is control-L.
+      <tab> is a tab character, control-I.
+      <space> is a space character
+      <ws>  is (<space> [ <space> ]*
+      <ws?> is          [ <space> ]*
+- ---------------------------------------------------------
+A <show> is    <header> <band-field> <date-field>   <venue-field>  <city-field>
+           <state-field> <set-field>  <set-field>     <set-field> <encore-field>
+           <comments-field>     <recording-field> <contrib-field>
+
+A <header> is   BAND <tab> DATE <tab> VENUE <tab> CITY   <tab> STATE<tab>
+              SET1 <tab> SET2 <tab> SET3  <tab> ENCORE <tab> COMMENTS<tab>
+              RECORDING<tab>CONTRIBUTORS<crlf>
+
+A <band-field> is (generally): "Grateful Dead"<crlf>
+
+A <date-field> is <month>'/'<day>'/'<year>['?'][<show>]<crlf>
+  <month> is   { 01-12 } | {1-12 } | '??'
+  <day>   is   { 01-31 } | {1-31 } | '??'
+  <year>  is { [ 19-20 ]   {00-99}}| '??'
+  <show>  is   [ 'a' | 'b' ] [ '@' | '+'] [ '?' ]
+      Much of this is just a complicated way to say that numbers below 10
+      can have an optional leading zero for day and month.
+      Note that years without leading 19 or 20 assume 19.
+      For <show>, 'a' indicates early show, 'b' indicates late show,
+      '@' indicates opening act with band members, '+' indicates soundcheck.
+      ****there is some ambiguity here, having to do with '?', especially
+      if there is no show characters, but there is a show '?', etc.****
+
+A <venue-field> is   <name of venue> <crlf>
+
+A <city-field>  is   <name of city > <crlf>
+
+A <state-field> is { <name of state> | <name of country> } <crlf>
+      Using the two letter postal abbreviation for state, or two letter
+internet
+      domain name for non-US countries is preferred.
+
+A <set-field> is                        [ <comment-info> ]
+                        [ <song-name>[<ws><comment-info> ]
+           [ <song-sep> [ <song-name>[<ws><comment-info> ]] ]* ]
+          The initial <comment-info> refers to the set; subsequent
+          <comment-info>s have exactly the same format, and refer to the songs
+          they immediately follow. An acoustic set, for example, might be
+          prefixed with the comment keyword "Acoustic:". Alternately, it might
+          have a comment-reference "(1)" which would refer to a comment
+          "(1) Acoustic: ". Note that <set-field> is used for SET1, SET2, and
+          ENCORE, and can be ntirely blank.
+
+      A <comment-info> is [<timing>] [<timingmap>]
+                          [ <ref-mark> | { '(' <lit-ref> ')' } ]*
+          A <timing> is '[' [[<hr> ':' ]<minsec>] ':' <minsec> ']' <ws?>
+              A <hr>     is { 0-24 | 00-24}
+              A <minsec) is {00-59 | 00-24}
+          A <timingmap> is '{' <phase-timing> [ '*' <phrase-timing>]* '}'
+              A <phrase-timing> is <descrip><timing><ws?>
+          A <ref-mark> is '(' <1-99> ')' <ws?>
+          A <lit-ref>  is  [<keyword>':'] <descrip>
+                     [ '*' [<keyword>':'] <descrip> ]*
+                  Note that <descrip> is arbitrary text that doesn't start
+                  with a digit, or contain '(', ')', '{', '}', '[', or ']'.
+                  Valid <keyword>s include "Acoustic:", "Guest:", "Opener:".
+                  A complete list can be found in   ***insert URL here***.
+      A <song-name> is <name of a song>['-'<song-mod>]
+          This list of valid <song-name>s can be found in
+               ***insert URL here***
+          A <song-mod> is '-jam' | '-continued' | '-reprise' | '-tease'
+      A <song-sep> is <ws> { ':' | ';'[[<timing][<timing-map>]';']
+                           | '>' | '~'  | '\' } <tab>
+          Note that <song-titles> better not contain the characters ":;>~\".
+
+      This definition implies:
+      -Anything inside curly  brackets is a timing map.
+      -Anything inside square brackets is a timing (even inside curly brackets.)
+      -Anything inside parens is a literal comment or reference mark.
+      Thus, we can find <song-name> by filtering out everything inside one of
+      these kinds of brackets.
+      The end of a <song-name> is a <sep-char> (or <newline>).
+
+A <comments-field) is      [ <comment-subfield> <tab>]
+                 [<ref-mark> <comment-subfield>]
+           [<tab> <ref-mark> <comment-subfield>]*
+    A <comment-subfield> is [<timing>] [<timing-map] [<lit-ref>]
+      The initial <comment-subfield>s refers to the show.
+        The rest must have <ref-marks>s that match <ref-marks>s in <set-fields>
+      The <comment-subfield> definition is very similar to <comment-info>,
+      except: <lit-refs> are not in parens and the <ref-marks> are separated.
+      The field definition is similar to a <set-field>, with <tab> instead of
+      <song-sep> and <ref-mark> instead of <song-name>, so:
+      -Anything inside curly  brackets is a timing map.
+      -Anything inside square brackets is a timing (even inside curly brackets.
+      -Anything inside parens is a reference mark.
+      Thus, we can find a comment by filtering out everything inside one of
+      these kinds of brackets. Multiple items in a comment are separated by
+      an asterisk, as usual
+
+A <recording-field> is  [<fmt> [<eq>]] [<src>] [<gen>]
+      A <fmt> is {'C'<tape>} | {'R'<speed><tape>} | 'P' | 'D'  | 'B' | 'V'
+              (C=cassette, R=open reel, P=PCM,  D=DAT, B=BetaHiFi, V=VHSHiFi)
+          A <tape> is 'MO' | 'CH' | ********list others here!*******
+              (MO is metal oxide, CH is chromium, etc....)
+          A <speed> is [ '7.50' | '3.75' ]
+      A <eq> is 'A' | 'B' | 'C' | 'D'
+              (A=dolby A, B=Dolby B, C=Dolby C, D= Dbx)
+      A <src> is 'SB' | 'MS' | 'FM' | 'PF | 'A?' | 'AF' | 'TS'
+              (SB=SBD patch, MS=matrix SBD recording, FM=FM broadcast,
+               PF=pre-broadcast FM recording, A?=audience unknown location,
+               AF=Front of Sbd Audience,      TS=taper's section)
+      A <gen> is 'M' | ('1'-'9')
+
+A <contrib-field> is
+    [[ '<' <email-addr> '>'] ['('<name>')']  <verif-code><ws?><lit-ref><tab>]*
+      A <verif-code> is  'V:' | 'A:' | 'O:' ]
+           (V=verified against tape, A=assumed, O=other, described in <descrip>)
+      This definition implies:
+      -Anything inside angle  brackets is an email address.
+      -Anything inside parenthesis     is a name
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #65
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

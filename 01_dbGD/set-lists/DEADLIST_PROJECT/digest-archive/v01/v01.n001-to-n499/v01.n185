@@ -1,0 +1,197 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #185
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 20 February 1997     Volume 01 : Number 185
+
+In this issue:
+
+	Proposed data spec changes
+	Re: Proposed data spec changes
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Thu, 20 Feb 1997 17:45:13 -0500
+Subject: Proposed data spec changes
+
+These are the changes I am proposing for the data spec.
+
+- --Line Breaks--
+We need the setlists to be in the format specified on the Data Spec. John 
+Oleynick says he has a script to convert non-tab and multiple-newline data to 
+the correct format. If this is the case, then as far as I'm concerned, 
+contributors can write to this "easier" format (for lack of a better word) 
+and we can convert the data with a script.
+
+So, I propose that we will maintain the spec as is, but that if a script is 
+available for converting, contributors can write to the easier format.
+
+- --Brackets--
+This is a tough one. I'm in favor of them, but since I'm not inputing all the 
+setlists, I don't feel right "forcing" others to use them when imputing 
+setlists. John's script seems to automatically put brackets on data written 
+in the easier format. Correct John? If so, then I propose that brackets are 
+still part of the spec, but that contributors can leave them out (write to 
+the easier spec) and we can put them in with the script.
+
+- --Evil "\"--
+I'm not sure I really understand the spec on this one. For me (remember, I'm 
+not a super-documenting-every-detail type of person), I would suggest the 
+following:
+
+% - denotes a splice in the tape (ie ; Truckin % ; )
+/ - denotes a cut in the tape. This marker can occur either before the song 
+(ie ; / Truckin ; ) to denote the beginning is cut, or can occur at the end 
+of the song (ie ; Truckin / ; ) to denote the end is cut.
+
+The COMMENTS area can be used to further explain cuts and splices (ie Splice 
+due to reel change; Cut on the Master Reel, etc). Like I said, some of you 
+are probably more particular about this, so I'll see what you have to say on 
+this matter before proposing something.
+
+- --BAND--
+I propose to keep this field, as the tools we develop for this project can 
+probably be used on other projects.
+
+- --Song Mappings--
+I propose using the curly brackets {} to denote song mappings, as it is 
+mentioned in the current data spec:
+
+Timing maps may also be placed after timings. Timing maps are collections of 
+timings  describing the substructure of an song. They are placed immediately 
+after song timings,  inside the timing brackets (e.g. Estimated Prophet 
+[14:32] {intro: [1:20] verses1&2 [3:20] instrumental chorus [1:55] verse 3 & 
+fadeout [3:22] var of theme [2:43] jazzy jam [5:58]} > Eyes [19:10] > Drums
+
+Parenthesis () should be used for noting some things like guest performance 
+on a song (ie ; Truckin (1) ; ) and (1) in the COMMENTS field would mention 
+the guest performer.
+
+I think that's it. I'm pretty certain on all changes but the Evil "\", which 
+will probably be up to the more hard core guys. Please provide feedback on 
+these proposed changes. Once we get some feedback, I can go ahead and change 
+the spec (which will become v1.3.2). Talk with you'll later.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 20 Feb 1997 15:44:01 -0800 (PST)
+Subject: Re: Proposed data spec changes
+
+Looks very good.  Those translating scripts will be very useful.
+
+Ryan, can we set a deadline (perhaps Monday 2/24) after which time we 
+consider these matters cast in stone (and you can post the final 
+"results")?  I get the sense that it is time.
+  
+(We've only been kicking this stuff around since December of '95... :-)
+
+- --nathan
+
+On Thu, 20 Feb 1997, Ryan Shriver wrote:
+
+> These are the changes I am proposing for the data spec.
+> 
+> --Line Breaks--
+> We need the setlists to be in the format specified on the Data Spec. John 
+> Oleynick says he has a script to convert non-tab and multiple-newline data to 
+> the correct format. If this is the case, then as far as I'm concerned, 
+> contributors can write to this "easier" format (for lack of a better word) 
+> and we can convert the data with a script.
+> 
+> So, I propose that we will maintain the spec as is, but that if a script is 
+> available for converting, contributors can write to the easier format.
+> 
+> --Brackets--
+> This is a tough one. I'm in favor of them, but since I'm not inputing all the 
+> setlists, I don't feel right "forcing" others to use them when imputing 
+> setlists. John's script seems to automatically put brackets on data written 
+> in the easier format. Correct John? If so, then I propose that brackets are 
+> still part of the spec, but that contributors can leave them out (write to 
+> the easier spec) and we can put them in with the script.
+> 
+> --Evil "\"--
+> I'm not sure I really understand the spec on this one. For me (remember, I'm 
+> not a super-documenting-every-detail type of person), I would suggest the 
+> following:
+> 
+> % - denotes a splice in the tape (ie ; Truckin % ; )
+> / - denotes a cut in the tape. This marker can occur either before the song 
+> (ie ; / Truckin ; ) to denote the beginning is cut, or can occur at the end 
+> of the song (ie ; Truckin / ; ) to denote the end is cut.
+> 
+> The COMMENTS area can be used to further explain cuts and splices (ie Splice 
+> due to reel change; Cut on the Master Reel, etc). Like I said, some of you 
+> are probably more particular about this, so I'll see what you have to say on 
+> this matter before proposing something.
+> 
+> --BAND--
+> I propose to keep this field, as the tools we develop for this project can 
+> probably be used on other projects.
+> 
+> --Song Mappings--
+> I propose using the curly brackets {} to denote song mappings, as it is 
+> mentioned in the current data spec:
+> 
+> Timing maps may also be placed after timings. Timing maps are collections of 
+> timings  describing the substructure of an song. They are placed immediately 
+> after song timings,  inside the timing brackets (e.g. Estimated Prophet 
+> [14:32] {intro: [1:20] verses1&2 [3:20] instrumental chorus [1:55] verse 3 & 
+> fadeout [3:22] var of theme [2:43] jazzy jam [5:58]} > Eyes [19:10] > Drums
+> 
+> Parenthesis () should be used for noting some things like guest performance 
+> on a song (ie ; Truckin (1) ; ) and (1) in the COMMENTS field would mention 
+> the guest performer.
+> 
+> I think that's it. I'm pretty certain on all changes but the Evil "\", which 
+> will probably be up to the more hard core guys. Please provide feedback on 
+> these proposed changes. Once we get some feedback, I can go ahead and change 
+> the spec (which will become v1.3.2). Talk with you'll later.
+> -- 
+> 				ryan
+> 
+> ---------------------------------------------------------------
+> Ryan Shriver				Product Manager
+> ryan@digicool.com			Digital Creations, L.C.
+> 
+> 	http://www.digicool.com/ryan/jerry/index.html
+> ---------------------------------------------------------------
+> 
+> 
+
+------------------------------
+
+End of DeadLists Digest V1 #185
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

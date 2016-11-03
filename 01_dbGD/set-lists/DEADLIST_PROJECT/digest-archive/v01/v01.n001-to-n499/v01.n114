@@ -1,0 +1,474 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #114
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Monday, 6 January 1997       Volume 01 : Number 114
+
+In this issue:
+
+	Re: 1970 jan - june lists 1st draft 12/96
+	-
+	Re: DeadLists Digest V1 #112
+	Hardware...
+	Re: deadlist format example
+	Re: 
+	Re: 
+	[none]
+	database format
+	Re: 
+	Re: Year Caretakers & Setlist formats 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Alan Sheckter <rnrphoto@well.com>
+Date: Mon, 6 Jan 1997 10:23:27 -0800 (PST)
+Subject: Re: 1970 jan - june lists 1st draft 12/96
+
+Wowee Zowee, nice format, and a lot of work done! Very nice. I'll read it 
+carefully and comapre any input, discrepancies, etc. from my ticket 
+stubs, tapes, and other folklore...
+
+Will this whole project be presented by e-mail as a free underground sort 
+of thing, or will there be a CD ROM made for sale, etc. If graphics will 
+be included, I have lots of pictures that I can scan and upload. I have 
+scattered good photos from 77 to 91, then lotsa excellent photos from 92 
+on. I'd like to contribute to this project.
+
+alan
+
+------------------------------
+
+From: Alan Sheckter <rnrphoto@well.com>
+Date: Mon, 6 Jan 1997 10:33:07 -0800 (PST)
+Subject: -
+
+oops, just a follow up to my previous post. Since we're dealing 
+exclusively with 1970 now, a year I love from tapes, I will ONLY be able 
+to rely on tape knowledge from back then, NOT ticket stubs and 1st hand 
+accounts as I previously stated...
+
+a 1976 starter-
+alan
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Mon, 6 Jan 1997 10:46:11 -0800
+Subject: Re: DeadLists Digest V1 #112
+
+>Ok, timings in brackets is fine. However, if no asteriks, what can be
+>suggested to notate incomplete timings? While a note in the comments section
+>is necessary to describe the incomplete timings I think when a timing is
+>presented as incomplete it should be in a format that will allow the search
+>engine to catch it and be immediately visible to the reader (a la my present
+>asterik notation)
+
+I'm not sure I've seen you asterisk notation. But, I don't see why it
+should be any different than questionable date notation, with a question
+mark.
+So 4/21/71? means questionable date, so 4:21? means questionable time.
+- ----------------------------------
+
+>I don't think we should be including pause times between
+>songs. Few tapes are intact in this respect, and without it being intact, it
+>seems to me to be superflous information.
+
+It's optional in any case, and shouldn't be included unless you're sure of
+it. It may be a way to distinguish edited tapes from complete ones.
+In any case, if you don't like it, or suspect them, don't include them.
+Most programs that parse would ignore it anyway.
+
+
+>------------------------------
+>From: jeff@tiedrich.com (jeff tiedrich)
+>Is it feasable to note an incomplete song in the timing? Something such as:
+>
+>        [4:49#] = song cuts at end
+>        [#4:49] = song cuts at beginning
+>        [#4:49#] = interior song fragment
+>        [4:49$] = song with splice in middle
+>------------------------------
+
+>From: nathan@well.com (Nathan Wolfson)
+
+>If we want to stick with the current format for setlists, we could do it:
+>
+>        Ramble on Rose(1) [4:49]
+>        ....
+>        (1) Song cuts at beginning by at least a minute.
+
+>We could also do it:
+>
+>        Ramble on Rose-x [4:49]
+>
+>on the assumption that if we note in the setlist that every copy we are
+>aware of is chopped, then our timing simply reflects the most complete copy.
+
+I like the elegance of Jeff's method, but Nathan's might be more practical
+in some sense.
+
+We have suffixes defined already (-jam, etc.), and another that noted cuts
+would make sense - and we can then tell it's cut by looking just at the
+name, and not the timing.
+
+On the other hand, we could do both; (could you tell I voted for Clinton :-)
+the suffix says it's cut, the '#' notation tells us where it's cut.
+
+I might prefer a slightly different notation for songs with splice in the
+middle, like 4:#29. So, the location of the '#' tell you the location of
+the cut.
+
+Since every time must have a colon followed by 2 digits, this should be
+non-ambiguous.
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Mon, 6 Jan 1997 14:57:16 -0600 (CST)
+Subject: Hardware...
+
+Hey All-
+	Well, call me an idiot for not checking the web pages more
+often... I thought this list was totally dead, but I guess I just got
+unsubscribed somehow. Anyways, Nathan wrote:
+
+> btw, anyone have a unix box on which we can run a simple cgi?
+
+In a month or two I should have a P166 Linux box available that I intend
+to use as a server for various things, including the tour-by-tour web
+pages. I would be willing to host anything this project might produce on
+the web or FTP. This machine could be called 'deadlist.math.ukans.edu' or
+something to that effect. Anything the community would like to put on here
+would be cool with me, cgi or otherwise. Right now the box is gatewaying
+packets onto my LAN at home, so as soon as I get something a little less
+intense for that job, I can move it up to work and put it on the LAN here.
+Anyways, sorry I've been slacking off so long... it's nice to see the list
+picking up some momentum again. Later,
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 6 Jan 1997 14:47:05 -0800 (PST)
+Subject: Re: deadlist format example
+
+>Nathan, regarding text versions of the setlists to be sent to you....are
+>these to be in the "correct" format at this point in time?  Or is this
+>simply a starting point?
+>
+>Barry
+
+"correct format" only, please.  they are a starting point in the sense that
+the info contained will improve with time.
+
+what correct format is is not super-easy to decide:  most of the matter has
+been worked out in the most recent draft available via
+<http://www.well.com/~nathan/dlhome.htm> but some matters have only been
+finalized here in the mailing list.  so if anyone feels up to revising the
+format spec on the Web, using the info from the digests since then, that
+would be great!
+
+- --nathan
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 6 Jan 1997 14:47:07 -0800 (PST)
+Subject: Re: 
+
+>I think it would be good to be able to submit PARTIAL lists for a year to
+>the web site, however.
+
+We have two ways to submit partial lists:  to the mailing list for
+discussion and/or directly to the keeper of each year.  We should try to
+keep the materials on the Web as coherent and easy to maintain as possible.
+Even the most complicated year is not going to be a very big text file.  If
+each person is responsible for submitting their year (and updates to their
+year) as a single, long, "complete" file, I can readily get them on the Web.
+This is a little of a hassle to each person who care-takes a year.  On the
+other hand, we people to start submitting partial years, I could end up with
+30-times-"n"-partials at various times, which'd be way too much for me to
+deal with.
+
+Sorry,
+Nathan
+
+
+------------------------------
+
+From: "Ryan Shriver" <ryan@digicool.com>
+Date: Mon, 06 Jan 1997 18:15:04 -0500
+Subject: Re: 
+
+- ------------370D53C06C3C5
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+Nathan Wolfson wrote:
+>
+> Even the most complicated year is not going to be a very big text
+file.  If
+> each person is responsible for submitting their year (and updates to
+their
+> year) as a single, long, "complete" file, I can readily get them on
+the Web.
+> This is a little of a hassle to each person who care-takes a year.  On
+the
+> other hand, we people to start submitting partial years, I could end
+up with
+> 30-times-"n"-partials at various times, which'd be way too much for me
+to
+> deal with.
+
+I completely agree. There already seems to be some natural caretakers
+(Gordon with the late 70's, Jim with the early 70's). When I start
+testing the search engine, it will be helpful if I can turn to one
+person (Nathan?) and get setlists that are complete and correct. With
+the help of others on this group, each caretaker might get a couple
+"reviewers" to double check the setlists for accuracy, typos and for
+syntax. While we are striving for accuracy in the setlists, we need to
+make sure that everyone is closely following the data spec file. Use it,
+learn it, love it ;-)
+- --
+    ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver    Product Manager
+ryan@digicool.com   Digital Creations, L.C.
+
+ http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+
+- ------------370D53C06C3C5
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset=us-ascii
+
+<HTML><BODY>
+
+<DT>Nathan Wolfson wrote:<BR>
+&gt;&nbsp;<BR>
+&gt; Even the most complicated year is not going to be a very big text
+file.&nbsp; If<BR>
+&gt; each person is responsible for submitting their year (and updates
+to their<BR>
+&gt; year) as a single, long, &quot;complete&quot; file, I can readily
+get them on the Web.<BR>
+&gt; This is a little of a hassle to each person who care-takes a year.&nbsp;
+On the<BR>
+&gt; other hand, we people to start submitting partial years, I could end
+up with<BR>
+&gt; 30-times-&quot;n&quot;-partials at various times, which'd be way too
+much for me to<BR>
+&gt; deal with.<BR>
+<BR></DT>
+
+<DT>I completely agree. There already seems to be some natural caretakers
+(Gordon with the late 70's, Jim with the early 70's). When I start testing
+the search engine, it will be helpful if I can turn to one person (Nathan?)
+and get setlists that are complete and correct. With the help of others
+on this group, each caretaker might get a couple &quot;reviewers&quot;
+to double check the setlists for accuracy, typos and for syntax. While
+we are striving for accuracy in the setlists, we need to make sure that
+everyone is closely following the data spec file. Use it, learn it, love
+it ;-)<BR>
+- --&nbsp;<BR>
+&nbsp;&nbsp;&nbsp; ryan<BR>
+<BR>
+- ---------------------------------------------------------------<BR>
+Ryan Shriver&nbsp;&nbsp;&nbsp; Product Manager<BR>
+ryan@digicool.com&nbsp;&nbsp; Digital Creations, L.C.<BR>
+<BR>
+&nbsp;http://www.digicool.com/ryan/jerry/index.html<BR>
+- ---------------------------------------------------------------<BR>
+&nbsp;</DT>
+
+</BODY>
+</HTML>
+- ------------370D53C06C3C5--
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Mon, 6 Jan 1997 15:22:28 -0800 (PST)
+Subject: [none]
+
+what if we were to have a Keeper for each year's list, to whom partial lists
+could be submitted and whose task it would be to insert them into an updated
+version of the year and pass that along to Nathan for uploading to the web
+site?
+
+yes, we need to nail down correct format a little more tightly.  i again
+want to emphasize that the lists as posted on the Web site should be legible
+without keys or codes or special knowedge.
+
+jim
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Mon, 6 Jan 1997 15:44:07 -0800 (PST)
+Subject: database format
+
+>>>>> Jim Powell <chimpowl@well.com> writes:
+
+ > yes, we need to nail down correct format a little more tightly.  i again
+ > want to emphasize that the lists as posted on the Web site should be legible
+ > without keys or codes or special knowedge.
+
+I think we're talking about two different formats here.  We need a format
+for storing all this information (a database) and we need a format for
+outputting it.
+
+I think the format for the db needs to be very simple and stripped down.
+We should probably use abbreviations for the setlists so the db will be
+less prone to error and smaller.  We also should not rely on delimiters
+(like the tab) that tend to get lost in HTML/mail operations.  It also
+needs to be flexible so we can easily add new data types.
+
+Then, we can write perl programs or something to put them into readable
+form (web pages, etc.).  We could also write programs to take people's
+entries/corrections from web pages and put it into the database format.
+
+I just can't imagine trying to parse setlists that have "Playin' in the
+Band", "Playing in the Band", "Playin' jam", "Playin' reprise", etc., when
+we could have unmistakable four or five letter song names like DeadBase
+uses.  They're ugly to read, but no human (except the programmers) ever
+would have to see them.
+
+Does this make sense to people?  Any db programmers in the house?
+
+	- jfw
+ ___________________________________________________________________________
+| John F. Whitehead        Home: jfw@well.com         Work: jfw@wral-tv.com |
+| Technical Director       919-933-9698               919-821-8605          |
+| WRAL OnLine              6 Forest Glen              2619 Western Blvd     |
+| WRAL-TV, Channel 5       Chapel Hill, NC  27514     Box 12000             |
+| http://www.wral-tv.com   http://www.well.com/~jfw   Raleigh, NC  27605    |
+|___________________________________________________________________________|
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 6 Jan 1997 15:58:19 -0800 (PST)
+Subject: Re: 
+
+>> Even the most complicated year is not going to be a very big text
+>file.  If
+>> each person is responsible for submitting their year (and updates to
+>their
+>> year) as a single, long, "complete" file, I can readily get them on
+>the Web.
+>> This is a little of a hassle to each person who care-takes a year.  On
+>the
+>> other hand, we people to start submitting partial years, I could end
+>up with
+>> 30-times-"n"-partials at various times, which'd be way too much for me
+>to
+>> deal with.
+>
+>I completely agree. There already seems to be some natural caretakers
+>(Gordon with the late 70's, Jim with the early 70's). When I start
+>testing the search engine, it will be helpful if I can turn to one
+>person (Nathan?) and get setlists that are complete and correct. With
+        ^^^^^^^^^
+
+Sure.  They're going on my Web site at the Well for now, so I'll have a
+centralized place for the latest versions.
+
+>the help of others on this group, each caretaker might get a couple
+>"reviewers" to double check the setlists for accuracy, typos and for
+>syntax. While we are striving for accuracy in the setlists, we need to
+>make sure that everyone is closely following the data spec file. Use it,
+>learn it, love it ;-)
+
+
+I would suggest that we can *all* be proof-readers.  Anyone can stop by the
+Web site (http://www.well.com/~nathan/dlhome.htm) and read through the
+setlists online (they aren't there yet -- no one has forwarded me any that
+they feel are ready -- but this should happen soon, i suspect).  If any
+errors are detected, the read can readily EMAIL the YEAR'S CARETAKER (not
+me!), who can then use that info to revise their year.  (The caretaker can
+then forward the new version of the year when they want -- and just about as
+often as they want, since it shoudl only take me 15 minutes to log on,
+download their email, and upload it to the Web, once the initial versions
+have been put in place -- which will take longer, of course.)
+
+- --Nathan
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 6 Jan 1997 15:59:09 -0800 (PST)
+Subject: Re: Year Caretakers & Setlist formats 
+
+>what if we were to have a Keeper for each year's list, to whom partial lists
+>could be submitted and whose task it would be to insert them into an updated
+>version of the year and pass that along to Nathan for uploading to the web
+>site?
+
+That's you, Jim, for 1970, right?  A while back, various people signed up
+for "keeper of year 'x'".  Perhaps some of them have fallen away?  I'm going
+to try to throw together some html later today, which will at this point
+simply be a "table of contents" page, listing each year of the band's
+existence.  Later, each year will link to the setlists we have so far from
+that year, as well as provide the name/email address of the person who is
+that year's keeper.
+
+>yes, we need to nail down correct format a little more tightly.  i again
+>want to emphasize that the lists as posted on the Web site should be legible
+>without keys or codes or special knowedge.
+
+We're going to have to have a special key somehwere:  I can't recall what
+all those transition symbols mean, what the timing symbols mean, etc.,
+without reference to a key.  I think the biggest issue with legibility from
+my point of view is this:  The Field Headers.  Do we need headers for each
+setlist that say: Venue, SetI, SetII, etc.?  
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #114
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

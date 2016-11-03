@@ -1,0 +1,214 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #267
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Friday, 25 April 1997       Volume 01 : Number 267
+
+In this issue:
+
+	[Fwd: 10/25/73]
+	Re: [Fwd: 10/25/73]
+	Dead Setlists
+	More news
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Ryan Shriver <ryan@gator.digicool.com>
+Date: Fri, 25 Apr 1997 13:58:17 -0400
+Subject: [Fwd: 10/25/73]
+
+This is a multi-part message in MIME format.
+
+- --------------34F954DB468
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Attention Tim Buller:
+
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+- --------------34F954DB468
+Content-Type: message/news
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Newsgroups: rec.music.gdead
+Path: news.infi.net!news.visi.net!news-spur1.maxwell.syr.edu!news.maxwell.syr.edu!news-peer.sprintlink.net!news.sprintlink.net!sprint!uunet!in1.uu.net!165.254.2.53!nonexistent.com!not-for-mail
+From: Douger <douger@unix.asb.com>
+Subject: 10/25/73
+Content-Type: text/plain; charset=us-ascii
+X-Complaints-To: Email abuse@news2.new-york.net if this posting is inappropriate
+Content-Transfer-Encoding: 7bit
+Message-ID: <E96819.9A0@nonexistent.com>
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+Mime-Version: 1.0
+X-Trace: 861933334 9683 (None) [165.254.128.17]
+X-Nntp-Posting-Host: sls7.asb.com
+Date: Fri, 25 Apr 1997 01:54:29 GMT
+Xref: news.infi.net rec.music.gdead:17602
+
+Got this show recently and the 1st set doesn't match the Berkeley
+database. And Deadbase is inconsistant as well. Anybody know if the tape
+is right??
+
+
+Here's what the archive and   	Here's what DBIX and
+DBVI say:			the tape say:
+
+Here Comes Sunshine             Bertha
+Black Throated Wind             Big River
+Mexicali Blues                  Here Comes Sunshine
+Tennessee Jed                   BTW
+Looks Like Rain                 TLEO
+Deal                            Mexicali
+El Paso                         El Paso
+Playing in the Band             Row Jimmy
+                                Playin'
+
+
+......Douger
+
+
+"I get by with a little help from my friends"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ douger@unix.asb.com - Sittin' plush with a royal flush
+ http://www.demonsys.com/jim/d/douger@unix.asb.com.html
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- --------------34F954DB468--
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 25 Apr 1997 11:56:18 -0700 (PDT)
+Subject: Re: [Fwd: 10/25/73]
+
+I: Bertha, River, Sunshine, BT Wind, TLEO, Mexicali, /El Paso, /Jimmy, Playin
+
+This appears to be all the can be verified with available recordings.  
+DeadBase used to have a list much more like the Berkeley.edu list, though 
+where either of them got their info is not clear.  I suspect that this 
+newer info (tapes around and the latest DeadBase which no doubt draws on 
+the same tapes) means that (approximately) the third quarter of the set is 
+AWOL (not recorded or not circulating) or that it was an odd set for the era.
+
+Maybe one of our "vault sources" can tell us more?
+
+- --nathan
+
+------------------------------
+
+From: "Stephen S. Harlan" <sharlan@usgs.gov>
+Date: Fri, 25 Apr 1997 13:19:38 -0600
+Subject: Dead Setlists
+
+Hi,
+
+With regard to the setlist for 6/16/74 (Iowa State Fairgrounds, Des 
+Moines, IA): There is no listing for the encore, but as I recall, they 
+played Casey Jones. Sorry, but my memory is too foggy to add info 
+regarding set 1.
+
+Steve Harlan
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Fri, 25 Apr 1997 15:44:40 -0400
+Subject: More news
+
+Hey all,
+I finished up my scripts and am documenting them now for Nathan and Tim.
+I'll work this weekend to create a tar.gz file of the whole package for
+distribution to these guys. Hopefully the move to the deadlist's site
+will be relatively painless and Nathan can start using the scripts to
+get more setlists online.
+
+Working with the setlists from Tim's FTP site, I managed to the the
+following years working (1971, 1973, 1974, 1975, 1976, 1977). I'll FTP
+the revised setlists to ftp.deadlists.com and ftp.math.ukans.edu. Also,
+sometime this weekend I hope to post the corrections I made to these
+setlists in order to get them working. Most of the changes involved song
+names not consistant with the official spec, but there were a few syntax
+corrections also. All in all it wasn't too bad. 
+
+I'd like to thank John for his script alternate spec conversion script.
+It really helps make the process easier!
+
+And finally, I just updated the Official Data Spec, and I'll be FTPing
+it to Nathan this weekend. Major changes include:
+
+Changes from version 1.3.1 to 1.3.2
+- - Dates must be an 8 character string of the form MM/DD/YY (ie
+02/25/77).
+- - Changed syntax of Song Modifiers. Added ' Tuning'. Removed
+'-continued'.
+- - Removed the : song delimiter (because it's also used for timings).
+Changed the \ delimiter to %. All others are ok.
+- - Modified timing maps so they must appear in the COMMENTS field and not
+in the setlist fields.
+- - Set timings appear at the beginning of a set (enclosed in brackets)
+and use the ; delimiter.
+- - Removed literal comments. There are only reference comments, which are
+numbered 1 - 99 and enclosed in parenthesis in the setlists fields.
+- - Order of reference comments and song timings don't matter.
+- - Simplified the COMMENTS spec to allow the use of common sense :-)
+- - Simplified the CONTRIBUTORS field to adjust for the common working
+consensus.
+- - Updated example of the record of a show.
+- - Did not attempt to modify the BNF notation of data spec.
+
+These changes were made because some of the old information had changed
+(because of these scripts) and some of the old information didn't
+reflect the common unwritten working consensus among setlist caretakers.
+If there are any comments/complaints/questions about the new spec, I'll
+answer them the best I can. To view the entire data spec, see
+http://www.digicool.com/ryan/dataspec.html
+
+That's all!
+- -- 
+				- shrive
+- -------------------------
+Ryan Shriver 
+602 Caroline St. Apt. B
+Fredericksburg, VA 22401
+540-373-5486
+(ryan@gator.digicool.com)
+- -------------------------
+
+------------------------------
+
+End of DeadLists Digest V1 #267
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

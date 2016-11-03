@@ -1,0 +1,163 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #146
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 23 January 1997     Volume 01 : Number 146
+
+In this issue:
+
+	"Insult vault sources"??
+	Re: DeadLists Digest V1 #145
+	Something cool
+	Re: Song titles etc
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Thu, 23 Jan 1997 08:18:13 -0800
+Subject: "Insult vault sources"??
+
+Thought yopu might be amused (or something) by the followinbg exchange from
+the WELL:
+
+Topic 1866 - the CROZ topic, continued
+
+
+1866, 179 of 199: uppity pup (tnf) Tue 21 Jan 97 13:45 4
+ Logging in from my sickbed to tell you that Phil Lesh just told me that he's
+ going to play with Croz tonight.
+
+
+1866, 181 of 199: Worst-Case Fennario (almanac) Tue 21 Jan 97 13:48 2
+ Damn, that's almost enough to ge me outta *my* sickbed!
+
+
+1866, 183 of 199: Jim Powell (chimpowl) Tue 21 Jan 97 13:55 2
+ i hear croz is gonna try out a new bass player tonight.  i hope he knows the
+ material.
+
+
+1866, 184 of 199: The Fireman (nycjag) Tue 21 Jan 97 14:07 1
+ see tnf's post....damn wish i could see this!
+
+
+1866, 185 of 199: Jim Powell (chimpowl) Tue 21 Jan 97 14:23 2
+ yes, just saw it in the download.  phil must be calling *everybody* if he
+ even got to tnf.
+
+
+    David Gans    tnf@well.com
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+    http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Thu, 23 Jan 1997 08:52:33 -0800
+Subject: Re: DeadLists Digest V1 #145
+
+>wouldn't it make sense to set out our STATE field so that we can list
+>Canadian provinces there, when appropriate?
+
+I don't know if there are standard two letter codes for the provinces, or
+what they might be (outside of, perhaps, BC) and whether the conflict with
+the two letter country codes... if there are, and they don't....
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Thu, 23 Jan 1997 12:39:30 -0500
+Subject: Something cool
+
+Hey all.
+Yesterday at work I started messing around with some old setlists for 
+this project (done back in August or so). In about 2 hours I managed to 
+write a program to convert all the setlist data (that meets specs) to a 
+nice readable HTML format. There is lots more I can do, but to get a 
+look at what I did, check out:
+
+http://www.digicool.com/ryan/temp_dead.html
+
+It may take a little while for the page to load, because it's 30 years 
+of setlists :-)
+
+The point of this is to show everyone that if we can get the setlists in 
+the proper format (data spec), programs can handle all the formatting 
+for us, and waste very little human effort. I'm not a programmer, but in 
+2 hours I did this. Nathan, maybe you and I (or anyone else) can get 
+together to work on this a little more. This could save you a _lot_ of 
+work, and make it really easy to update lists as they come in.
+
+At any rate, take a look at the page. I just slapped it together, but 
+you can get the idea of what is possible. Let me know what you'll think.
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Thu, 23 Jan 1997 11:08:57 -0800 (PST)
+Subject: Re: Song titles etc
+
+miscellaneous comments on the last couple of weeks worth of stuff:
+
+I don't think line breaks or page breaks or "<br>"'s should need to be
+inserted by the list maintainers.  That's an output issue; i.e. how the
+list will be displayed somewhere.  It has nothing to do with the content
+of the database.  That stuff should be inserted by the display program, if
+necessary.  Someone reading it as text instead of html won't want it
+anyway.
+
+About song titles, it would be nice to have the "common" title
+crossreferenced with the "original" title.  And wrt delimiters, the pipe
+symbol ("|") will be a safe one to use.  I've made some progress on a song
+list parser.  It takes a list of songs and alternate possibilities and
+does substitutions.  It's not working yet, and I won't be able to work on
+it for the next couple of weeks, but it's a start.
+
+- - jfw
+
+------------------------------
+
+End of DeadLists Digest V1 #146
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

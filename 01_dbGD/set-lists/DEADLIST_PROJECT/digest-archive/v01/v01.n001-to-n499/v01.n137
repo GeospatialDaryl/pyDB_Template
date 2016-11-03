@@ -1,0 +1,589 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #137
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 17 January 1997      Volume 01 : Number 137
+
+In this issue:
+
+	Re:
+	Re: timings, etc.
+	Re: Song titles
+	Re: DeadLists Digest V1 #134
+	Re: setlist formats and email fuckups 
+	Re: Song titles
+	Re: your mail
+	Re: Song titles
+	Re: Song titles
+	[none]
+	Re: your mail
+	Re:
+	Re: 
+	Re: Spec /  Software  (& many things)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Fri, 17 Jan 1997 09:37:54 -0800
+Subject: Re:
+
+Who is responsible for 1969?  I have some info on 4/27 that I would like to
+pass along.
+
+    David Gans    tnf@well.com
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+    http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Fri, 17 Jan 1997 13:53:53 -0600 (CST)
+Subject: Re: timings, etc.
+
+> we might want to post other documents as well.  i have a friend who's
+> assembling timings of all Bird Songs, for instance.  This would be a cool
+> document to be able to download; I was using it last night to help check out
+> the supposed Springfield 72 Bird Song.  I have another friend who's working
+> on Eyes.  I'm working on Dark Star & Playin.  Etc.
+
+And yes, the rumors are true, if too incredible to be believed. After
+years of research on my part, turning down thousands of dollars in
+donations, it's finally done: the complete DAY JOB timings! Only I'm
+keeping it to meeself, just so I can gloat hehehehe
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Fri, 17 Jan 1997 13:58:25 -0600 (CST)
+Subject: Re: Song titles
+
+> >Shouldn't we be making an attempt to standardize the song titles in
+> >these setlists, before putting them out for (semi)public consumption ?
+> 
+> I totally agree, Brian.  About a year ago, we went through a flurry of
+> discussion regarding song titles.  I tried to summarize those as best I
+> could.  That is what is at <http://www.well.com/~nathan/dlsongs.htm>.  If
+> you have a notion, please feel free to download that page and re-write it,
+> adding in what you think needs to be there -- and then post it to the
+> mailing list.  Any work in this direction will be an improvement.
+
+I tried to make my dead-lists conform to this spec as closely as I could 
+(typos excepted). I think it would be in the best interests of the group
+to have some software that will parse all the SET fields and match
+song-names against the list, generating a list of discrepancies. This
+shouldn't be hard to do in perl, but you don't want me to do it. When I
+was working on the Tour-by-tour scripts, the admin at the site I was at
+made me nice them all real low, and run then off-peak. It takes pretty
+obfuscated perl code to impact a system, I think, but I guess I just have
+a gift for it.
+
+	Tim (happy he's an admin, not a programmer)
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Fri, 17 Jan 1997 12:04:27 -0800
+Subject: Re: DeadLists Digest V1 #134
+
+>From: Jim Powell <chimpowl@well.com>
+
+>I would like to suggest the following protocols, from my experience making
+>lists:
+>
+>SONG DELIMITERS
+>
+>(# equals a space in the following):
+>
+>#     after a song name means that the space between songs has not been
+>[exam]ined
+
+This means there is no punctuation between song names - how do you tell
+where one started and another ends? This particular case is ":" in the
+spec, and without the space between the song name and ":" it looks like
+a keyword "BAND:". This is not the end of the world, but put in conjunction
+with mailers that line wrap & turn tabs  into spaces, we have the potential
+of some real ambiguity when parsing.
+
+Maybe I can suggest an
+
+>;#    [==] not excessive duration
+>;#;#  [==] considerable duration.  if the timing
+>is noted it should be noted between the two semi-colons
+>#>#   [==] a segue between the songs
+>\#    [==] a splice between the songs
+
+
+No too different than the existing format- the definition of 'excessive'
+is still up in the air, and you've eliminated the 'no space, no segue
+character ('~') and the unknown character (':'). I think keeping those
+in is a good idea (partially for the seasons stated above), but I agree that
+perhaps changing '\' to '/' might make life easier for C programmers, and
+changing the 'unknown/unexamined' character to something else ('%'? '^'?)
+might resolve some other ambiguities.
+
+>TIMINGS
+>Timings when supplied should be inserted after a space (#) following the
+>song name.  The Song Delimiter (punctuation) follows immediately after the
+>timing, without a space.
+
+So, I think you're saying that no spaces are necessary/desirable preceding
+punctuation, but are afterward. I don't see why that should be a problem,
+except for the keyword problems noted above.
+
+>Internal song timings and analyses (Dark Star mappings, etc.) should be
+>placed under COMMENTS to avoid cluttering the setlists.
+
+I agree in principal, but on entering the lists I think it might be easier
+to put the comments in as you encounter the songs, hence the alternate
+syntax in the spec. I think all setlists should be parsed, and spit out
+again in a preferred format, which is what you suggest above.
+- -------------------------------
+
+>From: nathan@well.com (Nathan Wolfson)
+>>
+>>Shouldn't we be making an attempt to standardize the song titles in
+>>these setlists, before putting them out for (semi)public consumption ?
+>>
+>>I've noted "casualisms" (Playin', etc), "incomplete" titles
+>>("Schoolgirl"), and inconsistent usages (Truckin' vs.  Truckin).
+...............................
+>From: Jim Powell <chimpowl@well.com>
+>
+>also maybe there's a programming wiz around here who could make us a
+>deadsong spellchecker that we could run on these lists to get everything
+>superconsistant
+
+
+
+I do have a hypercard script (in Stak-o-Dead) that tries to match
+the casualisms with a standardized name. I'll post it when I get a
+chance (though it's fairly brute force and embarrassing )
+
+- --------------------------------
+from:Matthew "Netscape release strategy" Cramer
+
+>>Also, in this regards, the spec indicates that it is preferrable to list
+>>long shows (early and late) as two seperate entries so that there are never
+>>more than 3 sets in any entry.  This is a little screwy,
+
+You are right, you can write code to handle >3 sets. It's just more a
+pain in the ass, and the few exceptions it covers didn't seem worth the
+effort. Of course, if you're writing the code, that changes the arguments
+a bit.....
+>
+>------------------------------
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Fri, 17 Jan 1997 14:10:06 -0600 (CST)
+Subject: Re: setlist formats and email fuckups 
+
+> my point being:  either we resign ourselves to batch processing the setlists
+> after email has fucked them up OR we figure out a different way to transmit
+> the data.  i vote for the former:  i think we should make it easy to submit
+> data.  email is easy.  i'd suggest we use enclosures, but i know some folks
+> here are working from serial dialups/command line accounts, and uploading
+> shit to enclose in that kind of environment is a drag -- and often doesn't
+> acheive the unadulterated status we're striving for anyway.
+
+I think we can teach folks who are submitting the set-lists to use FTP, if
+they don't already know. WS_FTP and Fetch are two of the most intuitive
+clients for PCs and Macs around, and step-by-step instructions can be
+easily created; Unix folks hopefully already know the score.
+
+> SMTP and POP3 are *not* my forte.  (i was once asked to test that stuff and
+> said "gee, your browser needs some work, doesn't it?")  but hopefully
+> there'll be a ready solution?  (maybe we need to get the command line people
+> into the 90s? :-)
+
+Hey man, the command line's one thing that won't fuck this data up!
+Seriously, I think FTP should be spec'ed out as the method folks should
+use to UL their stuff. Even then, there will probably be some final
+tweaking that has to be done, before or as the data is parsed into the
+seatch engine. 
+
+I also think it is important to spec out if there will be two diverging
+formats, as has been recently discussed. To my thinking, make 'em as ugly
+as possible (packed with data); this can always be parsed out to a nice,
+human readable format. If we create a spec and maintain it, anyone should
+be able to manipulate the data as such. However for the non-inclined, we
+could generate a nicely forrmatted data-file (PDF, PostScript, whatever)
+that people could DL and use for reference.
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Manager                          Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Fri, 17 Jan 1997 12:24:32 -0800 (PST)
+Subject: Re: Song titles
+
+Matt, if you put together the songlist, then I can write a filtering
+program to put translate songs from informal to "official" names.
+
+Re: mailing of set lists, we definitely can not use "option-shift-p" since
+that will get stripped out by 7-bit mail handlers.  Similarly, there is a
+"lowest common denominator" that we can use for set lists that won't get
+munged by anything.  It is: no control characters or 8-bit characters, and
+no differention between whitespace (tabs and spaces can be interchanged,
+linefeeds/tabs/spaces are treated equally).
+
+ -jfw
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 17 Jan 1997 13:13:54 -0800 (PST)
+Subject: Re: your mail
+
+> 
+> if e-mail is going to sprinkle stray carriage returns through our lists no
+> matter what, maybe we should use a special character to indicate where we
+> actually want carriage returns, say a capital pi (option-shifted-P -- will
+> that get through e-mail?).  that way, after download, you can remove ALL the
+> carriage returns and then turn the capital pi's into carriage returns.
+> 
+
+Good idea.  This is probably the best solution.  Maybe not this 
+character, though, unless it's standard ISO ACSII.  Maybe the coders 
+amongst us can suggest an ascii character than won't mess with code *and* 
+that isn't something we want for the setlists (for example, ";").
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 17 Jan 1997 13:22:49 -0800 (PST)
+Subject: Re: Song titles
+
+> Well if Brian doesn't want to take that on I'll volunteer
+> to be the caretaker for the song list - I've been lurking
+> here for awhile feeling that I should contribute in some
+> way - and at least I understand the file spec. for the
+> song list ;-)
+
+I guess we should wait to hear from Brain, but I'd bet that this gig is 
+yours if you like.  I can add your name and email address prominently to the 
+Song Names page soon :-)  Let me/the list know for sure and we'l take it 
+from there.
+
+> I've noted a few that need revising so if someone else
+> takes this on I'll be in touch.
+
+Already working on it?  Cool.
+
+> There's also a few maybe for which there is no
+> definitive title - something like Nobody's Fault 
+> which has been recorded with numerous variations
+> of title from the 30s onward.
+
+Lots of "no definitive titles".  I tried to take the closest thing the 
+list came to in terms of concensus and use that.  I'd guess that'l be how 
+we continue with this matter.
+
+> > I wouldn't have thought changes in song 
+title would > distract too much from the great work the set list
+> compilers are doing as long as they are not presented
+> with a new change every day.  If each year list is
+> internally consistent with song title use then changing
+> a title within the list is straightforward enough.
+
+Agreed.  Very important point.  At this point, internal consistency 
+within each year is the best we can ask for -- and it's crucial if we are 
+to relatively easily put the setlists into shape for searching down the road.
+(Which is polite way to ask that year caretakers, myself included, keep 
+internal songnames consistent.)
+
+- --nathan
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 17 Jan 1997 13:30:44 -0800 (PST)
+Subject: Re: Song titles
+
+> 
+> Mention of the word guru there makes me realise that when
+> I volunteered I should have pointed out that I am in no way
+> putting myself forward as an expert on the subject - just willing 
+> to coordinate communication between those wanting to change the
+> list and those wanting to use it.
+> 
+> I will happily stay in lurkerdom if more knowledgeable
+> folk step forward.
+> 
+> Matt
+
+I've been using "caretaker" instead of "guru" since expertise is not a 
+pre-requisite for any particular role.  We just need people to take care 
+of different aspects of the Project -- to share the burden and the glory, 
+as it were.  The expertise is going to snowball in from all sides (it has 
+already started, as those who've been aborad for the past year can 
+probably attest), and juggling the input from the countless experts is 
+going to be very important.
+
+What I'm saying:  Don't revert to lurkdom unless you really *want* to, 
+Matt.  We need all the dedicated hands we can get!
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 17 Jan 1997 13:33:50 -0800 (PST)
+Subject: [none]
+
+Gans:  best way to pass along information to deadlists is simply to post it
+here.  since i did 69 you can CC me a copy of it if you want
+
+in addition to info on 4/27/69 it would be good to hear from you about the
+complete contents of tapes of 10/22/67
+
+------------------------------
+
+From: "John F. Whitehead" <jfw@well.com>
+Date: Fri, 17 Jan 1997 13:33:58 -0800 (PST)
+Subject: Re: your mail
+
+>> if e-mail is going to sprinkle stray carriage returns through our lists no
+>> matter what, maybe we should use a special character to indicate where we
+>> actually want carriage returns,
+
+Carriage returns are an output formatting issue.  There should be no need
+for someone to insert them in what they're submitting.  And they should be
+tolerated if they have been included.
+
+I have written a quick hack that parses set lists into its component
+parts.  It works no matter where you put carriage returns, linefeeds,
+newlines, tabs, or spaces.  It doesn't care whether there are 3 sets or
+30.  It just handles whatever you give it.
+
+Of course it doesn't *do* anything with the data, but I have tested that
+it's easy to parse this stuff.  If I were to spend any more time on this
+it would then test the data to make sure it is clean, then convert it (to
+standard song names, etc.), then save it in a database.
+
+- - jfw
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 17 Jan 1997 13:39:29 -0800 (PST)
+Subject: Re:
+
+short answer: chimpowl@well.com
+
+long/general answer:  on the site, each year has it's caretaker noted at 
+the top of its list.  for example, go to:
+
+http://www.well.com/~nathan/1969.htm
+
+btw, thanks for the help, tnf.
+
+
+On Fri, 17 Jan 1997, David Gans wrote:
+
+> Who is responsible for 1969?  I have some info on 4/27 that I would like to
+> pass along.
+> 
+>     David Gans    tnf@well.com
+>     Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+>     http://www.well.com/user/tnf/            AOL keyword = gdhour
+> 
+> 
+> 
+
+------------------------------
+
+From: tnf@well.com (David Gans)
+Date: Fri, 17 Jan 1997 14:04:36 -0800
+Subject: Re: 
+
+At 13:33 1/17/97, Jim Powell wrote:
+>Gans:  best way to pass along information to deadlists is simply to post it
+>here.  since i did 69 you can CC me a copy of it if you want
+>
+>in addition to info on 4/27/69 it would be good to hear from you about the
+>complete contents of tapes of 10/22/67
+
+All I have on 10/22/67 is the two pieces Latvala gave me for the radio a
+while back.
+
+/New Potato Caboose 9:30
+That's It for the Other One 14:38
+
+I think it's only the very beginning ( a few seconds max) of NPC that's
+missing, but the timing is incomplete.
+
+I'll get the 4/27/69 info into the appropriate format asap.
+
+    David Gans    tnf@well.com
+    Truth and Fun, Inc., 484 Lake Park Ave #102, Oakland CA 94610
+    http://www.well.com/user/tnf/            AOL keyword = gdhour
+
+
+
+------------------------------
+
+From: "Matthew S. Cramer" <cramer@voicenet.com>
+Date: 17 Jan 97 17:22:16 -0500
+Subject: Re: Spec /  Software  (& many things)
+
+Nathan Wolfson <nathan@well.com> writes:
+>The ideal was to have both the user friendly, browsable lists ALSO act as
+>the datafile lists.  One set of lists covering two purposes.  It's looking
+>more like that might not be a reachable goal.  But should be throw the
+baby
+>out with the bath water yet, by letting the two totally diverge?  I'd
+rather
+>try to keep them similar enough that translating the messy human lists
+into
+>machine lists is as easy and creating a couple of appropriate
+>search-and-replace procedures.....
+>
+>Am I off base here?
+
+Not at all.  I sort of forgot about the idea that we want the raw text data
+to be legible, and if that is the case, so be it.  It really doesn't make a
+difference from my standpoint - I was just pointing out that we shouldn't
+make things more difficult than they have to be.  I would really hate to
+see us with two types of data files.  Let's standardize the spec to be
+something robust yet legible and those of us writing code and web pages can
+worry about making our programs accept the data.
+
+>This is cool news.  I think that if you are *quite* sure about these
+>matters, it'd be cool to go with this tact.
+
+and Allen J. Baum <abaum@pa.dec.com> writes:
+>You are right, you can write code to handle >3 sets. It's just more a
+>pain in the ass, and the few exceptions it covers didn't seem worth the
+>effort. Of course, if you're writing the code, that changes the arguments
+>a bit.....
+
+I am not sure about it being more of a pain in the ass (see below), but I
+figured having multiple shows for the same day in the data file may make
+searching and getting statistical analysis more cumbersome. 
+
+Basically, I am writing my code so that there is an array of structures
+with one element for each show.  In that structure is a variable that
+points to a location in memory that contains all the songs from each set. 
+The data will be loaded every time the program is run so it will only
+allocate the required memory for each specific show (i.e. 5/2/70 sets take
+up more room than 7/16/66).  In terms of the datafile, we only need to list
+the sets that have songs - there is no reason to list SET3 thourgh SET7 if
+there aren't any songs for those sets.
+
+Jim Powell <chimpowl@well.com> then writes:
+>we might want to post other documents as well.  i have a friend who's
+>assembling timings of all Bird Songs, for instance.  This would be a cool
+>document to be able to download; I was using it last night to help check
+out
+>the supposed Springfield 72 Bird Song.  I have another friend who's
+working
+>on Eyes.  I'm working on Dark Star & Playin.  Etc.
+
+Could I be picky and ask that we have a spec, or at least a consistent
+format, for these files also?  I'd love to allow their incorporation into
+the software but to be useful they need to be standard.
+
+>also maybe there's a programming wiz around here who could make us a
+>deadsong spellchecker that we could run on these lists to get everything
+>superconsistant
+
+I started writing a DOS program that will read the show files and compare
+then with the song names file.  Making it do corrections would take a
+little more work but at least it would tell you where the errors were. 
+Does anyone who is compiling setlists have the ability to run a DOS
+program?  I'll put this program up at my ftp site sometime over the weekend
+for anyone that wants it.  Year caretakers, please let me know if this
+would be useful for you or if it is a waste of my time.
+
+
+More of my opinions on the spec:
+
+I think that most importantly the spec should be consistent.  Let's avoid
+multiple specs for multiple formats.
+
+If all fields begin on a new line software won't care about spaces vs. tabs
+vs. new lines vs. carriage returns.  As long as we have ASCII characters
+(like colons, semi-colons, and the fields names) the rest is just a matter
+of comparing and parsing the text.  I think asking people to insert wierd
+control characters in the spec to notate new lines is asking too much.  A
+standard tab, however, may be useful for people who will just look at and
+edit the text data files.
+
+I think there is no issue of using '/' even though it is part of the date
+format.  They are too different fields with no overlap so it doesn't make a
+difference.  Avoiding '\' is a good idea, though.
+
+
+
+Matt
+
+- --
+  #----------------------------------------------------------------------#
+  # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+  #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+  # "All science is either Physics or      I    feeling that counts."    #
+  #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+  #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #137
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

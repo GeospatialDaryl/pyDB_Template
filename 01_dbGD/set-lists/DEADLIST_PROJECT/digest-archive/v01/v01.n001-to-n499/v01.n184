@@ -1,0 +1,440 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #184
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 20 February 1997     Volume 01 : Number 184
+
+In this issue:
+
+	Re: We need to prioritize; song names.
+	Re: We need to prioritize; song names.
+	Re: We need to prioritize; song names.
+	Re: Song name list - possible deletions
+	Re: multiple deadlists formats?
+	Re: We need to prioritize
+	Re: We need to prioritize; song names.
+	Song name changes
+	Summary of song name changes
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Wed, 19 Feb 1997 18:48:43 -0500
+Subject: Re: We need to prioritize; song names.
+
+> 2)  To bracket or not to bracket
+
+As one who is entering a lot of data- I vote to eliminate brackets. The
+brackets do nothing for me aesthetically and can add up to a few thousand
+extra keystrokes over the course of compiling a year.
+
+Song titles:
+my vote:
+Minglewood Blues
+Iko Iko
+The others mentioned I have no opinion on.
+Now that I'm working up 1981 (expect it posted this coming weekend). I am
+using the titles:
+The Women are Smarter
+Never Trust a Woman
+any comments?
+
+
+Gordon
+
+
+
+
+------------------------------
+
+From: Christian Crumlish <xian@netcom.com>
+Date: Wed, 19 Feb 1997 17:11:25 -0800
+Subject: Re: We need to prioritize; song names.
+
+>Now that I'm working up 1981 (expect it posted this coming weekend). I am
+>using the titles:
+
+>The Women are Smarter
+
+I think this is really
+
+	Man Smart, Woman Smarter
+
+or maybe
+
+	Man Smart (Woman Smarter)
+
+>Never Trust a Woman
+
+I'm pretty sure this is called Good Times Blues (or something very similar
+to that), not to be confused with Good Times, which most people call Let
+the Good Times Roll (or LTGTR), not be confused with Come On (Part One) by
+Jimi Hendrix, or Bon Ton Roulez etc.
+
+	--xian
+
+- -- 
+Christian Crumlish	=%7o
+at Enterzone	xian@aaln.org		http://ezone.org/ez/authors/xian.html
+in general	xian@pobox.com	http://pobox.com/~xian
+
+the new Enterzone (episode 9) is out!
+
+		http://ezone.org/ez/
+
+------------------------------
+
+From: paleo550@philly.infi.net (gordon sharpless)
+Date: Wed, 19 Feb 1997 20:47:08 -0500
+Subject: Re: We need to prioritize; song names.
+
+>>Now that I'm working up 1981 (expect it posted this coming weekend). I am
+>>using the titles:
+>
+>>The Women are Smarter
+>
+>I think this is really
+>
+>	Man Smart, Woman Smarter
+
+You are correct. However, this song has traditionally been referred to by
+many of us as The Women are Smarter, hence my continued use of it.
+
+
+>
+>>Never Trust a Woman
+>
+>I'm pretty sure this is called Good Times Blues (or something very similar
+>to that), not to be confused with Good Times, which most people call Let
+>the Good Times Roll (or LTGTR), not be confused with Come On (Part One) by
+>Jimi Hendrix, or Bon Ton Roulez etc.
+
+Also correct, however, again using conventional tradition, Never Trust a
+Woman has also been a widely used alternate title, and would also eliminate
+any confusion with Good Times should we continue to use it.
+
+Gordon
+
+
+
+------------------------------
+
+From: Daniel Lynch <dflynch.esq@internetmci.com>
+Date: Wed, 19 Feb 1997 18:39:01 -0800 (PST)
+Subject: Re: Song name list - possible deletions
+
+>>You will find at least one "This Time Forever" in the guitar duets
+>>(post-drums) of a BCT show int eh '80s.  I can't rember which year, 
+>>but if I ever find it again I'll let you know :^)
+
+That would be 4/19/86.  I've always loved that show for that reason.
+Have a nice 3rd or 4th gen analog Board, but nothing on DAT.  
+
+Dan
+
+------------------------------
+
+From: Ryan Shriver <ryan@digicool.com>
+Date: Wed, 19 Feb 1997 23:46:47 -0500
+Subject: Re: multiple deadlists formats?
+
+Tim Buller wrote:
+> 
+> Ryan's work on the legion of mary page (which is looking very nice) and
+> John's sh/sed/awk filter inspired me to fritter the day away at work today
+> working on a perl script to convert deadlists from 1.3.1 spec to Phase III
+> HTML file for the tour-by-tour site if any of you are familiar with that.
+> I have 74 up right now, if you'd like to see how it looks. There may be
+>
+> http://www.math.ukans.edu/tbt
+
+This looks very nice Tim. I like the format. If you want to take over as the 
+writer of a txt_to_html script, by all means go for it. I've got my hands 
+full right now trying to get my site up-to-speed within the next few weeks. 
+More people use Perl, so more people could probably contribute to it if 
+necessary. Keep up the good work!
+- -- 
+				ryan
+
+- ---------------------------------------------------------------
+Ryan Shriver				Product Manager
+ryan@digicool.com			Digital Creations, L.C.
+
+	http://www.digicool.com/ryan/jerry/index.html
+- ---------------------------------------------------------------
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 19 Feb 1997 22:37:47 -0800
+Subject: Re: We need to prioritize
+
+Ryan Shriver is the caretaker for the dataspec (as he notes in some email
+posted between this initial post and my email here).  I'd guess that that
+makes him "in charge" -- at least more than anyone else.  I'll go with his
+take on these matters -- and if voting is what he prefers, this is what I'd
+vote:
+
+1)  Line breaks - sounds like we should stick with the spec (ie, only at the
+end of a field) when creating code, and if someone submits it wrong, we can
+readily automate conversion.
+
+2)  To bracket or not to bracket - what does the spec already say?  I vote
+"neutral".
+
+3)  "\" - to prevent confusion, rather than substituting "/", let's use "%"
+
+4)  "BAND" field - keep it
+
+5)  Where do the song maps go - in the COMMENTS field.  
+
+Caveat:  I'll not care much how the vote turns out -- simply that it does.
+
+- ---
+
+All that said, the "proof is in the pudding" and Tim's work at
+http://www.math.ukans.edu/tbt demostrates some excellent progress!  Cool.
+
+- --nathan
+
+At 10:34 PM 2/18/97 -0500, you wrote:
+>We are making some great progress (insert applause here for all
+>contributing caretakers) but I think we need to prioritize on finalizing
+>the spec NOW.  The spec needs to be fixed FIRST, so that caretakers don't
+>have to go back through their lists and redo the formatting (and
+>programmers don't have to toss hundreds of lines of code).  Various issues
+>have been raised yet they never seem to be resolved.  I am trying to come
+>up with some more software for this project (I have a couple of bugs to fix
+>and I have a GUI ready) but I put it on hold because we don't have a
+>consistent spec.  I remember these points being made:
+>
+>1)  Line breaks - should they matter (especially in the set fields), and if
+>they do, where should they be?
+>
+>2)  To bracket or not to bracket
+>
+>3)  The evil "\" - for anyone programming in C++ and it's family (C and
+>Java) "\" is a control character.  ANYTHING would be better.  "/" would
+>make sense and no one but programmers should really care.
+>
+>4)  "BAND" field - do we keep it or don't we keep it?
+>
+>5)  Where do the song maps go?
+>
+>
+>This stuff should be decided first, before we get any farther.  Sorry to
+>sound like I am complaining but everytime I make some progress in the stuff
+>I am writing the spec gets briefly discussed and changed so I go back and
+>start over.  These are minor issues so let's just make up our minds (how
+>about by the end of the week?) and then continue on.  Once we pick a spec
+>let's make it ABSOLUTE until all of the years are done and a beta version
+>of the project is complete.  Then we can go back, revise the spec, and
+>begin on a second version of the project.
+>
+>If there is currently no one officially in charge of managing the spec I
+>would be more than happy to do it.
+>
+>Cheers to Matt for the great progress he is making with the official song
+>list.
+>(I vote "New Minglewood Blues" for every version, BTW).
+>
+>
+>Matt
+>
+>--
+>  #----------------------------------------------------------------------#
+>  # Matt Cramer <cramer@voicenet.com>      G            MOSTLY HARMLESS  #
+>  #                  <matt@sonex.com>      A   "Damn the rules, its the  #
+>  # "All science is either Physics or      I    feeling that counts."    #
+>  #  stamp collecting."  --Rutherford      A           --John Coltrane   #
+>  #-------------- http://www.voicenet.com/~cramer/home.html -------------#
+>
+>
+>
+>
+>
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 20 Feb 1997 09:26:32 +0000 (GMT)
+Subject: Re: We need to prioritize; song names.
+
+Gordon,
+
+Thanks for the votes on the either/or songs.
+
+As to the other two;
+
+> Never Trust a Woman
+
+We can invoke our first rule for selecting names here -
+it's now on a Dead recording - Dozin' At The Knick has 
+it as Never Trust A Woman -  so I'm happy with that.
+ 
+> The Women are Smarter
+
+The real name (on ASCAP & BMI databases) is Man Smart, Woman Smarter.
+No Dead recordings, no recordings by the composer (Norman Spann)
+that I've come across.  I've seen lots of variations on tape labels.
+I'd favour the real title with this.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 20 Feb 1997 14:10:23 +0000 (GMT)
+Subject: Song name changes
+
+Thanks to all who responded to the either/or song names.
+Here's a summary.  The first four are definite.
+
+One Kind Favor   -  used on Keystone Encores.
+
+Iko Iko          -  Used on other versions & all
+                    who commented favour it.
+
+The Rub          -  Name used by the Dead & all
+                    who commented favour it.
+
+Mindbender       -  All who commented prefer this & 
+                    Lesh probably referred to it as
+                    The Mindbender.
+
+A bit less agreement on Minglewood - equal preference
+for New Minglewood Blues or Minglewood Blues.
+
+I think I prefer New Minglewood Blues.
+
+It is on a Dead record as such (Dead Set) so we'll
+be complying with our own rules.
+
+And the name covers all the Deads versions as
+Christian noted;
+
+> Actually, I think "New Minglewood Blues," would make the 
+> most sense, since, as I understand it, the New MB song the Dead 
+> re-arranged (twice) and covered was significantly different from 
+> the original MB.
+
+
+I'll be sending an updated song list to Nathan at the end of this
+week.  Will post a summary of all proposed changes shortly.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+
+
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 20 Feb 1997 14:33:54 +0000 (GMT)
+Subject: Summary of song name changes
+
+Here are all the song name changes that I am proposing
+at this stage.
+
+New name is followed by the source that I've used for name.
+See existing song list on the DeadLists page for the
+current name.
+
+Some of these move away from the names we commonly used.
+But our aim was to get as near as possible to the official
+name of a song and to use names used on Dead recording as
+a primary source.
+
+As always - comments please.
+
+
+And We Bid You Good Night              Live Dead 
+Caution (Do Not Stop On Tracks)        Anthem Of The Sun 
+C. C. Rider                            Dick's Picks, Vol 5 
+Corrina                                Book : Box Of Rain : Robert Hunter
+Darling Corey                          Recorded by Bill & Charles Monroe
+Gathering Flowers For The Master's Bouquet    ASCAP - ACE On The Web 
+Goin' Down The Road Feeling Bad           Skull & Roses 
+The Golden Road (To Unlimited Devotion)   Grateful Dead (1st) 
+Good Morning Little Schoolgirl            Grateful Dead (1st) 
+How Sweet It Is (To Be Loved By You)      Keystone Encores 
+I Second That Emotion                  Keystone Encores 
+Iko Iko                                Music Never Stopped 
+In The Midnight Hour                   Best Of Wilson Pickett
+It Hurts Me Too                        Europe '72 
+It's A Man's, Man's, Man's World       Single (1966) : James Brown
+Jack-A-Roe                             Reckoning 
+Just A Little Light                    Built To Last 
+Keep Your Day Job                      Dick's Picks, Vol 6 
+Lady Di & I                            ASCAP - ACE On The Web
+Lazy Lightnin'                         Kingfish : Kingfish
+Let Me Sing Your Blues Away            Wake Of The Flood 
+Man Smart, Woman Smarter               Most other recordings
+The Mighty Quinn (Quinn The Eskimo)    Self Portrait : Bob Dylan
+Mississippi Half-Step Uptown Toodleloo Wake Of The Flood 
+Never Trust A Woman                    Dozin' At The Knick 
+New Minglewood Blues                   Dead Set  - and group disc.
+Playing In The Band                    Ace : Bob Weir
+The Promised Land                      Steal Your Face 
+Rainy Day Woman #12 & #35              Blonde On Blonde : Bob Dylan
+Reuben And Cherise                        Jack O'Roses : Robert Hunter
+Rockin' Pneumonia & The Boogie Woogie Flu Single (1957) : Huey Smith
+(I Can't Get No ) Satisfaction            High Tide & Green Grass : Stones
+Silver Threads & Golden Needle     
+Sittin' On Top Of The World            Grateful Dead (1st) 
+Smokestack Lightnin'                   Bear's Choice 
+Stealin'                               Scorpio Single 
+That's All Right, Mama                 Live At The Keystone Vol 2 : 
+The Times They Are A Changin'          The Times They Are A Changin' : Dylan
+Turn On Your Lovelight                 Live Dead 
+We Can Run                             Built To Last 
+Where Have All The Heroes Gone         ASCAP : ACE on the Web
+Willie & The Hand Jive                 Single (1958) : Johnny Otis
+
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #184
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

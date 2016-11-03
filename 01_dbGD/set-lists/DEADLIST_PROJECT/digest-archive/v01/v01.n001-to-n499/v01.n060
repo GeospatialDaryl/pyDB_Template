@@ -1,0 +1,82 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #60
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Tuesday, 21 May 1996        Volume 01 : Number 060
+
+In this issue:
+
+	Re: let the setlist collecting begin! 
+	Re: let the setlist collecting begin!
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Tue, 21 May 1996 17:22:45 -0400
+Subject: Re: let the setlist collecting begin! 
+
+In message <199605200845.BAA10833@mh1.well.com> you write:
+> alright, i know many folks have been collecting setlists for years.  but now
+> that the datafile is basically established (check out the link from the web
+> page at http://www.well.com/user/nathan/dlhome.htm), we can start to format
+> our lists in the "official" style.
+
+Does anyone have any tools to do anything with lists in the official
+datafile format?  I think I can modify my Lisp programs to print the
+lists I have in the datafile format but once I have them printed I have
+no way to verify that the output is OK.  If someone can help me
+verify that my output is OK I can generate the complete lists
+from '72-'95 and partial lists for '65-'71 (based on my tape
+collection, which is pretty incomplete) to prime the pump.
+
+> off the top of my head, i recall a few people speaking up for years they
+> would like to do.  at least 69 and 70 are covered, perhaps others.  since
+> the goal of this first batch of lists is not to create a definite datafile
+> but just something to get us going, which can be refined ad infinitum, i'd
+> propose that we not get way into duplicating efforts yet but spread
+> ourselves out and try to get a decent first-pass coverage of all the years.
+> (i'd recommend posting here regarding what year[s] you are embarking on
+> covering, so that we can all coordinate our efforts.)
+
+Since 2 of my favorite years are already taken, I'll take '71.
+
+			John
+
+------------------------------
+
+From: Barry Barnes <barnes@tech.iupui.edu>
+Date: Tue, 21 May 1996 16:41:40 -0500 (EST)
+Subject: Re: let the setlist collecting begin!
+
+Do all years need to be created/developed?  If so, I'll do 1995 assuming 
+my "finished product" is really just a starting point.
+
+BB
+
+
+------------------------------
+
+End of DeadLists Digest V1 #60
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

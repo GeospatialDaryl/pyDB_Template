@@ -1,0 +1,285 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #41
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Friday, 12 April 1996       Volume 01 : Number 041
+
+In this issue:
+
+	web site
+	Song List
+	addendum
+	Re: addendum 
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 12 Apr 1996 12:36:45 -0700 (PDT)
+Subject: web site
+
+I have created a preliminary web site for this project at
+http://www.well.com/user/nathan/dlhome.htm
+(note the lack of an "l" on the end of the "htm".  the URL might work 
+with an .html extension, but i didn't write it that way.)
+
+One obvious thing I need to add is a link to the original songlist on 
+Steve Zimmerman's web site.  If someone has this handy, please forward it 
+to me.  Better yet:  if someone wants to edit that list using the ideas 
+people have posted, that would be ideal!  That person could then forward 
+me the revised list and I'll create a badic html document from it and put 
+it on the site.  (You can get the digest archives via a link from the 
+DeadLists Project Home Page at the URL above.  From those digests, you 
+will be able to find out what people have said about the song names and 
+make a revised song list.)
+
+(Eventually -- that is, once we have a first version of the database 
+together -- I will create a songlist page with each name linked to a script 
+that will return a "all times played" list.  But that is still a little 
+ways in the future :-)
+
+Another idea:  I'm looking into setting up a BBS style space on the Web 
+site for discussing things.  We could have seperate topics for general 
+discussions, posting of proposed set lists, etc.  How do people feel 
+about doing it that way versus using mailing lists to do that work?  I 
+think it makes more sense since it means all the data will already be in 
+a file somewhere central -- and we can create a port directly from those 
+discussions to the database.
+
+We all have WWW access one way or another right?  Speaking personally, I 
+usually use the most basic of basic browsers, LYNX.  I think even folks 
+with this limited web capacity will be able to fully participate in what 
+I am proposing.
+
+Finally, one last note:  The datafile spec (available from a link on the 
+home page) is slightly revised.  Mostly what I did was add more 
+abbreviations for the various kinds of recordings we want to catalogue.  
+I may have overlooked a few things again.  If so, feel free to post that 
+here and/or email me and I'll try to update that html file (and thus the 
+proposal).
+
+Anyways, *I'd* offer to revise the songlist but:
+
+1)  I feel like I'm doing to many of the tasks here.  I don't want to 
+"hog" it all.  This is a group effort.
+
+2)  I'm real busy/on the road, looking for work and housing in the South 
+(SF) Bay/Santa Cruz Mtns area.  (Anyone got any leads about HTML work? 
+:-)  So I don't have as much time as I would like to devote to this project.
+
+Bottom line, we are rolling slowly but surely toward our goal.  After we 
+finish the relatively minor work of the datafile spec (nearly done) and 
+the songlist (shouldn't be too taxing), we can start to collect 
+setlists.  I guess for now we will have to collect them on our own, 
+perhaps posting about ones we are unsure of to the group?  Perhaps there 
+is a better way to do this?
+
+I'm looking into finding a freeware database I can run in the background 
+of our project on the Well.  They seem to be okay and CGI scripts.  Once 
+that is within site, I'd like to talk with some folks that have put 
+together "forms" that query databases.  It all seems like straightforward 
+work, but I'm sure there are better ways to do it that I will intuitively 
+embark on.
+
+- --Nathan
+
+------------------------------
+
+From: Steve Zimmerman <saz@tapetracker.com>
+Date: Fri, 12 Apr 1996 13:00:18 -0700
+Subject: Song List
+
+>One obvious thing I need to add is a link to the original songlist on 
+>Steve Zimmerman's web site.  If someone has this handy, please forward it 
+>to me.  Better yet:  if someone wants to edit that list using the ideas 
+>people have posted, that would be ideal!  
+
+I have changed service providers since I posted that list and the file bit
+the dust in the process. If nobody else has a copy I regenerate it.
+
+
+Steve
+
+- ----- 
+ Steven A. Zimmerman (saz@tapetracker.com) (415)461-2440 Fax:(415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+ 
+              For *TapeTracker for Windows* info see 
+      http://tapetracker.com or send email info@tapetracker.com
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 12 Apr 1996 14:03:36 -0700 (PDT)
+Subject: addendum
+
+After doing a little more reading, I think it might be wise to not 
+create datafile spec that folks format their setlists to mimic.  Rather, 
+I propose that we create a form at the DeadLists site that has separate 
+lines for each field (VENUE, DATE, SETLIST1, etc.).  Then folks who are 
+approved to so do, could link to that form and type in the info for the show.
+
+We would still need to have a datafile spec for the particular kinds of 
+input that would be okay for each field.  This is especially true for the 
+setlist fields.
+
+We would need to create a way for people to only gain access to this 
+input page via password (to prevent marauders from entering bogus data).
+
+The reasons I propose this are:
+
+* Such inputs could be readily collated behind the scenes into a flat 
+text file that would grow to encompass all the setlists we have.
+
+* This text file would be laid out in a way that a very simple PERL 
+script could be used to search for particular entries that match the 
+search criteria(s) of people using the database (every time a particular 
+song was played, every time a particular string of songs was played, 
+every time a particular city or venue was the location of a show, etc. -- 
+and these kinds of searches could be modified with qualifiers like 
+"before 1980" or only in setlist2 or whatever).
+
+* Not only would inputing stuff via a form make creating the datafile 
+automatic, but it would make it so that the datafile created would be in 
+the correct format for the PERL script to parse.
+
+*  Essentially the easiest kind of datafile format would look somethin g 
+like the following (though it would be behind the scenes and folks 
+entering data wouldn't have to use the headings at the start of each line 
+- -- they would be automatically generated in the script that takes the 
+data entered on the input form and places it in the flat text datafile):
+
+date:  2/13/70
+venue: fillmore east
+city: new york city
+state/country: new york 
+setlist1:  blah blah blah
+
+etc.
+
+*  It would then be fairly easy to create a form driven PERL script that 
+would return all the complete show entries for every time "blah blah 
+blah" was played, or every time "blah" was played at shows from 1969 to 
+1975, or every show in new york city in 1970, or whatever.
+
+- -------------
+
+Anyways, like I said, this just occurred to me after my last post to the 
+list.  If I am way off, let me know.  This just seems like a reasonable 
+way to approach this project.
+
+I've got a basic PERL script already that does those kinds of rudimentary 
+searches of a flat text file to the extent that it can return search 
+results for every time a particular set of data/strings occur in entries 
+in the file.  This would cover all except the "before 1990" kind of 
+searches.  I'm off to the bookstore to see what kind of book I can get 
+that would show me how to do this last kind of qualifier (it shouldn't be 
+too difficult, but the references I have here while on the road don't jog 
+my memory enough to make that part of the needed script obvious).
+
+- ---------------------------
+
+btw, we might want to "jump start" the datafile by initially uploading a 
+truck load of setlists -- and then rely on using web-based form input for 
+future additions.  (we could even skip this kind of entry method and 
+designate someone "holder of the setlist file" and they could 
+periodically add all the new setlists to their off line master file and 
+then upload the whole thing, replacing the old datafile on the web.  but 
+who is going to volunteer to do that much work on their own? :-)
+
+- ---------------------------
+
+bottom line is:  even though the datafile seems nearly complete, it might 
+not be worthwhile for individuals to format their setlists in that manner 
+quite yet since we might need to nail down the search engine a bit better.
+
+of course, the big things are:
+
+* knowing what all the fields are going to be
+* knowing how the data must look in each field
+
+and since we nearly know this, we are nearly ready for compile setlists 
+using this knowledge, at least on our own for now.  even if we change the 
+delimiter of the online datafile from tab characters to separate lines, 
+that kind of translation shouldn't be too difficult.
+
+- ------
+
+and one final note:  i guess we should talk about who wants to do the 
+initial lists for what years (if, indeed we are going to compile a truck 
+load of lists to upload to get things started).  obviously, duplicating 
+efforts is good for crosschecking, but perhaps we can cross check stuff by 
+exploring the database once we have an initial dataset uploaded and 
+searchable?  
+
+- --nathan
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Fri, 12 Apr 1996 18:45:33 -0400
+Subject: Re: addendum 
+
+Oops, I forgot to cc deadlists...
+
+		John
+
+- ------- Forwarded Message
+
+To: Nathan Wolfson <nathan@well.com>
+Subject: Re: addendum 
+In-reply-to: Your message of "Fri, 12 Apr 1996 14:03:36 PDT."
+             <Pine.3.89.9604121327.A16745-0100000@well> 
+Date: Fri, 12 Apr 1996 18:42:35 -0400
+From: John Oleynick <johno>
+
+To spread the work around, perhaps instead of having one "keeper of the
+setlist file" we could split it up by year and have a number of
+"keepers of a year of the setlist file"?  Also, instead of having the
+update forms on the web page directly update the database, the forms
+could just mail the new entry to the "keeper of that year of the
+setlist file" and the "year keeper" could sort out bogus entries,
+resolve conflicting setlists, etc. and keep their year of the setlists
+on the web page up-to-date.  Depending on the number of people who want
+to be "keepers" we could break it up some other way, like "keeper of 5
+years of the setlist file" if not many people volunteer, or "keeper of
+6 months of the setlist file" if alot of people do.  I would defintely
+volunteer to keep part of the setlist file, but I don't think I have
+time to keep the whole file.
+
+I think it would definitely be a good idea to jump start this with a
+truck load of lists from someone.  Once we get something started
+the "year keepers" can then cross check with other truck loads or
+individual lists.
+
+			John
+
+- ------- End of Forwarded Message
+
+
+------------------------------
+
+End of DeadLists Digest V1 #41
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

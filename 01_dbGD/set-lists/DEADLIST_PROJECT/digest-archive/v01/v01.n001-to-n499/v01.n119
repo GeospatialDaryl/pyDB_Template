@@ -1,0 +1,101 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #119
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 10 January 1997      Volume 01 : Number 119
+
+In this issue:
+
+	[none]
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@john.rutgers.edu>
+Date: Thu, 09 Jan 1997 19:17:39 -0500
+Subject: [none]
+
+In message <199701070938.BAA05946@well.com> Jim Powell writes:
+> If User Friendly lists on the Web site are consistent they can be as easily
+> transformed into Uglier Forms by programmers for their own purposes as the
+> other way round.  
+>	[ ... ]
+> One way or the other, it WOULD be cool to settle on our format at long last.
+>  And of course, as long as you make it perfectly consistent & it registers
+> the features you want to register, any format can be transformed into any
+> other format by any sufficiently motivated programmer.
+
+Are we really going to change the format?  How difficult will it
+be to modify existing programs that are already built for the current
+format?  Ryan?  Anybody else have programs using the current format?
+
+If we do change the format I think we should limit the changes as much
+as possible.  I'd propose limiting the changes to the following:
+	1.  remove the initial fields line and make the field name the
+		first subfield of every field.
+	2.  eliminate the requirement that a tab separate each
+		field; songs are already separated by the transitions.
+	3.  allow a field to span multiple lines.  If a line beings
+		with a space then treat it as the continuation of the
+		previous line, otherwise treat it as a new field.
+
+This format would look just like the existing example in the spec,
+but without the initial "fields" line.  It would look close to
+the format that Jim has been using to post lists, except it
+would require lines to be indented when they continue a field.
+I don't think that would be much harder to parse than the existing
+format, and I think it would be alot easier to read.
+
+Whatever format we use -- the current format, this new format I've
+proposed, or some other format -- I think we should decide quickly,
+before we all go into too many different directions and end up
+with lots of lists and programs, none of which use the same exact
+format.
+
+		John
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 10 Jan 1997 03:45:09 -0800 (PST)
+Subject: [none]
+
+basically the current format looks good to me.  it worked well enough for
+1970, which is in many respects the hardest year.
+
+in doing 1970 I omitted the left-hand margin headers (BAND / VENUE / CITY
+etc) when there was nothing in that field.  doing 1969 i'm listing all 12
+fields as headings down the left margin whether or not there's anything in
+them.  my question is, which is correct?  or does it make any difference?
+
+anything formatting i'm not getting right in the 1969 lists?
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #119
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

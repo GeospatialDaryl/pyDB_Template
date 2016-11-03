@@ -1,0 +1,655 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #6
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Friday, 16 February 1996      Volume 01 : Number 006
+
+In this issue:
+
+	[none]
+	Re: DeadLists Digest V1 #5
+	Posting of Proposal to the List
+	Re: DeadLists Digest V1 #5 (Part 1)
+	Re: DeadLists Digest V1 #5 (Part 2)
+	[none]
+	Re: revising the format proposal
+	post of original proposal (for the ftp-impaired :-)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 15 Feb 1996 16:23:21 -0800
+Subject: [none]
+
+steve, would you please post the text of that proposal here?
+
+------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Thu, 15 Feb 1996 17:54:36 -0800
+Subject: Re: DeadLists Digest V1 #5
+
+Nice job, Steven!
+
+Having said that, I have Quibbles:
+
+The spec says:
+>The ninth character shall also serve as a flag other
+>information about a given show as follows:
+
+>"a" - Early Show
+>"b" - Late Show
+>"@" - Openning Sets in which band member(s) participated
+>"+" - Sound Check
+
+I think this is a little too rigid.
+I think you should allow multiple flags after the initial 8 character date,
+for example 9/13/71a@ for an early show openner (or is it opener?). You
+might want to set the order in which the flags occur.
+
+- ------------------------------
+
+The spec says that song time is in parens following a song; set timing is
+in curly brackets at the end of all songs of a set.
+
+A slight variation: all information pertaining to a set is listed in curly
+brackets at the send of all songs of a set. Inside them can be set timings,
+in square brackets (as song timings are in sq. brackets), note references
+in parens
+(just like for songs)
+
+So something like this might result:
+ song1 [t1] (1) ; song2 [t2] (2) ; {[ts] (3)}
+
+So, song1 has timing t1, song2 has timing t2, the set has timing ts.
+In the notes field, note reference 1 corresponds to song1, note reference 2
+to song2, note reference 3 to the entire set. This would be an obvious
+place to put notations like ACOUSTIC or a GUEST that sat in for the entire
+set.
+
+- ------------------------------
+
+You should be able to put multiple note-references inside parens, so
+(1,2) would refer to both notes, or have multiply references (1)(2).
+In addition, multiple songs can reference the same note
+(e.g. 2 songs with a guest would only create a single note entry)
+(The spec doesn't say you can or can't- let's just be explicit & decide on
+which syntax)
+
+- ------------------------------
+
+>"Guest:" - Followed by name(s) of guests, separated by colons
+>which would be referenced up to the songs that they played on
+>by a number in parentheses.
+
+I couldn't parse this; does "referenced up to" with number (3) mean that
+the guest sat in until song 3? Or, is the number in parens in the noted
+matched by a number in parens in the song (which is what I *think* you
+meant). Maybe just rephrase with "referenced back to the song" - I think
+I'm getting hung up on "up".
+
+- ------------------------------
+
+I'm a little nervous about guest names separated by colons, especially if
+subcategories are delimited by them; what's wrong with commas, or
+semicolons as in the recording field? I'd like to see a bit more
+standardization on subfield separators, in general. You need lots of
+different kinds in the SET field, but all the others need at most 2, (e.g.
+note separator, and name within note separator) and I'd kind of like to see
+it more standardized- I suspect it would make parsing a bit easier. I'd
+like to propose:
+       field separator: TAB
+       subfield sep   : SEMICOLON
+       sub-subfld sep : COMMA
+       keyword marker : COLON
+       time    markers: []
+       note reference : ()
+       set reference  : {}
+
+Of course, we have to be careful about song titles with imbedded commas,
+colons,  and parens.....
+
+- ------------------------------
+
+I think it's a good idea for reserved keywords in the notes; I'm not sure
+if any other syntax is necessary besides a keyword marker just to make some
+parsers job easier.
+
+- ------------------------------
+
+So an example acoustic set with guest a guest for the entire set, and
+guests on two songs with an Opener & other random stuff would look like:
+(using ';' subfield separator char, and "," sub-subfield separator, just be
+be obnoxious)
+
+SET1
+        song1 ; song2 (1) ; song3 (1)(2) ; song4 {(3)}
+NOTES:
+        OPENER: Bonnie Raitt ; (1) GUEST: Carlos, Bonnie ; (2) lyric flub ;
+       (3) ACOUSTIC: GUEST: Airto;
+
+Unreferenced notes don't start with (n); that is, they apply to the entire
+show. All other notes should have a song or set reference, I think.
+
+
+- ------------------------------
+
+Phew, that should be enough in the quibble department.
+No major flaws - just quibbles- pretty good.
+There are a bunch of quibbles, but that doesn't mean that what is there
+couldn't be used as it now stands. (What I'm trying to say here is don't
+get mad because of all my quibbles, don't take it personally, etc.)
+
+Maybe we can produce a BNF-style description of this?
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B  fax  (408)974-0907  *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Thu, 15 Feb 1996 21:48:19 -0800
+Subject: Posting of Proposal to the List
+
+At 04:23 PM 2/15/96 -0800, you wrote:
+
+>steve, would you please post the text of that proposal here?
+
+I only wish I could. I mentioned in prior messages, and I should have
+mentioned it again, but I'm having a problem with the Well's mail server
+rejecting all but the shortest messages. They tell me that they are working
+on it. Perhaps somebody can ftp the file and post it for me to the group?
+
+Sorry for the trouble, but its beyond my control.
+
+
+
+ Steve 
+- ---
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax (415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+
+ For *TapeTracker for Windows* info see 
+                http://www.barclay.com/tapetracker/ or send 
+      email to info@barclay.com (no subject or message body required)
+
+
+
+------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Thu, 15 Feb 1996 22:33:56 -0800
+Subject: Re: DeadLists Digest V1 #5 (Part 1)
+
+>I think this is a little too rigid.
+>I think you should allow multiple flags after the initial 8 character date,
+>for example 9/13/71a@ for an early show openner (or is it opener?). You
+>might want to set the order in which the flags occur.
+
+Good point. If we want to be able to specify two extra items per date then
+it would seem that the order that you have used in your example would be
+best, late show / early show flag then @ openner flag. 
+
+>A slight variation: all information pertaining to a set is listed in curly
+>brackets at the send of all songs of a set. Inside them can be set timings,
+>in square brackets (as song timings are in sq. brackets), note references
+>in parens (just like for songs)
+
+Sounds good to me.
+
+>You should be able to put multiple note-references inside parens, so
+>(1,2) would refer to both notes, or have multiply references (1)(2).
+
+I like the later. Anyone else have a preference?
+
+>In addition, multiple songs can reference the same note
+>(e.g. 2 songs with a guest would only create a single note entry)
+>(The spec doesn't say you can or can't- let's just be explicit & decide on
+>which syntax)
+
+Exactly. I should have been more specific.
+
+ Steve 
+- ---
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax (415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+
+ For *TapeTracker for Windows* info see 
+                http://www.barclay.com/tapetracker/ or send 
+      email to info@barclay.com (no subject or message body required)
+
+
+
+------------------------------
+
+From: Steve Zimmerman <saz@well.com>
+Date: Thu, 15 Feb 1996 22:33:58 -0800
+Subject: Re: DeadLists Digest V1 #5 (Part 2)
+
+>>"Guest:" - Followed by name(s) of guests, separated by colons
+>>which would be referenced up to the songs that they played on
+>>by a number in parentheses.
+>
+>I couldn't parse this; does "referenced up to" with number (3) mean that
+>the guest sat in until song 3? Or, is the number in parens in the noted
+>matched by a number in parens in the song (which is what I *think* you
+>meant). Maybe just rephrase with "referenced back to the song" - I think
+>I'm getting hung up on "up".
+
+You got it. I can see how it might be confusing due to my wording.
+
+>I'm a little nervous about guest names separated by colons, especially if
+>subcategories are delimited by them; what's wrong with commas, or
+>semicolons as in the recording field? 
+
+I must have screwed up when typing it (I don't have a copy here at home to
+check). I intended to use semi-colons as you describe.  
+
+I'd like to see a bit more
+>standardization on subfield separators, in general. You need lots of
+>different kinds in the SET field, but all the others need at most 2, (e.g.
+>note separator, and name within note separator) and I'd kind of like to see
+>it more standardized- I suspect it would make parsing a bit easier. I'd
+>like to propose:
+>       field separator: TAB
+>       subfield sep   : SEMICOLON
+>       sub-subfld sep : COMMA
+>       keyword marker : COLON
+>       time    markers: []
+>       note reference : ()
+>       set reference  : {}
+>
+>Of course, we have to be careful about song titles with imbedded commas,
+>colons,  and parens.....
+
+I think of all these, commas are the most prevalent and that we should avoid
+using commas for our purposes.
+
+>So an example acoustic set with guest a guest for the entire set, and
+>guests on two songs with an Opener & other random stuff would look like:
+>(using ';' subfield separator char, and "," sub-subfield separator, just be
+>be obnoxious)
+>
+>SET1
+>        song1 ; song2 (1) ; song3 (1)(2) ; song4 {(3)}
+>NOTES:
+>        OPENER: Bonnie Raitt ; (1) GUEST: Carlos, Bonnie ; (2) lyric flub ;
+>       (3) ACOUSTIC: GUEST: Airto;
+>
+>Unreferenced notes don't start with (n); that is, they apply to the entire
+>show. All other notes should have a song or set reference, I think.
+
+Sounds perfect to me. Are we capitalizing the sub-category markers as you show?
+
+>Maybe we can produce a BNF-style description of this?
+
+I'd run right out and do it this minute if I knew what that was. I came into
+computers from the MBA, not computer science side. Help me out.
+
+ Steve 
+- ---
+ Steven A. Zimmerman (saz@well.com) (415)461-2440 Fax (415)461-2270
+ SoftSell Systems - 300 Drakes Landing Rd, Suite 100, Greenbrae, CA 94904
+
+ For *TapeTracker for Windows* info see 
+                http://www.barclay.com/tapetracker/ or send 
+      email to info@barclay.com (no subject or message body required)
+
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 15 Feb 1996 23:00:56 -0800
+Subject: [none]
+
+On the whole it seems to me Steve has done an excellent job with this & done
+us all a great service.  I have several suggestions, all designed to
+SIMPLIFY still further, or bring our grid into closer relation with the
+data.  To whit:
+
+Let's treat NRPS 69-71 w/ Garcia pedal steel (and sometimes also Weir, Lesh,
+Hart or Kreutzmann) as a Dead set & prefix it with "NRPS" instead of
+"Acoustic".  This is very close to the actual state of affairs (Marmaduke &
+Nelson sat in with Acoustic Dead as well, so it was thoroughly mixed up).
+This way we can treat the NRPS set in proper order rather than having our
+program force it into opening position with "@", whether they opened or not
+(sometimes they did, sometimes they didn't). 
+
+We can eliminate the ~> sign entirely.  There's no difference between the
+early-70s opener Promised Land > Bertha > Greatest Story or the late 80s
+opener Hell In A Bucket > Sugaree, and Slipknot > Franklin's Tower:  They
+all end on one beat & step into the following song on the next.  There *is*
+a difference between these examples and China Cat Sunflower > I Know You
+Rider, or Estimated Prophet > Eyes Of The World, or Scarlet Begonias > Fire
+On The Mountain, because in these three later cases music intervenes between
+the two songs, an indetermitate passage of jamming, and in the last best
+final edition of our deadlist things like China Cat Sunflower > jam > I Know
+You Rider and Scarlet Begonias > jam > Fire On The Mountain should be the
+norm.  In the interim we might decide to understand that by "China Cat
+Sunflower > I Know You Rider" we really mean "China Cat Sunflower > jam > I
+Know You Rider".  Or perhaps it would be better to do everything this way to
+start.  If we *did* want to represent transitional jamming by a symbol
+rather than by "jam" (which I would urge strongly *against*), it seems to me
+">>" would make a better symbol.  But not only do we not need it; it will
+keep us from specifying jams where we should be.
+
+I can live with semi-colons to mark pauses between songs though I would
+prefer commas (I would eliminate commas in the song titles we use to avoid
+redundancy).
+
+Using double semi-colons (";;") to designate longer pauses between songs
+will be very problematical for older tapes, which frequently have
+intervening pauses snipped out.  I think we can dispense with this double
+semi-colon symbol.  Let's KEEP IT SIMPLE.
+
+Sometimes the "best" tape from a technical standpoint (DSBD, say) will be
+incomplete & require patching from another source.  This makes it valuable
+to know if there are AUDs in circulation as well as the SBD.  And sometimes
+AUDs are worthwhile in their own right.  I think we should definitely list
+the best *complete* source available *plus* whatever else seems relevant.
+And we certainly *should not* limit ourselves to noting DAT tapes.  Most
+tape collectors are still using analog and Nathan & I guestimate that right
+now *at most* 25 - 30 % of Dead tape circulating is available on DAT.
+There's no point in listing the dozens of AUD masters from each late 80s
+shows, but on the whole we should err on the side of capaciousness here.
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 16 Feb 1996 01:06:14 -0800 (PST)
+Subject: Re: revising the format proposal
+
+> We can eliminate the ~> sign entirely.  There's no difference between the
+> early-70s opener Promised Land > Bertha > Greatest Story or the late 80s
+> opener Hell In A Bucket > Sugaree, and Slipknot > Franklin's Tower:  They
+> all end on one beat & step into the following song on the next.  There *is*
+> a difference between these examples and China Cat Sunflower > I Know You
+> Rider, or Estimated Prophet > Eyes Of The World, or Scarlet Begonias > Fire
+> On The Mountain, because in these three later cases music intervenes between
+> the two songs, an indetermitate passage of jamming, and in the last best
+> final edition of our deadlist things like China Cat Sunflower > jam > I Know
+> You Rider and Scarlet Begonias > jam > Fire On The Mountain should be the
+> norm.  In the interim we might decide to understand that by "China Cat
+> Sunflower > I Know You Rider" we really mean "China Cat Sunflower > jam > I
+> Know You Rider".  Or perhaps it would be better to do everything this way to
+> start.  If we *did* want to represent transitional jamming by a symbol
+> rather than by "jam" (which I would urge strongly *against*), it seems to me
+> ">>" would make a better symbol.  But not only do we not need it; it will
+> keep us from specifying jams where we should be.
+
+I would favor revising the distinction so that contiguous jamming is 
+noted ">" and one song continuing after anoter without missing a beat 
+(e.g., Franklin's after Slipknot) is designated "~".  I agree that the 
+"~>" described in the proposal isn't really of use.
+
+
+------------------------------
+
+From: Nathan Wolfson <nhw1@axe.humboldt.edu>
+Date: Fri, 16 Feb 1996 01:08:13 -0800 (PST)
+Subject: post of original proposal (for the ftp-impaired :-)
+
+The following is a *proposal* created to help develop a 
+consensus for the deadlists project, it should *in*no*way* be 
+construed as a final spec being pushed on the group. 
+
+DeadLists Formatting Specification Proposal
+Version 1.0 (2/14/96)
+====================================================
+
+
+FIELD NAMES:
+- ------------
+
+BAND, DATE, VENUE, CITY, STATE, SET1, SET2, SET3, ENCORE, 
+COMMENTS, RECORDING
+
+Each field shall be separated by a TAB and the field names 
+listed above shall be included in the file as a header record. 
+The STATE file shall be used for COUNTRY in the event of a 
+venue outside of the US.
+
+Note: 
+A rigid TAB delimited format was used because provides a format 
+that both programmer and non-programmers like can easily use. 
+This format will allow non-programmers to open the data in a 
+spreadsheet for manipulation or create mail-merge show lists 
+using a word processor. 
+
+
+FIELD FORMATTING:
+- -----------------
+
+DATE: 
+
+Each base "Date" shall be an eight string in the form 
+mm/dd/yy (e.g. "02/04/88"). In the event of uncertain dates, 
+unknown elements will be replace by question marks. (e.g. "Some 
+day in Feb. of 1984" shall be "02/??/84" and "some day in 1969" 
+shall be "??/??/69"). In the event that a percise date is 
+stated, but its accuracy is questioned, a ninth character 
+will be used for a question mark (e.g. "04/01/68?"). 
+
+The ninth character shall also serve as a flag other 
+information about a given show as follows:
+
+"a" - Early Show
+"b" - Late Show
+"@" - Openning Sets in which band member(s) participated
+"+" - Sound Check
+
+For example, an Early Show on Feburary 4, 1992 shall be 
+designated as 02/04/92a.
+
+Note:
+Using the supplemental flags above will allow use of only three 
+set list fields per show record and avoid a number of problems 
+associated with having upward of seven sets per show record.  
+Some of the more serious of the potential problems caused by 
+*not* using the flagging system as described above:
+
+1) Simple queries such as finding out all times a particular 
+song was played in a particular set will not work, because 
+there will no way to determine which of the "Sets" is the first 
+GD set vs. an openning set.
+
+2) When the data is imported into a database application for 
+manipulation, the file size would be significantly larger than 
+if the flagging method was used, because sufficeint room in each 
+of the seven? set list fields would have to be allocated to 
+handle a full set list, when in reality, relatively few of the 
+fields above SET THREE would ever be used. 
+
+
+
+SET FIELDS: 
+
+Songs shall be named according to a mutually agreed 
+upon list under development at this time. 
+
+Song Delimiters:
+
+Songs that segue into each other by means of a defined jam or
+transition or continue after a intentional pause on beat with 
+the music shall be separated by a space then the character 
+">" then a space. (e.g. songname1 > songname2). 
+
+Songs that segue into each other, but not by means of a defined 
+transition or intentional pause shall be separated by a space 
+then a tilde and a ">" (e.g. songname1 ~> songname2).
+
+Songs not continuing into each other shall be separated by a 
+space then a semi-colon then a space (e.g. songname1 ; 
+songname2). Use of a semi-colon will alleviate potential 
+problems in parsing caused by commas in song names.
+
+In the event that two songs are separated by a pause of greater 
+than 60 seconds, then a separator of two semi colons in a row 
+shall be used. (e.g. songname1 ;; songname2)
+
+Note:
+There was some discussion as to whether the song delimiter 
+should be limited to a single character only. If this turns out 
+to be the consensus of the list, then the following characters 
+are suggested: " > " , " ~ " , " ; " and " # ".
+
+Song Timings:
+
+Song timings, where known, shall follow directly after a song 
+name by one space and before the song divider by a single space 
+and shall be enclosed in brackets (e.g. songname1 [2:33] > 
+songname2)
+
+Reference Marks:
+
+Reference marks to notes contained in the COMMENTS field (such 
+as guest arists on songs, etc.) shall be placed in parenthesis 
+just between the timings and song names, separted from both by 
+a space. (e.g. songname1 (1) [2:33] > songname 2). In the 
+COMMENTS field the reference marks shall precede the reference 
+(e.g. "(1) with Carlos Santana").
+
+Set Timings:
+
+Set Timings shall be placed at the end of the set list string 
+and shall be placed inside of curly brackets and shall be in 
+stated in hours:minutes:seconds format (e.g. songname10 [6:32] 
+{2:35:45}).
+
+Miscellaneous:
+
+Set lists for acoustic sets shall begin with the pharse 
+"Acoustic:". If acoustic songs are played as part of a set, but 
+the set is not composed of all acoustic songs, the accoustic 
+songs shall be referenced as acoustic in the COMMENTS, using 
+the reference mark specification covered above. 
+
+
+COMMENTS: 
+
+Descriptions of items referenced in the Set List 
+fields shall follow the identical reference mark in the 
+Comments field (see SET LISTS formatting above for an example)
+
+The following unique descriptions shall precede information 
+contained in the comments that fit under their respect comment 
+subcategories. Each should be followed by a space before the 
+actual information and would only be included if relevant to 
+the show being described. 
+
+Following are proposed subcategories:
+
+"Guest:" - Followed by name(s) of guests, separated by colons 
+which would be referenced up to the songs that they played on 
+by a number in parentheses.
+
+"Openner:" - Followed by the names of openning act(s) separated 
+by colons.
+
+Note: 
+The primary benefit of using subcategories is that it 
+would allow users to run queries such as "display all shows with 
+"Guests:". If this ability is not important to the group then 
+perhaps the subcategories should be abandoned to reduce 
+cluttering of the COMMENTS field.
+
+Finally, Each comment element will be separated by a "*". 
+General comments will be placed in the COMMENTS field before 
+the subcategories. (e.g. "This is a general comment * Openner: 
+opennername)
+
+
+RECORDING:
+
+This category will be used to track the circulating recordings 
+of each performance using standard source abbreviations. 
+Perhaps only the "best" (very subjective, I know) recording of 
+each source category (AUD, SBD, MATRIX) should be included. For 
+example, there are DAUD, DFOB, CAUD, DSBD and CSBD recordings 
+circulating of a show, only the DFOB and DSBD would be listed 
+b/c they are the "best" recordings of each source category.
+
+
+
+FULL EXAMPLE OF PROPOSED FORMATTING:
+- ------------------------------------
+
+For readability purposes, the fields have been oriented 
+vertically. Data is totally bogus.
+
+BAND
+Grateful Dead
+
+VENUE
+Oakland Coliseum
+
+CITY
+Oakland
+
+STATE
+CA
+
+DATE
+10/17/91a
+
+SET1 
+Touch Of Gray [5:04] ; Little Red Rooster ; Lazy River Road ; When I 
+Paint My Masterpiece (1) ;; Childhood's End [5:32] ; Cumberland Blues ; 
+Promised Land (2) {59:26}
+
+SET2
+Shakedown Street [10:34] ; Samson & Delilah ; So Many 
+Roads ; Samba In The Rain ~> Corinna > Drums > Space > Unbroken 
+Chain ; Sugar Magnolia [6:56] {1:45:23}
+
+SET3
+
+
+ENCORE
+Black Muddy River ; Box Of Rain
+
+
+COMMENTS 
+(1) Bobby on acoustic * Guest: (2) Carlos Santana * 
+Openner: Dave Mathews Band
+ 
+RECORDING
+DSBD ; DFOB
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #6
+*****************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

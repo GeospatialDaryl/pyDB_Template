@@ -1,0 +1,72 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #155
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Tuesday, 28 January 1997      Volume 01 : Number 155
+
+In this issue:
+
+	Alternate Song titles
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Tue, 28 Jan 1997 10:10:40 +0000 (GMT)
+Subject: Alternate Song titles
+
+On Thu, 23 Jan 1997, John F. Whitehead wrote:
+
+> About song titles, it would be nice to have the "common" title
+> crossreferenced with the "original" title.  And wrt delimiters, the pipe
+> symbol ("|") will be a safe one to use.  I've made some progress on a song
+> list parser.  It takes a list of songs and alternate possibilities and
+> does substitutions.  It's not working yet, and I won't be able to work on
+> it for the next couple of weeks, but it's a start.
+
+It seems to be that it is only worth including alternate/
+common/variant versions of the song titles with the song title
+list if there is a long term use for them in the Deadlists project.
+
+I can see that there is an initial need for what Jim Powell
+referred to as song title spell checker to help the set list
+compilers change their lists to match the usage in the song
+title list.  
+
+A list of alternate names could be used by such a checker
+but I wouldn't have thought it was essential.
+
+Does anyone see a longer term need for such a list.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+End of DeadLists Digest V1 #155
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

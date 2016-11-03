@@ -1,0 +1,106 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #76
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Thursday, 1 August 1996      Volume 01 : Number 076
+
+In this issue:
+
+	Re: DeadLists Digest V1 #74
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Tim Buller <tjb9d@southwind.net>
+Date: Wed, 31 Jul 1996 18:35:36 -0500 (CDT)
+Subject: Re: DeadLists Digest V1 #74
+
+> Songs (3 or 4 drop down boxes, using the official song list)
+> Set (1, 2, 3, Encore, or Any)
+> Venue (Specific Venue, or Any. Need to construct official Venue list)
+> City (Specific City, or Any. Need to construct official City list)
+> State (Specific State/Country, or Any. Need to construct official
+> State/Country list)
+
+I think I can parse Venue, City and State/Country lists out of the 
+Tour-by-Tour listings... that stuff was generated from lists, and I think 
+I can reconstruct them without too much work.
+
+> Basically the way we have done this for other projects (like putting
+> newspaper's classified ads on the Web, in a searchable format) is to
+> define what we want to search on, then design an HTML page and form to
+> capture the search date from the user. Once the data is captured, a
+> query is performed against the setlists, and a HTML page is dynamically
+> generated and returned to the user, with us specifying the appropriate
+> format of the page returned (in HTML).
+
+So we search a single file against a query, or is each record stored in 
+it's own file? I'm sure y'all have it figured out how to return only the 
+relevant data matched from a single query, but that was the main thing I 
+was struggling with.
+
+> Stuff we need to start thinking about:
+> 1. Is this only for the Web, or should it run on someone's PC?
+
+The original project that was envisioned entailed a datafile that would 
+be accessible via a PC-based interface... the web thing sort of came 
+along as a later idea (that's the way I understand it). However, it seems 
+to me to be the most expedient to focus on 1) the web and 2) producing a 
+datafile that folks can import into their own DB software... I'm not sure 
+how concerned we want to be with creating an entire package to do it though.
+
+> 2. For the Web version, who is doing the hosting?
+
+I'll make my site available to it... BW is pretty cheap for me, and I 
+can pay a couple bucks a month or whatever it costs, if it doesn't get 
+too out of control. Eventually, it would be ideal to register a domain 
+for this project, but that's obviously down the road a bit...
+
+> 4. Designing the Web interface to capture user's requests (in HTML) and
+> the layout of page returned with user's query results. 
+
+I'm willing to work on this, which should pretty much be a snap after we 
+get the offical song, venue, city, and state/country lists ratified. No 
+big deal creating the input side of the interface, the output or 
+"presentation" side will be the trick, I think. I'm glad to see this 
+thing picking up steam again... thanks ryan for your re-vitalizing efforts.
+
+	Tim
+
+====
+Tim Buller                              e-mail:<tjb9d@southwind.net>
+Mac & Dead Support                      http://www2.southwind.net/~tjb9d/gdead
+
+   "There are two major products to come out of Berkeley: LSD and Unix. 
+         This is probably not a coincidence." - John Dodge in PCWeek
+
+
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #76
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

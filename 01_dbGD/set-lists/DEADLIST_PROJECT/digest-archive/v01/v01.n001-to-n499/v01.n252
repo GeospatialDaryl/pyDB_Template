@@ -1,0 +1,136 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #252
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Friday, 18 April 1997       Volume 01 : Number 252
+
+In this issue:
+
+	Re: DeadLists Digest V1 #251
+	Re: DeadLists Digest V1 #251 setlist problems
+	1972 up for grabs
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Thu, 17 Apr 1997 18:34:50 -0700
+Subject: Re: DeadLists Digest V1 #251
+
+I just noticed some timings in the last messge:
+
+DATE    05/19/95
+ENCORE          Lucy In The Sky ; [:05]
+
+I don't think that Lucy in the Sky was a 5 second encore, or something.
+This will be interpreted as 5 seconds of ?? after the encore.
+
+I think you might have wanted to say (here and elsewhere)
+ENCORE          Lucy In The Sky with Diamonds  [:05:] ;
+                  official name?^^^^^^^^^^^^^      ^  ^
+                                                   |  |
+          trailing colon indicates minutes      __/   |
+timing before song-sep means timing for this song ___/
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Thu, 17 Apr 1997 18:45:22 -0700
+Subject: Re: DeadLists Digest V1 #251 setlist problems
+
+Sorry to be so officious, but I don't want all this great data to be
+garbage-in-garbage-out because the parsers won't recognize stuff:
+Look at the spec, people. Its only there to help; its  for your own
+good; the check is in the mail, and it won't ...(you should know the rest
+of this punchline)
+
+>BAND    Grateful Dead
+>DATE    05/24/95
+......
+>SET1    Touch of Grey ; Minglewood Blues ; Lazy River Road ; Me and My
+>Uncle* >  Big River* ; Bird Song ; [:49]
+         ^             ^^^^^^^ more weird timing stuff
+         \__ what is this asterisk for?
+
+>SET2    Iko Iko ; Saint of Circumstance ; Way to Go Home ; I Want to Tell
+>You> Estimated Prophet > Drums > Space > I Need a Miracle > Wharf Rat >
+>Lovelight ; [1:38]
+>COMMENTS
+
+.............
+
+>DATE    05/28/95
+.....
+>SET1    Jack Straw ; Peggy-O ; Wang Dang Doodle ; Row Jimmy ; When I Paint
+>My Masterpiece* ; Brown Eyed Women ; Let It Grow ; [1:01]
+>COMMENTS        * Bob on acoustic ; Chuck Berry opened
+                 ^                 ^ ^  comments that apply to the
+                 |                 | \-- entire set must come first
+                 |                 |    (and don't need a footnote marker)
+                 |                 |
+                 |                 \___ not a valid footnote separator
+                 \____ not a valid footnote marker, use e.g. "(1)"
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Eric Doherty <edoherty@winternet.com>
+Date: Thu, 17 Apr 97 21:20:00 PDT
+Subject: 1972 up for grabs
+
+I am listed as the Caretaker for 1972, but I am more than willing to give it 
+to whomever wants it.  I just haven't had the time to complete this task.
+
+Eric
+
+*******************************************************
+
+Eric Doherty                
+435 Fairview Ave. N. APT#3   
+St. Paul, MN 55104           
+
+*******************************************************
+
+
+------------------------------
+
+End of DeadLists Digest V1 #252
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

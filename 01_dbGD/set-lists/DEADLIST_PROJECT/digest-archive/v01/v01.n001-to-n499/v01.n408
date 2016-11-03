@@ -1,0 +1,87 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #408
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Tuesday, 12 August 1997      Volume 01 : Number 408
+
+In this issue:
+
+	Re: database (fwd)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: "Matthew S. Cramer" <cramer@voicenet.com>
+Date: Tue, 12 Aug 1997 08:12:17 -0400
+Subject: Re: database (fwd)
+
+At 02:04 PM 8/11/97 -0700, Nathan Wolfson <nathan@well.com> wrote:
+>Here is what Kevin wrote, in reponse to my query asking how we might want 
+>to split the data up into multiple tables (its in one table now, which 
+>gets us 90% of what we want) and how some new queries might be added:
+>
+>     Here is a sample query for locating a song within a set or any set.
+>     This is using three related tables: Artist, Date and Tape. These
+>     tables are linked the same way as in the sample relationship picture I
+>     sent you on Friday.
+>
+>     SELECT DATE.DateID, ARTISTS.Artist, TAPE.Set, TAPE.TapeSongs
+>     FROM (ARTISTS INNER JOIN [DATE] ON ARTISTS.[Artist ID] =
+>     DATE.ArtistID) INNER JOIN TAPE ON DATE.ShowID = TAPE.ShowID
+>     WHERE (((TAPE.Set)="One") AND ((TAPE.TapeSongs) Like "*Dark Star*"))
+>     ORDER BY DATE.DateID;
+>
+>     Where it says "One" is the input from the user as to what set to
+>     search in.  I used "One" as an example, but the user can leave the
+>     field, (TAPE.Set), blank to search in all sets.  Asterisks are used
+>     with the song name to find it anywhere in the TAPE data.  Changing the
+>     song name input to: "*Dark Star*Drums*" finds all instances of Dark
+>     Star before drums, etc.
+>
+>     This was a quickie, but the way it works is the same.  I would just
+>     formalize the WHERE clause statements to pull from actual input fields
+>     on a query form - or web page form.
+
+If we are going to use a SQL database in NT, could I suggest we use Oracle?
+ I could donate a copy of Workgroup Server for NT and also Oracle's
+webserver.  The advantage there would be that we could create an
+application in Developer/2000 that would run on any Java supported platform
+and provide much more functionality than ordinary web pages.
+
+Could database/application relevant posts be cc'ed to the list by default?
+
+
+
+Matt
+
+- --
+Matthew S. Cramer
+Programmer / Analyst
+VELOX Systems Corp.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #408
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

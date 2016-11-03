@@ -1,0 +1,172 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #262
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Wednesday, 23 April 1997      Volume 01 : Number 262
+
+In this issue:
+
+	Re: massive updates (Thanks, Ryan!) 
+	73, 74 updates, etc.
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Tue, 22 Apr 1997 19:10:46 -0400
+Subject: Re: massive updates (Thanks, Ryan!) 
+
+Ryan wrote:
+> The setlist corrections were:
+> 
+> 1. 12/04/71: changed % delimiter to ; (my program can be modified to
+> accept the %, but as of yet no one else has used this notation so I
+> haven't modified the program)
+
+Does your program accept the "\" delimiter?  If so, I think you could
+just make it use "%" instead of "\", since the "%" is the
+replacement for "\" (although it would probably be good to support
+both until everyone changes over).
+
+
+> 2. 12/04/71: changed Run Run Rudolph to Run Rudolph Run
+> 3. 03/03/71: changed Me & Bobby McGee to Me And Bobby McGee
+> 4. 03/03/71: changed King Bee to I'm A King Bee
+
+Oops, I thought I had cleaned up all of the song titles.  Thanks for
+pointing that out.
+
+> 2. Good Vibrations (04/27/71)
+> 3. I Get Around (04/27/71)
+> 
+> I realize these last two weren't played by the GD, but in order for my
+> program to work correctly, every song in the setlists must _exactly_
+> match an entry in the 'official song list' text file. It is noted in the
+> setlist for 04/27/71 that these last two songs were done only by the
+> Beach Boys, so I don't think there should be any confusion.
+
+Yes, I wasn't sure if I should leave these in the setlist and ask
+Matt to add them to the song list, or take them out (since the Dead
+didn't play them) and just note them in a comment.  Any strong
+opinions either way?  If not, since Matt already volunteered to add
+them to the songlist I'll take the easy way out and just leave them
+in.
+
+> And finally :-), John, do you still have the script that converts files
+> to the official format? If so, this is going to be very, very, very
+> important in getting the other setlists online easily. My program must
+> have the setlists in the data spec format (including brackets around
+> timings, correct delimiters, etc). 
+
+Yes, it should handle most of the other setlists that conform to the,
+still unwritten, "alternative format" spec.  I've started working on
+that and will try to post a rough draft within a week or so.
+
+> Something else that would be very
+> useful would be a program to convert Playin' to Playing and Feelin' to
+> Feeling, etc. This is by far the biggest bottleneck in my program. Let
+> me (and Nathan) know about your conversion script.
+
+I believe Matt (I'm sorry, I don't remember your last name Matt, is
+it Cramer?) has a C++ program that helps with this, although I haven't
+tried it yet.  I think Matt mentioned that as an aside
+in his message about his programs for Windows and the Mac, and my
+Unix-centric mind skipped it and didn't go back to read it until
+after I'd written something similar too.  What I have is yet another
+awk script that reads a bunch of lists and prints unknown songs,
+possibly with suggestions, like this:
+
+Unknown song "The Mighty Quinn", probably should be "The Mighty Quinn (Quinn The Eskimo)": 04/05/89 ENCORE {166}
+Unknown song "Smokestack Lightning", probably should be "Smokestack Lightnin'": 04/12/89 SET2 {229}
+Unknown song "It's all over now", probably should be "It's All Over Now": 04/13/89 SET1 {241}
+Unknown song "We Bid You Good Night", probably should be "And We Bid You Good Night": 07/17/89 ENCORE {517}
+Unknown song "SSDD", probably should be "Sunshine Daydream": 07/18/89 SET2 {528}
+Unknown song "Good Time Blues", probably should be "Never Trust A Woman": 10/16/89 SET1 {748}
+Unknown song "Playin' Jam", probably should be "Playing In The Band Jam": 10/16/89 SET2 {749}
+Unknown song "jam", probably should be "Jam": 10/18/89 SET2 {762}
+Unknown song "Other 1 Jam", probably should be "The Other One Jam": 10/20/89 SET2 {788}
+Unknown song "CC Rider", probably should be "C. C. Rider": 12/10/89 SET1 {891}
+Unknown song "I'm a Man", probably should be "I'm A Man": 12/10/89 SET1 {891}
+Unknown song "Good time Blues", probably should be "Never Trust A Woman": 12/27/89 SET1 {904}
+Unknown song "Midnight Hour", probably should be "In The Midnight Hour": 12/31/89 ENCORE {946}
+
+
+That's not quite ready for prime time yet, but after I finish documenting
+the "alternative format" I can clean that up if anyone is interested.
+
+		John
+
+
+------------------------------
+
+From: Tim Buller <buller@math.ukans.edu>
+Date: Tue, 22 Apr 1997 20:30:36 -0500 (CDT)
+Subject: 73, 74 updates, etc.
+
+I've updated and revised 73 and 74 (with Ryan's help) to bring them in
+line with the current song list... I had been working from an older
+version. Rather than post them here again, interested parties can grab
+them from ftp.math.ukans.edu/pub/buller/dl
+
+I've also taken the liberty of running all the years that have been posted
+to the list through John O.'s gawk script, and placing them in the above
+FTP directory, so anyone with the need for the "hard spec" compliant
+version can grab them here. John's script is also in there, just because I
+like it so much!
+
+A couple things I noticed when I ran the raw files through his script:
+
+* Be careful not to put names of fields in the COMMENTS or anywhere else,
+as that messes things up... for example, the following is bad:
+
+COMMENTS	Bobby takes his pants off during SET1. Phil dedicates
+ENCORE to Richard Nixon
+
+We can of course work around this if it is a problem. I edited 69 a bit
+making "SET1" into "Set 1", that's the only list (besides my own) that had
+a problem.
+
+* Do we omit SET3 if there was no third set? I think according to the hard
+spec, it must be in there, so we should make sure our filters check for
+that.
+
+* Is it RECORDING or RECORDINGS? Another thing for filters to catch...
+
+* Dates should be MM/DD/YY, not M/D/YY if it works out (I was the worst
+perpetrator of this...
+
+All in all, what we have looks real good. I'm horribly impressed...
+
+	Tim
+
+====
+Tim Buller                                       buller@math.ukans.edu
+Math Department Systems Specialist                       Snow Hall 643
+University of Kansas, Lawrence, KS 66045                  913-864-7311
+
+
+------------------------------
+
+End of DeadLists Digest V1 #262
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,88 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #134
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Thursday, 16 January 1997     Volume 01 : Number 134
+
+In this issue:
+
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 16 Jan 1997 14:21:43 -0800 (PST)
+Subject: [none]
+
+wow Tim, that's way cool.  I'll try to check these iver in the next couple
+days.
+
+*
+
+As Ryan says, it's no problem to insert a tab after the field delimiter, and
+also no trouble to insert them later.  Someone says tabs fuck up in e-mail,
+though, and that's a factor worth considering.  Another factor worth
+consideration is SIMPLICITY.
+
+Please post the new draft of specs here.
+
+*
+
+I would like to suggest the following protocols, from my experience making
+lists:
+
+SONG DELIMITERS
+
+(# equals a space in the following):
+
+#     after a song name means that the space between songs has not been 
+ined
+;#     after a song name means that the space between songs has been
+examined and is a pause of not excessive duration
+;#;#     after a song name means that the space between songs has been
+examined and that there is a pause of considerable duration.  if the timing
+is noted it should be noted between the two semi-colons
+#>#     after a song name means that the space between songs has been
+examined and that there is a segue between the songs
+\#     after a song name means that the space between songs has been
+examined and that there is a splice between the songs making it impossible
+to determine what happened between the songs from the tape in question
+
+TIMINGS
+
+Timings when supplied should be inserted after a space (#) following the
+song name.  The Song Delimiter (punctuation) follows immediately after the
+timing, without a space.
+
+Internal song timings and analyses (Dark Star mappings, etc.) should be
+placed under COMMENTS to avoid cluttering the setlists.
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #134
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,123 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #22
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest        Wednesday, 28 February 1996    Volume 01 : Number 022
+
+In this issue:
+
+	final call for revisions for this round
+	Re: final call for revisions for this round
+	Re: how to deal with reprises (datafile/songname discussion)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 27 Feb 1996 17:17:04 -0800 (PST)
+Subject: final call for revisions for this round
+
+looking through the posts about the datafile, there is one sorely 
+unresolved issue:
+
+Playing Reprise cf. *Playin
+Playing Jam cf. *Playin*
+etc.
+
+how do we want to go with this?  why?  seems like either could work.  i 
+like reading the former better.  but what matters most is which lets us 
+get more specific about what is going on in each particular instance 
+during the show.  is there a functional difference between the two?
+
+
+------------------------------
+
+From: Pauli Sexton <sext0005@gold.tc.umn.edu>
+Date: Tue, 27 Feb 1996 20:58:32 -0600 (CST)
+Subject: Re: final call for revisions for this round
+
+> Playing Reprise cf. *Playin
+> Playing Jam cf. *Playin*
+
+I think that these would be as precise as necessary.
+
+Playing in the Band  -- the entire song (all 4 to 45 minutes)
+Playing  		the first lyrics
+Playing Jam		Playing based space unattached to Playing or Playing 
+			Reprise 
+Main Ten Jam		pre-Playing Playing Jams
+Playing Reprise		the second lyrics
+
+I cannot think of a real good reason to exclude these, it shouldn't be 
+that difficult to track them all.  And if we're going to bother to 
+catalogue all the Day Jobs, we sould track these pieces too.
+
+Of course, this begs the question of what to do with the Dark Star's and 
+Uncle John's Band's and Other One's (and Me & My Uncles) that are 
+similarly split.
+
+paul
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 27 Feb 1996 19:52:49 -0800 (PST)
+Subject: Re: how to deal with reprises (datafile/songname discussion)
+
+> > Playing Reprise cf. *Playin
+> > Playing Jam cf. *Playin*
+> 
+> I think that these would be as precise as necessary.
+> 
+> Playing in the Band  -- the entire song (all 4 to 45 minutes)
+> Playing  		the first lyrics
+> Playing Jam		Playing based space unattached to Playing or Playing 
+> 			Reprise 
+> Main Ten Jam		pre-Playing Playing Jams
+> Playing Reprise		the second lyrics
+> 
+> Of course, this begs the question of what to do with the Dark Star's and 
+> Uncle John's Band's and Other One's (and Me & My Uncles) that are 
+> similarly split.
+
+I'd be into hybridizing these sandwiches a la the convention for the tail
+end of a Playin in isolation.  That is, if we have "Playing Reprise"s (and
+I think we probably should) why can't we also have "Cryptical Reprise"s,
+"Uncle John's Reprise"s, etc?  By having a common modifier on the end of a
+song's name for its tail-end-only appearance in a show (<song name>
+Reprise) we can teach the search engine to ignore such instances as a
+second rendition of a song in the same show (much in the same way that the
+search engine can ignore song titles with the word "Jam" following them,
+if we like).  Of course, this screws with searching for shows where *only*
+a Playin Reprise occurs -- if we want to count such an instance as the
+occurance of a Playing at that show, right?, unless we can say "don't
+consider Playin Reprise as a second instance of Playin -- unless it's the
+*only* instance of Playin in a show, in which case, count it as a Playin"
+(which I guess is feasible). 
+
+
+------------------------------
+
+End of DeadLists Digest V1 #22
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

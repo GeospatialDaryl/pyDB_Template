@@ -1,0 +1,76 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #36
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Friday, 22 March 1996       Volume 01 : Number 036
+
+In this issue:
+
+	[none]
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Thu, 21 Mar 1996 20:59:14 -0800
+Subject: [none]
+
+Here's some comments on the format proposal:
+
+FIELD NAMES:  do we really need Band?  Isn't this Dead-specific?
+
+SONG DELIMITERS:
+
+>  ~  :  If there is a jam between songs, it should be noted as such in the
+final perfect versions of our lists -- e.g. Scarlet Begonias > jam > Fire On
+The Mountain.  In each case of " > " here, there is a moment when the band
+steps from one song or jam into the next, whether there is a note there or a
+pause (rest, silence).  Under either circumstance, > is the apt symbol.
+There is no reason to use the tilde at all.  I strongly urge its
+elimination.
+
+I think we should also delete the double semi-colon scheme as an unnecessary
+compication.  Can't we program to insert the timing of a pause after a song
+delimiter in the same brackets that set off song timings?
+
+I totally dig the backslash.
+
+
+I strongly urge that Timing Maps be relegated to the Comments field.  Trying
+to insert them in setlists will make the lists too unwieldy.
+
+
+RECORDING
+
+What happened to source (SBD, AUD)?
+
+location:  I'm not clear on how this works & the example isn't a big help.
+Also, we need another indicator (maybe " S ") to indicate mics on stage
+(e.g. 5/18/68, 6/23/74 II).
+
+
+------------------------------
+
+End of DeadLists Digest V1 #36
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

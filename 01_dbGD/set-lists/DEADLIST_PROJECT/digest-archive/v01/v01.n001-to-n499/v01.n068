@@ -1,0 +1,140 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #68
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Tuesday, 18 June 1996       Volume 01 : Number 068
+
+In this issue:
+
+	Re: DeadLists Digest V1 #67
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: baum@apple.com (Allen J. Baum)
+Date: Tue, 18 Jun 1996 10:12:39 -0700
+Subject: Re: DeadLists Digest V1 #67
+
+I'm busy writing C code to parse setlists, if anyone is interested.
+It's about half written, and thoroughly undebugged.
+This is the datastructure I'm parsing to:
+
+typedef struct cmtlist {        /* a list of strings */
+        string comment;
+        struct cmtlist *nxtcmt;
+} cmtlist;
+
+typedef struct timingmap {      /* a list of times and string-lists */
+        int time;
+        struct cmtlist * comments;
+        struct timingmap * nxttime;
+} timingmap;
+
+typedef struct note {           /* a list of reference numbers, times,
+timingmaps, and string-lists */
+        ulong refnum;
+        ulong time;
+        struct timingmap  * map;
+        struct cmtlist * comments;
+        struct note * nxtnote;
+} note;
+
+typedef struct reflist {        /* a list of reference numbers (a song/set
+can have more than one */
+        ulong   refnum;             /* not strictly necessary - can get
+this by following note ptr
+        note    *notept;
+        struct reflist *nxtref;
+} reflist;
+
+typedef struct songs {          /* a list of strings, songmodifiers, and
+song separators */
+        int title;
+        int songmod;
+        int songsep;
+        struct reflist * refs ;
+} songs;
+
+typedef struct set {            /* a referencemark list, and an array of
+songs */
+        struct reflist * refs ;
+        struct songs  song[MAXSETLENG];
+} set;
+
+typedef struct contribs {
+        string email;
+        string name;
+        ulong verif;
+        struct cmtlist  * comments;
+        struct contribs * nxtcontrib;
+} contribs;
+
+typedef struct show {
+        ulong    header;        /* a bitmap */
+        string   band;
+        ulong    date;                  /* year-1900, month, day, showtype
+in each byte of wd*/
+        string   venue;                 /* showtype bit7..0} = ?,a,b,@,+   */
+        string   city;
+        char     state[4];      /*char, char, \0, \0 */
+        set              set[4];
+        struct note     *notes;
+        ulong    recording;
+        struct contribs *contrib;
+} show;
+
+Note: reference marks that are <=0 are reserved for literal references.
+0 is reserved for show comments, -1..-4 for sets 1..encore,  and  -nmm
+for set n, song mm.
+
+I think modifications to the spec (which I suggested in the posting of v1.21)
+would be more robust, & catch potential errors. - the only changes are:
+     -  the initial <fields> field would be eliminated, and the fieldname
+       keyword be added as the first subfield in a field (e.g.
+         SET1: <tab> JackStraw ; ...
+        This would eliminate the header field in the show struct.
+
+     - Setlists would always have a tab preceding the first songname.
+       This would ensure that the songname is always the first thing encountered
+       in a subfield (not the case if there are set comments/timings). Parsing
+        becomes much simplified.
+       This could be combined with first proposed change, so a set field
+looks like:
+         SET1: [32:24] <tab> Jackstraw ; ...
+
+
+**************************************************
+* Allen J. Baum              tel. (408)974-3385  *
+* Apple Computer, MS/305-3B                      *
+* 1 Infinite Loop                                *
+* Cupertino, CA 95014        baum@apple.com      *
+**************************************************
+
+
+
+
+------------------------------
+
+End of DeadLists Digest V1 #68
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

@@ -1,0 +1,118 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #164
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest          Monday, 3 February 1997      Volume 01 : Number 164
+
+In this issue:
+
+	Re: Song name searches
+	format spec and new URL
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Mon, 3 Feb 1997 15:29:25 +0000 (GMT)
+Subject: Re: Song name searches
+
+On 31 Jan 1997, Matthew S. Cramer wrote:
+
+> I have completed a command-line app for MacOS (PPC) and Windoze32 (Win 95
+> or WinNT) that will non-politely tell you if it does not recognize a song
+> name in the set or encore fields of a data file.  There are some details:
+> 
+> 1) The song list:
+> This file must be plain text, and named songs.dat (even on the mac), and in
+> the same location as the executable.  I have allowed for the file to have
+> header info, but the real song list must have the string "START DATA" on
+> the line before the first song, and "END DATA" on the line after the last
+> song.
+
+That sounds good.
+
+If this becomes the standard song title *spell checker* then
+I'm sure we can put a plain text version of the song title list
+on the web site with any necessary headers/footers and other
+formatting as needed.  And/Or make sure that current song title 
+list in the required format is distributed with the program.
+
+I'm just over half way through the song title list currently - 
+checking against various sources.  WIll be upgrading the list
+in a week or so.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+From: nathan@well.com (Nathan Wolfson)
+Date: Mon, 3 Feb 1997 10:00:43 -0800 (PST)
+Subject: format spec and new URL
+
+I've created a MS Word macro for converting setslists sent to me for the Web
+site into html.  1979 and 1974 are the only years submitted recently enough
+to get the treatment.  For the most part, I am pleased with the results
+EXCEPT for one thing:
+
+Is the field called RECORDINGS or RECORDING?  In the official spec it is
+singular.  But in most submitted lists, it is plural.  (IMHO, I think plural
+makes more sense.)  We need to do it one way or the other, since looking
+over the converted 1974 will demostrate that where the word is singular, we
+have problems, since the macro I created looks for the plural version?
+
+Maybe folks should weigh in an opinion, and then either Ryan will note a
+change in the next rev of the DataSpec OR the next submissions for each year
+will have only the singular usage of "RECORDING".
+
+- ----------
+
+In other news:
+
+I've registered the domain 
+
+deadlists.com 
+
+for this project.  In another week or so I plan to have the DeadLists
+homepage (and site) at
+
+http://www.deadlists.com
+
+and an ftp area at
+
+ftp://ftp.deadlists.com
+
+for downloading/uploading apps, song samples, flat text files of data, etc.
+
+- --Nathan
+
+
+------------------------------
+
+End of DeadLists Digest V1 #164
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

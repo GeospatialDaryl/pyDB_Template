@@ -1,0 +1,251 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #1
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Tuesday, 13 February 1996     Volume 01 : Number 001
+
+In this issue:
+
+	deadlists-digest
+	Re: deadlists facilitator? Do we need subgroups?
+	Subgroups mailing list proposal.
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: kraitch@eecs.berkeley.edu (mark kraitchman)
+Date: Tue, 13 Feb 1996 10:08:47 -0800 (PST)
+Subject: deadlists-digest
+
+With respect to the Deadlists Computer Tool Community Project and
+the deadlists mailing list, I have sent up a new email list that 
+will send out digests of the messages on the deadlists mailing list.  
+
+A digest will go out automatically if there are enough messages, plus 
+I also have it configured to send out a digest at specified times 
+during the day (if necessary I can reconfigure the digest size "trigger" 
+and the times and/or frequency of the digests).
+
+To subscribe to deadlists-digest, send email to majordomo@gdead.berkeley.edu
+with the following message (the subject is ignored):
+
+	subscribe deadlists-digest
+
+To unsubscribe to deadlists, send email to majordomo@gdead.berkeley.edu
+with the following message (the subject is ignored):
+
+	unsubscribe deadlists
+
+------------------------------
+
+From: kraitch@eecs.berkeley.edu (mark kraitchman)
+Date: Tue, 13 Feb 1996 13:10:45 -0800 (PST)
+Subject: Re: deadlists facilitator? Do we need subgroups?
+
+>>...there are many facets to this project (including but not limited to):
+>> 2) setting up an archive
+>
+>For the list?  
+
+I was actually referring to the final database of setlists which
+IMHO should actually be "mirrored" at several sites.
+
+>I think we're getting close to that.  Two people have 
+>offered web space and one person has at least most of the posts archived 
+>and will provide copies to the person who finally puts a site together.
+
+gdead.berkeley.edu will automatically archive the deadlists digests.
+I think chimpowl is going to send me all the previous messages so
+that I might add them to the archive on gdead.berkeley.edu.
+
+>> 4) verifying setlists
+>
+>This is going to be something we all need to do :-)
+
+I suspect that there will be problems gaining a consensus in some
+cases.  This could lead to some heated disagreements.
+
+>> Some people may be interested in all these facets; many people will
+>> not be interested in the discussion of all these topics?
+>> 
+>> Perhaps it's time for us to break up into some "subgroups" perhaps
+>> with their own mailing lists to discuss and work things out?
+>
+>I think there is a valid point made here, but I'm not sure the solution 
+>is seperate mailing lists for all these things.  Rather, folks could 
+>correpsond off-list via email and work out various parts of the project 
+>amongst themselves and then get back to the list with their progress.  
+
+You will have to "excuse my antics with semantics", but is there
+much diference between "separate mailing lists" and "corresponding
+off-list via email"?  Perhaps having separate mailing lists for
+various parts of the project is too formal and organized and out in
+the open for all that want to participate?  :-)
+
+>Steve and I are already doing this for the datafile format.
+
+What about other people, shouldn't they be allowed into this
+discussion?
+
+>... I'd favor a 
+>listing of the various people who are most interested in what.
+
+Do you mean "subgroups" with separate mailing lists?  :-)
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Tue, 13 Feb 1996 14:04:26 -0800 (PST)
+Subject: Subgroups mailing list proposal.
+
+> >>...there are many facets to this project (including but not limited to):
+> >> 2) setting up an archive
+> >
+> >For the list?  
+> 
+> I was actually referring to the final database of setlists which
+> IMHO should actually be "mirrored" at several sites.
+
+Sounds like a good idea.
+
+> >I think we're getting close to that.  Two people have 
+> >offered web space and one person has at least most of the posts archived 
+> >and will provide copies to the person who finally puts a site together.
+> 
+> gdead.berkeley.edu will automatically archive the deadlists digests.
+> I think chimpowl is going to send me all the previous messages so
+> that I might add them to the archive on gdead.berkeley.edu.
+
+Cool :-)
+
+> >> 4) verifying setlists
+> >
+> >This is going to be something we all need to do :-)
+> 
+> I suspect that there will be problems gaining a consensus in some
+> cases.  This could lead to some heated disagreements.
+
+For sure, which is why I like the idea of list-wide discussions about 
+such matters.  We may even end up appending some lists in the database 
+with a few extra sentences summarizing the disagreement that has ensued 
+regarding the validity of the lists offered for that date.
+
+> >> Some people may be interested in all these facets; many people will
+> >> not be interested in the discussion of all these topics?
+> >> 
+> >> Perhaps it's time for us to break up into some "subgroups" perhaps
+> >> with their own mailing lists to discuss and work things out?
+> >
+> >I think there is a valid point made here, but I'm not sure the solution 
+> >is seperate mailing lists for all these things.  Rather, folks could 
+> >correpsond off-list via email and work out various parts of the project 
+> >amongst themselves and then get back to the list with their progress.  
+> 
+> You will have to "excuse my antics with semantics", but is there
+> much diference between "separate mailing lists" and "corresponding
+> off-list via email"?  Perhaps having separate mailing lists for
+> various parts of the project is too formal and organized and out in
+> the open for all that want to participate?  :-)
+
+I think separate mailing lists might get going in different directions 
+more readily than email discussions which will have to get presented to 
+the list eventually and worked into the general consensus regarding how 
+we should proceed.  You're right though, there is a very blurry line 
+between "private email" and "separate lists" and separate sub group lists 
+may be the way to go.  (In regard to this, see my informal proposal, below.)
+
+> >Steve and I are already doing this for the datafile format.
+> 
+> What about other people, shouldn't they be allowed into this
+> discussion?
+
+Definitely.  There's already been a lot of input.  Too much, in fact, for 
+some folks, it seems, since there have been a number of complaints about 
+the volume of posts.  Steve isn't going to cast the datafile format in 
+stone.  He's just summarizing the ideas people have presented, with an 
+emphasis on those ideas that generated the most positive comments.  
+
+Everyone is allowed into the discussion.  We were just trying to cut down 
+on the number of posts to the list that seemd like the kind of minutia 
+many people were finding tedious.  I was all for discussing everything in 
+public.  But then the complaints started.  And since 90% of the datafile 
+specs were discussed at length in public already, Steve offered to 
+summarize the discussions, present a workable proposal for a datfile 
+format based both on those discussions and on his knowledge of databases, 
+and then *present*the*summary/proposal*to*the*list* for further 
+discussion, refinement -- and eventual official adoption BY THE LIST.
+
+I'd guess that people can contact him directly if they have concerns, but 
+maybe we should wait for his summary/proposal and then use that as a 
+starting point for further discussion?
+
+Again, this procedure was not meant to exclude anyone.  It was meant to 
+alleviate the large number of emails getting posted by discussing minutia 
+in a way that wouldn't overburden the folks who have been troubled by the 
+volume of posts to the list.  Veryone who is interested will still have a 
+chance to get in on the datafile format construction.
+
+> >... I'd favor a 
+> >listing of the various people who are most interested in what.
+> 
+> Do you mean "subgroups" with separate mailing lists?  :-)
+
+My first impression was that that might be taking it too far.  But if 
+Mark would like to set up mailing lists for each of the sub-sections of 
+this project (and if people would like to go ahead in that direction), 
+that's fine by me.  I guess the corollarly to such an approach would be 
+to have a specific person nominally in charge of each subgroup.  We 
+already have likely candidates for the datafile mailing list, for various 
+"what's in circulation" mailing lists (divided by groups of years into 
+separate mailing lists), for various song timing mailing lists (a Dark 
+Star list, a Playin list, an Other One list, etc.).  
+
+We should probably 
+also have a "song names" sub-group.  I think that the "search engine" 
+subgroup should be part of the "datfile" subgroup since the two have to 
+work in tandem so much.  And then I guess we need a setlist mailing list 
+- -- though we'd probably want to divide this into multiple lists, perhaps 
+based on the "what's in circulation" division and perhaps we could just 
+combine the two (ie, a list for both setlists and what's in circulation 
+from  the pre-Dead era, from the 65-68 era, from the 69-70 era, from 71, 
+from the 72-75 era, from the 76-79 era and from the 80-95 era -- to 
+reflect the divisions that people have already placed themselves into). 
+
+Upon reflection I think that this scheme/division of labor/division of 
+discussions might work well, though maybe all the song timing discussions 
+should be in one list, for convienence?  I'd hope there would be a lot of 
+discussion between the subgroups, probably in the main list.  But such a 
+scheme would probably go a long way toward reducing the amount of posting 
+to the main list (which would satisfy those with less interest in getting 
+"under the hood' of various aspects of the project, IMHO).
+
+If the general list would like to go this way, I'd be into it -- 
+especially if Mark is offering to set up seperate lists for all these things.
+
+- --Nathan
+
+------------------------------
+
+End of DeadLists Digest V1 #1
+*****************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-sos":
+
+    subscribe DeadLists-digest local-sos@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

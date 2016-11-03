@@ -1,0 +1,66 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #228
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest            Friday, 4 April 1997        Volume 01 : Number 228
+
+In this issue:
+
+	ftp site
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Fri, 04 Apr 1997 13:17:23 -0800
+Subject: ftp site
+
+The Deadlists FTP site is now functional.  If anyone notices anything funky,
+please drop me a note asap.  As it is, the URL is:
+
+ftp.deadlists.com
+
+logon as "anonymous" (email address for password)
+
+place new stuff in "incoming"
+
+and, once we have something for download, you can download stuff from "pub"
+
+- --
+
+Ideally, we will be collecting setlists via the FTP site (posting to the
+mailing list IN ADDITION to submitting stuff to the ftp site will be fine --
+and perhaps even a good idea).
+
+The next step will be to create password-protected uploading, so that we can
+put a script in place to automatically update the html pages AND the
+text/datafile in the ftp area.  (I've got no ETA for this set of steps, yet.)
+
+- --nathan
+
+
+------------------------------
+
+End of DeadLists Digest V1 #228
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

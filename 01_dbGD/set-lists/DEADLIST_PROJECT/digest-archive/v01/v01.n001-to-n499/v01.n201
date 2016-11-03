@@ -1,0 +1,231 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #201
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Thursday, 6 March 1997       Volume 01 : Number 201
+
+In this issue:
+
+	Re: DeadLists Digest V1 #200
+	site update
+	Re: deadlists data spec proposed changes vote results
+	More proposed song name changes
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: abaum@pa.dec.com (Allen J. Baum)
+Date: Wed, 5 Mar 1997 17:12:50 -0800
+Subject: Re: DeadLists Digest V1 #200
+
+>> Based on these results, it looks like there is a majority to
+>> keep linebreaks significant and a majority to keep brackets
+>> around timings.  Keeping the band field is almost unanimous.
+>
+>Important to remember that with these items, folks can submit their
+>setlists *without*, for example, brackets around timings.  All this
+>"nailing down of the spec" means is that we will have scripts to make
+>sure the final spec LOOKS like this nailed down version (regardless of
+>exactly what the form is that they are submitted in).
+
+This makes me feel much better about the whole process.
+My only concern is that the conversion scripts be bulletproof-
+otherwise, you spend a lot of time manually looking at the setlists.
+We we don't know the input format, this could be tough. I'm also concerned
+about little ambiguities that cause the scripting to mistake the word
+"Band" in "Playin' in the Band" as the start of a new BAND line, or the '9"
+in "Riot in Cell Block 9" as a time, which is why I wanted to put the ":"
+after the keyword. So, if the conversion scripts can take all this kind of
+stuff into account, I'm happy.
+
+>I don't care where or how we do the song maps to any great degree EXCEPT
+>I think that we should put them one particular place and not "here OR here".
+
+The conversion scripts should put them one place or the other; it was my
+belief when I wrote that version of the spec that they should be put in the
+comments section, but that people might want to enter it immediately after
+the song for ease of entry, but they really didn't care as much where they
+were displayed. With the advent of conversion scripts, I think that problem
+is solved.
+
+Some rationale for '%' vs. "/" : Cuts aren't that frequent, save the '/'
+(which is unshifted) for something frequent.
+
+***********************************************
+* Allen J. Baum           tel. (415)853-6626  *
+* Digital Equipment Corp. tel. (415)853-6513  *
+* 181 Lytton Ave.                             *
+* Palo Alto, CA 94301        abaum@pa.dec.com *
+***********************************************
+
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Thu, 06 Mar 1997 00:51:10 -0800
+Subject: site update
+
+Please take a moment to look over the cast of characters page on the web
+site (accessible from the front door of the site and from the "brief
+introduction" page).  If your entry is incorrect, or not there, let me know.
+
+Also, I got the folks who house the machine our site is on to make python
+accessible to us -- so that is another tool we can use.
+
+It would also be a good idea for people who have volunteered to caretake
+years recently to double check the main setlists page, to make sure the
+year(s) has their name on it.  I think I am up-to-date with filling in the
+few gaps left by my hard drive crash -- but double checking seldom hurts.
+
+
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 6 Mar 1997 10:47:46 +0000 (GMT)
+Subject: Re: deadlists data spec proposed changes vote results
+
+On Wed, 5 Mar 1997, John Oleynick wrote:
+
+> Song maps also aren't quite clear.  There were 2 definite votes
+> to keep the current spec (song maps go in {}'s and can be in
+> the comment field or the set field) and 1 definite vote that
+> song maps could go in either {}'s or ()'s.  I had 2 message
+> from Ryan, one that said to keep the current spec and one that
+> said to use either {}'s or ()'s.  I didn't know which to count
+> so I listed them both.  Nathan said that song maps go in {}'s
+> but that they should only be in the comment field, not the
+> set field.  I'm not sure how to resolve this.  Any ideas?
+
+
+I think I've probably pointed this out before - can't remember
+so I will now - if only as a reminder.
+
+Some of the song names contain ()s.
+
+If song maps use ()s and are in the set fields will this 
+cause a problem - eg if a script is stripping out extraneous
+information to just produce a simple set list part of the
+song name may be removed.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+------------------------------
+
+From: Matt <mps@dmu.ac.uk>
+Date: Thu, 6 Mar 1997 11:40:43 +0000 (GMT)
+Subject: More proposed song name changes
+
+A few more song name changes.
+
+As usual - any comments/objections?
+
+For each I've just given the proposed name and a source for that name.
+
+Banana Boat Song (Day-O)
+
+    All Time Greatest Hits : Harry Belafonte
+
+Dead Man, Dead Man
+
+    Shot Of Love : Bob Dylan
+
+Hey Pocky Away
+
+    Fiyo On The Bayou : Neville Brothers 
+
+Baby Hully Gully
+
+    Doin' The Hully Gully : The Olympics 
+
+I Got A Mind To Give Up Livin'     
+
+    East-West : Butterfield Blues Band
+
+    (If anyone knows of any other recordings of this 
+     I'd be grateful for the information)
+
+I Hear A Sweet Voice Calling       
+
+    The Essential Bill Monroe 1945-1949
+
+I've Got A Tiger By The Tail       
+
+    I've Got A Tiger By The Tail : Buck Owens
+
+L'Alhambra                         
+
+    Book : Box Of Rain : Robert Hunter
+
+Look On Yonder Wall                
+
+    Mean Ol' Frisco : Big Boy Crudup
+
+    (This seems to be the most used name for the song
+     and the one used - mostly - on Crudup's recording -
+     he is usually given writing credits)
+
+Ol' Slewfoot                       
+
+    Best Of Porter Wagoner
+
+Slow Train
+
+    Slow Train Coming : Bob Dylan
+
+- ------------------------------------
+
+And then one I'm not sure what to call...
+
+Let The Good Times Roll
+
+Using our guidelines we should be calling this Good Times.
+The name used by the songwriter.
+
+But this reintroduces the confusion with Good Time Blues/
+Never Trust A Woman.
+
+There was an earlier 50s hit though called Let The Good Times Roll
+(by Shirley and Lee - does anyone know this?  Maybe it's the source
+for the Sam Cooke song) so there's a degree of confusion whichever we use.
+
+I'll leave it as Let The Good Times Roll unless you think
+otherwise.
+
+Matt
+
+I--------------------------------------------------------------------I
+I Matt Schofield    De Montfort Univ, Leicester, UK    mps@dmu.ac.uk I  
+I--------------------------------------------------------------------I  
+
+
+------------------------------
+
+End of DeadLists Digest V1 #201
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

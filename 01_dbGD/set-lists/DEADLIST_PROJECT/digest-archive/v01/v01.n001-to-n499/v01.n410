@@ -1,0 +1,146 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #410
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest         Wednesday, 13 August 1997     Volume 01 : Number 410
+
+In this issue:
+
+	database update
+	Deadlist Data Spec?
+	The deadlists and the format spec
+	Re: database update
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Wed, 13 Aug 1997 14:36:07 -0700 (PDT)
+Subject: database update
+
+Just realized that Kevin, whose message I forwarded regarding database 
+matters, hasn't been getting the mailing list mail for a few weeks due to 
+a change of email addresses.  He'll probably be resubscribed soon.
+
+- --nathan
+
+------------------------------
+
+From: Steve Biederman <steve_biederman@MENTORG.COM>
+Date: Wed, 13 Aug 1997 15:17:13 -0700
+Subject: Deadlist Data Spec?
+
+The web page says ryan@digitool.com is the caretaker of the
+Deadlists Data Spec; mail to that address bounced.
+
+Here's a comment and a question:
+
+1) "A record consists of 13 lines."  This should be reworded, since
+   a record consists of 13 fields, some of which are typically
+   multi-line.
+
+2) " '%'   Where a tape splice, flip or pause prevents examination of
+           the space between songs, a backslash will be used 
+           (e.g. (song1)\ (song2))."
+   Is this supposed to be '%' or '\'?
+
+------------------------------
+
+From: Steve Biederman <steve_biederman@MENTORG.COM>
+Date: Wed, 13 Aug 1997 15:30:44 -0700
+Subject: The deadlists and the format spec
+
+Some of the lists on the web site don't adhere to the statement in the
+spec that the date field must be 8 characters MM/DD/YY.
+
+Some of them don't adhere to the statement that the order of the fields
+must be
+
+BAND
+VENUE
+CITY
+STATE
+DATE
+
+------------------------------
+
+From: KEVIN_WEIL@HP-USA-om31.om.hp.com
+Date: Wed, 13 Aug 97 18:55:09 -0400
+Subject: Re: database update
+
+     I'm back.
+     
+     Here's my reply to digest #s 406, 407 & 408:
+     
+     My database-server-web knowledge is limited to developing MS Access 
+     applications on NT using either MS IIS or MS PWS.
+     
+     If we can install SQL Server onto an NT box, then I can easily upsize 
+     the MS Access database to SQL Server.  Access '97 comes with all the 
+     tools necessary to provide the web communication between end-user and 
+     a database residing on a server.  In fact, the microsoft web site 
+     currently uses the same Active Server Page technology which can be 
+     utilized within Access as well as the other more heavy duty 
+     applications.
+     
+     Quite frankly, were not talking about much of a complex database here. 
+     I think writing an entire application dedicated to the task of 
+     providing query results and possibly printing customized j-cards via 
+     the web is overkill.  We have for the most part a finite number of 
+     records which are the backbone of, therefore, a rather small 
+     database.
+ My point here is in making this a simpler project rather 
+     than a more complex project. 
+     
+     I'd be happy to take this offline with Tim and anybody else who wants 
+     to join that discussion.   
+     
+     Has there been a DeadLists discussion on what the next generation of 
+     the tool is supposed to be?  I noticed in the welcome message that the 
+     site has pretty much covered the gens mentioned, but does not scope 
+     the goals from where it is now.  Perhaps that is necessary before 
+     setting a database structure down?
+     
+     I'm ready to take off on restructuring the datafile with queries which 
+     Tim could work with.  Should we run with this as it is?
+     
+     K 
+
+______________________________ Reply Separator ____________________________
+Subject: database update
+Author:  Non-HP-nathan (nathan@well.com) at HP-USA,mimegw4
+Date:    8/13/97 5:36 PM
+
+
+Just realized that Kevin, whose message I forwarded regarding database 
+matters, hasn't been getting the mailing list mail for a few weeks due to a 
+change of email addresses.  He'll probably be resubscribed soon.
+
+- --nathan
+
+
+------------------------------
+
+End of DeadLists Digest V1 #410
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

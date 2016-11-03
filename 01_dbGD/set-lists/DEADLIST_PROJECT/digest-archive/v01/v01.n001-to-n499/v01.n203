@@ -1,0 +1,171 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #203
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Saturday, 8 March 1997       Volume 01 : Number 203
+
+In this issue:
+
+	Re: deadlists data spec proposed changes vote results
+	Re: DeadLists Digest V1 #200
+	[none]
+	updates/songs names/typos/brackets
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: John U Oleynick <joleynic@scudc.scu.edu>
+Date: Fri, 7 Mar 1997 17:15:29 -0800
+Subject: Re: deadlists data spec proposed changes vote results
+
+Matt writes:
+ > I think I've probably pointed this out before - can't remember
+ > so I will now - if only as a reminder.
+ > 
+ > Some of the song names contain ()s.
+
+Ugh.  This is a problem since we're already using ()'s for
+comments.  Originally I thought someone sometime said that
+we wouldn't allow ()'s in song names.  But I forget what we
+said we would do with ()'s in song names.  Anyone remember or
+have any ideas?
+
+		John
+
+------------------------------
+
+From: John U Oleynick <joleynic@scudc.scu.edu>
+Date: Fri, 7 Mar 1997 17:06:43 -0800
+Subject: Re: DeadLists Digest V1 #200
+
+Allen Baum writes:
+ > This makes me feel much better about the whole process.
+ > My only concern is that the conversion scripts be bulletproof-
+ > otherwise, you spend a lot of time manually looking at the setlists.
+ > We we don't know the input format, this could be tough. I'm also concerned
+ > about little ambiguities that cause the scripting to mistake the word
+ > "Band" in "Playin' in the Band" as the start of a new BAND line, or the '9"
+ > in "Riot in Cell Block 9" as a time, which is why I wanted to put the ":"
+ > after the keyword. So, if the conversion scripts can take all this kind of
+ > stuff into account, I'm happy.
+
+The script tries to be reasonably bulletproof at what it does, although
+it doesn't catch everything.  For the keywords, the script insists
+that they be in all upper case (or rather, the script won't recognize
+them if they are not in all upper case).  I thought about the
+possibility of making the keywords something more unambiguous, like
+"BAND:" or "*BAND*", but I think that would just make it easier to
+make mistakes and that just requiring the keywords to be uppercase
+makes the lists easier to maintain.  If someone writes a comment
+like "THE PLAYING IN THE BAND THAT ENDS SET1 IS ONE OF THE
+FINEST RECORDINGS EVER MADE AND WILL MAKE THE DATE 2/27/69
+AND THE CITY BOISE LIVE FOREVER IN THE HISTORY OF THE DEAD" then
+they will lose.  The script does warn of missing fields, so
+if someone types "Recording" or "RECORDINGS" instead of "RECORDING"
+the script will warn that the show has no "RECORDING" field.
+The script only recognizes times that have at least 1 minute
+digit followed by a colon followed by 2 seconds digits, possibly
+with Gordon's suggested #'s to mark cuts, so the 9 in Riot in Cell
+Block 9 won't confuse the script unless it is followed by ":", the
+unexamined transition, and a song that starts with a 2-digit number,
+with no spaces in between.
+
+ > The conversion scripts should put them one place or the other; it was my
+ > belief when I wrote that version of the spec that they should be put in the
+ > comments section, but that people might want to enter it immediately after
+ > the song for ease of entry, but they really didn't care as much where they
+ > were displayed. With the advent of conversion scripts, I think that problem
+ > is solved.
+
+The script isn't smart enough to do this.  Right now all it knows how
+to do is remove extraneous newlines, insert tabs, insert brackets,
+and rearrange out of order fields.  Only allowing song maps in the
+comments section is sounding more and more like a good idea,
+especially if that was the original intent.
+
+			John
+
+
+------------------------------
+
+From: Jim Powell <chimpowl@well.com>
+Date: Fri, 7 Mar 1997 19:13:47 -0800 (PST)
+Subject: [none]
+
+there's no reason to put brackets around song timings that follow song
+names.  Simplicity itself urges that we drop them.
+
+there *is* good reason to set off song maps inserted into lists with
+brackets, since otherwise their internal nomenclature can become confused
+with the setlists.  Simplicity itself urges that brackets be retained for
+this purpose.
+
+
+------------------------------
+
+From: Nathan Wolfson <nathan@well.com>
+Date: Sat, 08 Mar 1997 00:18:57 -0800
+Subject: updates/songs names/typos/brackets
+
+At 05:20 PM 3/7/97 -0800, John wrote:
+>Nathan Wolfson writes:
+> > FYI, the revised list of song names that Matt put together recently is now
+> > on the site.  As his recent email indicates, there are still a few titles to
+> > nail down.  But this new list is nearly perfect/complete, so I'd like to ask
+> > that year caretakers take a look at it when they next take some time to work
+> > on their lists.
+>
+>I'm working on a script to warn about incorrect song names in
+>lists and noticed that the script complained that the songs
+>Morning Dew and Mr. Charlie were unknown songs.  Then I ntoiced
+>the line "Monkey And The EngineeCharlie" in the song list.
+>It looks like something got chopped out somewhere along the line.
+>
+>			John
+
+Some characters were dropped in the process of putting that revised list
+online.  I have corrected it, assuming the list of titles should read:
+
+Monkey And The Engineer
+Mr. Charlie
+
+and that there should be no titles inbetween.
+
+- --nathan
+
+BTW, regarding the brackets around song timings:  they do not need to be
+there when caretakers submit their lists.  the behind the scenes folk have
+agreed to convert setlists into a form BEHIND THE SCENES where those
+brackets will be there.
+
+BTW2, a couple of people have written to point out typos or formatting
+errors in various places, which I greatly appreciate.  This being a "night
+job", I don't have the time to proof and Q/A everything as much as I would
+like to.  Luckily we have many sets of eyes.
+
+
+------------------------------
+
+End of DeadLists Digest V1 #203
+*******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".

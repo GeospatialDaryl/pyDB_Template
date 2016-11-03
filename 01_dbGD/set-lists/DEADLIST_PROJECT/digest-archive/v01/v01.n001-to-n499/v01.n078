@@ -1,0 +1,102 @@
+From:      DeadLists-Digest-Owner@gdead.berkeley.edu
+To:        DeadLists-Digest@gdead.berkeley.edu
+Subject:   DeadLists Digest V1 #78
+Reply-To:  deadlists@gdead.berkeley.edu
+Errors-To: DeadLists-Digest-Owner@gdead.berkeley.edu
+Precedence: 
+
+
+DeadLists Digest           Friday, 2 August 1996       Volume 01 : Number 078
+
+In this issue:
+
+	Re: DeadLists Digest V1 #70
+	better deadlist data (was Re: DeadLists Digest V1 #70)
+
+See the end of the digest for information on subscribing to the DeadLists
+or DeadLists-Digest mailing lists and on how to retrieve back issues.
+
+----------------------------------------------------------------------
+
+From: jfw@well.com
+Date: Thu, 1 Aug 1996 16:59:38 -0700
+Subject: Re: DeadLists Digest V1 #70
+
+Ryan Shriver <ryan@digicool.com> wrote
+
+   Hawkwind wrote:
+   > 
+   > On Wed, 31 Jul 1996, John Oleynick wrote:
+   > > When you look at the spec on the web, you have to tell your web browser
+   > > to show the raw HTML source and not try to interpret it.  The spec has
+   > 
+   > <pre> and </pre> won't work.  Typically they turn on a monospace font, and
+
+   I emailed John and Alan a fix for this. The tags are <xmp> </xmp>. They
+   turn off HTML interpretation by the browser. 
+
+Actually, these tags are deprecated in HTML 3.2, and the HTML 2.0 spec
+says that it "has a number of unfortunate interactions with processing
+techniques and tends to be used and implemented inconsistently" so
+"HTML documents should not contain <XMP> nor <LISTING> elements -- the
+<PRE> tag is more expressive and more consistently supported."
+
+I would say the easiest way to solve the problem is to run all
+output through something that will convert every < and > to &lt; and
+&gt or to [ and ], or to just send it as a separate text file.
+
+
+I am interested in helping with the interface.  I have a lot of
+experience with forms, perl, and CGI scripting.  I'll be out of town
+until August 12, but I volunteer assistance after that time.
+
+Also, it sounds like the data is incomplete and/or inconsistent.  Does
+anyone have any sources of more solid data?
+
+	- jfw
+
+- --
+John F. Whitehead            ______ ___   _      __
+OnLine Technical Director   / / / // __\ / \    / /         WRAL OnLine
+jfw@wral-tv.com            / / / // _ \ / _ \  / /__
+919-821-8605              /_____//_//_//_____\/____/  http://www.wral-tv.com
+
+------------------------------
+
+From: John Oleynick <johno@paul.rutgers.edu>
+Date: Thu, 01 Aug 1996 20:42:06 -0400
+Subject: better deadlist data (was Re: DeadLists Digest V1 #70)
+
+In message <199608012359.QAA10607@well.com> you write:
+> Also, it sounds like the data is incomplete and/or inconsistent.  Does
+> anyone have any sources of more solid data?
+
+Yes.  This pre-'72 data is based on my tape collection, which is pretty
+sparse, and is only intended to help us work out any problems with the
+format spec and to start writing parsers and browsers for the data
+format.  Once we have the data format nailed down out we can start
+collecting setlists from everywhere, including people on this list who
+have much more substantial tape collections (essentially "complete" as
+far as circulating tapes).
+
+			John
+
+------------------------------
+
+End of DeadLists Digest V1 #78
+******************************
+
+To subscribe to the DeadLists-Digest, send the command:
+
+    subscribe DeadLists-digest
+
+in the body of a message to "Majordomo@gdead.berkeley.edu".  If you want
+to subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then append that address to the
+"subscribe" command; for example, to subscribe "local-dealists":
+
+    subscribe DeadLists-digest local-deadlists@your.domain.net
+
+A non-digest (direct mail) version of this list is also available; to
+subscribe to that instead, replace all instances of "DeadLists-digest"
+in the commands above with "DeadLists".
